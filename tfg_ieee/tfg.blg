@@ -39,48 +39,47 @@ Warning--I didn't find a database entry for "lan"
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 ** IEEEtran BST control entry "IEEEexample:BSTcontrol" detected.
-Warning--empty author and editor in lamport
 
 Done.
-You've used 5 entries,
+You've used 2 entries,
             4087 wiz_defined-function locations,
-            861 strings with 8472 characters,
-and the built_in function-call counts, 1902 in all, are:
-= -- 119
-> -- 42
+            844 strings with 7881 characters,
+and the built_in function-call counts, 787 in all, are:
+= -- 37
+> -- 28
 < -- 5
-+ -- 20
-- -- 10
-* -- 92
-:= -- 322
-add.period$ -- 8
-call.type$ -- 5
-change.case$ -- 8
++ -- 13
+- -- 7
+* -- 47
+:= -- 124
+add.period$ -- 2
+call.type$ -- 2
+change.case$ -- 7
 chr.to.int$ -- 21
-cite$ -- 6
-duplicate$ -- 148
-empty$ -- 204
-format.name$ -- 8
-if$ -- 419
+cite$ -- 2
+duplicate$ -- 64
+empty$ -- 66
+format.name$ -- 4
+if$ -- 157
 int.to.chr$ -- 0
-int.to.str$ -- 4
-missing$ -- 24
-newline$ -- 40
-num.names$ -- 3
-pop$ -- 84
+int.to.str$ -- 1
+missing$ -- 8
+newline$ -- 27
+num.names$ -- 1
+pop$ -- 35
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 4
-skip$ -- 140
+skip$ -- 41
 stack$ -- 0
-substring$ -- 12
-swap$ -- 68
+substring$ -- 10
+swap$ -- 24
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 6
-type$ -- 5
-warning$ -- 1
-while$ -- 9
-width$ -- 5
-write$ -- 57
-(There were 2 warnings)
+type$ -- 2
+warning$ -- 0
+while$ -- 7
+width$ -- 2
+write$ -- 30
+(There was 1 warning)

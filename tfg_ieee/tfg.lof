@@ -1,9 +1,18 @@
 \babel@toc {spanish}{}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Ejemplo de Seguridad Biométrica}}{7}{figure.2.1}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Una vista de la tableta digitalizadora de RAND; creada en la década de 1960, en la que se probó el primer sistema de identificación facial}}{8}{figure.2.2}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Dispositivo de reconocimiento facial utilizado en un aeropuerto para verificar la identidad de los pasajeros mediante el análisis de sus rasgos faciales en tiempo real.}}{9}{figure.2.3}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Estructura de una red neuronal profunda.}}{15}{figure.2.4}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces La imagen representa una red neuronal prealimentada, uno de los modelos más básicos y utilizados en inteligencia artificial.}}{16}{figure.2.5}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Representación de una red neuronal recurrente (RNN), donde las conexiones internas permiten el manejo de secuencias mediante memoria temporal.}}{16}{figure.2.6}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces La imagen muestra cómo una red neuronal convolucional (CNN) procesa una imagen en distintas capas, extrayendo características progresivas desde patrones simples hasta rostros completos para generar una salida final.}}{17}{figure.2.7}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces La imagen ilustra el funcionamiento de una red generativa adversaria (GAN), donde un generador crea muestras falsas a partir de ruido aleatorio y un discriminador intenta distinguir entre muestras reales y falsas, retroalimentando a ambos modelos para mejorar su rendimiento.}}{17}{figure.2.8}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces La imagen muestra un formato tradicional de registro de asistencia escolar, utilizado por docentes para anotar la presencia diaria de los alumnos a lo largo de un período determinado.}}{18}{figure.2.9}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Huella dactilar.}}{17}{figure.4.1}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Ejemplificación de diagrama en blanco y negro.}}{18}{figure.4.2}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Huella dactilar.}}{29}{figure.4.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Ejemplificación de diagrama en blanco y negro.}}{30}{figure.4.2}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

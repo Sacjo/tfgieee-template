@@ -1,9 +1,9 @@
 \babel@toc {spanish}{}\relax 
 \contentsline {chapter}{Resumen}{\es@scroman {ix}}{Doc-Start}%
 \contentsline {chapter}{Abstract}{\es@scroman {x}}{Doc-Start}%
-\contentsline {chapter}{\'Indice de figuras}{\es@scroman {xii}}{chapter*.2}%
-\contentsline {chapter}{\'Indice de tablas}{\es@scroman {xiii}}{chapter*.3}%
-\contentsline {chapter}{Acr\'onimos y s\'imbolos}{\es@scroman {xiii}}{chapter*.3}%
+\contentsline {chapter}{\'Indice de figuras}{\es@scroman {xiii}}{chapter*.2}%
+\contentsline {chapter}{\'Indice de tablas}{\es@scroman {xiv}}{chapter*.3}%
+\contentsline {chapter}{Acr\'onimos y s\'imbolos}{\es@scroman {xiv}}{chapter*.3}%
 \contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Motivación}{2}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Definición del problema}{2}{section.1.2}%
@@ -19,22 +19,45 @@
 \contentsline {section}{\numberline {1.10}Descripción de los contenidos por capítulo}{5}{section.1.10}%
 \contentsline {chapter}{\numberline {2}Conceptos fundamentales, teorías y antecedentes}{6}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Conceptos fundamentales}{6}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Antecedentes}{6}{section.2.2}%
-\contentsline {chapter}{\numberline {3}Método}{10}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Enfoque}{10}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Alcance de la investigación cuantitativa}{11}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Alcance exploratorio.}{11}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Alcance descriptivo.}{11}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Alcance correlacional.}{11}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Alcance explicativo.}{12}{subsection.3.2.4}%
-\contentsline {section}{\numberline {3.3}Diseño}{12}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Resultados}{16}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Ejemplos de elementos gráficos}{17}{section.4.1}%
-\contentsline {chapter}{\numberline {5}Discusión}{20}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Logros alcanzados}{20}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Solución del problema de investigación}{21}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Sugerencias para futuras investigaciones}{21}{section.5.3}%
-\contentsline {chapter}{Glosario}{22}{section.5.3}%
-\contentsline {chapter}{Anexos}{22}{section.5.3}%
-\contentsline {chapter}{Anexo A.}{23}{chapter*.4}%
-\contentsline {chapter}{Referencias bibliogr\'aficas}{24}{chapter*.4}%
+\contentsline {subsection}{\numberline {2.1.1}Historia de la biometría}{6}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Concepto de Seguridad Biométrica}{7}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Historia de Reconocimiento Facial}{8}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Concepto del Reconocimiento Facial}{9}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.5}Funcionamiento del Reconocimiento Facial}{9}{subsection.2.1.5}%
+\contentsline {subsection}{\numberline {2.1.6}Aplicaciones de los sistemas de reconocimiento facial.}{10}{subsection.2.1.6}%
+\contentsline {subsection}{\numberline {2.1.7}Precisión del Reconocimiento Facial}{11}{subsection.2.1.7}%
+\contentsline {subsection}{\numberline {2.1.8}Concepto de la Inteligencia Artificial}{11}{subsection.2.1.8}%
+\contentsline {subsection}{\numberline {2.1.9}Funcionamiento de la Inteligencia Artificial}{12}{subsection.2.1.9}%
+\contentsline {subsection}{\numberline {2.1.10}Tipos de Inteligencia Artificial}{12}{subsection.2.1.10}%
+\contentsline {subsection}{\numberline {2.1.11}Modelos de entrenamiento de inteligencia artificial}{13}{subsection.2.1.11}%
+\contentsline {subsection}{\numberline {2.1.12}Redes Neuronales Artificiales}{14}{subsection.2.1.12}%
+\contentsline {subsection}{\numberline {2.1.13}Tipos Comunes de redes neuronales artificiales}{15}{subsection.2.1.13}%
+\contentsline {subsection}{\numberline {2.1.14}Concepto de Registros Académicos.}{17}{subsection.2.1.14}%
+\contentsline {subsection}{\numberline {2.1.15}¿Qué contienen los registros académicos}{18}{subsection.2.1.15}%
+\contentsline {subsection}{\numberline {2.1.16}¿Para qué sirven los registros académicos?}{18}{subsection.2.1.16}%
+\contentsline {subsection}{\numberline {2.1.17}Importancia de los registros académicos.}{19}{subsection.2.1.17}%
+\contentsline {section}{\numberline {2.2}Antecedentes}{19}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}``\textit {Detección facial mediante OpenCV.}''}{19}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}``\textit {Sistema de examen en línea con reconocimiento facial.}''}{19}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}``\textit {Sistema biométrico de reconocimiento facial utilizando redes neuronales artificiales en Raspberry Pi.}''}{20}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}``\textit {Prototipo de reconocimiento facial para mejorar el control de asistencia de estudiantes en UNIANDES, Quevedo.}''}{20}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5}``\textit {Registro de asistencia de alumnos por medio de reconocimiento facial utilizando visión artificial}''}{20}{subsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.2.6}``\textit {Reconocimiento facial para la automatización del registro de asistencia a clases}''}{21}{subsection.2.2.6}%
+\contentsline {chapter}{\numberline {3}Método}{22}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Enfoque}{22}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Alcance de la investigación cuantitativa}{23}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Alcance exploratorio.}{23}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Alcance descriptivo.}{23}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Alcance correlacional.}{23}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Alcance explicativo.}{24}{subsection.3.2.4}%
+\contentsline {section}{\numberline {3.3}Diseño}{24}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Resultados}{28}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Ejemplos de elementos gráficos}{29}{section.4.1}%
+\contentsline {chapter}{\numberline {5}Discusión}{32}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Logros alcanzados}{32}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Solución del problema de investigación}{33}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Sugerencias para futuras investigaciones}{33}{section.5.3}%
+\contentsline {chapter}{Glosario}{34}{section.5.3}%
+\contentsline {chapter}{Anexos}{34}{section.5.3}%
+\contentsline {chapter}{Anexo A.}{35}{chapter*.4}%
+\contentsline {chapter}{Referencias bibliogr\'aficas}{36}{chapter*.4}%

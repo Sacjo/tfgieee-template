@@ -27,25 +27,4 @@ Roberto Hern\'andez, C.~Fern\'andez, y M.~P. Baptista, \emph{Metodolog\'ia de
   la investigaci\'on}, 5th~ed.\hskip 1em plus 0.5em minus 0.4em\relax M\'exico
   D.F.: McGraw-Hill, 2010.
 
-\bibitem{ieee}
-J.~Demasi, \emph{Formato IEEE. Estilo y Referencias Bibliogr\'aficas}.\hskip
-  1em plus 0.5em minus 0.4em\relax El Instituto de Ingenier\'ia El\'ectrica
-  (IIE), Facultad de Ingenier\'ia, Universidad de la Rep\'ublica, 2011,
-  \url{http://iie.fing.edu.uy/institucional/biblioteca/presentaciones/Citas-IEEE-2011.pdf}.
-
-\bibitem{knuth}
-\BIBentryALTinterwordspacing
-J.~J. O'Connor y E.~F. Robertson, \emph{\textit{Donald Ervin Knuth}}.\hskip 1em
-  plus 0.5em minus 0.4em\relax School of Mathematics and Statistics. University
-  of St Andrews, Scotland, 2009. [en línea]. Disponible:
-  \url{http://www-history.mcs.st-andrews.ac.uk/Biographies/Knuth.html}
-\BIBentrySTDinterwordspacing
-
-\bibitem{lamport}
-\BIBentryALTinterwordspacing
-\emph{LaTeX3 project team personnel, An introduction to \LaTeX}.\hskip 1em plus
-  0.5em minus 0.4em\relax \LaTeX \space project site, 2008. [en línea].
-  Disponible: \url{http://latex-project.org/intro.html}
-\BIBentrySTDinterwordspacing
-
 \end{thebibliography}

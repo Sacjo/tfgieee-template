@@ -7,16 +7,218 @@
 
 \chapter{Método}
 
-Este capítulo describe cómo fue realizado el trabajo de investigación, e incluye genéricamente los tópicos descriptos brevemente en las siguientes secciones.
+Este capítulo tiene como propósito detallar el enfoque metodológico y técnico seguido para el desarrollo del "Sistema de Asistencia Basado en Reconocimiento Facial para la FPUNE". Se presenta la planificación general del proyecto, desde la definición de los requisitos iniciales hasta la validación y evaluación del sistema implementado en un entorno académico real.
 
+Este capítulo constituye un componente fundamental para comprender la implementación técnica del proyecto y validar su efectividad en relación con los objetivos propuestos.
+
+En primer lugar, se describe el enfoque metodológico adoptado, el cual combina técnicas cualitativas y cuantitativas bajo un esquema de investigación aplicada tecnológica, permitiendo así un análisis integral del problema y su solución. Posteriormente, se exponen las fases específicas del proceso de desarrollo, tales como la recolección y preprocesamiento de datos, la selección de algoritmos, el entrenamiento del modelo, y la integración del sistema en un entorno controlado.
 \section{Enfoque}
-La naturaleza del problema define el enfoque y el tipo de la investigación; estos pueden ser \cite{sampieri}:
+
+Este proyecto se desarrolla como una investigación aplicada tecnológica, enfocada en la creación de un sistema automatizado de control de asistencia mediante el uso de técnicas de reconocimiento facial. 
+
+El enfoque de la investigación es mixto, ya que se emplean tanto métodos cualitativos como cuantitativos para garantizar el desarrollo y evaluación del sistema:
 \begin{itemize}
-\item Cuantitativa; usa la recolección de datos para probar hipótesis, con base en la medición numérica y el análisis estadístico, para establecer patrones de regularidad y probar teorías. 
-\item Cualitativa; utiliza la recolección de datos sin medición numérica para descubrir o afinar preguntas de investigación en el proceso de investigación.
-\item mixta o cualicuantitativa; en general, toda investigación posee aspectos cualitativos (siempre) y cuantitativos, de manera que en la medida en que este compartimiento de aspectos se encuentre balanceado, se puede hablar de un tipo mixto cualicuantitativo.
-En la FPUNE, dada la naturaleza tecnológica de los estudios en esta casa de estudios superiores, generalmente los trabajos de investigación adoptan un enfoque cuantitativo; a veces se adopta el enfoque mixto o el cualitativo por ser más adecuado a la naturaleza del problema estudiado.
+\item \textbf{Cuantitativo:} Se evaluarán datos de rendimiento del sistema, como la precisión del reconocimiento facial y la efectividad en la gestión del registro de asistencia. Se medirán variables como el número de asistencias registradas correctamente y los errores de identificación.
+\item \textbf{Cualitativo:} Se realizarán entrevistas y pruebas con los usuarios del sistema (docentes y estudiantes), para recoger sus percepciones sobre la facilidad de uso y la eficacia del sistema en la mejora del control de asistencia.
+
+El proyecto tiene un alcance exclusivamente descriptivo, ya que se detallará en profundidad el funcionamiento del sistema de reconocimiento facial para el registro de asistencia. Se abordarán todos los aspectos técnicos y operativos del sistema, proporcionando una comprensión clara de su mecanismo de acción.
+
+Se explicarán de manera detallada los factores que influyen en su efectividad, como la precisión del reconocimiento y la velocidad de procesamiento. También se analizarán las condiciones y requisitos necesarios para su implementación exitosa en la FPUNE. El diseño de la investigación es no experimental y longitudinal, lo que significa que el sistema será implementado y probado durante un semestre académico (a lo largo del año 2025). Este enfoque permitirá observar el desempeño del sistema y realizar ajustes durante el tiempo que se implemente, evaluando su evolución en diferentes momentos del semestre.
+
+Una vez definidos los conceptos clave, se procede a detallar los pasos necesarios para la implementación del proyecto. A continuación, se presentan las etapas que deben seguirse para llevar a cabo el desarrollo del sistema:
 \end{itemize}
+
+\begin{itemize}
+    \item \textbf{Definición de los requisitos del proyecto:} Se deben identificar las necesidades y objetivos del sistema, considerando el número de usuarios, la precisión requerida, el entorno de uso (tiempo real o imágenes), y las condiciones como la iluminación y los ángulos faciales.
+
+    \item \textbf{Selección del hardware:} Se deben elegir cámaras con la resolución adecuada, junto con los equipos necesarios para el procesamiento en tiempo real.
+
+    \item \textbf{Recolección de datos:} Se procede a la recopilación de imágenes faciales de los usuarios, asegurando una base de datos diversa con diferentes ángulos, expresiones y condiciones de iluminación.
+
+    \item \textbf{Preprocesamiento de imágenes:} Las imágenes recopiladas deben ser normalizadas, eliminando ruido y ajustando el brillo y el contraste para asegurar una calidad uniforme y consistente.
+
+    \item \textbf{Selección del algoritmo de reconocimiento facial:} Elegir el algoritmo adecuado, como Histogram of Oriented Gradients (HOG), redes neuronales convolucionales (CNN) o modelos avanzados como FaceNet o OpenFace.
+
+    \item \textbf{Entrenamiento del modelo:} Utilizando la base de datos de imágenes preprocesadas, se entrena el modelo para que aprenda a identificar patrones únicos en los rostros, generando “huellas faciales” digitales.
+
+    \item \textbf{Diseño de la base de datos:} Se crea una base de datos para almacenar los embeddings (representaciones vectoriales) de los rostros, permitiendo realizar comparaciones rápidas para verificar identidades.
+
+    \item \textbf{Integración de la cámara y el software:} Se integra el software que captura imágenes en tiempo real, comparándolas con las huellas faciales almacenadas en la base de datos.
+
+    \item \textbf{Validación y pruebas del sistema:} El sistema se somete a pruebas en condiciones reales para validar su rendimiento. Se ajusta el umbral de precisión para minimizar errores en el reconocimiento.
+
+    \item \textbf{Despliegue y mantenimiento:} Finalmente, el sistema es desplegado en el entorno previsto, con un plan de mantenimiento regular y actualizaciones del modelo, incorporando nuevas imágenes para mejorar la precisión.
+\end{itemize}
+
+\subsection{Método utilizado para el desarrollo}
+
+El desarrollo sigue una metodología que combina técnicas de ingeniería de software con procesos de desarrollo de sistemas de visión artificial. El proceso se lleva a cabo en las siguientes fases:
+
+
+\textbf{Recopilación y Análisis de Requisitos:}
+\begin{itemize}
+        \item Entrevistas con el personal clave de la FPUNE para identificar los requisitos funcionales y no funcionales del sistema.
+        \item Documentación de los métodos actuales de registro de asistencia y determinación de las necesidades del nuevo sistema.
+        \item Definición de los requisitos de hardware (cámaras) y software (algoritmos de reconocimiento facial, bases de datos) necesarios para el desarrollo.
+\end{itemize}
+
+\newpage
+
+\textbf{Diseño del Sistema}
+\begin{itemize}
+    \item \textbf{Arquitectura del sistema:} Se diseña la estructura modular del sistema que incluye los módulos de captura de imagen, procesamiento, reconocimiento facial y registro en la base de datos.
+
+    \item \textbf{Selección de Algoritmos:} Evaluación de distintos algoritmos de reconocimiento facial, como HOG (Histogram of Oriented Gradients) o Redes Neuronales Convolucionales (CNN), para determinar cuál es el más adecuado para las condiciones específicas de la FPUNE.
+
+    \item \textbf{Diseño de la Base de Datos:} Creación del esquema de la base de datos para almacenar las imágenes faciales de los estudiantes y los registros de asistencia.
+\end{itemize}
+
+
+\textbf{Desarrollo del Software}
+
+\begin{itemize}
+    \item \textbf{Implementación del Algoritmo de Reconocimiento Facial:} Programación y adaptación del algoritmo seleccionado utilizando bibliotecas como OpenCV y frameworks de machine learning (Keras, TensorFlow).
+
+    \item \textbf{Integración de la Base de Datos:} Conexión del sistema de reconocimiento facial con una base de datos que almacene los registros de asistencia y las imágenes faciales.
+
+    \item \textbf{Desarrollo de la Interfaz de Usuario:} Creación de una interfaz intuitiva para que los docentes y administradores puedan acceder al sistema, ver registros y generar reportes.
+\end{itemize}
+
+\textbf{Pruebas e Implementación}
+
+\begin{itemize}
+    \item \textbf{Pruebas en un entorno controlado:} Se realizan pruebas iniciales en un entorno de prueba controlado con un grupo de estudiantes, evaluando la precisión del sistema de reconocimiento facial y la integración con la base de datos.
+
+    \item \textbf{Ajustes y Optimización:} Ajustes del sistema según los resultados obtenidos en las pruebas, optimizando la precisión del reconocimiento en diferentes condiciones de iluminación y ángulos faciales.
+
+    \item \textbf{Pruebas en un aula real:} Implementación piloto en una clase de la FPUNE, donde se monitorea el rendimiento del sistema en un entorno real.
+\end{itemize}
+
+
+\textbf{Evaluación del Desempeño}
+
+\begin{itemize}
+    \item \textbf{Evaluación de resultados:} Comparación de los resultados del sistema con los objetivos planteados. Se revisan métricas como la precisión del reconocimiento, el tiempo de respuesta y la efectividad del registro de asistencia.
+
+    \item \textbf{Documentación y ajustes finales:} Documentación detallada del funcionamiento del sistema, incluyendo las pruebas realizadas y las recomendaciones para la expansión a otras áreas de la FPUNE.
+\end{itemize}
+
+\subsection{Lista de Tareas}
+
+\begin{enumerate}
+    \item Definir las técnicas y modelos adecuados para el reconocimiento de rostros.
+    \item Elegir y definir el conjunto de tecnologías necesarias para el desarrollo del sistema.
+    \item Realizar entrevistas con personal clave para definir los requisitos.
+    \item Documentar las necesidades funcionales, no funcionales y técnicas del sistema.
+    \item Programar el software de reconocimiento facial.
+    \item Integrar la base de datos con el sistema de reconocimiento facial.
+    \item Evaluar el cumplimiento de los requisitos funcionales del sistema.
+    \item Documentar los resultados de las pruebas de implementación y ajustes realizados.
+    \item Comparar los resultados obtenidos con los requisitos y objetivos definidos.
+    \item Elaborar conclusiones y recomendaciones basadas en el desempeño del sistema.
+\end{enumerate}
+
+
+\begin{table}[H]
+    \centering
+    \scriptsize % fuente más pequeña que \small
+    \caption{Cronograma de tareas.}
+    \label{tab:cronograma}
+    \begin{tabular}{||p{3.5cm}|*{11}{>{\centering\arraybackslash}p{0.7cm}|}}
+    \hline
+    \rowcolor{gray!30}
+    \multicolumn{1}{||c|}{\textbf{Tarea}} & \textbf{Ene} & \textbf{Feb} & \textbf{Mar} & \textbf{Abr} & \textbf{May} & \textbf{Jun} & \textbf{Jul} & \textbf{Ago} & \textbf{Sep} & \textbf{Oct} & \textbf{Nov} \\
+    \hline
+    Definir técnicas y modelos para el reconocimiento de rostros & \cellcolor{blue!30} & \cellcolor{blue!30} & & & & & & & & & \\
+    \hline
+    Elegir las tecnologías necesarias para el desarrollo & & \cellcolor{blue!30} & \cellcolor{blue!30} & & & & & & & & \\
+    \hline
+    Realizar entrevistas con personal clave & & & \cellcolor{blue!30} & \cellcolor{blue!30} & & & & & & & \\
+    \hline
+    Documentar necesidades funcionales, no funcionales & & & \cellcolor{blue!30} & \cellcolor{blue!30} & \cellcolor{blue!30} & & & & & & \\
+    \hline
+    Programar el software de reconocimiento facial & & & & & \cellcolor{blue!30} & \cellcolor{blue!30} & \cellcolor{blue!30} & & & & \\
+    \hline
+    Integrar la base de datos & & & & & & \cellcolor{blue!30} & \cellcolor{blue!30} & \cellcolor{blue!30} & & & \\
+    \hline
+    Evaluar requisitos funcionales & & & & & & & \cellcolor{blue!30} & \cellcolor{blue!30} & & & \\
+    \hline
+    Documentar resultados de pruebas & & & & & & & & \cellcolor{blue!30} & \cellcolor{blue!30} & & \\
+    \hline
+    Comparar resultados con requisitos & & & & & & & & & \cellcolor{blue!30} & \cellcolor{blue!30} & \\
+    \hline
+    Elaborar conclusiones & & & & & & & & & & \cellcolor{blue!30} & \cellcolor{blue!30} \\
+    \hline
+    \end{tabular}
+\end{table}
+
+\subsection{Operacionalización de variables}
+
+
+\begin{enumerate}
+    \item \textbf{Algoritmos de reconocimiento facial:} Técnicas y modelos utilizados para identificar y verificar la identidad de una persona mediante el análisis de características faciales. \textbf{Estimador:} Precisión de los métodos especificados.
+
+    \item \textbf{Herramientas tecnológicas:} Conjunto de tecnologías seleccionadas para el desarrollo del sistema de reconocimiento facial, incluyendo software y hardware necesarios. \textbf{Estimador:} Compatibilidad y eficiencia de las herramientas seleccionadas según los requisitos del sistema.
+
+    \item \textbf{Requisitos del sistema:} Características y especificaciones necesarias para desarrollar un sistema de registro de asistencia efectivo en la FPUNE, incluyendo tanto requisitos funcionales como no funcionales. \textbf{Estimador:} Porcentaje de requisitos identificados que cumplen con los objetivos del sistema.
+
+    \item \textbf{Sistema de reconocimiento facial:} Software desarrollado para captar, analizar y reconocer características faciales con el fin de registrar la asistencia de manera automatizada. \textbf{Estimador:} Número de módulos desarrollados e integrados.
+
+    \item \textbf{Resultados de las pruebas:} Evaluación de los requisitos funcionales y no funcionales del sistema de reconocimiento facial implementado. \textbf{Estimador:} Número de requisitos cumplidos tras pruebas.
+
+    \item \textbf{Resultados del sistema:} Evaluación final del desempeño del sistema de registro de asistencia en términos de su efectividad para cumplir con los objetivos definidos, con recomendaciones para mejoras futuras. \textbf{Estimador:} Cantidad de objetivos y requisitos cumplidos.
+\end{enumerate}
+
+
+\begin{table}[H]
+    \centering
+    \caption{Operacionalización de variables.}
+    \label{tab:operacionalizacion}
+    \renewcommand{\arraystretch}{1.35}
+    \footnotesize
+    \begin{tabular}{|p{3.8cm}|p{5.1cm}|p{3.2cm}|p{3.2cm}|}
+        \hline
+        \textbf{Objetivo específico} & \textbf{Tarea} & \textbf{Variable} & \textbf{Estimador*} \\
+        \hline
+        Seleccionar los algoritmos de reconocimiento facial & 
+        Definir las técnicas y modelos adecuados para el reconocimiento de rostros & 
+        Algoritmos de reconocimiento facial & 
+        Precisión de los métodos especificados \\
+        \hline
+        Seleccionar las herramientas tecnológicas para el desarrollo del sistema & 
+        Elegir y definir el conjunto de tecnologías necesarias para el desarrollo del sistema \newline Elaborar documento de requisitos & 
+        Herramientas tecnológicas & 
+        Compatibilidad y eficiencia de las herramientas seleccionadas según los requisitos del sistema \\
+        \hline
+        Identificar los requisitos para el desarrollo del sistema de registro de asistencia para la FPUNE & 
+        Entrevistas con personal clave para definir los requisitos \newline Documentar las necesidades funcionales, no funcionales y técnicas del sistema & 
+        Requisitos del sistema & 
+        Porcentaje de requisitos identificados que cumplen con los objetivos del sistema \\
+        \hline
+        Desarrollar sistema de reconocimiento facial & 
+        Programación del software de reconocimiento facial \newline Integración de la base de datos con el sistema de reconocimiento facial & 
+        Sistema de reconocimiento facial & 
+        Módulos desarrollados e integrados \\
+        \hline
+        Realizar pruebas de implementación & 
+        Evaluación del cumplimiento de los requisitos funcionales del sistema \newline Documentación de los resultados de las pruebas de implementación y ajustes realizados & 
+        Requisitos funcionales y no funcionales & 
+        Número de requisitos cumplidos tras pruebas \\
+        \hline
+        Evaluar resultados obtenidos & 
+        Comparación de los resultados obtenidos con los requisitos y objetivos definidos \newline Elaboración de conclusiones y recomendaciones basadas en el desempeño del sistema & 
+        Resultados del sistema & 
+        Objetivos y requisitos cumplidos \\
+        \hline
+    \end{tabular}
+\end{table}
+
+
+
+
+
+
+
 
 \section{Alcance de la investigación cuantitativa}
 El alcance de la investigación consiste en una medida de causalidad de la misma, entendida la causalidad como la relación causa efecto existente entre las variables, siendo el alcance; el grado de identificación de esta relación. La medida de causalidad puede variar dentro de límites de un continuo con varios grados caracterizados, estos grados de alcance bien caracterizados son: exploratorio, descriptivo, correlacional y explicativo. Las investigaciones exploratorias sirven para preparar el terreno y por lo común anteceden a investigaciones con alcances más profundos. Las investigaciones descriptivas pueden ser base de investigaciones correlacionales, si no explicativos; y así también las investigaciones correlacionales pueden proporcionar información para llevar a cabo investigaciones explicativas. Las investigaciones explicativas explicitan relaciones causa efecto, generan un sentido de entendimiento y son altamente estructurados. Es posible que una investigación se inicie como exploratoria, después puede ser descriptiva, luego correlacional y terminar siendo explicativa. El alcance depende fundamentalmente de dos factores: el estado del conocimiento sobre el problema de investigación, mostrado por la revisión de la literatura, así como la perspectiva que se pretenda dar a la investigación.

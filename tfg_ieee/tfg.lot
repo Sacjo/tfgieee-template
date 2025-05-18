@@ -5,8 +5,12 @@
 \contentsline {table}{\numberline {3.1}{\ignorespaces Cronograma de tareas.}}{27}{table.3.1}%
 \contentsline {table}{\numberline {3.2}{\ignorespaces Operacionalización de variables.}}{28}{table.3.2}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Inventario de animales.}}{36}{table.4.1}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces Clasificación de la muestra, por edad.}}{37}{table.4.2}%
-\contentsline {table}{\numberline {4.3}{\ignorespaces Imagen de tabla, en reemplazo de la tabla anterior.}}{37}{table.4.3}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Componentes de hardware y software utilizados en el sistema}}{34}{table.4.1}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Errores frecuentes y acciones de mitigación}}{35}{table.4.2}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Configuración de umbral vs. resultado esperado}}{35}{table.4.3}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Comparativa de modelos YOLO para detección facial}}{42}{table.4.4}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces Rendimiento de modelos YOLO en distintos niveles de dificultad (WIDER Face)}}{43}{table.4.5}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces Comparativa de modelos de DeepFace (Parte 1)}}{43}{table.4.6}%
+\contentsline {table}{\numberline {4.7}{\ignorespaces Comparativa de modelos de DeepFace (Parte 2: ventajas y desventajas)}}{43}{table.4.7}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

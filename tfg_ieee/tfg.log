@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.22)  10 MAY 2025 13:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.22)  11 MAY 2025 22:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -70,6 +70,22 @@ Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
 \TX@delta=\dimen147
 \TX@cols=\count197
 \TX@ftn=\toks21
+) (C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks22
+) (C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen148
+\Gin@req@width=\dimen149
 ) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2023/05/13 v2.17o AMS math features
 \@mathmargin=\skip53
@@ -79,11 +95,11 @@ For additional information on amsmath, use the `?' option.
 Package: amstext 2021/08/26 v2.01 AMS text
  (C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks22
-\ex@=\dimen148
+\@emptytoks=\toks23
+\ex@=\dimen150
 )) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen149
+\pmbraise@=\dimen151
 ) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
@@ -104,7 +120,7 @@ LaTeX Info: Redefining \big on input line 722.
 LaTeX Info: Redefining \Big on input line 723.
 LaTeX Info: Redefining \bigg on input line 724.
 LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen150
+\big@size=\dimen152
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \macc@depth=\count269
@@ -117,21 +133,21 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \dotsspace@=\muskip16
 \c@parentequation=\count271
 \dspbrk@lvl=\count272
-\tag@help=\toks23
+\tag@help=\toks24
 \row@=\count273
 \column@=\count274
 \maxfields@=\count275
-\andhelp@=\toks24
-\eqnshift@=\dimen151
-\alignsep@=\dimen152
-\tagshift@=\dimen153
-\tagwidth@=\dimen154
-\totwidth@=\dimen155
-\lineht@=\dimen156
-\@envbody=\toks25
+\andhelp@=\toks25
+\eqnshift@=\dimen153
+\alignsep@=\dimen154
+\tagshift@=\dimen155
+\tagwidth@=\dimen156
+\totwidth@=\dimen157
+\lineht@=\dimen158
+\@envbody=\toks26
 \multlinegap=\skip54
 \multlinetaggap=\skip55
-\mathdisplay@stack=\toks26
+\mathdisplay@stack=\toks27
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 ) (C:\Program Files\MiKTeX\tex/latex/amsfonts\amsfonts.sty
@@ -146,7 +162,7 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 ) (C:\Program Files\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2024/01/07 v24.1 The Babel package
 \babel@savecnt=\count276
-\U@D=\dimen157
+\U@D=\dimen159
 \l@unhyphenated=\language79
  (C:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
@@ -159,7 +175,7 @@ Package: babel 2024/01/07 v24.1 The Babel package
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
 ) (C:\Program Files\MiKTeX\tex/latex/babel-spanish\spanish.ldf
 Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
-\es@quottoks=\toks27
+\es@quottoks=\toks28
 \es@quotdepth=\count278
 Package babel Info: Making " an active character on input line 570.
 Package babel Info: Making . an active character on input line 675.
@@ -178,30 +194,17 @@ Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-
  (C:\Program Files\MiKTeX\tex/latex/xkeyval\xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
  (C:\Program Files\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Program Files\MiKTeX\tex/generic/xkeyval\xkvutils.tex
-\XKV@toks=\toks28
-\XKV@tempa@toks=\toks29
- (C:\Program Files\MiKTeX\tex/generic/xkeyval\keyval.tex))
+\XKV@toks=\toks29
+\XKV@tempa@toks=\toks30
+)
 \XKV@depth=\count279
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))) (C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
-Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
-Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
- (C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
-Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 107.
-)
-\Gin@req@height=\dimen158
-\Gin@req@width=\dimen159
-)) (C:\Program Files\MiKTeX\tex/latex/wrapfig\wrapfig.sty
+)))) (C:\Program Files\MiKTeX\tex/latex/wrapfig\wrapfig.sty
 \wrapoverhang=\dimen160
 \WF@size=\dimen161
 \c@WF@wrappedlines=\count280
 \WF@box=\box56
-\WF@everypar=\toks30
+\WF@everypar=\toks31
 Package: wrapfig 2003/01/31  v 3.6
 ) (C:\Program Files\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
@@ -219,7 +222,7 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthL=\skip67
 \f@nch@widthC=\skip68
 \f@nch@widthR=\skip69
-\@temptokenb=\toks31
+\@temptokenb=\toks32
 ) (C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2023-11-26 v7.01g Hypertext links for LaTeX
  (C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty
@@ -342,7 +345,7 @@ Package: datatool-base 2025/03/05 v3.0.1 (NLCT)
  (C:\Program Files\MiKTeX\tex/latex/datatool\datatool-l3fp.def
 File: datatool-l3fp.def 2025/03/05 v3.0.1 (NLCT)
 )
-\@dtl@toks=\toks32
+\@dtl@toks=\toks33
 \@dtl@tmpcount=\count293
 \dtl@tmplength=\skip71
 \l__datatool_measure_box=\box57
@@ -392,12 +395,12 @@ Package tracklang Warning: No `datatool' support for dialect `spanish'  on input
 \l__datatool_action_datum_round_int=\count327
 \dtlcolumnnum=\count328
 \dtlrownum=\count329
-\@dtl@before=\toks33
-\@dtl@after=\toks34
-\@dtl@colhead=\toks35
-\dtlcurrentrow=\toks36
-\dtlbeforerow=\toks37
-\dtlafterrow=\toks38
+\@dtl@before=\toks34
+\@dtl@after=\toks35
+\@dtl@colhead=\toks36
+\dtlcurrentrow=\toks37
+\dtlbeforerow=\toks38
+\dtlafterrow=\toks39
 \l__datatool_map_data_max_cols_int=\count330
 \l__datatool_map_data_edit_column_int=\count331
 \dtlforeachlevel=\count332
@@ -411,19 +414,19 @@ Package tracklang Warning: No `datatool' support for dialect `spanish'  on input
 \g__filtered_row_i_int=\count340
 \g__filtered_row_ii_int=\count341
 \g__filtered_row_iii_int=\count342
-\@dtl@curi=\toks39
-\@dtl@previ=\toks40
-\@dtl@nexti=\toks41
-\@dtl@curii=\toks42
-\@dtl@previi=\toks43
-\@dtl@nextii=\toks44
-\@dtl@curiii=\toks45
-\@dtl@previii=\toks46
-\@dtl@nextiii=\toks47
+\@dtl@curi=\toks40
+\@dtl@previ=\toks41
+\@dtl@nexti=\toks42
+\@dtl@curii=\toks43
+\@dtl@previi=\toks44
+\@dtl@nextii=\toks45
+\@dtl@curiii=\toks46
+\@dtl@previii=\toks47
+\@dtl@nextiii=\toks48
 \l_datatool_display_per_row_int=\count343
 \l_datatool_display_tab_rows_int=\count344
-\@dtl@toksA=\toks48
-\@dtl@toksB=\toks49
+\@dtl@toksA=\toks49
+\@dtl@toksB=\toks50
 \@dtl@elements=\count345
 \__datatool_sort_data_sortcol_int=\count346
 \__datatool_sort_data_grpcol_int=\count347
@@ -433,20 +436,20 @@ Package tracklang Warning: No `datatool' support for dialect `spanish'  on input
 Package: glossaries 2025/03/03 v4.56 (NLCT)
  (C:\Program Files\MiKTeX\tex/latex/mfirstuc\mfirstuc.sty
 Package: mfirstuc 2022/10/14 v2.08 (NLCT)
-\@glsmfirst=\toks50
-\@glsmrest=\toks51
+\@glsmfirst=\toks51
+\@glsmrest=\toks52
 ) (C:\Program Files\MiKTeX\tex/latex/translator\translator.sty
 Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
 ) (C:\Program Files\MiKTeX\tex/latex/glossaries-spanish\glossaries-spanish.ldf
 File: glossaries-spanish.ldf 2014/11/23 v1.0
  (C:\Program Files\MiKTeX\tex/latex/glossaries-spanish\glossaries-spanish-utf8.ldf))
 \gls@level=\count350
-\@gls@tmpb=\toks52
+\@gls@tmpb=\toks53
 \gls@tmplen=\skip72
-\glskeylisttok=\toks53
-\glslabeltok=\toks54
-\glsshorttok=\toks55
-\glslongtok=\toks56
+\glskeylisttok=\toks54
+\glslabeltok=\toks55
+\glsshorttok=\toks56
+\glslongtok=\toks57
  (C:\Program Files\MiKTeX\tex/latex/glossaries/styles\glossary-hypernav.sty
 Package: glossary-hypernav 2025/03/03 v4.56 (NLCT)
 ) (C:\Program Files\MiKTeX\tex/latex/glossaries/styles\glossary-list.sty
@@ -471,7 +474,7 @@ Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
 \LT@rows=\count353
 \c@LT@tables=\count354
 \c@LT@chunks=\count355
-\LT@p@ftn=\toks57
+\LT@p@ftn=\toks58
 )
 \glsdescwidth=\skip78
 \glspagelistwidth=\skip79
@@ -589,7 +592,7 @@ Package: IEEEtrantools 2015/08/26 V1.5 by Michael Shell
 \@IEEEtrantmpcountA=\count368
 \@IEEEtrantmpcountB=\count369
 \@IEEEtrantmpcountC=\count370
-\@IEEEtrantmptoksA=\toks58
+\@IEEEtrantmptoksA=\toks59
 \IEEEnormaljot=\dimen192
 \IEEEquantizedlength=\dimen193
 \IEEEquantizedlengthdiff=\dimen194
@@ -611,9 +614,9 @@ Package: IEEEtrantools 2015/08/26 V1.5 by Michael Shell
 ) (C:\Program Files\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count375
-\float@exts=\toks59
+\float@exts=\toks60
 \float@box=\box110
-\@float@everytoks=\toks60
+\@float@everytoks=\toks61
 \@floatcapt=\box111
 )
 \@indexfile=\write3
@@ -625,7 +628,7 @@ Writing index file tfg.idx
 \glo@main@file=\write5
 \openout5 = `tfg.glo'.
 
-Package glossaries Info: Writing glossary file tfg.glo on input line 30.
+Package glossaries Info: Writing glossary file tfg.glo on input line 31.
 (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count376
@@ -661,24 +664,24 @@ LaTeX Warning: Label `fig:logo' multiply defined.
 ) (capitulo_04/resultados.aux) (capitulo_05/discusion.aux) (anexos/anexo.aux))
 \openout1 = `tfg.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
  (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count377
@@ -686,42 +689,42 @@ LaTeX Font Info:    ... okay on input line 32.
 \scratchbox=\box113
 \nofMPsegments=\count378
 \nofMParguments=\count379
-\everyMPshowfont=\toks61
+\everyMPshowfont=\toks62
 \MPscratchCnt=\count380
 \MPscratchDim=\dimen262
 \MPnumerator=\count381
 \makeMPintoPDFobject=\count382
-\everyMPtoPDFconversion=\toks62
+\everyMPtoPDFconversion=\toks63
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \. on input line 32.
-LaTeX Info: Redefining \% on input line 32.
-Package hyperref Info: Link coloring OFF on input line 32.
+LaTeX Info: Redefining \. on input line 33.
+LaTeX Info: Redefining \% on input line 33.
+Package hyperref Info: Link coloring OFF on input line 33.
  (tfg.out) (tfg.out)
 \@outlinefile=\write6
 \openout6 = `tfg.out'.
 
  (tfg.glsdefs)
-LaTeX Font Info:    Trying to load font information for U+msa on input line 50.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 51.
  (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 50.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 51.
  (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 58.
+(Font)              using `OT1/cmr/bx/n' instead on input line 59.
 
-<./portada_y_ficha_catalografica/logo.png, id=258, 216.0873pt x 216.0873pt>
+<./portada_y_ficha_catalografica/logo.png, id=266, 216.0873pt x 216.0873pt>
 File: ./portada_y_ficha_catalografica/logo.png Graphic file (type png)
 <use ./portada_y_ficha_catalografica/logo.png>
-Package pdftex.def Info: ./portada_y_ficha_catalografica/logo.png  used on input line 67.
+Package pdftex.def Info: ./portada_y_ficha_catalografica/logo.png  used on input line 68.
 (pdftex.def)             Requested size: 129.65337pt x 129.65337pt.
 [1
 
@@ -818,10 +821,10 @@ Overfull \hbox (2.89984pt too wide) in paragraph at lines 43--43
  [][] [][]\OT1/cmr/m/n/12 ``\OT1/cmr/m/it/12 Prototipo de re-co-no-ci-mien-to fa-cial pa-ra me-jo-rar el con- 
  []
 
-LaTeX Info: Redefining \. on input line 62.
-LaTeX Info: Redefining \% on input line 62.
-LaTeX Info: Redefining \. on input line 62.
-LaTeX Info: Redefining \% on input line 62.
+LaTeX Info: Redefining \. on input line 61.
+LaTeX Info: Redefining \% on input line 61.
+LaTeX Info: Redefining \. on input line 61.
+LaTeX Info: Redefining \% on input line 61.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.71667pt, for example:
@@ -833,10 +836,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 \tf@toc=\write7
 \openout7 = `tfg.toc'.
 
-LaTeX Info: Redefining \. on input line 103.
-LaTeX Info: Redefining \% on input line 103.
-LaTeX Info: Redefining \. on input line 103.
-LaTeX Info: Redefining \% on input line 103.
+LaTeX Info: Redefining \. on input line 104.
+LaTeX Info: Redefining \% on input line 104.
+LaTeX Info: Redefining \. on input line 104.
+LaTeX Info: Redefining \% on input line 104.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -858,13 +861,25 @@ Overfull \hbox (0.22787pt too wide) in paragraph at lines 10--10
  \OT1/cmr/m/n/12 pro-ce-sa una ima-gen en dis-tin-tas ca-pas, ex-tra-yen-do ca-rac-ter^^S^^Psti- 
  []
 
-)
+[13
+
+])
 \tf@lof=\write8
 \openout8 = `tfg.lof'.
 
- [13
+LaTeX Info: Redefining \. on input line 106.
+LaTeX Info: Redefining \% on input line 106.
+LaTeX Info: Redefining \. on input line 106.
+LaTeX Info: Redefining \% on input line 106.
 
-] (tfg.lot
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.71667pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.71667pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
+
+[14] (tfg.lot
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
@@ -873,7 +888,7 @@ LaTeX Info: Redefining \% on input line 1.
 
 
 No file tfg.gls.
-[14
+[15
 
 ]
 \openout2 = `./capitulo_01/introduccion.aux'.
@@ -938,7 +953,7 @@ Cap\'{\i }tulo 2.
 
 
 ]
-<imagenes_doc/segu_biometrica_1.jpg, id=485, 1033.8625pt x 689.57625pt>
+<imagenes_doc/segu_biometrica_1.jpg, id=541, 1033.8625pt x 689.57625pt>
 File: imagenes_doc/segu_biometrica_1.jpg Graphic file (type jpg)
 <use imagenes_doc/segu_biometrica_1.jpg>
 Package pdftex.def Info: imagenes_doc/segu_biometrica_1.jpg  used on input line 54.
@@ -957,7 +972,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) h
                                                   \__shipout_drop_firstpage_...
 l.64 
       <./imagenes_doc/segu_biometrica_1.jpg>]
-<imagenes_doc/tabla_rand.jpg, id=490, 883.3pt x 588.1975pt>
+<imagenes_doc/tabla_rand.jpg, id=546, 883.3pt x 588.1975pt>
 File: imagenes_doc/tabla_rand.jpg Graphic file (type jpg)
 <use imagenes_doc/tabla_rand.jpg>
 Package pdftex.def Info: imagenes_doc/tabla_rand.jpg  used on input line 77.
@@ -976,7 +991,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) h
                                                   \__shipout_drop_firstpage_...
 l.106 
        <./imagenes_doc/tabla_rand.jpg>]
-<imagenes_doc/Reconocimiento_Facial.jpg, id=495, 240.9pt x 166.9437pt>
+<imagenes_doc/Reconocimiento_Facial.jpg, id=551, 240.9pt x 166.9437pt>
 File: imagenes_doc/Reconocimiento_Facial.jpg Graphic file (type jpg)
 <use imagenes_doc/Reconocimiento_Facial.jpg>
 Package pdftex.def Info: imagenes_doc/Reconocimiento_Facial.jpg  used on input line 109.
@@ -1027,7 +1042,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [13]
-<imagenes_doc/redes_neuronales.png, id=518, 755.82375pt x 398.48875pt>
+<imagenes_doc/redes_neuronales.png, id=574, 755.82375pt x 398.48875pt>
 File: imagenes_doc/redes_neuronales.png Graphic file (type png)
 <use imagenes_doc/redes_neuronales.png>
 Package pdftex.def Info: imagenes_doc/redes_neuronales.png  used on input line 270.
@@ -1041,7 +1056,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [14]
-<imagenes_doc/image_01.jpg, id=523, 471.26062pt x 197.23688pt>
+<imagenes_doc/image_01.jpg, id=579, 471.26062pt x 197.23688pt>
 File: imagenes_doc/image_01.jpg Graphic file (type jpg)
 <use imagenes_doc/image_01.jpg>
 Package pdftex.def Info: imagenes_doc/image_01.jpg  used on input line 287.
@@ -1060,12 +1075,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}) h
                                                   \__shipout_drop_firstpage_...
 l.291 
        <./imagenes_doc/redes_neuronales.png (PNG copy)>]
-<imagenes_doc/image_02.jpg, id=528, 488.57532pt x 230.36063pt>
+<imagenes_doc/image_02.jpg, id=584, 488.57532pt x 230.36063pt>
 File: imagenes_doc/image_02.jpg Graphic file (type jpg)
 <use imagenes_doc/image_02.jpg>
 Package pdftex.def Info: imagenes_doc/image_02.jpg  used on input line 296.
 (pdftex.def)             Requested size: 234.00238pt x 110.33281pt.
-<imagenes_doc/redes_convolucionales.png, id=529, 642.4pt x 329.23pt>
+<imagenes_doc/redes_convolucionales.png, id=585, 642.4pt x 329.23pt>
 File: imagenes_doc/redes_convolucionales.png Graphic file (type png)
 <use imagenes_doc/redes_convolucionales.png>
 Package pdftex.def Info: imagenes_doc/redes_convolucionales.png  used on input line 306.
@@ -1089,12 +1104,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.6}) h
                                                   \__shipout_drop_firstpage_...
 l.310 
        <./imagenes_doc/image_01.jpg> <./imagenes_doc/image_02.jpg>]
-<imagenes_doc/Redes_GAN.jpg, id=534, 1403.2425pt x 479.7925pt>
+<imagenes_doc/Redes_GAN.jpg, id=591, 1403.2425pt x 479.7925pt>
 File: imagenes_doc/Redes_GAN.jpg Graphic file (type jpg)
 <use imagenes_doc/Redes_GAN.jpg>
 Package pdftex.def Info: imagenes_doc/Redes_GAN.jpg  used on input line 315.
 (pdftex.def)             Requested size: 234.00238pt x 80.00426pt.
-<imagenes_doc/registroimg.jpg, id=535, 1149.29375pt x 489.83pt>
+<imagenes_doc/registroimg.jpg, id=592, 1149.29375pt x 489.83pt>
 File: imagenes_doc/registroimg.jpg Graphic file (type jpg)
 <use imagenes_doc/registroimg.jpg>
 Package pdftex.def Info: imagenes_doc/registroimg.jpg  used on input line 326.
@@ -1376,21 +1391,76 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
  (capitulo_04/resultados.tex
 Cap\'{\i }tulo 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+[]|\OT1/cmr/m/n/12 OpenCV,numpy, ultralytics,deepface,tensorflow-
+ []
+
+
+Overfull \hbox (33.53856pt too wide) in paragraph at lines 18--35
+ [][] 
+ []
+
 [34
 
 
-]
-<./capitulo_04/huella.jpg, id=655, 169.38281pt x 188.20313pt>
-File: ./capitulo_04/huella.jpg Graphic file (type jpg)
-<use ./capitulo_04/huella.jpg>
-Package pdftex.def Info: ./capitulo_04/huella.jpg  used on input line 25.
-(pdftex.def)             Requested size: 84.6912pt x 94.10132pt.
-<./capitulo_04/termodin.png, id=657, 192.72pt x 187.29974pt>
-File: ./capitulo_04/termodin.png Graphic file (type png)
-<use ./capitulo_04/termodin.png>
-Package pdftex.def Info: ./capitulo_04/termodin.png  used on input line 35.
-(pdftex.def)             Requested size: 192.71951pt x 187.29927pt.
 
+pdfTeX warning (ext4): destination with the same identifier (name{table.4.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.41 
+     ]
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+[]|\OT1/cmr/m/n/12 Se ajust^^So el um-bral
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+\OT1/cmr/m/n/12 can-ti-dad de im^^Sage-nes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
+[]|\OT1/cmr/m/n/12 Reconocimiento
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
+\OT1/cmr/m/n/12 err^^Soneo con po-ca
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
+[]|\OT1/cmr/m/n/12 Procesamiento len-to
+ []
+
+
+Underfull \hbox (badness 2538) in paragraph at lines 55--56
+[]|\OT1/cmr/m/n/12 Se im-ple-ment^^So fil-tra-do
+ []
+
+
+Overfull \hbox (60.16492pt too wide) in paragraph at lines 47--58
+ [][] 
+ []
+
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <8> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 68.
+
+Underfull \hbox (badness 3449) in paragraph at lines 70--70
+[]|\OT1/cmr/m/n/8 Reconocimiento muy es-
+ []
+
+
+Overfull \hbox (76.10059pt too wide) in paragraph at lines 66--83
+ [][] 
+ []
+
+<capitulo_04/imagenes/1.jpg.png, id=710, 1421.31pt x 596.2275pt>
+File: capitulo_04/imagenes/1.jpg.png Graphic file (type png)
+<use capitulo_04/imagenes/1.jpg.png>
+Package pdftex.def Info: capitulo_04/imagenes/1.jpg.png  used on input line 92.
+(pdftex.def)             Requested size: 312.00119pt x 130.87932pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1399,11 +1469,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [35
-pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{table.4.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.40 
-      <./capitulo_04/huella.jpg>]
+l.94 \end{figure}
+                 
+pdfTeX warning (ext4): destination with the same identifier (name{table.4.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.94 \end{figure}
+                 ]
+<capitulo_04/imagenes/umbral_1.0_30.jpg, id=719, 1606.0pt x 952.55875pt>
+File: capitulo_04/imagenes/umbral_1.0_30.jpg Graphic file (type jpg)
+<use capitulo_04/imagenes/umbral_1.0_30.jpg>
+Package pdftex.def Info: capitulo_04/imagenes/umbral_1.0_30.jpg  used on input line 98.
+(pdftex.def)             Requested size: 312.00119pt x 185.0578pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1412,22 +1493,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [36
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.102 \newpage
+              
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.90 
-     
-pdfTeX warning (ext4): destination with the same identifier (name{table.4.1}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.90 
-      <./capitulo_04/termodin.png>]
-<./capitulo_04/tabla_word.png, id=671, 554.67226pt x 155.3805pt>
-File: ./capitulo_04/tabla_word.png Graphic file (type png)
-<use ./capitulo_04/tabla_word.png>
-Package pdftex.def Info: ./capitulo_04/tabla_word.png  used on input line 97.
-(pdftex.def)             Requested size: 360.53268pt x 100.99611pt.
-)
+l.102 \newpage
+               <./capitulo_04/imagenes/1.jpg.png> <./capitulo_04/imagenes/umbral_1.0_30.jpg>]
+<capitulo_04/imagenes/2.png, id=725, 1421.31pt x 596.2275pt>
+File: capitulo_04/imagenes/2.png Graphic file (type png)
+<use capitulo_04/imagenes/2.png>
+Package pdftex.def Info: capitulo_04/imagenes/2.png  used on input line 108.
+(pdftex.def)             Requested size: 312.00119pt x 130.87932pt.
+<capitulo_04/imagenes/1.3_min_dist25.jpg, id=726, 1606.0pt x 938.50626pt>
+File: capitulo_04/imagenes/1.3_min_dist25.jpg Graphic file (type jpg)
+<use capitulo_04/imagenes/1.3_min_dist25.jpg>
+Package pdftex.def Info: capitulo_04/imagenes/1.3_min_dist25.jpg  used on input line 114.
+(pdftex.def)             Requested size: 312.00119pt x 182.32776pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1436,21 +1522,192 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [37
-pdfTeX warning (ext4): destination with the same identifier (name{table.4.2}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.114 \include{./capitulo_04/resultados}
+l.118 \newpage
+              
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.4}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.118 \newpage
+               <./capitulo_04/imagenes/2.png> <./capitulo_04/imagenes/1.3_min_dist25.jpg>]
+<capitulo_04/imagenes/3.png, id=732, 1421.31pt x 596.2275pt>
+File: capitulo_04/imagenes/3.png Graphic file (type png)
+<use capitulo_04/imagenes/3.png>
+Package pdftex.def Info: capitulo_04/imagenes/3.png  used on input line 124.
+(pdftex.def)             Requested size: 312.00119pt x 130.87932pt.
+<capitulo_04/imagenes/umbral1.8min_dist20.jpg, id=733, 1606.0pt x 950.55125pt>
+File: capitulo_04/imagenes/umbral1.8min_dist20.jpg Graphic file (type jpg)
+<use capitulo_04/imagenes/umbral1.8min_dist20.jpg>
+Package pdftex.def Info: capitulo_04/imagenes/umbral1.8min_dist20.jpg  used on input line 130.
+(pdftex.def)             Requested size: 312.00119pt x 184.6678pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[38
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.134 \newpage
+              
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.6}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.134 \newpage
+               <./capitulo_04/imagenes/3.png> <./capitulo_04/imagenes/umbral1.8min_dist20.jpg>]
+<capitulo_04/imagenes/4.png, id=739, 706.64pt x 634.37pt>
+File: capitulo_04/imagenes/4.png Graphic file (type png)
+<use capitulo_04/imagenes/4.png>
+Package pdftex.def Info: capitulo_04/imagenes/4.png  used on input line 141.
+(pdftex.def)             Requested size: 312.00119pt x 280.09163pt.
+<capitulo_04/imagenes/4.4.jpg, id=740, 1284.8pt x 751.80875pt>
+File: capitulo_04/imagenes/4.4.jpg Graphic file (type jpg)
+<use capitulo_04/imagenes/4.4.jpg>
+Package pdftex.def Info: capitulo_04/imagenes/4.4.jpg  used on input line 147.
+(pdftex.def)             Requested size: 312.00119pt x 182.5715pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[39
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.7}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.152 \newpage
+              
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.8}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.152 \newpage
+               <./capitulo_04/imagenes/4.png> <./capitulo_04/imagenes/4.4.jpg>]
+<capitulo_04/imagenes/5.png, id=746, 706.64pt x 634.37pt>
+File: capitulo_04/imagenes/5.png Graphic file (type png)
+<use capitulo_04/imagenes/5.png>
+Package pdftex.def Info: capitulo_04/imagenes/5.png  used on input line 159.
+(pdftex.def)             Requested size: 312.00119pt x 280.09163pt.
+<capitulo_04/imagenes/5.5.jpg, id=747, 1606.0pt x 932.48375pt>
+File: capitulo_04/imagenes/5.5.jpg Graphic file (type jpg)
+<use capitulo_04/imagenes/5.5.jpg>
+Package pdftex.def Info: capitulo_04/imagenes/5.5.jpg  used on input line 165.
+(pdftex.def)             Requested size: 312.00119pt x 181.15775pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[40
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.9}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.170 \newpage
+              
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.10}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.170 \newpage
+               <./capitulo_04/imagenes/5.png> <./capitulo_04/imagenes/5.5.jpg>]
+<capitulo_04/imagenes/6.png, id=754, 706.64pt x 634.37pt>
+File: capitulo_04/imagenes/6.png Graphic file (type png)
+<use capitulo_04/imagenes/6.png>
+Package pdftex.def Info: capitulo_04/imagenes/6.png  used on input line 177.
+(pdftex.def)             Requested size: 312.00119pt x 280.09163pt.
+<capitulo_04/imagenes/6.6.jpg, id=755, 1606.0pt x 950.55125pt>
+File: capitulo_04/imagenes/6.6.jpg Graphic file (type jpg)
+<use capitulo_04/imagenes/6.6.jpg>
+Package pdftex.def Info: capitulo_04/imagenes/6.6.jpg  used on input line 183.
+(pdftex.def)             Requested size: 312.00119pt x 184.6678pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[41
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.11}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.186 
+       <./capitulo_04/imagenes/6.png>]
+Overfull \hbox (2.24387pt too wide) in paragraph at lines 205--205
+[]|\OT1/cmr/bx/n/8 Precisi^^Son| 
+ []
+
+
+Overfull \hbox (4.68666pt too wide) in paragraph at lines 205--205
+[]|\OT1/cmr/bx/n/8 Velocidad
+ []
+
+
+Overfull \hbox (3.355pt too wide) in paragraph at lines 205--205
+\OT1/cmr/bx/n/8 (ms/img)| 
+ []
+
+
+Overfull \hbox (74.60303pt too wide) in paragraph at lines 203--218
+ [][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[42
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.12}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.225 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{table.4.4}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.225 
+       <./capitulo_04/imagenes/6.6.jpg>])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[43
+pdfTeX warning (ext4): destination with the same identifier (name{table.4.5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.115 \include{./capitulo_04/resultados}
                                         
-pdfTeX warning (ext4): destination with the same identifier (name{table.4.3}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{table.4.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.114 \include{./capitulo_04/resultados}
-                                         <./capitulo_04/tabla_word.png>]
+l.115 \include{./capitulo_04/resultados}
+                                        
+pdfTeX warning (ext4): destination with the same identifier (name{table.4.7}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.115 \include{./capitulo_04/resultados}
+                                        ]
 \openout2 = `./capitulo_05/discusion.aux'.
 
  (capitulo_05/discusion.tex
 Cap\'{\i }tulo 5.
-[38
+[44
 
 
 
@@ -1463,7 +1720,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[39]
+[45]
 No file tfg.gls.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1472,7 +1729,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[40
+[46
 
 
 
@@ -1480,11 +1737,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 ]
 \openout2 = `./anexos/anexo.aux'.
 
- (anexos/anexo.tex) [41
+ (anexos/anexo.tex) [47
 
 
 
-] (tfg.bbl) [42
+] (tfg.bbl) [48
 
 
 
@@ -1508,26 +1765,26 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `tfg.out' has not changed.
-(rerunfilecheck)             Checksum: B3B7230C3BCFA2AFB00EB0B286C6CAA1;14187.
+(rerunfilecheck)             Checksum: 3779754294A9D295E0AA7DC8CC2DB4DE;14689.
  ) 
 Here is how much of TeX's memory you used:
- 22298 strings out of 474486
- 419945 string characters out of 5753570
- 1966542 words of memory out of 5000000
- 44005 multiletter control sequences out of 15000+600000
- 575150 words of font info for 100 fonts, out of 8000000 for 9000
+ 22422 strings out of 474486
+ 423271 string characters out of 5753570
+ 1967542 words of memory out of 5000000
+ 44100 multiletter control sequences out of 15000+600000
+ 576275 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,13n,92p,2411b,875s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,14n,89p,2411b,906s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{glo:sored} has been referenced but does not exist, replaced by a fixed one
 
 
 pdfTeX warning (dest): name{glo:lan} has been referenced but does not exist, replaced by a fixed one
 
- <C:\Users\aldoc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on tfg.pdf (56 pages, 1608536 bytes).
+ <C:\Users\aldoc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on tfg.pdf (63 pages, 2806864 bytes).
 PDF statistics:
- 795 PDF objects out of 1000 (max. 8388607)
- 171 named destinations out of 1000 (max. 500000)
- 586 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 908 PDF objects out of 1000 (max. 8388607)
+ 197 named destinations out of 1000 (max. 500000)
+ 647 words of extra memory for PDF output out of 10000 (max. 10000000)
 

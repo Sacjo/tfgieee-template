@@ -28,6 +28,17 @@ INPUT C:\Program Files\MiKTeX\tex\latex\tools\array.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\graphics\color.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\tools\tabularx.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\tools\tabularx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsmath.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsmath.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsopn.sty
@@ -66,17 +77,6 @@ INPUT C:\Program Files\MiKTeX\tex\latex\xkeyval\xkeyval.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\xkeyval\xkeyval.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\xkeyval\xkeyval.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\xkeyval\xkvutils.tex
-INPUT C:\Program Files\MiKTeX\tex\generic\xkeyval\keyval.tex
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphics.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphics.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\trig.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\trig.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\wrapfig\wrapfig.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\wrapfig\wrapfig.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
@@ -483,26 +483,94 @@ OUTPUT .\capitulo_04\resultados.aux
 INPUT .\capitulo_04\resultados.tex
 INPUT .\capitulo_04\resultados.tex
 INPUT capitulo_04\resultados.tex
-INPUT .\capitulo_04\huella.jpg
-INPUT .\capitulo_04\huella.jpg
-INPUT .\capitulo_04\huella.jpg
-INPUT .\capitulo_04\huella.jpg
-INPUT .\capitulo_04\huella.jpg
-INPUT .\capitulo_04\huella.jpg
-INPUT .\capitulo_04\termodin.png
-INPUT .\capitulo_04\termodin.png
-INPUT .\capitulo_04\termodin.png
-INPUT .\capitulo_04\termodin.png
-INPUT .\capitulo_04\termodin.png
-INPUT .\capitulo_04\termodin.png
-INPUT .\capitulo_04\termodin.png
-INPUT .\capitulo_04\tabla_word.png
-INPUT .\capitulo_04\tabla_word.png
-INPUT .\capitulo_04\tabla_word.png
-INPUT .\capitulo_04\tabla_word.png
-INPUT .\capitulo_04\tabla_word.png
-INPUT .\capitulo_04\tabla_word.png
-INPUT .\capitulo_04\tabla_word.png
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmtt8.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx6.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmtt8.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx5.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmtt8.tfm
+INPUT .\capitulo_04\imagenes\1.jpg.png
+INPUT .\capitulo_04\imagenes\1.jpg.png
+INPUT .\capitulo_04\imagenes\1.jpg.png
+INPUT .\capitulo_04\imagenes\1.jpg.png
+INPUT .\capitulo_04\imagenes\1.jpg.png
+INPUT .\capitulo_04\imagenes\1.jpg.png
+INPUT .\capitulo_04\imagenes\umbral_1.0_30.jpg
+INPUT .\capitulo_04\imagenes\umbral_1.0_30.jpg
+INPUT .\capitulo_04\imagenes\umbral_1.0_30.jpg
+INPUT .\capitulo_04\imagenes\umbral_1.0_30.jpg
+INPUT .\capitulo_04\imagenes\umbral_1.0_30.jpg
+INPUT .\capitulo_04\imagenes\umbral_1.0_30.jpg
+INPUT .\capitulo_04\imagenes\umbral_1.0_30.jpg
+INPUT .\capitulo_04\imagenes\2.png
+INPUT .\capitulo_04\imagenes\2.png
+INPUT .\capitulo_04\imagenes\2.png
+INPUT .\capitulo_04\imagenes\2.png
+INPUT .\capitulo_04\imagenes\2.png
+INPUT .\capitulo_04\imagenes\2.png
+INPUT .\capitulo_04\imagenes\2.png
+INPUT .\capitulo_04\imagenes\1.3_min_dist25.jpg
+INPUT .\capitulo_04\imagenes\1.3_min_dist25.jpg
+INPUT .\capitulo_04\imagenes\1.3_min_dist25.jpg
+INPUT .\capitulo_04\imagenes\1.3_min_dist25.jpg
+INPUT .\capitulo_04\imagenes\1.3_min_dist25.jpg
+INPUT .\capitulo_04\imagenes\1.3_min_dist25.jpg
+INPUT .\capitulo_04\imagenes\1.3_min_dist25.jpg
+INPUT .\capitulo_04\imagenes\3.png
+INPUT .\capitulo_04\imagenes\3.png
+INPUT .\capitulo_04\imagenes\3.png
+INPUT .\capitulo_04\imagenes\3.png
+INPUT .\capitulo_04\imagenes\3.png
+INPUT .\capitulo_04\imagenes\3.png
+INPUT .\capitulo_04\imagenes\3.png
+INPUT .\capitulo_04\imagenes\umbral1.8min_dist20.jpg
+INPUT .\capitulo_04\imagenes\umbral1.8min_dist20.jpg
+INPUT .\capitulo_04\imagenes\umbral1.8min_dist20.jpg
+INPUT .\capitulo_04\imagenes\umbral1.8min_dist20.jpg
+INPUT .\capitulo_04\imagenes\umbral1.8min_dist20.jpg
+INPUT .\capitulo_04\imagenes\umbral1.8min_dist20.jpg
+INPUT .\capitulo_04\imagenes\umbral1.8min_dist20.jpg
+INPUT .\capitulo_04\imagenes\4.png
+INPUT .\capitulo_04\imagenes\4.png
+INPUT .\capitulo_04\imagenes\4.png
+INPUT .\capitulo_04\imagenes\4.png
+INPUT .\capitulo_04\imagenes\4.png
+INPUT .\capitulo_04\imagenes\4.png
+INPUT .\capitulo_04\imagenes\4.png
+INPUT .\capitulo_04\imagenes\4.4.jpg
+INPUT .\capitulo_04\imagenes\4.4.jpg
+INPUT .\capitulo_04\imagenes\4.4.jpg
+INPUT .\capitulo_04\imagenes\4.4.jpg
+INPUT .\capitulo_04\imagenes\4.4.jpg
+INPUT .\capitulo_04\imagenes\4.4.jpg
+INPUT .\capitulo_04\imagenes\4.4.jpg
+INPUT .\capitulo_04\imagenes\5.png
+INPUT .\capitulo_04\imagenes\5.png
+INPUT .\capitulo_04\imagenes\5.png
+INPUT .\capitulo_04\imagenes\5.png
+INPUT .\capitulo_04\imagenes\5.png
+INPUT .\capitulo_04\imagenes\5.png
+INPUT .\capitulo_04\imagenes\5.png
+INPUT .\capitulo_04\imagenes\5.5.jpg
+INPUT .\capitulo_04\imagenes\5.5.jpg
+INPUT .\capitulo_04\imagenes\5.5.jpg
+INPUT .\capitulo_04\imagenes\5.5.jpg
+INPUT .\capitulo_04\imagenes\5.5.jpg
+INPUT .\capitulo_04\imagenes\5.5.jpg
+INPUT .\capitulo_04\imagenes\5.5.jpg
+INPUT .\capitulo_04\imagenes\6.png
+INPUT .\capitulo_04\imagenes\6.png
+INPUT .\capitulo_04\imagenes\6.png
+INPUT .\capitulo_04\imagenes\6.png
+INPUT .\capitulo_04\imagenes\6.png
+INPUT .\capitulo_04\imagenes\6.png
+INPUT .\capitulo_04\imagenes\6.png
+INPUT .\capitulo_04\imagenes\6.6.jpg
+INPUT .\capitulo_04\imagenes\6.6.jpg
+INPUT .\capitulo_04\imagenes\6.6.jpg
+INPUT .\capitulo_04\imagenes\6.6.jpg
+INPUT .\capitulo_04\imagenes\6.6.jpg
+INPUT .\capitulo_04\imagenes\6.6.jpg
+INPUT .\capitulo_04\imagenes\6.6.jpg
 INPUT .\capitulo_05\discusion.tex
 INPUT .\capitulo_05\discusion.tex
 OUTPUT .\capitulo_05\discusion.aux
@@ -571,6 +639,8 @@ INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmcsc10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmcsc10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
@@ -583,5 +653,9 @@ INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsl12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsl12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt8.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt8.pfb

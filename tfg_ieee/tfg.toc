@@ -59,10 +59,10 @@
 \contentsline {subsection}{\numberline {4.1.1}Errores detectados y ajustes aplicados}{35}{subsection.4.1.1}%
 \contentsline {subsection}{\numberline {4.1.2}Configuraciones aplicadas y resultados obtenidos}{36}{subsection.4.1.2}%
 \contentsline {chapter}{\numberline {5}Discusión}{44}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Logros alcanzados}{44}{section.5.1}%
+\contentsline {section}{\numberline {5.1}Logros alcanzados}{45}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Solución del problema de investigación}{45}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Sugerencias para futuras investigaciones}{45}{section.5.3}%
-\contentsline {chapter}{Glosario}{46}{section.5.3}%
-\contentsline {chapter}{Anexos}{46}{section.5.3}%
-\contentsline {chapter}{Anexo A.}{47}{chapter*.7}%
-\contentsline {chapter}{Referencias bibliogr\'aficas}{48}{chapter*.7}%
+\contentsline {section}{\numberline {5.3}Sugerencias para futuras investigaciones}{46}{section.5.3}%
+\contentsline {chapter}{Glosario}{47}{section.5.3}%
+\contentsline {chapter}{Anexos}{47}{section.5.3}%
+\contentsline {chapter}{Anexo A.}{48}{chapter*.7}%
+\contentsline {chapter}{Referencias bibliogr\'aficas}{49}{chapter*.7}%

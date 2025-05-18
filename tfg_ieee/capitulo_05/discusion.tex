@@ -6,11 +6,45 @@
 
 \chapter{Discusión}
 
-En este capítulo, que también suele denominarse ``Conclusiones'', se derivan las conclusiones, se explicitan recomendaciones para otros estudios (por ejemplo, sugerir nuevas preguntas, muestras, instrumentos, líneas de investigación, etc.) y se indica lo que sigue y lo que debe hacerse. Se analiza la posibilidad de extender los resultados a una población mayor que la del estudio. Se evalúan las implicaciones, se establece la manera como se respondieron las preguntas de investigación, si se cumplieron o no los objetivos, se relacionan los resultados con los estudios existentes (vincular con el marco teórico y señalar si los resultados coinciden o no con la literatura previa, en qué sí y en qué no). Se reconocen las limitaciones de la investigación, se destaca la importancia y significado de todo el estudio y la forma como encaja en el conocimiento disponible. Se explican los resultados inesperados y cuando no se verificaron las hipótesis es necesario señalar o al menos especular sobre las razones. Recordar que no se deben repetir aquí los resultados sino que se los debe interpretar. La discusión debe redactarse de tal manera que se facilite la toma de decisiones respecto de una teoría, un curso de acción o una problemática. Resumiendo, este capítulo puede ser conceptualmente y dividido en al menos tres secciones, como se ilustra a continuación.
+El desarrollo del sistema automatizado de control de asistencia mediante reconocimiento facial en la FPUNE permitió abordar una problemática concreta y recurrente en los entornos académicos: la gestión precisa, ágil y confiable de la asistencia estudiantil. A lo largo de esta investigación, se cumplieron los objetivos propuestos y se obtuvo una solución funcional basada en tecnologías de visión artificial.
+
+Los resultados experimentales obtenidos muestran que, con una configuración adecuada de los parámetros del sistema —como el umbral de similitud y el modelo de reconocimiento—, es posible lograr un desempeño óptimo tanto en precisión como en velocidad de procesamiento. Por ejemplo, al aplicar configuraciones con umbrales entre 1.0 y 1.8 y ajustar el factor de similitud, se observó un control eficaz sobre los falsos positivos, lo cual refuerza la aplicabilidad del sistema en entornos reales. Estos hallazgos coinciden con estudios previos en los que se destaca la sensibilidad de los sistemas biométricos ante condiciones de iluminación, ángulo y calidad de imagen.
+
+Asimismo, se comprobó que modelos como YOLOv8n-Face y ArcFace ofrecen un equilibrio ideal entre precisión, rendimiento y tamaño del modelo, lo que los convierte en opciones viables para instituciones con recursos limitados. Este punto representa un avance sobre propuestas anteriores que requerían hardware especializado o mantenían altas tasas de error.
+
+
+Entre las limitaciones encontradas, se destaca la sensibilidad a las condiciones de captura (especialmente iluminación y expresión), así como la necesidad de contar con múltiples imágenes por usuario para reducir el margen de error. Estas cuestiones abren la puerta a futuras investigaciones que busquen mejorar la robustez del sistema, integrar técnicas de aprendizaje continuo o ampliar la base de datos con más diversidad.
+
+Finalmente, la experiencia de implementación dejó en evidencia que la automatización del control de asistencia no solo es técnicamente posible, sino también beneficiosa desde el punto de vista administrativo, al reducir errores humanos y optimizar los procesos de control en clase. En este sentido, el sistema desarrollado no solo respondió a las preguntas de investigación, sino que aportó evidencia concreta para su posible adopción e implementación institucional.
+
 
 \section{Logros alcanzados}
-Descripción de los principales descubrimientos obtenidos como producto de la interpretación de los resultados de la investigación.
+
+El proyecto logró implementar un sistema funcional de asistencia basado en reconocimiento facial adaptado a las condiciones técnicas y operativas de la FPUNE. A lo largo del desarrollo se cumplieron los objetivos específicos planteados: se evaluaron diferentes modelos de reconocimiento facial, se seleccionaron las tecnologías más adecuadas (YOLOv8 y ArcFace), y se diseñó un flujo completo de captura, detección, extracción de características y verificación.
+
+Además, se realizaron pruebas en distintas condiciones de iluminación, ángulo y expresión facial, lo que permitió validar la efectividad del sistema frente a escenarios reales. Las configuraciones óptimas (por ejemplo, con umbrales de distancia entre 1.3 y 1.8) demostraron un buen equilibrio entre precisión y tolerancia a variaciones.
+
+El sistema también fue evaluado en tiempo de ejecución y mostró buen rendimiento en hardware accesible, lo que valida su aplicabilidad en entornos académicos con recursos limitados. Se documentaron los ajustes aplicados para mejorar la precisión y reducir falsos positivos, destacando la importancia del preprocesamiento, la segmentación por identidad y el uso de índices embebidos en memoria.
+
 \section{Solución del problema de investigación}
-Aquí se realiza la discusión propiamente dicha, respondiendo al problema planteado e indicando el nivel de satisfacción de la solución lograda.
+
+El problema identificado fue la necesidad de automatizar el registro de asistencia de alumnos en la FPUNE utilizando tecnologías confiables y no intrusivas. A través del enfoque aplicado, se logró resolverlo con un sistema que captura rostros en tiempo real, identifica a los estudiantes registrados y registra automáticamente su presencia, eliminando procesos manuales.
+
+Los resultados obtenidos permiten afirmar que el sistema desarrollado cumple con su propósito principal: registrar de forma precisa, rápida y automática la asistencia de los estudiantes.
+
+Además, se logró responder adecuadamente a las preguntas de investigación planteadas y se comprobó la hipótesis inicial. Esto valida tanto la viabilidad técnica como la operatividad del sistema en el contexto académico local, demostrando su aplicabilidad en entornos reales.
+
 \section{Sugerencias para futuras investigaciones}
-Todo trabajo de investigación, genera invariablemente como producto colateral, otras interrogantes que suelen ameritar seguir con la investigación. Esto es derivado del caracter abierto, \textit{i.e.}, inacabado, del conocimiento científico. En esta sección se acostumbra hacer referencia a posibles seguimientos de la investigación indicando las interrogantes que conforman nuevos problemas pasibles de ser indagados.   
+
+{\renewcommand{\labelitemi}{\textbullet}
+\begin{itemize}
+    \item \textbf{Integrar verificación por doble factor} (como código QR, tarjetas inteligentes o tecnología NFC) para reforzar los mecanismos de autenticación en situaciones críticas. Esta medida podría ser especialmente útil en exámenes, actividades de alta importancia académica o en contextos donde se requiera una mayor seguridad en la verificación de identidad.
+    
+    \item \textbf{Evaluar el desempeño del sistema con una base de datos más amplia y heterogénea}, que incorpore mayor cantidad de estudiantes, con variaciones demográficas como edad, género, etnia y condiciones lumínicas diversas. Esto permitiría validar la robustez del modelo en un entorno más realista y adaptable.
+    
+    \item \textbf{Adaptar el sistema a dispositivos móviles o cámaras IP} con transmisión remota para su uso en aulas híbridas o espacios no convencionales. Esta implementación favorecería la escalabilidad del sistema, permitiendo su uso más allá de los laboratorios o aulas tradicionales, incluso en entornos con conexión limitada o uso descentralizado.
+    
+    \item \textbf{Aplicar técnicas de aprendizaje continuo o incremental}, de forma que el modelo de reconocimiento facial pueda actualizarse progresivamente a partir de nuevas muestras capturadas, sin necesidad de un reentrenamiento completo. Esta característica no solo mejora la precisión con el tiempo, sino que además optimiza los recursos computacionales y mantiene el sistema actualizado con los cambios faciales naturales de los estudiantes (como uso de anteojos, barba, etc.).
+    
+    \item \textbf{Explorar el uso de técnicas de anonimización o protección de datos biométricos}, cumpliendo con principios de privacidad y legislación vigente (como la Ley de Protección de Datos Personales), de modo que el sistema pueda escalar institucionalmente sin comprometer la seguridad de la información.
+\end{itemize}

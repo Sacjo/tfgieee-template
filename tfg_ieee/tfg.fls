@@ -395,6 +395,7 @@ OUTPUT .\capitulo_01\introduccion.aux
 INPUT .\capitulo_01\introduccion.tex
 INPUT .\capitulo_01\introduccion.tex
 INPUT capitulo_01\introduccion.tex
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
 INPUT .\capitulo_02\marco_teorico.tex
 INPUT .\capitulo_02\marco_teorico.tex
 OUTPUT .\capitulo_02\marco_teorico.aux
@@ -422,7 +423,6 @@ INPUT .\imagenes_doc\Reconocimiento_Facial.jpg
 INPUT .\imagenes_doc\Reconocimiento_Facial.jpg
 INPUT .\imagenes_doc\Reconocimiento_Facial.jpg
 INPUT .\imagenes_doc\Reconocimiento_Facial.jpg
-INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
 INPUT .\imagenes_doc\redes_neuronales.png
 INPUT .\imagenes_doc\redes_neuronales.png
 INPUT .\imagenes_doc\redes_neuronales.png

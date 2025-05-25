@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.22)  18 MAY 2025 01:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.22)  24 MAY 2025 21:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -721,10 +721,10 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 (Font)              using `OT1/cmr/bx/n' instead on input line 61.
 
-<./portada_y_ficha_catalografica/logo.png, id=266, 216.0873pt x 216.0873pt>
+<./portada_y_ficha_catalografica/logo.png, id=242, 216.0873pt x 216.0873pt>
 File: ./portada_y_ficha_catalografica/logo.png Graphic file (type png)
 <use ./portada_y_ficha_catalografica/logo.png>
-Package pdftex.def Info: ./portada_y_ficha_catalografica/logo.png  used on input line 70.
+Package pdftex.def Info: ./portada_y_ficha_catalografica/logo.png  used on input line 71.
 (pdftex.def)             Requested size: 129.65337pt x 129.65337pt.
 [1
 
@@ -734,10 +734,15 @@ Package pdftex.def Info: ./portada_y_ficha_catalografica/logo.png  used on input
 {C:/Users/aldoc/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./portada_y_ficha_catalografica/logo.png>]
 \openout2 = `./portada_y_ficha_catalografica/portada_y_ficha_catalografica.aux'.
 
- (portada_y_ficha_catalografica/portada_y_ficha_catalografica.tex [2
+ (portada_y_ficha_catalografica/portada_y_ficha_catalografica.tex
+File: ./portada_y_ficha_catalografica/logo.png Graphic file (type png)
+<use ./portada_y_ficha_catalografica/logo.png>
+Package pdftex.def Info: ./portada_y_ficha_catalografica/logo.png  used on input line 30.
+(pdftex.def)             Requested size: 129.65337pt x 129.65337pt.
+ [2
 
 ]
-Overfull \hbox (3.36133pt too wide) in paragraph at lines 61--88
+Overfull \hbox (57.36356pt too wide) in paragraph at lines 79--103
  [][] 
  []
 
@@ -772,19 +777,19 @@ Overfull \hbox (3.36133pt too wide) in paragraph at lines 61--88
 ]
 \openout2 = `./resumen/resumen.aux'.
 
- (resumen/resumen.tex
-Overfull \hbox (24.40007pt too wide) in paragraph at lines 14--15
-\OT1/cmr/bx/n/12 Descriptores: \OT1/cmr/m/n/12 1. $\OML/cmm/m/it/12 <$\OT1/cmr/m/n/12 descriptor1$\OML/cmm/m/it/12 >$\OT1/cmr/m/n/12 , 2. $\OML/cmm/m/it/12 <$\OT1/cmr/m/n/12 descriptor2$\OML/cmm/m/it/12 >$\OT1/cmr/m/n/12 , 3. $\OML/cmm/m/it/12 <$\OT1/cmr/m/n/12 descriptor3$\OML/cmm/m/it/12 >$\OT1/cmr/m/n/12 . 
- []
-
-) [8
+ (resumen/resumen.tex) [8
 
 
 
 ]
 \openout2 = `./abstract/abstract.aux'.
 
- (abstract/abstract.tex) [9
+ (abstract/abstract.tex
+Overfull \hbox (50.01315pt too wide) in paragraph at lines 14--15
+\OT1/cmr/bx/n/14.4 Key words: \OT1/cmr/m/n/14.4 1. $\OML/cmm/m/it/14.4 <$\OT1/cmr/m/n/14.4 keyword1$\OML/cmm/m/it/14.4 >$\OT1/cmr/m/n/14.4 , 2. $\OML/cmm/m/it/14.4 <$\OT1/cmr/m/n/14.4 keyword2$\OML/cmm/m/it/14.4 >$\OT1/cmr/m/n/14.4 , 3. $\OML/cmm/m/it/14.4 <$\OT1/cmr/m/n/14.4 keyword3$\OML/cmm/m/it/14.4 >$\OT1/cmr/m/n/14.4 . 
+ []
+
+) [9
 
 
 
@@ -817,14 +822,11 @@ Package spanish Warning: Replacing `OT1/cmr/bx/sc' by
 
 
 ]
-Overfull \hbox (2.89984pt too wide) in paragraph at lines 43--43
- [][] [][]\OT1/cmr/m/n/12 ``\OT1/cmr/m/it/12 Prototipo de re-co-no-ci-mien-to fa-cial pa-ra me-jo-rar el con- 
- []
+LaTeX Info: Redefining \. on input line 51.
+LaTeX Info: Redefining \% on input line 51.
+LaTeX Info: Redefining \. on input line 51.
+LaTeX Info: Redefining \% on input line 51.
 
-LaTeX Info: Redefining \. on input line 61.
-LaTeX Info: Redefining \% on input line 61.
-LaTeX Info: Redefining \. on input line 61.
-LaTeX Info: Redefining \% on input line 61.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.71667pt, for example:
@@ -836,10 +838,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 \tf@toc=\write7
 \openout7 = `tfg.toc'.
 
-LaTeX Info: Redefining \. on input line 106.
-LaTeX Info: Redefining \% on input line 106.
-LaTeX Info: Redefining \. on input line 106.
-LaTeX Info: Redefining \% on input line 106.
+LaTeX Info: Redefining \. on input line 107.
+LaTeX Info: Redefining \% on input line 107.
+LaTeX Info: Redefining \. on input line 107.
+LaTeX Info: Redefining \% on input line 107.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -851,26 +853,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [12] (tfg.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-
-Overfull \hbox (6.64595pt too wide) in paragraph at lines 10--10
- [][] [][]\OT1/cmr/m/n/12 La ima-gen mues-tra c^^Somo una red neu-ro-nal con-vo-lu-cio-nal (CNN) 
- []
-
-
-Overfull \hbox (0.22787pt too wide) in paragraph at lines 10--10
- \OT1/cmr/m/n/12 pro-ce-sa una ima-gen en dis-tin-tas ca-pas, ex-tra-yen-do ca-rac-ter^^S^^Psti- 
- []
-
-[13
+ [13
 
 ])
 \tf@lof=\write8
 \openout8 = `tfg.lof'.
 
-LaTeX Info: Redefining \. on input line 108.
-LaTeX Info: Redefining \% on input line 108.
-LaTeX Info: Redefining \. on input line 108.
-LaTeX Info: Redefining \% on input line 108.
+LaTeX Info: Redefining \. on input line 109.
+LaTeX Info: Redefining \% on input line 109.
+LaTeX Info: Redefining \. on input line 109.
+LaTeX Info: Redefining \% on input line 109.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -879,7 +871,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
 
-[14] (tfg.lot
+[14]
+LaTeX Info: Redefining \. on input line 109.
+LaTeX Info: Redefining \% on input line 109.
+LaTeX Info: Redefining \. on input line 109.
+LaTeX Info: Redefining \% on input line 109.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.71667pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.71667pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
+
+[15] (tfg.lot
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
@@ -888,22 +893,22 @@ LaTeX Info: Redefining \% on input line 1.
 
 
 No file tfg.gls.
-[15
+[16
 
 ]
 \openout2 = `./capitulo_01/introduccion.aux'.
 
  (capitulo_01/introduccion.tex
 Cap\'{\i }tulo 1.
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 15.
-
 [1
 
 
 
 ]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 15.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -928,7 +933,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [4]
-Overfull \hbox (10.34377pt too wide) in paragraph at lines 109--109
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[5]
+Overfull \hbox (0.62378pt too wide) in paragraph at lines 107--107
 []\OT1/cmr/bx/sc/17.28 Descripci^^Son de los con-te-ni-dos por cap^^S^^Ptu-
  []
 
@@ -940,25 +953,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[5]
+[6]
 \openout2 = `./capitulo_02/marco_teorico.aux'.
 
  (capitulo_02/marco_teorico.tex
 \c@teorema=\count383
 
 Cap\'{\i }tulo 2.
-[6
+[7
 
 
 
 
 ]
-<imagenes_doc/segu_biometrica_1.jpg, id=542, 1033.8625pt x 689.57625pt>
-File: imagenes_doc/segu_biometrica_1.jpg Graphic file (type jpg)
-<use imagenes_doc/segu_biometrica_1.jpg>
-Package pdftex.def Info: imagenes_doc/segu_biometrica_1.jpg  used on input line 54.
-(pdftex.def)             Requested size: 234.00238pt x 156.0739pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -966,16 +973,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[7
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.64 
-      <./imagenes_doc/segu_biometrica_1.jpg>]
-<imagenes_doc/tabla_rand.jpg, id=547, 883.3pt x 588.1975pt>
+[8]
+<imagenes_doc/segu_biometrica_1.jpg, id=535, 1033.8625pt x 689.57625pt>
+File: imagenes_doc/segu_biometrica_1.jpg Graphic file (type jpg)
+<use imagenes_doc/segu_biometrica_1.jpg>
+Package pdftex.def Info: imagenes_doc/segu_biometrica_1.jpg  used on input line 54.
+(pdftex.def)             Requested size: 234.00238pt x 156.0739pt.
+<imagenes_doc/tabla_rand.jpg, id=536, 883.3pt x 588.1975pt>
 File: imagenes_doc/tabla_rand.jpg Graphic file (type jpg)
 <use imagenes_doc/tabla_rand.jpg>
-Package pdftex.def Info: imagenes_doc/tabla_rand.jpg  used on input line 77.
+Package pdftex.def Info: imagenes_doc/tabla_rand.jpg  used on input line 78.
 (pdftex.def)             Requested size: 234.00238pt x 155.81773pt.
 
 
@@ -985,16 +992,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[8
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) has been already used, duplicate ignored
+[9
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.106 
-       <./imagenes_doc/tabla_rand.jpg>]
-<imagenes_doc/Reconocimiento_Facial.jpg, id=552, 240.9pt x 166.9437pt>
+l.82 
+      <./imagenes_doc/segu_biometrica_1.jpg>]
+<imagenes_doc/Reconocimiento_Facial.jpg, id=542, 240.9pt x 166.9437pt>
 File: imagenes_doc/Reconocimiento_Facial.jpg Graphic file (type jpg)
 <use imagenes_doc/Reconocimiento_Facial.jpg>
-Package pdftex.def Info: imagenes_doc/Reconocimiento_Facial.jpg  used on input line 109.
+Package pdftex.def Info: imagenes_doc/Reconocimiento_Facial.jpg  used on input line 110.
 (pdftex.def)             Requested size: 234.00238pt x 162.16953pt.
 
 
@@ -1004,28 +1011,29 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[9
+[10
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.113 \end{figure}
+                   <./imagenes_doc/tabla_rand.jpg>]
+Overfull \hbox (10.62833pt too wide) in paragraph at lines 117--122
+[]\OT1/cmr/m/n/14.4 El re-co-no-ci-mien-to fa-cial es una ca-te-gor^^S^^Pa de se-gu-ri-dad biom^^Setri-
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[11
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.139   \item \textbf
+l.140   \item \textbf
                      {Paso 3: Conversión de la imagen a datos} <./imagenes_doc/Reconocimiento_Facial.jpg>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[10]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[11]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1042,10 +1050,46 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [13]
-<imagenes_doc/redes_neuronales.png, id=574, 755.82375pt x 398.48875pt>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[14]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[15]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[16]
+Overfull \hbox (15.68321pt too wide) in paragraph at lines 259--260
+\OT1/cmr/m/n/14.4 em-plear-se un en-fo-que mix-to lla-ma-do apren-di-za-je semi-supervisado,
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[17]
+<imagenes_doc/redes_neuronales.png, id=576, 755.82375pt x 398.48875pt>
 File: imagenes_doc/redes_neuronales.png Graphic file (type png)
 <use imagenes_doc/redes_neuronales.png>
-Package pdftex.def Info: imagenes_doc/redes_neuronales.png  used on input line 270.
+Package pdftex.def Info: imagenes_doc/redes_neuronales.png  used on input line 272.
 (pdftex.def)             Requested size: 234.00238pt x 123.37215pt.
 
 
@@ -1055,13 +1099,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[14]
-<imagenes_doc/image_01.jpg, id=579, 471.26062pt x 197.23688pt>
-File: imagenes_doc/image_01.jpg Graphic file (type jpg)
-<use imagenes_doc/image_01.jpg>
-Package pdftex.def Info: imagenes_doc/image_01.jpg  used on input line 287.
-(pdftex.def)             Requested size: 234.00238pt x 97.93802pt.
-
+[18]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1069,22 +1107,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[15
+[19
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.291 
+l.284 
        <./imagenes_doc/redes_neuronales.png (PNG copy)>]
-<imagenes_doc/image_02.jpg, id=584, 488.57532pt x 230.36063pt>
+<imagenes_doc/image_01.jpg, id=585, 471.26062pt x 197.23688pt>
+File: imagenes_doc/image_01.jpg Graphic file (type jpg)
+<use imagenes_doc/image_01.jpg>
+Package pdftex.def Info: imagenes_doc/image_01.jpg  used on input line 289.
+(pdftex.def)             Requested size: 234.00238pt x 97.93802pt.
+<imagenes_doc/image_02.jpg, id=586, 488.57532pt x 230.36063pt>
 File: imagenes_doc/image_02.jpg Graphic file (type jpg)
 <use imagenes_doc/image_02.jpg>
-Package pdftex.def Info: imagenes_doc/image_02.jpg  used on input line 296.
+Package pdftex.def Info: imagenes_doc/image_02.jpg  used on input line 298.
 (pdftex.def)             Requested size: 234.00238pt x 110.33281pt.
-<imagenes_doc/redes_convolucionales.png, id=585, 642.4pt x 329.23pt>
-File: imagenes_doc/redes_convolucionales.png Graphic file (type png)
-<use imagenes_doc/redes_convolucionales.png>
-Package pdftex.def Info: imagenes_doc/redes_convolucionales.png  used on input line 306.
-(pdftex.def)             Requested size: 234.00238pt x 119.9243pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1093,26 +1131,45 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[16
+[20
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.310 
+l.304 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.310 
+l.304 
        <./imagenes_doc/image_01.jpg> <./imagenes_doc/image_02.jpg>]
-<imagenes_doc/Redes_GAN.jpg, id=591, 1403.2425pt x 479.7925pt>
+<imagenes_doc/redes_convolucionales.png, id=591, 642.4pt x 329.23pt>
+File: imagenes_doc/redes_convolucionales.png Graphic file (type png)
+<use imagenes_doc/redes_convolucionales.png>
+Package pdftex.def Info: imagenes_doc/redes_convolucionales.png  used on input line 308.
+(pdftex.def)             Requested size: 234.00238pt x 119.9243pt.
+<imagenes_doc/Redes_GAN.jpg, id=592, 1403.2425pt x 479.7925pt>
 File: imagenes_doc/Redes_GAN.jpg Graphic file (type jpg)
 <use imagenes_doc/Redes_GAN.jpg>
-Package pdftex.def Info: imagenes_doc/Redes_GAN.jpg  used on input line 315.
+Package pdftex.def Info: imagenes_doc/Redes_GAN.jpg  used on input line 317.
 (pdftex.def)             Requested size: 234.00238pt x 80.00426pt.
-<imagenes_doc/registroimg.jpg, id=592, 1149.29375pt x 489.83pt>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[21
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.7}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.321 
+       <./imagenes_doc/redes_convolucionales.png>]
+<imagenes_doc/registroimg.jpg, id=599, 1149.29375pt x 489.83pt>
 File: imagenes_doc/registroimg.jpg Graphic file (type jpg)
 <use imagenes_doc/registroimg.jpg>
-Package pdftex.def Info: imagenes_doc/registroimg.jpg  used on input line 326.
+Package pdftex.def Info: imagenes_doc/registroimg.jpg  used on input line 329.
 (pdftex.def)             Requested size: 234.00238pt x 99.72816pt.
 
 
@@ -1122,69 +1179,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[17
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2.7}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.330 
-      
+[22
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.8}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.330 
-       <./imagenes_doc/redes_convolucionales.png> <./imagenes_doc/Redes_GAN.jpg>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[18
+l.341   \item \textbf
+                     {Asistencia:} Registro de las clases a las que el estud...
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.9}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.353 \end{itemize}
-                    <./imagenes_doc/registroimg.jpg>]
-Overfull \hbox (1.68692pt too wide) in paragraph at lines 366--366
-[]\OT1/cmr/bx/n/14.4 ``\OT1/cmr/bx/it/14.4 Sistema de examen en l^^S^^Pnea con re-co-no-ci-mien-
+l.341   \item \textbf
+                     {Asistencia:} Registro de las clases a las que el estud... <./imagenes_doc/Redes_GAN.jpg> <./imagenes_doc/registroimg.jpg>]
+Overfull \hbox (1.3817pt too wide) in paragraph at lines 354--355
+[]\OT1/cmr/bx/sc/14.4 Seguimiento acad^^Semi-co: \OT1/cmr/m/n/14.4 Fa-ci-li-tan el se-gui-mien-to del pro-
  []
 
-
-Overfull \hbox (5.26848pt too wide) in paragraph at lines 371--371
-\OT1/cmr/bx/it/14.4 uti-li-zan-do re-des neu-ro-na-les ar-ti-fi-cia-les en Rasp-
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[19]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[20])
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[21] (capitulo_03/marco_metodologico.tex
-Cap\'{\i }tulo 3.
-[22
-
-
-
-]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1208,7 +1217,69 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[25]
+[25])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[26]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[27] (capitulo_03/marco_metodologico.tex
+Cap\'{\i }tulo 3.
+[28
+
+
+
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[29]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[30]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[31]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[32]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[33]
 Underfull \hbox (badness 5924) in paragraph at lines 136--136
 []|\OT1/cmr/m/n/8 Realizar en-tre-vis-tas con
  []
@@ -1235,20 +1306,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[26]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[27
+[34
 pdfTeX warning (ext4): destination with the same identifier (name{table.3.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.170 \end{enumerate}
-                     ]
+l.162 
+      ]
 Underfull \hbox (badness 2443) in paragraph at lines 183--183
 []|\OT1/cmr/m/n/10 Seleccionar los al-go-rit-
  []
@@ -1335,7 +1398,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[28
+[35]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[36
 pdfTeX warning (ext4): destination with the same identifier (name{table.3.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1348,21 +1419,26 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[29]
+[37]
 
-LaTeX Warning: Citation `lan' on page 30 undefined on input line 251.
+LaTeX Warning: Citation `lan' on page 38 undefined on input line 251.
 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[38]
 \@gls@deffile=\write10
 \openout10 = `tfg.glsdefs'.
 
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+Overfull \hbox (1.49481pt too wide) in paragraph at lines 258--259
+[]\OT1/cmr/bx/it/14.4 Metodolog^^S^^Pa pa-ra im-ple-men-tar red de ^^Sarea lo-cal. ([][]Lo-
+ []
 
-[30]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1370,7 +1446,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[31]
+[39]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1378,7 +1454,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[32])
+[40]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1386,7 +1462,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[33]
+[41])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[42]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[43]
 \openout2 = `./capitulo_04/resultados.aux'.
 
  (capitulo_04/resultados.tex
@@ -1401,7 +1493,7 @@ Overfull \hbox (33.53856pt too wide) in paragraph at lines 18--35
  [][] 
  []
 
-[34
+[44
 
 
 
@@ -1456,7 +1548,7 @@ Overfull \hbox (76.10059pt too wide) in paragraph at lines 66--83
  [][] 
  []
 
-<capitulo_04/imagenes/1.jpg.png, id=710, 1421.31pt x 596.2275pt>
+<capitulo_04/imagenes/1.jpg.png, id=742, 1421.31pt x 596.2275pt>
 File: capitulo_04/imagenes/1.jpg.png Graphic file (type png)
 <use capitulo_04/imagenes/1.jpg.png>
 Package pdftex.def Info: capitulo_04/imagenes/1.jpg.png  used on input line 92.
@@ -1468,7 +1560,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[35
+[45
 pdfTeX warning (ext4): destination with the same identifier (name{table.4.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1479,7 +1571,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.4.3}) ha
                                                   \__shipout_drop_firstpage_...
 l.94 \end{figure}
                  ]
-<capitulo_04/imagenes/umbral_1.0_30.jpg, id=719, 1606.0pt x 952.55875pt>
+<capitulo_04/imagenes/umbral_1.0_30.jpg, id=752, 1606.0pt x 952.55875pt>
 File: capitulo_04/imagenes/umbral_1.0_30.jpg Graphic file (type jpg)
 <use capitulo_04/imagenes/umbral_1.0_30.jpg>
 Package pdftex.def Info: capitulo_04/imagenes/umbral_1.0_30.jpg  used on input line 98.
@@ -1492,7 +1584,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[36
+[46
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1503,12 +1595,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2}) h
                                                   \__shipout_drop_firstpage_...
 l.102 \newpage
                <./capitulo_04/imagenes/1.jpg.png> <./capitulo_04/imagenes/umbral_1.0_30.jpg>]
-<capitulo_04/imagenes/2.png, id=725, 1421.31pt x 596.2275pt>
+<capitulo_04/imagenes/2.png, id=758, 1421.31pt x 596.2275pt>
 File: capitulo_04/imagenes/2.png Graphic file (type png)
 <use capitulo_04/imagenes/2.png>
 Package pdftex.def Info: capitulo_04/imagenes/2.png  used on input line 108.
 (pdftex.def)             Requested size: 312.00119pt x 130.87932pt.
-<capitulo_04/imagenes/1.3_min_dist25.jpg, id=726, 1606.0pt x 938.50626pt>
+<capitulo_04/imagenes/1.3_min_dist25.jpg, id=759, 1606.0pt x 938.50626pt>
 File: capitulo_04/imagenes/1.3_min_dist25.jpg Graphic file (type jpg)
 <use capitulo_04/imagenes/1.3_min_dist25.jpg>
 Package pdftex.def Info: capitulo_04/imagenes/1.3_min_dist25.jpg  used on input line 114.
@@ -1521,7 +1613,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[37
+[47
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1532,12 +1624,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.4}) h
                                                   \__shipout_drop_firstpage_...
 l.118 \newpage
                <./capitulo_04/imagenes/2.png> <./capitulo_04/imagenes/1.3_min_dist25.jpg>]
-<capitulo_04/imagenes/3.png, id=732, 1421.31pt x 596.2275pt>
+<capitulo_04/imagenes/3.png, id=765, 1421.31pt x 596.2275pt>
 File: capitulo_04/imagenes/3.png Graphic file (type png)
 <use capitulo_04/imagenes/3.png>
 Package pdftex.def Info: capitulo_04/imagenes/3.png  used on input line 124.
 (pdftex.def)             Requested size: 312.00119pt x 130.87932pt.
-<capitulo_04/imagenes/umbral1.8min_dist20.jpg, id=733, 1606.0pt x 950.55125pt>
+<capitulo_04/imagenes/umbral1.8min_dist20.jpg, id=766, 1606.0pt x 950.55125pt>
 File: capitulo_04/imagenes/umbral1.8min_dist20.jpg Graphic file (type jpg)
 <use capitulo_04/imagenes/umbral1.8min_dist20.jpg>
 Package pdftex.def Info: capitulo_04/imagenes/umbral1.8min_dist20.jpg  used on input line 130.
@@ -1550,7 +1642,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[38
+[48
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1561,12 +1653,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.6}) h
                                                   \__shipout_drop_firstpage_...
 l.134 \newpage
                <./capitulo_04/imagenes/3.png> <./capitulo_04/imagenes/umbral1.8min_dist20.jpg>]
-<capitulo_04/imagenes/4.png, id=739, 706.64pt x 634.37pt>
+<capitulo_04/imagenes/4.png, id=772, 706.64pt x 634.37pt>
 File: capitulo_04/imagenes/4.png Graphic file (type png)
 <use capitulo_04/imagenes/4.png>
 Package pdftex.def Info: capitulo_04/imagenes/4.png  used on input line 141.
 (pdftex.def)             Requested size: 312.00119pt x 280.09163pt.
-<capitulo_04/imagenes/4.4.jpg, id=740, 1284.8pt x 751.80875pt>
+<capitulo_04/imagenes/4.4.jpg, id=773, 1284.8pt x 751.80875pt>
 File: capitulo_04/imagenes/4.4.jpg Graphic file (type jpg)
 <use capitulo_04/imagenes/4.4.jpg>
 Package pdftex.def Info: capitulo_04/imagenes/4.4.jpg  used on input line 147.
@@ -1579,7 +1671,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[39
+[49
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.7}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1590,12 +1682,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.8}) h
                                                   \__shipout_drop_firstpage_...
 l.152 \newpage
                <./capitulo_04/imagenes/4.png> <./capitulo_04/imagenes/4.4.jpg>]
-<capitulo_04/imagenes/5.png, id=746, 706.64pt x 634.37pt>
+<capitulo_04/imagenes/5.png, id=779, 706.64pt x 634.37pt>
 File: capitulo_04/imagenes/5.png Graphic file (type png)
 <use capitulo_04/imagenes/5.png>
 Package pdftex.def Info: capitulo_04/imagenes/5.png  used on input line 159.
 (pdftex.def)             Requested size: 312.00119pt x 280.09163pt.
-<capitulo_04/imagenes/5.5.jpg, id=747, 1606.0pt x 932.48375pt>
+<capitulo_04/imagenes/5.5.jpg, id=780, 1606.0pt x 932.48375pt>
 File: capitulo_04/imagenes/5.5.jpg Graphic file (type jpg)
 <use capitulo_04/imagenes/5.5.jpg>
 Package pdftex.def Info: capitulo_04/imagenes/5.5.jpg  used on input line 165.
@@ -1608,7 +1700,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[40
+[50
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.9}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1619,12 +1711,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.10}) 
                                                   \__shipout_drop_firstpage_...
 l.170 \newpage
                <./capitulo_04/imagenes/5.png> <./capitulo_04/imagenes/5.5.jpg>]
-<capitulo_04/imagenes/6.png, id=754, 706.64pt x 634.37pt>
+<capitulo_04/imagenes/6.png, id=786, 706.64pt x 634.37pt>
 File: capitulo_04/imagenes/6.png Graphic file (type png)
 <use capitulo_04/imagenes/6.png>
 Package pdftex.def Info: capitulo_04/imagenes/6.png  used on input line 177.
 (pdftex.def)             Requested size: 312.00119pt x 280.09163pt.
-<capitulo_04/imagenes/6.6.jpg, id=755, 1606.0pt x 950.55125pt>
+<capitulo_04/imagenes/6.6.jpg, id=787, 1606.0pt x 950.55125pt>
 File: capitulo_04/imagenes/6.6.jpg Graphic file (type jpg)
 <use capitulo_04/imagenes/6.6.jpg>
 Package pdftex.def Info: capitulo_04/imagenes/6.6.jpg  used on input line 183.
@@ -1637,7 +1729,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[41
+[51
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.11}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1663,13 +1755,18 @@ Overfull \hbox (74.60303pt too wide) in paragraph at lines 203--218
  []
 
 
+Overfull \hbox (1.10355pt too wide) in paragraph at lines 224--225
+[]\OT1/cmr/m/n/14.4 La ta-bla mues-tra el ren-di-mien-to de di-fe-ren-tes mo-de-los YOLO-
+ []
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[42
+[52
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.12}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1679,7 +1776,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.4.4}) ha
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.225 
-       <./capitulo_04/imagenes/6.6.jpg>])
+       <./capitulo_04/imagenes/6.6.jpg>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1687,27 +1784,35 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[43
+[53
 pdfTeX warning (ext4): destination with the same identifier (name{table.4.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.117 \include{./capitulo_04/resultados}
-                                        
+l.306 
+      
 pdfTeX warning (ext4): destination with the same identifier (name{table.4.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.117 \include{./capitulo_04/resultados}
-                                        
+l.306 
+      ])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[54
 pdfTeX warning (ext4): destination with the same identifier (name{table.4.7}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.117 \include{./capitulo_04/resultados}
+l.118 \include{./capitulo_04/resultados}
                                         ]
 \openout2 = `./capitulo_05/discusion.aux'.
 
  (capitulo_05/discusion.tex
 Cap\'{\i }tulo 5.
-[44
+[55
 
 
 
@@ -1720,7 +1825,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[45])
+[56]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1728,7 +1833,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[46]
+[57])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[58]
 No file tfg.gls.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1737,7 +1850,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[47
+[59
 
 
 
@@ -1745,11 +1858,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 ]
 \openout2 = `./anexos/anexo.aux'.
 
- (anexos/anexo.tex) [48
+ (anexos/anexo.tex) [60
 
 
 
-] (tfg.bbl) [49
+] (tfg.bbl) [61
 
 
 
@@ -1773,30 +1886,30 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `tfg.out' has not changed.
-(rerunfilecheck)             Checksum: 3779754294A9D295E0AA7DC8CC2DB4DE;14689.
+(rerunfilecheck)             Checksum: 5CF868759A756162AF16DD0B312923D3;11456.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 39 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 22424 strings out of 474486
- 423292 string characters out of 5753570
- 1967542 words of memory out of 5000000
- 44101 multiletter control sequences out of 15000+600000
- 576275 words of font info for 105 fonts, out of 8000000 for 9000
+ 22419 strings out of 474486
+ 423009 string characters out of 5753570
+ 1965542 words of memory out of 5000000
+ 44079 multiletter control sequences out of 15000+600000
+ 572179 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,14n,89p,2411b,906s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,14n,89p,2411b,910s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{glo:sored} has been referenced but does not exist, replaced by a fixed one
 
 
 pdfTeX warning (dest): name{glo:lan} has been referenced but does not exist, replaced by a fixed one
 
- <C:\Users\aldoc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on tfg.pdf (64 pages, 2811230 bytes).
+ <C:\Users\aldoc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1440.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on tfg.pdf (77 pages, 2818886 bytes).
 PDF statistics:
- 913 PDF objects out of 1000 (max. 8388607)
- 198 named destinations out of 1000 (max. 500000)
- 647 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 958 PDF objects out of 1000 (max. 8388607)
+ 215 named destinations out of 1000 (max. 500000)
+ 599 words of extra memory for PDF output out of 10000 (max. 10000000)
 

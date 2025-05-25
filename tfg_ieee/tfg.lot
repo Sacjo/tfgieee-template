@@ -2,15 +2,16 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Cronograma de tareas.}}{34}{table.3.1}%
-\contentsline {table}{\numberline {3.2}{\ignorespaces Operacionalización de variables.}}{36}{table.3.2}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Componentes de hardware y software utilizados en el sistema}}{44}{table.4.1}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces Errores frecuentes y acciones de mitigación}}{45}{table.4.2}%
-\contentsline {table}{\numberline {4.3}{\ignorespaces Configuración de umbral vs. resultado esperado}}{45}{table.4.3}%
-\contentsline {table}{\numberline {4.4}{\ignorespaces Comparativa de modelos YOLO para detección facial}}{52}{table.4.4}%
-\contentsline {table}{\numberline {4.5}{\ignorespaces Rendimiento de modelos YOLO en distintos niveles de dificultad (WIDER Face)}}{53}{table.4.5}%
-\contentsline {table}{\numberline {4.6}{\ignorespaces Comparativa de modelos de DeepFace (Parte 1)}}{53}{table.4.6}%
-\contentsline {table}{\numberline {4.7}{\ignorespaces Comparativa de modelos de DeepFace (Parte 2: ventajas y desventajas)}}{54}{table.4.7}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Cronograma de tareas}}{39}{table.4.1}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Operacionalización de variables.}}{41}{table.4.2}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces Componentes de hardware y software utilizados en el sistema}}{49}{table.5.1}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces Errores frecuentes y acciones de mitigación}}{50}{table.5.2}%
+\contentsline {table}{\numberline {5.3}{\ignorespaces Configuración de umbral vs. resultado esperado}}{50}{table.5.3}%
+\contentsline {table}{\numberline {5.4}{\ignorespaces Comparativa de modelos YOLO para detección facial}}{57}{table.5.4}%
+\contentsline {table}{\numberline {5.5}{\ignorespaces Rendimiento de modelos YOLO en distintos niveles de dificultad (WIDER Face)}}{58}{table.5.5}%
+\contentsline {table}{\numberline {5.6}{\ignorespaces Comparativa de modelos de DeepFace (Parte 1)}}{58}{table.5.6}%
+\contentsline {table}{\numberline {5.7}{\ignorespaces Comparativa de modelos de DeepFace (Parte 2: ventajas y desventajas)}}{59}{table.5.7}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

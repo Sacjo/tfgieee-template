@@ -2,27 +2,28 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Ejemplo de Seguridad Biométrica}}{9}{figure.2.1}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Una vista de la tableta digitalizadora de RAND; creada en la década de 1960, en la que se probó el primer sistema de identificación facial}}{10}{figure.2.2}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Dispositivo de reconocimiento facial utilizado en un aeropuerto para verificar la identidad de los pasajeros mediante el análisis de sus rasgos faciales en tiempo real.}}{11}{figure.2.3}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Estructura de una red neuronal profunda.}}{19}{figure.2.4}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces La imagen representa una red neuronal prealimentada, uno de los modelos más básicos y utilizados en inteligencia artificial.}}{20}{figure.2.5}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Representación de una red neuronal recurrente (RNN), donde las conexiones internas permiten el manejo de secuencias mediante memoria temporal.}}{20}{figure.2.6}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces La imagen muestra cómo una red neuronal convolucional (CNN) procesa una imagen en distintas capas, extrayendo características progresivas desde patrones simples hasta rostros completos para generar una salida final.}}{21}{figure.2.7}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces La imagen ilustra el funcionamiento de una red generativa adversaria (GAN), donde un generador crea muestras falsas a partir de ruido aleatorio y un discriminador intenta distinguir entre muestras reales y falsas, retroalimentando a ambos modelos para mejorar su rendimiento.}}{22}{figure.2.8}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces La imagen muestra un formato tradicional de registro de asistencia escolar, utilizado por docentes para anotar la presencia diaria de los alumnos a lo largo de un período determinado.}}{22}{figure.2.9}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Una vista de la tableta digitalizadora de RAND; creada en la década de 1960, en la que se probó el primer sistema de identificación facial\cite {lanacion_historiafacial}.}}{10}{figure.2.2}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Dispositivo de reconocimiento facial utilizado en un aeropuerto para verificar la identidad de los pasajeros mediante el análisis de sus rasgos faciales en tiempo real\cite {aeropuertosJapon}.}}{11}{figure.2.3}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Estructura de una red neuronal profunda\cite {ricardogeek_redesneuronales}.}}{19}{figure.2.4}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces La imagen representa una red neuronal prealimentada, uno de los modelos más básicos y utilizados en inteligencia artificial\cite {interactivechaos_ffnn}.}}{20}{figure.2.5}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Representación de una red neuronal recurrente (RNN), donde las conexiones internas permiten el manejo de secuencias mediante memoria temporal\cite {interactivechaos_ffnn}.}}{20}{figure.2.6}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces La imagen muestra cómo una red neuronal convolucional (CNN) procesa una imagen en distintas capas, extrayendo características progresivas desde patrones simples hasta rostros completos para generar una salida final\cite {falken_cnn}.}}{21}{figure.2.7}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces La imagen ilustra el funcionamiento de una red generativa adversaria (GAN), donde un generador crea muestras falsas a partir de ruido aleatorio y un discriminador intenta distinguir entre muestras reales y falsas, retroalimentando a ambos modelos para mejorar su rendimiento\cite {gan_aws}.}}{22}{figure.2.8}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces La imagen muestra un formato tradicional de registro de asistencia escolar, utilizado por docentes para anotar la presencia diaria de los alumnos a lo largo de un período determinado\cite {listaAsistenciaEscolar}.}}{22}{figure.2.9}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento facial.}}{46}{figure.4.1}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Resultados obtenidos aplicando la configuración anterior (umbral = 1.0 y factor de similitud 30).}}{46}{figure.4.2}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento facial.}}{47}{figure.4.3}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Resultados obtenidos aplicando la configuración anterior (umbral = 1.3 y factor de similitud 25).}}{47}{figure.4.4}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento facial.}}{48}{figure.4.5}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Resultados obtenidos aplicando la configuración anterior (umbral = 1.8 y factor de similitud 20).}}{48}{figure.4.6}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento facial.}}{49}{figure.4.7}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Resultados obtenidos aplicando la configuración anterior (umbral = 3.5 y factor de similitud 18).}}{49}{figure.4.8}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento facial.}}{50}{figure.4.9}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Resultados obtenidos aplicando la configuración anterior (umbral = 5 y factor de similitud 15).}}{50}{figure.4.10}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento facial.}}{51}{figure.4.11}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Resultados obtenidos aplicando la configuración anterior (umbral = 10 y factor de similitud 10).}}{52}{figure.4.12}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento facial.}}{51}{figure.5.1}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Resultados obtenidos aplicando la configuración anterior (umbral = 1.0 y factor de similitud 30).}}{51}{figure.5.2}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento facial.}}{52}{figure.5.3}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Resultados obtenidos aplicando la configuración anterior (umbral = 1.3 y factor de similitud 25).}}{52}{figure.5.4}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento facial.}}{53}{figure.5.5}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Resultados obtenidos aplicando la configuración anterior (umbral = 1.8 y factor de similitud 20).}}{53}{figure.5.6}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento facial.}}{54}{figure.5.7}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Resultados obtenidos aplicando la configuración anterior (umbral = 3.5 y factor de similitud 18).}}{54}{figure.5.8}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento facial.}}{55}{figure.5.9}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Resultados obtenidos aplicando la configuración anterior (umbral = 5 y factor de similitud 15).}}{55}{figure.5.10}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento facial.}}{56}{figure.5.11}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Resultados obtenidos aplicando la configuración anterior (umbral = 10 y factor de similitud 10).}}{57}{figure.5.12}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

@@ -19,10 +19,14 @@ Reallocating 'name_of_file' (item size: 1) to 31 items.
 A level-1 auxiliary file: ./capitulo_01/introduccion.aux
 Reallocating 'name_of_file' (item size: 1) to 32 items.
 A level-1 auxiliary file: ./capitulo_02/marco_teorico.aux
+Reallocating 'name_of_file' (item size: 1) to 44 items.
+A level-1 auxiliary file: ./capitulo_03/Herramientas_Tecnologicas.aux
+Reallocating 'name_of_file' (item size: 1) to 37 items.
+A level-1 auxiliary file: ./capitulo_04/marco_metodologico.aux
 Reallocating 'name_of_file' (item size: 1) to 29 items.
-A level-1 auxiliary file: ./capitulo_04/resultados.aux
+A level-1 auxiliary file: ./capitulo_05/resultados.aux
 Reallocating 'name_of_file' (item size: 1) to 28 items.
-A level-1 auxiliary file: ./capitulo_05/discusion.aux
+A level-1 auxiliary file: ./capitulo_06/discusion.aux
 Reallocating 'name_of_file' (item size: 1) to 19 items.
 A level-1 auxiliary file: ./anexos/anexo.aux
 Reallocating 'name_of_file' (item size: 1) to 20 items.
@@ -34,6 +38,7 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: test.bib
+Warning--I didn't find a database entry for "sampieri"
 Warning--I didn't find a database entry for "lan"
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
@@ -41,45 +46,45 @@ Warning--I didn't find a database entry for "lan"
 ** IEEEtran BST control entry "IEEEexample:BSTcontrol" detected.
 
 Done.
-You've used 2 entries,
+You've used 32 entries,
             4087 wiz_defined-function locations,
-            844 strings with 7881 characters,
-and the built_in function-call counts, 787 in all, are:
-= -- 37
-> -- 28
-< -- 5
-+ -- 13
-- -- 7
-* -- 47
-:= -- 124
-add.period$ -- 2
-call.type$ -- 2
-change.case$ -- 7
-chr.to.int$ -- 21
-cite$ -- 2
-duplicate$ -- 64
-empty$ -- 66
-format.name$ -- 4
-if$ -- 157
+            1012 strings with 14986 characters,
+and the built_in function-call counts, 12855 in all, are:
+= -- 1060
+> -- 193
+< -- 14
++ -- 99
+- -- 44
+* -- 419
+:= -- 2384
+add.period$ -- 80
+call.type$ -- 32
+change.case$ -- 51
+chr.to.int$ -- 45
+cite$ -- 32
+duplicate$ -- 976
+empty$ -- 1167
+format.name$ -- 46
+if$ -- 2827
 int.to.chr$ -- 0
-int.to.str$ -- 1
-missing$ -- 8
-newline$ -- 27
-num.names$ -- 1
-pop$ -- 35
+int.to.str$ -- 31
+missing$ -- 239
+newline$ -- 177
+num.names$ -- 27
+pop$ -- 707
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 4
-skip$ -- 41
+skip$ -- 1007
 stack$ -- 0
-substring$ -- 10
-swap$ -- 24
-text.length$ -- 2
+substring$ -- 106
+swap$ -- 628
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 6
-type$ -- 2
+type$ -- 32
 warning$ -- 0
-while$ -- 7
-width$ -- 2
-write$ -- 30
-(There was 1 warning)
+while$ -- 36
+width$ -- 33
+write$ -- 349
+(There were 2 warnings)

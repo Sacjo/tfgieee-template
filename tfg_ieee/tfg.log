@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.22)  25 MAY 2025 01:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.22)  25 MAY 2025 19:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -785,8 +785,8 @@ Overfull \hbox (57.36356pt too wide) in paragraph at lines 79--103
 \openout2 = `./abstract/abstract.aux'.
 
  (abstract/abstract.tex
-Overfull \hbox (50.01315pt too wide) in paragraph at lines 14--15
-\OT1/cmr/bx/n/14.4 Key words: \OT1/cmr/m/n/14.4 1. $\OML/cmm/m/it/14.4 <$\OT1/cmr/m/n/14.4 keyword1$\OML/cmm/m/it/14.4 >$\OT1/cmr/m/n/14.4 , 2. $\OML/cmm/m/it/14.4 <$\OT1/cmr/m/n/14.4 keyword2$\OML/cmm/m/it/14.4 >$\OT1/cmr/m/n/14.4 , 3. $\OML/cmm/m/it/14.4 <$\OT1/cmr/m/n/14.4 keyword3$\OML/cmm/m/it/14.4 >$\OT1/cmr/m/n/14.4 . 
+Overfull \hbox (1.0345pt too wide) in paragraph at lines 16--17
+\OT1/cmr/bx/n/14.4 Key words: \OT1/cmr/m/n/14.4 1. Fa-cial Re-cog-ni-tion, 2. At-ten-dan-ce Con-
  []
 
 ) [9
@@ -2193,7 +2193,7 @@ Package rerunfilecheck Info: File `tfg.out' has not changed.
 Here is how much of TeX's memory you used:
  22579 strings out of 474486
  427322 string characters out of 5753570
- 1953542 words of memory out of 5000000
+ 1954542 words of memory out of 5000000
  44172 multiletter control sequences out of 15000+600000
  572179 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2205,7 +2205,7 @@ pdfTeX warning (dest): name{glo:sored} has been referenced but does not exist, r
 pdfTeX warning (dest): name{glo:lan} has been referenced but does not exist, replaced by a fixed one
 
  <C:\Users\aldoc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1440.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on tfg.pdf (87 pages, 2882924 bytes).
+Output written on tfg.pdf (87 pages, 2885194 bytes).
 PDF statistics:
  1244 PDF objects out of 1440 (max. 8388607)
  269 named destinations out of 1000 (max. 500000)

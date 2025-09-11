@@ -119,37 +119,77 @@ El desarrollo sigue una metodología que combina técnicas de ingeniería de sof
 \end{enumerate}
 
 
+% En el preámbulo:
+% \usepackage[table]{xcolor}
+% \usepackage{array}
+% \setlength{\arrayrulewidth}{0.6pt} % (opcional) grosor de líneas
+
 \subsection{Cronograma de tareas}
-\begin{center}
-	\begin{table}[h]
-		\begin{center}
-			\caption{Cronograma de tareas}
-			\label{tab:cronograma}
-			\setlength{\tabcolsep}{2.5pt} % Reduce el espacio entre columnas
-			\renewcommand{\arraystretch}{1.5} % Reduce la altura de las filas
-			\begin{scriptsize}
-				\begin{tabular}{|>{\columncolor[rgb]{0.8,0.8,0.8}}c|cccccccccc|}
-					\hline 
-					& \multicolumn{10}{>{\columncolor[rgb]{0.8,0.8,0.8}}c|}{2025} \\ 
-					\multirow{-2}{*}{Tarea} & \cellcolor[rgb]{0.8,0.8,0.8} Mar & \cellcolor[rgb]{0.8,0.8,0.8} Abr & \cellcolor[rgb]{0.8,0.8,0.8} May & \cellcolor[rgb]{0.8,0.8,0.8} Jun & \cellcolor[rgb]{0.8,0.8,0.8} Jun & \cellcolor[rgb]{0.8,0.8,0.8} Ago & \cellcolor[rgb]{0.8,0.8,0.8} Sep & \cellcolor[rgb]{0.8,0.8,0.8} Oct & \cellcolor[rgb]{0.8,0.8,0.8} Nov & \cellcolor[rgb]{0.8,0.8,0.8} Dic \\ 
-					\hline 
-					Recopilacion de informacion & \cellcolor{green!50}{{\textbf{100\%}}} & & & & & & & & & \\
-					Entrevistas con personal & \cellcolor{green!50}{{\textbf{100\%}}} & & & & & & & & & \\ 
-					Documentación de los requisitos  & \cellcolor{green!50}{{\textbf{100\%}}} & & & & & & & & & \\
-					Analisis y seleccion de algoritmo de reconocimiento facial &  \cellcolor{green!50}{{\textbf{100\%}}} & & &  & & & & & & \\ 
-                    Diseño del esquema de la base de datos & \cellcolor{green!50}{\makebox[1.5cm][c]{\textbf{100\%}}} & \cellcolor{green!50} & & & & & & & & \\
-					Programación del software  & & \cellcolor{gray!50} & \cellcolor{gray!50} & \cellcolor{gray!50} & \cellcolor{gray!50} & \cellcolor{gray!50} & \cellcolor{gray!50} & \cellcolor{gray!50} & \cellcolor{gray!50} & \\ 
-					Integración de la base de datos con el sistema & & & \cellcolor{gray!50} & \cellcolor{gray!50} & & & & & & \\ 
-					Evaluación del cumplimiento de los requitios  & & & & & \cellcolor{gray!50} & \cellcolor{gray!50} & & & & \\ 
-					Documentación de los resultados de las pruebas  & & & & & & & \cellcolor{gray!50} & \cellcolor{gray!50} & &  \\ 
-				 	Comparación de los resultados & & & & & & & & & \cellcolor{gray!50} & \cellcolor{gray!50}  \\ 
-				 	Elaborar conclusiones & & & & & & & & & & \cellcolor{gray!50}  \\ 
-					\hline
-				\end{tabular}
-			\end{scriptsize}
-		\end{center}
-	\end{table}
-\end{center}
+
+\begin{table}[h]
+\centering
+\caption{Cronograma de tareas}
+\label{tab:cronograma}
+\setlength{\tabcolsep}{2.5pt}
+\renewcommand{\arraystretch}{1.35}
+\begin{scriptsize}
+\begin{tabular}{|>{\columncolor[rgb]{0.85,0.85,0.85}}p{6.9cm}|*{10}{c|}}
+\hline
+& \multicolumn{10}{>{\columncolor[rgb]{0.85,0.85,0.85}}c|}{2025} \\
+\multirow{-2}{*}{\centering Tarea}
+& \cellcolor[rgb]{0.85,0.85,0.85}Mar
+& \cellcolor[rgb]{0.85,0.85,0.85}Abr
+& \cellcolor[rgb]{0.85,0.85,0.85}May
+& \cellcolor[rgb]{0.85,0.85,0.85}Jun
+& \cellcolor[rgb]{0.85,0.85,0.85}Jul
+& \cellcolor[rgb]{0.85,0.85,0.85}Ago
+& \cellcolor[rgb]{0.85,0.85,0.85}Sep
+& \cellcolor[rgb]{0.85,0.85,0.85}Oct
+& \cellcolor[rgb]{0.85,0.85,0.85}Nov
+& \cellcolor[rgb]{0.85,0.85,0.85}Dic \\
+\hline
+
+Recopilación de información
+& \cellcolor{green!45}\textbf{100\%} & & & & & & & & & \\
+
+Entrevistas con personal
+& \cellcolor{green!45}\textbf{100\%} & & & & & & & & & \\
+
+Documentación de los requisitos
+& \cellcolor{green!45}\textbf{100\%} & & & & & & & & & \\
+
+Análisis y selección de algoritmo de reconocimiento facial
+& \cellcolor{green!45}\textbf{100\%} & & & & & & & & & \\
+
+Diseño del esquema de la base de datos
+& \cellcolor{green!45}\textbf{100\%} & & & & & & & & & \\
+
+Programación del software
+& & \cellcolor{red!65} & \cellcolor{red!65} & \cellcolor{red!65} &
+\cellcolor{red!65} & \cellcolor{red!65}{\textbf{\textcolor{white}{80\%}}} & & & & \\
+
+Integración de la base de datos con el sistema
+& & & & \cellcolor{green!45}\textbf{100\%} & \cellcolor{green!45} & & & & & \\
+
+Evaluación del cumplimiento de los requisitos
+& & & & & & \cellcolor{red!65} & \cellcolor{red!65}{\textbf{\textcolor{white}{85\%}}} & & & \\
+
+
+Documentación de los resultados de las pruebas
+& & & & & & & & \cellcolor{gray!35} & \cellcolor{gray!35} & \\
+
+Comparación de los resultados
+& & & & & & & & & \cellcolor{gray!35} & \cellcolor{gray!35} \\
+
+Elaborar conclusiones
+& & & & & & & & & & \cellcolor{gray!35} \\
+\hline
+\end{tabular}
+\end{scriptsize}
+\end{table}
+
+
+
 
 
 \subsection{Operacionalización de variables}

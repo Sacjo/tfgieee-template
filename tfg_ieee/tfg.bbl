@@ -209,6 +209,13 @@ Reconocimiento facial para la automatización del registro de asistencia a
   \url{https://www.godaddy.com/resources/latam/desarrollo/python-que-es}
 \BIBentrySTDinterwordspacing
 
+\bibitem{javascript}
+\BIBentryALTinterwordspacing
+{EBAC}. (2024) ¿qué es javascript? [en línea]. Disponible:
+  https://ebac.mx/blog/que-es-javascript. [en línea]. Disponible:
+  \url{https://ebac.mx/blog/que-es-javascript}
+\BIBentrySTDinterwordspacing
+
 \bibitem{sql}
 \BIBentryALTinterwordspacing
 {IBM Corporation}. (2024) ¿qué es sql (structured query language)? [en
@@ -247,6 +254,21 @@ Reconocimiento facial para la automatización del registro de asistencia a
   \url{https://docs.github.com/es/desktop/overview/about-github-desktop}, 2025,
   [en línea]. Disponible:
   https://docs.github.com/es/desktop/overview/about-github-desktop.
+
+\bibitem{react}
+\BIBentryALTinterwordspacing
+{EBAC}. (2024) ¿qué es react? [en línea]. Disponible:
+  https://ebac.mx/blog/que-es-react. [en línea]. Disponible:
+  \url{https://ebac.mx/blog/que-es-react}
+\BIBentrySTDinterwordspacing
+
+\bibitem{flask}
+\BIBentryALTinterwordspacing
+{Built In}. (2024) What is flask? a guide to the python microframework. [en
+  línea]. Disponible:
+  https://builtin.com/software-engineering-perspectives/flask. [en línea].
+  Disponible: \url{https://builtin.com/software-engineering-perspectives/flask}
+\BIBentrySTDinterwordspacing
 
 \bibitem{yolo}
 \BIBentryALTinterwordspacing

@@ -119,3 +119,271 @@ En la Figura~\ref{fig:rostro_original} se muestra un ejemplo de una imagen facia
 El proceso de preprocesamiento incluye la detección automática del rostro, recorte, alineación, y ajustes de brillo y contraste. Este procedimiento asegura que todas las imágenes presenten condiciones similares de entrada, mejorando la precisión del modelo en la identificación de los usuarios en tiempo real.
 
 
+\section{Entrenamiento del Modelo}
+
+El entrenamiento del modelo constituye una etapa esencial del sistema, ya que permite generar representaciones numéricas únicas (\textit{embeddings}) de cada rostro a partir de las imágenes registradas. En esta fase se empleó la librería \textbf{DeepFace} junto con el modelo \textbf{ArcFace}, reconocido por su alta precisión en tareas de verificación facial gracias a su capacidad para generar embeddings discriminativos y estables frente a variaciones de iluminación, expresión o ángulo de captura.
+
+\subsection*{Configuración del entorno de entrenamiento}
+
+\begin{itemize}
+    \item \textbf{Lenguaje:} Python 3.12.11
+    \item \textbf{Librerías principales:} DeepFace, OpenCV, NumPy, Ultralytics
+    \item \textbf{Entorno:} Visual Studio Code (ejecución local con GPU o CPU)
+    \item \textbf{Estructura del dataset:} Imágenes organizadas por usuario en carpetas dentro de \texttt{raw\_faces/} (imágenes originales) y \texttt{known\_faces/} (rostros recortados).
+    \item \textbf{Formato de salida:} Archivos JSON con los embeddings y centroides por usuario.
+\end{itemize}
+
+\subsection*{Proceso de entrenamiento}
+
+El proceso de entrenamiento fue automatizado mediante el script \texttt{train\_faces.py}, compuesto por dos fases principales: el preprocesamiento de imágenes y la generación de representaciones faciales.
+
+\begin{enumerate}
+    \item \textbf{Registro del usuario e ingreso de imágenes:} \\
+    Desde la interfaz web, un usuario administrativo registra a un nuevo alumno y carga sus fotografías faciales. Cada conjunto de imágenes se guarda en una carpeta individual dentro del directorio \texttt{raw\_faces/}, identificada por el número de cédula del alumno (CI).
+
+    \item \textbf{Detección y recorte facial:} \\
+    Para garantizar que solo se utilicen regiones válidas del rostro, el sistema emplea el modelo \textbf{YOLO-Face}. Este detecta automáticamente el rostro en cada imagen, recorta la región correspondiente y la redimensiona a \textbf{160×160 píxeles}, almacenando el resultado en \texttt{known\_faces/}. Este paso estandariza las entradas, asegurando consistencia en las condiciones de entrenamiento.
+
+    \item \textbf{Generación de embeddings con DeepFace:} \\
+    Cada imagen procesada se analiza mediante \textbf{DeepFace} utilizando el modelo \textbf{ArcFace}, el cual genera un vector numérico de características que describe de forma única los rasgos faciales del individuo. \\
+    Para cada alumno, el sistema genera un archivo JSON individual con su número de cédula como nombre (por ejemplo, \texttt{5144692.json}), que contiene todos los embeddings derivados de sus imágenes.
+
+    \item \textbf{Cálculo y actualización de centroides:} \\
+    Posteriormente, se calcula el \textbf{centroide} del alumno, representando el promedio robusto de todos sus embeddings. Este vector resume los rasgos característicos del rostro y facilita comparaciones futuras. \\
+    A diferencia de un reentrenamiento completo, el sistema implementa una \textbf{actualización incremental}: cuando se agrega un nuevo alumno o se añaden más imágenes a un registro existente, el sistema no recalcula todos los centroides, sino que actualiza únicamente el correspondiente al usuario modificado. De este modo, se optimiza el rendimiento y se conserva el historial de entrenamiento.
+
+    \item \textbf{Almacenamiento estructurado:} \\
+    Los embeddings individuales se guardan en el directorio \texttt{embeddings/}, mientras que el archivo \texttt{centroids.json} mantiene un índice general con los centroides y estadísticas de todos los usuarios. Esta estructura facilita la expansión progresiva del sistema sin afectar los registros previos.
+\end{enumerate}
+
+
+\section{Diseño de la aplicación}
+\subsection{Arquitectura del sistema}
+
+El sistema fue diseñado bajo el enfoque cliente-servidor, utilizando una arquitectura basada en \textbf{REST API} para permitir la comunicación fluida entre el \textbf{Frontend (cliente)} y el \textbf{Backend (servidor)}.  
+Esta arquitectura facilita la escalabilidad, el mantenimiento y la integración con futuras funcionalidades del sistema de reconocimiento facial.
+
+El sistema se compone de tres módulos principales:
+
+\begin{itemize}
+    \item \textbf{Frontend:} desarrollado en \textbf{React.js}, se encarga de la interfaz gráfica y la interacción directa con el usuario. Permite registrar nuevos estudiantes, gestionar materias, asignarlas a los alumnos, capturar o subir fotografías faciales, consultar los registros de asistencia y cargar justificativos en caso de inasistencia. Su diseño adaptable y responsivo garantiza una experiencia de uso fluida tanto en equipos de escritorio como en dispositivos móviles.
+
+    \item \textbf{Backend:} implementado en \textbf{Flask (Python)}, maneja la lógica del sistema, las rutas de la API y la comunicación con la base de datos. Integra los módulos de detección facial con \textbf{YOLO-Face} y el reconocimiento mediante \textbf{DeepFace (modelo ArcFace)}, además de gestionar el almacenamiento de embeddings, centroides y registros de asistencia.
+
+    \item \textbf{Base de datos:} construida en \textbf{PostgreSQL}, almacena de forma estructurada la información de usuarios, cursos, asistencias y datos biométricos. Se eligió por su robustez, soporte de transacciones concurrentes y compatibilidad con entornos productivos en la nube.
+\end{itemize}
+\subsection{Integración de IA y Reconocimiento Facial}
+
+Para la detección y reconocimiento facial, el sistema integra dos componentes principales de inteligencia artificial: \textbf{YOLO-Face}, una red neuronal convolucional especializada en la detección de rostros en tiempo real, y \textbf{DeepFace} con el modelo \textbf{ArcFace}, encargado de generar las representaciones numéricas (embeddings) y verificar la identidad de los usuarios.  
+
+El modelo \textbf{YOLO-Face} identifica y localiza las caras presentes en cada imagen o cuadro de video. Una vez detectado el rostro, el sistema recorta automáticamente la zona correspondiente y la normaliza a un tamaño estándar de \textbf{160×160 píxeles}, garantizando uniformidad en las condiciones de entrada para la siguiente etapa del procesamiento.  
+
+Posteriormente, el rostro recortado es analizado mediante \textbf{DeepFace}, que genera un vector de características (embedding) utilizando el modelo \textbf{ArcFace}. Estos vectores se almacenan y utilizan en fases posteriores del sistema para la identificación de los usuarios registrados.  
+
+\textbf{El flujo general de procesamiento es el siguiente:}
+
+\begin{enumerate}
+    \item Captura o carga de imagen facial desde la interfaz.
+    \item Detección automática de rostros mediante YOLO-Face.
+    \item Recorte y normalización del rostro detectado.
+    \item Generación de embeddings con DeepFace (modelo ArcFace).
+    \item Registro automático de la asistencia según el resultado del proceso.
+\end{enumerate}
+
+El proceso completo se ejecuta desde el backend, implementado en \textbf{Flask (Python)}, que coordina la detección, el reconocimiento y el registro de resultados en la base de datos \textbf{PostgreSQL}.  
+Esta integración permite un flujo automatizado, eficiente y en tiempo real, garantizando precisión en la identificación de los estudiantes durante la toma de asistencia.
+
+\subsection{Relevamiento de requisitos}
+
+El relevamiento de requisitos se llevó a cabo mediante la aplicación de encuestas dirigidas a profesores y estudiantes de la Facultad Politécnica de la Universidad Nacional del Este (FPUNE), con el objetivo de identificar las principales necesidades y expectativas respecto al control de asistencia en el entorno académico.  
+
+Los resultados obtenidos permitieron comprender las mejoras asociadas a los métodos tradicionales de control de asistencia —tales como pérdida de tiempo, errores humanos y registros inconsistentes—, y sirvieron de base para definir los requisitos funcionales y no funcionales del sistema.
+
+\subsubsection*{Requisitos funcionales (RF)}
+
+Los requisitos funcionales representan las acciones que el sistema debe realizar para cumplir su propósito. A partir del análisis de las encuestas y la definición de objetivos, se identificaron los siguientes requisitos funcionales, resumidos en la Tabla~\ref{tab:rf_checkface}.
+
+\begin{table}[H]
+\centering
+\caption{Requisitos funcionales del sistema CheckFace}
+\label{tab:rf_checkface}
+\begin{tabular}{|c|p{11cm}|}
+\hline
+\textbf{Código} & \textbf{Requisito funcional} \\ \hline
+RF1 & El sistema debe permitir el registro de nuevos estudiantes y docentes mediante una interfaz web. \\ \hline
+RF2 & El sistema debe permitir la carga de imágenes faciales de los estudiantes para el entrenamiento del modelo. \\ \hline
+RF3 & El sistema debe detectar automáticamente los rostros presentes en video. \\ \hline
+RF4 & El sistema debe generar embeddings faciales y almacenarlos junto con la información del usuario. \\ \hline
+RF5 & El sistema debe registrar automáticamente la asistencia al reconocer un rostro en tiempo real. \\ \hline
+RF6 & El sistema debe permitir consultar y justificar asistencias desde la interfaz web. \\ \hline
+\end{tabular}
+\end{table}
+
+\subsubsection*{Requisitos no funcionales (RNF)}
+
+Los requisitos no funcionales establecen las condiciones de calidad, rendimiento y usabilidad que el sistema debe cumplir para garantizar un funcionamiento eficiente y confiable. La Tabla~\ref{tab:rnf_checkface} presenta los principales requisitos no funcionales definidos.
+
+\begin{table}[H]
+\centering
+\caption{Requisitos no funcionales del sistema CheckFace}
+\label{tab:rnf_checkface}
+\begin{tabular}{|c|p{11cm}|}
+\hline
+\textbf{Código} & \textbf{Requisito no funcional} \\ \hline
+RNF1 & El sistema debe procesar la detección y reconocimiento facial en menos de 3 segundos por usuario. \\ \hline
+RNF2 & El sistema debe mantener una precisión mínima del 80\% en la identificación de rostros. \\ \hline
+RNF3 & La interfaz debe ser intuitiva, responsiva y accesible desde dispositivos móviles y computadoras. \\ \hline
+RNF4 & La base de datos debe garantizar integridad, seguridad y respaldo de los registros. \\ \hline
+\end{tabular}
+\end{table}
+
+
+\subsection{Caso de Uso Principal del Sistema}
+
+En la Figura~\ref{fig:caso_uso_principal} se representa el caso de uso principal del sistema, en el cual interactúan dos actores principales: el \textbf{docentes} y el \textbf{alumnos}.  
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{capitulo_04/imagenes/5.png}
+    \caption{Caso de uso principal del sistema CheckFace.}
+    \label{fig:caso_uso_principal}
+\end{figure}
+
+\subsubsection{Descripción general del caso de uso}
+
+El sistema distingue dos tipos de usuarios con diferentes niveles de acceso: el \textbf{Docente} y el \textbf{Estudiante}.
+
+\textbf{Docente:} tiene acceso completo a todas las funcionalidades del sistema. Puede registrar estudiantes, cursos, horarios y roles; asignar materias; registrar asistencias mediante el reconocimiento facial; y acceder al panel principal (\textit{Dashboard}) con los reportes y estadísticas. Además, puede administrar los datos del sistema y supervisar su funcionamiento general, actuando como un administrador.
+
+\textbf{Estudiante:} dispone de un acceso limitado al sistema, pudiendo ingresar únicamente al \textit{Dashboard} para visualizar sus registros de asistencia y verificar su historial personal. No posee permisos de edición ni administración de datos.
+
+\subsection{Definición de la Base de Datos y Tablas}
+
+Para la gestión eficiente de la información del sistema, se diseñó una base de datos relacional implementada en \textbf{PostgreSQL}, compuesta por varias tablas que permiten almacenar, relacionar y gestionar los datos de usuarios, participantes, cursos, horarios y asistencias.  
+La estructura propuesta busca garantizar integridad referencial, seguridad y escalabilidad, facilitando futuras ampliaciones del sistema.
+
+\subsubsection*{Modelo de entidad-relación}
+
+La base de datos se compone de siete entidades principales: \textbf{roles}, \textbf{users}, \textbf{participants}, \textbf{courses}, \textbf{course\_schedules}, \textbf{participant\_courses} y \textbf{attendances}.  
+Estas entidades reflejan la estructura funcional del sistema, permitiendo asociar estudiantes a cursos, registrar asistencias y controlar los horarios académicos.  
+En la Figura~\ref{fig:der_checkface} se muestra el diagrama entidad-relación correspondiente.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{capitulo_04/imagenes/1.png}
+    \caption{Diagrama de Entidad–Relación del sistema CheckFace.}
+    \label{fig:der_checkface}
+\end{figure}
+
+\subsubsection*{Diccionario de datos}
+
+Con el fin de documentar detalladamente la estructura de cada tabla, se elaboró un diccionario de datos que especifica los atributos, tipos de datos y relaciones existentes. A continuación, se describen las tablas principales que conforman la base de datos.
+
+\begin{table}[H]
+\centering
+\caption{Diccionario de datos de la tabla \textit{roles}}
+\begin{tabular}{|l|l|p{8cm}|}
+\hline
+\textbf{Atributo} & \textbf{Tipo de Dato} & \textbf{Descripción} \\ \hline
+id & SERIAL (PK) & Identificador único del rol. \\ \hline
+description & VARCHAR(120) & Nombre o descripción del rol asignado al usuario. \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{Diccionario de datos de la tabla \textit{users}}
+\begin{tabular}{|l|l|p{8cm}|}
+\hline
+\textbf{Atributo} & \textbf{Tipo de Dato} & \textbf{Descripción} \\ \hline
+id & SERIAL (PK) & Identificador único del usuario. \\ \hline
+username & VARCHAR(120) & Nombre de usuario utilizado para iniciar sesión. \\ \hline
+password & TEXT & Contraseña encriptada del usuario. \\ \hline
+role\_id & INT (FK) & Referencia al rol del usuario en la tabla \textit{roles}. \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{Diccionario de datos de la tabla \textit{participants}}
+\begin{tabular}{|l|l|p{8cm}|}
+\hline
+\textbf{Atributo} & \textbf{Tipo de Dato} & \textbf{Descripción} \\ \hline
+id & SERIAL (PK) & Identificador único del participante. \\ \hline
+full\_name & VARCHAR(120) & Nombre completo del estudiante o participante. \\ \hline
+ci & INT & Número de cédula de identidad del participante. \\ \hline
+occupation & VARCHAR(50) & Rol académico del participante (por ejemplo, alumno). \\ \hline
+user\_id & INT (FK) & Relación con el usuario correspondiente en la tabla \textit{users}. \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{Diccionario de datos de la tabla \textit{courses}}
+\begin{tabular}{|l|l|p{8cm}|}
+\hline
+\textbf{Atributo} & \textbf{Tipo de Dato} & \textbf{Descripción} \\ \hline
+id & SERIAL (PK) & Identificador único del curso. \\ \hline
+name & VARCHAR(120) & Nombre de la materia o curso. \\ \hline
+career & VARCHAR(120) & Carrera o programa académico al que pertenece el curso. \\ \hline
+semester & INT & Semestre académico correspondiente. \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{Diccionario de datos de la tabla \textit{course\_schedules}}
+\begin{tabular}{|l|l|p{8cm}|}
+\hline
+\textbf{Atributo} & \textbf{Tipo de Dato} & \textbf{Descripción} \\ \hline
+id & SERIAL (PK) & Identificador único del horario. \\ \hline
+course\_id & INT (FK) & Referencia al curso correspondiente. \\ \hline
+day & VARCHAR(20) & Día de la semana en que se dicta el curso. \\ \hline
+schedule & VARCHAR(50) & Horario asignado al curso. \\ \hline
+classroom & VARCHAR(50) & Aula o sala asignada. \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{Diccionario de datos de la tabla \textit{participant\_courses}}
+\begin{tabular}{|l|l|p{8cm}|}
+\hline
+\textbf{Atributo} & \textbf{Tipo de Dato} & \textbf{Descripción} \\ \hline
+id & SERIAL (PK) & Identificador único de la relación. \\ \hline
+participant\_id & INT (FK) & Referencia al participante matriculado. \\ \hline
+course\_id & INT (FK) & Referencia al curso correspondiente. \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{Diccionario de datos de la tabla \textit{attendances}}
+\begin{tabular}{|l|l|p{8cm}|}
+\hline
+\textbf{Atributo} & \textbf{Tipo de Dato} & \textbf{Descripción} \\ \hline
+id & SERIAL (PK) & Identificador único del registro de asistencia. \\ \hline
+participant\_id & INT (FK) & Referencia al participante que asiste al curso. \\ \hline
+course\_id & INT (FK) & Referencia al curso al que pertenece la asistencia. \\ \hline
+date & DATE & Fecha en la que se registra la asistencia. \\ \hline
+observations & TEXT & Observaciones adicionales o justificación de inasistencia. \\ \hline
+\end{tabular}
+\end{table}
+
+
+\subsection{Diagrama de flujo del funcionamiento del sistema}
+
+A continuación, en la Figura~\ref{fig:flujo_checkface}, se presenta el diagrama de flujo que describe el funcionamiento general del sistema de asistencia basado en reconocimiento facial.  
+Este diagrama representa las etapas principales del proceso automatizado, desde la carga de imágenes del alumno hasta el registro final de la asistencia en la base de datos.
+
+En la primera etapa, el usuario (docente) carga las imágenes faciales de los estudiantes a través de la interfaz del sistema. Estas imágenes son procesadas por el script \texttt{train\_faces.py}, el cual realiza el entrenamiento inicial mediante la generación de embeddings faciales con el modelo \textbf{DeepFace (ArcFace)}.  
+Una vez completado el entrenamiento, el sistema activa la cámara y da inicio al proceso de detección y reconocimiento en tiempo real utilizando el modelo \textbf{YOLO-Face}.
+
+Durante la ejecución, si el rostro detectado coincide con un registro existente en la base de datos, el sistema marca automáticamente al estudiante como \textbf{presente}. En caso contrario, el rostro es clasificado como \textbf{desconocido}, permitiendo un control más preciso sobre la identificación facial.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{capitulo_04/imagenes/2.png}
+    \caption{Diagrama de flujo del funcionamiento del sistema CheckFace.}
+    \label{fig:flujo_checkface}
+\end{figure}

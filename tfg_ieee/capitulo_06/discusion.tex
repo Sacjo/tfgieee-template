@@ -6,33 +6,94 @@
 
 \chapter{Discusión}
 
-El desarrollo del sistema automatizado de control de asistencia mediante reconocimiento facial en la FPUNE permitió abordar una problemática concreta y recurrente en los entornos académicos: la gestión precisa, ágil y confiable de la asistencia estudiantil. A lo largo de esta investigación, se cumplieron los objetivos propuestos y se obtuvo una solución funcional basada en tecnologías de visión artificial.
+El desarrollo del Sistema de Asistencia Basado en Reconocimiento Facial para la FPUNE permitió abordar una problemática frecuente en el ámbito académico: la gestión eficiente y confiable de la asistencia estudiantil.
 
-Los resultados experimentales obtenidos muestran que, con una configuración adecuada de los parámetros del sistema —como el umbral de similitud y el modelo de reconocimiento—, es posible lograr un desempeño óptimo tanto en precisión como en velocidad de procesamiento. Por ejemplo, al aplicar configuraciones con umbrales entre 1.0 y 1.8 y ajustar el factor de similitud, se observó un control eficaz sobre los falsos positivos, lo cual refuerza la aplicabilidad del sistema en entornos reales. Estos hallazgos coinciden con estudios previos en los que se destaca la sensibilidad de los sistemas biométricos ante condiciones de iluminación, ángulo y calidad de imagen.
+Los resultados obtenidos evidencian que, con una configuración adecuada de parámetros como el umbral de similitud y el modelo de reconocimiento, es posible alcanzar un desempeño satisfactorio en precisión y velocidad. Modelos como YOLOv8n-Face y ArcFace demostraron un equilibrio óptimo entre exactitud y rendimiento, resultando viables para entornos con recursos limitados.
 
-Asimismo, se comprobó que modelos como YOLOv8n-Face y ArcFace ofrecen un equilibrio ideal entre precisión, rendimiento y tamaño del modelo, lo que los convierte en opciones viables para instituciones con recursos limitados. Este punto representa un avance sobre propuestas anteriores que requerían hardware especializado o mantenían altas tasas de error.
+Entre las principales limitaciones se identificaron la sensibilidad a la iluminación y las expresiones faciales, además de la necesidad de disponer de múltiples imágenes por usuario. Estos aspectos abren líneas de mejora orientadas a incrementar la robustez del sistema y ampliar la base de datos.
 
-
-Entre las limitaciones encontradas, se destaca la sensibilidad a las condiciones de captura (especialmente iluminación y expresión), así como la necesidad de contar con múltiples imágenes por usuario para reducir el margen de error. Estas cuestiones abren la puerta a futuras investigaciones que busquen mejorar la robustez del sistema, integrar técnicas de aprendizaje continuo o ampliar la base de datos con más diversidad.
-
-Finalmente, la experiencia de implementación dejó en evidencia que la automatización del control de asistencia no solo es técnicamente posible, sino también beneficiosa desde el punto de vista administrativo, al reducir errores humanos y optimizar los procesos de control en clase. En este sentido, el sistema desarrollado no solo respondió a las preguntas de investigación, sino que aportó evidencia concreta para su posible adopción e implementación institucional.
+En síntesis, la implementación del sistema demostró ser una solución técnica factible y beneficiosa, capaz de reducir errores humanos y optimizar los procesos administrativos relacionados con el control de asistencia.
 
 
-\section{Logros alcanzados}
 
-El proyecto logró implementar un sistema funcional de asistencia basado en reconocimiento facial adaptado a las condiciones técnicas y operativas de la FPUNE. A lo largo del desarrollo se cumplieron los objetivos específicos planteados: se evaluaron diferentes modelos de reconocimiento facial, se seleccionaron las tecnologías más adecuadas (YOLOv8 y ArcFace), y se diseñó un flujo completo de captura, detección, extracción de características y verificación.
+\section{Logros alcanzados con relación a los objetivos específicos}
 
-Además, se realizaron pruebas en distintas condiciones de iluminación, ángulo y expresión facial, lo que permitió validar la efectividad del sistema frente a escenarios reales. Las configuraciones óptimas (por ejemplo, con umbrales de distancia entre 1.3 y 1.8) demostraron un buen equilibrio entre precisión y tolerancia a variaciones.
+\textbf{1. Seleccionar los algoritmos de reconocimiento facial}
 
-El sistema también fue evaluado en tiempo de ejecución y mostró buen rendimiento en hardware accesible, lo que valida su aplicabilidad en entornos académicos con recursos limitados. Se documentaron los ajustes aplicados para mejorar la precisión y reducir falsos positivos, destacando la importancia del preprocesamiento, la segmentación por identidad y el uso de índices embebidos en memoria.
+El objetivo se cumplió satisfactoriamente mediante la selección de modelos adecuados para la detección y reconocimiento facial. Se optó por el uso de \textbf{YOLOv8n-Face} para la detección de rostros y \textbf{ArcFace} para la verificación de identidad, debido a su equilibrio entre exactitud, velocidad de procesamiento y tamaño del modelo.
 
-\section{Solución del problema de investigación}
+\textbf{Conclusión:} El objetivo se alcanzó plenamente, estableciendo una base sólida para el desarrollo del sistema de asistencia. \par
 
-El problema identificado fue la necesidad de automatizar el registro de asistencia de alumnos en la FPUNE utilizando tecnologías confiables y no intrusivas. A través del enfoque aplicado, se logró resolverlo con un sistema que captura rostros en tiempo real, identifica a los estudiantes registrados y registra automáticamente su presencia, eliminando procesos manuales.
+\textbf{2. Seleccionar las herramientas tecnológicas para el desarrollo del sistema}
 
-Los resultados obtenidos permiten afirmar que el sistema desarrollado cumple con su propósito principal: registrar de forma precisa, rápida y automática la asistencia de los estudiantes.
+Se cumplió el objetivo al definir una infraestructura tecnológica compatible con los requerimientos del proyecto. Se utilizaron \textbf{Python}, \textbf{OpenCV} y \textbf{Flask} en el backend, junto con \textbf{PostgreSQL} para la base de datos y \textbf{React} en el frontend, logrando una arquitectura modular, escalable y de fácil mantenimiento.
 
-Además, se logró responder adecuadamente a las preguntas de investigación planteadas y se comprobó la hipótesis inicial. Esto valida tanto la viabilidad técnica como la operatividad del sistema en el contexto académico local, demostrando su aplicabilidad en entornos reales.
+\textbf{Conclusión:} El conjunto de herramientas seleccionadas permitió integrar eficazmente las etapas de captura, reconocimiento y almacenamiento de datos. \par
+
+\textbf{3. Identificar los requisitos para el desarrollo del sistema de registro de asistencia para la FPUNE}
+
+El objetivo se alcanzó mediante la recopilación de información sobre los procedimientos actuales de control de asistencia y las necesidades específicas de los docentes y administrativos. Se definieron los requisitos funcionales y no funcionales, incluyendo seguridad de datos, facilidad de uso, precisión del reconocimiento y disponibilidad en tiempo real.
+
+\textbf{Conclusión:} La identificación de requisitos permitió diseñar un sistema ajustado a las condiciones técnicas y operativas de la FPUNE. \par
+
+\textbf{4. Desarrollar el sistema de reconocimiento facial y gestión de asistencias}
+
+Se cumplió el objetivo mediante el desarrollo del \textbf{Sistema de Asistencia Basado en Reconocimiento Facial para la FPUNE}, que integra los módulos de detección, reconocimiento y registro automático en la base de datos. El sistema fue implementado con una interfaz intuitiva, capaz de registrar la asistencia sin intervención manual.
+
+\textbf{Conclusión:} El desarrollo del sistema demostró la viabilidad técnica del proyecto y su potencial de aplicación en entornos académicos reales. \par
+
+\textbf{5. Realizar pruebas de implementación}
+
+El objetivo se cumplió a través de la ejecución de pruebas en diferentes condiciones de iluminación, distancia y expresión facial, con el fin de validar el rendimiento del sistema en escenarios reales. Las pruebas permitieron observar el comportamiento del modelo ante variaciones comunes en el entorno de aula, demostrando resultados consistentes y satisfactorios.
+
+\textbf{Conclusión:} Las pruebas confirmaron la efectividad del sistema y su capacidad de mantener un desempeño estable en condiciones de uso real. \par
+
+\textbf{6. Evaluar los resultados obtenidos}
+
+Se cumplió el objetivo mediante la evaluación del desempeño general del sistema, considerando aspectos de precisión, velocidad de respuesta y confiabilidad en el registro automático de asistencia. Los resultados evidenciaron que el sistema responde adecuadamente a las condiciones del entorno académico, garantizando un reconocimiento preciso y una gestión eficiente de los datos.
+
+\textbf{Conclusión:} La evaluación de resultados demostró que el sistema cumple con los objetivos planteados, ofreciendo una solución tecnológica funcional, eficiente y adaptable para la automatización del control de asistencia.
+
+\section{Logros alcanzados con relación al Objetivo General}
+
+El objetivo general de implementar un sistema de reconocimiento facial para el control de asistencia de estudiantes de la Facultad Politécnica de la Universidad Nacional del Este fue alcanzado satisfactoriamente. Se desarrolló una solución funcional que automatiza el registro de asistencia de manera precisa, rápida y sin intervención manual.
+
+El sistema emplea técnicas de visión por computadora y modelos de reconocimiento facial capaces de detectar y registrar rostros en tiempo real. Su funcionamiento demostró resultados consistentes en entornos de aula, reduciendo errores humanos y optimizando el proceso de control de asistencia.
+
+La implementación comprobó la viabilidad del sistema propuesto, consolidándose como una herramienta moderna y adaptable para la gestión académica de la FPUNE.
+
+\section{Análisis de la hipótesis}
+
+La hipótesis de esta investigación establecía que:
+
+\begin{quote}
+“El sistema de control de asistencia basado en reconocimiento facial registra la asistencia de los estudiantes de la FPUNE.”
+\end{quote}
+
+Los resultados obtenidos durante el desarrollo y la validación del sistema confirman la veracidad de esta hipótesis. El sistema demostró capacidad para registrar de manera automática la asistencia de los estudiantes en condiciones reales de aula, manteniendo un desempeño constante ante variaciones de iluminación y expresión facial.
+
+Durante las pruebas, el reconocimiento de rostros y el registro de datos se realizaron de forma precisa y con una velocidad de procesamiento adecuada, cumpliendo con los requerimientos funcionales planteados. 
+
+En consecuencia, la hipótesis queda confirmada, evidenciando que el uso de técnicas de reconocimiento facial constituye una alternativa viable y eficiente para automatizar el control de asistencia en la Facultad Politécnica de la Universidad Nacional del Este.
+
+
+\section{Solución al problema de investigación}
+
+El problema identificado en el Capítulo 1 señalaba que el control de asistencia en la Facultad Politécnica de la Universidad Nacional del Este se realizaba mediante métodos tradicionales, como el llamado de lista o el registro manual en papel, generando errores humanos, pérdida de documentos y dificultades en la organización de los datos.
+
+La solución desarrollada —un sistema de asistencia basado en reconocimiento facial— responde directamente a esta problemática, permitiendo registrar de forma automática la asistencia de los estudiantes y almacenar la información de manera digital y ordenada.
+
+La implementación del sistema:
+
+\begin{itemize}
+    \item Elimina la necesidad de registros manuales, reduciendo significativamente los errores humanos.  
+    \item Acelera el proceso de control de asistencia, registrando la presencia de los estudiantes en segundos.  
+    \item Facilita la gestión de datos mediante una interfaz que permite consultar, registrar y actualizar la información en tiempo real.  
+    \item Ofrece un funcionamiento estable en condiciones comunes de aula, garantizando un registro confiable.  
+\end{itemize}
+
+En síntesis, el sistema no solo resuelve el problema técnico planteado, sino que también mejora la eficiencia y la precisión del proceso de control de asistencia, contribuyendo a una gestión académica más moderna y automatizada dentro de la FPUNE.
+
 
 \section{Sugerencias para futuras investigaciones}
 

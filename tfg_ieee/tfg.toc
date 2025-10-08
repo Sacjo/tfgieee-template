@@ -69,10 +69,12 @@
 \contentsline {subsection}{\numberline {5.1.1}Errores detectados y ajustes aplicados}{52}{subsection.5.1.1}%
 \contentsline {subsection}{\numberline {5.1.2}Configuraciones aplicadas y resultados obtenidos}{53}{subsection.5.1.2}%
 \contentsline {chapter}{\numberline {6}Discusión}{62}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Logros alcanzados}{63}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Solución del problema de investigación}{64}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Sugerencias para futuras investigaciones}{64}{section.6.3}%
-\contentsline {chapter}{Glosario}{66}{section.6.3}%
-\contentsline {chapter}{Anexos}{66}{section.6.3}%
-\contentsline {chapter}{Anexo A.}{67}{chapter*.17}%
-\contentsline {chapter}{Referencias bibliogr\'aficas}{68}{chapter*.17}%
+\contentsline {section}{\numberline {6.1}Logros alcanzados con relación a los objetivos específicos}{63}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Logros alcanzados con relación al Objetivo General}{65}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Análisis de la hipótesis}{65}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Solución al problema de investigación}{66}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Sugerencias para futuras investigaciones}{67}{section.6.5}%
+\contentsline {chapter}{Glosario}{69}{section.6.5}%
+\contentsline {chapter}{Anexos}{69}{section.6.5}%
+\contentsline {chapter}{Anexo A.}{70}{chapter*.17}%
+\contentsline {chapter}{Referencias bibliogr\'aficas}{71}{chapter*.17}%

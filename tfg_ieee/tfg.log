@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.10)  7 OCT 2025 04:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.10)  8 OCT 2025 01:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -741,7 +741,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 (Font)              using `OT1/cmr/bx/n' instead on input line 61.
 
-<./portada_y_ficha_catalografica/logo.png, id=306, 216.0873pt x 216.0873pt>
+<./portada_y_ficha_catalografica/logo.png, id=314, 216.0873pt x 216.0873pt>
 File: ./portada_y_ficha_catalografica/logo.png Graphic file (type png)
 <use ./portada_y_ficha_catalografica/logo.png>
 Package pdftex.def Info: ./portada_y_ficha_catalografica/logo.png  used on input line 71.
@@ -1040,12 +1040,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [8]
-<imagenes_doc/segu_biometrica_1.jpg, id=645, 1033.8625pt x 689.57625pt>
+<imagenes_doc/segu_biometrica_1.jpg, id=656, 1033.8625pt x 689.57625pt>
 File: imagenes_doc/segu_biometrica_1.jpg Graphic file (type jpg)
 <use imagenes_doc/segu_biometrica_1.jpg>
 Package pdftex.def Info: imagenes_doc/segu_biometrica_1.jpg  used on input line 57.
 (pdftex.def)             Requested size: 234.00238pt x 156.0739pt.
-<imagenes_doc/tabla_rand.jpg, id=649, 883.3pt x 588.1975pt>
+<imagenes_doc/tabla_rand.jpg, id=660, 883.3pt x 588.1975pt>
 File: imagenes_doc/tabla_rand.jpg Graphic file (type jpg)
 <use imagenes_doc/tabla_rand.jpg>
 Package pdftex.def Info: imagenes_doc/tabla_rand.jpg  used on input line 81.
@@ -1079,7 +1079,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) h
                                                   \__shipout_drop_firstpage_...
 l.103 
        <./imagenes_doc/tabla_rand.jpg>]
-<imagenes_doc/Reconocimiento_Facial.jpg, id=666, 240.9pt x 166.9437pt>
+<imagenes_doc/Reconocimiento_Facial.jpg, id=677, 240.9pt x 166.9437pt>
 File: imagenes_doc/Reconocimiento_Facial.jpg Graphic file (type jpg)
 <use imagenes_doc/Reconocimiento_Facial.jpg>
 Package pdftex.def Info: imagenes_doc/Reconocimiento_Facial.jpg  used on input line 106.
@@ -1140,7 +1140,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [15]
-<imagenes_doc/DEEP_LEARNING.jpg, id=704, 1187.43625pt x 1204.5pt>
+<imagenes_doc/DEEP_LEARNING.jpg, id=715, 1187.43625pt x 1204.5pt>
 File: imagenes_doc/DEEP_LEARNING.jpg Graphic file (type jpg)
 <use imagenes_doc/DEEP_LEARNING.jpg>
 Package pdftex.def Info: imagenes_doc/DEEP_LEARNING.jpg  used on input line 247.
@@ -1169,7 +1169,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}) h
                                                   \__shipout_drop_firstpage_...
 l.261 \end{itemize}
                     <./imagenes_doc/DEEP_LEARNING.jpg>]
-<imagenes_doc/redes_neuronales.png, id=717, 755.82375pt x 398.48875pt>
+<imagenes_doc/redes_neuronales.png, id=728, 755.82375pt x 398.48875pt>
 File: imagenes_doc/redes_neuronales.png Graphic file (type png)
 <use imagenes_doc/redes_neuronales.png>
 Package pdftex.def Info: imagenes_doc/redes_neuronales.png  used on input line 270.
@@ -1189,12 +1189,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.5}) h
                                                   \__shipout_drop_firstpage_...
 l.280 
        <./imagenes_doc/redes_neuronales.png (PNG copy)>]
-<imagenes_doc/image_01.jpg, id=726, 471.26062pt x 197.23688pt>
+<imagenes_doc/image_01.jpg, id=737, 471.26062pt x 197.23688pt>
 File: imagenes_doc/image_01.jpg Graphic file (type jpg)
 <use imagenes_doc/image_01.jpg>
 Package pdftex.def Info: imagenes_doc/image_01.jpg  used on input line 287.
 (pdftex.def)             Requested size: 234.00238pt x 97.93802pt.
-<imagenes_doc/image_02.jpg, id=729, 488.57532pt x 230.36063pt>
+<imagenes_doc/image_02.jpg, id=740, 488.57532pt x 230.36063pt>
 File: imagenes_doc/image_02.jpg Graphic file (type jpg)
 <use imagenes_doc/image_02.jpg>
 Package pdftex.def Info: imagenes_doc/image_02.jpg  used on input line 296.
@@ -1214,7 +1214,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.6}) h
                                                   \__shipout_drop_firstpage_...
 l.299 \end{figure}
                    <./imagenes_doc/image_01.jpg>]
-<imagenes_doc/redes_convolucionales.png, id=739, 642.4pt x 329.23pt>
+<imagenes_doc/redes_convolucionales.png, id=750, 642.4pt x 329.23pt>
 File: imagenes_doc/redes_convolucionales.png Graphic file (type png)
 <use imagenes_doc/redes_convolucionales.png>
 Package pdftex.def Info: imagenes_doc/redes_convolucionales.png  used on input line 306.
@@ -1234,7 +1234,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.7}) h
                                                   \__shipout_drop_firstpage_...
 l.310 
        <./imagenes_doc/image_02.jpg>]
-<imagenes_doc/Redes_GAN.jpg, id=748, 1403.2425pt x 479.7925pt>
+<imagenes_doc/Redes_GAN.jpg, id=759, 1403.2425pt x 479.7925pt>
 File: imagenes_doc/Redes_GAN.jpg Graphic file (type jpg)
 <use imagenes_doc/Redes_GAN.jpg>
 Package pdftex.def Info: imagenes_doc/Redes_GAN.jpg  used on input line 315.
@@ -1268,7 +1268,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [22]
-<imagenes_doc/registroimg.jpg, id=763, 1149.29375pt x 489.83pt>
+<imagenes_doc/registroimg.jpg, id=774, 1149.29375pt x 489.83pt>
 File: imagenes_doc/registroimg.jpg Graphic file (type jpg)
 <use imagenes_doc/registroimg.jpg>
 Package pdftex.def Info: imagenes_doc/registroimg.jpg  used on input line 368.
@@ -1732,7 +1732,7 @@ Overfull \hbox (76.10059pt too wide) in paragraph at lines 66--83
  [][] 
  []
 
-<capitulo_05/imagenes/1.jpg.png, id=968, 1421.31pt x 596.2275pt>
+<capitulo_05/imagenes/1.jpg.png, id=979, 1421.31pt x 596.2275pt>
 File: capitulo_05/imagenes/1.jpg.png Graphic file (type png)
 <use capitulo_05/imagenes/1.jpg.png>
 Package pdftex.def Info: capitulo_05/imagenes/1.jpg.png  used on input line 92.
@@ -1757,7 +1757,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.5.3}) ha
                                                   \__shipout_drop_firstpage_...
 l.94 \end{figure}
                  ]
-<capitulo_05/imagenes/umbral_1.0_30.jpg, id=977, 1606.0pt x 952.55875pt>
+<capitulo_05/imagenes/umbral_1.0_30.jpg, id=988, 1606.0pt x 952.55875pt>
 File: capitulo_05/imagenes/umbral_1.0_30.jpg Graphic file (type jpg)
 <use capitulo_05/imagenes/umbral_1.0_30.jpg>
 Package pdftex.def Info: capitulo_05/imagenes/umbral_1.0_30.jpg  used on input line 98.
@@ -1782,12 +1782,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5.2}) h
                                                   \__shipout_drop_firstpage_...
 l.102 \newpage
                <./capitulo_05/imagenes/1.jpg.png> <./capitulo_05/imagenes/umbral_1.0_30.jpg>]
-<capitulo_05/imagenes/2.png, id=983, 1421.31pt x 596.2275pt>
+<capitulo_05/imagenes/2.png, id=994, 1421.31pt x 596.2275pt>
 File: capitulo_05/imagenes/2.png Graphic file (type png)
 <use capitulo_05/imagenes/2.png>
 Package pdftex.def Info: capitulo_05/imagenes/2.png  used on input line 108.
 (pdftex.def)             Requested size: 312.00119pt x 130.87932pt.
-<capitulo_05/imagenes/1.3_min_dist25.jpg, id=984, 1606.0pt x 938.50626pt>
+<capitulo_05/imagenes/1.3_min_dist25.jpg, id=995, 1606.0pt x 938.50626pt>
 File: capitulo_05/imagenes/1.3_min_dist25.jpg Graphic file (type jpg)
 <use capitulo_05/imagenes/1.3_min_dist25.jpg>
 Package pdftex.def Info: capitulo_05/imagenes/1.3_min_dist25.jpg  used on input line 114.
@@ -1812,12 +1812,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5.4}) h
                                                   \__shipout_drop_firstpage_...
 l.118 \newpage
                <./capitulo_05/imagenes/2.png> <./capitulo_05/imagenes/1.3_min_dist25.jpg>]
-<capitulo_05/imagenes/3.png, id=990, 1421.31pt x 596.2275pt>
+<capitulo_05/imagenes/3.png, id=1001, 1421.31pt x 596.2275pt>
 File: capitulo_05/imagenes/3.png Graphic file (type png)
 <use capitulo_05/imagenes/3.png>
 Package pdftex.def Info: capitulo_05/imagenes/3.png  used on input line 124.
 (pdftex.def)             Requested size: 312.00119pt x 130.87932pt.
-<capitulo_05/imagenes/umbral1.8min_dist20.jpg, id=991, 1606.0pt x 950.55125pt>
+<capitulo_05/imagenes/umbral1.8min_dist20.jpg, id=1002, 1606.0pt x 950.55125pt>
 File: capitulo_05/imagenes/umbral1.8min_dist20.jpg Graphic file (type jpg)
 <use capitulo_05/imagenes/umbral1.8min_dist20.jpg>
 Package pdftex.def Info: capitulo_05/imagenes/umbral1.8min_dist20.jpg  used on input line 130.
@@ -1842,12 +1842,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5.6}) h
                                                   \__shipout_drop_firstpage_...
 l.134 \newpage
                <./capitulo_05/imagenes/3.png> <./capitulo_05/imagenes/umbral1.8min_dist20.jpg>]
-<capitulo_05/imagenes/4.png, id=997, 706.64pt x 634.37pt>
+<capitulo_05/imagenes/4.png, id=1008, 706.64pt x 634.37pt>
 File: capitulo_05/imagenes/4.png Graphic file (type png)
 <use capitulo_05/imagenes/4.png>
 Package pdftex.def Info: capitulo_05/imagenes/4.png  used on input line 141.
 (pdftex.def)             Requested size: 312.00119pt x 280.09163pt.
-<capitulo_05/imagenes/4.4.jpg, id=998, 1284.8pt x 751.80875pt>
+<capitulo_05/imagenes/4.4.jpg, id=1009, 1284.8pt x 751.80875pt>
 File: capitulo_05/imagenes/4.4.jpg Graphic file (type jpg)
 <use capitulo_05/imagenes/4.4.jpg>
 Package pdftex.def Info: capitulo_05/imagenes/4.4.jpg  used on input line 147.
@@ -1872,12 +1872,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5.8}) h
                                                   \__shipout_drop_firstpage_...
 l.152 \newpage
                <./capitulo_05/imagenes/4.png> <./capitulo_05/imagenes/4.4.jpg>]
-<capitulo_05/imagenes/5.png, id=1005, 706.64pt x 634.37pt>
+<capitulo_05/imagenes/5.png, id=1016, 706.64pt x 634.37pt>
 File: capitulo_05/imagenes/5.png Graphic file (type png)
 <use capitulo_05/imagenes/5.png>
 Package pdftex.def Info: capitulo_05/imagenes/5.png  used on input line 159.
 (pdftex.def)             Requested size: 312.00119pt x 280.09163pt.
-<capitulo_05/imagenes/5.5.jpg, id=1006, 1606.0pt x 932.48375pt>
+<capitulo_05/imagenes/5.5.jpg, id=1017, 1606.0pt x 932.48375pt>
 File: capitulo_05/imagenes/5.5.jpg Graphic file (type jpg)
 <use capitulo_05/imagenes/5.5.jpg>
 Package pdftex.def Info: capitulo_05/imagenes/5.5.jpg  used on input line 165.
@@ -1902,12 +1902,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5.10}) 
                                                   \__shipout_drop_firstpage_...
 l.170 \newpage
                <./capitulo_05/imagenes/5.png> <./capitulo_05/imagenes/5.5.jpg>]
-<capitulo_05/imagenes/6.png, id=1012, 706.64pt x 634.37pt>
+<capitulo_05/imagenes/6.png, id=1023, 706.64pt x 634.37pt>
 File: capitulo_05/imagenes/6.png Graphic file (type png)
 <use capitulo_05/imagenes/6.png>
 Package pdftex.def Info: capitulo_05/imagenes/6.png  used on input line 177.
 (pdftex.def)             Requested size: 312.00119pt x 280.09163pt.
-<capitulo_05/imagenes/6.6.jpg, id=1013, 1606.0pt x 950.55125pt>
+<capitulo_05/imagenes/6.6.jpg, id=1024, 1606.0pt x 950.55125pt>
 File: capitulo_05/imagenes/6.6.jpg Graphic file (type jpg)
 <use capitulo_05/imagenes/6.6.jpg>
 Package pdftex.def Info: capitulo_05/imagenes/6.6.jpg  used on input line 183.
@@ -2033,7 +2033,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[64])
+[64]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2043,6 +2043,38 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [65]
+Overfull \hbox (1.42836pt too wide) in paragraph at lines 91--92
+\OT1/cmr/m/n/14.4 mi-te con-sul-tar, re-gis-trar y ac-tua-li-zar la in-for-ma-ci^^Son en tiem-
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[66]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[67])
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[68]
 No file tfg.gls.
 
 
@@ -2053,7 +2085,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[66
+[69
 
 
 
@@ -2063,7 +2095,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
  (anexos/anexo.tex)
 
-[67
+[70
 
 
 
@@ -2134,7 +2166,7 @@ Underfull \hbox (badness 4467) in paragraph at lines 54--60
 
 
 
-[68
+[71
 
 
 
@@ -2203,7 +2235,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[69]
+[72]
 Underfull \hbox (badness 1199) in paragraph at lines 108--114
 []\OT1/cmr/m/n/14.4 Bee Sa-fe Se-cu-rity. (2024) Ex-plo-ring dif-fe-
  []
@@ -2267,7 +2299,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[70]
+[73]
 Underfull \hbox (badness 10000) in paragraph at lines 160--165
 \OT1/cmr/m/n/14.4 / / repositorio . uam . es / bitstream / handle / 10486 / 698387 /
  []
@@ -2281,7 +2313,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[71]
+[74]
 Underfull \hbox (badness 1348) in paragraph at lines 237--242
 []\OT1/cmr/m/n/14.4 Figma Inc. (2024) ?`qu^^Se es fig-ma? [en
  []
@@ -2315,7 +2347,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[72]
+[75]
 Underfull \hbox (badness 2799) in paragraph at lines 270--274
 \OT1/cmr/m/n/14.4 About post-gresql. [en l^^S^^Pnea]. Dis-po-ni-ble:
  []
@@ -2374,7 +2406,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[73]
+[76]
 Underfull \hbox (badness 3895) in paragraph at lines 307--312
 \OT1/cmr/m/n/14.4 Dis-po-ni-ble: https://builtin.com/software-engineering-
  []
@@ -2388,7 +2420,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[74] (tfg.aux
+[77] (tfg.aux
 LaTeX Info: Redefining \. on input line 18.
 LaTeX Info: Redefining \% on input line 18.
  (portada_y_ficha_catalografica/portada_y_ficha_catalografica.aux) (hoja_aprobacion/hoja_aprobacion.aux) (dedicatoria/dedicatoria.aux) (agradecimientos/agradecimientos.aux) (epigrafe/epigrafe.aux) (resumen/resumen.aux) (abstract/abstract.aux) (capitulo_01/introduccion.aux) (capitulo_02/marco_teorico.aux) (capitulo_03/Herramientas_Tecnologicas.aux) (capitulo_04/marco_metodologico.aux) (capitulo_05/resultados.aux) (capitulo_06/discusion.aux) (anexos/anexo.aux))
@@ -2407,17 +2439,17 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `tfg.out' has not changed.
-(rerunfilecheck)             Checksum: D8C473B003963296CB46C90DE01A4C59;13153.
+(rerunfilecheck)             Checksum: 7FA54D89FBB5FE4D32400594D15EDBED;13893.
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 39 ({)
+### simple group (level 1) entered at line 100 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 23103 strings out of 468133
- 449567 string characters out of 5440779
+ 23112 strings out of 468133
+ 449690 string characters out of 5440779
  939633 words of memory out of 5000000
- 51022 multiletter control sequences out of 15000+600000
+ 51026 multiletter control sequences out of 15000+600000
  640588 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,14n,93p,2545b,937s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2428,9 +2460,9 @@ pdfTeX warning (dest): name{glo:sored} has been referenced but does not exist, r
 pdfTeX warning (dest): name{glo:lan} has been referenced but does not exist, replaced by a fixed one
 
  <C:\Users\aldoc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1440.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on tfg.pdf (91 pages, 2954077 bytes).
+Output written on tfg.pdf (94 pages, 2961362 bytes).
 PDF statistics:
- 1303 PDF objects out of 1440 (max. 8388607)
- 284 named destinations out of 1000 (max. 500000)
- 732 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1328 PDF objects out of 1440 (max. 8388607)
+ 289 named destinations out of 1000 (max. 500000)
+ 748 words of extra memory for PDF output out of 10000 (max. 10000000)
 

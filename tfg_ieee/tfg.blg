@@ -46,45 +46,45 @@ Warning--I didn't find a database entry for "lan"
 ** IEEEtran BST control entry "IEEEexample:BSTcontrol" detected.
 
 Done.
-You've used 35 entries,
+You've used 40 entries,
             4087 wiz_defined-function locations,
-            1026 strings with 15445 characters,
-and the built_in function-call counts, 14037 in all, are:
-= -- 1165
-> -- 205
+            1051 strings with 16760 characters,
+and the built_in function-call counts, 16135 in all, are:
+= -- 1347
+> -- 239
 < -- 14
-+ -- 105
-- -- 47
-* -- 452
-:= -- 2615
-add.period$ -- 89
-call.type$ -- 35
-change.case$ -- 57
++ -- 121
+- -- 55
+* -- 518
+:= -- 3009
+add.period$ -- 104
+call.type$ -- 40
+change.case$ -- 67
 chr.to.int$ -- 45
-cite$ -- 35
-duplicate$ -- 1066
-empty$ -- 1272
-format.name$ -- 49
-if$ -- 3085
+cite$ -- 40
+duplicate$ -- 1224
+empty$ -- 1453
+format.name$ -- 59
+if$ -- 3545
 int.to.chr$ -- 0
-int.to.str$ -- 34
-missing$ -- 263
-newline$ -- 192
-num.names$ -- 30
-pop$ -- 773
+int.to.str$ -- 39
+missing$ -- 306
+newline$ -- 217
+num.names$ -- 35
+pop$ -- 894
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 4
-skip$ -- 1103
+skip$ -- 1270
 stack$ -- 0
-substring$ -- 112
-swap$ -- 688
+substring$ -- 122
+swap$ -- 796
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 6
-type$ -- 35
+type$ -- 40
 warning$ -- 0
-while$ -- 39
-width$ -- 36
-write$ -- 382
+while$ -- 44
+width$ -- 41
+write$ -- 437
 (There were 2 warnings)

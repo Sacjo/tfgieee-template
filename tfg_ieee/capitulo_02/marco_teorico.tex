@@ -212,55 +212,56 @@ La IA es un campo amplio que incluye muchas disciplinas, como la informática, e
 La inteligencia artificial es un conjunto de tecnologías que se basan principalmente en el aprendizaje automático y el aprendizaje profundo, que se usan para el análisis de datos, la generación de predicciones y previsiones, la categorización de objetos, el procesamiento de lenguaje natural, las recomendaciones, la recuperación inteligente de datos y mucho más \cite{aiIBM}.
 
 
-\subsection{Funcionamiento de la Inteligencia Artificial}
 
-Si bien los detalles varían según las diferentes técnicas de IA, el principio central gira en torno a los datos. Los sistemas de IA aprenden y mejoran a través de la exposición a grandes cantidades de datos, lo que permite identificar patrones y relaciones que las personas pueden pasar por alto.
+\subsection{Aprendizaje Automático (Machine Learning)}
 
-Este proceso de aprendizaje suele implicar algoritmos, que son conjuntos de reglas o instrucciones que guían el análisis y la toma de decisiones de la IA. En el aprendizaje automático, un subconjunto popular de la IA, los algoritmos se entrenan con datos etiquetados o no etiquetados para hacer predicciones o categorizar información \cite{aiIBM}.
+El Machine Learning es una subárea de la Inteligencia Artificial enfocada en el desarrollo de algoritmos y técnicas que permiten a las computadoras aprender automáticamente a partir de los datos, sin necesidad de programación explícita para cada tarea.
+Se basa en el análisis estadístico y en la detección de patrones dentro de conjuntos de datos, con el objetivo de tomar decisiones, realizar predicciones o efectuar clasificaciones con una precisión cada vez mayor a medida que el modelo se entrena y corrige sus errores.\cite{acevedo2017}
 
 
-\subsection{Tipos de Inteligencia Artificial}
-La IA débil, también llamada IA estrecha o inteligencia artificial estrecha (ANI), es una IA entrenada y enfocada para realizar tareas específicas. La IA débil impulsa la mayor parte de la IA que nos rodea hoy.
+En el contexto de esta investigación, el Machine Learning constituye una herramienta esencial para el desarrollo del Sistema de Asistencia Basado en Reconocimiento Facial para la FPUNE.
+A través del aprendizaje automático, se emplean modelos previamente entrenados capaces de detectar y reconocer rostros en imágenes reales con alta precisión, incluso bajo condiciones variables de iluminación, ángulo o expresión facial.
+Esta tecnología permite automatizar el registro de asistencia de los estudiantes, optimizando los procesos administrativos y reduciendo significativamente la intervención manual por parte de los docentes.\cite{valverde2019}
 
-La IA robusta está conformada por la inteligencia artificial general (IAG) y la superinteligencia artificial (SIA). La inteligencia artificial general (IAG), o la IA general, es una forma teórica de IA en la que una máquina tendría una inteligencia igual a la de los humanos; sería autoconsciente y tendría la capacidad de resolver problemas, aprender y planificar para el futuro. La superinteligencia artificial (SIA), también conocida como superinteligencia, superaría la inteligencia y la capacidad del cerebro humano.
-
-Si bien la IA robusta todavía es completamente teórica y no tiene ejemplos prácticos de uso actualmente, no significa que los investigadores de IA no estén también explorando su desarrollo.
-
-La inteligencia artificial se puede organizar de varias maneras, según las etapas de desarrollo o las acciones que se están realizando. Por ejemplo, se suelen reconocer cuatro etapas de desarrollo de la IA\cite{aiIBM}.
-
+El aprendizaje automático se puede dividir en tres grandes tipos:
 
 \begin{itemize}
-  \item \textbf{Máquinas Reactivas:}  
-  IA limitada que solo reacciona a diferentes tipos de estímulos basados en reglas preprogramadas. No usa memoria y, por lo tanto, no puede aprender con datos nuevos. \textit{Deep Blue} de IBM, que venció al campeón de ajedrez Garry Kasparov en 1997, fue un ejemplo de una máquina reactiva.
+  \item \textbf{Aprendizaje supervisado:} el modelo se entrena con datos etiquetados (entrada y salida esperada). Es el enfoque más común y se utiliza cuando se cuenta con ejemplos precisos para aprender.
 
-  \item \textbf{Memoria Limitada:}  
-  Se considera que la mayor parte de la IA moderna es de memoria limitada. Puede usar la memoria para mejorar con el tiempo mediante el entrenamiento con datos nuevos, por lo general, a través de una red neuronal artificial o algún otro modelo de entrenamiento. El aprendizaje profundo, un subconjunto del aprendizaje automático, se considera inteligencia artificial con memoria limitada.
+  \item \textbf{Aprendizaje no supervisado:} se aplica cuando los datos no tienen etiquetas. El sistema identifica patrones o agrupaciones de forma autónoma, sin intervención humana.
 
-  \item \textbf{Teoría de la Mente:}  
-  En la actualidad no existe IA con teoría de la mente, pero se están investigando distintas posibilidades. El término hace referencia a la IA que puede emular la mente humana y tiene capacidades de toma de decisiones similares a las de un ser humano, lo cual incluye reconocer y recordar emociones, y reaccionar en situaciones sociales como lo haría un ser humano.
-
-  \item \textbf{Autoconocimiento:}  
-  Un paso más allá de la IA con teoría de la mente, el concepto de IA con autoconocimiento describe una máquina mítica que tiene conocimiento de su propia existencia y posee las capacidades intelectuales y emocionales de un ser humano. Al igual que la IA con teoría de la mente, la IA con autoconciencia no existe en la actualidad\cite{aiIBM}
-.
+  \item \textbf{Aprendizaje por refuerzo:} el modelo aprende por medio de la experiencia, tomando decisiones en un entorno dinámico y recibiendo recompensas o penalizaciones en función de sus acciones.
 \end{itemize}
 
 
-Una forma más útil de categorizar ampliamente los tipos de inteligencia artificial es según lo que puede hacer la máquina. Todo lo que llamamos inteligencia artificial actualmente se considera inteligencia “estrecha” porque solo puede realizar un conjunto reducido de acciones en función de su programación y entrenamiento. Por ejemplo, un algoritmo de IA que se use para la clasificación de objetos no podrá realizar procesamiento de lenguaje natural\cite{aiGoogleCloud}.
+\subsection{Aprendizaje Profundo (Deep Learning)}
+El Deep Learning, o aprendizaje profundo, es una subárea del aprendizaje automático enfocada en el desarrollo de modelos basados en redes neuronales profundas.
+Estas redes se caracterizan por poseer múltiples capas que permiten transformar progresivamente los datos de entrada en representaciones cada vez más abstractas y útiles para la tarea específica.
+El objetivo principal del aprendizaje profundo es identificar características de alto nivel que faciliten la predicción o clasificación deseada, mejorando así la capacidad de generalización del sistema.\cite{perez2021}
 
-\subsection{Modelos de entrenamiento de inteligencia artificial}
 
-El aprendizaje supervisado es un modelo de aprendizaje automático que asigna una entrada específica a un resultado mediante datos de entrenamiento etiquetados (datos estructurados). En términos simples, para entrenar un algoritmo que reconozca imágenes de gatos, se lo alimenta con imágenes etiquetadas como gatos \cite{perceptrons1969}.
 
-El aprendizaje no supervisado es un modelo de aprendizaje automático que aprende patrones en función de datos no etiquetados (datos no estructurados). A diferencia del aprendizaje supervisado, el resultado final no se conoce con anticipación. En cambio, el algoritmo aprende de los datos y los clasifica en grupos en función de diversos atributos. Por ejemplo, el aprendizaje no supervisado es bueno para identificar patrones y realizar modelado descriptivo.
 
-Además del aprendizaje supervisado y no supervisado, suele emplearse un enfoque mixto llamado aprendizaje semi-supervisado, en el que solo se etiquetan algunos de los datos. En el aprendizaje semi-supervisado, se conoce un resultado final, pero el algoritmo debe determinar cómo organizar y estructurar los datos para lograr los resultados deseados.
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.55\textwidth]{imagenes_doc/DEEP_LEARNING.jpg}
+  \caption{Relación jerárquica entre los campos de la Inteligencia Artificial, el Aprendizaje Automático y el Aprendizaje Profundo.}
+  \label{fig:deep_learning}
+\end{figure}
 
-El aprendizaje por refuerzo es un modelo de aprendizaje automático que se puede describir en términos generales como “aprender haciendo”. Un agente aprende a realizar una tarea definida mediante prueba y error (un bucle de retroalimentación) hasta que su rendimiento está dentro de un rango deseado. El agente recibe un refuerzo positivo cuando realiza la tarea de forma correcta y un refuerzo negativo cuando tiene bajo rendimiento. Un ejemplo de aprendizaje por refuerzo sería enseñarle a una mano robótica a recoger una pelota \cite{perceptrons1969}.
+En esta investigación, el aprendizaje profundo es un componente clave para la implementación del Sistema de Asistencia Basado en Reconocimiento Facial para la FPUNE.
+Las redes neuronales profundas permiten extraer y analizar patrones visuales complejos a partir de imágenes faciales, lo que posibilita la detección y el reconocimiento preciso de los rostros de los estudiantes.\cite{urgel2021}
+
+Etapas del Aprendizaje Profundo:
+
+\begin{itemize}
+  \item \textbf{Etapa de extracción de características:} consiste en generar una jerarquía de atributos desde los datos originales. Las primeras capas capturan rasgos simples (como bordes o colores), mientras que las intermedias y profundas detectan estructuras más complejas.
+
+  \item \textbf{Etapa de transformación de características:} utiliza las representaciones extraídas en la fase anterior para producir la salida deseada, como una clasificación, detección o decisión. En el caso de redes aplicadas a imágenes, esta etapa puede traducir los patrones visuales en texto alfanumérico o etiquetas.
+\end{itemize}
 
 
 \subsection{Redes Neuronales Artificiales}
-
-Un tipo común de modelo de entrenamiento en la IA es una red neuronal artificial, que se basa a grandes rasgos en el cerebro humano.
 
 Una red neuronal es un sistema de neuronas artificiales (a veces llamadas perceptrones), que son nodos de procesamiento que se usan para clasificar y analizar datos. Los datos se ingresan en la primera capa de una red neuronal, y cada perceptrón toma una decisión y, luego, pasa esa información a varios nodos de la siguiente capa. Los modelos de entrenamiento con más de tres capas se denominan redes neuronales profundas o “aprendizaje profundo”. Algunas redes neuronales modernas tienen cientos o miles de capas. La salida de los perceptrones finales permite realizar la tarea impuesta a la red neuronal, como clasificar un objeto o encontrar patrones en los datos\cite{perceptrons1969}.
 
@@ -315,6 +316,47 @@ En las redes generativas adversarias (GAN), se usan dos redes neuronales que com
   \caption{La imagen ilustra el funcionamiento de una red generativa adversaria (GAN), donde un generador crea muestras falsas a partir de ruido aleatorio y un discriminador intenta distinguir entre muestras reales y falsas, retroalimentando a ambos modelos para mejorar su rendimiento\cite{gan_aws}.}
   \label{fig:logo}
 \end{figure}
+
+
+\subsection{Visión por Computadora}
+
+La Visión por Computadora es una disciplina de la Inteligencia Artificial que permite a las máquinas interpretar y analizar imágenes o videos, simulando la percepción visual humana. Su finalidad es automatizar tareas que requieren comprensión visual, como detección, reconocimiento, clasificación o seguimiento de objetos. 
+
+A través de modelos entrenados, una computadora puede entender patrones visuales y tomar decisiones basadas en imágenes capturadas del entorno.\cite{mora2002}
+
+En el contexto de esta investigación, la visión por computadora constituye la base técnica para la implementación del Sistema de Asistencia Basado en Reconocimiento Facial para la FPUNE.
+Mediante el uso de redes neuronales convolucionales y técnicas de procesamiento de imágenes, el sistema es capaz de detectar y reconocer los rostros de los estudiantes a partir de la cámara utilizada en el aula.
+Posteriormente, los rostros identificados se comparan con una base de datos para registrar automáticamente la asistencia, reduciendo la intervención manual y agilizando los procesos administrativos dentro de la institución educativa.
+
+\textbf{Fases del proceso de Visión por Computadora:}
+
+\begin{itemize}
+  \item \textbf{Adquisición de la imagen:} captura una proyección bidimensional de la luz reflejada por los objetos en la escena.
+
+  \item \textbf{Preprocesamiento:} mejora la calidad visual de la imagen mediante la reducción de ruido o el realce de bordes.
+
+  \item \textbf{Segmentación:} separa los elementos visuales de la escena, detectando bordes y regiones.
+
+  \item \textbf{Extracción de características:} genera representaciones formales de los elementos segmentados (textura, forma, color, etc.).
+
+  \item \textbf{Reconocimiento y localización:} identifica objetos específicos y determina su posición en el espacio tridimensional.
+
+  \item \textbf{Interpretación:} analiza la escena completa y genera conclusiones a partir del conocimiento adquirido y de los datos visuales.
+\end{itemize}
+
+
+\textbf{Tipos de reconocimiento en Visión por Computadora}
+
+Existen dos enfoques comunes en la tarea de reconocimiento de objetos visuales:
+
+\begin{itemize}
+  \item \textbf{Detección de rostros:} se enfoca en identificar la presencia de uno o varios rostros dentro de una imagen o video. En el sistema desarrollado, esta tarea se realiza mediante el modelo \textbf{YOLOv8n-Face}, el cual localiza las regiones faciales dentro del fotograma capturado por la cámara utilizada en el aula.
+
+  \item \textbf{Reconocimiento de identidad:} clasifica y diferencia los rostros detectados, identificando a qué persona pertenecen. En este proyecto, dicha tarea se lleva a cabo utilizando el modelo \textbf{ArcFace}, que compara las características faciales extraídas con las almacenadas en la base de datos para determinar la identidad del estudiante.
+\end{itemize}
+
+
+
 
 
 

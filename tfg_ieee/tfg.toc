@@ -25,54 +25,54 @@
 \contentsline {subsection}{\numberline {2.2.5}Precisión del Reconocimiento Facial}{14}{subsection.2.2.5}%
 \contentsline {section}{\numberline {2.3}Inteligencia Artificial}{14}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Concepto de la Inteligencia Artificial}{14}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Funcionamiento de la Inteligencia Artificial}{15}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Tipos de Inteligencia Artificial}{15}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Modelos de entrenamiento de inteligencia artificial}{17}{subsection.2.3.4}%
-\contentsline {subsection}{\numberline {2.3.5}Redes Neuronales Artificiales}{18}{subsection.2.3.5}%
-\contentsline {subsection}{\numberline {2.3.6}Tipos Comunes de redes neuronales artificiales}{19}{subsection.2.3.6}%
-\contentsline {section}{\numberline {2.4}Registros Académicos.}{22}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Concepto de Registros Académicos.}{22}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}¿Qué contienen los registros académicos}{22}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}¿Para qué sirven los registros académicos?}{23}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.4.4}Importancia de los registros académicos.}{24}{subsection.2.4.4}%
-\contentsline {section}{\numberline {2.5}Antecedentes}{24}{section.2.5}%
-\contentsline {chapter}{\numberline {3}Herramientas Tecnologicas}{28}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Seleccion de Herramientas}{28}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Figma}{28}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Python}{29}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}JavaScript}{29}{subsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.1.4}SQL}{30}{subsection.3.1.4}%
-\contentsline {subsection}{\numberline {3.1.5}Postgres}{30}{subsection.3.1.5}%
-\contentsline {subsection}{\numberline {3.1.6}Git}{31}{subsection.3.1.6}%
-\contentsline {section}{\numberline {3.2}Entorno de dessarrollo del modelo}{31}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Visual Studio Code}{31}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2} GitHub Desktop}{31}{subsection.3.2.2}%
-\contentsline {section}{\numberline {3.3}Librerias utilizadas}{32}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}React}{32}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Flask}{32}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}YOLO}{33}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}ArcFace}{33}{subsection.3.3.4}%
-\contentsline {chapter}{\numberline {4}Método}{34}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Enfoque}{34}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Método utilizado para el desarrollo}{37}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Lista de Tareas}{39}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Cronograma de tareas}{40}{subsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.1.4}Operacionalización de variables}{40}{subsection.4.1.4}%
-\contentsline {section}{\numberline {4.2}Alcance de la investigación cuantitativa}{42}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Alcance exploratorio.}{43}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Alcance descriptivo.}{43}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Alcance correlacional.}{43}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Alcance explicativo.}{44}{subsection.4.2.4}%
-\contentsline {section}{\numberline {4.3}Diseño}{44}{section.4.3}%
-\contentsline {chapter}{\numberline {5}Resultados}{50}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Figuras y Tablas}{50}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Errores detectados y ajustes aplicados}{51}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Configuraciones aplicadas y resultados obtenidos}{52}{subsection.5.1.2}%
-\contentsline {chapter}{\numberline {6}Discusión}{61}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Logros alcanzados}{62}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Solución del problema de investigación}{63}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Sugerencias para futuras investigaciones}{63}{section.6.3}%
-\contentsline {chapter}{Glosario}{65}{section.6.3}%
-\contentsline {chapter}{Anexos}{65}{section.6.3}%
-\contentsline {chapter}{Anexo A.}{66}{chapter*.17}%
-\contentsline {chapter}{Referencias bibliogr\'aficas}{67}{chapter*.17}%
+\contentsline {subsection}{\numberline {2.3.2}Aprendizaje Automático (Machine Learning)}{15}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Aprendizaje Profundo (Deep Learning)}{16}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Redes Neuronales Artificiales}{18}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Tipos Comunes de redes neuronales artificiales}{18}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.3.6}Visión por Computadora}{21}{subsection.2.3.6}%
+\contentsline {section}{\numberline {2.4}Registros Académicos.}{23}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Concepto de Registros Académicos.}{23}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}¿Qué contienen los registros académicos}{24}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}¿Para qué sirven los registros académicos?}{24}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Importancia de los registros académicos.}{25}{subsection.2.4.4}%
+\contentsline {section}{\numberline {2.5}Antecedentes}{25}{section.2.5}%
+\contentsline {chapter}{\numberline {3}Herramientas Tecnologicas}{29}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Seleccion de Herramientas}{29}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Figma}{29}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Python}{30}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}JavaScript}{30}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}SQL}{31}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.1.5}Postgres}{31}{subsection.3.1.5}%
+\contentsline {subsection}{\numberline {3.1.6}Git}{32}{subsection.3.1.6}%
+\contentsline {section}{\numberline {3.2}Entorno de dessarrollo del modelo}{32}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Visual Studio Code}{32}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2} GitHub Desktop}{32}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Librerias utilizadas}{33}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}React}{33}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Flask}{33}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}YOLO}{34}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}ArcFace}{34}{subsection.3.3.4}%
+\contentsline {chapter}{\numberline {4}Método}{35}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Enfoque}{35}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Método utilizado para el desarrollo}{38}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Lista de Tareas}{40}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Cronograma de tareas}{41}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}Operacionalización de variables}{41}{subsection.4.1.4}%
+\contentsline {section}{\numberline {4.2}Alcance de la investigación cuantitativa}{43}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Alcance exploratorio.}{44}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Alcance descriptivo.}{44}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Alcance correlacional.}{44}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Alcance explicativo.}{45}{subsection.4.2.4}%
+\contentsline {section}{\numberline {4.3}Diseño}{45}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Resultados}{51}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Figuras y Tablas}{51}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Errores detectados y ajustes aplicados}{52}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Configuraciones aplicadas y resultados obtenidos}{53}{subsection.5.1.2}%
+\contentsline {chapter}{\numberline {6}Discusión}{62}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Logros alcanzados}{63}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Solución del problema de investigación}{64}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Sugerencias para futuras investigaciones}{64}{section.6.3}%
+\contentsline {chapter}{Glosario}{66}{section.6.3}%
+\contentsline {chapter}{Anexos}{66}{section.6.3}%
+\contentsline {chapter}{Anexo A.}{67}{chapter*.17}%
+\contentsline {chapter}{Referencias bibliogr\'aficas}{68}{chapter*.17}%

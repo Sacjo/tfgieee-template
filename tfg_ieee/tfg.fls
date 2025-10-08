@@ -316,7 +316,6 @@ OUTPUT .\hoja_aprobacion\hoja_aprobacion.aux
 INPUT .\hoja_aprobacion\hoja_aprobacion.tex
 INPUT .\hoja_aprobacion\hoja_aprobacion.tex
 INPUT hoja_aprobacion\hoja_aprobacion.tex
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmti12.tfm
 INPUT .\dedicatoria\dedicatoria.tex
 INPUT .\dedicatoria\dedicatoria.tex
 OUTPUT .\dedicatoria\dedicatoria.aux
@@ -410,6 +409,13 @@ INPUT .\imagenes_doc\Reconocimiento_Facial.jpg
 INPUT .\imagenes_doc\Reconocimiento_Facial.jpg
 INPUT .\imagenes_doc\Reconocimiento_Facial.jpg
 INPUT .\imagenes_doc\Reconocimiento_Facial.jpg
+INPUT .\imagenes_doc\DEEP_LEARNING.jpg
+INPUT .\imagenes_doc\DEEP_LEARNING.jpg
+INPUT .\imagenes_doc\DEEP_LEARNING.jpg
+INPUT .\imagenes_doc\DEEP_LEARNING.jpg
+INPUT .\imagenes_doc\DEEP_LEARNING.jpg
+INPUT .\imagenes_doc\DEEP_LEARNING.jpg
+INPUT .\imagenes_doc\DEEP_LEARNING.jpg
 INPUT .\imagenes_doc\redes_neuronales.png
 INPUT .\imagenes_doc\redes_neuronales.png
 INPUT .\imagenes_doc\redes_neuronales.png
@@ -636,8 +642,6 @@ INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbxti10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbxti10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmcsc10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmcsc10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb

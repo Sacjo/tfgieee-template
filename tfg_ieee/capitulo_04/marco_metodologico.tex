@@ -12,348 +12,110 @@ Este capítulo tiene como propósito detallar el enfoque metodológico y técnic
 Este capítulo constituye un componente fundamental para comprender la implementación técnica del proyecto y validar su efectividad en relación con los objetivos propuestos.
 
 En primer lugar, se describe el enfoque metodológico adoptado, el cual combina técnicas cualitativas y cuantitativas bajo un esquema de investigación aplicada tecnológica, permitiendo así un análisis integral del problema y su solución. Posteriormente, se exponen las fases específicas del proceso de desarrollo, tales como la recolección y preprocesamiento de datos, la selección de algoritmos, el entrenamiento del modelo, y la integración del sistema en un entorno controlado.
+
+
 \section{Enfoque}
 
-Este proyecto se desarrolla como una investigación aplicada tecnológica, enfocada en la creación de un sistema automatizado de control de asistencia mediante el uso de técnicas de reconocimiento facial. 
+El presente trabajo se caracteriza por ser una investigación aplicada de tipo tecnológico, orientada al desarrollo de un sistema automatizado de control de asistencia basado en reconocimiento facial.
 
-El enfoque de la investigación es mixto, ya que se emplean tanto métodos cualitativos como cuantitativos para garantizar el desarrollo y evaluación del sistema:
-\begin{itemize}
-\item \textbf{Cuantitativo:} Se evaluarán datos de rendimiento del sistema, como la precisión del reconocimiento facial y la efectividad en la gestión del registro de asistencia. Se medirán variables como el número de asistencias registradas correctamente y los errores de identificación.
-\item \textbf{Cualitativo:} Se realizarán entrevistas y pruebas con los usuarios del sistema (docentes y estudiantes), para recoger sus percepciones sobre la facilidad de uso y la eficacia del sistema en la mejora del control de asistencia.
+El enfoque de análisis de datos es mixto, combinando métodos cuantitativos y cualitativos. El primero permite medir la precisión y el rendimiento del sistema, mientras que el segundo considera la percepción de los usuarios sobre su facilidad de uso y utilidad en el entorno académico.
 
-El proyecto tiene un alcance exclusivamente descriptivo, ya que se detallará en profundidad el funcionamiento del sistema de reconocimiento facial para el registro de asistencia. Se abordarán todos los aspectos técnicos y operativos del sistema, proporcionando una comprensión clara de su mecanismo de acción.
+El alcance de la investigación es de tipo descriptivo, ya que se analizan los componentes, el funcionamiento y los resultados obtenidos durante la implementación del sistema.
 
-Se explicarán de manera detallada los factores que influyen en su efectividad, como la precisión del reconocimiento y la velocidad de procesamiento. También se analizarán las condiciones y requisitos necesarios para su implementación exitosa en la FPUNE. El diseño de la investigación es no experimental y longitudinal, lo que significa que el sistema será implementado y probado durante un semestre académico (a lo largo del año 2025). Este enfoque permitirá observar el desempeño del sistema y realizar ajustes durante el tiempo que se implemente, evaluando su evolución en diferentes momentos del semestre.
-
-Una vez definidos los conceptos clave, se procede a detallar los pasos necesarios para la implementación del proyecto. A continuación, se presentan las etapas que deben seguirse para llevar a cabo el desarrollo del sistema:
-\end{itemize}
-
-\begin{itemize}
-    \item \textbf{Definición de los requisitos del proyecto:} Se deben identificar las necesidades y objetivos del sistema, considerando el número de usuarios, la precisión requerida, el entorno de uso (tiempo real o imágenes), y las condiciones como la iluminación y los ángulos faciales.
-
-    \item \textbf{Selección del hardware:} Se deben elegir cámaras con la resolución adecuada, junto con los equipos necesarios para el procesamiento en tiempo real.
-
-    \item \textbf{Recolección de datos:} Se procede a la recopilación de imágenes faciales de los usuarios, asegurando una base de datos diversa con diferentes ángulos, expresiones y condiciones de iluminación.
-
-    \item \textbf{Preprocesamiento de imágenes:} Las imágenes recopiladas deben ser normalizadas, eliminando ruido y ajustando el brillo y el contraste para asegurar una calidad uniforme y consistente.
-
-    \item \textbf{Selección del algoritmo de reconocimiento facial:} Elegir el algoritmo adecuado, como Histogram of Oriented Gradients (HOG), redes neuronales convolucionales (CNN) o modelos avanzados como FaceNet o OpenFace.
-
-    \item \textbf{Entrenamiento del modelo:} Utilizando la base de datos de imágenes preprocesadas, se entrena el modelo para que aprenda a identificar patrones únicos en los rostros, generando “huellas faciales” digitales.
-
-    \item \textbf{Diseño de la base de datos:} Se crea una base de datos para almacenar los embeddings (representaciones vectoriales) de los rostros, permitiendo realizar comparaciones rápidas para verificar identidades.
-
-    \item \textbf{Integración de la cámara y el software:} Se integra el software que captura imágenes en tiempo real, comparándolas con las huellas faciales almacenadas en la base de datos.
-
-    \item \textbf{Validación y pruebas del sistema:} El sistema se somete a pruebas en condiciones reales para validar su rendimiento. Se ajusta el umbral de precisión para minimizar errores en el reconocimiento.
-
-    \item \textbf{Despliegue y mantenimiento:} Finalmente, el sistema es desplegado en el entorno previsto, con un plan de mantenimiento regular y actualizaciones del modelo, incorporando nuevas imágenes para mejorar la precisión.
-\end{itemize}
-
-\subsection{Método utilizado para el desarrollo}
-
-El desarrollo sigue una metodología que combina técnicas de ingeniería de software con procesos de desarrollo de sistemas de visión artificial. El proceso se lleva a cabo en las siguientes fases:
+El diseño de la investigación es no experimental y longitudinal, dado que el sistema será implementado y evaluado a lo largo de un semestre académico, permitiendo observar su desempeño y evolución en diferentes etapas.
 
 
-\textbf{Recopilación y Análisis de Requisitos:}
-\begin{itemize}
-        \item Entrevistas con el personal clave de la FPUNE para identificar los requisitos funcionales y no funcionales del sistema.
-        \item Documentación de los métodos actuales de registro de asistencia y determinación de las necesidades del nuevo sistema.
-        \item Definición de los requisitos de hardware (cámaras) y software (algoritmos de reconocimiento facial, bases de datos) necesarios para el desarrollo.
-\end{itemize}
+\section{Método utilizado para el desarrollo}
 
-\newpage
+El desarrollo de este trabajo se basó en la metodología ágil \textbf{Scrum}, la cual se centra en la planificación iterativa y la entrega progresiva de resultados funcionales. Este enfoque permite organizar el proyecto en ciclos cortos de trabajo denominados \textit{sprints}, donde se desarrollan y mejoran las distintas funcionalidades del sistema.\cite{atlassianScrum2024}
 
-\textbf{Diseño del Sistema}
-\begin{itemize}
-    \item \textbf{Arquitectura del sistema:} Se diseña la estructura modular del sistema que incluye los módulos de captura de imagen, procesamiento, reconocimiento facial y registro en la base de datos.
+Scrum se fundamenta en los principios de transparencia, inspección y adaptación, promoviendo la colaboración y la comunicación continua entre los miembros del equipo. En este proyecto, se realizaron reuniones semanales para planificar tareas, revisar avances y establecer los objetivos del siguiente ciclo.
 
-    \item \textbf{Selección de Algoritmos:} Evaluación de distintos algoritmos de reconocimiento facial, como HOG (Histogram of Oriented Gradients) o Redes Neuronales Convolucionales (CNN), para determinar cuál es el más adecuado para las condiciones específicas de la FPUNE.
+% ... último párrafo de "Método utilizado para el desarrollo"
 
-    \item \textbf{Diseño de la Base de Datos:} Creación del esquema de la base de datos para almacenar las imágenes faciales de los estudiantes y los registros de asistencia.
-\end{itemize}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.99\textwidth]{imagenes_doc/Sprints.jpg}
+  \caption{Ciclo de desarrollo bajo la metodología ágil Scrum.}
+  \label{fig:scrum}
+\end{figure}
 
 
-\textbf{Desarrollo del Software}
+
+
+\section{Fases del Proceso Investigativo}
 
 \begin{itemize}
-    \item \textbf{Implementación del Algoritmo de Reconocimiento Facial:} Programación y adaptación del algoritmo seleccionado utilizando bibliotecas como OpenCV y frameworks de machine learning (Keras, TensorFlow).
+  \item \textbf{Identificación requisitos del proyecto} \\
+  Se identificaron las necesidades y objetivos del sistema, considerando el número de usuarios, el entorno de aplicación, la precisión requerida y las condiciones de iluminación propias de las aulas de la FPUNE. Esta etapa permitió definir los requerimientos funcionales y no funcionales, así como los recursos técnicos necesarios para el desarrollo.
 
-    \item \textbf{Integración de la Base de Datos:} Conexión del sistema de reconocimiento facial con una base de datos que almacene los registros de asistencia y las imágenes faciales.
+   \item \textbf{Recolección y preparación de datos} \\
+  Se llevó a cabo la recopilación de imágenes faciales de los usuarios en distintas condiciones de iluminación, expresiones y ángulos, con el fin de conformar una base de datos representativa. Las imágenes fueron preprocesadas mediante normalización, eliminación de ruido y ajustes de brillo y contraste.
 
-    \item \textbf{Desarrollo de la Interfaz de Usuario:} Creación de una interfaz intuitiva para que los docentes y administradores puedan acceder al sistema, ver registros y generar reportes.
-\end{itemize}
+  \newpage
+  \item \textbf{Entrenamiento del modelo} \\
+  Utilizando las imágenes preprocesadas, se entrenó el modelo para generar representaciones vectoriales (embeddings) únicas de cada rostro, lo que permite su posterior comparación y verificación. Esta fase fue esencial para optimizar la precisión del reconocimiento facial.
 
-\textbf{Pruebas e Implementación}
+  \item \textbf{Diseño del sistema} \\
+  Se definió la arquitectura modular del sistema, integrando los componentes de captura, procesamiento, reconocimiento facial y registro en la base de datos. Además, se diseñó la base de datos relacional para almacenar tanto los datos de los usuarios como los registros de asistencia.
 
-\begin{itemize}
-    \item \textbf{Pruebas en un entorno controlado:} Se realizan pruebas iniciales en un entorno de prueba controlado con un grupo de estudiantes, evaluando la precisión del sistema de reconocimiento facial y la integración con la base de datos.
-
-    \item \textbf{Ajustes y Optimización:} Ajustes del sistema según los resultados obtenidos en las pruebas, optimizando la precisión del reconocimiento en diferentes condiciones de iluminación y ángulos faciales.
-
-    \item \textbf{Pruebas en un aula real:} Implementación piloto en una clase de la FPUNE, donde se monitorea el rendimiento del sistema en un entorno real.
-\end{itemize}
-
-
-\textbf{Evaluación del Desempeño}
-
-\begin{itemize}
-    \item \textbf{Evaluación de resultados:} Comparación de los resultados del sistema con los objetivos planteados. Se revisan métricas como la precisión del reconocimiento, el tiempo de respuesta y la efectividad del registro de asistencia.
-
-    \item \textbf{Documentación y ajustes finales:} Documentación detallada del funcionamiento del sistema, incluyendo las pruebas realizadas y las recomendaciones para la expansión a otras áreas de la FPUNE.
-\end{itemize}
-
-\subsection{Lista de Tareas}
-
-\begin{enumerate}
-    \item Definir las técnicas y modelos adecuados para el reconocimiento de rostros.
-    \item Elegir y definir el conjunto de tecnologías necesarias para el desarrollo del sistema.
-    \item Realizar entrevistas con personal clave para definir los requisitos.
-    \item Documentar las necesidades funcionales, no funcionales y técnicas del sistema.
-    \item Programar el software de reconocimiento facial.
-    \item Integrar la base de datos con el sistema de reconocimiento facial.
-    \item Evaluar el cumplimiento de los requisitos funcionales del sistema.
-    \item Documentar los resultados de las pruebas de implementación y ajustes realizados.
-    \item Comparar los resultados obtenidos con los requisitos y objetivos definidos.
-    \item Elaborar conclusiones y recomendaciones basadas en el desempeño del sistema.
-\end{enumerate}
-
-
-% En el preámbulo:
-% \usepackage[table]{xcolor}
-% \usepackage{array}
-% \setlength{\arrayrulewidth}{0.6pt} % (opcional) grosor de líneas
-
-\subsection{Cronograma de tareas}
-
-\begin{table}[h]
-\centering
-\caption{Cronograma de tareas}
-\label{tab:cronograma}
-\setlength{\tabcolsep}{2.5pt}
-\renewcommand{\arraystretch}{1.35}
-\begin{scriptsize}
-\begin{tabular}{|>{\columncolor[rgb]{0.85,0.85,0.85}}p{6.9cm}|*{10}{c|}}
-\hline
-& \multicolumn{10}{>{\columncolor[rgb]{0.85,0.85,0.85}}c|}{2025} \\
-\multirow{-2}{*}{\centering Tarea}
-& \cellcolor[rgb]{0.85,0.85,0.85}Mar
-& \cellcolor[rgb]{0.85,0.85,0.85}Abr
-& \cellcolor[rgb]{0.85,0.85,0.85}May
-& \cellcolor[rgb]{0.85,0.85,0.85}Jun
-& \cellcolor[rgb]{0.85,0.85,0.85}Jul
-& \cellcolor[rgb]{0.85,0.85,0.85}Ago
-& \cellcolor[rgb]{0.85,0.85,0.85}Sep
-& \cellcolor[rgb]{0.85,0.85,0.85}Oct
-& \cellcolor[rgb]{0.85,0.85,0.85}Nov
-& \cellcolor[rgb]{0.85,0.85,0.85}Dic \\
-\hline
-
-Recopilación de información
-& \cellcolor{green!45}\textbf{100\%} & & & & & & & & & \\
-
-Entrevistas con personal
-& \cellcolor{green!45}\textbf{100\%} & & & & & & & & & \\
-
-Documentación de los requisitos
-& \cellcolor{green!45}\textbf{100\%} & & & & & & & & & \\
-
-Análisis y selección de algoritmo de reconocimiento facial
-& \cellcolor{green!45}\textbf{100\%} & & & & & & & & & \\
-
-Diseño del esquema de la base de datos
-& \cellcolor{green!45}\textbf{100\%} & & & & & & & & & \\
-
-Programación del software
-& & \cellcolor{red!65} & \cellcolor{red!65} & \cellcolor{red!65} &
-\cellcolor{red!65} & \cellcolor{red!65}{\textbf{\textcolor{white}{80\%}}} & & & & \\
-
-Integración de la base de datos con el sistema
-& & & & \cellcolor{green!45}\textbf{100\%} & \cellcolor{green!45} & & & & & \\
-
-Evaluación del cumplimiento de los requisitos
-& & & & & & \cellcolor{red!65} & \cellcolor{red!65}{\textbf{\textcolor{white}{85\%}}} & & & \\
-
-
-Documentación de los resultados de las pruebas
-& & & & & & & & \cellcolor{gray!35} & \cellcolor{gray!35} & \\
-
-Comparación de los resultados
-& & & & & & & & & \cellcolor{gray!35} & \cellcolor{gray!35} \\
-
-Elaborar conclusiones
-& & & & & & & & & & \cellcolor{gray!35} \\
-\hline
-\end{tabular}
-\end{scriptsize}
-\end{table}
-
-
-
-
-
-\subsection{Operacionalización de variables}
-
-
-\begin{enumerate}
-    \item \textbf{Algoritmos de reconocimiento facial:} Técnicas y modelos utilizados para identificar y verificar la identidad de una persona mediante el análisis de características faciales. \textbf{Estimador:} Precisión de los métodos especificados.
-
-    \item \textbf{Herramientas tecnológicas:} Conjunto de tecnologías seleccionadas para el desarrollo del sistema de reconocimiento facial, incluyendo software y hardware necesarios. \textbf{Estimador:} Compatibilidad y eficiencia de las herramientas seleccionadas según los requisitos del sistema.
-
-    \item \textbf{Requisitos del sistema:} Características y especificaciones necesarias para desarrollar un sistema de registro de asistencia efectivo en la FPUNE, incluyendo tanto requisitos funcionales como no funcionales. \textbf{Estimador:} Porcentaje de requisitos identificados que cumplen con los objetivos del sistema.
-
-    \item \textbf{Sistema de reconocimiento facial:} Software desarrollado para captar, analizar y reconocer características faciales con el fin de registrar la asistencia de manera automatizada. \textbf{Estimador:} Número de módulos desarrollados e integrados.
-
-    \item \textbf{Resultados de las pruebas:} Evaluación de los requisitos funcionales y no funcionales del sistema de reconocimiento facial implementado. \textbf{Estimador:} Número de requisitos cumplidos tras pruebas.
-
-    \item \textbf{Resultados del sistema:} Evaluación final del desempeño del sistema de registro de asistencia en términos de su efectividad para cumplir con los objetivos definidos, con recomendaciones para mejoras futuras. \textbf{Estimador:} Cantidad de objetivos y requisitos cumplidos.
-\end{enumerate}
-
-
-\begin{table}[H]
-    \centering
-    \caption{Operacionalización de variables.}
-    \label{tab:operacionalizacion}
-    \renewcommand{\arraystretch}{1.35}
-    \footnotesize
-    \begin{tabular}{|p{3.8cm}|p{5.1cm}|p{3.2cm}|p{3.2cm}|}
-        \hline
-        \textbf{Objetivo específico} & \textbf{Tarea} & \textbf{Variable} & \textbf{Estimador*} \\
-        \hline
-        Seleccionar los algoritmos de reconocimiento facial & 
-        Definir las técnicas y modelos adecuados para el reconocimiento de rostros & 
-        Algoritmos de reconocimiento facial & 
-        Precisión de los métodos especificados \\
-        \hline
-        Seleccionar las herramientas tecnológicas para el desarrollo del sistema & 
-        Elegir y definir el conjunto de tecnologías necesarias para el desarrollo del sistema \newline Elaborar documento de requisitos & 
-        Herramientas tecnológicas & 
-        Compatibilidad y eficiencia de las herramientas seleccionadas según los requisitos del sistema \\
-        \hline
-        Identificar los requisitos para el desarrollo del sistema de registro de asistencia para la FPUNE & 
-        Entrevistas con personal clave para definir los requisitos \newline Documentar las necesidades funcionales, no funcionales y técnicas del sistema & 
-        Requisitos del sistema & 
-        Porcentaje de requisitos identificados que cumplen con los objetivos del sistema \\
-        \hline
-        Desarrollar sistema de reconocimiento facial & 
-        Programación del software de reconocimiento facial \newline Integración de la base de datos con el sistema de reconocimiento facial & 
-        Sistema de reconocimiento facial & 
-        Módulos desarrollados e integrados \\
-        \hline
-        Realizar pruebas de implementación & 
-        Evaluación del cumplimiento de los requisitos funcionales del sistema \newline Documentación de los resultados de las pruebas de implementación y ajustes realizados & 
-        Requisitos funcionales y no funcionales & 
-        Número de requisitos cumplidos tras pruebas \\
-        \hline
-        Evaluar resultados obtenidos & 
-        Comparación de los resultados obtenidos con los requisitos y objetivos definidos \newline Elaboración de conclusiones y recomendaciones basadas en el desempeño del sistema & 
-        Resultados del sistema & 
-        Objetivos y requisitos cumplidos \\
-        \hline
-    \end{tabular}
-\end{table}
-
-
-
-
-
-
-
-
-\section{Alcance de la investigación cuantitativa}
-El alcance de la investigación consiste en una medida de causalidad de la misma, entendida la causalidad como la relación causa efecto existente entre las variables, siendo el alcance; el grado de identificación de esta relación. La medida de causalidad puede variar dentro de límites de un continuo con varios grados caracterizados, estos grados de alcance bien caracterizados son: exploratorio, descriptivo, correlacional y explicativo. Las investigaciones exploratorias sirven para preparar el terreno y por lo común anteceden a investigaciones con alcances más profundos. Las investigaciones descriptivas pueden ser base de investigaciones correlacionales, si no explicativos; y así también las investigaciones correlacionales pueden proporcionar información para llevar a cabo investigaciones explicativas. Las investigaciones explicativas explicitan relaciones causa efecto, generan un sentido de entendimiento y son altamente estructurados. Es posible que una investigación se inicie como exploratoria, después puede ser descriptiva, luego correlacional y terminar siendo explicativa. El alcance depende fundamentalmente de dos factores: el estado del conocimiento sobre el problema de investigación, mostrado por la revisión de la literatura, así como la perspectiva que se pretenda dar a la investigación.
-
-\subsection{Alcance exploratorio.}
-La medida de este alcance abarca la exploración de problemas generalmente poco conocidos, a veces difíciles de conocer.
-
-\subsection{Alcance descriptivo.}
-La medida de este alcance abarca la descripción del fenómeno, situación, contexto o evento; detalla cómo es y cómo se manifiesta. Busca especificar propiedades, características y rasgos importantes. Describe tendencias de un grupo o población. Es útil para mostrar con precisión los ángulos o dimensiones de un fenómeno, suceso, comunidad, contexto o situación.
-
-\subsection{Alcance correlacional.}
-La profundidad de este alcance busca establecer relaciones entre variables sin precisar sentido de causalidad, es decir, no analiza relación causal.
-
-Un ejemplo de este alcance es una investigación que busca averiguar cómo se relacionan las calificaciones de los alumnos de un grado, en las asignaturas: Castellano y Matemática.
-
-\subsection{Alcance explicativo.}
-La profundidad de este alcance busca establecer relaciones entre variables precisando sentido de causalidad, es decir, analiza relación entre causa y efecto entre variables.
-
-Un ejemplo de este alcance es una investigación que busca averiguar la relación entre urbanización y alfabetismo en un país, para ver qué variables macrosociales definen el grado de alfabetización de la población del país.
-
-\section{Diseño}
-Es el plan o estrategia que se desarrolla para obtener la información que se requiere en una investigación, generalmente para verificar la hipótesis. La precisión, amplitud y profundidad de la información obtenida varía en función del diseño elegido \cite{sampieri}.
-
-En la literatura sobre investigación cuantitativa es posible encontrar diferentes clasificaciones de los diseños; los autores \cite{sampieri} adoptan la siguiente clasificaciòn: investigación experimental e investigación no experimental. A su vez, la primera puede dividirse de acuerdo con las clásicas categorías de Campbell y Stanley (1966) en: preexperimentos, experimentos ``puros'' y cuasiexperimentos. La investigación no experimental, siempre de acuerdo con \cite{sampieri}, se subdivide en diseños transversales y diseños longitudinales.
-
-\vspace{.5 cm}
-
-\textbf{Ejemplo de diseño en una investigación tecnológica formativa.}
-
-Aún más que en la investigación en ciencias básicas, es en la investigación tecnológica donde se puede apreciar la importancia del diseño para obtener un buen producto o servicio. Cabe entonces ilustrarlo con un ejemplo tomado dentro de esta última forma de investigación desde la referencia \cite{lan}.
-
-\vspace{.5 cm}
-
-\newacronym{lan}{LAN}{Local Area Network}
-\glsreset{lan} % reinicia el banderín del primer uso
-
-\textbf{\emph{Metodología para implementar red de área local. (\gls{lan}\@)}}\footnote{Por brevedad, solo se desarrolla la etapa de diseño.}
-
-\vspace{.3 cm}
-
-Hoy en día, como nunca antes, el ser social necesita estar informado. Para estudiar problemas y tomas de decisiones es necesario disponer de datos precisos, en el lugar y en el instante preciso. En gran medida se logra lo anterior con las redes de computadoras, cuyo objetivo fundamental es compartir recursos e información pues ofrecen acceso a servicios universales de datos tales como: bases de datos, correo electrónico, transmisión de archivos y boletines electrónicos; eliminando el desplazamiento de los individuos en la búsqueda de información y aumentando la capacidad de almacenamiento disponible por cada usuario en un momento determinado.
-
-Un gran porcentaje de las redes de computadoras se usan para la transmisión de información científica siendo una vía rápida y económica de divulgar resultados y de discutir con otros especialistas afines sobre un tema en cuestión. En este trabajo en particular se aborda la metodología a seguir para la implementación de redes de computadoras de área local; las cuales cumplen todos los objetivos planteados a una escala reducida ya que son propiedad de una sola organización (un solo centro administrativo o fabril) abarcando zonas geográficas de algunos kilómetros como máximo. La experiencia en el campo de \glspl{lan} en el ámbito universitario, donde las mismas se emplean para la gestión administrativa y económica, para la transmisión de información científica y para la enseñanza; ha dejado claro que el diseño, la instalación y puesta a punto de una \gls{lan} suele ser un proceso cuidadoso del cual depende en grado sumo que se cumplan los objetivos para los que se invirtió en dicha red.
-
-Para su comprensión el trabajo se divide en cinco partes o etapas:
-\begin{itemize}
-\item Etapa de estudio,
-\item Etapa de diseño.\footnote{Solo se desarrolla esta etapa.}
-\item Etapa de elaboración de la solicitud de oferta y selección del vendedor,
-\item Etapa de instalación y puesta en funcionamiento,
-\item Etapa de análisis de las prestaciones y evaluación de los resultados.
-\end{itemize}
  
-Una vez concluida la primera etapa y aprobado el presupuesto de la red es necesario realizar la etapa del \textit{diseño} de la \gls{lan} para lo cual se deben seguir los siguientes pasos:
-
-\renewcommand{\labelitemi}{$-$}
-
-\begin{itemize}
-\item Seleccionar la(s) topología(s) y norma(s) de red a emplear,
-\item Seleccionar el soporte de transmisión a utilizar,
-% \item Seleccionar el \acrlong{sored} que se usará,
-\item Analizar la necesidad de emplear técnicas de conectividad,
-\item Considerar ampliaciones futuras de la red,
-\item Realizar una evaluación primaria del tráfico,
-\item Contemplar las necesidades del personal involucrado en la red,
-\item Modificar, de ser necesario, el flujo de la información y seleccionar el software de aplicación.
+  \item \textbf{Pruebas e implementación} \\
+  Se realizaron pruebas funcionales en entornos controlados para evaluar el desempeño del sistema. Posteriormente, se implementó una prueba piloto en un aula de la FPUNE, ajustando parámetros de reconocimiento para mejorar la precisión y reducir los falsos positivos.
+  
 \end{itemize}
 
-\textit{Seleccionar la topología.} Este paso, el cual es dependiente de los resultados del anterior. Las tres topologías más empleadas son: bus, estrella y anillo; mientras que las normas más comunes son: Ethernet, Token Ring y ArcNet. La selección de los aspectos anteriores trae aparejado escoger la velocidad de transmisión, la distancia máxima a emplear, el método de control de acceso al medio, etc. La elección se realiza a partir de la necesidad particular y de un amplio conocimiento de las topologías y normas existentes. 
 
-\textit{Seleccionar el Soporte de Transmisión.} Esto está muy relacionado con la norma a emplear y con las características de los puntos a conectar. Es vital realizar una selección adecuada pues una opción equivocada comprometería la eficacia y la velocidad de la transferencia de datos. Para la elección de uno u otro medio de transmisión se debe tomar entre otras cosas las dimensiones de la instalación, el costo, la evolución tecnológica estimada, la facilidad de instalación y el grado de hostilidad electromagnética presente en el entorno. 
+\section{Análisis y selección de herramientas}
 
-\newacronym{sored}{SOR}{Sistema Operativo de Red}
-\glsreset{sored} % reinicia el banderín del primer uso
+Durante esta fase se realizó un análisis comparativo de diversas tecnologías y librerías aplicadas en el desarrollo de sistemas de reconocimiento facial. La selección de herramientas se basó en criterios como precisión, rendimiento, compatibilidad, facilidad de integración y disponibilidad de documentación. 
 
-\textit{Seleccionar el \gls{sored}.}
-
-Aunque el \gls{sored}  (del inglés NOS: Netware Operating System) NetWare predomina en el mundo, éste no es siempre la elección adecuada, debido a sus costos y características. En el mercado existen otros \glspl{sored} tales como: LAN Manager, LANServer, LANtastic, Vines, LINUX, Windows NT Server, Windows 2000 Server, etc.; los cuales poseen una determinada cuota de mercado. Para seleccionar el SOR adecuado se debe tener en cuenta:
+A continuación, se detallan las principales herramientas seleccionadas:
 
 \begin{itemize}
-\item El nivel de confidencialidad que brinda a los datos,
-\item Si es del tipo cliente-servidor o de igual a igual,
-\item Grado de tolerancia a fallos que posee,
-\item Memoria RAM necesaria en el servidor y en las estaciones de trabajo,
-\item Facilidades de administración y diagnóstico que brinda,
-\item Si posee o no sistema de correo electrónico,
-\item Características de manipulación de colas de impresión.
+
+\item \textbf{Modelos de detección y reconocimiento facial:} \\
+Se analizaron alternativas basadas en aprendizaje profundo, priorizando aquellas que ofrecen un equilibrio entre precisión y velocidad de procesamiento. Se optó por el uso de \textbf{YOLO-Face} para la detección de rostros en tiempo real, y por la librería \textbf{DeepFace} con el modelo \textbf{ArcFace} para la verificación facial, debido a su alta exactitud y estabilidad ante variaciones de iluminación, ángulo y expresión.
+
+\item \textbf{Framework de desarrollo backend:} \\
+Para la construcción de la API y la gestión de la lógica del sistema se empleó \textbf{Flask}, un microframework de Python que permite desarrollar aplicaciones ligeras y escalables. Su estructura modular facilita la integración con librerías de visión por computadora y bases de datos.
+
+\item \textbf{Framework de desarrollo frontend:} \\
+La interfaz de usuario fue desarrollada en \textbf{React}, permitiendo una interacción dinámica y fluida con el sistema. Su arquitectura basada en componentes favorece la reutilización del código y la visualización en tiempo real de los registros de asistencia.
+
+\item \textbf{Base de datos:} \\
+Se utilizó \textbf{PostgreSQL} para el almacenamiento estructurado de la información, incluyendo los registros de asistencia y datos de usuarios. Su robustez y soporte para operaciones concurrentes la convierten en una opción óptima para sistemas de este tipo.
+
+\item \textbf{Herramienta de pruebas de API:} \\
+Durante el proceso de desarrollo e integración, se empleó \textbf{Postman} para realizar pruebas de comunicación entre el frontend y el backend. Esta herramienta permitió verificar el correcto funcionamiento de las rutas, peticiones y respuestas del sistema antes de su despliegue final.
+
 \end{itemize}
 
-\textit{Analizar la necesidad de emplear técnicas de conectividad.} Esto estará en función de las dimensiones de la organización, del tráfico a cursar y el tipo de equipamiento a interconectar entre otros aspectos. Es necesario conocer en profundidad dichas técnicas para realizar una adecuada selección entre repetidores, puentes, ruteadores, compuertas, servidores de acceso, etc. y lograr su correcta ubicación. La mejor solución muchas veces hace uso de más de un tipo de dispositivo de interconexión.
+La combinación de estas herramientas permitió un desarrollo eficiente, garantizando la integración adecuada entre los módulos de detección, reconocimiento y gestión de asistencia dentro del sistema.
 
-\textit{Considerar ampliaciones futuras de la red.} Aún cuando de forma inmediata no sea necesario extender la red ni conectarse a otros, ésta debe poseer la base para que a partir de ella, y en cualquier momento sea posible una ampliación o llegar a formar parte de otras redes.
 
-\textit{Realizar una evaluación primaria del tráfico.} Aquí debe estimarse el tráfico que circulará en la red y analizar si el mismo no afecta el tiempo de acceso a la información ya otros recursos compartidos. Es importante que una vez instalada y puesta en funcionamiento la \gls{lan} se efectúen periódicamente estudios de este tipo.
+\section{Recolección de datos}
 
-\textit{Contemplar las necesidades del personal involucrado en la red.} Esto es muy importante pues en última instancia éste será el personal que utilizará la red y por lo tanto deben quedar satisfechas sus necesidades de forma tal que la nueva red sea un elemento que facilite su trabajo.
+Para el funcionamiento del sistema de reconocimiento facial, fue necesario disponer de un conjunto de imágenes faciales representativas de los usuarios. Durante el registro de cada nuevo usuario, el sistema captura un mínimo de cinco imágenes desde diferentes ángulos y expresiones, con el fin de mejorar la capacidad de reconocimiento en distintas condiciones de uso.
 
-\textit{Modificar de ser necesario el flujo de información y seleccionar el software de aplicación.} Esto implica la modificación, como última opción, de la manera en que la información circula dentro de la organización y la definición del software de aplicación necesario, ya sea comercial o aquél que se encargará al personal especializado; que conozca las particularidades de la programación en ambiente multiusuario. El software encargado o adquirido debe ser de fácil instalación y aprendizaje. Además se debe velar porque sea posible tener acceso a posteriores actualizaciones y que éstas no sean caras.
+Las imágenes se obtienen con cámaras externas (teléfonos móviles, webcams o cámaras digitales) y posteriormente se cargan al sistema mediante el módulo de registro de nuevos estudiantes. Durante este proceso se verifica el formato y un tamaño mínimo recomendado para preservar los rasgos faciales. Cada archivo se organiza en una carpeta individual asociada al usuario correspondiente y se nombra de forma sistemática, facilitando su identificación y el procesamiento posterior.
+
+En la Figura~\ref{fig:rostro_original} se muestra un ejemplo de una imagen facial capturada al natural durante el proceso de registro, mientras que la Figura~\ref{fig:rostro_normalizado} presenta el resultado tras aplicar el preprocesamiento correspondiente.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.99\textwidth]{imagenes_doc/sin_normalizar.png}
+    \caption{Ejemplo de imagen facial capturada al natural.}
+    \label{fig:rostro_original}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.99\textwidth]{imagenes_doc/dataset_rostros.jpg}
+    \caption{Ejemplo de imagen facial luego del proceso de normalización.}
+    \label{fig:rostro_normalizado}
+\end{figure}
+
+El proceso de preprocesamiento incluye la detección automática del rostro, recorte, alineación, y ajustes de brillo y contraste. Este procedimiento asegura que todas las imágenes presenten condiciones similares de entrada, mejorando la precisión del modelo en la identificación de los usuarios en tiempo real.
+
+

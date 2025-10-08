@@ -471,17 +471,37 @@ OUTPUT .\capitulo_04\marco_metodologico.aux
 INPUT .\capitulo_04\marco_metodologico.tex
 INPUT .\capitulo_04\marco_metodologico.tex
 INPUT capitulo_04\marco_metodologico.tex
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx8.tfm
-OUTPUT tfg.glsdefs
+INPUT .\imagenes_doc\Sprints.jpg
+INPUT .\imagenes_doc\Sprints.jpg
+INPUT .\imagenes_doc\Sprints.jpg
+INPUT .\imagenes_doc\Sprints.jpg
+INPUT .\imagenes_doc\Sprints.jpg
+INPUT .\imagenes_doc\Sprints.jpg
+INPUT .\imagenes_doc\Sprints.jpg
+INPUT .\imagenes_doc\sin_normalizar.png
+INPUT .\imagenes_doc\sin_normalizar.png
+INPUT .\imagenes_doc\sin_normalizar.png
+INPUT .\imagenes_doc\sin_normalizar.png
+INPUT .\imagenes_doc\sin_normalizar.png
+INPUT .\imagenes_doc\sin_normalizar.png
+INPUT .\imagenes_doc\sin_normalizar.png
+INPUT .\imagenes_doc\dataset_rostros.jpg
+INPUT .\imagenes_doc\dataset_rostros.jpg
+INPUT .\imagenes_doc\dataset_rostros.jpg
+INPUT .\imagenes_doc\dataset_rostros.jpg
+INPUT .\imagenes_doc\dataset_rostros.jpg
+INPUT .\imagenes_doc\dataset_rostros.jpg
+INPUT .\imagenes_doc\dataset_rostros.jpg
 INPUT .\capitulo_05\resultados.tex
 INPUT .\capitulo_05\resultados.tex
 OUTPUT .\capitulo_05\resultados.aux
 INPUT .\capitulo_05\resultados.tex
 INPUT .\capitulo_05\resultados.tex
 INPUT capitulo_05\resultados.tex
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx8.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmtt8.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx6.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmtt8.tfm
@@ -644,12 +664,8 @@ INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmcsc10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmcsc10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsl12.pfb

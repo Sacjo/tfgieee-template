@@ -13,18 +13,21 @@
 \contentsline {figure}{\numberline {2.10}{\ignorespaces La imagen muestra un formato tradicional de registro de asistencia escolar, utilizado por docentes para anotar la presencia diaria de los alumnos a lo largo de un período determinado\cite {listaAsistenciaEscolar}.}}{24}{figure.2.10}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Ciclo de desarrollo bajo la metodología ágil Scrum.}}{37}{figure.4.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Ejemplo de imagen facial capturada al natural.}}{41}{figure.4.2}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Ejemplo de imagen facial luego del proceso de normalización.}}{41}{figure.4.3}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento facial.}}{53}{figure.5.1}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Resultados obtenidos aplicando la configuración anterior (umbral = 1.0 y factor de similitud 30).}}{53}{figure.5.2}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento facial.}}{54}{figure.5.3}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Resultados obtenidos aplicando la configuración anterior (umbral = 1.3 y factor de similitud 25).}}{54}{figure.5.4}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento facial.}}{55}{figure.5.5}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Resultados obtenidos aplicando la configuración anterior (umbral = 1.8 y factor de similitud 20).}}{55}{figure.5.6}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento facial.}}{56}{figure.5.7}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Resultados obtenidos aplicando la configuración anterior (umbral = 3.5 y factor de similitud 18).}}{56}{figure.5.8}%
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento facial.}}{57}{figure.5.9}%
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Resultados obtenidos aplicando la configuración anterior (umbral = 5 y factor de similitud 15).}}{57}{figure.5.10}%
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento facial.}}{58}{figure.5.11}%
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Resultados obtenidos aplicando la configuración anterior (umbral = 10 y factor de similitud 10).}}{59}{figure.5.12}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento facial.}}{44}{figure.5.1}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Resultados obtenidos aplicando la configuración anterior (umbral = 1.0 y factor de similitud 30).}}{44}{figure.5.2}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento facial.}}{45}{figure.5.3}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Resultados obtenidos aplicando la configuración anterior (umbral = 1.3 y factor de similitud 25).}}{45}{figure.5.4}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento facial.}}{46}{figure.5.5}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Resultados obtenidos aplicando la configuración anterior (umbral = 1.8 y factor de similitud 20).}}{46}{figure.5.6}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento facial.}}{47}{figure.5.7}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Resultados obtenidos aplicando la configuración anterior (umbral = 3.5 y factor de similitud 18).}}{47}{figure.5.8}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento facial.}}{48}{figure.5.9}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Resultados obtenidos aplicando la configuración anterior (umbral = 5 y factor de similitud 15).}}{48}{figure.5.10}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento facial.}}{49}{figure.5.11}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Resultados obtenidos aplicando la configuración anterior (umbral = 10 y factor de similitud 10).}}{50}{figure.5.12}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

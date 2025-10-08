@@ -38,53 +38,50 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: test.bib
-Warning--I didn't find a database entry for "sampieri"
-Warning--I didn't find a database entry for "lan"
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 ** IEEEtran BST control entry "IEEEexample:BSTcontrol" detected.
 
 Done.
-You've used 40 entries,
+You've used 41 entries,
             4087 wiz_defined-function locations,
-            1051 strings with 16760 characters,
-and the built_in function-call counts, 16135 in all, are:
-= -- 1347
-> -- 239
+            1054 strings with 16867 characters,
+and the built_in function-call counts, 16529 in all, are:
+= -- 1382
+> -- 243
 < -- 14
-+ -- 121
-- -- 55
-* -- 518
-:= -- 3009
-add.period$ -- 104
-call.type$ -- 40
-change.case$ -- 67
++ -- 123
+- -- 56
+* -- 529
+:= -- 3086
+add.period$ -- 107
+call.type$ -- 41
+change.case$ -- 69
 chr.to.int$ -- 45
-cite$ -- 40
-duplicate$ -- 1224
-empty$ -- 1453
-format.name$ -- 59
-if$ -- 3545
+cite$ -- 41
+duplicate$ -- 1254
+empty$ -- 1488
+format.name$ -- 60
+if$ -- 3631
 int.to.chr$ -- 0
-int.to.str$ -- 39
-missing$ -- 306
-newline$ -- 217
-num.names$ -- 35
-pop$ -- 894
+int.to.str$ -- 40
+missing$ -- 314
+newline$ -- 222
+num.names$ -- 36
+pop$ -- 916
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 4
-skip$ -- 1270
+skip$ -- 1302
 stack$ -- 0
-substring$ -- 122
-swap$ -- 796
+substring$ -- 124
+swap$ -- 816
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 6
-type$ -- 40
+type$ -- 41
 warning$ -- 0
-while$ -- 44
-width$ -- 41
-write$ -- 437
-(There were 2 warnings)
+while$ -- 45
+width$ -- 42
+write$ -- 448

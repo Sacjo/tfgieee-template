@@ -387,3 +387,225 @@ Durante la ejecución, si el rostro detectado coincide con un registro existente
     \caption{Diagrama de flujo del funcionamiento del sistema CheckFace.}
     \label{fig:flujo_checkface}
 \end{figure}
+
+
+
+\subsection{Desarrollo del frontend}
+
+El frontend del sistema \textit{CheckFace} fue desarrollado utilizando \textbf{React} como framework principal y \textbf{Bootstrap} como librería de estilos. La elección de React permitió construir una interfaz modular basada en componentes reutilizables, mientras que Bootstrap facilitó la creación de un diseño responsivo, visualmente coherente y adaptable a diferentes tamaños de pantalla sin necesidad de definir hojas de estilo complejas desde cero. 
+
+Esta combinación de tecnologías permitió desarrollar una interfaz clara, accesible y fácil de usar para todos los usuarios del sistema, garantizando una navegación intuitiva entre las distintas secciones y funcionalidades.
+
+
+El desarrollo de la interfaz se organizó en módulos funcionales, cada uno representando una parte específica del sistema. La estructura general se compone de:
+\begin{itemize}
+  \item \textbf{Componentes de presentación:} responsables de mostrar la información y recibir datos de entrada mediante formularios, tablas y botones.
+  \item \textbf{Ruteo de navegación:} implementado con \texttt{react-router-dom}, para permitir la transición fluida entre las distintas vistas del sistema.
+  \item \textbf{Servicios:} encargados de establecer la comunicación con la API REST del backend, gestionando peticiones HTTP de forma centralizada.
+  \item \textbf{Gestión de estado:} realizada mediante los hooks de React (\texttt{useState}, \texttt{useEffect}), asegurando la actualización dinámica de la información visualizada por el usuario.
+\end{itemize}
+
+\paragraph{Criterios de diseño de la interfaz.}
+Durante el desarrollo del frontend se aplicaron los siguientes principios:
+\begin{itemize}
+  \item Consistencia visual en todos los módulos mediante el uso de componentes y clases de Bootstrap.
+  \item Diseño \textit{responsive}, garantizando un correcto funcionamiento en diferentes resoluciones y dispositivos.
+  \item Retroalimentación visual inmediata ante las acciones del usuario (por ejemplo, mediante alertas o indicadores de carga).
+  \item Accesibilidad básica mediante etiquetas y descripciones que facilitan la interacción.
+\end{itemize}
+
+\paragraph{Flujo de uso.}
+El flujo de interacción con el sistema contempla las siguientes acciones principales:
+\begin{itemize}
+  \item \textbf{Inicio de sesión:} los usuarios acceden al sistema ingresando sus credenciales personales a través de una interfaz simple y clara, garantizando que únicamente el personal autorizado pueda utilizar las funcionalidades.
+  \item \textbf{Registro de nuevos usuarios:} se dispone de un formulario que permite crear nuevas cuentas, asignar roles y definir permisos.
+  \item \textbf{Uso de los módulos principales:} dentro del panel lateral de navegación se encuentran las opciones \textit{Dashboard}, \textit{Reconocimiento Facial}, \textit{Registrar Estudiante}, \textit{Registrar Rol}, \textit{Registrar Curso}, \textit{Registrar Horario}, \textit{Registrar Asistencia} y \textit{Asignar Curso}.
+\end{itemize}
+
+
+- \textbf{Interfaz de inicio de sesión:} 
+  Es el primer punto de acceso al sistema \textit{CheckFace}. 
+  Su objetivo es permitir que los usuarios ingresen de forma segura mediante una pantalla sencilla y clara, desarrollada con \textbf{React} y estilizada con \textbf{Bootstrap}. 
+  El formulario cuenta con dos campos principales (\texttt{Username} y \texttt{Password}), un botón de acceso y un enlace que dirige al formulario de registro en caso de no poseer una cuenta. 
+  La autenticación se gestiona mediante una solicitud \texttt{POST} al backend implementado con \textbf{Flask}, el cual valida las credenciales antes de permitir el acceso.
+  El diseño minimalista, con fondo claro y elementos centrados, ofrece una experiencia fluida tanto en computadoras como en dispositivos móviles.
+
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{imagenes_doc/login.png}
+    \caption{Interfaz de inicio de sesión del sistema CheckFace.}
+    \label{fig:login}
+  \end{figure}
+
+
+
+- \textbf{Registro de usuario:}
+  Permite crear una nueva cuenta mediante un formulario simple desarrollado con \textbf{React} y estilizado con \textbf{Bootstrap}. 
+  Incluye los campos \texttt{Username} y \texttt{Password}, validaciones básicas (campos obligatorios y longitud mínima de la contraseña) y un botón de envío. 
+  Al confirmar, se envía una solicitud \texttt{POST} al backend en \textbf{Flask} para almacenar de forma segura las credenciales. 
+  La vista ofrece además un enlace para volver al inicio de sesión.
+
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{imagenes_doc/new_user.png}
+    \caption{Formulario de registro de usuario del sistema CheckFace.}
+    \label{fig:new_user}
+  \end{figure}
+
+
+
+- \textbf{Dashboard:}
+  Es la primera vista que se muestra tras el inicio de sesión en el sistema \textit{CheckFace}. 
+  Su propósito es ofrecer una visión general del registro de asistencias de los estudiantes a través de gráficos y listados interactivos. 
+  Esta sección centraliza la información y permite analizar la asistencia diaria aplicando distintos filtros según el curso y el rango de fechas seleccionado.
+
+  En la Figura~\ref{fig:dashboard1} se observa un gráfico de barras que representa las \textit{asistencias por día}. 
+  Los filtros ubicados en la parte superior permiten delimitar el período de consulta y visualizar únicamente los registros correspondientes a cada grupo. 
+  Los datos presentados son de carácter demostrativo, utilizados exclusivamente para ilustrar el funcionamiento de la interfaz.
+
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{imagenes_doc/dashboard_1.png}
+    \caption{Gráfico de asistencias por día en el módulo Dashboard.}
+    \label{fig:dashboard1}
+  \end{figure}
+
+  En la Figura~\ref{fig:dashboard2} se muestra la lista de estudiantes con sus asistencias registradas, curso correspondiente y porcentaje de asistencia. 
+  La tabla incluye opciones para exportar los datos en distintos formatos (\texttt{CSV}, \texttt{XLSX} y \texttt{PDF}), lo que facilita la generación de reportes y su posterior análisis. 
+  Los datos visualizados son únicamente de prueba y no representan información real.
+
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{imagenes_doc/dashboard_2.png}
+    \caption{Listado de estudiantes y asistencias registradas en el módulo Dashboard.}
+    \label{fig:dashboard2}
+  \end{figure}
+
+
+  - \textbf{Reconocimiento facial:}
+  este módulo permite realizar el proceso automático de detección y reconocimiento de rostros a través de la cámara del dispositivo. 
+  Al iniciar el reconocimiento, el sistema analiza la imagen capturada en tiempo real, identifica el rostro y compara sus características con los registros existentes en la base de datos. 
+  Si la persona es reconocida correctamente, el sistema muestra una confirmación visual y registra la asistencia correspondiente al curso asignado para ese día. 
+  En caso contrario, se notifica al usuario que el rostro no fue reconocido.
+
+  Esta funcionalidad permite automatizar el registro de asistencias, evitando el ingreso manual de datos y reduciendo el margen de error. 
+  El flujo completo se ejecuta de forma local y en tiempo real, ofreciendo una experiencia fluida y precisa.
+
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{imagenes_doc/reconocimiento_modulo.png}
+    \caption{Módulo de reconocimiento facial automático del sistema CheckFace.}
+    \label{fig:reconocimiento}
+  \end{figure}
+
+
+- \textbf{Registrar rol:}
+  Permite crear nuevos roles del sistema y gestionar los existentes. 
+  Incluye un formulario para ingresar la descripción del rol y una tabla con acciones de \textit{Editar} y \textit{Eliminar} sobre cada registro. 
+  Ofrece validaciones básicas y confirma las operaciones realizadas para mantener la integridad de los datos.
+
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{imagenes_doc/roles.png}
+    \caption{Gestión de roles: registro, edición y eliminación.}
+    \label{fig:roles}
+  \end{figure}
+
+
+
+- \textbf{Registrar curso:}
+  Permite crear nuevos cursos indicando \textit{Nombre del curso}, \textit{Carrera} y \textit{Semestre}. 
+  Presenta además un listado de cursos registrados con acciones de \textit{Editar} y \textit{Eliminar}, lo que facilita la administración de la oferta académica.
+
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{imagenes_doc/new_curso.png}
+    \caption{Registro y gestión de cursos.}
+    \label{fig:new_curso}
+  \end{figure}
+
+
+  - \textbf{Registrar horario:}
+  Permite asignar horarios a los cursos definidos en el sistema. 
+  El formulario incluye los campos \textit{Curso}, \textit{Día}, \textit{Hora de inicio}, \textit{Hora de fin} y \textit{Aula}, garantizando la correcta organización de las clases. 
+  En la parte inferior se muestra una tabla con los horarios registrados, que puede filtrarse por curso, día o aula, además de ofrecer opciones para \textit{Editar} o \textit{Eliminar} registros.
+
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{imagenes_doc/horario_curso.png}
+    \caption{Registro y gestión de horarios por curso.}
+    \label{fig:horario_curso}
+  \end{figure}
+
+
+- \textbf{Registrar asistencia:}
+  Permite ingresar asistencias de forma manual en casos excepcionales, como cuando un estudiante no fue reconocido por el sistema o necesita justificar una llegada tardía. 
+  El formulario incluye los campos \textit{Estudiante}, \textit{Curso}, \textit{Fecha} y una sección opcional de \textit{Observación} para registrar detalles adicionales. 
+  Este módulo garantiza que los registros de asistencia sean completos y precisos, incluso ante situaciones imprevistas.
+
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{imagenes_doc/registrar_asistencia.png}
+    \caption{Módulo de registro manual de asistencias.}
+    \label{fig:registrar_asistencia}
+  \end{figure}
+
+
+- \textbf{Asignar curso:}
+  Permite vincular a los participantes con los cursos disponibles en el sistema. 
+  El formulario presenta los campos \textit{Participante} y \textit{Curso}, que se seleccionan de listas desplegables para asegurar la coherencia de los datos. 
+  Esta funcionalidad facilita la organización académica al definir de manera precisa qué estudiantes pertenecen a cada curso.
+
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{imagenes_doc/asignar_.png}
+    \caption{Asignación de cursos a participantes.}
+    \label{fig:asignar}
+  \end{figure}
+
+
+
+\subsection{Desarrollo del backend:}
+
+El backend del sistema \textit{CheckFace} fue desarrollado con el framework \textbf{Flask} en \textbf{Python}, con el objetivo de ofrecer una capa de servicios ligera y modular que gestione la comunicación entre la interfaz web, la base de datos y los procesos de reconocimiento facial en tiempo real. 
+
+La estructura del backend está organizada en carpetas según su función: \textit{routes} contiene los endpoints RESTful que conectan con el frontend; \textit{detection} realiza la detección facial mediante el modelo \textbf{YOLO-Face}; \textit{recognition} ejecuta el reconocimiento de rostros a partir de comparaciones vectoriales; y \textit{database} gestiona la conexión y operaciones con \textbf{PostgreSQL}. 
+El archivo \texttt{api.py} centraliza la configuración del servidor y las rutas, mientras que los scripts \texttt{train\_faces.py} permiten entrenar y actualizar los registros faciales del sistema.
+
+Las principales funcionalidades implementadas en esta capa incluyen:
+\begin{itemize}
+    \item \textbf{Exposición de endpoints RESTful:} Se definieron rutas HTTP para el manejo de usuarios, roles, cursos, horarios, asistencias y reconocimiento facial, enviando y recibiendo datos en formato JSON.
+    \item \textbf{Procesamiento y reconocimiento facial:} Las imágenes capturadas desde el frontend son procesadas en el backend, donde se realiza la detección del rostro y su comparación con los vectores previamente registrados para registrar la asistencia correspondiente.
+    \item \textbf{Gestión de usuarios y autenticación:} Se implementaron rutas dedicadas para el registro e inicio de sesión de usuarios, controlando el acceso a las distintas funciones del sistema.
+    \item \textbf{Interacción con la base de datos:} Toda la información sobre usuarios, estudiantes, cursos, horarios y asistencias se gestiona en la base de datos \textbf{PostgreSQL}, mediante operaciones CRUD estructuradas.
+\end{itemize}
+
+Durante el desarrollo y las pruebas de los endpoints se utilizó la herramienta \textbf{Postman}, que permitió verificar la correcta comunicación entre el frontend y el backend, asegurando que las peticiones y respuestas cumplieran con el formato y comportamiento esperados.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.6\textwidth]{imagenes_doc/backend_estructura.png}
+  \caption{Estructura general del proyecto CheckFace en Visual Studio Code.}
+  \label{fig:backend_estructura}
+\end{figure}
+
+\subsubsection*{Líneas de código}
+
+En el \textbf{ANEXO B} se presentan los fragmentos de código más relevantes del \textit{Sistema de Asistencia Basado en Reconocimiento Facial para la Facultad Politécnica de la Universidad Nacional del Este}, acompañados de una breve descripción que explica su funcionamiento dentro del proceso de reconocimiento facial. 
+
+Los fragmentos seleccionados corresponden a los módulos principales del sistema: \texttt{train\_faces.py} y \texttt{recognizer.py}. 
+El primero se encarga del entrenamiento de los rostros registrados, generando los vectores de características que serán utilizados posteriormente para la identificación de los estudiantes. 
+El segundo contiene la lógica del reconocimiento facial en tiempo real, comparando los vectores generados con los almacenados en la base de datos y registrando la asistencia en caso de una coincidencia exitosa.  
+
+Cada fragmento se acompaña de su respectiva explicación para facilitar la comprensión del flujo de ejecución, desde la lectura de las imágenes hasta la detección, verificación e identificación de los rostros dentro del entorno del aula.
+
+
+\subsection{Usabilidad}
+
+Para evaluar la usabilidad y el nivel de satisfacción de los usuarios con el \textit{Sistema de Asistencia Basado en Reconocimiento Facial para la Facultad Politécnica de la Universidad Nacional del Este}, se establecieron variables operacionales basadas en los principios de Experiencia de Usuario (UX), considerando la facilidad de uso, eficiencia, confiabilidad y aceptación general del sistema.
+
+Como instrumento de medición se aplicó el cuestionario \textbf{SUS (System Usability Scale)}, ampliamente utilizado para obtener un puntaje global de usabilidad. 
+La evaluación se realizó con una muestra conformada por docentes de la institución, quienes realizaron tareas representativas como el registro de usuarios, la toma de asistencia mediante reconocimiento facial y la verificación de reportes, todo dentro del entorno web del sistema.
+
+Los datos recolectados permitieron determinar el nivel de aceptación del sistema y detectar posibles oportunidades de mejora en la interfaz y el flujo de uso. 
+Los resultados consolidados y las respuestas individuales se presentan en el \textbf{ANEXO A} correspondiente.

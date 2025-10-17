@@ -1,11 +1,9 @@
 
 \documentclass[12pt,a4paper,oneside]{book}
 \usepackage[utf8]{inputenc}
-
 \usepackage[table]{xcolor}
 \usepackage{tabularx}
 \usepackage{graphicx}
-
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
@@ -27,17 +25,12 @@
 \usepackage{float}
 \makeindex
 \pagestyle{fancy}
-
 \makeglossaries % este comando debe estar en el preámbulo
-
 \renewcommand{\labelitemi}{\textbullet}
-
 \begin{document}
 % \renewcommand{\glossaryname}{Glosario}
-
 \renewcommand\listtablename{\'Indice de Tablas}
 %\listtablename
-
 \renewcommand{\tablename}{Tabla}
 \renewcommand{\acronymname}{Acr\'onimos y s\'imbolos}
 \renewcommand{\bibname}{Referencias bibliogr\'aficas}
@@ -52,27 +45,21 @@
 \end{center}
 \end{minipage}
 \end{figure}
-
 \thispagestyle{empty}
-
 {\bf
 \begin{center}
 \large
 \vspace*{-1 cm}\Large \textsc{Universidad Nacional del Este.} \\
 \Large \textsc{Facultad Politécnica.} \\
 \vspace*{0.5 cm}\hrule
-
 \end{center}
 }
-
 \vspace*{-0.5 cm}
 \begin{figure}[htb]
 \begin{center}
 \includegraphics[scale = .6]{./portada_y_ficha_catalografica/logo.png}
-
 \end{center}
 \end{figure}
-
 
 \vspace{3 cm}
 {
@@ -82,18 +69,14 @@
 \end{center}
 }
 
-
 \vspace{5 cm}
-
 \begin{center}
 {\textbf{\Large Aldo Carrizo Coronel.}\\[5mm]
 \textbf{\Large Jorge Daniel Sánchez Ramirez.}\\[5mm]
 \vspace{1 cm}
 \textbf{Año \the\year.}}
 \end{center}
-
 \bstctlcite{IEEEexample:BSTcontrol} % cambia "and" por "y" en bibliografía
-
 \include{./portada_y_ficha_catalografica/portada_y_ficha_catalografica}
 \include{./hoja_aprobacion/hoja_aprobacion}
 \include{./dedicatoria/dedicatoria}
@@ -118,24 +101,16 @@
 \include{./capitulo_04/marco_metodologico}
 \include{./capitulo_05/resultados}
 \include{./capitulo_06/discusion}
-
 \backmatter
-
 \cleardoublepage
 \addcontentsline{toc}{chapter}{Glosario}
 \printglossary
 % \printglossaries
-
 \addcontentsline{toc}{chapter}{Anexos}
-
 \cleardoublepage
 \include{./anexos/anexo}
-
 \cleardoublepage
 \addcontentsline{toc}{chapter}{Referencias bibliogr\'aficas}
-
 \bibliographystyle{IEEEtran-castellano}
 \bibliography{test}
-
 \end{document}
-

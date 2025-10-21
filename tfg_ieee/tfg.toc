@@ -17,72 +17,73 @@
 \contentsline {section}{\numberline {2.1}Biometría}{7}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Historia de la biometría}{7}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}Concepto de Seguridad Biométrica}{8}{subsection.2.1.2}%
-\contentsline {section}{\numberline {2.2}Reconocimiento Facial}{9}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Historia de Reconocimiento Facial}{9}{subsection.2.2.1}%
+\contentsline {section}{\numberline {2.2}Reconocimiento Facial}{10}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Historia de Reconocimiento Facial}{10}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Concepto del Reconocimiento Facial}{11}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Funcionamiento del Reconocimiento Facial}{11}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}Aplicaciones de los sistemas de reconocimiento facial.}{13}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.3}Funcionamiento del Reconocimiento Facial}{12}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Aplicaciones de los sistemas de reconocimiento facial.}{14}{subsection.2.2.4}%
 \contentsline {subsection}{\numberline {2.2.5}Precisión del Reconocimiento Facial}{14}{subsection.2.2.5}%
-\contentsline {section}{\numberline {2.3}Inteligencia Artificial}{14}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Concepto de la Inteligencia Artificial}{14}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Aprendizaje Automático (Machine Learning)}{15}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Aprendizaje Profundo (Deep Learning)}{16}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Redes Neuronales Artificiales}{18}{subsection.2.3.4}%
-\contentsline {subsection}{\numberline {2.3.5}Tipos Comunes de redes neuronales artificiales}{18}{subsection.2.3.5}%
-\contentsline {subsection}{\numberline {2.3.6}Visión por Computadora}{21}{subsection.2.3.6}%
-\contentsline {section}{\numberline {2.4}Registros Académicos.}{23}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Concepto de Registros Académicos.}{23}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}¿Qué contienen los registros académicos}{24}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}¿Para qué sirven los registros académicos?}{24}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.4.4}Importancia de los registros académicos.}{25}{subsection.2.4.4}%
-\contentsline {section}{\numberline {2.5}Antecedentes}{25}{section.2.5}%
-\contentsline {chapter}{\numberline {3}Herramientas Tecnologicas}{29}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Seleccion de Herramientas}{29}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Figma}{29}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Python}{30}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}JavaScript}{30}{subsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.1.4}SQL}{31}{subsection.3.1.4}%
-\contentsline {subsection}{\numberline {3.1.5}Postgres}{31}{subsection.3.1.5}%
-\contentsline {subsection}{\numberline {3.1.6}Git}{32}{subsection.3.1.6}%
-\contentsline {section}{\numberline {3.2}Entorno de dessarrollo del modelo}{32}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Visual Studio Code}{32}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2} GitHub Desktop}{32}{subsection.3.2.2}%
-\contentsline {section}{\numberline {3.3}Librerias utilizadas}{33}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}React}{33}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Flask}{33}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}YOLO}{34}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}ArcFace}{34}{subsection.3.3.4}%
-\contentsline {chapter}{\numberline {4}Método}{35}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Enfoque}{35}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Método utilizado para el desarrollo}{36}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Fases del Proceso Investigativo}{37}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Análisis y selección de herramientas}{38}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Recolección de datos}{40}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Entrenamiento del Modelo}{41}{section.4.6}%
-\contentsline {section}{\numberline {4.7}Diseño de la aplicación}{44}{section.4.7}%
-\contentsline {subsection}{\numberline {4.7.1}Arquitectura del sistema}{44}{subsection.4.7.1}%
-\contentsline {subsection}{\numberline {4.7.2}Integración de IA y Reconocimiento Facial}{45}{subsection.4.7.2}%
-\contentsline {subsection}{\numberline {4.7.3}Relevamiento de requisitos}{46}{subsection.4.7.3}%
-\contentsline {subsection}{\numberline {4.7.4}Caso de Uso Principal del Sistema}{47}{subsection.4.7.4}%
-\contentsline {subsubsection}{Descripción general del caso de uso}{48}{section*.18}%
-\contentsline {subsection}{\numberline {4.7.5}Definición de la Base de Datos y Tablas}{49}{subsection.4.7.5}%
-\contentsline {subsection}{\numberline {4.7.6}Diagrama de flujo del funcionamiento del sistema}{52}{subsection.4.7.6}%
-\contentsline {subsection}{\numberline {4.7.7}Desarrollo del frontend}{53}{subsection.4.7.7}%
-\contentsline {paragraph}{Criterios de diseño de la interfaz.}{54}{section*.21}%
-\contentsline {paragraph}{Flujo de uso.}{55}{section*.22}%
-\contentsline {subsection}{\numberline {4.7.8}Desarrollo del backend:}{64}{subsection.4.7.8}%
-\contentsline {subsection}{\numberline {4.7.9}Usabilidad}{67}{subsection.4.7.9}%
-\contentsline {chapter}{\numberline {5}Resultados}{68}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Figuras y Tablas}{68}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Errores detectados y ajustes aplicados}{69}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Configuraciones aplicadas y resultados obtenidos}{70}{subsection.5.1.2}%
-\contentsline {chapter}{\numberline {6}Discusión}{79}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Logros alcanzados con relación a los objetivos específicos}{80}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Logros alcanzados con relación al Objetivo General}{82}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Análisis de la hipótesis}{82}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Solución al problema de investigación}{83}{section.6.4}%
-\contentsline {section}{\numberline {6.5}Sugerencias para futuras investigaciones}{84}{section.6.5}%
-\contentsline {chapter}{Glosario}{86}{section.6.5}%
-\contentsline {chapter}{Anexos}{86}{section.6.5}%
-\contentsline {chapter}{Anexo A.}{87}{chapter*.27}%
-\contentsline {chapter}{Referencias bibliogr\'aficas}{88}{chapter*.27}%
+\contentsline {section}{\numberline {2.3}Inteligencia Artificial}{15}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Concepto de la Inteligencia Artificial}{15}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Aprendizaje Automático (Machine Learning)}{16}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Aprendizaje Profundo (Deep Learning)}{17}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Redes Neuronales Artificiales}{19}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Tipos Comunes de redes neuronales artificiales}{20}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.3.6}Visión por Computadora}{24}{subsection.2.3.6}%
+\contentsline {section}{\numberline {2.4}Registros Académicos.}{26}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Concepto de Registros Académicos.}{26}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}¿Qué contienen los registros académicos}{26}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}¿Para qué sirven los registros académicos?}{27}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Importancia de los registros académicos.}{27}{subsection.2.4.4}%
+\contentsline {section}{\numberline {2.5}Antecedentes}{28}{section.2.5}%
+\contentsline {chapter}{\numberline {3}Herramientas Tecnologicas}{31}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Seleccion de Herramientas}{31}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Figma}{31}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Python}{32}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}JavaScript}{32}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}SQL}{33}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.1.5}PostgreSQL}{33}{subsection.3.1.5}%
+\contentsline {subsection}{\numberline {3.1.6}Git}{34}{subsection.3.1.6}%
+\contentsline {section}{\numberline {3.2}Entorno de dessarrollo del modelo}{34}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Visual Studio Code}{34}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2} GitHub Desktop}{34}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Postman}{35}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}Librerias utilizadas}{35}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}React}{35}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Flask}{35}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}YOLO}{36}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}ArcFace}{36}{subsection.3.3.4}%
+\contentsline {chapter}{\numberline {4}Método}{37}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Enfoque}{37}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Método utilizado para el desarrollo}{38}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Fases del Proceso Investigativo}{39}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Análisis y selección de herramientas}{40}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Recolección de datos}{42}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Entrenamiento del Modelo}{43}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Diseño de la aplicación}{46}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Arquitectura del sistema}{46}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}Integración de IA y Reconocimiento Facial}{47}{subsection.4.7.2}%
+\contentsline {subsection}{\numberline {4.7.3}Relevamiento de requisitos}{48}{subsection.4.7.3}%
+\contentsline {subsection}{\numberline {4.7.4}Caso de Uso Principal del Sistema}{49}{subsection.4.7.4}%
+\contentsline {subsubsection}{Descripción general del caso de uso}{50}{section*.18}%
+\contentsline {subsection}{\numberline {4.7.5}Definición de la Base de Datos y Tablas}{51}{subsection.4.7.5}%
+\contentsline {subsection}{\numberline {4.7.6}Diagrama de flujo del funcionamiento del sistema}{54}{subsection.4.7.6}%
+\contentsline {subsection}{\numberline {4.7.7}Desarrollo del frontend}{55}{subsection.4.7.7}%
+\contentsline {paragraph}{Criterios de diseño de la interfaz.}{56}{section*.21}%
+\contentsline {paragraph}{Flujo de uso.}{57}{section*.22}%
+\contentsline {subsection}{\numberline {4.7.8}Desarrollo del backend:}{66}{subsection.4.7.8}%
+\contentsline {subsection}{\numberline {4.7.9}Usabilidad}{69}{subsection.4.7.9}%
+\contentsline {chapter}{\numberline {5}Resultados}{70}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Figuras y Tablas}{70}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Errores detectados y ajustes aplicados}{71}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Configuraciones aplicadas y resultados obtenidos}{72}{subsection.5.1.2}%
+\contentsline {chapter}{\numberline {6}Discusión}{81}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Logros alcanzados con relación a los objetivos específicos}{82}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Logros alcanzados con relación al Objetivo General}{84}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Análisis de la hipótesis}{84}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Solución al problema de investigación}{85}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Sugerencias para futuras investigaciones}{86}{section.6.5}%
+\contentsline {chapter}{Glosario}{88}{section.6.5}%
+\contentsline {chapter}{Anexos}{88}{section.6.5}%
+\contentsline {chapter}{Anexo A.}{89}{chapter*.27}%
+\contentsline {chapter}{Referencias bibliogr\'aficas}{90}{chapter*.27}%

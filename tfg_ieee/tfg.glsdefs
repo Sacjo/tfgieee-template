@@ -1,14 +1,14 @@
-\glsdefs@newdocentry{lan}%
+\glsdefs@newdocentry{FPUNE}%
 {%
-name={\acronymfont {\glsentryshort {lan}}},%
-sort={LAN},%
+name={\acronymfont {\glsentryshort {FPUNE}}},%
+sort={FPUNE},%
 type={main},%
-first={LAN},%
-firstplural={LANs},%
-text={LAN},%
-plural={LANs},%
-description={Local Area Network},%
-descriptionplural={Local Area Network},%
+first={FPUNE},%
+firstplural={FPUNEs},%
+text={FPUNE},%
+plural={FPUNEs},%
+description={Facultad Politécnica de la Universidad Nacional del Este},%
+descriptionplural={Facultad Politécnica de la Universidad Nacional del Este},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
@@ -17,38 +17,10 @@ user3={},%
 user4={},%
 user5={},%
 user6={},%
-long={Local Area Network},%
-longplural={Local Area Networks},%
-short={LAN},%
-shortplural={LANs},%
-counter={page},%
-parent={},%
-%
-}%
-
-\glsdefs@newdocentry{sored}%
-{%
-name={\acronymfont {\glsentryshort {sored}}},%
-sort={SOR},%
-type={main},%
-first={SOR},%
-firstplural={SORs},%
-text={SOR},%
-plural={SORs},%
-description={Sistema Operativo de Red},%
-descriptionplural={Sistema Operativo de Red},%
-symbol={\relax },%
-symbolplural={\relax },%
-user1={},%
-user2={},%
-user3={},%
-user4={},%
-user5={},%
-user6={},%
-long={Sistema Operativo de Red},%
-longplural={Sistema Operativo de Reds},%
-short={SOR},%
-shortplural={SORs},%
+long={Facultad Politécnica de la Universidad Nacional del Este},%
+longplural={Facultad Politécnica de la Universidad Nacional del Estes},%
+short={FPUNE},%
+shortplural={FPUNEs},%
 counter={page},%
 parent={},%
 %

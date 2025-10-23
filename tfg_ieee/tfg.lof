@@ -14,34 +14,47 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Ciclo de desarrollo bajo la metodología ágil Scrum.}}{39}{figure.4.1}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Ejemplo de imagen facial capturada al natural.}}{43}{figure.4.2}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Ejemplo de imagen facial luego del proceso de normalización.}}{43}{figure.4.3}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Caso de uso principal del sistema CheckFace.}}{50}{figure.4.4}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Diagrama de Entidad–Relación del sistema CheckFace.}}{52}{figure.4.5}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Diagrama de flujo del funcionamiento del sistema CheckFace.}}{55}{figure.4.6}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Interfaz de inicio de sesión del sistema CheckFace.}}{58}{figure.4.7}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Formulario de registro de usuario del sistema CheckFace.}}{59}{figure.4.8}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Gráfico de asistencias por día en el módulo Dashboard.}}{60}{figure.4.9}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Listado de estudiantes y asistencias registradas en el módulo Dashboard.}}{61}{figure.4.10}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Módulo de reconocimiento facial automático del sistema CheckFace.}}{62}{figure.4.11}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Gestión de roles: registro, edición y eliminación.}}{63}{figure.4.12}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Registro y gestión de cursos.}}{63}{figure.4.13}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Registro y gestión de horarios por curso.}}{64}{figure.4.14}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Módulo de registro manual de asistencias.}}{65}{figure.4.15}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Asignación de cursos a participantes.}}{66}{figure.4.16}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Estructura general del proyecto CheckFace en Visual Studio Code.}}{68}{figure.4.17}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Ejemplo de imagen facial capturada al natural. [Figura propia]}}{45}{figure.4.2}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Ejemplo de imagen facial luego del proceso de normalización. [Figura propia]}}{46}{figure.4.3}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Caso de uso principal del sistema CheckFace[Tabla Propia].}}{53}{figure.4.4}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Diagrama de Entidad–Relación del sistema CheckFace[imagen propia].}}{55}{figure.4.5}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Diagrama de flujo del funcionamiento del sistema CheckFace.}}{58}{figure.4.6}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Interfaz de inicio de sesión del sistema.[Imagen propia]}}{61}{figure.4.7}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Formulario de registro de usuario.[Imagen propia]}}{62}{figure.4.8}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Gráfico de asistencias por día en el módulo Dashboard.[Imagen propia]}}{63}{figure.4.9}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Listado de estudiantes y asistencias registradas en el módulo Dashboard.[Imagen propia]}}{64}{figure.4.10}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Módulo de reconocimiento facial automático.[Imagen propia]}}{65}{figure.4.11}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Gestión de roles: registro, edición y eliminación.[Imagen propia]}}{65}{figure.4.12}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Registro y gestión de cursos.[Imagen propia]}}{66}{figure.4.13}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Registro y gestión de horarios por curso[Imagen propia].}}{67}{figure.4.14}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Módulo de registro manual de asistencias.[Imagen propia]}}{68}{figure.4.15}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Asignación de cursos a participantes.[Imagen propia]}}{69}{figure.4.16}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Estructura general del proyecto en Visual Studio Code.[Imagen propia]}}{71}{figure.4.17}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento facial.}}{72}{figure.5.1}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Resultados obtenidos aplicando la configuración anterior (umbral = 1.0 y factor de similitud 30).}}{72}{figure.5.2}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento facial.}}{73}{figure.5.3}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Resultados obtenidos aplicando la configuración anterior (umbral = 1.3 y factor de similitud 25).}}{73}{figure.5.4}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento facial.}}{74}{figure.5.5}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Resultados obtenidos aplicando la configuración anterior (umbral = 1.8 y factor de similitud 20).}}{74}{figure.5.6}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento facial.}}{75}{figure.5.7}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Resultados obtenidos aplicando la configuración anterior (umbral = 3.5 y factor de similitud 18).}}{75}{figure.5.8}%
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento facial.}}{76}{figure.5.9}%
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Resultados obtenidos aplicando la configuración anterior (umbral = 5 y factor de similitud 15).}}{76}{figure.5.10}%
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento facial.}}{77}{figure.5.11}%
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Resultados obtenidos aplicando la configuración anterior (umbral = 10 y factor de similitud 10).}}{78}{figure.5.12}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento.[Figura Propia]}}{78}{figure.5.1}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Muy estricto, reconoce solo rostros casi idénticos.[Figura Propia]}}{78}{figure.5.2}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento.[Figura Propia]}}{79}{figure.5.3}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Estricto, buena precisión, pero sensible a luz o expresión.[Figura Propia]}}{79}{figure.5.4}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento.[Figura Propia]}}{80}{figure.5.5}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Equilibrado, balance entre precisión y tolerancia.[Figura Propia]}}{80}{figure.5.6}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento.[Figura Propia]}}{81}{figure.5.7}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Moderadamente flexible, admite pequeñas variaciones.[Figura Propia]}}{81}{figure.5.8}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento.[Figura Propia]}}{82}{figure.5.9}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Puede aceptar coincidencias con diferencias notables.[Figura Propia]}}{82}{figure.5.10}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Prueba inicial del sistema bajo condiciones de iluminación máxima, con detección de personas registradas y no registradas. [Figura Propia]}}{83}{figure.5.11}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Segunda prueba con iluminación uniforme, evidenciando estabilidad en las detecciones. [Figura Propia]}}{84}{figure.5.12}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Prueba con variaciones leves de postura y uso de accesorios, manteniendo altos niveles de reconocimiento. [Figura Propia]}}{85}{figure.5.13}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Prueba a mayor distancia, con leve disminución en la similitud pero reconocimiento correcto de los usuarios registrados. [Figura Propia]}}{86}{figure.5.14}%
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Prueba con iluminación reducida, mostrando una disminución natural en la precisión de reconocimiento. [Figura Propia]}}{87}{figure.5.15}%
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Prueba con iluminación mínima, donde el sistema no logró reconocer a los participantes. [Figura Propia]}}{88}{figure.5.16}%
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Prueba con condiciones normales de iluminación y cambio de posición de los participantes registrados. [Figura Propia]}}{89}{figure.5.17}%
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Prueba con la cámara a una altura de aproximadamente 2,30 metros, mostrando un reconocimiento estable. [Figura Propia]}}{90}{figure.5.18}%
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Prueba con ocho participantes en el encuadre, reconociendo correctamente a los seis usuarios registrados. [Figura Propia]}}{91}{figure.5.19}%
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Prueba grupal con iluminación mínima, sin reconocimiento exitoso de los usuarios registrados. [Figura Propia]}}{92}{figure.5.20}%
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Prueba con la cámara a 2,20 metros de altura y posiciones diversas de los participantes, evidenciando un desempeño estable. [Figura Propia]}}{93}{figure.5.21}%
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Prueba final con variación del ángulo de la cámara, mostrando estabilidad en los niveles de similitud. [Figura Propia]}}{94}{figure.5.22}%
+\contentsline {figure}{\numberline {5.23}{\ignorespaces Usuarios registrados dentro del sistema de reconocimiento facial. [Figura Propia]}}{95}{figure.5.23}%
+\contentsline {figure}{\numberline {5.24}{\ignorespaces Procesamiento de imágenes y generación de vectores de características (\textit {embeddings}) para cada usuario registrado. [Figura Propia]}}{95}{figure.5.24}%
+\contentsline {figure}{\numberline {5.25}{\ignorespaces Registros de asistencias generados automáticamente por el sistema en la base de datos \textit {checkface\_db}. [Figura Propia]}}{96}{figure.5.25}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

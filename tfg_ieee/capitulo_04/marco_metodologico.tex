@@ -20,7 +20,7 @@ El presente trabajo se caracteriza por ser una investigación aplicada de tipo t
 
 El enfoque de análisis de datos es mixto, combinando métodos cuantitativos y cualitativos. El primero permite medir la precisión y el rendimiento del sistema, mientras que el segundo considera la percepción de los usuarios sobre su facilidad de uso y utilidad en el entorno académico.
 
-El alcance de la investigación es de tipo descriptivo, ya que se analizan los componentes, el funcionamiento y los resultados obtenidos durante la implementación del sistema.
+El alcance de la investigación es de tipo descriptivo, ya que se analizan los componentes, el funcionamiento y los resultados obtenidos durante las pruebas del sistema.
 
 El diseño de la investigación es no experimental y longitudinal, dado que el sistema será implementado y evaluado a lo largo de un semestre académico, permitiendo observar su desempeño y evolución en diferentes etapas.
 
@@ -60,7 +60,7 @@ Scrum se fundamenta en los principios de transparencia, inspección y adaptació
   Se definió la arquitectura modular del sistema, integrando los componentes de captura, procesamiento, reconocimiento facial y registro en la base de datos. Además, se diseñó la base de datos relacional para almacenar tanto los datos de los usuarios como los registros de asistencia.
 
  
-  \item \textbf{Pruebas e implementación} \\
+  \item \textbf{Pruebas} \\
   Se realizaron pruebas funcionales en entornos controlados para evaluar el desempeño del sistema. Posteriormente, se implementó una prueba piloto en un aula de la FPUNE, ajustando parámetros de reconocimiento para mejorar la precisión y reducir los falsos positivos.
   
 \end{itemize}
@@ -75,7 +75,130 @@ A continuación, se detallan las principales herramientas seleccionadas:
 \begin{itemize}
 
 \item \textbf{Modelos de detección y reconocimiento facial:} \\
-Se analizaron alternativas basadas en aprendizaje profundo, priorizando aquellas que ofrecen un equilibrio entre precisión y velocidad de procesamiento. Se optó por el uso de \textbf{YOLO-Face} para la detección de rostros en tiempo real, y por la librería \textbf{DeepFace} con el modelo \textbf{ArcFace} para la verificación facial, debido a su alta exactitud y estabilidad ante variaciones de iluminación, ángulo y expresión.
+Para la etapa de detección de rostros se analizaron diversas alternativas basadas en aprendizaje profundo, considerando factores como la precisión, la velocidad de procesamiento y la capacidad de operar en tiempo real. Tras la comparación de diferentes tecnologías, se determinó que \textbf{YOLO-Face} ofrece el mejor equilibrio entre exactitud y eficiencia, motivo por el cual fue seleccionado como modelo principal de detección facial. 
+
+\begin{table}[H]
+\centering
+\caption{Resultados principales de los modelos de detección\cite{fatima2024yolov8}.}
+\label{tab:comparacion-modelos}
+\renewcommand{\arraystretch}{1.3}
+\normalsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{|l|c|c|c|p{6.2cm}|}
+\hline
+\textbf{Modelo} & \textbf{Precisión} & \textbf{Tiempo de Proceso} & \textbf{mAP} & \textbf{Observaciones} \\
+\hline
+\textbf{YOLOv8}      & 0.71 & \textbf{1 ms}  & \textbf{0.71}  &
+Mejor equilibrio entre velocidad y exactitud; ideal para tiempo real. \\
+\hline
+\textbf{RetinaNet}   & 0.67 & 1.236 s & 0.67 &
+Focal Loss mejora el manejo de clases desequilibradas, con menor velocidad. \\
+\hline
+\textbf{EfficientDet} & 0.55 & 1.0 s & 0.55 &
+Eficiente en recursos; recomendado para hardware limitado. \\
+\hline
+\end{tabular}
+\end{table}
+
+\textit{Nota:} mAP (mean Average Precision) indica la precisión promedio media del modelo; valores más altos reflejan mayor exactitud en la detección.
+
+
+\item \textbf{Comparativa de modelos YOLO para detección facial}
+
+Se evaluaron diferentes versiones de YOLO adaptadas al reconocimiento facial. Finalmente, se seleccionó YOLOv8n-Face por su buen equilibrio entre precisión y velocidad.
+
+
+\begin{table}[H]
+    \centering
+    \caption{Comparativa de modelos YOLO para detección facial\cite{yolov8face2024}.}
+    \label{tab:comparativa_yolo}
+    \renewcommand{\arraystretch}{1.3}
+    \small
+    \begin{tabular}{|p{3.2cm}|p{2.5cm}|p{1.8cm}|p{6.3cm}|}
+        \hline
+        \textbf{Modelo} & \textbf{mAP} & \textbf{Precisión} & \textbf{Observaciones} \\ \hline
+
+        YOLOv5n-Face & $\sim$0.31 & $\sim$0.60 & Muy liviano y rápido, pero con menor precisión general.\\ \hline
+
+        YOLOv5s-Face & $\sim$0.34 & $\sim$0.65 & Mejor precisión que v5n. Rendimiento estable en equipos de gama media. \\ \hline
+
+        YOLOv8n-Face & \textbf{0.375} & \textbf{0.625} & Excelente equilibrio entre precisión y velocidad. \\ \hline
+
+        YOLOv8s-Face & $\sim$0.43 & $\sim$0.70 & Mayor precisión con ligero aumento en consumo de recursos. Adecuado para entornos con GPU moderada. \\ \hline
+
+        YOLOv8m-Face & $\sim$0.46 & $\sim$0.72 & Alta precisión y detección robusta, aunque con mayor carga computacional. Ideal para pruebas exhaustivas. \\ \hline
+    \end{tabular}
+\end{table}
+
+
+\item \textbf{Evaluación según nivel de dificultad (WIDER Face)}
+
+La tabla presenta el desempeño de distintos modelos de detección facial evaluados en el conjunto de datos WIDER Face, considerando tres niveles de dificultad: fácil, medio y difícil.  
+Las condiciones más complejas incluyen rostros pequeños, parcialmente visibles o con iluminación deficiente.  
+Los resultados evidencian que la versión YOLOv8-Face mantiene un rendimiento más consistente y robusto frente a escenarios desafiantes.
+
+\begin{table}[H]
+    \centering
+    \caption{Rendimiento de modelos YOLO en distintos niveles de dificultad (WIDER Face).\cite{yolov8face2024}}
+    \label{tab:rendimiento_dificultad}
+    \renewcommand{\arraystretch}{1.25}
+    \resizebox{\linewidth}{!}{%
+    \begin{tabular}{|p{3.8cm}|c|c|c|}
+        \hline
+        \textbf{Modelo} & \textbf{Easy (\%)} & \textbf{Medium (\%)} & \textbf{Hard (\%)} \\ \hline
+        YOLOv5s–Face & 91.20 & 89.10 & 71.30 \\ \hline
+        YOLOv8n–Face & 93.79 & 91.82 & 79.38 \\ \hline
+        YOLOv8s–Face & 95.13 & 93.62 & 82.90 \\ \hline
+        YOLOv8x–Face & 96.33 & 95.16 & 85.80 \\ \hline
+    \end{tabular}}%
+\end{table}
+
+
+\item \textbf{Comparativa de modelos DeepFace}
+
+La tabla muestra distintos modelos compatibles con DeepFace evaluados en cuanto a precisión, velocidad, tamaño, métrica de comparación y sus ventajas y desventajas. Se destaca ArcFace como el más preciso, aunque requiere buen preprocesamiento.
+
+
+\begin{table}[H]
+    \centering
+    \caption{Comparativa de modelos de DeepFace.\cite{yolov8face2024}}
+    \label{tab:deepface1}
+    \renewcommand{\arraystretch}{1.25}
+    \resizebox{\linewidth}{!}{%
+    \begin{tabular}{|p{3.2cm}|c|c|c|p{3.2cm}||}
+        \hline
+        \textbf{Modelo} & \textbf{Precisión (LFW)} & \textbf{Velocidad} & \textbf{Tamaño} & \textbf{Métrica} \\ \hline
+        ArcFace     & \textbf{99.83\%} & Media      & $\sim$68 MB  & Cosine / Euclídea \\ \hline
+        VGG-Face    & 98.78\%          & Lenta      & $\sim$500 MB & Cosine \\ \hline
+        Facenet     & 99.20\%          & Rápida     & $\sim$90 MB  & Euclídea \\ \hline
+        Facenet512  & 99.25\%          & Media      & $\sim$125 MB & Euclídea \\ \hline
+        Dlib        & 96.00\%          & Muy rápida & $\sim$5 MB   & Euclídea \\ \hline
+        SFace       & 99.65\%          & Media      & $\sim$100 MB & Cosine \\ \hline
+    \end{tabular}}%
+\end{table}
+
+
+\vspace{0.5cm}
+
+\begin{table}[H]
+    \centering
+    \caption{Comparativa de modelos de DeepFace \cite{yolov8face2024}.}
+    \label{tab:deepface2}
+    \renewcommand{\arraystretch}{1.25}
+    \resizebox{\linewidth}{!}{%
+    \begin{tabular}{|p{3cm}|p{5.2cm}|p{5.2cm}|}
+        \hline
+        \textbf{Modelo} & \textbf{Ventajas principales} & \textbf{Desventajas} \\ \hline
+        ArcFace & Alta precisión y robustez ante cambios de pose o luz & Requiere preprocesamiento cuidadoso \\ \hline
+        VGG-Face & Modelo base de DeepFace, bien entrenado & Lento y de gran tamaño \\ \hline
+        Facenet & Ligero y estable & Menor precisión que ArcFace \\ \hline
+        Facenet512 & Versión más precisa de Facenet & Mayor peso del modelo \\ \hline
+        Dlib & Muy liviano, ideal para CPU & Precisión limitada \\ \hline
+        SFace & Buen desempeño en diversas condiciones & En evaluación por la comunidad \\ \hline
+    \end{tabular}}%
+\end{table}
+
+
 
 \item \textbf{Framework de desarrollo backend:} \\
 Para la construcción de la API y la gestión de la lógica del sistema se empleó \textbf{Flask}, un microframework de Python que permite desarrollar aplicaciones ligeras y escalables. Su estructura modular facilita la integración con librerías de visión por computadora y bases de datos.
@@ -104,24 +227,24 @@ En la Figura~\ref{fig:rostro_original} se muestra un ejemplo de una imagen facia
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.99\textwidth]{imagenes_doc/sin_normalizar.png}
-    \caption{Ejemplo de imagen facial capturada al natural.}
+    \includegraphics[width=1\textwidth]{imagenes_doc/sin_normalizar.png}
+    \caption{Ejemplo de imagen facial capturada al natural. [Figura propia]}
     \label{fig:rostro_original}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.99\textwidth]{imagenes_doc/dataset_rostros.jpg}
-    \caption{Ejemplo de imagen facial luego del proceso de normalización.}
+    \includegraphics[width=1\textwidth]{imagenes_doc/dataset_rostros.jpg}
+    \caption{Ejemplo de imagen facial luego del proceso de normalización. [Figura propia]}
     \label{fig:rostro_normalizado}
 \end{figure}
 
-El proceso de preprocesamiento incluye la detección automática del rostro, recorte, alineación, y ajustes de brillo y contraste. Este procedimiento asegura que todas las imágenes presenten condiciones similares de entrada, mejorando la precisión del modelo en la identificación de los usuarios en tiempo real.
 
+El entrenamiento del modelo constituye una etapa esencial del sistema, ya que permite obtener representaciones numéricas únicas de cada rostro a partir de las imágenes registradas. En esta fase se utilizaron técnicas de aprendizaje profundo orientadas a la verificación facial, capaces de generar \textit{embeddings} discriminativos y estables frente a variaciones de iluminación, expresión o ángulo de captura, garantizando así una identificación confiable y precisa.
 
 \section{Entrenamiento del Modelo}
 
-El entrenamiento del modelo constituye una etapa esencial del sistema, ya que permite generar representaciones numéricas únicas (\textit{embeddings}) de cada rostro a partir de las imágenes registradas. En esta fase se empleó la librería \textbf{DeepFace} junto con el modelo \textbf{ArcFace}, reconocido por su alta precisión en tareas de verificación facial gracias a su capacidad para generar embeddings discriminativos y estables frente a variaciones de iluminación, expresión o ángulo de captura.
+El entrenamiento del modelo constituye una etapa esencial del sistema, ya que permite obtener representaciones numéricas únicas de cada rostro a partir de las imágenes registradas. En esta fase se utilizaron técnicas de aprendizaje profundo orientadas a la verificación facial, capaces de generar \textit{embeddings} discriminativos y estables frente a variaciones de iluminación, expresión o ángulo de captura, garantizando así una identificación confiable y precisa.
 
 \subsection*{Configuración del entorno de entrenamiento}
 
@@ -174,11 +297,9 @@ El sistema se compone de tres módulos principales:
 \end{itemize}
 \subsection{Integración de IA y Reconocimiento Facial}
 
-Para la detección y reconocimiento facial, el sistema integra dos componentes principales de inteligencia artificial: \textbf{YOLO-Face}, una red neuronal convolucional especializada en la detección de rostros en tiempo real, y \textbf{DeepFace} con el modelo \textbf{ArcFace}, encargado de generar las representaciones numéricas (embeddings) y verificar la identidad de los usuarios.  
+El sistema combina técnicas avanzadas de detección y reconocimiento facial mediante redes neuronales convolucionales. Para la primera etapa, se emplea un modelo especializado en la identificación y localización de rostros en tiempo real. Una vez detectada la región de interés, esta se recorta automáticamente y se normaliza a un tamaño estándar de 160×160 píxeles, garantizando uniformidad en las condiciones de entrada.
 
-El modelo \textbf{YOLO-Face} identifica y localiza las caras presentes en cada imagen o cuadro de video. Una vez detectado el rostro, el sistema recorta automáticamente la zona correspondiente y la normaliza a un tamaño estándar de \textbf{160×160 píxeles}, garantizando uniformidad en las condiciones de entrada para la siguiente etapa del procesamiento.  
-
-Posteriormente, el rostro recortado es analizado mediante \textbf{DeepFace}, que genera un vector de características (embedding) utilizando el modelo \textbf{ArcFace}. Estos vectores se almacenan y utilizan en fases posteriores del sistema para la identificación de los usuarios registrados.  
+En la siguiente fase, el rostro procesado es transformado en una representación numérica o vector de características, la cual permite distinguir de manera precisa a cada individuo. Estos vectores se almacenan y se utilizan posteriormente para la verificación e identificación de los usuarios registrados.
 
 \textbf{El flujo general de procesamiento es el siguiente:}
 
@@ -205,7 +326,7 @@ Los requisitos funcionales representan las acciones que el sistema debe realizar
 
 \begin{table}[H]
 \centering
-\caption{Requisitos funcionales del sistema CheckFace}
+\caption{Requisitos funcionales del sistema CheckFace[Tabla Propia].}
 \label{tab:rf_checkface}
 \begin{tabular}{|c|p{11cm}|}
 \hline
@@ -225,7 +346,7 @@ Los requisitos no funcionales establecen las condiciones de calidad, rendimiento
 
 \begin{table}[H]
 \centering
-\caption{Requisitos no funcionales del sistema CheckFace}
+\caption{Requisitos no funcionales del sistema CheckFace[Tabla Propia].}
 \label{tab:rnf_checkface}
 \begin{tabular}{|c|p{11cm}|}
 \hline
@@ -240,12 +361,12 @@ RNF4 & La base de datos debe garantizar integridad, seguridad y respaldo de los 
 
 \subsection{Caso de Uso Principal del Sistema}
 
-En la Figura~\ref{fig:caso_uso_principal} se representa el caso de uso principal del sistema, en el cual interactúan dos actores principales: el \textbf{docentes} y el \textbf{alumnos}.  
+En la Figura~\ref{fig:caso_uso_principal} se representa el caso de uso principal del sistema, en el cual interactúan dos actores principales: el \textbf{docente} y el \textbf{alumno}.  
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{capitulo_04/imagenes/5.png}
-    \caption{Caso de uso principal del sistema CheckFace.}
+    \includegraphics[width=1\textwidth]{capitulo_04/imagenes/5.png}
+    \caption{Caso de uso principal del sistema CheckFace[Tabla Propia].}
     \label{fig:caso_uso_principal}
 \end{figure}
 
@@ -259,8 +380,8 @@ El sistema distingue dos tipos de usuarios con diferentes niveles de acceso: el 
 
 \subsection{Definición de la Base de Datos y Tablas}
 
-Para la gestión eficiente de la información del sistema, se diseñó una base de datos relacional implementada en \textbf{PostgreSQL}, compuesta por varias tablas que permiten almacenar, relacionar y gestionar los datos de usuarios, participantes, cursos, horarios y asistencias.  
-La estructura propuesta busca garantizar integridad referencial, seguridad y escalabilidad, facilitando futuras ampliaciones del sistema.
+Para la gestión eficiente de la información del sistema, se implementó una base de datos relacional compuesta por varias tablas que permiten almacenar, vincular y administrar los datos de usuarios, participantes, cursos, horarios y registros de asistencia.  
+La estructura fue diseñada para asegurar integridad referencial, seguridad y escalabilidad, facilitando futuras ampliaciones y adaptaciones del sistema.
 
 \subsubsection*{Modelo de entidad-relación}
 
@@ -270,8 +391,8 @@ En la Figura~\ref{fig:der_checkface} se muestra el diagrama entidad-relación co
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{capitulo_04/imagenes/1.png}
-    \caption{Diagrama de Entidad–Relación del sistema CheckFace.}
+    \includegraphics[width=1\textwidth]{capitulo_04/imagenes/1.png}
+    \caption{Diagrama de Entidad–Relación del sistema CheckFace[imagen propia].}
     \label{fig:der_checkface}
 \end{figure}
 
@@ -281,7 +402,7 @@ Con el fin de documentar detalladamente la estructura de cada tabla, se elaboró
 
 \begin{table}[H]
 \centering
-\caption{Diccionario de datos de la tabla \textit{roles}}
+\caption{Diccionario de datos de la tabla \textit{roles}.[Tabla Propia]}
 \begin{tabular}{|l|l|p{8cm}|}
 \hline
 \textbf{Atributo} & \textbf{Tipo de Dato} & \textbf{Descripción} \\ \hline
@@ -292,7 +413,7 @@ description & VARCHAR(120) & Nombre o descripción del rol asignado al usuario. 
 
 \begin{table}[H]
 \centering
-\caption{Diccionario de datos de la tabla \textit{users}}
+\caption{Diccionario de datos de la tabla \textit{users}.[Tabla Propia]}
 \begin{tabular}{|l|l|p{8cm}|}
 \hline
 \textbf{Atributo} & \textbf{Tipo de Dato} & \textbf{Descripción} \\ \hline
@@ -305,7 +426,7 @@ role\_id & INT (FK) & Referencia al rol del usuario en la tabla \textit{roles}. 
 
 \begin{table}[H]
 \centering
-\caption{Diccionario de datos de la tabla \textit{participants}}
+\caption{Diccionario de datos de la tabla \textit{participants}.[Tabla Propia]}
 \begin{tabular}{|l|l|p{8cm}|}
 \hline
 \textbf{Atributo} & \textbf{Tipo de Dato} & \textbf{Descripción} \\ \hline
@@ -319,7 +440,7 @@ user\_id & INT (FK) & Relación con el usuario correspondiente en la tabla \text
 
 \begin{table}[H]
 \centering
-\caption{Diccionario de datos de la tabla \textit{courses}}
+\caption{Diccionario de datos de la tabla \textit{courses}.[Tabla Propia]}
 \begin{tabular}{|l|l|p{8cm}|}
 \hline
 \textbf{Atributo} & \textbf{Tipo de Dato} & \textbf{Descripción} \\ \hline
@@ -332,7 +453,7 @@ semester & INT & Semestre académico correspondiente. \\ \hline
 
 \begin{table}[H]
 \centering
-\caption{Diccionario de datos de la tabla \textit{course\_schedules}}
+\caption{Diccionario de datos de la tabla \textit{course\_schedules}.[Tabla Propia]}
 \begin{tabular}{|l|l|p{8cm}|}
 \hline
 \textbf{Atributo} & \textbf{Tipo de Dato} & \textbf{Descripción} \\ \hline
@@ -346,7 +467,7 @@ classroom & VARCHAR(50) & Aula o sala asignada. \\ \hline
 
 \begin{table}[H]
 \centering
-\caption{Diccionario de datos de la tabla \textit{participant\_courses}}
+\caption{Diccionario de datos de la tabla \textit{participant\_courses}.[Tabla Propia]}
 \begin{tabular}{|l|l|p{8cm}|}
 \hline
 \textbf{Atributo} & \textbf{Tipo de Dato} & \textbf{Descripción} \\ \hline
@@ -358,7 +479,7 @@ course\_id & INT (FK) & Referencia al curso correspondiente. \\ \hline
 
 \begin{table}[H]
 \centering
-\caption{Diccionario de datos de la tabla \textit{attendances}}
+\caption{Diccionario de datos de la tabla \textit{attendances}.[Tabla Propia]}
 \begin{tabular}{|l|l|p{8cm}|}
 \hline
 \textbf{Atributo} & \textbf{Tipo de Dato} & \textbf{Descripción} \\ \hline
@@ -373,17 +494,13 @@ observations & TEXT & Observaciones adicionales o justificación de inasistencia
 
 \subsection{Diagrama de flujo del funcionamiento del sistema}
 
-A continuación, en la Figura~\ref{fig:flujo_checkface}, se presenta el diagrama de flujo que describe el funcionamiento general del sistema de asistencia basado en reconocimiento facial.  
-Este diagrama representa las etapas principales del proceso automatizado, desde la carga de imágenes del alumno hasta el registro final de la asistencia en la base de datos.
+La Figura~\ref{fig:flujo_checkface} muestra el diagrama de flujo que describe el funcionamiento general del sistema de asistencia. En él se ilustran las etapas principales del proceso automatizado, desde la carga de imágenes de los estudiantes hasta el registro final en la base de datos.
 
-En la primera etapa, el usuario (docente) carga las imágenes faciales de los estudiantes a través de la interfaz del sistema. Estas imágenes son procesadas por el script \texttt{train\_faces.py}, el cual realiza el entrenamiento inicial mediante la generación de embeddings faciales con el modelo \textbf{DeepFace (ArcFace)}.  
-Una vez completado el entrenamiento, el sistema activa la cámara y da inicio al proceso de detección y reconocimiento en tiempo real utilizando el modelo \textbf{YOLO-Face}.
-
-Durante la ejecución, si el rostro detectado coincide con un registro existente en la base de datos, el sistema marca automáticamente al estudiante como \textbf{presente}. En caso contrario, el rostro es clasificado como \textbf{desconocido}, permitiendo un control más preciso sobre la identificación facial.
+El proceso inicia con la carga de las imágenes faciales a través de la interfaz, las cuales son procesadas para generar representaciones numéricas que permiten su posterior identificación. Luego, el sistema activa la cámara y ejecuta la detección y verificación en tiempo real. Cuando un rostro coincide con un registro existente, el estudiante es marcado como presente; de lo contrario, se clasifica como desconocido, garantizando un control más preciso del registro de asistencia.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{capitulo_04/imagenes/2.png}
+    \includegraphics[width=1\textwidth]{capitulo_04/imagenes/2.png}
     \caption{Diagrama de flujo del funcionamiento del sistema CheckFace.}
     \label{fig:flujo_checkface}
 \end{figure}
@@ -392,9 +509,8 @@ Durante la ejecución, si el rostro detectado coincide con un registro existente
 
 \subsection{Desarrollo del frontend}
 
-El frontend del sistema \textit{CheckFace} fue desarrollado utilizando \textbf{React} como framework principal y \textbf{Bootstrap} como librería de estilos. La elección de React permitió construir una interfaz modular basada en componentes reutilizables, mientras que Bootstrap facilitó la creación de un diseño responsivo, visualmente coherente y adaptable a diferentes tamaños de pantalla sin necesidad de definir hojas de estilo complejas desde cero. 
-
-Esta combinación de tecnologías permitió desarrollar una interfaz clara, accesible y fácil de usar para todos los usuarios del sistema, garantizando una navegación intuitiva entre las distintas secciones y funcionalidades.
+El frontend del sistema fue desarrollado con un enfoque modular basado en componentes reutilizables, lo que permitió construir una interfaz dinámica, responsiva y visualmente coherente.  
+El diseño prioriza la claridad y la facilidad de uso, garantizando una navegación intuitiva entre las diferentes secciones y funcionalidades.
 
 
 El desarrollo de la interfaz se organizó en módulos funcionales, cada uno representando una parte específica del sistema. La estructura general se compone de:
@@ -406,7 +522,6 @@ El desarrollo de la interfaz se organizó en módulos funcionales, cada uno repr
 \end{itemize}
 
 \paragraph{Criterios de diseño de la interfaz.}
-Durante el desarrollo del frontend se aplicaron los siguientes principios:
 \begin{itemize}
   \item Consistencia visual en todos los módulos mediante el uso de componentes y clases de Bootstrap.
   \item Diseño \textit{responsive}, garantizando un correcto funcionamiento en diferentes resoluciones y dispositivos.
@@ -415,58 +530,54 @@ Durante el desarrollo del frontend se aplicaron los siguientes principios:
 \end{itemize}
 
 \paragraph{Flujo de uso.}
-El flujo de interacción con el sistema contempla las siguientes acciones principales:
 \begin{itemize}
   \item \textbf{Inicio de sesión:} los usuarios acceden al sistema ingresando sus credenciales personales a través de una interfaz simple y clara, garantizando que únicamente el personal autorizado pueda utilizar las funcionalidades.
   \item \textbf{Registro de nuevos usuarios:} se dispone de un formulario que permite crear nuevas cuentas, asignar roles y definir permisos.
-  \item \textbf{Uso de los módulos principales:} dentro del panel lateral de navegación se encuentran las opciones \textit{Dashboard}, \textit{Reconocimiento Facial}, \textit{Registrar Estudiante}, \textit{Registrar Rol}, \textit{Registrar Curso}, \textit{Registrar Horario}, \textit{Registrar Asistencia} y \textit{Asignar Curso}.
+  \item \textbf{Uso de los módulos principales:} dentro del panel lateral de navegación se encuentran las opciones Dashboard, {Reconocimiento Facial}, {Registrar Estudiante}, {Registrar Rol}, {Registrar Curso}, {Registrar Horario}, {Registrar Asistencia} y {Asignar Curso}.
 \end{itemize}
 
 
 - \textbf{Interfaz de inicio de sesión:} 
-  Es el primer punto de acceso al sistema \textit{CheckFace}. 
-  Su objetivo es permitir que los usuarios ingresen de forma segura mediante una pantalla sencilla y clara, desarrollada con \textbf{React} y estilizada con \textbf{Bootstrap}. 
-  El formulario cuenta con dos campos principales (\texttt{Username} y \texttt{Password}), un botón de acceso y un enlace que dirige al formulario de registro en caso de no poseer una cuenta. 
-  La autenticación se gestiona mediante una solicitud \texttt{POST} al backend implementado con \textbf{Flask}, el cual valida las credenciales antes de permitir el acceso.
-  El diseño minimalista, con fondo claro y elementos centrados, ofrece una experiencia fluida tanto en computadoras como en dispositivos móviles.
+Es el punto de acceso principal al sistema y permite a los usuarios ingresar de forma segura mediante un formulario simple con campos de usuario y contraseña.  
+La autenticación se realiza a través de una solicitud al servidor, que valida las credenciales antes de conceder el acceso.  
+El diseño minimalista y centrado ofrece una experiencia fluida y adaptable a distintos dispositivos.
 
   \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{imagenes_doc/login.png}
-    \caption{Interfaz de inicio de sesión del sistema CheckFace.}
+    \includegraphics[width=1\textwidth]{imagenes_doc/login.png}
+    \caption{Interfaz de inicio de sesión del sistema.[Imagen propia]}
     \label{fig:login}
   \end{figure}
 
 
 
-- \textbf{Registro de usuario:}
-  Permite crear una nueva cuenta mediante un formulario simple desarrollado con \textbf{React} y estilizado con \textbf{Bootstrap}. 
-  Incluye los campos \texttt{Username} y \texttt{Password}, validaciones básicas (campos obligatorios y longitud mínima de la contraseña) y un botón de envío. 
-  Al confirmar, se envía una solicitud \texttt{POST} al backend en \textbf{Flask} para almacenar de forma segura las credenciales. 
-  La vista ofrece además un enlace para volver al inicio de sesión.
+- \textbf{Registro de usuario:}  
+  Permite la creación de nuevas cuentas a través de un formulario simple con validaciones básicas, como campos obligatorios y longitud mínima de la contraseña.  
+  Al confirmar, los datos se envían al servidor para su almacenamiento seguro, y la vista incluye un enlace que permite volver al inicio de sesión.
+
 
   \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{imagenes_doc/new_user.png}
-    \caption{Formulario de registro de usuario del sistema CheckFace.}
+    \includegraphics[width=1\textwidth]{imagenes_doc/new_user.png}
+    \caption{Formulario de registro de usuario.[Imagen propia]}
     \label{fig:new_user}
   \end{figure}
 
 
 
-- \textbf{Dashboard:}
-  Es la primera vista que se muestra tras el inicio de sesión en el sistema \textit{CheckFace}. 
-  Su propósito es ofrecer una visión general del registro de asistencias de los estudiantes a través de gráficos y listados interactivos. 
-  Esta sección centraliza la información y permite analizar la asistencia diaria aplicando distintos filtros según el curso y el rango de fechas seleccionado.
+\textbf{Dashboard:}  
+Es la primera vista disponible tras el inicio de sesión y proporciona una visión general del registro de asistencias mediante gráficos y listados interactivos.  
+Centraliza la información y permite analizar la asistencia diaria aplicando filtros por curso y rango de fechas.
 
-  En la Figura~\ref{fig:dashboard1} se observa un gráfico de barras que representa las \textit{asistencias por día}. 
-  Los filtros ubicados en la parte superior permiten delimitar el período de consulta y visualizar únicamente los registros correspondientes a cada grupo. 
-  Los datos presentados son de carácter demostrativo, utilizados exclusivamente para ilustrar el funcionamiento de la interfaz.
+La Figura~\ref{fig:dashboard1} muestra un gráfico de barras con las asistencias por día.  
+Los filtros superiores delimitan el período de consulta y los registros visualizados.  
+Los datos exhibidos son demostrativos y se utilizan únicamente con fines ilustrativos.
+
 
   \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{imagenes_doc/dashboard_1.png}
-    \caption{Gráfico de asistencias por día en el módulo Dashboard.}
+    \includegraphics[width=1\textwidth]{imagenes_doc/dashboard_1.png}
+    \caption{Gráfico de asistencias por día en el módulo Dashboard.[Imagen propia]}
     \label{fig:dashboard1}
   \end{figure}
 
@@ -476,8 +587,8 @@ El flujo de interacción con el sistema contempla las siguientes acciones princi
 
   \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{imagenes_doc/dashboard_2.png}
-    \caption{Listado de estudiantes y asistencias registradas en el módulo Dashboard.}
+    \includegraphics[width=1\textwidth]{imagenes_doc/dashboard_2.png}
+    \caption{Listado de estudiantes y asistencias registradas en el módulo Dashboard.[Imagen propia]}
     \label{fig:dashboard2}
   \end{figure}
 
@@ -493,8 +604,8 @@ El flujo de interacción con el sistema contempla las siguientes acciones princi
 
   \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{imagenes_doc/reconocimiento_modulo.png}
-    \caption{Módulo de reconocimiento facial automático del sistema CheckFace.}
+    \includegraphics[width=0.9\textwidth]{imagenes_doc/CLASE2_PRUEBA.jpg}
+    \caption{Módulo de reconocimiento facial automático.[Imagen propia]}
     \label{fig:reconocimiento}
   \end{figure}
 
@@ -507,59 +618,59 @@ El flujo de interacción con el sistema contempla las siguientes acciones princi
   \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{imagenes_doc/roles.png}
-    \caption{Gestión de roles: registro, edición y eliminación.}
+    \caption{Gestión de roles: registro, edición y eliminación.[Imagen propia]}
     \label{fig:roles}
   \end{figure}
 
 
 
-- \textbf{Registrar curso:}
-  Permite crear nuevos cursos indicando \textit{Nombre del curso}, \textit{Carrera} y \textit{Semestre}. 
-  Presenta además un listado de cursos registrados con acciones de \textit{Editar} y \textit{Eliminar}, lo que facilita la administración de la oferta académica.
+- \textbf{Registrar curso:}  
+  Permite crear nuevos cursos indicando el nombre del curso, la carrera y el semestre.  
+  Presenta además un listado de cursos registrados con acciones de edición y eliminación, lo que facilita la administración de la oferta académica.
 
   \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{imagenes_doc/new_curso.png}
-    \caption{Registro y gestión de cursos.}
+    \includegraphics[width=1\textwidth]{imagenes_doc/new_curso.png}
+    \caption{Registro y gestión de cursos.[Imagen propia]}
     \label{fig:new_curso}
   \end{figure}
 
 
-  - \textbf{Registrar horario:}
-  Permite asignar horarios a los cursos definidos en el sistema. 
-  El formulario incluye los campos \textit{Curso}, \textit{Día}, \textit{Hora de inicio}, \textit{Hora de fin} y \textit{Aula}, garantizando la correcta organización de las clases. 
-  En la parte inferior se muestra una tabla con los horarios registrados, que puede filtrarse por curso, día o aula, además de ofrecer opciones para \textit{Editar} o \textit{Eliminar} registros.
+ - \textbf{Registrar horario:}  
+  Permite asignar horarios a los cursos definidos en el sistema.  
+  El formulario incluye los campos curso, día, hora de inicio, hora de fin y aula, garantizando una adecuada organización de las clases.  
+  En la parte inferior se muestra una tabla con los horarios registrados, que puede filtrarse por curso, día o aula.
 
   \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{imagenes_doc/horario_curso.png}
-    \caption{Registro y gestión de horarios por curso.}
+    \includegraphics[width=1\textwidth]{imagenes_doc/horario_curso.png}
+    \caption{Registro y gestión de horarios por curso[Imagen propia].}
     \label{fig:horario_curso}
   \end{figure}
 
 
-- \textbf{Registrar asistencia:}
-  Permite ingresar asistencias de forma manual en casos excepcionales, como cuando un estudiante no fue reconocido por el sistema o necesita justificar una llegada tardía. 
-  El formulario incluye los campos \textit{Estudiante}, \textit{Curso}, \textit{Fecha} y una sección opcional de \textit{Observación} para registrar detalles adicionales. 
+-- \textbf{Registrar asistencia:}  
+  Permite ingresar asistencias de forma manual en casos excepcionales, como cuando un estudiante no fue reconocido por el sistema o necesita justificar una llegada tardía.  
+  El formulario incluye los campos estudiante, curso, fecha y una sección opcional de observación para registrar detalles adicionales.  
   Este módulo garantiza que los registros de asistencia sean completos y precisos, incluso ante situaciones imprevistas.
 
   \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{imagenes_doc/registrar_asistencia.png}
-    \caption{Módulo de registro manual de asistencias.}
+    \includegraphics[width=1\textwidth]{imagenes_doc/registrar_asistencia.png}
+    \caption{Módulo de registro manual de asistencias.[Imagen propia]}
     \label{fig:registrar_asistencia}
   \end{figure}
 
 
-- \textbf{Asignar curso:}
-  Permite vincular a los participantes con los cursos disponibles en el sistema. 
-  El formulario presenta los campos \textit{Participante} y \textit{Curso}, que se seleccionan de listas desplegables para asegurar la coherencia de los datos. 
+- \textbf{Asignar curso:}  
+  Permite vincular a los participantes con los cursos disponibles en el sistema.  
+  El formulario presenta los campos participante y curso, que se seleccionan de listas desplegables para asegurar la coherencia de los datos.  
   Esta funcionalidad facilita la organización académica al definir de manera precisa qué estudiantes pertenecen a cada curso.
 
   \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{imagenes_doc/asignar_.png}
-    \caption{Asignación de cursos a participantes.}
+    \includegraphics[width=1\textwidth]{imagenes_doc/asignar_.png}
+    \caption{Asignación de cursos a participantes.[Imagen propia]}
     \label{fig:asignar}
   \end{figure}
 
@@ -567,45 +678,96 @@ El flujo de interacción con el sistema contempla las siguientes acciones princi
 
 \subsection{Desarrollo del backend:}
 
-El backend del sistema \textit{CheckFace} fue desarrollado con el framework \textbf{Flask} en \textbf{Python}, con el objetivo de ofrecer una capa de servicios ligera y modular que gestione la comunicación entre la interfaz web, la base de datos y los procesos de reconocimiento facial en tiempo real. 
+El backend del sistema fue desarrollado con un enfoque modular y ligero, orientado a gestionar la comunicación entre la interfaz web, la base de datos y los procesos de reconocimiento facial en tiempo real.
 
-La estructura del backend está organizada en carpetas según su función: \textit{routes} contiene los endpoints RESTful que conectan con el frontend; \textit{detection} realiza la detección facial mediante el modelo \textbf{YOLO-Face}; \textit{recognition} ejecuta el reconocimiento de rostros a partir de comparaciones vectoriales; y \textit{database} gestiona la conexión y operaciones con \textbf{PostgreSQL}. 
-El archivo \texttt{api.py} centraliza la configuración del servidor y las rutas, mientras que los scripts \texttt{train\_faces.py} permiten entrenar y actualizar los registros faciales del sistema.
+Su estructura se organiza en carpetas según la funcionalidad: una destinada a las rutas y servicios de la API, otra a la detección de rostros, una para el reconocimiento facial y otra para las operaciones con la base de datos.  
+El archivo principal centraliza la configuración del servidor y las rutas, mientras que los scripts de entrenamiento permiten generar y actualizar los registros faciales almacenados en el sistema.
 
 Las principales funcionalidades implementadas en esta capa incluyen:
 \begin{itemize}
     \item \textbf{Exposición de endpoints RESTful:} Se definieron rutas HTTP para el manejo de usuarios, roles, cursos, horarios, asistencias y reconocimiento facial, enviando y recibiendo datos en formato JSON.
     \item \textbf{Procesamiento y reconocimiento facial:} Las imágenes capturadas desde el frontend son procesadas en el backend, donde se realiza la detección del rostro y su comparación con los vectores previamente registrados para registrar la asistencia correspondiente.
     \item \textbf{Gestión de usuarios y autenticación:} Se implementaron rutas dedicadas para el registro e inicio de sesión de usuarios, controlando el acceso a las distintas funciones del sistema.
-    \item \textbf{Interacción con la base de datos:} Toda la información sobre usuarios, estudiantes, cursos, horarios y asistencias se gestiona en la base de datos \textbf{PostgreSQL}, mediante operaciones CRUD estructuradas.
+    \item \textbf{Interacción con la base de datos:} Toda la información sobre usuarios, estudiantes, cursos, horarios y asistencias se gestiona en la base de datos, mediante operaciones CRUD estructuradas.
 \end{itemize}
-
-Durante el desarrollo y las pruebas de los endpoints se utilizó la herramienta \textbf{Postman}, que permitió verificar la correcta comunicación entre el frontend y el backend, asegurando que las peticiones y respuestas cumplieran con el formato y comportamiento esperados.
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.6\textwidth]{imagenes_doc/backend_estructura.png}
-  \caption{Estructura general del proyecto CheckFace en Visual Studio Code.}
+  \includegraphics[width=0.9\textwidth]{imagenes_doc/backend_estructura.png}
+  \caption{Estructura general del proyecto en Visual Studio Code.[Imagen propia]}
   \label{fig:backend_estructura}
 \end{figure}
 
-\subsubsection*{Líneas de código}
+\subsection{Líneas de código}
 
-En el \textbf{ANEXO B} se presentan los fragmentos de código más relevantes del \textit{Sistema de Asistencia Basado en Reconocimiento Facial para la Facultad Politécnica de la Universidad Nacional del Este}, acompañados de una breve descripción que explica su funcionamiento dentro del proceso de reconocimiento facial. 
+En el Anexo B se incluyen los fragmentos de código más relevantes del sistema, acompañados de una breve descripción de su función dentro del proceso de reconocimiento facial.  
 
-Los fragmentos seleccionados corresponden a los módulos principales del sistema: \texttt{train\_faces.py} y \texttt{recognizer.py}. 
-El primero se encarga del entrenamiento de los rostros registrados, generando los vectores de características que serán utilizados posteriormente para la identificación de los estudiantes. 
-El segundo contiene la lógica del reconocimiento facial en tiempo real, comparando los vectores generados con los almacenados en la base de datos y registrando la asistencia en caso de una coincidencia exitosa.  
+Los ejemplos corresponden a los módulos principales, encargados del entrenamiento de rostros registrados y del reconocimiento en tiempo real.  
 
-Cada fragmento se acompaña de su respectiva explicación para facilitar la comprensión del flujo de ejecución, desde la lectura de las imágenes hasta la detección, verificación e identificación de los rostros dentro del entorno del aula.
+Cada fragmento se presenta con una explicación que facilita la comprensión del flujo de ejecución, desde la lectura de imágenes hasta la identificación de los estudiantes en el aula.
+
+% En el preámbulo asegúrate de tener:
+% \usepackage{tabularx}
+% \usepackage{array}      % para m{...}
+% \usepackage{multirow}
+
+\section{Métricas de Evaluación}
+
+\begin{table}[H]
+\centering
+\caption{Métricas consideradas en el desarrollo y evaluación del sistema. [Tabla Propia]}
+\label{tab:metricas-sistema}
+
+\footnotesize
+\setlength{\tabcolsep}{5pt}       % espacio horizontal entre columnas
+\renewcommand{\arraystretch}{1.2} % altura de filas
+
+\begin{tabularx}{\linewidth}{|>{\raggedright\arraybackslash}m{3.3cm}|
+                                 >{\raggedright\arraybackslash}m{4.0cm}|
+                                 >{\raggedright\arraybackslash}X|}
+\hline
+\textbf{Categoría} & \textbf{Métrica} & \textbf{Descripción breve} \\ \hline
+
+\multirow{3}{*}{Datos del conjunto}
+& Nº total de imágenes
+& Imágenes usadas en entrenamiento y validación. \\ \cline{2-3}
+& Diversidad de condiciones visuales
+& Variación de luz, ángulo y expresión. \\ \cline{2-3}
+& Nº de participantes registrados
+& Estudiantes con rostro registrado en el sistema. \\ \hline
+
+\multirow{2}{*}{Entrenamiento}
+& Precisión
+& Porcentaje de aciertos durante el entrenamiento. \\ \cline{2-3}
+& Pérdida 
+& Error medio por usuario registrado. \\ \hline
+
+\multirow{3}{*}{Reconocimiento facial}
+& Tasa de reconocimiento correcto
+& Porcentaje de aciertos en pruebas. \\ \cline{2-3}
+& Tasa de falsos positivos/negativos
+& Porcentaje de detecciones erróneas u omitidas. \\ \cline{2-3}
+& Tiempo promedio de proceso (ms)
+& Tiempo por rostro para detectar y verificar. \\ \hline
+
+Rendimiento global
+& Uso promedio de CPU/GPU
+& Utilización media de recursos durante la ejecución. \\ \hline
+
+Validación práctica
+& Tasa de detección real
+& de aciertos en condiciones reales de aula. \\ \hline
+
+\end{tabularx}
+\end{table}
+
+
 
 
 \subsection{Usabilidad}
 
-Para evaluar la usabilidad y el nivel de satisfacción de los usuarios con el \textit{Sistema de Asistencia Basado en Reconocimiento Facial para la Facultad Politécnica de la Universidad Nacional del Este}, se establecieron variables operacionales basadas en los principios de Experiencia de Usuario (UX), considerando la facilidad de uso, eficiencia, confiabilidad y aceptación general del sistema.
+Para evaluar la usabilidad y el nivel de satisfacción de los usuarios con el sistema de asistencia basado en reconocimiento facial para la Facultad Politécnica de la Universidad Nacional del Este, se establecieron variables operacionales basadas en los principios de experiencia de usuario, considerando la facilidad de uso, la eficiencia, la confiabilidad y la aceptación general del sistema.
 
-Como instrumento de medición se aplicó el cuestionario \textbf{SUS (System Usability Scale)}, ampliamente utilizado para obtener un puntaje global de usabilidad. 
-La evaluación se realizó con una muestra conformada por docentes de la institución, quienes realizaron tareas representativas como el registro de usuarios, la toma de asistencia mediante reconocimiento facial y la verificación de reportes, todo dentro del entorno web del sistema.
+Como instrumento de medición se aplicó el cuestionario System Usability Scale (SUS), ampliamente utilizado para obtener un puntaje global de usabilidad. La evaluación se llevó a cabo con un grupo de usuarios que interactuó con las principales funcionalidades del sistema, realizando tareas como el registro de cuentas, la toma de asistencia y la verificación de reportes dentro del entorno web.
 
-Los datos recolectados permitieron determinar el nivel de aceptación del sistema y detectar posibles oportunidades de mejora en la interfaz y el flujo de uso. 
-Los resultados consolidados y las respuestas individuales se presentan en el \textbf{ANEXO A} correspondiente.
+Los resultados obtenidos permitieron identificar el nivel de aceptación del sistema y reconocer posibles áreas de mejora en la interfaz y el flujo de navegación. Los datos consolidados y las respuestas individuales se presentan en el Anexo A correspondiente.

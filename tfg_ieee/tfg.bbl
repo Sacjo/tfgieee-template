@@ -90,6 +90,19 @@ Raghav Sandhane. (n.d.) Figure 3: The relationship between ai, machine learning
   \url{https://mideaguila.blogspot.com/2021/12/formato-de-lista-de-asistencia-escolar.html}
 \BIBentrySTDinterwordspacing
 
+\bibitem{fatima2024yolov8}
+\BIBentryALTinterwordspacing
+Sana Fatima, Najmi~Ghani Haider, y Rizwan Riaz, ``Yolov8 vs retinanet vs
+  efficientdet: A comparative analysis for modern object detection,''
+  \emph{International Journal of Emerging Engineering and Technology (IJEET)},
+  vol.~3, no.~2, pp. 1--5, 2024. [en línea]. Disponible:
+  \url{https://grsh.org/journal1/index.php/ijeet/article/view/35/28}
+\BIBentrySTDinterwordspacing
+
+\bibitem{yolov8face2024}
+Yusepp, ``Yolov8-face: Real-time face detection based on yolov8,''
+  \url{https://github.com/Yusepp/YOLOv8-Face}, 2024, accedido: octubre 2025.
+
 \bibitem{historiaReconocimiento}
 \BIBentryALTinterwordspacing
 BeeDigital. (2022) Historia y evolución del reconocimiento facial. [en

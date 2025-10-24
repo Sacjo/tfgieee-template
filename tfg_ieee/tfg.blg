@@ -30,6 +30,8 @@ A level-1 auxiliary file: ./capitulo_06/discusion.aux
 Reallocating 'name_of_file' (item size: 1) to 19 items.
 A level-1 auxiliary file: ./anexos/anexo.aux
 Reallocating 'name_of_file' (item size: 1) to 20 items.
+A level-1 auxiliary file: ./anexos/anexob.aux
+Reallocating 'name_of_file' (item size: 1) to 20 items.
 The style file: IEEEtran-castellano.bst
 Reallocating 'name_of_file' (item size: 1) to 5 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
@@ -46,7 +48,7 @@ Database file #1: test.bib
 Done.
 You've used 45 entries,
             4087 wiz_defined-function locations,
-            1077 strings with 17683 characters,
+            1078 strings with 17702 characters,
 and the built_in function-call counts, 18487 in all, are:
 = -- 1560
 > -- 272

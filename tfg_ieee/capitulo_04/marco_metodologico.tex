@@ -27,19 +27,48 @@ El diseño de la investigación es no experimental y longitudinal, dado que el s
 
 \section{Método utilizado para el desarrollo}
 
-El desarrollo de este trabajo se basó en la metodología ágil \textbf{Scrum}, la cual se centra en la planificación iterativa y la entrega progresiva de resultados funcionales. Este enfoque permite organizar el proyecto en ciclos cortos de trabajo denominados \textit{sprints}, donde se desarrollan y mejoran las distintas funcionalidades del sistema.\cite{atlassianScrum2024}
+El desarrollo del sistema \textbf{CheckFace} se llevó a cabo siguiendo la metodología ágil \textbf{Scrum}, adaptada al contexto académico del proyecto. Este enfoque permitió organizar el trabajo en ciclos cortos denominados \textit{sprints}, priorizando la entrega progresiva de funcionalidades y la mejora continua a lo largo del proceso.
 
-Scrum se fundamenta en los principios de transparencia, inspección y adaptación, promoviendo la colaboración y la comunicación continua entre los miembros del equipo. En este proyecto, se realizaron reuniones semanales para planificar tareas, revisar avances y establecer los objetivos del siguiente ciclo.
+\textbf{Roles del equipo.}
+El \textit{Product Owner} fue el profesor \textbf{Jorge Arrúa}, quien definía los requerimientos y evaluaba los entregables en cada revisión. El rol de \textit{Scrum Master} fue desempeñado por \textbf{Daniel Sanchez}, responsable de coordinar las tareas, facilitar la comunicación y asegurar el cumplimiento de los objetivos de cada sprint. El \textit{Development Team} estuvo conformado por \textbf{Aldo Carrizo} y \textbf{Daniel Sanchez}, encargados del desarrollo, pruebas e integración del sistema.
 
-% ... último párrafo de "Método utilizado para el desarrollo"
+\textbf{Planificación de los sprints.}
+El desarrollo del sistema se organizó en \textbf{catorce sprints} de aproximadamente \textbf{dos semanas cada uno}, cubriendo el periodo comprendido entre \textbf{abril y octubre de 2025}. Esta planificación permitió avanzar de forma iterativa, incorporando mejoras continuas en cada ciclo de trabajo.
+A continuación, se describen las principales actividades desarrolladas en cada fase:
+
+\begin{itemize}
+\item \textbf{Sprint 1:} Definición de objetivos, alcance y requerimientos del sistema. Configuración inicial del repositorio en GitHub.
+\item \textbf{Sprint 2:} Instalación del entorno de desarrollo y configuración de dependencias para los módulos de detección y reconocimiento facial.
+\item \textbf{Sprint 3:} Diseño del Diagrama Entidad-Relación (DER) y creación de la base de datos en PostgreSQL.
+\item \textbf{Sprint 4:} Implementación del algoritmo de detección facial utilizando el modelo preentrenado \textbf{YOLOv8n-face.pt}, realizando las primeras pruebas con imágenes estáticas para validar su funcionamiento.
+\item \textbf{Sprint 5:} Implementación del algoritmo de reconocimiento facial con \textbf{DeepFace} (modelo ArcFace) y generación inicial de embeddings faciales.
+\item \textbf{Sprint 6:} Pruebas unitarias y evaluación de precisión del modelo de DeepFace. Ajuste de parámetros para reducir errores de identificación.
+\item \textbf{Sprint 7:} Integración entre YOLO y DeepFace para el flujo completo de detección y reconocimiento facial.
+\item \textbf{Sprint 8:} Desarrollo de las \textbf{APIs REST} del backend para usuarios, roles, cursos, asistencias y autenticación.
+\item \textbf{Sprint 9:} Implementación de la lógica de registro automático y manual de asistencias. Optimización del rendimiento del sistema.
+\item \textbf{Sprint 10:} Desarrollo del \textbf{frontend} y diseño del dashboard principal. Implementación del módulo de inicio de sesión.
+\item \textbf{Sprint 11:} Creación de los módulos de gestión de alumnos, cursos, horarios y asignaciones dentro del panel administrativo.
+\item \textbf{Sprint 12:} Pruebas en entornos aislados y simulaciones en laboratorio para validar la estabilidad del sistema.
+\item \textbf{Sprint 13:} Pruebas en el aula, corrección de incidencias, optimización final del código, despliegue controlado y documentación técnica y de usuario.
+\end{itemize}
+
+
+\textbf{Herramientas de gestión.}  
+Para la planificación, seguimiento y control del proyecto se empleó la herramienta \textbf{Notion}, que permitió organizar las tareas de acuerdo con su estado de avance (pendiente, en progreso, en revisión y completadas).  
+Como se observa en la Figura~\ref{fig:scrum}, esta plataforma facilitó la coordinación entre los integrantes del equipo, la priorización de actividades y el registro de los avances en cada sprint, brindando una visión clara del progreso general del sistema \textbf{CheckFace}.  
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.99\textwidth]{imagenes_doc/Sprints.jpg}
-  \caption{Ciclo de desarrollo bajo la metodología ágil Scrum.}
+  \includegraphics[width=0.99\textwidth]{imagenes_doc/notion.jpg}
+  \caption{Tablero de gestión de tareas del proyecto \textbf{CheckFace} en Notion, bajo la metodología ágil Scrum.}
   \label{fig:scrum}
 \end{figure}
 
+\textbf{Reuniones y seguimiento.}
+El equipo realizó reuniones diarias breves entre los desarrolladores para resolver dificultades técnicas y coordinar actividades. Además, cada dos semanas se llevaron a cabo reuniones presenciales con el profesor Jorge Arrúa para presentar avances, recibir retroalimentación y definir los objetivos del siguiente sprint.
+
+\textbf{Duración del proyecto.}
+El desarrollo completo del sistema CheckFace se extendió desde \textbf{abril hasta octubre de 2025}, periodo durante el cual se logró implementar, integrar, probar y documentar el sistema final de reconocimiento facial para el registro de asistencia.
 
 
 

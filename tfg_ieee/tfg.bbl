@@ -7,8 +7,7 @@
 \providecommand{\BIBentrySTDinterwordspacing}{\spaceskip=0pt\relax}
 \providecommand{\BIBentryALTinterwordstretchfactor}{4}
 \providecommand{\BIBentryALTinterwordspacing}{\spaceskip=\fontdimen2\font plus
-\BIBentryALTinterwordstretchfactor\fontdimen3\font minus
-  \fontdimen4\font\relax}
+\BIBentryALTinterwordstretchfactor\fontdimen3\font minus \fontdimen4\font\relax}
 \providecommand{\BIBforeignlanguage}[2]{{%
 \expandafter\ifx\csname l@#1\endcsname\relax
 \typeout{** WARNING: IEEEtran.bst: No hyphenation pattern has been}%
@@ -24,341 +23,213 @@
 
 \bibitem{lanacion_historiafacial}
 \BIBentryALTinterwordspacing
-{La Nación}. (2020) Reconocimiento facial: cómo nació esta tecnología en
-  una tableta de la década del 60. [en línea]. Disponible:
-  https://www.lanacion.com.ar/tecnologia/reconocimiento-facial-como-nacio-tableta-decada-del-nid2421334/.
-  [en línea]. Disponible:
-  \url{https://www.lanacion.com.ar/tecnologia/reconocimiento-facial-como-nacio-tableta-decada-del-nid2421334/}
+{La Nación}. (2020) Reconocimiento facial: cómo nació esta tecnología en una tableta de la década del 60. [en línea]. Disponible: https://www.lanacion.com.ar/tecnologia/reconocimiento-facial-como-nacio-tableta-decada-del-nid2421334/. [en línea]. Disponible: \url{https://www.lanacion.com.ar/tecnologia/reconocimiento-facial-como-nacio-tableta-decada-del-nid2421334/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{aeropuertosJapon}
 \BIBentryALTinterwordspacing
-{OSAO México}. (2024) La red de aeropuertos de japón instalará 66 puertas
-  automáticas adicionales con reconocimiento facial. [en línea]. Disponible:
-  https://osao.com.mx/la-red-de-aeropuertos-de-japon-instalara-66-puertas-automaticas-adicionales-con-reconocimiento-facial/.
-  [en línea]. Disponible:
-  \url{https://osao.com.mx/la-red-de-aeropuertos-de-japon-instalara-66-puertas-automaticas-adicionales-con-reconocimiento-facial/}
+{OSAO México}. (2024) La red de aeropuertos de japón instalará 66 puertas automáticas adicionales con reconocimiento facial. [en línea]. Disponible: https://osao.com.mx/la-red-de-aeropuertos-de-japon-instalara-66-puertas-automaticas-adicionales-con-reconocimiento-facial/. [en línea]. Disponible: \url{https://osao.com.mx/la-red-de-aeropuertos-de-japon-instalara-66-puertas-automaticas-adicionales-con-reconocimiento-facial/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{sandhane_figure3}
 \BIBentryALTinterwordspacing
-Raghav Sandhane. (n.d.) Figure 3: The relationship between ai, machine learning
-  and deep learning. Academia.edu. [en línea]. Disponible:
-  \url{https://www.academia.edu/figures/13243804/figure-3-the-relationship-between-ai-machine-learning-and}
+Raghav Sandhane. (n.d.) Figure 3: The relationship between ai, machine learning and deep learning. Academia.edu. [en línea]. Disponible: \url{https://www.academia.edu/figures/13243804/figure-3-the-relationship-between-ai-machine-learning-and}
 \BIBentrySTDinterwordspacing
 
 \bibitem{ricardogeek_redesneuronales}
 \BIBentryALTinterwordspacing
-{RicardoGeek}. (2018) ¿qué son las redes neuronales artificiales? [en
-  línea]. Disponible:
-  https://ricardogeek.com/que-son-redes-neuronales-artificiales/. [en línea].
-  Disponible:
-  \url{https://ricardogeek.com/que-son-redes-neuronales-artificiales/}
+{RicardoGeek}. (2018) ¿qué son las redes neuronales artificiales? [en línea]. Disponible: https://ricardogeek.com/que-son-redes-neuronales-artificiales/. [en línea]. Disponible: \url{https://ricardogeek.com/que-son-redes-neuronales-artificiales/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{interactivechaos_ffnn}
 \BIBentryALTinterwordspacing
-{Interactive Chaos}. (2024) Redes neuronales prealimentadas. [en línea].
-  Disponible:
-  https://interactivechaos.com/es/manual/tutorial-de-deep-learning/redes-neuronales-prealimentadas.
-  [en línea]. Disponible:
-  \url{https://interactivechaos.com/es/manual/tutorial-de-deep-learning/redes-neuronales-prealimentadas}
+{Interactive Chaos}. (2024) Redes neuronales prealimentadas. [en línea]. Disponible: https://interactivechaos.com/es/manual/tutorial-de-deep-learning/redes-neuronales-prealimentadas. [en línea]. Disponible: \url{https://interactivechaos.com/es/manual/tutorial-de-deep-learning/redes-neuronales-prealimentadas}
 \BIBentrySTDinterwordspacing
 
 \bibitem{falken_cnn}
 \BIBentryALTinterwordspacing
-{El Laberinto de Falken}. (2019) Visión artificial: Redes convolucionales
-  (cnn). [en línea]. Disponible:
-  https://www.ellaberintodefalken.com/2019/10/vision-artificial-redes-convolucionales-CNN.html.
-  [en línea]. Disponible:
-  \url{https://www.ellaberintodefalken.com/2019/10/vision-artificial-redes-convolucionales-CNN.html}
+{El Laberinto de Falken}. (2019) Visión artificial: Redes convolucionales (cnn). [en línea]. Disponible: https://www.ellaberintodefalken.com/2019/10/vision-artificial-redes-convolucionales-CNN.html. [en línea]. Disponible: \url{https://www.ellaberintodefalken.com/2019/10/vision-artificial-redes-convolucionales-CNN.html}
 \BIBentrySTDinterwordspacing
 
 \bibitem{gan_aws}
 \BIBentryALTinterwordspacing
-{Amazon Web Services}. (2024) ¿qué es una red generativa adversarial (gan)?
-  [en línea]. Disponible: https://aws.amazon.com/es/what-is/gan/. [en línea].
-  Disponible: \url{https://aws.amazon.com/es/what-is/gan/}
+{Amazon Web Services}. (2024) ¿qué es una red generativa adversarial (gan)? [en línea]. Disponible: https://aws.amazon.com/es/what-is/gan/. [en línea]. Disponible: \url{https://aws.amazon.com/es/what-is/gan/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{listaAsistenciaEscolar}
 \BIBentryALTinterwordspacing
-{Mi De Águila}. (2021) Formato de lista de asistencia escolar. [en línea].
-  Disponible:
-  https://mideaguila.blogspot.com/2021/12/formato-de-lista-de-asistencia-escolar.html.
-  [en línea]. Disponible:
-  \url{https://mideaguila.blogspot.com/2021/12/formato-de-lista-de-asistencia-escolar.html}
+{Mi De Águila}. (2021) Formato de lista de asistencia escolar. [en línea]. Disponible: https://mideaguila.blogspot.com/2021/12/formato-de-lista-de-asistencia-escolar.html. [en línea]. Disponible: \url{https://mideaguila.blogspot.com/2021/12/formato-de-lista-de-asistencia-escolar.html}
 \BIBentrySTDinterwordspacing
 
 \bibitem{fatima2024yolov8}
 \BIBentryALTinterwordspacing
-Sana Fatima, Najmi~Ghani Haider, y Rizwan Riaz, ``Yolov8 vs retinanet vs
-  efficientdet: A comparative analysis for modern object detection,''
-  \emph{International Journal of Emerging Engineering and Technology (IJEET)},
-  vol.~3, no.~2, pp. 1--5, 2024. [en línea]. Disponible:
-  \url{https://grsh.org/journal1/index.php/ijeet/article/view/35/28}
+Sana Fatima, Najmi~Ghani Haider, y Rizwan Riaz, ``Yolov8 vs retinanet vs efficientdet: A comparative analysis for modern object detection,'' \emph{International Journal of Emerging Engineering and Technology (IJEET)}, vol.~3, no.~2, pp. 1--5, 2024. [en línea]. Disponible: \url{https://grsh.org/journal1/index.php/ijeet/article/view/35/28}
 \BIBentrySTDinterwordspacing
 
 \bibitem{yolov8face2024}
-Yusepp, ``Yolov8-face: Real-time face detection based on yolov8,''
-  \url{https://github.com/Yusepp/YOLOv8-Face}, 2024, accedido: octubre 2025.
+Yusepp, ``Yolov8-face: Real-time face detection based on yolov8,'' \url{https://github.com/Yusepp/YOLOv8-Face}, 2024, accedido: octubre 2025.
 
 \bibitem{historiaReconocimiento}
 \BIBentryALTinterwordspacing
-BeeDigital. (2022) Historia y evolución del reconocimiento facial. [en
-  línea]. Disponible:
-  \url{https://www.beedigital.es/tendencias-digitales/historia-y-evolucion-del-reconocimiento-facial/}
+BeeDigital. (2022) Historia y evolución del reconocimiento facial. [en línea]. Disponible: \url{https://www.beedigital.es/tendencias-digitales/historia-y-evolucion-del-reconocimiento-facial/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{avastSeguridadBiometrica}
 \BIBentryALTinterwordspacing
-Domenic Molinaro. (2022) ¿qué es la seguridad biométrica? [en línea].
-  Disponible:
-  \url{https://www.avast.com/es-es/c-what-is-biometric-data#:~:text=de%20huella%20dactilar.-,%C2%BFQu%C3%A9%20es%20la%20seguridad%20biom%C3%A9trica%3F,de%20acceso%20y%20la%20autenticaci%C3%B3n}
+Domenic Molinaro. (2022) ¿qué es la seguridad biométrica? [en línea]. Disponible: \url{https://www.avast.com/es-es/c-what-is-biometric-data#:~:text=de%20huella%20dactilar.-,%C2%BFQu%C3%A9%20es%20la%20seguridad%20biom%C3%A9trica%3F,de%20acceso%20y%20la%20autenticaci%C3%B3n}
 \BIBentrySTDinterwordspacing
 
 \bibitem{thalesBiometria}
 \BIBentryALTinterwordspacing
-Thales Group. (2023) Inspiración en biometría. [en línea]. Disponible:
-  \url{https://www.thalesgroup.com/es/countries/americas/latin-america/dis/gobierno/inspiracion/biometria}
+Thales Group. (2023) Inspiración en biometría. [en línea]. Disponible: \url{https://www.thalesgroup.com/es/countries/americas/latin-america/dis/gobierno/inspiracion/biometria}
 \BIBentrySTDinterwordspacing
 
 \bibitem{beesafe_accesscontrol}
 \BIBentryALTinterwordspacing
-{Bee Safe Security}. (2024) Exploring different types of access control
-  credentials. [en línea]. Disponible:
-  https://beesafeohio.com/exploring-different-types-of-access-control-credentials/.
-  [en línea]. Disponible:
-  \url{https://beesafeohio.com/exploring-different-types-of-access-control-credentials/}
+{Bee Safe Security}. (2024) Exploring different types of access control credentials. [en línea]. Disponible: https://beesafeohio.com/exploring-different-types-of-access-control-credentials/. [en línea]. Disponible: \url{https://beesafeohio.com/exploring-different-types-of-access-control-credentials/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{reconocimientoKaspersky}
 \BIBentryALTinterwordspacing
-Kaspersky. (2024) ¿qué es el reconocimiento facial y cómo funciona? [en
-  línea]. Disponible:
-  \url{https://latam.kaspersky.com/resource-center/definitions/what-is-facial-recognition}
+Kaspersky. (2024) ¿qué es el reconocimiento facial y cómo funciona? [en línea]. Disponible: \url{https://latam.kaspersky.com/resource-center/definitions/what-is-facial-recognition}
 \BIBentrySTDinterwordspacing
 
 \bibitem{facialAWS}
 \BIBentryALTinterwordspacing
-Facial recognition. Amazon Web Services. [en línea]. Disponible:
-  \url{https://aws.amazon.com/es/what-is/facial-recognition/#:~:text=Funciona%20mediante%20la%20identificaci%C3%B3n%20y,gran%20colecci%C3%B3n%20de%20im%C3%A1genes%20existentes}
+Facial recognition. Amazon Web Services. [en línea]. Disponible: \url{https://aws.amazon.com/es/what-is/facial-recognition/#:~:text=Funciona%20mediante%20la%20identificaci%C3%B3n%20y,gran%20colecci%C3%B3n%20de%20im%C3%A1genes%20existentes}
 \BIBentrySTDinterwordspacing
 
 \bibitem{aiIBM}
 \BIBentryALTinterwordspacing
-Artificial intelligence. IBM. [en línea]. Disponible:
-  \url{https://www.ibm.com/mx-es/topics/artificial-intelligence}
+Artificial intelligence. IBM. [en línea]. Disponible: \url{https://www.ibm.com/mx-es/topics/artificial-intelligence}
 \BIBentrySTDinterwordspacing
 
 \bibitem{acevedo2017}
 \BIBentryALTinterwordspacing
-E.~Acevedo, A.~Serna, y E.~Serna. (2017) Principios y características de las
-  redes neuronales artificiales. [Accedido: 15 de marzo de 2025]. [en línea].
-  Disponible:. [en línea]. Disponible:
-  \url{https://www.researchgate.net/profile/Jhon-Fredy-Narvaez/publication/320170890_Desarrollos_de_la_Ingenieria_ambiental_en_la_evaluacion_de_la_calidad_de_los_recursos_naturales_y_la_salud_ambiental/links/59d26bfca6fdcc181ad611ce/Desarrollos-de-la-Ingenieria-ambiental-en-la-evaluacion-de-la-calidad-de-los-recursos-naturales-y-la-salud-ambiental.pdf#page=174}
+E.~Acevedo, A.~Serna, y E.~Serna. (2017) Principios y características de las redes neuronales artificiales. [Accedido: 15 de marzo de 2025]. [en línea]. Disponible:. [en línea]. Disponible: \url{https://www.researchgate.net/profile/Jhon-Fredy-Narvaez/publication/320170890_Desarrollos_de_la_Ingenieria_ambiental_en_la_evaluacion_de_la_calidad_de_los_recursos_naturales_y_la_salud_ambiental/links/59d26bfca6fdcc181ad611ce/Desarrollos-de-la-Ingenieria-ambiental-en-la-evaluacion-de-la-calidad-de-los-recursos-naturales-y-la-salud-ambiental.pdf#page=174}
 \BIBentrySTDinterwordspacing
 
 \bibitem{valverde2019}
 \BIBentryALTinterwordspacing
-S.~Valverde Bourdié. (2019) Aplicaciones de la inteligencia artificial en la
-  empresa. [Accedido: 16 de marzo de 2025]. [en línea]. Disponible:. [en
-  línea]. Disponible:
-  \url{https://repositorio.unican.es/xmlui/bitstream/handle/10902/17521/VALVERDEBOURDIESANDRA.pdf}
+S.~Valverde Bourdié. (2019) Aplicaciones de la inteligencia artificial en la empresa. [Accedido: 16 de marzo de 2025]. [en línea]. Disponible:. [en línea]. Disponible: \url{https://repositorio.unican.es/xmlui/bitstream/handle/10902/17521/VALVERDEBOURDIESANDRA.pdf}
 \BIBentrySTDinterwordspacing
 
 \bibitem{perez2021}
 \BIBentryALTinterwordspacing
-I.~Pérez Borrero y M.~E.~Gegúndez Arias. (2021) Deep learning: fundamentos,
-  teoría y aplicación. [Accedido: 15 de marzo de 2025]. [en línea].
-  Disponible:. [en línea]. Disponible:
-  \url{https://www.torrossa.com/it/resources/an/4947314}
+I.~Pérez Borrero y M.~E.~Gegúndez Arias. (2021) Deep learning: fundamentos, teoría y aplicación. [Accedido: 15 de marzo de 2025]. [en línea]. Disponible:. [en línea]. Disponible: \url{https://www.torrossa.com/it/resources/an/4947314}
 \BIBentrySTDinterwordspacing
 
 \bibitem{urgel2021}
 \BIBentryALTinterwordspacing
-J.~H. Urgel. (2021) Calibración de combinaciones de redes neuronales profundas
-  convolucionales. [Accedido: 16 de marzo de 2025]. [en línea]. Disponible:.
-  [en línea]. Disponible:
-  \url{https://repositorio.uam.es/bitstream/handle/10486/698387/hernan_urgel_jorge_tfg.pdf?sequence=1&isAllowed=y}
+J.~H. Urgel. (2021) Calibración de combinaciones de redes neuronales profundas convolucionales. [Accedido: 16 de marzo de 2025]. [en línea]. Disponible:. [en línea]. Disponible: \url{https://repositorio.uam.es/bitstream/handle/10486/698387/hernan_urgel_jorge_tfg.pdf?sequence=1&isAllowed=y}
 \BIBentrySTDinterwordspacing
 
 \bibitem{perceptrons1969}
 \BIBentryALTinterwordspacing
-M.~Minsky y S.~Papert, \emph{Perceptrons: An Introduction to Computational
-  Geometry}.\hskip 1em plus 0.5em minus 0.4em\relax MIT Press, 1969. [en
-  línea]. Disponible:
-  \url{https://direct.mit.edu/books/monograph/3132/PerceptronsAn-Introduction-to-Computational}
+M.~Minsky y S.~Papert, \emph{Perceptrons: An Introduction to Computational Geometry}.\hskip 1em plus 0.5em minus 0.4em\relax MIT Press, 1969. [en línea]. Disponible: \url{https://direct.mit.edu/books/monograph/3132/PerceptronsAn-Introduction-to-Computational}
 \BIBentrySTDinterwordspacing
 
 \bibitem{aiGoogleCloud}
 \BIBentryALTinterwordspacing
-What is artificial intelligence. Google Cloud. [en línea]. Disponible:
-  \url{https://cloud.google.com/learn/what-is-artificial-intelligence?hl=es-419}
+What is artificial intelligence. Google Cloud. [en línea]. Disponible: \url{https://cloud.google.com/learn/what-is-artificial-intelligence?hl=es-419}
 \BIBentrySTDinterwordspacing
 
 \bibitem{mora2002}
 \BIBentryALTinterwordspacing
-S.~L. Mora. (2002) Programación de aplicaciones web: historia, principios
-  básicos y clientes web. [Accedido: 28 de marzo de 2024]. [en línea].
-  Disponible:. [en línea]. Disponible:
-  \url{https://rua.ua.es/dspace/handle/10045/16995}
+S.~L. Mora. (2002) Programación de aplicaciones web: historia, principios básicos y clientes web. [Accedido: 28 de marzo de 2024]. [en línea]. Disponible:. [en línea]. Disponible: \url{https://rua.ua.es/dspace/handle/10045/16995}
 \BIBentrySTDinterwordspacing
 
 \bibitem{registroAsistenciaUTA}
 \BIBentryALTinterwordspacing
-Jonny~Rodolfo Bastidas~Gavilanes. (2019) Registro de asistencia de alumnos por
-  medio de reconocimiento facial utilizando visión artificial. UTA. [en
-  línea]. Disponible:
-  \url{https://repositorio.uta.edu.ec/jspui/handle/123456789/29179}
+Jonny~Rodolfo Bastidas~Gavilanes. (2019) Registro de asistencia de alumnos por medio de reconocimiento facial utilizando visión artificial. UTA. [en línea]. Disponible: \url{https://repositorio.uta.edu.ec/jspui/handle/123456789/29179}
 \BIBentrySTDinterwordspacing
 
 \bibitem{detecFacialOpenCV}
 \BIBentryALTinterwordspacing
-Diego~Armando Acosta~Ledesma, Felipe~Javier Monges~Cañete, y José~Eduardo
-  Rojas~Coppari. (2014) Detección facial mediante opencv. FPUNE. [en línea].
-  Disponible:
-  \url{http://servicios.fpune.edu.py:8080/jspui/handle/123456789/428}
+Diego~Armando Acosta~Ledesma, Felipe~Javier Monges~Cañete, y José~Eduardo Rojas~Coppari. (2014) Detección facial mediante opencv. FPUNE. [en línea]. Disponible: \url{http://servicios.fpune.edu.py:8080/jspui/handle/123456789/428}
 \BIBentrySTDinterwordspacing
 
 \bibitem{examOnline}
 \BIBentryALTinterwordspacing
-Joel~Jhony Sánchez~Epping. (2022) Sistema de examen en línea con
-  reconocimiento facial. FPUNE. [en línea]. Disponible:
-  \url{http://servicios.fpune.edu.py:8080/jspui/handle/123456789/1147}
+Joel~Jhony Sánchez~Epping. (2022) Sistema de examen en línea con reconocimiento facial. FPUNE. [en línea]. Disponible: \url{http://servicios.fpune.edu.py:8080/jspui/handle/123456789/1147}
 \BIBentrySTDinterwordspacing
 
 \bibitem{sistemaBiometricoRaspberry}
 \BIBentryALTinterwordspacing
-Diego~Fabián Centurión~Talavera, Carlos~Domingo Almeida~Delgado, y Jorge~Luis
-  Arrúa~Ginés. (2019) Sistema biométrico de reconocimiento facial utilizando
-  redes neuronales artificiales en raspberry pi. FPUNE. [en línea].
-  Disponible:
-  \url{http://servicios.fpune.edu.py:8080/jspui/handle/123456789/816}
+Diego~Fabián Centurión~Talavera, Carlos~Domingo Almeida~Delgado, y Jorge~Luis Arrúa~Ginés. (2019) Sistema biométrico de reconocimiento facial utilizando redes neuronales artificiales en raspberry pi. FPUNE. [en línea]. Disponible: \url{http://servicios.fpune.edu.py:8080/jspui/handle/123456789/816}
 \BIBentrySTDinterwordspacing
 
 \bibitem{prototipoUNIANDES}
 \BIBentryALTinterwordspacing
-Steven~Bryan Lara-Jacho, Luis~Orlando Albarracín-Zambrano, y Dionisio~Vitalio
-  Ponce-Ruiz. (2020) Prototipo de reconocimiento facial para mejorar el control
-  de asistencia de estudiantes en uniandes, quevedo. [en línea]. Disponible:
-  \url{https://doi.org/10.35381/r.k.v5i2.876}
+Steven~Bryan Lara-Jacho, Luis~Orlando Albarracín-Zambrano, y Dionisio~Vitalio Ponce-Ruiz. (2020) Prototipo de reconocimiento facial para mejorar el control de asistencia de estudiantes en uniandes, quevedo. [en línea]. Disponible: \url{https://doi.org/10.35381/r.k.v5i2.876}
 \BIBentrySTDinterwordspacing
 
 \bibitem{automatizacionAsistencia}
 \BIBentryALTinterwordspacing
-Reconocimiento facial para la automatización del registro de asistencia a
-  clases. UTA. [en línea]. Disponible:
-  \url{https://hdl.handle.net/11059/14172}
+Reconocimiento facial para la automatización del registro de asistencia a clases. UTA. [en línea]. Disponible: \url{https://hdl.handle.net/11059/14172}
 \BIBentrySTDinterwordspacing
 
 \bibitem{figma}
 \BIBentryALTinterwordspacing
-{Figma Inc.} (2024) ¿qué es figma? [en línea]. Disponible:
-  https://help.figma.com/hc/es-419/articles/14563969806359--Qu%C3%A9-es-Figma.
-  [en línea]. Disponible:
-  \url{https://help.figma.com/hc/es-419/articles/14563969806359--Qu%C3%A9-es-Figma}
+{Figma Inc.} (2024) ¿qué es figma? [en línea]. Disponible: https://help.figma.com/hc/es-419/articles/14563969806359--Qu%C3%A9-es-Figma. [en línea]. Disponible: \url{https://help.figma.com/hc/es-419/articles/14563969806359--Qu%C3%A9-es-Figma}
 \BIBentrySTDinterwordspacing
 
 \bibitem{python}
 \BIBentryALTinterwordspacing
-{GoDaddy Inc.} (2024) Python: ¿qué es, para qué sirve y cómo empezar a
-  usarlo? [en línea]. Disponible:
-  https://www.godaddy.com/resources/latam/desarrollo/python-que-es. [en
-  línea]. Disponible:
-  \url{https://www.godaddy.com/resources/latam/desarrollo/python-que-es}
+{GoDaddy Inc.} (2024) Python: ¿qué es, para qué sirve y cómo empezar a usarlo? [en línea]. Disponible: https://www.godaddy.com/resources/latam/desarrollo/python-que-es. [en línea]. Disponible: \url{https://www.godaddy.com/resources/latam/desarrollo/python-que-es}
 \BIBentrySTDinterwordspacing
 
 \bibitem{javascript}
 \BIBentryALTinterwordspacing
-{EBAC}. (2024) ¿qué es javascript? [en línea]. Disponible:
-  https://ebac.mx/blog/que-es-javascript. [en línea]. Disponible:
-  \url{https://ebac.mx/blog/que-es-javascript}
+{EBAC}. (2024) ¿qué es javascript? [en línea]. Disponible: https://ebac.mx/blog/que-es-javascript. [en línea]. Disponible: \url{https://ebac.mx/blog/que-es-javascript}
 \BIBentrySTDinterwordspacing
 
 \bibitem{sql}
 \BIBentryALTinterwordspacing
-{IBM Corporation}. (2024) ¿qué es sql (structured query language)? [en
-  línea]. Disponible:
-  https://www.ibm.com/mx-es/think/topics/structured-query-language. [en
-  línea]. Disponible:
-  \url{https://www.ibm.com/mx-es/think/topics/structured-query-language}
+{IBM Corporation}. (2024) ¿qué es sql (structured query language)? [en línea]. Disponible: https://www.ibm.com/mx-es/think/topics/structured-query-language. [en línea]. Disponible: \url{https://www.ibm.com/mx-es/think/topics/structured-query-language}
 \BIBentrySTDinterwordspacing
 
 \bibitem{postgresql}
 \BIBentryALTinterwordspacing
-{PostgreSQL Global Development Group}. (2024) About postgresql. [en línea].
-  Disponible: https://www.postgresql.org/about/. [en línea]. Disponible:
-  \url{https://www.postgresql.org/about/}
+{PostgreSQL Global Development Group}. (2024) About postgresql. [en línea]. Disponible: https://www.postgresql.org/about/. [en línea]. Disponible: \url{https://www.postgresql.org/about/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{git}
 \BIBentryALTinterwordspacing
-{Microsoft Learn}. (2024) ¿qué es git? [en línea]. Disponible:
-  https://learn.microsoft.com/es-es/devops/develop/git/what-is-git. [en
-  línea]. Disponible:
-  \url{https://learn.microsoft.com/es-es/devops/develop/git/what-is-git}
+{Microsoft Learn}. (2024) ¿qué es git? [en línea]. Disponible: https://learn.microsoft.com/es-es/devops/develop/git/what-is-git. [en línea]. Disponible: \url{https://learn.microsoft.com/es-es/devops/develop/git/what-is-git}
 \BIBentrySTDinterwordspacing
 
 \bibitem{vscode}
 \BIBentryALTinterwordspacing
-{OpenWebinars}. (2024) ¿qué es visual studio code y qué ventajas ofrece? [en
-  línea]. Disponible:
-  https://openwebinars.net/blog/que-es-visual-studio-code-y-que-ventajas-ofrece/.
-  [en línea]. Disponible:
-  \url{https://openwebinars.net/blog/que-es-visual-studio-code-y-que-ventajas-ofrece/}
+{OpenWebinars}. (2024) ¿qué es visual studio code y qué ventajas ofrece? [en línea]. Disponible: https://openwebinars.net/blog/que-es-visual-studio-code-y-que-ventajas-ofrece/. [en línea]. Disponible: \url{https://openwebinars.net/blog/que-es-visual-studio-code-y-que-ventajas-ofrece/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{githubdesktop}
-{GitHub, Inc.}, ``Acerca de github desktop,''
-  \url{https://docs.github.com/es/desktop/overview/about-github-desktop}, 2025,
-  [en línea]. Disponible:
-  https://docs.github.com/es/desktop/overview/about-github-desktop.
+{GitHub, Inc.}, ``Acerca de github desktop,'' \url{https://docs.github.com/es/desktop/overview/about-github-desktop}, 2025, [en línea]. Disponible: https://docs.github.com/es/desktop/overview/about-github-desktop.
 
 \bibitem{imaginaPostman}
 \BIBentryALTinterwordspacing
-Equipo de~Imagina. (2024) ¿qué es postman y para qué sirve? Imagina
-  Formación. [en línea]. Disponible:
-  \url{https://imaginaformacion.com/tutoriales/que-es-postman-y-para-que-sirve}
+Equipo de~Imagina. (2024) ¿qué es postman y para qué sirve? Imagina Formación. [en línea]. Disponible: \url{https://imaginaformacion.com/tutoriales/que-es-postman-y-para-que-sirve}
 \BIBentrySTDinterwordspacing
 
 \bibitem{react}
 \BIBentryALTinterwordspacing
-{EBAC}. (2024) ¿qué es react? [en línea]. Disponible:
-  https://ebac.mx/blog/que-es-react. [en línea]. Disponible:
-  \url{https://ebac.mx/blog/que-es-react}
+{EBAC}. (2024) ¿qué es react? [en línea]. Disponible: https://ebac.mx/blog/que-es-react. [en línea]. Disponible: \url{https://ebac.mx/blog/que-es-react}
 \BIBentrySTDinterwordspacing
 
 \bibitem{flask}
 \BIBentryALTinterwordspacing
-{Built In}. (2024) What is flask? a guide to the python microframework. [en
-  línea]. Disponible:
-  https://builtin.com/software-engineering-perspectives/flask. [en línea].
-  Disponible: \url{https://builtin.com/software-engineering-perspectives/flask}
+{Built In}. (2024) What is flask? a guide to the python microframework. [en línea]. Disponible: https://builtin.com/software-engineering-perspectives/flask. [en línea]. Disponible: \url{https://builtin.com/software-engineering-perspectives/flask}
 \BIBentrySTDinterwordspacing
 
 \bibitem{yolo}
 \BIBentryALTinterwordspacing
-Joseph Redmon, Santosh Divvala, Ross Girshick, y Ali Farhadi, ``You only look
-  once: Unified, real-time object detection,'' \emph{arXiv preprint
-  arXiv:1506.02640}, 2016. [en línea]. Disponible:
-  \url{https://arxiv.org/abs/1506.02640}
+Joseph Redmon, Santosh Divvala, Ross Girshick, y Ali Farhadi, ``You only look once: Unified, real-time object detection,'' \emph{arXiv preprint arXiv:1506.02640}, 2016. [en línea]. Disponible: \url{https://arxiv.org/abs/1506.02640}
 \BIBentrySTDinterwordspacing
 
 \bibitem{arcface}
 \BIBentryALTinterwordspacing
-Jiankang Deng, Jia Guo, Niannan Xue, y Stefanos Zafeiriou, ``Arcface: Additive
-  angular margin loss for deep face recognition,'' in \emph{Proceedings of the
-  IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}, 2019,
-  pp. 4690--4699. [en línea]. Disponible:
-  \url{https://arxiv.org/abs/1801.07698}
-\BIBentrySTDinterwordspacing
-
-\bibitem{atlassianScrum2024}
-\BIBentryALTinterwordspacing
-Claire Drumond. (2024) What is scrum? [+ how to start]. [Accedido: 28 de marzo
-  de 2024]. [en línea]. Disponible:. [en línea]. Disponible:
-  \url{https://www.atlassian.com/agile/scrum}
+Jiankang Deng, Jia Guo, Niannan Xue, y Stefanos Zafeiriou, ``Arcface: Additive angular margin loss for deep face recognition,'' in \emph{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}, 2019, pp. 4690--4699. [en línea]. Disponible: \url{https://arxiv.org/abs/1801.07698}
 \BIBentrySTDinterwordspacing
 
 \end{thebibliography}

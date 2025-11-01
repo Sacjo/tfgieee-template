@@ -1,44 +1,27 @@
-This is BibTeX, Version 0.99d
+This is BibTeX, Version 0.99d (TeX Live 2025)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: tfg.aux
-Reallocating 'name_of_file' (item size: 1) to 66 items.
 A level-1 auxiliary file: ./portada_y_ficha_catalografica/portada_y_ficha_catalografica.aux
-Reallocating 'name_of_file' (item size: 1) to 38 items.
 A level-1 auxiliary file: ./hoja_aprobacion/hoja_aprobacion.aux
-Reallocating 'name_of_file' (item size: 1) to 30 items.
 A level-1 auxiliary file: ./dedicatoria/dedicatoria.aux
-Reallocating 'name_of_file' (item size: 1) to 38 items.
 A level-1 auxiliary file: ./agradecimientos/agradecimientos.aux
-Reallocating 'name_of_file' (item size: 1) to 24 items.
 A level-1 auxiliary file: ./epigrafe/epigrafe.aux
-Reallocating 'name_of_file' (item size: 1) to 22 items.
 A level-1 auxiliary file: ./resumen/resumen.aux
-Reallocating 'name_of_file' (item size: 1) to 24 items.
 A level-1 auxiliary file: ./abstract/abstract.aux
-Reallocating 'name_of_file' (item size: 1) to 31 items.
 A level-1 auxiliary file: ./capitulo_01/introduccion.aux
-Reallocating 'name_of_file' (item size: 1) to 32 items.
 A level-1 auxiliary file: ./capitulo_02/marco_teorico.aux
-Reallocating 'name_of_file' (item size: 1) to 44 items.
 A level-1 auxiliary file: ./capitulo_03/Herramientas_Tecnologicas.aux
-Reallocating 'name_of_file' (item size: 1) to 37 items.
 A level-1 auxiliary file: ./capitulo_04/marco_metodologico.aux
-Reallocating 'name_of_file' (item size: 1) to 29 items.
 A level-1 auxiliary file: ./capitulo_05/resultados.aux
-Reallocating 'name_of_file' (item size: 1) to 28 items.
 A level-1 auxiliary file: ./capitulo_06/discusion.aux
-Reallocating 'name_of_file' (item size: 1) to 19 items.
 A level-1 auxiliary file: ./anexos/anexo.aux
-Reallocating 'name_of_file' (item size: 1) to 20 items.
 A level-1 auxiliary file: ./anexos/anexob.aux
-Reallocating 'name_of_file' (item size: 1) to 20 items.
 The style file: IEEEtran-castellano.bst
-Reallocating 'name_of_file' (item size: 1) to 5 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'wiz_functions' (item size: 4) to 6000 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: test.bib
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
@@ -46,44 +29,44 @@ Database file #1: test.bib
 ** IEEEtran BST control entry "IEEEexample:BSTcontrol" detected.
 
 Done.
-You've used 45 entries,
+You've used 44 entries,
             4087 wiz_defined-function locations,
-            1078 strings with 17702 characters,
-and the built_in function-call counts, 18487 in all, are:
-= -- 1560
-> -- 272
+            1073 strings with 17584 characters,
+and the built_in function-call counts, 18093 in all, are:
+= -- 1525
+> -- 268
 < -- 21
-+ -- 137
-- -- 62
-* -- 606
-:= -- 3451
-add.period$ -- 117
-call.type$ -- 45
-change.case$ -- 74
++ -- 135
+- -- 61
+* -- 595
+:= -- 3374
+add.period$ -- 114
+call.type$ -- 44
+change.case$ -- 72
 chr.to.int$ -- 57
-cite$ -- 45
-duplicate$ -- 1400
-empty$ -- 1650
-format.name$ -- 67
-if$ -- 4068
+cite$ -- 44
+duplicate$ -- 1370
+empty$ -- 1615
+format.name$ -- 66
+if$ -- 3982
 int.to.chr$ -- 0
-int.to.str$ -- 44
-missing$ -- 346
-newline$ -- 240
-num.names$ -- 40
-pop$ -- 993
+int.to.str$ -- 43
+missing$ -- 338
+newline$ -- 235
+num.names$ -- 39
+pop$ -- 971
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 4
-skip$ -- 1459
+skip$ -- 1427
 stack$ -- 0
-substring$ -- 156
-swap$ -- 923
+substring$ -- 154
+swap$ -- 903
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 6
-type$ -- 45
+type$ -- 44
 warning$ -- 0
-while$ -- 53
-width$ -- 46
-write$ -- 493
+while$ -- 52
+width$ -- 45
+write$ -- 482

@@ -55,38 +55,38 @@
 \contentsline {chapter}{\numberline {4}Método}{37}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Enfoque}{37}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Método utilizado para el desarrollo}{38}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Fases del Proceso Investigativo}{39}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Análisis y selección de herramientas}{40}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Recolección de datos}{44}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Entrenamiento del Modelo}{46}{section.4.6}%
-\contentsline {section}{\numberline {4.7}Diseño de la aplicación}{49}{section.4.7}%
-\contentsline {subsection}{\numberline {4.7.1}Arquitectura del sistema}{49}{subsection.4.7.1}%
-\contentsline {subsection}{\numberline {4.7.2}Integración de IA y Reconocimiento Facial}{50}{subsection.4.7.2}%
-\contentsline {subsection}{\numberline {4.7.3}Relevamiento de requisitos}{51}{subsection.4.7.3}%
-\contentsline {subsection}{\numberline {4.7.4}Caso de Uso Principal del Sistema}{52}{subsection.4.7.4}%
-\contentsline {subsubsection}{Descripción general del caso de uso}{53}{section*.18}%
-\contentsline {subsection}{\numberline {4.7.5}Definición de la Base de Datos y Tablas}{54}{subsection.4.7.5}%
-\contentsline {subsection}{\numberline {4.7.6}Diagrama de flujo del funcionamiento del sistema}{57}{subsection.4.7.6}%
-\contentsline {subsection}{\numberline {4.7.7}Desarrollo del frontend}{58}{subsection.4.7.7}%
-\contentsline {paragraph}{Criterios de diseño de la interfaz.}{59}{section*.21}%
-\contentsline {paragraph}{Flujo de uso.}{60}{section*.22}%
-\contentsline {subsection}{\numberline {4.7.8}Desarrollo del backend:}{69}{subsection.4.7.8}%
-\contentsline {subsection}{\numberline {4.7.9}Líneas de código}{72}{subsection.4.7.9}%
-\contentsline {section}{\numberline {4.8}Métricas de Evaluación}{73}{section.4.8}%
-\contentsline {subsection}{\numberline {4.8.1}Usabilidad}{73}{subsection.4.8.1}%
-\contentsline {chapter}{\numberline {5}Resultados}{75}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Figuras y Tablas}{76}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Errores detectados y ajustes aplicados}{76}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Configuraciones y resultados obtenidos}{78}{subsection.5.1.2}%
-\contentsline {section}{\numberline {5.2}Resultados finales del sistema en condiciones reales de un aula}{83}{section.5.2}%
-\contentsline {chapter}{\numberline {6}Discusión}{98}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Logros alcanzados con relación a los objetivos específicos}{99}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Logros alcanzados con relación al Objetivo General}{101}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Análisis de la hipótesis}{101}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Solución al problema de investigación}{102}{section.6.4}%
-\contentsline {section}{\numberline {6.5}Sugerencias para futuras investigaciones}{103}{section.6.5}%
-\contentsline {chapter}{Glosario}{105}{section.6.5}%
-\contentsline {chapter}{Anexos}{105}{section.6.5}%
-\contentsline {chapter}{Anexo A.}{106}{chapter*.23}%
-\contentsline {chapter}{Anexo B.}{112}{chapter*.24}%
-\contentsline {chapter}{Referencias bibliogr\'aficas}{121}{figure.6.19}%
+\contentsline {section}{\numberline {4.3}Fases del Proceso Investigativo}{42}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Análisis y selección de herramientas}{43}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Recolección de datos}{47}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Entrenamiento del Modelo}{49}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Diseño de la aplicación}{52}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Arquitectura del sistema}{52}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}Integración de IA y Reconocimiento Facial}{53}{subsection.4.7.2}%
+\contentsline {subsection}{\numberline {4.7.3}Relevamiento de requisitos}{54}{subsection.4.7.3}%
+\contentsline {subsection}{\numberline {4.7.4}Caso de Uso Principal del Sistema}{55}{subsection.4.7.4}%
+\contentsline {subsubsection}{Descripción general del caso de uso}{56}{section*.18}%
+\contentsline {subsection}{\numberline {4.7.5}Definición de la Base de Datos y Tablas}{57}{subsection.4.7.5}%
+\contentsline {subsection}{\numberline {4.7.6}Diagrama de flujo del funcionamiento del sistema}{60}{subsection.4.7.6}%
+\contentsline {subsection}{\numberline {4.7.7}Desarrollo del frontend}{61}{subsection.4.7.7}%
+\contentsline {paragraph}{Criterios de diseño de la interfaz.}{62}{section*.21}%
+\contentsline {paragraph}{Flujo de uso.}{63}{section*.22}%
+\contentsline {subsection}{\numberline {4.7.8}Desarrollo del backend:}{72}{subsection.4.7.8}%
+\contentsline {subsection}{\numberline {4.7.9}Líneas de código}{75}{subsection.4.7.9}%
+\contentsline {section}{\numberline {4.8}Métricas de Evaluación}{76}{section.4.8}%
+\contentsline {subsection}{\numberline {4.8.1}Usabilidad}{76}{subsection.4.8.1}%
+\contentsline {chapter}{\numberline {5}Resultados}{78}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Figuras y Tablas}{79}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Errores detectados y ajustes aplicados}{79}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Configuraciones y resultados obtenidos}{81}{subsection.5.1.2}%
+\contentsline {section}{\numberline {5.2}Resultados finales del sistema en condiciones reales de un aula}{86}{section.5.2}%
+\contentsline {chapter}{\numberline {6}Discusión}{101}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Logros alcanzados con relación a los objetivos específicos}{102}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Logros alcanzados con relación al Objetivo General}{104}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Análisis de la hipótesis}{104}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Solución al problema de investigación}{105}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Sugerencias para futuras investigaciones}{106}{section.6.5}%
+\contentsline {chapter}{Glosario}{108}{section.6.5}%
+\contentsline {chapter}{Anexos}{108}{section.6.5}%
+\contentsline {chapter}{Anexo A.}{109}{chapter*.23}%
+\contentsline {chapter}{Anexo B.}{115}{chapter*.24}%
+\contentsline {chapter}{Referencias bibliogr\'aficas}{124}{figure.6.19}%

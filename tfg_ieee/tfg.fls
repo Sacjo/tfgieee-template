@@ -1,1027 +1,849 @@
-PWD c:\programacion\tfgieee-template\tfg_ieee
-INPUT C:\Users\aldoc\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\programacion\tfgieee-template\tfg_ieee\tfg.tex
+PWD /Users/danisanchez/Documents/portafolio/tfgieee-template/tfg_ieee
+INPUT /Users/danisanchez/Library/TinyTeX/texmf.cnf
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/web2c/texmf.cnf
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT /Users/danisanchez/Documents/portafolio/tfgieee-template/tfg_ieee/tfg.tex
 OUTPUT tfg.log
-INPUT C:\Program Files\MiKTeX\tex\latex\base\book.cls
-INPUT C:\Program Files\MiKTeX\tex\latex\base\book.cls
-INPUT C:\Program Files\MiKTeX\tex\latex\base\bk12.clo
-INPUT C:\Program Files\MiKTeX\tex\latex\base\bk12.clo
-INPUT C:\Program Files\MiKTeX\tex\latex\base\bk12.clo
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
-INPUT C:\Program Files\MiKTeX\tex\latex\base\inputenc.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\base\inputenc.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\colortbl\colortbl.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\colortbl\colortbl.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\tools\array.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\tools\array.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\color.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\tools\tabularx.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\tools\tabularx.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphics.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphics.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\trig.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\trig.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsmath.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsmath.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsopn.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amstext.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amstext.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsgen.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsgen.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsbsy.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsbsy.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsopn.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amsfonts.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amsfonts.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amssymb.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amssymb.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\babel\babel.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\babel\babel.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\babel\txtbabel.def
-INPUT C:\Program Files\MiKTeX\tex\latex\arabi\bblopts.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\arabi\bblopts.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\arabi\bblopts.cfg
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\babel-spanish\spanish.ldf
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\babel-spanish\spanish.ldf
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\babel-spanish\spanish.ldf
-INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\es\babel-spanish.tex
-INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\es\babel-spanish.tex
-INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\es\babel-spanish.tex
-INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\es\babel-es.ini
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\realboxes\realboxes.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\realboxes\realboxes.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\collectbox\collectbox.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\collectbox\collectbox.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\adjustbox\adjcalc.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\adjustbox\adjcalc.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\adjustbox\adjcalc.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\xkeyval\xkeyval.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\xkeyval\xkeyval.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\xkeyval\xkeyval.tex
-INPUT C:\Program Files\MiKTeX\tex\generic\xkeyval\xkvutils.tex
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\wrapfig\wrapfig.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\wrapfig\wrapfig.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hyperref.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hyperref.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\iftex\iftex.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\iftex\iftex.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\generic\pdfescape\pdfescape.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\generic\pdfescape\pdfescape.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\generic\infwarerr\infwarerr.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\generic\infwarerr\infwarerr.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\hycolor\hycolor.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\hycolor\hycolor.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\refcount\refcount.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\refcount\refcount.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\kvoptions\kvoptions.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\kvoptions\kvoptions.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\generic\stringenc\stringenc.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\generic\stringenc\stringenc.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\pd1enc.def
-INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\pd1enc.def
-INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\pd1enc.def
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\generic\intcalc\intcalc.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\generic\intcalc\intcalc.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\puenc.def
-INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\puenc.def
-INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\puenc.def
-INPUT C:\Program Files\MiKTeX\tex\latex\url\url.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\url\url.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\generic\bitset\bitset.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\generic\bitset\bitset.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\generic\bigintcalc\bigintcalc.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\generic\bigintcalc\bigintcalc.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hpdftex.def
-INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hpdftex.def
-INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hpdftex.def
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\datatool\datatool.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\datatool\datatool.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\base\ifthen.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\base\ifthen.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\xfor\xfor.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\xfor\xfor.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\tracklang\tracklang.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\tracklang\tracklang.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\generic\tracklang\tracklang.tex
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\generic\tracklang\tracklang.tex
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\generic\tracklang\tracklang.tex
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\generic\tracklang\tracklang.tex
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\generic\tracklang\tracklang.tex
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\datatool\datatool-base.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\datatool\datatool-base.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\datatool\datatool-l3fp.def
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\datatool\datatool-l3fp.def
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\datatool\datatool-l3fp.def
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\datatool\datatool-utf8.ldf
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\datatool\datatool-utf8.ldf
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\datatool\datatool-utf8.ldf
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\glossaries\base\glossaries.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\glossaries\base\glossaries.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\mfirstuc\mfirstuc.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\mfirstuc\mfirstuc.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\supertabular\supertabular.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\supertabular\supertabular.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\translator\translator.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\translator\translator.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\translator\translator.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\glossaries-spanish\glossaries-spanish.ldf
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\glossaries-spanish\glossaries-spanish.ldf
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\glossaries-spanish\glossaries-spanish.ldf
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\glossaries-spanish\glossaries-spanish-utf8.ldf
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\glossaries-spanish\glossaries-spanish-utf8.ldf
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\glossaries-spanish\glossaries-spanish-utf8.ldf
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\glossaries\styles\glossary-hypernav.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\glossaries\styles\glossary-hypernav.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\glossaries\styles\glossary-list.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\glossaries\styles\glossary-list.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\glossaries\styles\glossary-long.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\glossaries\styles\glossary-long.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\tools\longtable.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\tools\longtable.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\glossaries\styles\glossary-super.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\glossaries\styles\glossary-super.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\supertabular\supertabular.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\glossaries\styles\glossary-tree.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\glossaries\styles\glossary-tree.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\base\makeidx.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\base\makeidx.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\multirow\multirow.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\multirow\multirow.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\tools\multicol.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\tools\multicol.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\cite\cite.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\cite\cite.sty
-INPUT .\IEEEtrantools.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/base/book.cls
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/base/book.cls
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/base/bk12.clo
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/base/bk12.clo
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/base/bk12.clo
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/base/inputenc.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/base/inputenc.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics/mathcolor.ltx
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics/mathcolor.ltx
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics/mathcolor.ltx
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/colortbl/colortbl.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/colortbl/colortbl.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/tools/array.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/tools/array.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics/color.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/tools/tabularx.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/tools/tabularx.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics/trig.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics/trig.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/amssymb.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/amssymb.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/babel/babel.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/babel/babel.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/babel/txtbabel.def
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/babel/locale/es/babel-spanish.tex
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/babel/locale/es/babel-spanish.tex
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/babel/locale/es/babel-spanish.tex
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/babel/locale/es/babel-es.ini
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/realboxes/realboxes.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/realboxes/realboxes.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/collectbox/collectbox.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/collectbox/collectbox.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/tools/calc.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/tools/calc.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/stringenc/stringenc.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/stringenc/stringenc.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/url/url.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/url/url.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.def
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.def
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.def
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/datatool/datatool.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/datatool/datatool.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/base/ifthen.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/base/ifthen.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/xfor/xfor.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/xfor/xfor.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/tracklang/tracklang.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/tracklang/tracklang.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/tracklang/tracklang.tex
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/tracklang/tracklang.tex
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/tracklang/tracklang.tex
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/tracklang/tracklang.tex
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/tracklang/tracklang.tex
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/datatool/datatool-base.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/datatool/datatool-base.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/datatool/datatool-l3fp.def
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/datatool/datatool-l3fp.def
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/datatool/datatool-l3fp.def
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/datatool/datatool-utf8.ldf
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/datatool/datatool-utf8.ldf
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/datatool/datatool-utf8.ldf
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/glossaries/base/glossaries.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/glossaries/base/glossaries.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/glossaries/styles/glossary-list.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/glossaries/styles/glossary-list.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/glossaries/styles/glossary-long.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/glossaries/styles/glossary-long.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/tools/longtable.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/tools/longtable.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/base/makeidx.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/base/makeidx.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/multirow/multirow.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/multirow/multirow.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/tools/multicol.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/tools/multicol.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/cite/cite.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/cite/cite.sty
+INPUT ./IEEEtrantools.sty
 INPUT IEEEtrantools.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\float\float.sty
-INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\float\float.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/float/float.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/float/float.sty
 OUTPUT tfg.idx
 OUTPUT tfg.glo
-INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT .\tfg.aux
-INPUT .\tfg.aux
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT ./tfg.aux
+INPUT ./tfg.aux
 INPUT tfg.aux
-INPUT .\portada_y_ficha_catalografica\portada_y_ficha_catalografica.aux
-INPUT .\portada_y_ficha_catalografica\portada_y_ficha_catalografica.aux
-INPUT portada_y_ficha_catalografica\portada_y_ficha_catalografica.aux
-INPUT .\hoja_aprobacion\hoja_aprobacion.aux
-INPUT .\hoja_aprobacion\hoja_aprobacion.aux
-INPUT hoja_aprobacion\hoja_aprobacion.aux
-INPUT .\dedicatoria\dedicatoria.aux
-INPUT .\dedicatoria\dedicatoria.aux
-INPUT dedicatoria\dedicatoria.aux
-INPUT .\agradecimientos\agradecimientos.aux
-INPUT .\agradecimientos\agradecimientos.aux
-INPUT agradecimientos\agradecimientos.aux
-INPUT .\epigrafe\epigrafe.aux
-INPUT .\epigrafe\epigrafe.aux
-INPUT epigrafe\epigrafe.aux
-INPUT .\resumen\resumen.aux
-INPUT .\resumen\resumen.aux
-INPUT resumen\resumen.aux
-INPUT .\abstract\abstract.aux
-INPUT .\abstract\abstract.aux
-INPUT abstract\abstract.aux
-INPUT .\capitulo_01\introduccion.aux
-INPUT .\capitulo_01\introduccion.aux
-INPUT capitulo_01\introduccion.aux
-INPUT .\capitulo_02\marco_teorico.aux
-INPUT .\capitulo_02\marco_teorico.aux
-INPUT capitulo_02\marco_teorico.aux
-INPUT .\capitulo_03\Herramientas_Tecnologicas.aux
-INPUT .\capitulo_03\Herramientas_Tecnologicas.aux
-INPUT capitulo_03\Herramientas_Tecnologicas.aux
-INPUT .\capitulo_04\marco_metodologico.aux
-INPUT .\capitulo_04\marco_metodologico.aux
-INPUT capitulo_04\marco_metodologico.aux
-INPUT .\capitulo_05\resultados.aux
-INPUT .\capitulo_05\resultados.aux
-INPUT capitulo_05\resultados.aux
-INPUT .\capitulo_06\discusion.aux
-INPUT .\capitulo_06\discusion.aux
-INPUT capitulo_06\discusion.aux
-INPUT .\anexos\anexo.aux
-INPUT .\anexos\anexo.aux
-INPUT anexos\anexo.aux
-INPUT .\anexos\anexob.aux
-INPUT .\anexos\anexob.aux
-INPUT anexos\anexob.aux
+INPUT ./portada_y_ficha_catalografica/portada_y_ficha_catalografica.aux
+INPUT ./portada_y_ficha_catalografica/portada_y_ficha_catalografica.aux
+INPUT ./portada_y_ficha_catalografica/portada_y_ficha_catalografica.aux
+INPUT ./hoja_aprobacion/hoja_aprobacion.aux
+INPUT ./hoja_aprobacion/hoja_aprobacion.aux
+INPUT ./hoja_aprobacion/hoja_aprobacion.aux
+INPUT ./dedicatoria/dedicatoria.aux
+INPUT ./dedicatoria/dedicatoria.aux
+INPUT ./dedicatoria/dedicatoria.aux
+INPUT ./agradecimientos/agradecimientos.aux
+INPUT ./agradecimientos/agradecimientos.aux
+INPUT ./agradecimientos/agradecimientos.aux
+INPUT ./epigrafe/epigrafe.aux
+INPUT ./epigrafe/epigrafe.aux
+INPUT ./epigrafe/epigrafe.aux
+INPUT ./resumen/resumen.aux
+INPUT ./resumen/resumen.aux
+INPUT ./resumen/resumen.aux
+INPUT ./abstract/abstract.aux
+INPUT ./abstract/abstract.aux
+INPUT ./abstract/abstract.aux
+INPUT ./capitulo_01/introduccion.aux
+INPUT ./capitulo_01/introduccion.aux
+INPUT ./capitulo_01/introduccion.aux
+INPUT ./capitulo_02/marco_teorico.aux
+INPUT ./capitulo_02/marco_teorico.aux
+INPUT ./capitulo_02/marco_teorico.aux
+INPUT ./capitulo_03/Herramientas_Tecnologicas.aux
+INPUT ./capitulo_03/Herramientas_Tecnologicas.aux
+INPUT ./capitulo_03/Herramientas_Tecnologicas.aux
+INPUT ./capitulo_04/marco_metodologico.aux
+INPUT ./capitulo_04/marco_metodologico.aux
+INPUT ./capitulo_04/marco_metodologico.aux
+INPUT ./capitulo_05/resultados.aux
+INPUT ./capitulo_05/resultados.aux
+INPUT ./capitulo_05/resultados.aux
+INPUT ./capitulo_06/discusion.aux
+INPUT ./capitulo_06/discusion.aux
+INPUT ./capitulo_06/discusion.aux
+INPUT ./anexos/anexo.aux
+INPUT ./anexos/anexo.aux
+INPUT ./anexos/anexo.aux
+INPUT ./anexos/anexob.aux
+INPUT ./anexos/anexob.aux
+INPUT ./anexos/anexob.aux
 OUTPUT tfg.aux
-INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
-INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
-INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
-INPUT C:\Program Files\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
-INPUT .\tfg.out
-INPUT .\tfg.out
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT ./tfg.out
+INPUT ./tfg.out
 INPUT tfg.out
 INPUT tfg.out
 OUTPUT tfg.pdf
-INPUT .\tfg.out
-INPUT .\tfg.out
+INPUT ./tfg.out
+INPUT ./tfg.out
 OUTPUT tfg.out
-INPUT .\tfg.glsdefs
-INPUT .\tfg.glsdefs
+INPUT ./tfg.glsdefs
+INPUT ./tfg.glsdefs
 INPUT tfg.glsdefs
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsa.fd
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsa.fd
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsa.fd
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsb.fd
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsb.fd
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsb.fd
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT .\portada_y_ficha_catalografica\logo.png
-INPUT .\portada_y_ficha_catalografica\logo.png
-INPUT .\portada_y_ficha_catalografica\logo.png
-INPUT .\portada_y_ficha_catalografica\logo.png
-INPUT .\portada_y_ficha_catalografica\logo.png
-INPUT .\portada_y_ficha_catalografica\logo.png
-INPUT .\portada_y_ficha_catalografica\logo.png
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT .\portada_y_ficha_catalografica\portada_y_ficha_catalografica.tex
-INPUT .\portada_y_ficha_catalografica\portada_y_ficha_catalografica.tex
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT ./portada_y_ficha_catalografica/logo.png
+INPUT ./portada_y_ficha_catalografica/logo.png
+INPUT ./portada_y_ficha_catalografica/logo.png
+INPUT ./portada_y_ficha_catalografica/logo.png
+INPUT ./portada_y_ficha_catalografica/logo.png
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT ./portada_y_ficha_catalografica/portada_y_ficha_catalografica.tex
+INPUT ./portada_y_ficha_catalografica/portada_y_ficha_catalografica.tex
 OUTPUT tfg.ist
-INPUT C:\Users\aldoc\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-OUTPUT .\portada_y_ficha_catalografica\portada_y_ficha_catalografica.aux
-INPUT .\portada_y_ficha_catalografica\portada_y_ficha_catalografica.tex
-INPUT .\portada_y_ficha_catalografica\portada_y_ficha_catalografica.tex
-INPUT portada_y_ficha_catalografica\portada_y_ficha_catalografica.tex
-INPUT .\portada_y_ficha_catalografica\logo.png
-INPUT .\portada_y_ficha_catalografica\logo.png
-INPUT .\portada_y_ficha_catalografica\logo.png
-INPUT .\portada_y_ficha_catalografica\logo.png
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
-INPUT .\hoja_aprobacion\hoja_aprobacion.tex
-INPUT .\hoja_aprobacion\hoja_aprobacion.tex
-OUTPUT .\hoja_aprobacion\hoja_aprobacion.aux
-INPUT .\hoja_aprobacion\hoja_aprobacion.tex
-INPUT .\hoja_aprobacion\hoja_aprobacion.tex
-INPUT hoja_aprobacion\hoja_aprobacion.tex
-INPUT .\dedicatoria\dedicatoria.tex
-INPUT .\dedicatoria\dedicatoria.tex
-OUTPUT .\dedicatoria\dedicatoria.aux
-INPUT .\dedicatoria\dedicatoria.tex
-INPUT .\dedicatoria\dedicatoria.tex
-INPUT dedicatoria\dedicatoria.tex
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmti12.tfm
-INPUT .\agradecimientos\agradecimientos.tex
-INPUT .\agradecimientos\agradecimientos.tex
-OUTPUT .\agradecimientos\agradecimientos.aux
-INPUT .\agradecimientos\agradecimientos.tex
-INPUT .\agradecimientos\agradecimientos.tex
-INPUT agradecimientos\agradecimientos.tex
-INPUT .\epigrafe\epigrafe.tex
-INPUT .\epigrafe\epigrafe.tex
-OUTPUT .\epigrafe\epigrafe.aux
-INPUT .\epigrafe\epigrafe.tex
-INPUT .\epigrafe\epigrafe.tex
-INPUT epigrafe\epigrafe.tex
-INPUT .\resumen\resumen.tex
-INPUT .\resumen\resumen.tex
-OUTPUT .\resumen\resumen.aux
-INPUT .\resumen\resumen.tex
-INPUT .\resumen\resumen.tex
-INPUT resumen\resumen.tex
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT .\abstract\abstract.tex
-INPUT .\abstract\abstract.tex
-OUTPUT .\abstract\abstract.aux
-INPUT .\abstract\abstract.tex
-INPUT .\abstract\abstract.tex
-INPUT abstract\abstract.tex
-INPUT .\tfg.toc
-INPUT .\tfg.toc
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+OUTPUT ./portada_y_ficha_catalografica/portada_y_ficha_catalografica.aux
+INPUT ./portada_y_ficha_catalografica/portada_y_ficha_catalografica.tex
+INPUT ./portada_y_ficha_catalografica/portada_y_ficha_catalografica.tex
+INPUT ./portada_y_ficha_catalografica/portada_y_ficha_catalografica.tex
+INPUT ./portada_y_ficha_catalografica/logo.png
+INPUT ./portada_y_ficha_catalografica/logo.png
+INPUT ./portada_y_ficha_catalografica/logo.png
+INPUT ./portada_y_ficha_catalografica/logo.png
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT ./hoja_aprobacion/hoja_aprobacion.tex
+INPUT ./hoja_aprobacion/hoja_aprobacion.tex
+OUTPUT ./hoja_aprobacion/hoja_aprobacion.aux
+INPUT ./hoja_aprobacion/hoja_aprobacion.tex
+INPUT ./hoja_aprobacion/hoja_aprobacion.tex
+INPUT ./hoja_aprobacion/hoja_aprobacion.tex
+INPUT ./dedicatoria/dedicatoria.tex
+INPUT ./dedicatoria/dedicatoria.tex
+OUTPUT ./dedicatoria/dedicatoria.aux
+INPUT ./dedicatoria/dedicatoria.tex
+INPUT ./dedicatoria/dedicatoria.tex
+INPUT ./dedicatoria/dedicatoria.tex
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
+INPUT ./agradecimientos/agradecimientos.tex
+INPUT ./agradecimientos/agradecimientos.tex
+OUTPUT ./agradecimientos/agradecimientos.aux
+INPUT ./agradecimientos/agradecimientos.tex
+INPUT ./agradecimientos/agradecimientos.tex
+INPUT ./agradecimientos/agradecimientos.tex
+INPUT ./epigrafe/epigrafe.tex
+INPUT ./epigrafe/epigrafe.tex
+OUTPUT ./epigrafe/epigrafe.aux
+INPUT ./epigrafe/epigrafe.tex
+INPUT ./epigrafe/epigrafe.tex
+INPUT ./epigrafe/epigrafe.tex
+INPUT ./resumen/resumen.tex
+INPUT ./resumen/resumen.tex
+OUTPUT ./resumen/resumen.aux
+INPUT ./resumen/resumen.tex
+INPUT ./resumen/resumen.tex
+INPUT ./resumen/resumen.tex
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT ./abstract/abstract.tex
+INPUT ./abstract/abstract.tex
+OUTPUT ./abstract/abstract.aux
+INPUT ./abstract/abstract.tex
+INPUT ./abstract/abstract.tex
+INPUT ./abstract/abstract.tex
+INPUT ./tfg.toc
+INPUT ./tfg.toc
 INPUT tfg.toc
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmcsc10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsl12.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmsl12.tfm
 OUTPUT tfg.toc
-INPUT .\tfg.lof
-INPUT .\tfg.lof
+INPUT ./tfg.lof
+INPUT ./tfg.lof
 INPUT tfg.lof
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmtt12.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm
 OUTPUT tfg.lof
-INPUT .\tfg.lot
-INPUT .\tfg.lot
+INPUT ./tfg.lot
+INPUT ./tfg.lot
 INPUT tfg.lot
 OUTPUT tfg.lot
-INPUT .\capitulo_01\introduccion.tex
-INPUT .\capitulo_01\introduccion.tex
-OUTPUT .\capitulo_01\introduccion.aux
-INPUT .\capitulo_01\introduccion.tex
-INPUT .\capitulo_01\introduccion.tex
-INPUT capitulo_01\introduccion.tex
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcrm1440.tfm
-INPUT .\capitulo_02\marco_teorico.tex
-INPUT .\capitulo_02\marco_teorico.tex
-OUTPUT .\capitulo_02\marco_teorico.aux
-INPUT .\capitulo_02\marco_teorico.tex
-INPUT .\capitulo_02\marco_teorico.tex
-INPUT capitulo_02\marco_teorico.tex
-INPUT .\imagenes_doc\segu_biometrica_1.jpg
-INPUT .\imagenes_doc\segu_biometrica_1.jpg
-INPUT .\imagenes_doc\segu_biometrica_1.jpg
-INPUT .\imagenes_doc\segu_biometrica_1.jpg
-INPUT .\imagenes_doc\segu_biometrica_1.jpg
-INPUT .\imagenes_doc\segu_biometrica_1.jpg
-INPUT .\imagenes_doc\segu_biometrica_1.jpg
-INPUT .\imagenes_doc\tabla_rand.jpg
-INPUT .\imagenes_doc\tabla_rand.jpg
-INPUT .\imagenes_doc\tabla_rand.jpg
-INPUT .\imagenes_doc\tabla_rand.jpg
-INPUT .\imagenes_doc\tabla_rand.jpg
-INPUT .\imagenes_doc\tabla_rand.jpg
-INPUT .\imagenes_doc\tabla_rand.jpg
-INPUT .\imagenes_doc\Reconocimiento_Facial.jpg
-INPUT .\imagenes_doc\Reconocimiento_Facial.jpg
-INPUT .\imagenes_doc\Reconocimiento_Facial.jpg
-INPUT .\imagenes_doc\Reconocimiento_Facial.jpg
-INPUT .\imagenes_doc\Reconocimiento_Facial.jpg
-INPUT .\imagenes_doc\Reconocimiento_Facial.jpg
-INPUT .\imagenes_doc\Reconocimiento_Facial.jpg
-INPUT .\imagenes_doc\DEEP_LEARNING.jpg
-INPUT .\imagenes_doc\DEEP_LEARNING.jpg
-INPUT .\imagenes_doc\DEEP_LEARNING.jpg
-INPUT .\imagenes_doc\DEEP_LEARNING.jpg
-INPUT .\imagenes_doc\DEEP_LEARNING.jpg
-INPUT .\imagenes_doc\DEEP_LEARNING.jpg
-INPUT .\imagenes_doc\DEEP_LEARNING.jpg
-INPUT .\imagenes_doc\redes_neuronales.png
-INPUT .\imagenes_doc\redes_neuronales.png
-INPUT .\imagenes_doc\redes_neuronales.png
-INPUT .\imagenes_doc\redes_neuronales.png
-INPUT .\imagenes_doc\redes_neuronales.png
-INPUT .\imagenes_doc\redes_neuronales.png
-INPUT .\imagenes_doc\redes_neuronales.png
-INPUT .\imagenes_doc\image_01.jpg
-INPUT .\imagenes_doc\image_01.jpg
-INPUT .\imagenes_doc\image_01.jpg
-INPUT .\imagenes_doc\image_01.jpg
-INPUT .\imagenes_doc\image_01.jpg
-INPUT .\imagenes_doc\image_01.jpg
-INPUT .\imagenes_doc\image_01.jpg
-INPUT .\imagenes_doc\image_02.jpg
-INPUT .\imagenes_doc\image_02.jpg
-INPUT .\imagenes_doc\image_02.jpg
-INPUT .\imagenes_doc\image_02.jpg
-INPUT .\imagenes_doc\image_02.jpg
-INPUT .\imagenes_doc\image_02.jpg
-INPUT .\imagenes_doc\image_02.jpg
-INPUT .\imagenes_doc\redes_convolucionales.png
-INPUT .\imagenes_doc\redes_convolucionales.png
-INPUT .\imagenes_doc\redes_convolucionales.png
-INPUT .\imagenes_doc\redes_convolucionales.png
-INPUT .\imagenes_doc\redes_convolucionales.png
-INPUT .\imagenes_doc\redes_convolucionales.png
-INPUT .\imagenes_doc\redes_convolucionales.png
-INPUT .\imagenes_doc\Redes_GAN.jpg
-INPUT .\imagenes_doc\Redes_GAN.jpg
-INPUT .\imagenes_doc\Redes_GAN.jpg
-INPUT .\imagenes_doc\Redes_GAN.jpg
-INPUT .\imagenes_doc\Redes_GAN.jpg
-INPUT .\imagenes_doc\Redes_GAN.jpg
-INPUT .\imagenes_doc\Redes_GAN.jpg
-INPUT .\imagenes_doc\registroimg.jpg
-INPUT .\imagenes_doc\registroimg.jpg
-INPUT .\imagenes_doc\registroimg.jpg
-INPUT .\imagenes_doc\registroimg.jpg
-INPUT .\imagenes_doc\registroimg.jpg
-INPUT .\imagenes_doc\registroimg.jpg
-INPUT .\imagenes_doc\registroimg.jpg
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbxti10.tfm
-INPUT .\capitulo_03\Herramientas_Tecnologicas.tex
-INPUT .\capitulo_03\Herramientas_Tecnologicas.tex
-OUTPUT .\capitulo_03\Herramientas_Tecnologicas.aux
-INPUT .\capitulo_03\Herramientas_Tecnologicas.tex
-INPUT .\capitulo_03\Herramientas_Tecnologicas.tex
-INPUT capitulo_03\Herramientas_Tecnologicas.tex
-INPUT .\capitulo_04\marco_metodologico.tex
-INPUT .\capitulo_04\marco_metodologico.tex
-OUTPUT .\capitulo_04\marco_metodologico.aux
-INPUT .\capitulo_04\marco_metodologico.tex
-INPUT .\capitulo_04\marco_metodologico.tex
-INPUT capitulo_04\marco_metodologico.tex
-INPUT .\imagenes_doc\notion.jpg
-INPUT .\imagenes_doc\notion.jpg
-INPUT .\imagenes_doc\notion.jpg
-INPUT .\imagenes_doc\notion.jpg
-INPUT .\imagenes_doc\notion.jpg
-INPUT .\imagenes_doc\notion.jpg
-INPUT .\imagenes_doc\notion.jpg
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
-INPUT .\imagenes_doc\sin_normalizar.png
-INPUT .\imagenes_doc\sin_normalizar.png
-INPUT .\imagenes_doc\sin_normalizar.png
-INPUT .\imagenes_doc\sin_normalizar.png
-INPUT .\imagenes_doc\sin_normalizar.png
-INPUT .\imagenes_doc\sin_normalizar.png
-INPUT .\imagenes_doc\sin_normalizar.png
-INPUT .\imagenes_doc\dataset_rostros.jpg
-INPUT .\imagenes_doc\dataset_rostros.jpg
-INPUT .\imagenes_doc\dataset_rostros.jpg
-INPUT .\imagenes_doc\dataset_rostros.jpg
-INPUT .\imagenes_doc\dataset_rostros.jpg
-INPUT .\imagenes_doc\dataset_rostros.jpg
-INPUT .\imagenes_doc\dataset_rostros.jpg
-INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcbx1440.tfm
-INPUT .\capitulo_04\imagenes\5.png
-INPUT .\capitulo_04\imagenes\5.png
-INPUT .\capitulo_04\imagenes\5.png
-INPUT .\capitulo_04\imagenes\5.png
-INPUT .\capitulo_04\imagenes\5.png
-INPUT .\capitulo_04\imagenes\5.png
-INPUT .\capitulo_04\imagenes\5.png
-INPUT .\capitulo_04\imagenes\1.png
-INPUT .\capitulo_04\imagenes\1.png
-INPUT .\capitulo_04\imagenes\1.png
-INPUT .\capitulo_04\imagenes\1.png
-INPUT .\capitulo_04\imagenes\1.png
-INPUT .\capitulo_04\imagenes\1.png
-INPUT .\capitulo_04\imagenes\1.png
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmti12.tfm
-INPUT .\capitulo_04\imagenes\2.png
-INPUT .\capitulo_04\imagenes\2.png
-INPUT .\capitulo_04\imagenes\2.png
-INPUT .\capitulo_04\imagenes\2.png
-INPUT .\capitulo_04\imagenes\2.png
-INPUT .\capitulo_04\imagenes\2.png
-INPUT .\capitulo_04\imagenes\2.png
-INPUT .\imagenes_doc\backend_estructura.png
-INPUT .\imagenes_doc\backend_estructura.png
-INPUT .\imagenes_doc\backend_estructura.png
-INPUT .\imagenes_doc\backend_estructura.png
-INPUT .\imagenes_doc\backend_estructura.png
-INPUT .\imagenes_doc\backend_estructura.png
-INPUT .\imagenes_doc\backend_estructura.png
-INPUT .\imagenes_doc\login.png
-INPUT .\imagenes_doc\login.png
-INPUT .\imagenes_doc\login.png
-INPUT .\imagenes_doc\login.png
-INPUT .\imagenes_doc\login.png
-INPUT .\imagenes_doc\login.png
-INPUT .\imagenes_doc\login.png
-INPUT .\imagenes_doc\new_user.png
-INPUT .\imagenes_doc\new_user.png
-INPUT .\imagenes_doc\new_user.png
-INPUT .\imagenes_doc\new_user.png
-INPUT .\imagenes_doc\new_user.png
-INPUT .\imagenes_doc\new_user.png
-INPUT .\imagenes_doc\new_user.png
-INPUT .\imagenes_doc\dashboard_1.png
-INPUT .\imagenes_doc\dashboard_1.png
-INPUT .\imagenes_doc\dashboard_1.png
-INPUT .\imagenes_doc\dashboard_1.png
-INPUT .\imagenes_doc\dashboard_1.png
-INPUT .\imagenes_doc\dashboard_1.png
-INPUT .\imagenes_doc\dashboard_1.png
-INPUT .\imagenes_doc\dashboard_2.png
-INPUT .\imagenes_doc\dashboard_2.png
-INPUT .\imagenes_doc\dashboard_2.png
-INPUT .\imagenes_doc\dashboard_2.png
-INPUT .\imagenes_doc\dashboard_2.png
-INPUT .\imagenes_doc\dashboard_2.png
-INPUT .\imagenes_doc\dashboard_2.png
-INPUT .\imagenes_doc\CLASE2_PRUEBA.jpg
-INPUT .\imagenes_doc\CLASE2_PRUEBA.jpg
-INPUT .\imagenes_doc\CLASE2_PRUEBA.jpg
-INPUT .\imagenes_doc\CLASE2_PRUEBA.jpg
-INPUT .\imagenes_doc\CLASE2_PRUEBA.jpg
-INPUT .\imagenes_doc\CLASE2_PRUEBA.jpg
-INPUT .\imagenes_doc\CLASE2_PRUEBA.jpg
-INPUT .\imagenes_doc\roles.png
-INPUT .\imagenes_doc\roles.png
-INPUT .\imagenes_doc\roles.png
-INPUT .\imagenes_doc\roles.png
-INPUT .\imagenes_doc\roles.png
-INPUT .\imagenes_doc\roles.png
-INPUT .\imagenes_doc\roles.png
-INPUT .\imagenes_doc\new_curso.png
-INPUT .\imagenes_doc\new_curso.png
-INPUT .\imagenes_doc\new_curso.png
-INPUT .\imagenes_doc\new_curso.png
-INPUT .\imagenes_doc\new_curso.png
-INPUT .\imagenes_doc\new_curso.png
-INPUT .\imagenes_doc\new_curso.png
-INPUT .\imagenes_doc\horario_curso.png
-INPUT .\imagenes_doc\horario_curso.png
-INPUT .\imagenes_doc\horario_curso.png
-INPUT .\imagenes_doc\horario_curso.png
-INPUT .\imagenes_doc\horario_curso.png
-INPUT .\imagenes_doc\horario_curso.png
-INPUT .\imagenes_doc\horario_curso.png
-INPUT .\imagenes_doc\registrar_asistencia.png
-INPUT .\imagenes_doc\registrar_asistencia.png
-INPUT .\imagenes_doc\registrar_asistencia.png
-INPUT .\imagenes_doc\registrar_asistencia.png
-INPUT .\imagenes_doc\registrar_asistencia.png
-INPUT .\imagenes_doc\registrar_asistencia.png
-INPUT .\imagenes_doc\registrar_asistencia.png
-INPUT .\imagenes_doc\asignar_.png
-INPUT .\imagenes_doc\asignar_.png
-INPUT .\imagenes_doc\asignar_.png
-INPUT .\imagenes_doc\asignar_.png
-INPUT .\imagenes_doc\asignar_.png
-INPUT .\imagenes_doc\asignar_.png
-INPUT .\imagenes_doc\asignar_.png
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
-INPUT .\capitulo_05\resultados.tex
-INPUT .\capitulo_05\resultados.tex
-OUTPUT .\capitulo_05\resultados.aux
-INPUT .\capitulo_05\resultados.tex
-INPUT .\capitulo_05\resultados.tex
-INPUT capitulo_05\resultados.tex
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmtt12.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx8.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmtt8.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx6.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmtt8.tfm
-INPUT .\capitulo_05\imagenes\1.jpg.png
-INPUT .\capitulo_05\imagenes\1.jpg.png
-INPUT .\capitulo_05\imagenes\1.jpg.png
-INPUT .\capitulo_05\imagenes\1.jpg.png
-INPUT .\capitulo_05\imagenes\1.jpg.png
-INPUT .\capitulo_05\imagenes\1.jpg.png
-INPUT .\capitulo_05\imagenes\umbral_1.0_30.jpg
-INPUT .\capitulo_05\imagenes\umbral_1.0_30.jpg
-INPUT .\capitulo_05\imagenes\umbral_1.0_30.jpg
-INPUT .\capitulo_05\imagenes\umbral_1.0_30.jpg
-INPUT .\capitulo_05\imagenes\umbral_1.0_30.jpg
-INPUT .\capitulo_05\imagenes\umbral_1.0_30.jpg
-INPUT .\capitulo_05\imagenes\umbral_1.0_30.jpg
-INPUT .\capitulo_05\imagenes\2.png
-INPUT .\capitulo_05\imagenes\2.png
-INPUT .\capitulo_05\imagenes\2.png
-INPUT .\capitulo_05\imagenes\2.png
-INPUT .\capitulo_05\imagenes\2.png
-INPUT .\capitulo_05\imagenes\2.png
-INPUT .\capitulo_05\imagenes\2.png
-INPUT .\capitulo_05\imagenes\1.3_min_dist25.jpg
-INPUT .\capitulo_05\imagenes\1.3_min_dist25.jpg
-INPUT .\capitulo_05\imagenes\1.3_min_dist25.jpg
-INPUT .\capitulo_05\imagenes\1.3_min_dist25.jpg
-INPUT .\capitulo_05\imagenes\1.3_min_dist25.jpg
-INPUT .\capitulo_05\imagenes\1.3_min_dist25.jpg
-INPUT .\capitulo_05\imagenes\1.3_min_dist25.jpg
-INPUT .\capitulo_05\imagenes\3.png
-INPUT .\capitulo_05\imagenes\3.png
-INPUT .\capitulo_05\imagenes\3.png
-INPUT .\capitulo_05\imagenes\3.png
-INPUT .\capitulo_05\imagenes\3.png
-INPUT .\capitulo_05\imagenes\3.png
-INPUT .\capitulo_05\imagenes\3.png
-INPUT .\capitulo_05\imagenes\6.6.jpg
-INPUT .\capitulo_05\imagenes\6.6.jpg
-INPUT .\capitulo_05\imagenes\6.6.jpg
-INPUT .\capitulo_05\imagenes\6.6.jpg
-INPUT .\capitulo_05\imagenes\6.6.jpg
-INPUT .\capitulo_05\imagenes\6.6.jpg
-INPUT .\capitulo_05\imagenes\6.6.jpg
-INPUT .\capitulo_05\imagenes\4.png
-INPUT .\capitulo_05\imagenes\4.png
-INPUT .\capitulo_05\imagenes\4.png
-INPUT .\capitulo_05\imagenes\4.png
-INPUT .\capitulo_05\imagenes\4.png
-INPUT .\capitulo_05\imagenes\4.png
-INPUT .\capitulo_05\imagenes\4.png
-INPUT .\capitulo_05\imagenes\4.4.jpg
-INPUT .\capitulo_05\imagenes\4.4.jpg
-INPUT .\capitulo_05\imagenes\4.4.jpg
-INPUT .\capitulo_05\imagenes\4.4.jpg
-INPUT .\capitulo_05\imagenes\4.4.jpg
-INPUT .\capitulo_05\imagenes\4.4.jpg
-INPUT .\capitulo_05\imagenes\4.4.jpg
-INPUT .\capitulo_05\imagenes\5.png
-INPUT .\capitulo_05\imagenes\5.png
-INPUT .\capitulo_05\imagenes\5.png
-INPUT .\capitulo_05\imagenes\5.png
-INPUT .\capitulo_05\imagenes\5.png
-INPUT .\capitulo_05\imagenes\5.png
-INPUT .\capitulo_05\imagenes\5.png
-INPUT .\capitulo_05\imagenes\5.5.jpg
-INPUT .\capitulo_05\imagenes\5.5.jpg
-INPUT .\capitulo_05\imagenes\5.5.jpg
-INPUT .\capitulo_05\imagenes\5.5.jpg
-INPUT .\capitulo_05\imagenes\5.5.jpg
-INPUT .\capitulo_05\imagenes\5.5.jpg
-INPUT .\capitulo_05\imagenes\5.5.jpg
-INPUT .\capitulo_05\resultados_aula\1.jpg
-INPUT .\capitulo_05\resultados_aula\1.jpg
-INPUT .\capitulo_05\resultados_aula\1.jpg
-INPUT .\capitulo_05\resultados_aula\1.jpg
-INPUT .\capitulo_05\resultados_aula\1.jpg
-INPUT .\capitulo_05\resultados_aula\1.jpg
-INPUT .\capitulo_05\resultados_aula\1.jpg
-INPUT .\capitulo_05\resultados_aula\2.jpg
-INPUT .\capitulo_05\resultados_aula\2.jpg
-INPUT .\capitulo_05\resultados_aula\2.jpg
-INPUT .\capitulo_05\resultados_aula\2.jpg
-INPUT .\capitulo_05\resultados_aula\2.jpg
-INPUT .\capitulo_05\resultados_aula\2.jpg
-INPUT .\capitulo_05\resultados_aula\2.jpg
-INPUT .\capitulo_05\resultados_aula\4.jpg
-INPUT .\capitulo_05\resultados_aula\4.jpg
-INPUT .\capitulo_05\resultados_aula\4.jpg
-INPUT .\capitulo_05\resultados_aula\4.jpg
-INPUT .\capitulo_05\resultados_aula\4.jpg
-INPUT .\capitulo_05\resultados_aula\4.jpg
-INPUT .\capitulo_05\resultados_aula\4.jpg
-INPUT .\capitulo_05\resultados_aula\5.jpg
-INPUT .\capitulo_05\resultados_aula\5.jpg
-INPUT .\capitulo_05\resultados_aula\5.jpg
-INPUT .\capitulo_05\resultados_aula\5.jpg
-INPUT .\capitulo_05\resultados_aula\5.jpg
-INPUT .\capitulo_05\resultados_aula\5.jpg
-INPUT .\capitulo_05\resultados_aula\5.jpg
-INPUT .\capitulo_05\resultados_aula\6.jpg
-INPUT .\capitulo_05\resultados_aula\6.jpg
-INPUT .\capitulo_05\resultados_aula\6.jpg
-INPUT .\capitulo_05\resultados_aula\6.jpg
-INPUT .\capitulo_05\resultados_aula\6.jpg
-INPUT .\capitulo_05\resultados_aula\6.jpg
-INPUT .\capitulo_05\resultados_aula\6.jpg
-INPUT .\capitulo_05\resultados_aula\7.jpg
-INPUT .\capitulo_05\resultados_aula\7.jpg
-INPUT .\capitulo_05\resultados_aula\7.jpg
-INPUT .\capitulo_05\resultados_aula\7.jpg
-INPUT .\capitulo_05\resultados_aula\7.jpg
-INPUT .\capitulo_05\resultados_aula\7.jpg
-INPUT .\capitulo_05\resultados_aula\7.jpg
-INPUT .\capitulo_05\resultados_aula\10.jpg
-INPUT .\capitulo_05\resultados_aula\10.jpg
-INPUT .\capitulo_05\resultados_aula\10.jpg
-INPUT .\capitulo_05\resultados_aula\10.jpg
-INPUT .\capitulo_05\resultados_aula\10.jpg
-INPUT .\capitulo_05\resultados_aula\10.jpg
-INPUT .\capitulo_05\resultados_aula\10.jpg
-INPUT .\capitulo_05\resultados_aula\11.jpg
-INPUT .\capitulo_05\resultados_aula\11.jpg
-INPUT .\capitulo_05\resultados_aula\11.jpg
-INPUT .\capitulo_05\resultados_aula\11.jpg
-INPUT .\capitulo_05\resultados_aula\11.jpg
-INPUT .\capitulo_05\resultados_aula\11.jpg
-INPUT .\capitulo_05\resultados_aula\11.jpg
-INPUT .\capitulo_05\resultados_aula\12.jpg
-INPUT .\capitulo_05\resultados_aula\12.jpg
-INPUT .\capitulo_05\resultados_aula\12.jpg
-INPUT .\capitulo_05\resultados_aula\12.jpg
-INPUT .\capitulo_05\resultados_aula\12.jpg
-INPUT .\capitulo_05\resultados_aula\12.jpg
-INPUT .\capitulo_05\resultados_aula\12.jpg
-INPUT .\capitulo_05\resultados_aula\14.jpg
-INPUT .\capitulo_05\resultados_aula\14.jpg
-INPUT .\capitulo_05\resultados_aula\14.jpg
-INPUT .\capitulo_05\resultados_aula\14.jpg
-INPUT .\capitulo_05\resultados_aula\14.jpg
-INPUT .\capitulo_05\resultados_aula\14.jpg
-INPUT .\capitulo_05\resultados_aula\14.jpg
-INPUT .\capitulo_05\resultados_aula\17.jpg
-INPUT .\capitulo_05\resultados_aula\17.jpg
-INPUT .\capitulo_05\resultados_aula\17.jpg
-INPUT .\capitulo_05\resultados_aula\17.jpg
-INPUT .\capitulo_05\resultados_aula\17.jpg
-INPUT .\capitulo_05\resultados_aula\17.jpg
-INPUT .\capitulo_05\resultados_aula\17.jpg
-INPUT .\capitulo_05\resultados_aula\19.jpg
-INPUT .\capitulo_05\resultados_aula\19.jpg
-INPUT .\capitulo_05\resultados_aula\19.jpg
-INPUT .\capitulo_05\resultados_aula\19.jpg
-INPUT .\capitulo_05\resultados_aula\19.jpg
-INPUT .\capitulo_05\resultados_aula\19.jpg
-INPUT .\capitulo_05\resultados_aula\19.jpg
-INPUT .\capitulo_05\resultados_aula\registrados.jpg
-INPUT .\capitulo_05\resultados_aula\registrados.jpg
-INPUT .\capitulo_05\resultados_aula\registrados.jpg
-INPUT .\capitulo_05\resultados_aula\registrados.jpg
-INPUT .\capitulo_05\resultados_aula\registrados.jpg
-INPUT .\capitulo_05\resultados_aula\registrados.jpg
-INPUT .\capitulo_05\resultados_aula\registrados.jpg
-INPUT .\capitulo_05\resultados_aula\entrenamiento.jpg
-INPUT .\capitulo_05\resultados_aula\entrenamiento.jpg
-INPUT .\capitulo_05\resultados_aula\entrenamiento.jpg
-INPUT .\capitulo_05\resultados_aula\entrenamiento.jpg
-INPUT .\capitulo_05\resultados_aula\entrenamiento.jpg
-INPUT .\capitulo_05\resultados_aula\entrenamiento.jpg
-INPUT .\capitulo_05\resultados_aula\entrenamiento.jpg
-INPUT .\capitulo_05\resultados_aula\asistencias.jpg
-INPUT .\capitulo_05\resultados_aula\asistencias.jpg
-INPUT .\capitulo_05\resultados_aula\asistencias.jpg
-INPUT .\capitulo_05\resultados_aula\asistencias.jpg
-INPUT .\capitulo_05\resultados_aula\asistencias.jpg
-INPUT .\capitulo_05\resultados_aula\asistencias.jpg
-INPUT .\capitulo_05\resultados_aula\asistencias.jpg
-INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
-INPUT .\capitulo_06\discusion.tex
-INPUT .\capitulo_06\discusion.tex
-OUTPUT .\capitulo_06\discusion.aux
-INPUT .\capitulo_06\discusion.tex
-INPUT .\capitulo_06\discusion.tex
-INPUT capitulo_06\discusion.tex
-INPUT .\anexos\anexo.tex
-INPUT .\anexos\anexo.tex
-OUTPUT .\anexos\anexo.aux
-INPUT .\anexos\anexo.tex
-INPUT .\anexos\anexo.tex
-INPUT anexos\anexo.tex
-INPUT .\anexos\imagenes\encabezado.png
-INPUT .\anexos\imagenes\encabezado.png
-INPUT .\anexos\imagenes\encabezado.png
-INPUT .\anexos\imagenes\encabezado.png
-INPUT .\anexos\imagenes\encabezado.png
-INPUT .\anexos\imagenes\encabezado.png
-INPUT .\anexos\imagenes\encabezado.png
-INPUT .\anexos\imagenes\Imagen1.png
-INPUT .\anexos\imagenes\Imagen1.png
-INPUT .\anexos\imagenes\Imagen1.png
-INPUT .\anexos\imagenes\Imagen1.png
-INPUT .\anexos\imagenes\Imagen1.png
-INPUT .\anexos\imagenes\Imagen1.png
-INPUT .\anexos\imagenes\Imagen1.png
-INPUT .\anexos\imagenes\Imagen2.png
-INPUT .\anexos\imagenes\Imagen2.png
-INPUT .\anexos\imagenes\Imagen2.png
-INPUT .\anexos\imagenes\Imagen2.png
-INPUT .\anexos\imagenes\Imagen2.png
-INPUT .\anexos\imagenes\Imagen2.png
-INPUT .\anexos\imagenes\Imagen2.png
-INPUT .\anexos\imagenes\Imagen3.png
-INPUT .\anexos\imagenes\Imagen3.png
-INPUT .\anexos\imagenes\Imagen3.png
-INPUT .\anexos\imagenes\Imagen3.png
-INPUT .\anexos\imagenes\Imagen3.png
-INPUT .\anexos\imagenes\Imagen3.png
-INPUT .\anexos\imagenes\Imagen3.png
-INPUT .\anexos\imagenes\Imagen4.png
-INPUT .\anexos\imagenes\Imagen4.png
-INPUT .\anexos\imagenes\Imagen4.png
-INPUT .\anexos\imagenes\Imagen4.png
-INPUT .\anexos\imagenes\Imagen4.png
-INPUT .\anexos\imagenes\Imagen4.png
-INPUT .\anexos\imagenes\Imagen4.png
-INPUT .\anexos\imagenes\Imagen5.png
-INPUT .\anexos\imagenes\Imagen5.png
-INPUT .\anexos\imagenes\Imagen5.png
-INPUT .\anexos\imagenes\Imagen5.png
-INPUT .\anexos\imagenes\Imagen5.png
-INPUT .\anexos\imagenes\Imagen5.png
-INPUT .\anexos\imagenes\Imagen5.png
-INPUT .\anexos\imagenes\Imagen6.png
-INPUT .\anexos\imagenes\Imagen6.png
-INPUT .\anexos\imagenes\Imagen6.png
-INPUT .\anexos\imagenes\Imagen6.png
-INPUT .\anexos\imagenes\Imagen6.png
-INPUT .\anexos\imagenes\Imagen6.png
-INPUT .\anexos\imagenes\Imagen6.png
-INPUT .\anexos\imagenes\Imagen7.png
-INPUT .\anexos\imagenes\Imagen7.png
-INPUT .\anexos\imagenes\Imagen7.png
-INPUT .\anexos\imagenes\Imagen7.png
-INPUT .\anexos\imagenes\Imagen7.png
-INPUT .\anexos\imagenes\Imagen7.png
-INPUT .\anexos\imagenes\Imagen7.png
-INPUT .\anexos\imagenes\Imagen8.png
-INPUT .\anexos\imagenes\Imagen8.png
-INPUT .\anexos\imagenes\Imagen8.png
-INPUT .\anexos\imagenes\Imagen8.png
-INPUT .\anexos\imagenes\Imagen8.png
-INPUT .\anexos\imagenes\Imagen8.png
-INPUT .\anexos\imagenes\Imagen8.png
-INPUT .\anexos\imagenes\Imagen9.png
-INPUT .\anexos\imagenes\Imagen9.png
-INPUT .\anexos\imagenes\Imagen9.png
-INPUT .\anexos\imagenes\Imagen9.png
-INPUT .\anexos\imagenes\Imagen9.png
-INPUT .\anexos\imagenes\Imagen9.png
-INPUT .\anexos\imagenes\Imagen9.png
-INPUT .\anexos\imagenes\Imagen10.png
-INPUT .\anexos\imagenes\Imagen10.png
-INPUT .\anexos\imagenes\Imagen10.png
-INPUT .\anexos\imagenes\Imagen10.png
-INPUT .\anexos\imagenes\Imagen10.png
-INPUT .\anexos\imagenes\Imagen10.png
-INPUT .\anexos\imagenes\Imagen10.png
-INPUT .\anexos\anexob.tex
-INPUT .\anexos\anexob.tex
-OUTPUT .\anexos\anexob.aux
-INPUT .\anexos\anexob.tex
-INPUT .\anexos\anexob.tex
-INPUT anexos\anexob.tex
-INPUT .\anexos\anexo_b_img\train1.png
-INPUT .\anexos\anexo_b_img\train1.png
-INPUT .\anexos\anexo_b_img\train1.png
-INPUT .\anexos\anexo_b_img\train1.png
-INPUT .\anexos\anexo_b_img\train1.png
-INPUT .\anexos\anexo_b_img\train1.png
-INPUT .\anexos\anexo_b_img\train1.png
-INPUT .\anexos\anexo_b_img\train2.png
-INPUT .\anexos\anexo_b_img\train2.png
-INPUT .\anexos\anexo_b_img\train2.png
-INPUT .\anexos\anexo_b_img\train2.png
-INPUT .\anexos\anexo_b_img\train2.png
-INPUT .\anexos\anexo_b_img\train2.png
-INPUT .\anexos\anexo_b_img\train2.png
-INPUT .\anexos\anexo_b_img\train3.png
-INPUT .\anexos\anexo_b_img\train3.png
-INPUT .\anexos\anexo_b_img\train3.png
-INPUT .\anexos\anexo_b_img\train3.png
-INPUT .\anexos\anexo_b_img\train3.png
-INPUT .\anexos\anexo_b_img\train3.png
-INPUT .\anexos\anexo_b_img\train3.png
-INPUT .\anexos\anexo_b_img\train3.1.png
-INPUT .\anexos\anexo_b_img\train3.1.png
-INPUT .\anexos\anexo_b_img\train3.1.png
-INPUT .\anexos\anexo_b_img\train3.1.png
-INPUT .\anexos\anexo_b_img\train3.1.png
-INPUT .\anexos\anexo_b_img\train3.1.png
-INPUT .\anexos\anexo_b_img\train3.1.png
-INPUT .\anexos\anexo_b_img\face1.png
-INPUT .\anexos\anexo_b_img\face1.png
-INPUT .\anexos\anexo_b_img\face1.png
-INPUT .\anexos\anexo_b_img\face1.png
-INPUT .\anexos\anexo_b_img\face1.png
-INPUT .\anexos\anexo_b_img\face1.png
-INPUT .\anexos\anexo_b_img\face1.png
-INPUT .\anexos\anexo_b_img\face2.png
-INPUT .\anexos\anexo_b_img\face2.png
-INPUT .\anexos\anexo_b_img\face2.png
-INPUT .\anexos\anexo_b_img\face2.png
-INPUT .\anexos\anexo_b_img\face2.png
-INPUT .\anexos\anexo_b_img\face2.png
-INPUT .\anexos\anexo_b_img\face2.png
-INPUT .\anexos\anexo_b_img\face3.png
-INPUT .\anexos\anexo_b_img\face3.png
-INPUT .\anexos\anexo_b_img\face3.png
-INPUT .\anexos\anexo_b_img\face3.png
-INPUT .\anexos\anexo_b_img\face3.png
-INPUT .\anexos\anexo_b_img\face3.png
-INPUT .\anexos\anexo_b_img\face3.png
-INPUT .\anexos\anexo_b_img\face4.png
-INPUT .\anexos\anexo_b_img\face4.png
-INPUT .\anexos\anexo_b_img\face4.png
-INPUT .\anexos\anexo_b_img\face4.png
-INPUT .\anexos\anexo_b_img\face4.png
-INPUT .\anexos\anexo_b_img\face4.png
-INPUT .\anexos\anexo_b_img\face4.png
-INPUT .\tfg.bbl
-INPUT .\tfg.bbl
+INPUT ./capitulo_01/introduccion.tex
+INPUT ./capitulo_01/introduccion.tex
+OUTPUT ./capitulo_01/introduccion.aux
+INPUT ./capitulo_01/introduccion.tex
+INPUT ./capitulo_01/introduccion.tex
+INPUT ./capitulo_01/introduccion.tex
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/tcrm1440.tfm
+INPUT ./capitulo_02/marco_teorico.tex
+INPUT ./capitulo_02/marco_teorico.tex
+OUTPUT ./capitulo_02/marco_teorico.aux
+INPUT ./capitulo_02/marco_teorico.tex
+INPUT ./capitulo_02/marco_teorico.tex
+INPUT ./capitulo_02/marco_teorico.tex
+INPUT ./imagenes_doc/segu_biometrica_1.jpg
+INPUT ./imagenes_doc/segu_biometrica_1.jpg
+INPUT ./imagenes_doc/segu_biometrica_1.jpg
+INPUT ./imagenes_doc/segu_biometrica_1.jpg
+INPUT ./imagenes_doc/segu_biometrica_1.jpg
+INPUT ./imagenes_doc/tabla_rand.jpg
+INPUT ./imagenes_doc/tabla_rand.jpg
+INPUT ./imagenes_doc/tabla_rand.jpg
+INPUT ./imagenes_doc/tabla_rand.jpg
+INPUT ./imagenes_doc/tabla_rand.jpg
+INPUT ./imagenes_doc/Reconocimiento_Facial.jpg
+INPUT ./imagenes_doc/Reconocimiento_Facial.jpg
+INPUT ./imagenes_doc/Reconocimiento_Facial.jpg
+INPUT ./imagenes_doc/Reconocimiento_Facial.jpg
+INPUT ./imagenes_doc/Reconocimiento_Facial.jpg
+INPUT ./imagenes_doc/DEEP_LEARNING.jpg
+INPUT ./imagenes_doc/DEEP_LEARNING.jpg
+INPUT ./imagenes_doc/DEEP_LEARNING.jpg
+INPUT ./imagenes_doc/DEEP_LEARNING.jpg
+INPUT ./imagenes_doc/DEEP_LEARNING.jpg
+INPUT ./imagenes_doc/redes_neuronales.png
+INPUT ./imagenes_doc/redes_neuronales.png
+INPUT ./imagenes_doc/redes_neuronales.png
+INPUT ./imagenes_doc/redes_neuronales.png
+INPUT ./imagenes_doc/redes_neuronales.png
+INPUT ./imagenes_doc/image_01.jpg
+INPUT ./imagenes_doc/image_01.jpg
+INPUT ./imagenes_doc/image_01.jpg
+INPUT ./imagenes_doc/image_01.jpg
+INPUT ./imagenes_doc/image_01.jpg
+INPUT ./imagenes_doc/image_02.jpg
+INPUT ./imagenes_doc/image_02.jpg
+INPUT ./imagenes_doc/image_02.jpg
+INPUT ./imagenes_doc/image_02.jpg
+INPUT ./imagenes_doc/image_02.jpg
+INPUT ./imagenes_doc/redes_convolucionales.png
+INPUT ./imagenes_doc/redes_convolucionales.png
+INPUT ./imagenes_doc/redes_convolucionales.png
+INPUT ./imagenes_doc/redes_convolucionales.png
+INPUT ./imagenes_doc/redes_convolucionales.png
+INPUT ./imagenes_doc/Redes_GAN.jpg
+INPUT ./imagenes_doc/Redes_GAN.jpg
+INPUT ./imagenes_doc/Redes_GAN.jpg
+INPUT ./imagenes_doc/Redes_GAN.jpg
+INPUT ./imagenes_doc/Redes_GAN.jpg
+INPUT ./imagenes_doc/registroimg.jpg
+INPUT ./imagenes_doc/registroimg.jpg
+INPUT ./imagenes_doc/registroimg.jpg
+INPUT ./imagenes_doc/registroimg.jpg
+INPUT ./imagenes_doc/registroimg.jpg
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmbxti10.tfm
+INPUT ./capitulo_03/Herramientas_Tecnologicas.tex
+INPUT ./capitulo_03/Herramientas_Tecnologicas.tex
+OUTPUT ./capitulo_03/Herramientas_Tecnologicas.aux
+INPUT ./capitulo_03/Herramientas_Tecnologicas.tex
+INPUT ./capitulo_03/Herramientas_Tecnologicas.tex
+INPUT ./capitulo_03/Herramientas_Tecnologicas.tex
+INPUT ./capitulo_04/marco_metodologico.tex
+INPUT ./capitulo_04/marco_metodologico.tex
+OUTPUT ./capitulo_04/marco_metodologico.aux
+INPUT ./capitulo_04/marco_metodologico.tex
+INPUT ./capitulo_04/marco_metodologico.tex
+INPUT ./capitulo_04/marco_metodologico.tex
+INPUT ./imagenes_doc/notion.jpg
+INPUT ./imagenes_doc/notion.jpg
+INPUT ./imagenes_doc/notion.jpg
+INPUT ./imagenes_doc/notion.jpg
+INPUT ./imagenes_doc/notion.jpg
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT ./imagenes_doc/sin_normalizar.png
+INPUT ./imagenes_doc/sin_normalizar.png
+INPUT ./imagenes_doc/sin_normalizar.png
+INPUT ./imagenes_doc/sin_normalizar.png
+INPUT ./imagenes_doc/sin_normalizar.png
+INPUT ./imagenes_doc/dataset_rostros.jpg
+INPUT ./imagenes_doc/dataset_rostros.jpg
+INPUT ./imagenes_doc/dataset_rostros.jpg
+INPUT ./imagenes_doc/dataset_rostros.jpg
+INPUT ./imagenes_doc/dataset_rostros.jpg
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/tcbx1440.tfm
+INPUT ./capitulo_04/imagenes/5.png
+INPUT ./capitulo_04/imagenes/5.png
+INPUT ./capitulo_04/imagenes/5.png
+INPUT ./capitulo_04/imagenes/5.png
+INPUT ./capitulo_04/imagenes/5.png
+INPUT ./capitulo_04/imagenes/1.png
+INPUT ./capitulo_04/imagenes/1.png
+INPUT ./capitulo_04/imagenes/1.png
+INPUT ./capitulo_04/imagenes/1.png
+INPUT ./capitulo_04/imagenes/1.png
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
+INPUT ./capitulo_04/imagenes/2.png
+INPUT ./capitulo_04/imagenes/2.png
+INPUT ./capitulo_04/imagenes/2.png
+INPUT ./capitulo_04/imagenes/2.png
+INPUT ./capitulo_04/imagenes/2.png
+INPUT ./imagenes_doc/backend_estructura.png
+INPUT ./imagenes_doc/backend_estructura.png
+INPUT ./imagenes_doc/backend_estructura.png
+INPUT ./imagenes_doc/backend_estructura.png
+INPUT ./imagenes_doc/backend_estructura.png
+INPUT ./imagenes_doc/login.png
+INPUT ./imagenes_doc/login.png
+INPUT ./imagenes_doc/login.png
+INPUT ./imagenes_doc/login.png
+INPUT ./imagenes_doc/login.png
+INPUT ./imagenes_doc/new_user.png
+INPUT ./imagenes_doc/new_user.png
+INPUT ./imagenes_doc/new_user.png
+INPUT ./imagenes_doc/new_user.png
+INPUT ./imagenes_doc/new_user.png
+INPUT ./imagenes_doc/dashboard_1.png
+INPUT ./imagenes_doc/dashboard_1.png
+INPUT ./imagenes_doc/dashboard_1.png
+INPUT ./imagenes_doc/dashboard_1.png
+INPUT ./imagenes_doc/dashboard_1.png
+INPUT ./imagenes_doc/dashboard_2.png
+INPUT ./imagenes_doc/dashboard_2.png
+INPUT ./imagenes_doc/dashboard_2.png
+INPUT ./imagenes_doc/dashboard_2.png
+INPUT ./imagenes_doc/dashboard_2.png
+INPUT ./imagenes_doc/CLASE2_PRUEBA.jpg
+INPUT ./imagenes_doc/CLASE2_PRUEBA.jpg
+INPUT ./imagenes_doc/CLASE2_PRUEBA.jpg
+INPUT ./imagenes_doc/CLASE2_PRUEBA.jpg
+INPUT ./imagenes_doc/CLASE2_PRUEBA.jpg
+INPUT ./imagenes_doc/roles.png
+INPUT ./imagenes_doc/roles.png
+INPUT ./imagenes_doc/roles.png
+INPUT ./imagenes_doc/roles.png
+INPUT ./imagenes_doc/roles.png
+INPUT ./imagenes_doc/new_curso.png
+INPUT ./imagenes_doc/new_curso.png
+INPUT ./imagenes_doc/new_curso.png
+INPUT ./imagenes_doc/new_curso.png
+INPUT ./imagenes_doc/new_curso.png
+INPUT ./imagenes_doc/horario_curso.png
+INPUT ./imagenes_doc/horario_curso.png
+INPUT ./imagenes_doc/horario_curso.png
+INPUT ./imagenes_doc/horario_curso.png
+INPUT ./imagenes_doc/horario_curso.png
+INPUT ./imagenes_doc/registrar_asistencia.png
+INPUT ./imagenes_doc/registrar_asistencia.png
+INPUT ./imagenes_doc/registrar_asistencia.png
+INPUT ./imagenes_doc/registrar_asistencia.png
+INPUT ./imagenes_doc/registrar_asistencia.png
+INPUT ./imagenes_doc/asignar_.png
+INPUT ./imagenes_doc/asignar_.png
+INPUT ./imagenes_doc/asignar_.png
+INPUT ./imagenes_doc/asignar_.png
+INPUT ./imagenes_doc/asignar_.png
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
+INPUT ./capitulo_05/resultados.tex
+INPUT ./capitulo_05/resultados.tex
+OUTPUT ./capitulo_05/resultados.aux
+INPUT ./capitulo_05/resultados.tex
+INPUT ./capitulo_05/resultados.tex
+INPUT ./capitulo_05/resultados.tex
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmtt8.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmtt8.tfm
+INPUT ./capitulo_05/imagenes/1.jpg.png
+INPUT ./capitulo_05/imagenes/1.jpg.png
+INPUT ./capitulo_05/imagenes/1.jpg.png
+INPUT ./capitulo_05/imagenes/1.jpg.png
+INPUT ./capitulo_05/imagenes/umbral_1.0_30.jpg
+INPUT ./capitulo_05/imagenes/umbral_1.0_30.jpg
+INPUT ./capitulo_05/imagenes/umbral_1.0_30.jpg
+INPUT ./capitulo_05/imagenes/umbral_1.0_30.jpg
+INPUT ./capitulo_05/imagenes/umbral_1.0_30.jpg
+INPUT ./capitulo_05/imagenes/2.png
+INPUT ./capitulo_05/imagenes/2.png
+INPUT ./capitulo_05/imagenes/2.png
+INPUT ./capitulo_05/imagenes/2.png
+INPUT ./capitulo_05/imagenes/2.png
+INPUT ./capitulo_05/imagenes/1.3_min_dist25.jpg
+INPUT ./capitulo_05/imagenes/1.3_min_dist25.jpg
+INPUT ./capitulo_05/imagenes/1.3_min_dist25.jpg
+INPUT ./capitulo_05/imagenes/1.3_min_dist25.jpg
+INPUT ./capitulo_05/imagenes/1.3_min_dist25.jpg
+INPUT ./capitulo_05/imagenes/3.png
+INPUT ./capitulo_05/imagenes/3.png
+INPUT ./capitulo_05/imagenes/3.png
+INPUT ./capitulo_05/imagenes/3.png
+INPUT ./capitulo_05/imagenes/3.png
+INPUT ./capitulo_05/imagenes/6.6.jpg
+INPUT ./capitulo_05/imagenes/6.6.jpg
+INPUT ./capitulo_05/imagenes/6.6.jpg
+INPUT ./capitulo_05/imagenes/6.6.jpg
+INPUT ./capitulo_05/imagenes/6.6.jpg
+INPUT ./capitulo_05/imagenes/4.png
+INPUT ./capitulo_05/imagenes/4.png
+INPUT ./capitulo_05/imagenes/4.png
+INPUT ./capitulo_05/imagenes/4.png
+INPUT ./capitulo_05/imagenes/4.png
+INPUT ./capitulo_05/imagenes/4.4.jpg
+INPUT ./capitulo_05/imagenes/4.4.jpg
+INPUT ./capitulo_05/imagenes/4.4.jpg
+INPUT ./capitulo_05/imagenes/4.4.jpg
+INPUT ./capitulo_05/imagenes/4.4.jpg
+INPUT ./capitulo_05/imagenes/5.png
+INPUT ./capitulo_05/imagenes/5.png
+INPUT ./capitulo_05/imagenes/5.png
+INPUT ./capitulo_05/imagenes/5.png
+INPUT ./capitulo_05/imagenes/5.png
+INPUT ./capitulo_05/imagenes/5.5.jpg
+INPUT ./capitulo_05/imagenes/5.5.jpg
+INPUT ./capitulo_05/imagenes/5.5.jpg
+INPUT ./capitulo_05/imagenes/5.5.jpg
+INPUT ./capitulo_05/imagenes/5.5.jpg
+INPUT ./capitulo_05/resultados_aula/1.jpg
+INPUT ./capitulo_05/resultados_aula/1.jpg
+INPUT ./capitulo_05/resultados_aula/1.jpg
+INPUT ./capitulo_05/resultados_aula/1.jpg
+INPUT ./capitulo_05/resultados_aula/1.jpg
+INPUT ./capitulo_05/resultados_aula/2.jpg
+INPUT ./capitulo_05/resultados_aula/2.jpg
+INPUT ./capitulo_05/resultados_aula/2.jpg
+INPUT ./capitulo_05/resultados_aula/2.jpg
+INPUT ./capitulo_05/resultados_aula/2.jpg
+INPUT ./capitulo_05/resultados_aula/4.jpg
+INPUT ./capitulo_05/resultados_aula/4.jpg
+INPUT ./capitulo_05/resultados_aula/4.jpg
+INPUT ./capitulo_05/resultados_aula/4.jpg
+INPUT ./capitulo_05/resultados_aula/4.jpg
+INPUT ./capitulo_05/resultados_aula/5.jpg
+INPUT ./capitulo_05/resultados_aula/5.jpg
+INPUT ./capitulo_05/resultados_aula/5.jpg
+INPUT ./capitulo_05/resultados_aula/5.jpg
+INPUT ./capitulo_05/resultados_aula/5.jpg
+INPUT ./capitulo_05/resultados_aula/6.jpg
+INPUT ./capitulo_05/resultados_aula/6.jpg
+INPUT ./capitulo_05/resultados_aula/6.jpg
+INPUT ./capitulo_05/resultados_aula/6.jpg
+INPUT ./capitulo_05/resultados_aula/6.jpg
+INPUT ./capitulo_05/resultados_aula/7.jpg
+INPUT ./capitulo_05/resultados_aula/7.jpg
+INPUT ./capitulo_05/resultados_aula/7.jpg
+INPUT ./capitulo_05/resultados_aula/7.jpg
+INPUT ./capitulo_05/resultados_aula/7.jpg
+INPUT ./capitulo_05/resultados_aula/10.jpg
+INPUT ./capitulo_05/resultados_aula/10.jpg
+INPUT ./capitulo_05/resultados_aula/10.jpg
+INPUT ./capitulo_05/resultados_aula/10.jpg
+INPUT ./capitulo_05/resultados_aula/10.jpg
+INPUT ./capitulo_05/resultados_aula/11.jpg
+INPUT ./capitulo_05/resultados_aula/11.jpg
+INPUT ./capitulo_05/resultados_aula/11.jpg
+INPUT ./capitulo_05/resultados_aula/11.jpg
+INPUT ./capitulo_05/resultados_aula/11.jpg
+INPUT ./capitulo_05/resultados_aula/12.jpg
+INPUT ./capitulo_05/resultados_aula/12.jpg
+INPUT ./capitulo_05/resultados_aula/12.jpg
+INPUT ./capitulo_05/resultados_aula/12.jpg
+INPUT ./capitulo_05/resultados_aula/12.jpg
+INPUT ./capitulo_05/resultados_aula/14.jpg
+INPUT ./capitulo_05/resultados_aula/14.jpg
+INPUT ./capitulo_05/resultados_aula/14.jpg
+INPUT ./capitulo_05/resultados_aula/14.jpg
+INPUT ./capitulo_05/resultados_aula/14.jpg
+INPUT ./capitulo_05/resultados_aula/17.jpg
+INPUT ./capitulo_05/resultados_aula/17.jpg
+INPUT ./capitulo_05/resultados_aula/17.jpg
+INPUT ./capitulo_05/resultados_aula/17.jpg
+INPUT ./capitulo_05/resultados_aula/17.jpg
+INPUT ./capitulo_05/resultados_aula/19.jpg
+INPUT ./capitulo_05/resultados_aula/19.jpg
+INPUT ./capitulo_05/resultados_aula/19.jpg
+INPUT ./capitulo_05/resultados_aula/19.jpg
+INPUT ./capitulo_05/resultados_aula/19.jpg
+INPUT ./capitulo_05/resultados_aula/registrados.jpg
+INPUT ./capitulo_05/resultados_aula/registrados.jpg
+INPUT ./capitulo_05/resultados_aula/registrados.jpg
+INPUT ./capitulo_05/resultados_aula/registrados.jpg
+INPUT ./capitulo_05/resultados_aula/registrados.jpg
+INPUT ./capitulo_05/resultados_aula/entrenamiento.jpg
+INPUT ./capitulo_05/resultados_aula/entrenamiento.jpg
+INPUT ./capitulo_05/resultados_aula/entrenamiento.jpg
+INPUT ./capitulo_05/resultados_aula/entrenamiento.jpg
+INPUT ./capitulo_05/resultados_aula/entrenamiento.jpg
+INPUT ./capitulo_05/resultados_aula/asistencias.jpg
+INPUT ./capitulo_05/resultados_aula/asistencias.jpg
+INPUT ./capitulo_05/resultados_aula/asistencias.jpg
+INPUT ./capitulo_05/resultados_aula/asistencias.jpg
+INPUT ./capitulo_05/resultados_aula/asistencias.jpg
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm
+INPUT ./capitulo_06/discusion.tex
+INPUT ./capitulo_06/discusion.tex
+OUTPUT ./capitulo_06/discusion.aux
+INPUT ./capitulo_06/discusion.tex
+INPUT ./capitulo_06/discusion.tex
+INPUT ./capitulo_06/discusion.tex
+INPUT ./anexos/anexo.tex
+INPUT ./anexos/anexo.tex
+OUTPUT ./anexos/anexo.aux
+INPUT ./anexos/anexo.tex
+INPUT ./anexos/anexo.tex
+INPUT ./anexos/anexo.tex
+INPUT ./anexos/imagenes/encabezado.png
+INPUT ./anexos/imagenes/encabezado.png
+INPUT ./anexos/imagenes/encabezado.png
+INPUT ./anexos/imagenes/encabezado.png
+INPUT ./anexos/imagenes/encabezado.png
+INPUT ./anexos/imagenes/Imagen1.png
+INPUT ./anexos/imagenes/Imagen1.png
+INPUT ./anexos/imagenes/Imagen1.png
+INPUT ./anexos/imagenes/Imagen1.png
+INPUT ./anexos/imagenes/Imagen1.png
+INPUT ./anexos/imagenes/Imagen2.png
+INPUT ./anexos/imagenes/Imagen2.png
+INPUT ./anexos/imagenes/Imagen2.png
+INPUT ./anexos/imagenes/Imagen2.png
+INPUT ./anexos/imagenes/Imagen2.png
+INPUT ./anexos/imagenes/Imagen3.png
+INPUT ./anexos/imagenes/Imagen3.png
+INPUT ./anexos/imagenes/Imagen3.png
+INPUT ./anexos/imagenes/Imagen3.png
+INPUT ./anexos/imagenes/Imagen3.png
+INPUT ./anexos/imagenes/Imagen4.png
+INPUT ./anexos/imagenes/Imagen4.png
+INPUT ./anexos/imagenes/Imagen4.png
+INPUT ./anexos/imagenes/Imagen4.png
+INPUT ./anexos/imagenes/Imagen4.png
+INPUT ./anexos/imagenes/Imagen5.png
+INPUT ./anexos/imagenes/Imagen5.png
+INPUT ./anexos/imagenes/Imagen5.png
+INPUT ./anexos/imagenes/Imagen5.png
+INPUT ./anexos/imagenes/Imagen5.png
+INPUT ./anexos/imagenes/Imagen6.png
+INPUT ./anexos/imagenes/Imagen6.png
+INPUT ./anexos/imagenes/Imagen6.png
+INPUT ./anexos/imagenes/Imagen6.png
+INPUT ./anexos/imagenes/Imagen6.png
+INPUT ./anexos/imagenes/Imagen7.png
+INPUT ./anexos/imagenes/Imagen7.png
+INPUT ./anexos/imagenes/Imagen7.png
+INPUT ./anexos/imagenes/Imagen7.png
+INPUT ./anexos/imagenes/Imagen7.png
+INPUT ./anexos/imagenes/Imagen8.png
+INPUT ./anexos/imagenes/Imagen8.png
+INPUT ./anexos/imagenes/Imagen8.png
+INPUT ./anexos/imagenes/Imagen8.png
+INPUT ./anexos/imagenes/Imagen8.png
+INPUT ./anexos/imagenes/Imagen9.png
+INPUT ./anexos/imagenes/Imagen9.png
+INPUT ./anexos/imagenes/Imagen9.png
+INPUT ./anexos/imagenes/Imagen9.png
+INPUT ./anexos/imagenes/Imagen9.png
+INPUT ./anexos/imagenes/Imagen10.png
+INPUT ./anexos/imagenes/Imagen10.png
+INPUT ./anexos/imagenes/Imagen10.png
+INPUT ./anexos/imagenes/Imagen10.png
+INPUT ./anexos/imagenes/Imagen10.png
+INPUT ./anexos/anexob.tex
+INPUT ./anexos/anexob.tex
+OUTPUT ./anexos/anexob.aux
+INPUT ./anexos/anexob.tex
+INPUT ./anexos/anexob.tex
+INPUT ./anexos/anexob.tex
+INPUT ./anexos/anexo_b_img/train1.png
+INPUT ./anexos/anexo_b_img/train1.png
+INPUT ./anexos/anexo_b_img/train1.png
+INPUT ./anexos/anexo_b_img/train1.png
+INPUT ./anexos/anexo_b_img/train1.png
+INPUT ./anexos/anexo_b_img/train2.png
+INPUT ./anexos/anexo_b_img/train2.png
+INPUT ./anexos/anexo_b_img/train2.png
+INPUT ./anexos/anexo_b_img/train2.png
+INPUT ./anexos/anexo_b_img/train2.png
+INPUT ./anexos/anexo_b_img/train3.png
+INPUT ./anexos/anexo_b_img/train3.png
+INPUT ./anexos/anexo_b_img/train3.png
+INPUT ./anexos/anexo_b_img/train3.png
+INPUT ./anexos/anexo_b_img/train3.png
+INPUT ./anexos/anexo_b_img/train3.1.png
+INPUT ./anexos/anexo_b_img/train3.1.png
+INPUT ./anexos/anexo_b_img/train3.1.png
+INPUT ./anexos/anexo_b_img/train3.1.png
+INPUT ./anexos/anexo_b_img/train3.1.png
+INPUT ./anexos/anexo_b_img/face1.png
+INPUT ./anexos/anexo_b_img/face1.png
+INPUT ./anexos/anexo_b_img/face1.png
+INPUT ./anexos/anexo_b_img/face1.png
+INPUT ./anexos/anexo_b_img/face1.png
+INPUT ./anexos/anexo_b_img/face2.png
+INPUT ./anexos/anexo_b_img/face2.png
+INPUT ./anexos/anexo_b_img/face2.png
+INPUT ./anexos/anexo_b_img/face2.png
+INPUT ./anexos/anexo_b_img/face2.png
+INPUT ./anexos/anexo_b_img/face3.png
+INPUT ./anexos/anexo_b_img/face3.png
+INPUT ./anexos/anexo_b_img/face3.png
+INPUT ./anexos/anexo_b_img/face3.png
+INPUT ./anexos/anexo_b_img/face3.png
+INPUT ./anexos/anexo_b_img/face4.png
+INPUT ./anexos/anexo_b_img/face4.png
+INPUT ./anexos/anexo_b_img/face4.png
+INPUT ./anexos/anexo_b_img/face4.png
+INPUT ./anexos/anexo_b_img/face4.png
+INPUT ./tfg.bbl
+INPUT ./tfg.bbl
 INPUT tfg.bbl
 INPUT tfg.aux
-INPUT .\portada_y_ficha_catalografica\portada_y_ficha_catalografica.aux
-INPUT .\portada_y_ficha_catalografica\portada_y_ficha_catalografica.aux
-INPUT portada_y_ficha_catalografica\portada_y_ficha_catalografica.aux
-INPUT .\hoja_aprobacion\hoja_aprobacion.aux
-INPUT .\hoja_aprobacion\hoja_aprobacion.aux
-INPUT hoja_aprobacion\hoja_aprobacion.aux
-INPUT .\dedicatoria\dedicatoria.aux
-INPUT .\dedicatoria\dedicatoria.aux
-INPUT dedicatoria\dedicatoria.aux
-INPUT .\agradecimientos\agradecimientos.aux
-INPUT .\agradecimientos\agradecimientos.aux
-INPUT agradecimientos\agradecimientos.aux
-INPUT .\epigrafe\epigrafe.aux
-INPUT .\epigrafe\epigrafe.aux
-INPUT epigrafe\epigrafe.aux
-INPUT .\resumen\resumen.aux
-INPUT .\resumen\resumen.aux
-INPUT resumen\resumen.aux
-INPUT .\abstract\abstract.aux
-INPUT .\abstract\abstract.aux
-INPUT abstract\abstract.aux
-INPUT .\capitulo_01\introduccion.aux
-INPUT .\capitulo_01\introduccion.aux
-INPUT capitulo_01\introduccion.aux
-INPUT .\capitulo_02\marco_teorico.aux
-INPUT .\capitulo_02\marco_teorico.aux
-INPUT capitulo_02\marco_teorico.aux
-INPUT .\capitulo_03\Herramientas_Tecnologicas.aux
-INPUT .\capitulo_03\Herramientas_Tecnologicas.aux
-INPUT capitulo_03\Herramientas_Tecnologicas.aux
-INPUT .\capitulo_04\marco_metodologico.aux
-INPUT .\capitulo_04\marco_metodologico.aux
-INPUT capitulo_04\marco_metodologico.aux
-INPUT .\capitulo_05\resultados.aux
-INPUT .\capitulo_05\resultados.aux
-INPUT capitulo_05\resultados.aux
-INPUT .\capitulo_06\discusion.aux
-INPUT .\capitulo_06\discusion.aux
-INPUT capitulo_06\discusion.aux
-INPUT .\anexos\anexo.aux
-INPUT .\anexos\anexo.aux
-INPUT anexos\anexo.aux
-INPUT .\anexos\anexob.aux
-INPUT .\anexos\anexob.aux
-INPUT anexos\anexob.aux
-INPUT .\tfg.out
-INPUT .\tfg.out
-INPUT C:\Users\aldoc\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
-INPUT C:\Users\aldoc\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
-INPUT C:\Users\aldoc\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
-INPUT C:\Users\aldoc\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
-INPUT C:\Users\aldoc\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcbx1440.pk
-INPUT C:\Users\aldoc\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcbx1440.pk
-INPUT C:\Users\aldoc\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1440.pk
-INPUT C:\Users\aldoc\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1440.pk
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbxti10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbxti10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmcsc10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmcsc10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsl12.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsl12.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt12.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt12.pfb
+INPUT ./portada_y_ficha_catalografica/portada_y_ficha_catalografica.aux
+INPUT ./portada_y_ficha_catalografica/portada_y_ficha_catalografica.aux
+INPUT ./portada_y_ficha_catalografica/portada_y_ficha_catalografica.aux
+INPUT ./hoja_aprobacion/hoja_aprobacion.aux
+INPUT ./hoja_aprobacion/hoja_aprobacion.aux
+INPUT ./hoja_aprobacion/hoja_aprobacion.aux
+INPUT ./dedicatoria/dedicatoria.aux
+INPUT ./dedicatoria/dedicatoria.aux
+INPUT ./dedicatoria/dedicatoria.aux
+INPUT ./agradecimientos/agradecimientos.aux
+INPUT ./agradecimientos/agradecimientos.aux
+INPUT ./agradecimientos/agradecimientos.aux
+INPUT ./epigrafe/epigrafe.aux
+INPUT ./epigrafe/epigrafe.aux
+INPUT ./epigrafe/epigrafe.aux
+INPUT ./resumen/resumen.aux
+INPUT ./resumen/resumen.aux
+INPUT ./resumen/resumen.aux
+INPUT ./abstract/abstract.aux
+INPUT ./abstract/abstract.aux
+INPUT ./abstract/abstract.aux
+INPUT ./capitulo_01/introduccion.aux
+INPUT ./capitulo_01/introduccion.aux
+INPUT ./capitulo_01/introduccion.aux
+INPUT ./capitulo_02/marco_teorico.aux
+INPUT ./capitulo_02/marco_teorico.aux
+INPUT ./capitulo_02/marco_teorico.aux
+INPUT ./capitulo_03/Herramientas_Tecnologicas.aux
+INPUT ./capitulo_03/Herramientas_Tecnologicas.aux
+INPUT ./capitulo_03/Herramientas_Tecnologicas.aux
+INPUT ./capitulo_04/marco_metodologico.aux
+INPUT ./capitulo_04/marco_metodologico.aux
+INPUT ./capitulo_04/marco_metodologico.aux
+INPUT ./capitulo_05/resultados.aux
+INPUT ./capitulo_05/resultados.aux
+INPUT ./capitulo_05/resultados.aux
+INPUT ./capitulo_06/discusion.aux
+INPUT ./capitulo_06/discusion.aux
+INPUT ./capitulo_06/discusion.aux
+INPUT ./anexos/anexo.aux
+INPUT ./anexos/anexo.aux
+INPUT ./anexos/anexo.aux
+INPUT ./anexos/anexob.aux
+INPUT ./anexos/anexob.aux
+INPUT ./anexos/anexob.aux
+INPUT ./tfg.out
+INPUT ./tfg.out
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcbx1440.600pk
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1440.600pk
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
+INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb

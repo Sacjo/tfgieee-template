@@ -212,22 +212,22 @@ El aprendizaje automático se puede dividir en tres grandes tipos:
 
 
 \subsection{Aprendizaje Profundo (Deep Learning)}
-El Deep Learning, o aprendizaje profundo, es una subárea del aprendizaje automático enfocada en el desarrollo de modelos basados en redes neuronales profundas.
-Estas redes se caracterizan por poseer múltiples capas que permiten transformar progresivamente los datos de entrada en representaciones cada vez más abstractas y útiles para la tarea específica.
-El objetivo principal del aprendizaje profundo es identificar características de alto nivel que faciliten la predicción o clasificación deseada, mejorando así la capacidad de generalización del sistema.\cite{perez2021}
 
+El aprendizaje profundo (\textit{Deep Learning}) es una subárea del aprendizaje automático que se fundamenta en el uso de \textbf{redes neuronales artificiales} con múltiples capas interconectadas. Estas redes permiten transformar progresivamente los datos de entrada en representaciones de mayor nivel de abstracción, adecuadas para tareas complejas como la clasificación de imágenes o el reconocimiento de patrones. \cite{perez2021}
 
+Una red neuronal artificial está compuesta por unidades denominadas \textit{nodos}, organizadas en capas de entrada, ocultas y de salida. Cada nodo combina las señales recibidas mediante pesos ajustables, aplica una función de activación y transmite el resultado a las siguientes capas. El entrenamiento se realiza mediante el algoritmo de \textit{retropropagación del error}, que ajusta los pesos para minimizar la diferencia entre la salida esperada y la obtenida. Cuantas más capas y parámetros posee una red, mayor es su capacidad de aprendizaje, siempre que se disponga de suficientes datos y recursos computacionales.
 
+En el ámbito del procesamiento de imágenes, destacan las \textbf{redes neuronales convolucionales (CNN, por sus siglas en inglés)}, diseñadas específicamente para analizar información visual. Estas redes aplican filtros de convolución que capturan características locales —como bordes, texturas y formas— y permiten construir representaciones jerárquicas de la imagen. Gracias a esta arquitectura, las CNN se han convertido en la base de los modelos modernos de visión por computadora.
+
+En esta investigación, el aprendizaje profundo constituye un pilar esencial para la implementación del \textit{Sistema de Asistencia Basado en Reconocimiento Facial para la FPUNE}. Se emplean dos modelos basados en redes neuronales convolucionales: \textbf{YOLOv8n-Face}, encargado de la detección de rostros en tiempo real, y \textbf{ArcFace}, responsable de la generación de \textit{embeddings} faciales que representan la identidad de cada individuo. Ambos modelos son redes profundas preentrenadas sobre grandes conjuntos de datos, lo que garantiza una alta precisión y robustez frente a variaciones de iluminación, distancia o expresión facial. \cite{urgel2021}
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=1\textwidth]{imagenes_doc/DEEP_LEARNING.jpg}
-  \caption{Relación jerárquica entre los campos de la Inteligencia Artificial, el Aprendizaje Automático y el Aprendizaje Profundo.\cite{sandhane_figure3}}
+  \caption{Relación jerárquica entre los campos de la Inteligencia Artificial, el Aprendizaje Automático y el Aprendizaje Profundo. \cite{sandhane_figure3}}
   \label{fig:deep_learning}
 \end{figure}
 
-En esta investigación, el aprendizaje profundo es un componente clave para la implementación del Sistema de Asistencia Basado en Reconocimiento Facial para la FPUNE.
-Las redes neuronales profundas permiten extraer y analizar patrones visuales complejos a partir de imágenes faciales, lo que posibilita la detección y el reconocimiento preciso de los rostros de los estudiantes.\cite{urgel2021}
 
 
 \textbf{Etapas del Aprendizaje Profundo:}

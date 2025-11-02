@@ -75,29 +75,42 @@ El desarrollo completo del sistema CheckFace se extendió desde \textbf{abril ha
 \section{Fases del Proceso Investigativo}
 
 \begin{itemize}
-  \item \textbf{Identificación requisitos del proyecto} \\
-  Se identificaron las necesidades y objetivos del sistema, considerando el número de usuarios, el entorno de aplicación, la precisión requerida y las condiciones de iluminación propias de las aulas de la FPUNE. Esta etapa permitió definir los requerimientos funcionales y no funcionales, así como los recursos técnicos necesarios para el desarrollo.
+  \item Identificación de requisitos del proyecto \\
+  En esta primera fase se realizó el levantamiento de información mediante una encuesta aplicada a aproximadamente 15 personas, entre docentes y estudiantes de la Facultad Politécnica de la Universidad Nacional del Este (FPUNE). El objetivo fue identificar las principales necesidades y expectativas respecto al control de asistencia automatizado, así como los problemas presentes en el sistema manual existente.  
+  A partir de las respuestas obtenidas se definieron los requisitos funcionales y no funcionales del sistema, estableciendo las funcionalidades esenciales, los recursos técnicos requeridos y las condiciones de uso dentro del entorno académico.
 
-   \item \textbf{Recolección y preparación de datos} \\
-  Se llevó a cabo la recopilación de imágenes faciales de los usuarios en distintas condiciones de iluminación, expresiones y ángulos, con el fin de conformar una base de datos representativa. Las imágenes fueron preprocesadas mediante normalización, eliminación de ruido y ajustes de brillo y contraste.
+  \item Recolección y preparación de datos \\
+  Para conformar la base de datos facial, se llevó a cabo una sesión fotográfica dentro del aula donde posteriormente se realizaron las pruebas del sistema.  
+  Las imágenes fueron capturadas utilizando un teléfono celular, manteniendo una distancia aproximada de un metro entre la cámara y el rostro de cada participante.  
+  Cada usuario fue fotografiado en múltiples posiciones faciales (frontal, ligeramente lateral, mirada hacia abajo o arriba) y con variaciones de accesorios, como anteojos o gorras, con el fin de aumentar la robustez del modelo ante diferentes condiciones.  
+  Para garantizar una correcta identificación, se requirió un mínimo de cinco fotografías por participante, aunque la cantidad final de imágenes varió según cada usuario y las condiciones en que fueron tomadas.  
+  En total, se obtuvieron varias imágenes por persona, que fueron sometidas a un proceso de preprocesamiento, incluyendo normalización, reducción de ruido y ajustes de brillo y contraste para mejorar la calidad del conjunto de datos.
 
-  \newpage
-  \item \textbf{Entrenamiento del modelo} \\
-  Utilizando las imágenes preprocesadas, se entrenó el modelo para generar representaciones vectoriales (embeddings) únicas de cada rostro, lo que permite su posterior comparación y verificación. Esta fase fue esencial para optimizar la precisión del reconocimiento facial.
+  \item Entrenamiento del modelo \\
+  Para la detección facial se empleó un modelo YOLOFace preentrenado, el cual ya incluye una red neuronal convolucional entrenada en grandes conjuntos de rostros.  
+  En este proyecto, el modelo fue utilizado como base para realizar la detección de rostros de los usuarios locales, a quienes posteriormente se les generaron representaciones vectoriales (embeddings) mediante la biblioteca DeepFace y el modelo ArcFace.  
+  Estos embeddings se almacenan en la base de datos del sistema, permitiendo reconocer posteriormente a cada persona de manera automática durante la toma de asistencia.
 
-  \item \textbf{Diseño del sistema} \\
-  Se definió la arquitectura modular del sistema, integrando los componentes de captura, procesamiento, reconocimiento facial y registro en la base de datos. Además, se diseñó la base de datos relacional para almacenar tanto los datos de los usuarios como los registros de asistencia.
+  \item Diseño del sistema \\
+  Se definió una arquitectura modular que integra los componentes de captura, detección, reconocimiento y registro en la base de datos.  
+  El backend fue desarrollado con el framework Flask, encargado de gestionar las solicitudes, procesar las imágenes y registrar los datos en la base de datos PostgreSQL.  
+  El frontend fue implementado en React, ofreciendo una interfaz moderna e interactiva que permite visualizar la cámara en tiempo real, gestionar usuarios y consultar asistencias registradas.
 
- 
-  \item \textbf{Pruebas} \\
-  Se realizaron pruebas funcionales en entornos controlados para evaluar el desempeño del sistema. Posteriormente, se implementó una prueba piloto en un aula de la FPUNE, ajustando parámetros de reconocimiento para mejorar la precisión y reducir los falsos positivos.
-  
+  \item Pruebas y validación \\
+  Se realizaron pruebas funcionales en entornos controlados para verificar el desempeño de detección y reconocimiento facial bajo diferentes condiciones de iluminación y distancia.  
+  Posteriormente, se llevó a cabo una prueba piloto en un aula de la FPUNE, registrando en tiempo real la asistencia de los estudiantes mediante reconocimiento facial.  
+  Los resultados obtenidos permitieron ajustar los umbrales de similitud y optimizar la precisión del sistema, reduciendo la tasa de falsos positivos y mejorando la eficiencia general del proceso.
 \end{itemize}
+
 
 
 \section{Análisis y selección de herramientas}
 
-Durante esta fase se realizó un análisis comparativo de diversas tecnologías y librerías aplicadas en el desarrollo de sistemas de reconocimiento facial. La selección de herramientas se basó en criterios como precisión, rendimiento, compatibilidad, facilidad de integración y disponibilidad de documentación. 
+Durante esta fase se realizó un análisis comparativo de diversas tecnologías y librerías aplicadas al desarrollo de sistemas de reconocimiento facial. La selección de herramientas se basó en criterios como precisión, rendimiento, compatibilidad, facilidad de integración y disponibilidad de documentación.
+
+Es importante destacar que las tecnologías elegidas no fueron seleccionadas de manera aleatoria, sino a partir de la experiencia y el conocimiento previo del equipo en el uso de entornos y librerías de visión por computadora. Sin embargo, antes de adoptar una decisión definitiva, se llevaron a cabo pruebas experimentales con distintas alternativas para evaluar su desempeño en las condiciones específicas del proyecto.
+
+Estas evaluaciones permitieron determinar qué herramientas ofrecían los mejores resultados en términos de detección, reconocimiento y velocidad de procesamiento, considerando las limitaciones del hardware disponible y el entorno académico en el que se implementaría el sistema.
 
 A continuación, se detallan las principales herramientas seleccionadas:
 
@@ -535,6 +548,37 @@ El proceso inicia con la carga de las imágenes faciales a través de la interfa
 \end{figure}
 
 
+\subsection{Desarrollo del backend}
+
+El backend del sistema fue desarrollado con un enfoque modular y ligero, orientado a gestionar la comunicación entre la interfaz web, la base de datos y los procesos de reconocimiento facial en tiempo real. Se implementó utilizando el framework Flask, basado en el lenguaje Python, debido a su simplicidad, flexibilidad y compatibilidad con bibliotecas de visión por computadora como OpenCV, TensorFlow y DeepFace.
+
+La estructura del backend se organiza en carpetas según la funcionalidad de cada componente. En la raíz se encuentran los archivos principales del sistema, como \texttt{main.py}, encargado de inicializar la aplicación Flask, configurar las rutas y ejecutar el servidor, y \texttt{api.py}, que centraliza los endpoints de la API.  
+El directorio \texttt{routes} contiene los módulos de rutas organizados mediante \textit{Blueprints}, lo que permite mantener una arquitectura limpia, separando las responsabilidades de cada parte del sistema, como la gestión de usuarios, cursos, roles y asistencias.  
+El módulo \texttt{database} se encarga de la conexión con la base de datos PostgreSQL, gestionando las operaciones de lectura y escritura, así como las relaciones entre entidades.  
+
+El núcleo del reconocimiento facial se encuentra en la carpeta \texttt{recognition}, que contiene los scripts \texttt{face\_recognizer.py} y \texttt{helpers.py}, junto con subcarpetas destinadas a los conjuntos de datos faciales. Dentro de esta estructura se incluyen las carpetas \texttt{raw\_faces} (imágenes originales capturadas), \texttt{known\_faces} (rostros previamente registrados) y \texttt{embeddings} (vectores de características generados para cada usuario).  
+En este módulo se realiza el procesamiento de imágenes, aplicando el modelo de detección YOLOFace para localizar los rostros y el modelo ArcFace, a través de la biblioteca DeepFace, para generar y comparar los vectores de características de cada participante.  
+
+El proceso de entrenamiento y actualización de los vectores faciales se realiza mediante los scripts \texttt{train\_faces.py} y \texttt{train\_faces\_old.py}, los cuales permiten recalcular los vectores cuando se incorporan nuevos usuarios o se actualizan los datos existentes. Este mecanismo garantiza que el sistema mantenga la capacidad de reconocer a los estudiantes incluso cuando se amplía la base de datos.
+
+Las principales funcionalidades implementadas en esta capa incluyen:
+\begin{itemize}
+    \item Exposición de endpoints RESTful: se definieron rutas HTTP para el manejo de usuarios, roles, cursos, horarios, asistencias y reconocimiento facial, enviando y recibiendo datos en formato JSON. Estas rutas facilitan la comunicación entre el frontend y el backend mediante solicitudes asincrónicas.
+    \item Procesamiento y reconocimiento facial: las imágenes capturadas desde el frontend son enviadas al backend, donde se ejecutan las etapas de detección, normalización y reconocimiento facial. Si la similitud entre el rostro detectado y los vectores registrados supera el umbral definido, se registra automáticamente la asistencia correspondiente en la base de datos.
+    \item Gestión de usuarios y autenticación: se implementaron rutas dedicadas para el registro e inicio de sesión, controlando el acceso a las funciones administrativas del sistema mediante validaciones en el servidor.
+    \item Interacción con la base de datos: toda la información sobre usuarios, estudiantes, cursos, horarios y asistencias se gestiona en la base de datos PostgreSQL mediante operaciones CRUD estructuradas y validadas desde la API.
+\end{itemize}
+
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth]{imagenes_doc/backend_estructura.png}
+  \caption{Estructura general del proyecto en Visual Studio Code. [Imagen propia]}
+  \label{fig:backend_estructura}
+\end{figure}
+
+
+
 
 \subsection{Desarrollo del frontend}
 
@@ -705,27 +749,7 @@ Los datos exhibidos son demostrativos y se utilizan únicamente con fines ilustr
 
 
 
-\subsection{Desarrollo del backend:}
 
-El backend del sistema fue desarrollado con un enfoque modular y ligero, orientado a gestionar la comunicación entre la interfaz web, la base de datos y los procesos de reconocimiento facial en tiempo real.
-
-Su estructura se organiza en carpetas según la funcionalidad: una destinada a las rutas y servicios de la API, otra a la detección de rostros, una para el reconocimiento facial y otra para las operaciones con la base de datos.  
-El archivo principal centraliza la configuración del servidor y las rutas, mientras que los scripts de entrenamiento permiten generar y actualizar los registros faciales almacenados en el sistema.
-
-Las principales funcionalidades implementadas en esta capa incluyen:
-\begin{itemize}
-    \item \textbf{Exposición de endpoints RESTful:} Se definieron rutas HTTP para el manejo de usuarios, roles, cursos, horarios, asistencias y reconocimiento facial, enviando y recibiendo datos en formato JSON.
-    \item \textbf{Procesamiento y reconocimiento facial:} Las imágenes capturadas desde el frontend son procesadas en el backend, donde se realiza la detección del rostro y su comparación con los vectores previamente registrados para registrar la asistencia correspondiente.
-    \item \textbf{Gestión de usuarios y autenticación:} Se implementaron rutas dedicadas para el registro e inicio de sesión de usuarios, controlando el acceso a las distintas funciones del sistema.
-    \item \textbf{Interacción con la base de datos:} Toda la información sobre usuarios, estudiantes, cursos, horarios y asistencias se gestiona en la base de datos, mediante operaciones CRUD estructuradas.
-\end{itemize}
-
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.9\textwidth]{imagenes_doc/backend_estructura.png}
-  \caption{Estructura general del proyecto en Visual Studio Code.[Imagen propia]}
-  \label{fig:backend_estructura}
-\end{figure}
 
 \subsection{Líneas de código}
 

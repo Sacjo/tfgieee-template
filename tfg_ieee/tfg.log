@@ -1,15 +1,15 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.21)  3 NOV 2025 04:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.8.30)  3 NOV 2025 14:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/programacion/tfgieee-template/tfg_ieee/tfg.tex
-(c:/programacion/tfgieee-template/tfg_ieee/tfg.tex
+**/Users/danisanchez/Documents/portafolio/tfgieee-template/tfg_ieee/tfg.tex
+(/Users/danisanchez/Documents/portafolio/tfgieee-template/tfg_ieee/tfg.tex
 LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-09-02>
-(C:\Program Files\MiKTeX\tex/latex/base\book.cls
+L3 programming layer <2025-08-13>
+(/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
-(C:\Program Files\MiKTeX\tex/latex/base\bk12.clo
+(/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/base/bk12.clo
 File: bk12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count275
@@ -24,19 +24,19 @@ File: bk12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen148
-) (C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
-) (C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
- (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
- (C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
-) (C:\Program Files\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
 Package xcolor Info: Model `RGB' extended on input line 1365.
@@ -46,9 +46,9 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
-) (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/latex/colortbl\colortbl.sty
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
- (C:\Program Files\MiKTeX\tex/latex/tools\array.sty
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/tools/array.sty
 Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
 \col@sep=\dimen149
 \ar@mcellbox=\box53
@@ -61,7 +61,7 @@ Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
 \everycr=\toks20
 \minrowclearance=\skip53
 \rownum=\count284
-) (C:\Program Files\MiKTeX\tex/latex/tools\tabularx.sty
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
 \TX@col@width=\dimen151
 \TX@old@table=\dimen152
@@ -70,37 +70,37 @@ Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
 \TX@delta=\dimen155
 \TX@cols=\count285
 \TX@ftn=\toks21
-) (C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
- (C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks22
-) (C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
- (C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-) (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 106.
 )
 \Gin@req@height=\dimen156
 \Gin@req@width=\dimen157
-) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsmath.sty
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2025/06/16 v2.17y AMS math features
 \@mathmargin=\skip54
 
 For additional information on amsmath, use the `?' option.
-(C:\Program Files\MiKTeX\tex/latex/amsmath\amstext.sty
+(/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2024/11/17 v2.01 AMS text
- (C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks23
 \ex@=\dimen158
-)) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsbsy.sty
+)) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen159
-) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count286
@@ -150,17 +150,17 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \mathdisplay@stack=\toks27
 LaTeX Info: Redefining \[ on input line 2949.
 LaTeX Info: Redefining \] on input line 2950.
-) (C:\Program Files\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-) (C:\Program Files\MiKTeX\tex/latex/amsfonts\amssymb.sty
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-) (C:\Program Files\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2025/10/01 v25.13 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2025/08/03 v25.12 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
 \babel@savecnt=\count298
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2045.
 LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2047.
@@ -170,22 +170,25 @@ LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) o
 LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2053.
 LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2078.
 \U@D=\dimen167
-\l@unhyphenated=\language79
- (C:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def)
+\l@unhyphenated=\language3
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count299
-
-*************************************
-* Local config file bblopts.cfg used
-*
-(C:\Program Files\MiKTeX\tex/latex/arabi\bblopts.cfg
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
-) (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/latex/babel-spanish\spanish.ldf
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/babel-spanish/spanish.ldf
 Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
- (C:\Program Files\MiKTeX\tex/generic/babel/locale/es\babel-spanish.tex
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/babel/locale/es/babel-spanish.tex
 Package babel Info: Importing font and identification data for spanish
 (babel)             from babel-es.ini. Reported on input line 12.
 )
+
+Package babel Warning: No hyphenation patterns were preloaded for
+(babel)                the language 'Spanish' into the format.
+(babel)                Please, configure your TeX system to add them and
+(babel)                rebuild the format. Now I will use the patterns
+(babel)                preloaded for \language=0 instead on input line 51.
+
+Package babel Info: Hyphen rules for 'spanish' set to \l@english
+(babel)             (\language0). Reported on input line 52.
 \es@quottoks=\toks28
 \es@quotdepth=\count300
 Package babel Info: Making " an active character on input line 570.
@@ -195,95 +198,97 @@ Package babel Info: Making > an active character on input line 722.
 ))
 LaTeX Encoding Info:    Redeclaring text command \guillemotleft (encoding OT1) on input line 11.
 LaTeX Encoding Info:    Redeclaring text command \guillemotright (encoding OT1) on input line 11.
- (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/latex/realboxes\realboxes.sty
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/realboxes/realboxes.sty
 Package: realboxes 2011/08/08 v0.2 Change box commands to read there content as real boxes
- (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/latex/collectbox\collectbox.sty
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/collectbox/collectbox.sty
 Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
 \collectedbox=\box57
-) (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/latex/adjustbox\adjcalc.sty
-Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
- (C:\Program Files\MiKTeX\tex/latex/xkeyval\xkeyval.sty
-Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
- (C:\Program Files\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Program Files\MiKTeX\tex/generic/xkeyval\xkvutils.tex
-\XKV@toks=\toks29
-\XKV@tempa@toks=\toks30
-)
-\XKV@depth=\count301
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-)))) (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/latex/wrapfig\wrapfig.sty
-\wrapoverhang=\dimen168
-\WF@size=\dimen169
-\c@WF@wrappedlines=\count302
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
+\calc@Acount=\count301
+\calc@Bcount=\count302
+\calc@Adimen=\dimen168
+\calc@Bdimen=\dimen169
+\calc@Askip=\skip57
+\calc@Bskip=\skip58
+LaTeX Info: Redefining \setlength on input line 86.
+LaTeX Info: Redefining \addtolength on input line 87.
+\calc@Ccount=\count303
+\calc@Cskip=\skip59
+)) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen170
+\WF@size=\dimen171
+\c@WF@wrappedlines=\count304
 \WF@box=\box58
-\WF@everypar=\toks31
+\WF@everypar=\toks29
 Package: wrapfig 2003/01/31  v 3.6
-) (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
-\f@nch@headwidth=\skip57
-\f@nch@offset@elh=\skip58
-\f@nch@offset@erh=\skip59
-\f@nch@offset@olh=\skip60
-\f@nch@offset@orh=\skip61
-\f@nch@offset@elf=\skip62
-\f@nch@offset@erf=\skip63
-\f@nch@offset@olf=\skip64
-\f@nch@offset@orf=\skip65
-\f@nch@height=\skip66
-\f@nch@footalignment=\skip67
-\f@nch@widthL=\skip68
-\f@nch@widthC=\skip69
-\f@nch@widthR=\skip70
-\@temptokenb=\toks32
-) (C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref.sty
+\f@nch@headwidth=\skip60
+\f@nch@offset@elh=\skip61
+\f@nch@offset@erh=\skip62
+\f@nch@offset@olh=\skip63
+\f@nch@offset@orh=\skip64
+\f@nch@offset@elf=\skip65
+\f@nch@offset@erf=\skip66
+\f@nch@offset@olf=\skip67
+\f@nch@offset@orf=\skip68
+\f@nch@height=\skip69
+\f@nch@footalignment=\skip70
+\f@nch@widthL=\skip71
+\f@nch@widthC=\skip72
+\f@nch@widthR=\skip73
+\@temptokenb=\toks30
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
- (C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
-) (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-) (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
- (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-) (C:\Program Files\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-)) (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/latex/hycolor\hycolor.sty
+)) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
- (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/latex/refcount\refcount.sty
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
- (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count303
-) (C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty
-Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count304
-) (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/generic/stringenc\stringenc.sty
+\c@section@level=\count305
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count306
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
-\@linkdim=\dimen170
-\Hy@linkcounter=\count305
-\Hy@pagecounter=\count306
- (C:\Program Files\MiKTeX\tex/latex/hyperref\pd1enc.def
+\@linkdim=\dimen172
+\Hy@linkcounter=\count307
+\Hy@pagecounter=\count308
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-) (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/generic/intcalc\intcalc.sty
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count307
- (C:\Program Files\MiKTeX\tex/latex/hyperref\puenc.def
+\Hy@SavedSpaceFactor=\count309
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
@@ -295,21 +300,21 @@ Package hyperref Info: Plain pages OFF on input line 4210.
 Package hyperref Info: Backreferencing OFF on input line 4215.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4462.
-\c@Hy@tempcnt=\count308
- (C:\Program Files\MiKTeX\tex/latex/url\url.sty
+\c@Hy@tempcnt=\count310
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4801.
-\XeTeXLinkMargin=\dimen171
- (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/generic/bitset\bitset.sty
+\XeTeXLinkMargin=\dimen173
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
- (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count309
-\Field@Width=\dimen172
-\Fld@charsize=\dimen173
+\Fld@menulength=\count311
+\Field@Width=\dimen174
+\Fld@charsize=\dimen175
 Package hyperref Info: Hyper figures OFF on input line 6078.
 Package hyperref Info: Link nesting OFF on input line 6083.
 Package hyperref Info: Hyper index ON on input line 6086.
@@ -317,239 +322,231 @@ Package hyperref Info: backreferencing OFF on input line 6093.
 Package hyperref Info: Link coloring OFF on input line 6098.
 Package hyperref Info: Link coloring with OCG OFF on input line 6103.
 Package hyperref Info: PDF/A mode OFF on input line 6108.
-\Hy@abspage=\count310
-\c@Item=\count311
-\c@Hfootnote=\count312
+\Hy@abspage=\count312
+\c@Item=\count313
+\c@Hfootnote=\count314
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
- (C:\Program Files\MiKTeX\tex/latex/hyperref\hpdftex.def
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
-\Fld@listcount=\count313
-\c@bookmark@seq@number=\count314
- (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+\Fld@listcount=\count315
+\c@bookmark@seq@number=\count316
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
- (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
 )
-\Hy@SectionHShift=\skip71
-) (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/latex/datatool\datatool.sty
+\Hy@SectionHShift=\skip74
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/datatool/datatool.sty
 Package: datatool 2025/04/25 v3.4.1 (NLCT)
- (C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
-) (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/latex/xfor\xfor.sty
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/xfor/xfor.sty
 Package: xfor 2009/02/05 v1.05 (NLCT)
-) (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/latex/tracklang\tracklang.sty
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/tracklang/tracklang.sty
 Package: tracklang 2025/03/11 v1.6.6 (NLCT) Track Languages
- (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/generic/tracklang\tracklang.tex)
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/tracklang/tracklang.tex)
 Package tracklang Info: Tracking dialect `spanish' (language `spanish') on input line 264.
 Package tracklang Info: Tracking dialect `spanish' (language `spanish') on input line 264.
-) (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/latex/datatool\datatool-base.sty
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/datatool/datatool-base.sty
 Package: datatool-base 2025/04/25 v3.4.1 (NLCT)
- (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/latex/datatool\datatool-l3fp.def
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/datatool/datatool-l3fp.def
 File: datatool-l3fp.def 2025/04/25 v3.4.1 (NLCT)
 )
-\@dtl@toks=\toks33
-\@dtl@tmpcount=\count315
-\dtl@tmplength=\skip72
+\@dtl@toks=\toks31
+\@dtl@tmpcount=\count317
+\dtl@tmplength=\skip75
 \l__datatool_measure_box=\box59
-\dtl@sortresult=\count316
- (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/latex/datatool\datatool-utf8.ldf
+\dtl@sortresult=\count318
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/datatool/datatool-utf8.ldf
 File: datatool-utf8.ldf 2025/04/25 v3.4.1 (NLCT)
 )
-\@dtl@datatype=\count317
-\l__datatool_tmpa_int=\count318
-\l__datatool_tmpb_int=\count319
-\l__datatool_tmpc_int=\count320
-\l__datatool_tmpd_int=\count321
-\l__datatool_count_int=\count322
-\l__datatool_tmp_datatype_int=\count323
-\l__datatool_tmpa_dim=\dimen174
-\l__datatool_tmpb_dim=\dimen175
-\c_datatool_unknown_int=\count324
-\l__datatool_year_int=\count325
-\l__datatool_month_int=\count326
-\l__datatool_day_int=\count327
-\l__datatool_hour_int=\count328
-\l__datatool_minute_int=\count329
-\l__datatool_second_int=\count330
-\l__datatool_tzhour_int=\count331
-\l__datatool_tzminute_int=\count332
-\l__datatool_julian_int=\count333
-\l__datatool_local_julian_int=\count334
-\l__datatool_prefix_int=\count335
-\l__datatool_suffix_int=\count336
-\@dtl@foreach@level=\count337
+\@dtl@datatype=\count319
+\l__datatool_tmpa_int=\count320
+\l__datatool_tmpb_int=\count321
+\l__datatool_tmpc_int=\count322
+\l__datatool_tmpd_int=\count323
+\l__datatool_count_int=\count324
+\l__datatool_tmp_datatype_int=\count325
+\l__datatool_tmpa_dim=\dimen176
+\l__datatool_tmpb_dim=\dimen177
+\c_datatool_unknown_int=\count326
+\l__datatool_year_int=\count327
+\l__datatool_month_int=\count328
+\l__datatool_day_int=\count329
+\l__datatool_hour_int=\count330
+\l__datatool_minute_int=\count331
+\l__datatool_second_int=\count332
+\l__datatool_tzhour_int=\count333
+\l__datatool_tzminute_int=\count334
+\l__datatool_julian_int=\count335
+\l__datatool_local_julian_int=\count336
+\l__datatool_prefix_int=\count337
+\l__datatool_suffix_int=\count338
+\@dtl@foreach@level=\count339
 
 
 Package tracklang Warning: No `datatool' support for dialect `spanish'  on input line 9908.
 
-\dtl@codeA=\count338
-\dtl@codeB=\count339
+\dtl@codeA=\count340
+\dtl@codeB=\count341
 )
-\l__datatool_max_cols_int=\count340
-\l__datatool_col_idx_int=\count341
-\l__datatool_row_idx_int=\count342
-\l__datatool_item_type_int=\count343
-\l__datatool_action_column_int=\count344
-\l__datatool_action_column_ii_int=\count345
-\l__datatool_action_row_int=\count346
-\l__datatool_action_row_ii_int=\count347
-\l__datatool_action_type_int=\count348
-\l__datatool_action_datum_round_int=\count349
-\dtlcolumnnum=\count350
-\dtlrownum=\count351
-\@dtl@before=\toks34
-\@dtl@after=\toks35
-\@dtl@colhead=\toks36
-\dtlcurrentrow=\toks37
-\dtlbeforerow=\toks38
-\dtlafterrow=\toks39
-\l__datatool_map_data_max_cols_int=\count352
-\l__datatool_map_data_edit_column_int=\count353
-\dtlforeachlevel=\count354
-\c@DTLrow=\count355
-\c@DTLrowi=\count356
-\c@DTLrowii=\count357
-\c@DTLrowiii=\count358
-\dtl@rowi=\count359
-\dtl@rowii=\count360
-\dtl@rowiii=\count361
-\g__filtered_row_i_int=\count362
-\g__filtered_row_ii_int=\count363
-\g__filtered_row_iii_int=\count364
-\@dtl@curi=\toks40
-\@dtl@previ=\toks41
-\@dtl@nexti=\toks42
-\@dtl@curii=\toks43
-\@dtl@previi=\toks44
-\@dtl@nextii=\toks45
-\@dtl@curiii=\toks46
-\@dtl@previii=\toks47
-\@dtl@nextiii=\toks48
-\l_datatool_display_per_row_int=\count365
-\l_datatool_display_tab_rows_int=\count366
-\@dtl@toksA=\toks49
-\@dtl@toksB=\toks50
-\@dtl@elements=\count367
-\__datatool_sort_data_sortcol_int=\count368
-\__datatool_sort_data_grpcol_int=\count369
-\dtl@omitlines=\count370
-\l__datatool_line_int=\count371
-) (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/latex/glossaries/base\glossaries.sty
+\l__datatool_max_cols_int=\count342
+\l__datatool_col_idx_int=\count343
+\l__datatool_row_idx_int=\count344
+\l__datatool_item_type_int=\count345
+\l__datatool_action_column_int=\count346
+\l__datatool_action_column_ii_int=\count347
+\l__datatool_action_row_int=\count348
+\l__datatool_action_row_ii_int=\count349
+\l__datatool_action_type_int=\count350
+\l__datatool_action_datum_round_int=\count351
+\dtlcolumnnum=\count352
+\dtlrownum=\count353
+\@dtl@before=\toks32
+\@dtl@after=\toks33
+\@dtl@colhead=\toks34
+\dtlcurrentrow=\toks35
+\dtlbeforerow=\toks36
+\dtlafterrow=\toks37
+\l__datatool_map_data_max_cols_int=\count354
+\l__datatool_map_data_edit_column_int=\count355
+\dtlforeachlevel=\count356
+\c@DTLrow=\count357
+\c@DTLrowi=\count358
+\c@DTLrowii=\count359
+\c@DTLrowiii=\count360
+\dtl@rowi=\count361
+\dtl@rowii=\count362
+\dtl@rowiii=\count363
+\g__filtered_row_i_int=\count364
+\g__filtered_row_ii_int=\count365
+\g__filtered_row_iii_int=\count366
+\@dtl@curi=\toks38
+\@dtl@previ=\toks39
+\@dtl@nexti=\toks40
+\@dtl@curii=\toks41
+\@dtl@previi=\toks42
+\@dtl@nextii=\toks43
+\@dtl@curiii=\toks44
+\@dtl@previii=\toks45
+\@dtl@nextiii=\toks46
+\l_datatool_display_per_row_int=\count367
+\l_datatool_display_tab_rows_int=\count368
+\@dtl@toksA=\toks47
+\@dtl@toksB=\toks48
+\@dtl@elements=\count369
+\__datatool_sort_data_sortcol_int=\count370
+\__datatool_sort_data_grpcol_int=\count371
+\dtl@omitlines=\count372
+\l__datatool_line_int=\count373
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/glossaries/base/glossaries.sty
 Package: glossaries 2025/08/11 v4.8 (NLCT)
- (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/latex/mfirstuc\mfirstuc.sty
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks49
+\XKV@tempa@toks=\toks50
+)
+\XKV@depth=\count374
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
 Package: mfirstuc 2025/04/03 v2.09 (NLCT)
 \@glsmfirst=\toks51
 \@glsmrest=\toks52
-) (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/latex/translator\translator.sty
-Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
-) (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/latex/glossaries-spanish\glossaries-spanish.ldf
-File: glossaries-spanish.ldf 2014/11/23 v1.0
- (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/latex/glossaries-spanish\glossaries-spanish-utf8.ldf))
-\gls@level=\count372
+)
+
+Package glossaries Warning: No language module detected for `spanish'.
+(glossaries)                Language modules need to be installed separately.
+(glossaries)                Please check on CTAN for a bundle called
+(glossaries)                `glossaries-spanish' or similar.
+
+\gls@level=\count375
 \@gls@tmpb=\toks53
-\gls@tmplen=\skip73
-\l__glossaries_tmpa_dim=\dimen176
-\l__glossaries_tmpb_dim=\dimen177
+\gls@tmplen=\skip76
+\l__glossaries_tmpa_dim=\dimen178
+\l__glossaries_tmpb_dim=\dimen179
 \glskeylisttok=\toks54
 \glslabeltok=\toks55
 \glsshorttok=\toks56
 \glslongtok=\toks57
- (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/latex/glossaries/styles\glossary-hypernav.sty
+(/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.sty
 Package: glossary-hypernav 2025/08/11 v4.8 (NLCT)
-) (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/latex/glossaries/styles\glossary-list.sty
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/glossaries/styles/glossary-list.sty
 Package: glossary-list 2025/08/11 v4.8 (NLCT)
-\glslistdottedwidth=\skip74
-) (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/latex/glossaries/styles\glossary-long.sty
+\glslistdottedwidth=\skip77
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/glossaries/styles/glossary-long.sty
 Package: glossary-long 2025/08/11 v4.8 (NLCT)
- (C:\Program Files\MiKTeX\tex/latex/tools\longtable.sty
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2024-12-18 v4.23 Multi-page Table package (DPC)
-\LTleft=\skip75
-\LTright=\skip76
-\LTpre=\skip77
-\LTpost=\skip78
-\LTchunksize=\count373
-\LTcapwidth=\dimen178
+\LTleft=\skip78
+\LTright=\skip79
+\LTpre=\skip80
+\LTpost=\skip81
+\LTchunksize=\count376
+\LTcapwidth=\dimen180
 \LT@head=\box60
 \LT@firsthead=\box61
 \LT@foot=\box62
 \LT@lastfoot=\box63
 \LT@gbox=\box64
-\LT@cols=\count374
-\LT@rows=\count375
-\c@LT@tables=\count376
-\c@LT@chunks=\count377
+\LT@cols=\count377
+\LT@rows=\count378
+\c@LT@tables=\count379
+\c@LT@chunks=\count380
 \LT@p@ftn=\toks58
 )
-\glsdescwidth=\skip79
-\glspagelistwidth=\skip80
-) (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/latex/glossaries/styles\glossary-super.sty
-Package: glossary-super 2025/08/11 v4.8 (NLCT)
- (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/latex/supertabular\supertabular.sty
-Package: supertabular 2024/07/20 v4.2c the supertabular environment
-\c@tracingst=\count378
-\ST@wd=\dimen179
-\ST@rightskip=\skip81
-\ST@leftskip=\skip82
-\ST@parfillskip=\skip83
-\ST@pageleft=\dimen180
-\ST@headht=\dimen181
-\ST@tailht=\dimen182
-\ST@pagesofar=\dimen183
-\ST@pboxht=\dimen184
-\ST@rowht=\dimen185
-\ST@prevht=\dimen186
-\ST@toadd=\dimen187
-\ST@dimen=\dimen188
-\ST@pbox=\box65
-)) (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/latex/glossaries/styles\glossary-tree.sty
+\glsdescwidth=\skip82
+\glspagelistwidth=\skip83
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
 Package: glossary-tree 2025/08/11 v4.8 (NLCT)
-\l__glossaries_tree_max_known_level_int=\count379
-\l__glossaries_tree_offset_dim=\dimen189
-\l__glossaries_tree_namewidth_dim=\dimen190
-\l__glossaries_tree_symbolwidth_dim=\dimen191
-\l__glossaries_tree_prenamesym_width_dim=\dimen192
-\l__glossaries_tree_presubnamesym_width_dim=\dimen193
-\l__glossaries_tree_namewidth_padding_dim=\dimen194
-\l__glossaries_tree_symbolwidth_padding_dim=\dimen195
-\l__glossaries_tree_namesymbolwidth_dim=\dimen196
-\l__glossaries_tree_namesymbolwidth_padding_dim=\dimen197
-\l__glossaries_tree_level_int=\count380
+\l__glossaries_tree_max_known_level_int=\count381
+\l__glossaries_tree_offset_dim=\dimen181
+\l__glossaries_tree_namewidth_dim=\dimen182
+\l__glossaries_tree_symbolwidth_dim=\dimen183
+\l__glossaries_tree_prenamesym_width_dim=\dimen184
+\l__glossaries_tree_presubnamesym_width_dim=\dimen185
+\l__glossaries_tree_namewidth_padding_dim=\dimen186
+\l__glossaries_tree_symbolwidth_padding_dim=\dimen187
+\l__glossaries_tree_namesymbolwidth_dim=\dimen188
+\l__glossaries_tree_namesymbolwidth_padding_dim=\dimen189
+\l__glossaries_tree_level_int=\count382
 \glstreeindent=\skip84
-)) (C:\Program Files\MiKTeX\tex/latex/base\makeidx.sty
+)) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/base/makeidx.sty
 Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
-) (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/latex/multirow\multirow.sty
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
 \multirow@colwidth=\skip85
-\multirow@cntb=\count381
+\multirow@cntb=\count383
 \multirow@dima=\skip86
-\bigstrutjot=\dimen198
-) (C:\Program Files\MiKTeX\tex/latex/tools\multicol.sty
+\bigstrutjot=\dimen190
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2025/05/25 v2.0a multicolumn formatting (FMi)
-\c@tracingmulticols=\count382
-\mult@box=\box66
-\multicol@leftmargin=\dimen199
-\c@unbalance=\count383
-\c@collectmore=\count384
-\doublecol@number=\count385
-\multicoltolerance=\count386
-\multicolpretolerance=\count387
-\full@width=\dimen256
-\page@free=\dimen257
-\premulticols=\dimen258
-\postmulticols=\dimen259
+\c@tracingmulticols=\count384
+\mult@box=\box65
+\multicol@leftmargin=\dimen191
+\c@unbalance=\count385
+\c@collectmore=\count386
+\doublecol@number=\count387
+\multicoltolerance=\count388
+\multicolpretolerance=\count389
+\full@width=\dimen192
+\page@free=\dimen193
+\premulticols=\dimen194
+\postmulticols=\dimen195
 \multicolsep=\skip87
 \multicolbaselineskip=\skip88
-\partial@page=\box67
-\last@line=\box68
-\mc@boxedresult=\box69
-\maxbalancingoverflow=\dimen260
-\mult@rightbox=\box70
-\mult@grightbox=\box71
-\mult@firstbox=\box72
-\mult@gfirstbox=\box73
+\partial@page=\box66
+\last@line=\box67
+\mc@boxedresult=\box68
+\maxbalancingoverflow=\dimen196
+\mult@rightbox=\box69
+\mult@grightbox=\box70
+\mult@firstbox=\box71
+\mult@gfirstbox=\box72
+\@tempa=\box73
 \@tempa=\box74
 \@tempa=\box75
 \@tempa=\box76
@@ -585,58 +582,57 @@ Package: multicol 2025/05/25 v2.0a multicolumn formatting (FMi)
 \@tempa=\box106
 \@tempa=\box107
 \@tempa=\box108
-\@tempa=\box109
-\c@minrows=\count388
-\c@columnbadness=\count389
-\c@finalcolumnbadness=\count390
-\last@try=\dimen261
-\multicolovershoot=\dimen262
-\multicolundershoot=\dimen263
-\mult@nat@firstbox=\box110
-\colbreak@box=\box111
-\mc@col@check@num=\count391
-\g__mc_curr_col_int=\count392
-) (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/latex/cite\cite.sty
+\c@minrows=\count390
+\c@columnbadness=\count391
+\c@finalcolumnbadness=\count392
+\last@try=\dimen197
+\multicolovershoot=\dimen198
+\multicolundershoot=\dimen199
+\mult@nat@firstbox=\box109
+\colbreak@box=\box110
+\mc@col@check@num=\count393
+\g__mc_curr_col_int=\count394
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
-) (IEEEtrantools.sty
+) (./IEEEtrantools.sty
 Package: IEEEtrantools 2015/08/26 V1.5 by Michael Shell
 
 -- See the "IEEEtrantools_doc.txt" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/tools/
-\@IEEEtrantmpdimenA=\dimen264
-\@IEEEtrantmpdimenB=\dimen265
-\@IEEEtrantmpdimenC=\dimen266
-\@IEEEtrantmpcountA=\count393
-\@IEEEtrantmpcountB=\count394
-\@IEEEtrantmpcountC=\count395
+\@IEEEtrantmpdimenA=\dimen256
+\@IEEEtrantmpdimenB=\dimen257
+\@IEEEtrantmpdimenC=\dimen258
+\@IEEEtrantmpcountA=\count395
+\@IEEEtrantmpcountB=\count396
+\@IEEEtrantmpcountC=\count397
 \@IEEEtrantmptoksA=\toks59
-\IEEEnormaljot=\dimen267
-\IEEEquantizedlength=\dimen268
-\IEEEquantizedlengthdiff=\dimen269
-\IEEEquantizedtextheightdiff=\dimen270
-\IEEEilabelindentA=\dimen271
-\IEEEilabelindentB=\dimen272
-\IEEEilabelindent=\dimen273
-\IEEEelabelindent=\dimen274
-\IEEEdlabelindent=\dimen275
-\IEEElabelindent=\dimen276
-\IEEEiednormlabelsep=\dimen277
-\IEEEiedmathlabelsep=\dimen278
+\IEEEnormaljot=\dimen259
+\IEEEquantizedlength=\dimen260
+\IEEEquantizedlengthdiff=\dimen261
+\IEEEquantizedtextheightdiff=\dimen262
+\IEEEilabelindentA=\dimen263
+\IEEEilabelindentB=\dimen264
+\IEEEilabelindent=\dimen265
+\IEEEelabelindent=\dimen266
+\IEEEdlabelindent=\dimen267
+\IEEElabelindent=\dimen268
+\IEEEiednormlabelsep=\dimen269
+\IEEEiedmathlabelsep=\dimen270
 \IEEEiedtopsep=\skip89
-\c@IEEEsubequation=\count396
-\@IEEEeqnnumcols=\count397
-\@IEEEeqncolcnt=\count398
-\@IEEEsubeqnnumrollback=\count399
-\IEEEPARstartletwidth=\dimen279
-) (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/latex/float\float.sty
+\c@IEEEsubequation=\count398
+\@IEEEeqnnumcols=\count399
+\@IEEEeqncolcnt=\count400
+\@IEEEsubeqnnumrollback=\count401
+\IEEEPARstartletwidth=\dimen271
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count400
+\c@float@type=\count402
 \float@exts=\toks60
-\float@box=\box112
+\float@box=\box111
 \@float@everytoks=\toks61
-\@floatcapt=\box113
+\@floatcapt=\box112
 )
 \@indexfile=\write3
 \openout3 = `tfg.idx'.
@@ -648,15 +644,15 @@ Writing index file tfg.idx
 \openout5 = `tfg.glo'.
 
 Package glossaries Info: Writing glossary file tfg.glo on input line 28.
-(C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+(/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count401
-) (tfg.aux
+\l__color_backend_stack_int=\count403
+) (./tfg.aux
 LaTeX Info: Redefining \. on input line 18.
 LaTeX Info: Redefining \% on input line 18.
 Package babel Info: 'spanish' activates 'spanish' shorthands.
 (babel)             Reported on input line 18.
- (portada_y_ficha_catalografica/portada_y_ficha_catalografica.aux) (hoja_aprobacion/hoja_aprobacion.aux) (dedicatoria/dedicatoria.aux) (agradecimientos/agradecimientos.aux) (epigrafe/epigrafe.aux) (resumen/resumen.aux) (abstract/abstract.aux) (capitulo_01/introduccion.aux) (capitulo_02/marco_teorico.aux
+ (./portada_y_ficha_catalografica/portada_y_ficha_catalografica.aux) (./hoja_aprobacion/hoja_aprobacion.aux) (./dedicatoria/dedicatoria.aux) (./agradecimientos/agradecimientos.aux) (./epigrafe/epigrafe.aux) (./resumen/resumen.aux) (./abstract/abstract.aux) (./capitulo_01/introduccion.aux) (./capitulo_02/marco_teorico.aux
 
 LaTeX Warning: Label `fig:logo' multiply defined.
 
@@ -681,7 +677,7 @@ LaTeX Warning: Label `fig:logo' multiply defined.
 
 LaTeX Warning: Label `fig:logo' multiply defined.
 
-) (capitulo_03/Herramientas_Tecnologicas.aux) (capitulo_04/marco_metodologico.aux) (capitulo_05/resultados.aux) (capitulo_06/discusion.aux) (anexos/anexo.aux) (anexos/anexob.aux))
+) (./capitulo_03/Herramientas_Tecnologicas.aux) (./capitulo_04/marco_metodologico.aux) (./capitulo_05/resultados.aux) (./capitulo_06/discusion.aux) (./anexos/anexo.aux) (./anexos/anexob.aux))
 \openout1 = `tfg.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
@@ -702,46 +698,33 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
 LaTeX Font Info:    ... okay on input line 30.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
 LaTeX Font Info:    ... okay on input line 30.
- (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count402
-\scratchdimen=\dimen280
-\scratchbox=\box114
-\nofMPsegments=\count403
-\nofMParguments=\count404
-\everyMPshowfont=\toks62
-\MPscratchCnt=\count405
-\MPscratchDim=\dimen281
-\MPnumerator=\count406
-\makeMPintoPDFobject=\count407
-\everyMPtoPDFconversion=\toks63
-) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 LaTeX Info: Redefining \. on input line 30.
 LaTeX Info: Redefining \% on input line 30.
 Package hyperref Info: Link coloring OFF on input line 30.
- (tfg.out) (tfg.out)
+ (./tfg.out) (./tfg.out)
 \@outlinefile=\write6
 \openout6 = `tfg.out'.
 
- (tfg.glsdefs)
+ (./tfg.glsdefs)
 LaTeX Font Info:    Trying to load font information for U+msa on input line 46.
- (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 46.
- (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 (Font)              using `OT1/cmr/bx/n' instead on input line 52.
 
-<./portada_y_ficha_catalografica/logo.png, id=352, 216.0873pt x 216.0873pt>
+<./portada_y_ficha_catalografica/logo.png, id=354, 216.0873pt x 216.0873pt>
 File: ./portada_y_ficha_catalografica/logo.png Graphic file (type png)
 <use ./portada_y_ficha_catalografica/logo.png>
 Package pdftex.def Info: ./portada_y_ficha_catalografica/logo.png  used on input line 60.
@@ -753,10 +736,10 @@ Package pdftex.def Info: ./portada_y_ficha_catalografica/logo.png  used on input
 \openout4 = `tfg.ist'.
 
 
-{C:/Users/aldoc/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./portada_y_ficha_catalografica/logo.png>]
+{/Users/danisanchez/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./portada_y_ficha_catalografica/logo.png>]
 \openout2 = `./portada_y_ficha_catalografica/portada_y_ficha_catalografica.aux'.
 
- (portada_y_ficha_catalografica/portada_y_ficha_catalografica.tex
+ (./portada_y_ficha_catalografica/portada_y_ficha_catalografica.tex
 File: ./portada_y_ficha_catalografica/logo.png Graphic file (type png)
 <use ./portada_y_ficha_catalografica/logo.png>
 Package pdftex.def Info: ./portada_y_ficha_catalografica/logo.png  used on input line 30.
@@ -775,7 +758,7 @@ Overfull \hbox (57.36356pt too wide) in paragraph at lines 79--103
 [3]
 \openout2 = `./hoja_aprobacion/hoja_aprobacion.aux'.
 
- (hoja_aprobacion/hoja_aprobacion.tex)
+ (./hoja_aprobacion/hoja_aprobacion.tex)
 
 [4
 
@@ -784,7 +767,7 @@ Overfull \hbox (57.36356pt too wide) in paragraph at lines 79--103
 ]
 \openout2 = `./dedicatoria/dedicatoria.aux'.
 
- (dedicatoria/dedicatoria.tex)
+ (./dedicatoria/dedicatoria.tex)
 
 [5
 
@@ -793,7 +776,12 @@ Overfull \hbox (57.36356pt too wide) in paragraph at lines 79--103
 ]
 \openout2 = `./agradecimientos/agradecimientos.aux'.
 
- (agradecimientos/agradecimientos.tex)
+ (./agradecimientos/agradecimientos.tex)
+Overfull \hbox (6.21149pt too wide) in paragraph at lines 4--83
+\OT1/cmr/m/it/14.4 A to-das aque-l-las per-sonas que, de una u otra for-ma, con-tribuyeron
+ []
+
+
 
 [6
 
@@ -802,7 +790,7 @@ Overfull \hbox (57.36356pt too wide) in paragraph at lines 79--103
 ]
 \openout2 = `./epigrafe/epigrafe.aux'.
 
- (epigrafe/epigrafe.tex)
+ (./epigrafe/epigrafe.tex)
 
 [7
 
@@ -811,7 +799,12 @@ Overfull \hbox (57.36356pt too wide) in paragraph at lines 79--103
 ]
 \openout2 = `./resumen/resumen.aux'.
 
- (resumen/resumen.tex)
+ (./resumen/resumen.tex
+Overfull \hbox (39.01593pt too wide) in paragraph at lines 11--12
+\OT1/cmr/m/n/14.4 sor-Flow y mod-e-los co-mo YOLOv8 y Ar-c-Face. La metodolog^^S^^Pa
+ []
+
+)
 
 [8
 
@@ -820,14 +813,19 @@ Overfull \hbox (57.36356pt too wide) in paragraph at lines 79--103
 ]
 \openout2 = `./abstract/abstract.aux'.
 
- (abstract/abstract.tex
+ (./abstract/abstract.tex
 Overfull \hbox (3.1502pt too wide) in paragraph at lines 11--12
-[]\OT1/cmr/m/n/14.4 The pro-po-sed so-lu-tion ap-plies com-pu-ter vi-sion tech-
+[]\OT1/cmr/m/n/14.4 The pro-posed so-lu-tion ap-plies com-put-er vi-sion tech-
+ []
+
+
+Overfull \hbox (3.43123pt too wide) in paragraph at lines 11--12
+\OT1/cmr/m/n/14.4 tomat-ing the at-ten-dance pro-cess. Tools such as Python,
  []
 
 
 Overfull \hbox (1.0345pt too wide) in paragraph at lines 16--17
-\OT1/cmr/bx/n/14.4 Key words: \OT1/cmr/m/n/14.4 1. Fa-cial Re-cog-ni-tion, 2. At-ten-dan-ce Con-
+\OT1/cmr/bx/n/14.4 Key words: \OT1/cmr/m/n/14.4 1. Fa-cial Recog-ni-tion, 2. At-ten-dance Con-
  []
 
 )
@@ -836,7 +834,7 @@ Overfull \hbox (1.0345pt too wide) in paragraph at lines 16--17
 
 
 
-] (tfg.toc
+] (./tfg.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 
@@ -863,6 +861,11 @@ Package spanish Warning: Replacing `OT1/cmr/bx/sc' by
 
 
 ]
+Overfull \hbox (17.63673pt too wide) in paragraph at lines 23--23
+ [][] [][]\OT1/cmr/m/n/14.4 Aplicaciones de los sis-temas de re-conocimien- 
+ []
+
+
 
 LaTeX Info: Redefining \. on input line 52.
 LaTeX Info: Redefining \% on input line 52.
@@ -879,7 +882,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [11]
 Overfull \hbox (5.77188pt too wide) in paragraph at lines 81--81
- [][] [][]\OT1/cmr/m/n/14.4 Resultados fi-na-les del sis-te-ma en con-di-cio-nes reales 
+ [][] [][]\OT1/cmr/m/n/14.4 Resultados fi-nales del sis-tema en condi-ciones reales 
  []
 
 
@@ -912,7 +915,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
 
-[13] (tfg.lof
+[13] (./tfg.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 
@@ -921,17 +924,17 @@ LaTeX Info: Redefining \% on input line 1.
 
 ]
 Overfull \hbox (4.36191pt too wide) in paragraph at lines 19--19
- [][] [][]\OT1/cmr/m/n/14.4 Caso de uso prin-ci-pal del sis-te-ma Check-Fa-ce[Tabla 
+ [][] [][]\OT1/cmr/m/n/14.4 Caso de uso prin-ci-pal del sis-tema Check-Face[Tabla 
  []
 
 
 Overfull \hbox (4.20027pt too wide) in paragraph at lines 20--20
- [][] [][]\OT1/cmr/m/n/14.4 Diagrama de En-ti-dad{Relaci^^Son del sis-te-ma Check- 
+ [][] [][]\OT1/cmr/m/n/14.4 Diagrama de En-ti-dad{Relaci^^Son del sis-tema Check- 
  []
 
 
 Overfull \hbox (19.51169pt too wide) in paragraph at lines 27--27
- [][] [][]\OT1/cmr/m/n/14.4 M^^Sodu-lo de re-co-no-ci-mien-to fa-cial au-tom^^Sati-co.[Imagen 
+ [][] [][]\OT1/cmr/m/n/14.4 M^^Sodu-lo de re-conocimien-to fa-cial au-tom^^Satico.[Imagen 
  []
 
 
@@ -949,7 +952,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [15]
 Overfull \hbox (35.12943pt too wide) in paragraph at lines 28--28
- [][] [][]\OT1/cmr/m/n/14.4 Gesti^^Son de ro-les: re-gis-tro, edi-ci^^Son y eli-mi-na-ci^^Son.[Imagen 
+ [][] [][]\OT1/cmr/m/n/14.4 Gesti^^Son de roles: reg-istro, edi-ci^^Son y elim-i-naci^^Son.[Imagen 
+ []
+
+
+Overfull \hbox (2.59192pt too wide) in paragraph at lines 32--32
+ [][] [][]\OT1/cmr/m/n/14.4 Asignaci^^Son de cur-sos a par-tic-i-pantes.[Imagen propia][] [][]  
  []
 
 
@@ -966,6 +974,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
 
 [16]
+Overfull \hbox (14.58672pt too wide) in paragraph at lines 48--48
+ \OT1/cmr/m/n/14.4 dis-min-u-ci^^Son nat-u-ral en la pre-cisi^^Son de re-conocimien- 
+ []
+
+
+Overfull \hbox (22.42157pt too wide) in paragraph at lines 51--51
+ \OT1/cmr/m/n/14.4 mada-mente 2,30 met-ros, mostran-do un re-conocimien- 
+ []
+
+
+Overfull \hbox (4.04857pt too wide) in paragraph at lines 55--55
+ [][] [][]\OT1/cmr/m/n/14.4 Prueba fi-nal con variaci^^Son del ^^Sangu-lo de la c^^Samara, 
+ []
+
+
 
 LaTeX Info: Redefining \. on input line 56.
 LaTeX Info: Redefining \% on input line 56.
@@ -979,8 +1002,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
 
 [17]
-Overfull \hbox (7.2602pt too wide) in paragraph at lines 58--58
- [][] [][]\OT1/cmr/m/n/14.4 Registros de asis-ten-cias ge-ne-ra-dos au-tom^^Sati-ca-men- 
+Overfull \hbox (40.3531pt too wide) in paragraph at lines 56--56
+ [][] [][]\OT1/cmr/m/n/14.4 Usuarios reg-istra-dos den-tro del sis-tema de re-conocimien- 
+ []
+
+
+Overfull \hbox (13.91844pt too wide) in paragraph at lines 58--58
+ [][] [][]\OT1/cmr/m/n/14.4 Registros de asis-ten-cias gen-er-a-dos au-tom^^Satica-mente 
+ []
+
+
+Overfull \hbox (8.9434pt too wide) in paragraph at lines 59--59
+ [][] [][]\OT1/cmr/m/n/14.4 Vista prin-ci-pal del dash-board del sis-tema, mostran- 
+ []
+
+
+Overfull \hbox (8.08177pt too wide) in paragraph at lines 60--60
+ [][] [][]\OT1/cmr/m/n/14.4 Vista del m^^Sodu-lo ad-min-is-tra-ti-vo del sis-tema, donde 
  []
 
 
@@ -998,7 +1036,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [18]
 Overfull \hbox (12.77477pt too wide) in paragraph at lines 75--75
- \OT1/cmr/m/n/14.4 ba-se del m^^Sodu-lo de en-tre-na-mien-to \OT1/cmtt/m/n/14.4 train[]faces.py\OT1/cmr/m/n/14.4 . 
+ \OT1/cmr/m/n/14.4 base del m^^Sodu-lo de en-tre-namien-to \OT1/cmtt/m/n/14.4 train[]faces.py\OT1/cmr/m/n/14.4 . 
  []
 
 
@@ -1025,8 +1063,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
 
 [19]
-Overfull \hbox (3.19626pt too wide) in paragraph at lines 78--78
- \OT1/cmr/m/n/14.4 con los nue-vos em-bed-dings ge-ne-ra-dos. [Fi-gu-ra pro- 
+Overfull \hbox (7.11285pt too wide) in paragraph at lines 78--78
+ \OT1/cmr/m/n/14.4 con los nuevos em-bed-dings gen-er-a-dos. [Figu-ra propia][] [][]  
  []
 
 
@@ -1061,39 +1099,49 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
 
-[20] (tfg.lot
+[20] (./tfg.lot
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 
 Overfull \hbox (10.90015pt too wide) in paragraph at lines 11--11
- [][] [][]\OT1/cmr/m/n/14.4 Requisitos fun-cio-na-les del sis-te-ma Check-Fa-ce[Tabla 
+ [][] [][]\OT1/cmr/m/n/14.4 Requisitos fun-cionales del sis-tema Check-Face[Tabla 
+ []
+
+
+Overfull \hbox (28.9166pt too wide) in paragraph at lines 12--12
+ [][] [][]\OT1/cmr/m/n/14.4 Requisitos no fun-cionales del sis-tema Check-Face[Tabla 
  []
 
 
 Overfull \hbox (5.48004pt too wide) in paragraph at lines 15--15
- [][] [][]\OT1/cmr/m/n/14.4 Diccionario de da-tos de la ta-bla \OT1/cmr/m/it/14.4 par-ti-ci-pants\OT1/cmr/m/n/14.4 .[Tabla 
+ [][] [][]\OT1/cmr/m/n/14.4 Diccionario de datos de la tabla \OT1/cmr/m/it/14.4 par-tic-i-pants\OT1/cmr/m/n/14.4 .[Tabla 
  []
 
 
 Overfull \hbox (33.70432pt too wide) in paragraph at lines 17--17
- [][] [][]\OT1/cmr/m/n/14.4 Diccionario de da-tos de la ta-bla \OT1/cmr/m/it/14.4 cour-se[]schedules\OT1/cmr/m/n/14.4 .[Tabla 
+ [][] [][]\OT1/cmr/m/n/14.4 Diccionario de datos de la tabla \OT1/cmr/m/it/14.4 course[]schedules\OT1/cmr/m/n/14.4 .[Tabla 
  []
 
 
 Overfull \hbox (49.36443pt too wide) in paragraph at lines 18--18
- [][] [][]\OT1/cmr/m/n/14.4 Diccionario de da-tos de la ta-bla \OT1/cmr/m/it/14.4 par-ti-ci-pant[]courses\OT1/cmr/m/n/14.4 .[Tabla 
+ [][] [][]\OT1/cmr/m/n/14.4 Diccionario de datos de la tabla \OT1/cmr/m/it/14.4 par-tic-i-pant[]courses\OT1/cmr/m/n/14.4 .[Tabla 
  []
 
 
 Overfull \hbox (5.30005pt too wide) in paragraph at lines 19--19
- [][] [][]\OT1/cmr/m/n/14.4 Diccionario de da-tos de la ta-bla \OT1/cmr/m/it/14.4 at-ten-dan-ces\OT1/cmr/m/n/14.4 .[Tabla 
+ [][] [][]\OT1/cmr/m/n/14.4 Diccionario de datos de la tabla \OT1/cmr/m/it/14.4 at-ten-dances\OT1/cmr/m/n/14.4 .[Tabla 
  []
 
 
 
 [21
 
-])
+]
+Overfull \hbox (0.96127pt too wide) in paragraph at lines 23--23
+ [][] [][]\OT1/cmr/m/n/14.4 Errores fre-cuentes y ac-ciones de mit-i-gaci^^Son. [Figu- 
+ []
+
+)
 \tf@lot=\write9
 \openout9 = `tfg.lot'.
 
@@ -1115,7 +1163,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [22]
 \openout2 = `./capitulo_01/introduccion.aux'.
 
- (capitulo_01/introduccion.tex
+ (./capitulo_01/introduccion.tex
 Cap\'{\i }tulo 1.
 
 LaTeX Warning: No positions in optional float specifier.
@@ -1155,6 +1203,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [4]
+Overfull \hbox (27.7212pt too wide) in paragraph at lines 81--84
+[]\OT1/cmr/bx/sc/14.4 Fomento de la pun-tu-al-i-dad y asis-ten-cia:\OT1/cmr/m/n/14.4 La im-ple-mentaci^^Son
+ []
+
+
+Overfull \hbox (24.59619pt too wide) in paragraph at lines 89--91
+[]\OT1/cmr/bx/sc/14.4 L^^S^^Pmite del con-tenido: \OT1/cmr/m/n/14.4 De-sar-rol-lo de un sis-tema re-conocimien-
+ []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1175,8 +1233,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [6]
 \openout2 = `./capitulo_02/marco_teorico.aux'.
 
- (capitulo_02/marco_teorico.tex
-\c@teorema=\count408
+ (./capitulo_02/marco_teorico.tex
+\c@teorema=\count404
 
 Cap\'{\i }tulo 2.
 
@@ -1187,6 +1245,11 @@ Cap\'{\i }tulo 2.
 
 
 ]
+Overfull \hbox (12.50829pt too wide) in paragraph at lines 20--21
+\OT1/cmr/m/n/14.4 tema antropom^^Setri-co (tam-bi^^Sen cono-ci-do m^^Sas tarde co-mo Bertillon-
+ []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1196,7 +1259,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [8]
-<imagenes_doc/segu_biometrica_1.jpg, id=965, 1033.8625pt x 689.57625pt>
+<imagenes_doc/segu_biometrica_1.jpg, id=970, 1033.8625pt x 689.57625pt>
 File: imagenes_doc/segu_biometrica_1.jpg Graphic file (type jpg)
 <use imagenes_doc/segu_biometrica_1.jpg>
 Package pdftex.def Info: imagenes_doc/segu_biometrica_1.jpg  used on input line 38.
@@ -1216,7 +1279,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) h
                                                   \__shipout_drop_firstpage_...
 l.59 
       <./imagenes_doc/segu_biometrica_1.jpg>]
-<imagenes_doc/tabla_rand.jpg, id=975, 883.3pt x 588.1975pt>
+<imagenes_doc/tabla_rand.jpg, id=980, 883.3pt x 588.1975pt>
 File: imagenes_doc/tabla_rand.jpg Graphic file (type jpg)
 <use imagenes_doc/tabla_rand.jpg>
 Package pdftex.def Info: imagenes_doc/tabla_rand.jpg  used on input line 62.
@@ -1236,7 +1299,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) h
                                                   \__shipout_drop_firstpage_...
 l.71 Y
       a en 1991, Turk y Pentland desarrollan la tecnología capaz de detecta... <./imagenes_doc/tabla_rand.jpg>]
-<imagenes_doc/Reconocimiento_Facial.jpg, id=987, 240.9pt x 166.9437pt>
+<imagenes_doc/Reconocimiento_Facial.jpg, id=992, 240.9pt x 166.9437pt>
 File: imagenes_doc/Reconocimiento_Facial.jpg Graphic file (type jpg)
 <use imagenes_doc/Reconocimiento_Facial.jpg>
 Package pdftex.def Info: imagenes_doc/Reconocimiento_Facial.jpg  used on input line 87.
@@ -1252,7 +1315,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [11]
 Overfull \hbox (10.62833pt too wide) in paragraph at lines 94--99
-[]\OT1/cmr/m/n/14.4 El re-co-no-ci-mien-to fa-cial es una ca-te-gor^^S^^Pa de se-gu-ri-dad biom^^Setri-
+[]\OT1/cmr/m/n/14.4 El re-conocimien-to fa-cial es una cat-e-gor^^S^^Pa de se-guri-dad biom^^Setri-
+ []
+
+
+Overfull \hbox (0.72174pt too wide) in paragraph at lines 94--99
+\OT1/cmr/m/n/14.4 ca.Otras for-mas de soft-ware biom^^Setri-co in-cluyen el re-conocimien-
+ []
+
+
+Overfull \hbox (4.56157pt too wide) in paragraph at lines 94--99
+\OT1/cmr/m/n/14.4 to de voz, el re-conocimien-to de huel-las dig-i-tales y el re-conocimien-
  []
 
 
@@ -1279,6 +1352,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [13]
+Overfull \hbox (22.44467pt too wide) in paragraph at lines 138--143
+[]\OT1/cmr/bx/sc/14.4 Detecci^^Son de fraudes: \OT1/cmr/m/n/14.4 Las em-pre-sas uti-lizan el re-conocimien-
+ []
+
+
+Overfull \hbox (4.1752pt too wide) in paragraph at lines 143--149
+[]\OT1/cmr/bx/sc/14.4 Seguridad cibern^^Setica:\OT1/cmr/m/n/14.4 Las em-pre-sas uti-lizan la tec-nolog^^S^^Pa
+ []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1288,6 +1371,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [14]
+Overfull \hbox (12.47472pt too wide) in paragraph at lines 189--190
+\OT1/cmr/m/n/14.4 samien-to de lengua-je nat-u-ral, las re-comen-da-ciones, la re-cu-peraci^^Son
+ []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1297,6 +1385,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [15]
+Overfull \hbox (1.82191pt too wide) in paragraph at lines 206--207
+[]\OT1/cmr/bx/sc/14.4 Aprendizaje su-per-visa-do: \OT1/cmr/m/n/14.4 el mod-e-lo se en-tre-na con datos
+ []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1306,6 +1399,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [16]
+Overfull \hbox (0.2534pt too wide) in paragraph at lines 210--211
+\OT1/cmr/m/n/14.4 de la ex-pe-ri-en-cia, toman-do de-ci-siones en un en-torno din^^Sami-
+ []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1315,7 +1413,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [17]
-<imagenes_doc/DEEP_LEARNING.jpg, id=1036, 1187.43625pt x 1204.5pt>
+<imagenes_doc/DEEP_LEARNING.jpg, id=1042, 1187.43625pt x 1204.5pt>
 File: imagenes_doc/DEEP_LEARNING.jpg Graphic file (type jpg)
 <use imagenes_doc/DEEP_LEARNING.jpg>
 Package pdftex.def Info: imagenes_doc/DEEP_LEARNING.jpg  used on input line 226.
@@ -1344,7 +1442,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}) h
                                                   \__shipout_drop_firstpage_...
 l.239 \end{itemize}
                     <./imagenes_doc/DEEP_LEARNING.jpg>]
-<imagenes_doc/redes_neuronales.png, id=1049, 755.82375pt x 398.48875pt>
+<imagenes_doc/redes_neuronales.png, id=1055, 755.82375pt x 398.48875pt>
 File: imagenes_doc/redes_neuronales.png Graphic file (type png)
 <use imagenes_doc/redes_neuronales.png>
 Package pdftex.def Info: imagenes_doc/redes_neuronales.png  used on input line 248.
@@ -1373,12 +1471,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.5}) h
                                                   \__shipout_drop_firstpage_...
 l.260 
        <./imagenes_doc/redes_neuronales.png (PNG copy)>]
-<imagenes_doc/image_01.jpg, id=1064, 471.26062pt x 197.23688pt>
+<imagenes_doc/image_01.jpg, id=1070, 471.26062pt x 197.23688pt>
 File: imagenes_doc/image_01.jpg Graphic file (type jpg)
 <use imagenes_doc/image_01.jpg>
 Package pdftex.def Info: imagenes_doc/image_01.jpg  used on input line 265.
 (pdftex.def)             Requested size: 390.0pt x 163.22801pt.
-<imagenes_doc/image_02.jpg, id=1067, 488.57532pt x 230.36063pt>
+<imagenes_doc/image_02.jpg, id=1073, 488.57532pt x 230.36063pt>
 File: imagenes_doc/image_02.jpg Graphic file (type jpg)
 <use imagenes_doc/image_02.jpg>
 Package pdftex.def Info: imagenes_doc/image_02.jpg  used on input line 274.
@@ -1398,7 +1496,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.6}) h
                                                   \__shipout_drop_firstpage_...
 l.278 
        <./imagenes_doc/image_01.jpg>]
-<imagenes_doc/redes_convolucionales.png, id=1076, 642.4pt x 329.23pt>
+<imagenes_doc/redes_convolucionales.png, id=1082, 642.4pt x 329.23pt>
 File: imagenes_doc/redes_convolucionales.png Graphic file (type png)
 <use imagenes_doc/redes_convolucionales.png>
 Package pdftex.def Info: imagenes_doc/redes_convolucionales.png  used on input line 284.
@@ -1418,7 +1516,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.7}) h
                                                   \__shipout_drop_firstpage_...
 l.288 
        <./imagenes_doc/image_02.jpg>]
-<imagenes_doc/Redes_GAN.jpg, id=1084, 1403.2425pt x 479.7925pt>
+<imagenes_doc/Redes_GAN.jpg, id=1090, 1403.2425pt x 479.7925pt>
 File: imagenes_doc/Redes_GAN.jpg Graphic file (type jpg)
 <use imagenes_doc/Redes_GAN.jpg>
 Package pdftex.def Info: imagenes_doc/Redes_GAN.jpg  used on input line 293.
@@ -1452,7 +1550,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.9}) h
                                                   \__shipout_drop_firstpage_...
 l.312   \item \textbf
                      {Adquisición de la imagen:} captura una proyección bi... <./imagenes_doc/Redes_GAN.jpg>]
-<imagenes_doc/registroimg.jpg, id=1099, 1149.29375pt x 489.83pt>
+<imagenes_doc/registroimg.jpg, id=1105, 1149.29375pt x 489.83pt>
 File: imagenes_doc/registroimg.jpg Graphic file (type jpg)
 <use imagenes_doc/registroimg.jpg>
 Package pdftex.def Info: imagenes_doc/registroimg.jpg  used on input line 339.
@@ -1481,8 +1579,23 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.10}) 
                                                   \__shipout_drop_firstpage_...
 l.352   \item \textbf
                      {Información Personal:} Nombre completo, fecha de naci... <./imagenes_doc/registroimg.jpg>]
+Overfull \hbox (21.57132pt too wide) in paragraph at lines 352--353
+[]\OT1/cmr/bx/sc/14.4 Informaci^^Son Per-son-al: \OT1/cmr/m/n/14.4 Nom-bre com-ple-to, fecha de nacimien-
+ []
+
+
+Overfull \hbox (0.50813pt too wide) in paragraph at lines 353--354
+[]\OT1/cmr/bx/sc/14.4 Historial acad^^Semi-co: \OT1/cmr/m/n/14.4 Trans-fer-en-cias a otras in-sti-tu-ciones,
+ []
+
+
 Overfull \hbox (1.3817pt too wide) in paragraph at lines 361--362
-[]\OT1/cmr/bx/sc/14.4 Seguimiento acad^^Semi-co: \OT1/cmr/m/n/14.4 Fa-ci-li-tan el se-gui-mien-to del pro-
+[]\OT1/cmr/bx/sc/14.4 Seguimiento acad^^Semi-co: \OT1/cmr/m/n/14.4 Fa-cil-i-tan el seguimien-to del pro-
+ []
+
+
+Overfull \hbox (2.31697pt too wide) in paragraph at lines 362--363
+[]\OT1/cmr/bx/sc/14.4 Informaci^^Son para ter-ceros: \OT1/cmr/m/n/14.4 Se uti-lizan para pro-por-cionar
  []
 
 
@@ -1524,8 +1637,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [31]
 \openout2 = `./capitulo_03/Herramientas_Tecnologicas.aux'.
 
- (capitulo_03/Herramientas_Tecnologicas.tex
+ (./capitulo_03/Herramientas_Tecnologicas.tex
 Cap\'{\i }tulo 3.
+
+Overfull \hbox (2.16846pt too wide) in paragraph at lines 24--25
+[]\OT1/cmr/m/n/14.4 Facilita la co-mu-ni-caci^^Son en-tre dise~nadores y de-sar-rol-ladores,
+ []
+
 
 
 [32
@@ -1543,8 +1661,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [33]
-Overfull \hbox (1.43143pt too wide) in paragraph at lines 55--56
-\OT1/cmr/m/n/14.4 ba-da, con-fia-bi-li-dad, in-te-gri-dad de da-tos, con-jun-to de ca-rac-ter^^S^^Psti-
+Overfull \hbox (1.4268pt too wide) in paragraph at lines 55--56
+[]\OT1/cmr/m/n/14.4 Se ha gana-do una s^^Soli-da rep-utaci^^Son por su ar-qui-tec-tura proba-
  []
 
 
@@ -1567,7 +1685,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [35]
 Overfull \hbox (9.2551pt too wide) in paragraph at lines 93--94
-[]\OT1/cmr/m/n/14.4 Es un mi-cro-fra-me-work web de c^^Sodi-go abier-to es-cri-to en Python,
+[]\OT1/cmr/m/n/14.4 Es un mi-croframe-work web de c^^Sodi-go abier-to es-crito en Python,
  []
 
 
@@ -1591,8 +1709,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [37]
 \openout2 = `./capitulo_04/marco_metodologico.aux'.
 
- (capitulo_04/marco_metodologico.tex
+ (./capitulo_04/marco_metodologico.tex
 Cap\'{\i }tulo 4.
+
+Overfull \hbox (25.1198pt too wide) in paragraph at lines 10--11
+[]\OT1/cmr/m/n/14.4 Este cap^^S^^Ptu-lo tiene co-mo prop^^Sosito de-tal-lar el en-foque metodol^^Sogi-
+ []
+
 
 
 [38
@@ -1601,6 +1724,11 @@ Cap\'{\i }tulo 4.
 
 
 ]
+Overfull \hbox (1.23303pt too wide) in paragraph at lines 32--34
+\OT1/cmr/m/n/14.4 gables en ca-da re-visi^^Son. El rol de \OT1/cmr/m/it/14.4 Scrum Mas-ter \OT1/cmr/m/n/14.4 fue de-sempe~nado
+ []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1610,16 +1738,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [39]
-Overfull \hbox (2.8564pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/n/14.4 uti-li-zan-do el mo-de-lo pre-en-tre-na-do \OT1/cmr/bx/sc/14.4 YOLOv8n-face.pt\OT1/cmr/m/n/14.4 , rea-
- []
-
-
-Overfull \hbox (0.41554pt too wide) in paragraph at lines 48--49
-[]\OT1/cmr/bx/sc/14.4 Sprint 9: \OT1/cmr/m/n/14.4 Im-ple-men-ta-ci^^Son de la l^^Sogi-ca de re-gis-tro au-tom^^Sati-
- []
-
-
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1629,7 +1747,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [40]
-<imagenes_doc/notion.jpg, id=1213, 1606.0pt x 1172.38pt>
+Overfull \hbox (9.0321pt too wide) in paragraph at lines 48--49
+[]\OT1/cmr/bx/sc/14.4 Sprint 9: \OT1/cmr/m/n/14.4 Im-ple-mentaci^^Son de la l^^Sogi-ca de reg-istro au-tom^^Satico
+ []
+
+<imagenes_doc/notion.jpg, id=1220, 1606.0pt x 1172.38pt>
 File: imagenes_doc/notion.jpg Graphic file (type jpg)
 <use imagenes_doc/notion.jpg>
 Package pdftex.def Info: imagenes_doc/notion.jpg  used on input line 62.
@@ -1644,6 +1766,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [41]
+Overfull \hbox (18.0333pt too wide) in paragraph at lines 78--81
+\OT1/cmr/m/n/14.4 re-queri-dos y las condi-ciones de uso den-tro del en-torno acad^^Semi-
+ []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1709,6 +1836,16 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.4.1}) ha
                                                   \__shipout_drop_firstpage_...
 l.174 
       ]
+Overfull \hbox (2.68167pt too wide) in paragraph at lines 178--181
+\OT1/cmr/m/n/14.4 peque~nos, par-cial-mente vis-i-bles o con ilu-mi-naci^^Son de-fi-ciente.
+ []
+
+
+Overfull \hbox (29.18324pt too wide) in paragraph at lines 178--181
+\OT1/cmr/m/n/14.4 Los re-sul-ta-dos ev-i-den-cian que la ver-si^^Son YOLOv8-Face mantiene
+ []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1721,15 +1858,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{table.4.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.202 
-      
+l.201 L
+       a tabla muestra distintos modelos compatibles con DeepFace evaluados ...
 pdfTeX warning (ext4): destination with the same identifier (name{table.4.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.202 
-      ]
+l.201 L
+       a tabla muestra distintos modelos compatibles con DeepFace evaluados ...]
+Underfull \hbox (badness 3503) in paragraph at lines 240--240
+[]|\OT1/cmr/m/n/12 Alta pre-cisi^^Son y ro-bustez
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 240--240
-[]|\OT1/cmr/m/n/12 Requiere pre-pro-ce-sa-mien-to
+[]|\OT1/cmr/m/n/12 Requiere pre-proce-samien-to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
+[]|\OT1/cmr/m/n/12 Versi^^Son m^^Sas pre-cisa de
  []
 
 
@@ -1745,13 +1892,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{table.4.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.250 
-      
+l.248 \item \textbf
+                   {Framework de desarrollo frontend:} \\
 pdfTeX warning (ext4): destination with the same identifier (name{table.4.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.250 
-      ]
+l.248 \item \textbf
+                   {Framework de desarrollo frontend:} \\]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1761,12 +1908,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [49]
-<imagenes_doc/sin_normalizar.png, id=1260, 1016.598pt x 402.90524pt>
+<imagenes_doc/sin_normalizar.png, id=1268, 1016.598pt x 402.90524pt>
 File: imagenes_doc/sin_normalizar.png Graphic file (type png)
 <use imagenes_doc/sin_normalizar.png>
 Package pdftex.def Info: imagenes_doc/sin_normalizar.png  used on input line 272.
 (pdftex.def)             Requested size: 390.0pt x 154.5626pt.
-<imagenes_doc/dataset_rostros.jpg, id=1262, 1009.97325pt x 361.35pt>
+<imagenes_doc/dataset_rostros.jpg, id=1270, 1009.97325pt x 361.35pt>
 File: imagenes_doc/dataset_rostros.jpg Graphic file (type jpg)
 <use imagenes_doc/dataset_rostros.jpg>
 Package pdftex.def Info: imagenes_doc/dataset_rostros.jpg  used on input line 279.
@@ -1800,6 +1947,11 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.3}) h
                                                   \__shipout_drop_firstpage_...
 l.295     \item \textbf
                        {Librerías principales:} DeepFace, OpenCV, NumPy, Ul... <./imagenes_doc/dataset_rostros.jpg>]
+Overfull \hbox (6.06168pt too wide) in paragraph at lines 297--298
+[]\OT1/cmr/bx/sc/14.4 Estructura del dataset: \OT1/cmr/m/n/14.4 Im^^Sagenes or-ga-ni-zadas por usuario
+ []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1809,8 +1961,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [52]
-Overfull \hbox (7.61037pt too wide) in paragraph at lines 320--322
-\OT1/cmtt/m/n/14.4 embeddings/\OT1/cmr/m/n/14.4 , mien-tras que el ar-chi-vo \OT1/cmtt/m/n/14.4 centroids.json \OT1/cmr/m/n/14.4 man-
+Overfull \hbox (32.28505pt too wide) in paragraph at lines 320--322
+\OT1/cmtt/m/n/14.4 embeddings/\OT1/cmr/m/n/14.4 , mien-tras que el archi-vo \OT1/cmtt/m/n/14.4 centroids.json \OT1/cmr/m/n/14.4 mantiene
  []
 
 
@@ -1832,6 +1984,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [54]
+Overfull \hbox (2.4119pt too wide) in paragraph at lines 352--353
+[]\OT1/cmr/m/n/14.4 Generaci^^Son de em-bed-dings con Deep-Face (mod-e-lo Ar-c-Face). 
+ []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1841,6 +1998,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [55]
+Overfull \hbox (21.44754pt too wide) in paragraph at lines 387--388
+\OT1/cmr/m/n/14.4 para garan-ti-zar un fun-cionamien-to efi-ciente y con-fi-able. La Tabla []4.7[]
+ []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1855,7 +2017,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.4.6}) ha
                                                   \__shipout_drop_firstpage_...
 l.388 
       ]
-<capitulo_04/imagenes/5.png, id=1310, 503.2401pt x 560.0925pt>
+<capitulo_04/imagenes/5.png, id=1318, 503.2401pt x 560.0925pt>
 File: capitulo_04/imagenes/5.png Graphic file (type png)
 <use capitulo_04/imagenes/5.png>
 Package pdftex.def Info: capitulo_04/imagenes/5.png  used on input line 410.
@@ -1889,7 +2051,11 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.4}) h
                                                   \__shipout_drop_firstpage_...
 l.420 
        <./capitulo_04/imagenes/5.png>]
-<capitulo_04/imagenes/1.png, id=1324, 808.01875pt x 574.145pt>
+Overfull \hbox (18.42644pt too wide) in paragraph at lines 430--433
+\OT1/cmr/m/n/14.4 antes a cur-sos, reg-is-trar asis-ten-cias y con-tro-lar los ho-rar-ios acad^^Semi-
+ []
+
+<capitulo_04/imagenes/1.png, id=1332, 808.01875pt x 574.145pt>
 File: capitulo_04/imagenes/1.png Graphic file (type png)
 <use capitulo_04/imagenes/1.png>
 Package pdftex.def Info: capitulo_04/imagenes/1.png  used on input line 436.
@@ -1935,6 +2101,11 @@ l.468
        <./capitulo_04/imagenes/1.png>]
 Overfull \hbox (17.1789pt too wide) in paragraph at lines 472--481
  [][] 
+ []
+
+
+Underfull \hbox (badness 4205) in paragraph at lines 491--491
+[]|\OT1/cmr/m/n/12 Carrera o pro-gra-ma acad^^Semi-co al que
  []
 
 
@@ -1986,7 +2157,7 @@ Overfull \hbox (25.04153pt too wide) in paragraph at lines 525--534
  [][] 
  []
 
-<capitulo_04/imagenes/2.png, id=1340, 437.2335pt x 515.2851pt>
+<capitulo_04/imagenes/2.png, id=1348, 437.2335pt x 515.2851pt>
 File: capitulo_04/imagenes/2.png Graphic file (type png)
 <use capitulo_04/imagenes/2.png>
 Package pdftex.def Info: capitulo_04/imagenes/2.png  used on input line 545.
@@ -2025,6 +2196,11 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.6}) h
                                                   \__shipout_drop_firstpage_...
 l.554 
        <./capitulo_04/imagenes/2.png>]
+Overfull \hbox (86.2713pt too wide) in paragraph at lines 562--563
+\OT1/cmr/m/n/14.4 fa-ciales se re-al-iza me-di-ante los scripts \OT1/cmtt/m/n/14.4 train[]faces.py \OT1/cmr/m/n/14.4 y \OT1/cmtt/m/n/14.4 train[]faces[]old.py\OT1/cmr/m/n/14.4 ,
+ []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2035,10 +2211,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [64]
 Overfull \hbox (3.92326pt too wide) in paragraph at lines 566--567
-[]\OT1/cmr/m/n/14.4 Exposici^^Son de end-points REST-ful: se de-fi-nie-ron ru-tas HTTP
+[]\OT1/cmr/m/n/14.4 Exposici^^Son de end-points REST-ful: se definieron ru-tas HTTP
  []
 
-<imagenes_doc/backend_estructura.png, id=1355, 251.13824pt x 361.35pt>
+<imagenes_doc/backend_estructura.png, id=1363, 251.13824pt x 361.35pt>
 File: imagenes_doc/backend_estructura.png Graphic file (type png)
 <use imagenes_doc/backend_estructura.png>
 Package pdftex.def Info: imagenes_doc/backend_estructura.png  used on input line 575.
@@ -2067,13 +2243,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.7}) h
                                                   \__shipout_drop_firstpage_...
 l.587 
        <./imagenes_doc/backend_estructura.png>]
-Overfull \hbox (26.62085pt too wide) in paragraph at lines 592--593
-[]\OT1/cmr/bx/sc/14.4 Ruteo de na-ve-ga-ci^^Son: \OT1/cmr/m/n/14.4 im-ple-men-ta-do con \OT1/cmtt/m/n/14.4 react-router-dom\OT1/cmr/m/n/14.4 ,
+Overfull \hbox (0.6018pt too wide) in paragraph at lines 589--590
+[]\OT1/cmr/m/n/14.4 El de-sar-rol-lo de la in-ter-faz se or-ga-niz^^So en m^^Sodu-los fun-cionales,
  []
 
 
-Overfull \hbox (6.68959pt too wide) in paragraph at lines 594--595
-\OT1/cmr/m/n/14.4 (\OT1/cmtt/m/n/14.4 useState\OT1/cmr/m/n/14.4 , \OT1/cmtt/m/n/14.4 useEffect\OT1/cmr/m/n/14.4 ), ase-gu-ran-do la ac-tua-li-za-ci^^Son din^^Sami-
+Overfull \hbox (26.62085pt too wide) in paragraph at lines 592--593
+[]\OT1/cmr/bx/sc/14.4 Ruteo de nave-gaci^^Son: \OT1/cmr/m/n/14.4 im-ple-men-ta-do con \OT1/cmtt/m/n/14.4 react-router-dom\OT1/cmr/m/n/14.4 ,
  []
 
 
@@ -2086,7 +2262,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [67]
-<imagenes_doc/login.png, id=1370, 1155.71774pt x 685.96275pt>
+<imagenes_doc/login.png, id=1379, 1155.71774pt x 685.96275pt>
 File: imagenes_doc/login.png Graphic file (type png)
 <use imagenes_doc/login.png>
 Package pdftex.def Info: imagenes_doc/login.png  used on input line 620.
@@ -2101,7 +2277,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [68]
-<imagenes_doc/new_user.png, id=1376, 1155.1155pt x 684.156pt>
+<imagenes_doc/new_user.png, id=1385, 1155.1155pt x 684.156pt>
 File: imagenes_doc/new_user.png Graphic file (type png)
 <use imagenes_doc/new_user.png>
 Package pdftex.def Info: imagenes_doc/new_user.png  used on input line 634.
@@ -2121,7 +2297,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.8}) h
                                                   \__shipout_drop_firstpage_...
 l.638 
        <./imagenes_doc/login.png>]
-<imagenes_doc/dashboard_1.png, id=1384, 1154.51324pt x 683.55376pt>
+<imagenes_doc/dashboard_1.png, id=1393, 1154.51324pt x 683.55376pt>
 File: imagenes_doc/dashboard_1.png Graphic file (type png)
 <use imagenes_doc/dashboard_1.png>
 Package pdftex.def Info: imagenes_doc/dashboard_1.png  used on input line 652.
@@ -2141,7 +2317,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.9}) h
                                                   \__shipout_drop_firstpage_...
 l.656 
        <./imagenes_doc/new_user.png>]
-<imagenes_doc/dashboard_2.png, id=1391, 1153.30875pt x 687.16725pt>
+<imagenes_doc/dashboard_2.png, id=1400, 1153.30875pt x 687.16725pt>
 File: imagenes_doc/dashboard_2.png Graphic file (type png)
 <use imagenes_doc/dashboard_2.png>
 Package pdftex.def Info: imagenes_doc/dashboard_2.png  used on input line 663.
@@ -2161,7 +2337,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.10}) 
                                                   \__shipout_drop_firstpage_...
 l.667 
        <./imagenes_doc/dashboard_1.png>]
-<imagenes_doc/CLASE2_PRUEBA.jpg, id=1397, 1606.0pt x 884.30376pt>
+<imagenes_doc/CLASE2_PRUEBA.jpg, id=1406, 1606.0pt x 884.30376pt>
 File: imagenes_doc/CLASE2_PRUEBA.jpg Graphic file (type jpg)
 <use imagenes_doc/CLASE2_PRUEBA.jpg>
 Package pdftex.def Info: imagenes_doc/CLASE2_PRUEBA.jpg  used on input line 680.
@@ -2181,7 +2357,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.11}) 
                                                   \__shipout_drop_firstpage_...
 l.684 
        <./imagenes_doc/dashboard_2.png>]
-<imagenes_doc/roles.png, id=1403, 1153.30875pt x 687.7695pt>
+<imagenes_doc/roles.png, id=1412, 1153.30875pt x 687.7695pt>
 File: imagenes_doc/roles.png Graphic file (type png)
 <use imagenes_doc/roles.png>
 Package pdftex.def Info: imagenes_doc/roles.png  used on input line 693.
@@ -2206,12 +2382,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.13}) 
                                                   \__shipout_drop_firstpage_...
 l.703 
        <./imagenes_doc/CLASE2_PRUEBA.jpg> <./imagenes_doc/roles.png>]
-<imagenes_doc/new_curso.png, id=1409, 1155.71774pt x 687.16725pt>
+<imagenes_doc/new_curso.png, id=1418, 1155.71774pt x 687.16725pt>
 File: imagenes_doc/new_curso.png Graphic file (type png)
 <use imagenes_doc/new_curso.png>
 Package pdftex.def Info: imagenes_doc/new_curso.png  used on input line 706.
 (pdftex.def)             Requested size: 390.0pt x 231.88272pt.
-<imagenes_doc/horario_curso.png, id=1410, 1155.1155pt x 686.565pt>
+<imagenes_doc/horario_curso.png, id=1419, 1155.1155pt x 686.565pt>
 File: imagenes_doc/horario_curso.png Graphic file (type png)
 <use imagenes_doc/horario_curso.png>
 Package pdftex.def Info: imagenes_doc/horario_curso.png  used on input line 719.
@@ -2231,7 +2407,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.14}) 
                                                   \__shipout_drop_firstpage_...
 l.723 
        <./imagenes_doc/new_curso.png>]
-<imagenes_doc/registrar_asistencia.png, id=1416, 1155.71774pt x 684.75826pt>
+<imagenes_doc/registrar_asistencia.png, id=1425, 1155.71774pt x 684.75826pt>
 File: imagenes_doc/registrar_asistencia.png Graphic file (type png)
 <use imagenes_doc/registrar_asistencia.png>
 Package pdftex.def Info: imagenes_doc/registrar_asistencia.png  used on input line 732.
@@ -2251,7 +2427,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.15}) 
                                                   \__shipout_drop_firstpage_...
 l.736 
        <./imagenes_doc/horario_curso.png>]
-<imagenes_doc/asignar_.png, id=1423, 1155.71774pt x 685.3605pt>
+<imagenes_doc/asignar_.png, id=1432, 1155.71774pt x 685.3605pt>
 File: imagenes_doc/asignar_.png Graphic file (type png)
 <use imagenes_doc/asignar_.png>
 Package pdftex.def Info: imagenes_doc/asignar_.png  used on input line 745.
@@ -2271,6 +2447,11 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.16}) 
                                                   \__shipout_drop_firstpage_...
 l.749 
        <./imagenes_doc/registrar_asistencia.png>]
+Overfull \hbox (8.31999pt too wide) in paragraph at lines 758--759
+\OT1/cmr/m/n/14.4 ga-dos del en-tre-namien-to de ros-tros reg-istra-dos y del re-conocimien-
+ []
+
+
 Overfull \hbox (1.52267pt too wide) in paragraph at lines 814--814
 []|[]|  
  []
@@ -2315,7 +2496,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [79]
 \openout2 = `./capitulo_05/resultados.aux'.
 
- (capitulo_05/resultados.tex
+ (./capitulo_05/resultados.tex
 Cap\'{\i }tulo 5.
 
 Overfull \hbox (33.53856pt too wide) in paragraph at lines 18--40
@@ -2331,12 +2512,12 @@ Overfull \hbox (33.53856pt too wide) in paragraph at lines 18--40
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 59--59
-[]|\OT1/cmr/m/n/12 Reconocimiento in-
+[]|\OT1/cmr/m/n/12 Aplicaci^^Son de mejo-ra
  []
 
 
-Underfull \hbox (badness 3724) in paragraph at lines 59--59
-\OT1/cmr/m/n/12 con-tras-te y nor-ma-li-za-
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
+\OT1/cmr/m/n/12 de com-para-ciones si-
  []
 
 
@@ -2366,7 +2547,7 @@ Overfull \hbox (85.48433pt too wide) in paragraph at lines 70--84
  [][] 
  []
 
-<capitulo_05/imagenes/1.jpg.png, id=1452, 929.4725pt x 445.665pt>
+<capitulo_05/imagenes/1.jpg.png, id=1461, 929.4725pt x 445.665pt>
 File: capitulo_05/imagenes/1.jpg.png Graphic file (type png)
 <use capitulo_05/imagenes/1.jpg.png>
 Package pdftex.def Info: capitulo_05/imagenes/1.jpg.png  used on input line 94.
@@ -2391,7 +2572,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.5.3}) ha
                                                   \__shipout_drop_firstpage_...
 l.96 \end{figure}
                  ]
-<capitulo_05/imagenes/umbral_1.0_30.jpg, id=1458, 1606.0pt x 952.55875pt>
+<capitulo_05/imagenes/umbral_1.0_30.jpg, id=1467, 1606.0pt x 952.55875pt>
 File: capitulo_05/imagenes/umbral_1.0_30.jpg Graphic file (type jpg)
 <use capitulo_05/imagenes/umbral_1.0_30.jpg>
 Package pdftex.def Info: capitulo_05/imagenes/umbral_1.0_30.jpg  used on input line 100.
@@ -2416,12 +2597,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5.2}) h
                                                   \__shipout_drop_firstpage_...
 l.104 \newpage
                <./capitulo_05/imagenes/1.jpg.png> <./capitulo_05/imagenes/umbral_1.0_30.jpg>]
-<capitulo_05/imagenes/2.png, id=1464, 929.4725pt x 445.665pt>
+<capitulo_05/imagenes/2.png, id=1473, 929.4725pt x 445.665pt>
 File: capitulo_05/imagenes/2.png Graphic file (type png)
 <use capitulo_05/imagenes/2.png>
 Package pdftex.def Info: capitulo_05/imagenes/2.png  used on input line 110.
 (pdftex.def)             Requested size: 350.99762pt x 168.29361pt.
-<capitulo_05/imagenes/1.3_min_dist25.jpg, id=1465, 1606.0pt x 938.50626pt>
+<capitulo_05/imagenes/1.3_min_dist25.jpg, id=1474, 1606.0pt x 938.50626pt>
 File: capitulo_05/imagenes/1.3_min_dist25.jpg Graphic file (type jpg)
 <use capitulo_05/imagenes/1.3_min_dist25.jpg>
 Package pdftex.def Info: capitulo_05/imagenes/1.3_min_dist25.jpg  used on input line 116.
@@ -2446,12 +2627,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5.4}) h
                                                   \__shipout_drop_firstpage_...
 l.120 \newpage
                <./capitulo_05/imagenes/2.png> <./capitulo_05/imagenes/1.3_min_dist25.jpg>]
-<capitulo_05/imagenes/3.png, id=1471, 929.4725pt x 445.665pt>
+<capitulo_05/imagenes/3.png, id=1480, 929.4725pt x 445.665pt>
 File: capitulo_05/imagenes/3.png Graphic file (type png)
 <use capitulo_05/imagenes/3.png>
 Package pdftex.def Info: capitulo_05/imagenes/3.png  used on input line 126.
 (pdftex.def)             Requested size: 331.50238pt x 158.9432pt.
-<capitulo_05/imagenes/6.6.jpg, id=1472, 1606.0pt x 950.55125pt>
+<capitulo_05/imagenes/6.6.jpg, id=1481, 1606.0pt x 950.55125pt>
 File: capitulo_05/imagenes/6.6.jpg Graphic file (type jpg)
 <use capitulo_05/imagenes/6.6.jpg>
 Package pdftex.def Info: capitulo_05/imagenes/6.6.jpg  used on input line 132.
@@ -2476,12 +2657,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5.6}) h
                                                   \__shipout_drop_firstpage_...
 l.136 \newpage
                <./capitulo_05/imagenes/3.png> <./capitulo_05/imagenes/6.6.jpg>]
-<capitulo_05/imagenes/4.png, id=1478, 929.4725pt x 445.665pt>
+<capitulo_05/imagenes/4.png, id=1487, 929.4725pt x 445.665pt>
 File: capitulo_05/imagenes/4.png Graphic file (type png)
 <use capitulo_05/imagenes/4.png>
 Package pdftex.def Info: capitulo_05/imagenes/4.png  used on input line 143.
 (pdftex.def)             Requested size: 312.00119pt x 149.5928pt.
-<capitulo_05/imagenes/4.4.jpg, id=1479, 1284.8pt x 751.80875pt>
+<capitulo_05/imagenes/4.4.jpg, id=1488, 1284.8pt x 751.80875pt>
 File: capitulo_05/imagenes/4.4.jpg Graphic file (type jpg)
 <use capitulo_05/imagenes/4.4.jpg>
 Package pdftex.def Info: capitulo_05/imagenes/4.4.jpg  used on input line 149.
@@ -2506,12 +2687,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5.8}) h
                                                   \__shipout_drop_firstpage_...
 l.154 \newpage
                <./capitulo_05/imagenes/4.png> <./capitulo_05/imagenes/4.4.jpg>]
-<capitulo_05/imagenes/5.png, id=1485, 929.4725pt x 445.665pt>
+<capitulo_05/imagenes/5.png, id=1494, 929.4725pt x 445.665pt>
 File: capitulo_05/imagenes/5.png Graphic file (type png)
 <use capitulo_05/imagenes/5.png>
 Package pdftex.def Info: capitulo_05/imagenes/5.png  used on input line 161.
 (pdftex.def)             Requested size: 312.00119pt x 149.5928pt.
-<capitulo_05/imagenes/5.5.jpg, id=1486, 1606.0pt x 932.48375pt>
+<capitulo_05/imagenes/5.5.jpg, id=1495, 1606.0pt x 932.48375pt>
 File: capitulo_05/imagenes/5.5.jpg Graphic file (type jpg)
 <use capitulo_05/imagenes/5.5.jpg>
 Package pdftex.def Info: capitulo_05/imagenes/5.5.jpg  used on input line 167.
@@ -2536,7 +2717,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5.10}) 
                                                   \__shipout_drop_firstpage_...
 l.172 \newpage
                <./capitulo_05/imagenes/5.png> <./capitulo_05/imagenes/5.5.jpg>]
-<capitulo_05/resultados_aula/1.jpg, id=1493, 1284.8pt x 729.72626pt>
+<capitulo_05/resultados_aula/1.jpg, id=1503, 1284.8pt x 729.72626pt>
 File: capitulo_05/resultados_aula/1.jpg Graphic file (type jpg)
 <use capitulo_05/resultados_aula/1.jpg>
 Package pdftex.def Info: capitulo_05/resultados_aula/1.jpg  used on input line 184.
@@ -2556,7 +2737,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5.11}) 
                                                   \__shipout_drop_firstpage_...
 l.192 
        <./capitulo_05/resultados_aula/1.jpg>]
-<capitulo_05/resultados_aula/2.jpg, id=1498, 1606.0pt x 951.555pt>
+<capitulo_05/resultados_aula/2.jpg, id=1508, 1606.0pt x 951.555pt>
 File: capitulo_05/resultados_aula/2.jpg Graphic file (type jpg)
 <use capitulo_05/resultados_aula/2.jpg>
 Package pdftex.def Info: capitulo_05/resultados_aula/2.jpg  used on input line 195.
@@ -2576,12 +2757,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5.12}) 
                                                   \__shipout_drop_firstpage_...
 l.203 
        <./capitulo_05/resultados_aula/2.jpg>]
-<capitulo_05/resultados_aula/4.jpg, id=1504, 1185.67969pt x 707.64375pt>
+<capitulo_05/resultados_aula/4.jpg, id=1514, 1185.67969pt x 707.64375pt>
 File: capitulo_05/resultados_aula/4.jpg Graphic file (type jpg)
 <use capitulo_05/resultados_aula/4.jpg>
 Package pdftex.def Info: capitulo_05/resultados_aula/4.jpg  used on input line 206.
 (pdftex.def)             Requested size: 390.0pt x 232.75652pt.
-<capitulo_05/resultados_aula/5.jpg, id=1506, 1606.0pt x 889.3225pt>
+<capitulo_05/resultados_aula/5.jpg, id=1516, 1606.0pt x 889.3225pt>
 File: capitulo_05/resultados_aula/5.jpg Graphic file (type jpg)
 <use capitulo_05/resultados_aula/5.jpg>
 Package pdftex.def Info: capitulo_05/resultados_aula/5.jpg  used on input line 217.
@@ -2601,7 +2782,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5.13}) 
                                                   \__shipout_drop_firstpage_...
 l.221 
        <./capitulo_05/resultados_aula/4.jpg>]
-<capitulo_05/resultados_aula/6.jpg, id=1512, 1606.0pt x 888.31876pt>
+<capitulo_05/resultados_aula/6.jpg, id=1522, 1606.0pt x 888.31876pt>
 File: capitulo_05/resultados_aula/6.jpg Graphic file (type jpg)
 <use capitulo_05/resultados_aula/6.jpg>
 Package pdftex.def Info: capitulo_05/resultados_aula/6.jpg  used on input line 231.
@@ -2621,7 +2802,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5.14}) 
                                                   \__shipout_drop_firstpage_...
 l.235 
        <./capitulo_05/resultados_aula/5.jpg>]
-<capitulo_05/resultados_aula/7.jpg, id=1518, 1606.0pt x 990.70125pt>
+<capitulo_05/resultados_aula/7.jpg, id=1528, 1606.0pt x 990.70125pt>
 File: capitulo_05/resultados_aula/7.jpg Graphic file (type jpg)
 <use capitulo_05/resultados_aula/7.jpg>
 Package pdftex.def Info: capitulo_05/resultados_aula/7.jpg  used on input line 243.
@@ -2641,7 +2822,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5.15}) 
                                                   \__shipout_drop_firstpage_...
 l.247 
        <./capitulo_05/resultados_aula/6.jpg>]
-<capitulo_05/resultados_aula/10.jpg, id=1524, 1606.0pt x 865.2325pt>
+<capitulo_05/resultados_aula/10.jpg, id=1534, 1606.0pt x 865.2325pt>
 File: capitulo_05/resultados_aula/10.jpg Graphic file (type jpg)
 <use capitulo_05/resultados_aula/10.jpg>
 Package pdftex.def Info: capitulo_05/resultados_aula/10.jpg  used on input line 254.
@@ -2661,7 +2842,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5.16}) 
                                                   \__shipout_drop_firstpage_...
 l.258 
        <./capitulo_05/resultados_aula/7.jpg>]
-<capitulo_05/resultados_aula/11.jpg, id=1531, 1383.1675pt x 1017.8025pt>
+<capitulo_05/resultados_aula/11.jpg, id=1541, 1383.1675pt x 1017.8025pt>
 File: capitulo_05/resultados_aula/11.jpg Graphic file (type jpg)
 <use capitulo_05/resultados_aula/11.jpg>
 Package pdftex.def Info: capitulo_05/resultados_aula/11.jpg  used on input line 266.
@@ -2681,7 +2862,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5.17}) 
                                                   \__shipout_drop_firstpage_...
 l.270 
        <./capitulo_05/resultados_aula/10.jpg>]
-<capitulo_05/resultados_aula/12.jpg, id=1537, 1606.0pt x 905.3825pt>
+<capitulo_05/resultados_aula/12.jpg, id=1547, 1606.0pt x 905.3825pt>
 File: capitulo_05/resultados_aula/12.jpg Graphic file (type jpg)
 <use capitulo_05/resultados_aula/12.jpg>
 Package pdftex.def Info: capitulo_05/resultados_aula/12.jpg  used on input line 278.
@@ -2702,10 +2883,10 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5.18}) 
 l.282 
        <./capitulo_05/resultados_aula/11.jpg>]
 Overfull \hbox (7.03804pt too wide) in paragraph at lines 284--285
-[]\OT1/cmr/bx/sc/14.4 Configuraci^^Son 10: Prue-ba gru-pal con ilu-mi-na-ci^^Son m^^S^^Pni-
+[]\OT1/cmr/bx/sc/14.4 Configuraci^^Son 10: Prue-ba gru-pal con ilu-mi-naci^^Son m^^S^^Pni-
  []
 
-<capitulo_05/resultados_aula/14.jpg, id=1543, 1606.0pt x 863.225pt>
+<capitulo_05/resultados_aula/14.jpg, id=1553, 1606.0pt x 863.225pt>
 File: capitulo_05/resultados_aula/14.jpg Graphic file (type jpg)
 <use capitulo_05/resultados_aula/14.jpg>
 Package pdftex.def Info: capitulo_05/resultados_aula/14.jpg  used on input line 290.
@@ -2725,7 +2906,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5.19}) 
                                                   \__shipout_drop_firstpage_...
 l.294 
        <./capitulo_05/resultados_aula/12.jpg>]
-<capitulo_05/resultados_aula/17.jpg, id=1549, 963.6pt x 552.8655pt>
+<capitulo_05/resultados_aula/17.jpg, id=1559, 963.6pt x 552.8655pt>
 File: capitulo_05/resultados_aula/17.jpg Graphic file (type jpg)
 <use capitulo_05/resultados_aula/17.jpg>
 Package pdftex.def Info: capitulo_05/resultados_aula/17.jpg  used on input line 301.
@@ -2745,7 +2926,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5.20}) 
                                                   \__shipout_drop_firstpage_...
 l.305 
        <./capitulo_05/resultados_aula/14.jpg>]
-<capitulo_05/resultados_aula/19.jpg, id=1555, 1606.0pt x 909.3975pt>
+<capitulo_05/resultados_aula/19.jpg, id=1565, 1606.0pt x 909.3975pt>
 File: capitulo_05/resultados_aula/19.jpg Graphic file (type jpg)
 <use capitulo_05/resultados_aula/19.jpg>
 Package pdftex.def Info: capitulo_05/resultados_aula/19.jpg  used on input line 312.
@@ -2765,7 +2946,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5.21}) 
                                                   \__shipout_drop_firstpage_...
 l.316 
        <./capitulo_05/resultados_aula/17.jpg>]
-<capitulo_05/resultados_aula/registrados.jpg, id=1563, 644.4075pt x 363.3575pt>
+<capitulo_05/resultados_aula/registrados.jpg, id=1573, 644.4075pt x 363.3575pt>
 File: capitulo_05/resultados_aula/registrados.jpg Graphic file (type jpg)
 <use capitulo_05/resultados_aula/registrados.jpg>
 Package pdftex.def Info: capitulo_05/resultados_aula/registrados.jpg  used on input line 328.
@@ -2785,12 +2966,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5.22}) 
                                                   \__shipout_drop_firstpage_...
 l.332 
        <./capitulo_05/resultados_aula/19.jpg>]
-<capitulo_05/resultados_aula/entrenamiento.jpg, id=1569, 1242.6425pt x 501.875pt>
+<capitulo_05/resultados_aula/entrenamiento.jpg, id=1579, 1242.6425pt x 501.875pt>
 File: capitulo_05/resultados_aula/entrenamiento.jpg Graphic file (type jpg)
 <use capitulo_05/resultados_aula/entrenamiento.jpg>
 Package pdftex.def Info: capitulo_05/resultados_aula/entrenamiento.jpg  used on input line 335.
 (pdftex.def)             Requested size: 390.0pt x 157.50945pt.
-<capitulo_05/resultados_aula/asistencias.jpg, id=1570, 735.74875pt x 507.8975pt>
+<capitulo_05/resultados_aula/asistencias.jpg, id=1580, 735.74875pt x 507.8975pt>
 File: capitulo_05/resultados_aula/asistencias.jpg Graphic file (type jpg)
 <use capitulo_05/resultados_aula/asistencias.jpg>
 Package pdftex.def Info: capitulo_05/resultados_aula/asistencias.jpg  used on input line 342.
@@ -2815,7 +2996,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5.24}) 
                                                   \__shipout_drop_firstpage_...
 l.346 
        <./capitulo_05/resultados_aula/registrados.jpg> <./capitulo_05/resultados_aula/entrenamiento.jpg>]
-<capitulo_05/imagenes/dashboard_1.png, id=1577, 1107.53775pt x 622.12425pt>
+<capitulo_05/imagenes/dashboard_1.png, id=1587, 1107.53775pt x 622.12425pt>
 File: capitulo_05/imagenes/dashboard_1.png Graphic file (type png)
 <use capitulo_05/imagenes/dashboard_1.png>
 Package pdftex.def Info: capitulo_05/imagenes/dashboard_1.png  used on input line 352.
@@ -2835,7 +3016,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5.25}) 
                                                   \__shipout_drop_firstpage_...
 l.356 
        <./capitulo_05/resultados_aula/asistencias.jpg>]
-<capitulo_05/imagenes/dashboard_2.png, id=1582, 1109.3445pt x 608.87476pt>
+<capitulo_05/imagenes/dashboard_2.png, id=1592, 1109.3445pt x 608.87476pt>
 File: capitulo_05/imagenes/dashboard_2.png Graphic file (type png)
 <use capitulo_05/imagenes/dashboard_2.png>
 Package pdftex.def Info: capitulo_05/imagenes/dashboard_2.png  used on input line 359.
@@ -2847,22 +3028,27 @@ Overfull \hbox (11.80463pt too wide) in paragraph at lines 377--378
 
 
 Underfull \hbox (badness 3179) in paragraph at lines 387--387
-[]|\OT1/cmr/m/n/12 0.45 (con-fi-gu-ra-ci^^Son equi-li-bra-da
+[]|\OT1/cmr/m/n/12 0.45 (con-fig-u-raci^^Son equi-li-bra-da
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 388--388
-[]|\OT1/cmr/m/n/12 Similitud en con-di-cio-nes
+[]|\OT1/cmr/m/n/12 Similitud en condi-ciones
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 389--389
-[]|\OT1/cmr/m/n/12 Similitud en con-di-cio-nes
+[]|\OT1/cmr/m/n/12 Similitud en condi-ciones
+ []
+
+
+Underfull \hbox (badness 2050) in paragraph at lines 390--390
+[]|\OT1/cmr/m/n/12 90$ $% de usuar-ios iden-ti-fi-ca-dos
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 393--393
-[]|\OT1/cmr/m/n/12 Uso pro-me-dio de
+[]|\OT1/cmr/m/n/12 Uso prome-dio de
  []
 
 
@@ -2911,8 +3097,13 @@ l.102 \include{./capitulo_05/resultados}
                                         ]
 \openout2 = `./capitulo_06/discusion.aux'.
 
- (capitulo_06/discusion.tex
+ (./capitulo_06/discusion.tex
 Cap\'{\i }tulo 6.
+
+Overfull \hbox (16.72835pt too wide) in paragraph at lines 9--10
+[]\OT1/cmr/m/n/14.4 El de-sar-rol-lo del Sis-tema de Asis-ten-cia Basa-do en Re-conocimien-
+ []
+
 
 
 [104
@@ -2939,6 +3130,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [106]
+Overfull \hbox (31.22986pt too wide) in paragraph at lines 70--71
+[]\OT1/cmr/m/n/14.4 \El sis-tema de con-trol de asis-ten-cia basa-do en re-conocimien-
+ []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2949,7 +3145,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [107]
 Overfull \hbox (1.42836pt too wide) in paragraph at lines 91--92
-\OT1/cmr/m/n/14.4 mi-te con-sul-tar, re-gis-trar y ac-tua-li-zar la in-for-ma-ci^^Son en tiem-
+\OT1/cmr/m/n/14.4 mite con-sul-tar, reg-is-trar y ac-tu-alizar la in-for-ma-ci^^Son en tiem-
  []
 
 
@@ -2998,13 +3194,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 ]
 \openout2 = `./anexos/anexo.aux'.
 
- (anexos/anexo.tex
-<anexos/imagenes/encabezado.png, id=1628, 688.37175pt x 378.81525pt>
+ (./anexos/anexo.tex
+<anexos/imagenes/encabezado.png, id=1639, 688.37175pt x 378.81525pt>
 File: anexos/imagenes/encabezado.png Graphic file (type png)
 <use anexos/imagenes/encabezado.png>
 Package pdftex.def Info: anexos/imagenes/encabezado.png  used on input line 10.
 (pdftex.def)             Requested size: 390.0pt x 214.62637pt.
-<anexos/imagenes/Imagen1.png, id=1629, 744.381pt x 302.93175pt>
+<anexos/imagenes/Imagen1.png, id=1640, 744.381pt x 302.93175pt>
 File: anexos/imagenes/Imagen1.png Graphic file (type png)
 <use anexos/imagenes/Imagen1.png>
 Package pdftex.def Info: anexos/imagenes/Imagen1.png  used on input line 17.
@@ -3021,12 +3217,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.6.1}) h
                                                   \__shipout_drop_firstpage_...
 l.21 
       <./anexos/imagenes/encabezado.png>]
-<anexos/imagenes/Imagen2.png, id=1635, 743.1765pt x 339.669pt>
+<anexos/imagenes/Imagen2.png, id=1646, 743.1765pt x 339.669pt>
 File: anexos/imagenes/Imagen2.png Graphic file (type png)
 <use anexos/imagenes/Imagen2.png>
 Package pdftex.def Info: anexos/imagenes/Imagen2.png  used on input line 24.
 (pdftex.def)             Requested size: 390.0pt x 178.25114pt.
-<anexos/imagenes/Imagen3.png, id=1636, 736.55174pt x 302.3295pt>
+<anexos/imagenes/Imagen3.png, id=1647, 736.55174pt x 302.3295pt>
 File: anexos/imagenes/Imagen3.png Graphic file (type png)
 <use anexos/imagenes/Imagen3.png>
 Package pdftex.def Info: anexos/imagenes/Imagen3.png  used on input line 31.
@@ -3051,12 +3247,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.6.3}) h
                                                   \__shipout_drop_firstpage_...
 l.35 
       <./anexos/imagenes/Imagen1.png> <./anexos/imagenes/Imagen2.png>]
-<anexos/imagenes/Imagen4.png, id=1643, 734.14275pt x 302.3295pt>
+<anexos/imagenes/Imagen4.png, id=1654, 734.14275pt x 302.3295pt>
 File: anexos/imagenes/Imagen4.png Graphic file (type png)
 <use anexos/imagenes/Imagen4.png>
 Package pdftex.def Info: anexos/imagenes/Imagen4.png  used on input line 38.
 (pdftex.def)             Requested size: 390.0pt x 160.60753pt.
-<anexos/imagenes/Imagen5.png, id=1644, 740.16525pt x 331.2375pt>
+<anexos/imagenes/Imagen5.png, id=1655, 740.16525pt x 331.2375pt>
 File: anexos/imagenes/Imagen5.png Graphic file (type png)
 <use anexos/imagenes/Imagen5.png>
 Package pdftex.def Info: anexos/imagenes/Imagen5.png  used on input line 46.
@@ -3081,12 +3277,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.6.5}) h
                                                   \__shipout_drop_firstpage_...
 l.50 
       <./anexos/imagenes/Imagen3.png> <./anexos/imagenes/Imagen4.png>]
-<anexos/imagenes/Imagen6.png, id=1651, 737.75626pt x 305.943pt>
+<anexos/imagenes/Imagen6.png, id=1662, 737.75626pt x 305.943pt>
 File: anexos/imagenes/Imagen6.png Graphic file (type png)
 <use anexos/imagenes/Imagen6.png>
 Package pdftex.def Info: anexos/imagenes/Imagen6.png  used on input line 55.
 (pdftex.def)             Requested size: 390.0pt x 161.72885pt.
-<anexos/imagenes/Imagen7.png, id=1652, 735.9495pt x 299.31825pt>
+<anexos/imagenes/Imagen7.png, id=1663, 735.9495pt x 299.31825pt>
 File: anexos/imagenes/Imagen7.png Graphic file (type png)
 <use anexos/imagenes/Imagen7.png>
 Package pdftex.def Info: anexos/imagenes/Imagen7.png  used on input line 64.
@@ -3111,12 +3307,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.6.7}) h
                                                   \__shipout_drop_firstpage_...
 l.68 
       <./anexos/imagenes/Imagen5.png> <./anexos/imagenes/Imagen6.png>]
-<anexos/imagenes/Imagen8.png, id=1659, 738.3585pt x 325.81725pt>
+<anexos/imagenes/Imagen8.png, id=1670, 738.3585pt x 325.81725pt>
 File: anexos/imagenes/Imagen8.png Graphic file (type png)
 <use anexos/imagenes/Imagen8.png>
 Package pdftex.def Info: anexos/imagenes/Imagen8.png  used on input line 72.
 (pdftex.def)             Requested size: 390.0pt x 172.09566pt.
-<anexos/imagenes/Imagen9.png, id=1660, 737.75626pt x 335.45325pt>
+<anexos/imagenes/Imagen9.png, id=1671, 737.75626pt x 335.45325pt>
 File: anexos/imagenes/Imagen9.png Graphic file (type png)
 <use anexos/imagenes/Imagen9.png>
 Package pdftex.def Info: anexos/imagenes/Imagen9.png  used on input line 81.
@@ -3141,7 +3337,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.6.9}) h
                                                   \__shipout_drop_firstpage_...
 l.85 
       <./anexos/imagenes/Imagen7.png> <./anexos/imagenes/Imagen8.png>]
-<anexos/imagenes/Imagen10.png, id=1667, 743.1765pt x 332.442pt>
+<anexos/imagenes/Imagen10.png, id=1678, 743.1765pt x 332.442pt>
 File: anexos/imagenes/Imagen10.png Graphic file (type png)
 <use anexos/imagenes/Imagen10.png>
 Package pdftex.def Info: anexos/imagenes/Imagen10.png  used on input line 89.
@@ -3168,12 +3364,12 @@ l.111 \include{./anexos/anexo}
                                <./anexos/imagenes/Imagen9.png> <./anexos/imagenes/Imagen10.png>]
 \openout2 = `./anexos/anexob.aux'.
 
- (anexos/anexob.tex
-Overfull \hbox (9.20975pt too wide) in paragraph at lines 10--11
-\OT1/cmr/m/n/14.4 de se im-por-tan las li-brer^^S^^Pas prin-ci-pa-les (\OT1/cmtt/m/n/14.4 OpenCV\OT1/cmr/m/n/14.4 , \OT1/cmtt/m/n/14.4 NumPy\OT1/cmr/m/n/14.4 , \OT1/cmtt/m/n/14.4 DeepFace\OT1/cmr/m/n/14.4 )
+ (./anexos/anexob.tex
+Overfull \hbox (0.86966pt too wide) in paragraph at lines 10--11
+[]\OT1/cmr/m/n/14.4 Se pre-sen-ta el bloque ini-cial del script \OT1/cmtt/m/n/14.4 train[]faces.py\OT1/cmr/m/n/14.4 , donde
  []
 
-<anexos/anexo_b_img/train1.png, id=1675, 814.54312pt x 529.22719pt>
+<anexos/anexo_b_img/train1.png, id=1686, 814.54312pt x 529.22719pt>
 File: anexos/anexo_b_img/train1.png Graphic file (type png)
 <use anexos/anexo_b_img/train1.png>
 Package pdftex.def Info: anexos/anexo_b_img/train1.png  used on input line 14.
@@ -3186,7 +3382,7 @@ Package pdftex.def Info: anexos/anexo_b_img/train1.png  used on input line 14.
 
 
 ]
-<anexos/anexo_b_img/train2.png, id=1681, 843.15pt x 784.43062pt>
+<anexos/anexo_b_img/train2.png, id=1692, 843.15pt x 784.43062pt>
 File: anexos/anexo_b_img/train2.png Graphic file (type png)
 <use anexos/anexo_b_img/train2.png>
 Package pdftex.def Info: anexos/anexo_b_img/train2.png  used on input line 26.
@@ -3206,7 +3402,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.6.12}) 
                                                   \__shipout_drop_firstpage_...
 l.30 
       <./anexos/anexo_b_img/train1.png>]
-<anexos/anexo_b_img/train3.png, id=1688, 808.52063pt x 1148.79187pt>
+<anexos/anexo_b_img/train3.png, id=1699, 808.52063pt x 1148.79187pt>
 File: anexos/anexo_b_img/train3.png Graphic file (type png)
 <use anexos/anexo_b_img/train3.png>
 Package pdftex.def Info: anexos/anexo_b_img/train3.png  used on input line 38.
@@ -3240,19 +3436,19 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.6.14}) 
                                                   \__shipout_drop_firstpage_...
 l.46 
       <./anexos/anexo_b_img/train3.png>]
-<anexos/anexo_b_img/train3.1.png, id=1701, 831.105pt x 668.4975pt>
+<anexos/anexo_b_img/train3.1.png, id=1712, 831.105pt x 668.4975pt>
 File: anexos/anexo_b_img/train3.1.png Graphic file (type png)
 <use anexos/anexo_b_img/train3.1.png>
 Package pdftex.def Info: anexos/anexo_b_img/train3.1.png  used on input line 49.
 (pdftex.def)             Requested size: 390.0pt x 313.69405pt.
 
 Overfull \hbox (55.33936pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/n/14.4 cio-nes esen-cia-les y la con-fi-gu-ra-ci^^Son ini-cial del script \OT1/cmtt/m/n/14.4 face[]recognizer.py\OT1/cmr/m/n/14.4 .
+\OT1/cmr/m/n/14.4 ciones es-en-ciales y la con-fig-u-raci^^Son ini-cial del script \OT1/cmtt/m/n/14.4 face[]recognizer.py\OT1/cmr/m/n/14.4 .
  []
 
 
 Overfull \hbox (6.67941pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/n/14.4 ma-li-za-ci^^Son de vec-to-res y el c^^Salcu-lo de la dis-tan-cia co-seno. Adem^^Sas,
+\OT1/cmr/m/n/14.4 mal-izaci^^Son de vec-tores y el c^^Salcu-lo de la dis-tan-cia coseno. Adem^^Sas,
  []
 
 
@@ -3270,22 +3466,22 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.6.15}) 
                                                   \__shipout_drop_firstpage_...
 l.57 
       <./anexos/anexo_b_img/train3.1.png>]
-<anexos/anexo_b_img/face1.png, id=1708, 871.00406pt x 320.69812pt>
+<anexos/anexo_b_img/face1.png, id=1719, 871.00406pt x 320.69812pt>
 File: anexos/anexo_b_img/face1.png Graphic file (type png)
 <use anexos/anexo_b_img/face1.png>
 Package pdftex.def Info: anexos/anexo_b_img/face1.png  used on input line 60.
 (pdftex.def)             Requested size: 390.0pt x 143.59348pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 61--61
-[]\OT1/cmr/m/n/12 Figura 6.16: []Importaciones y con-fi-gu-ra-ci^^Son ini-cial del m^^Sodu-lo
+[]\OT1/cmr/m/n/12 Figura 6.16: []Importaciones y con-fig-u-raci^^Son ini-cial del m^^Sodu-lo
  []
 
 
 Overfull \hbox (14.31476pt too wide) in paragraph at lines 69--70
-[]\OT1/cmr/m/n/14.4 El si-guien-te blo-que co-rres-pon-de a la fun-ci^^Son \OT1/cmtt/m/n/14.4 load[]centroids()\OT1/cmr/m/n/14.4 ,
+[]\OT1/cmr/m/n/14.4 El sigu-iente bloque cor-re-sponde a la fun-ci^^Son \OT1/cmtt/m/n/14.4 load[]centroids()\OT1/cmr/m/n/14.4 ,
  []
 
-<anexos/anexo_b_img/face2.png, id=1709, 1021.56656pt x 508.90125pt>
+<anexos/anexo_b_img/face2.png, id=1720, 1021.56656pt x 508.90125pt>
 File: anexos/anexo_b_img/face2.png Graphic file (type png)
 <use anexos/anexo_b_img/face2.png>
 Package pdftex.def Info: anexos/anexo_b_img/face2.png  used on input line 73.
@@ -3305,7 +3501,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.6.16}) 
                                                   \__shipout_drop_firstpage_...
 l.76 \end{figure}
                   <./anexos/anexo_b_img/face1.png>]
-<anexos/anexo_b_img/face3.png, id=1718, 923.70094pt x 1126.2075pt>
+<anexos/anexo_b_img/face3.png, id=1729, 923.70094pt x 1126.2075pt>
 File: anexos/anexo_b_img/face3.png Graphic file (type png)
 <use anexos/anexo_b_img/face3.png>
 Package pdftex.def Info: anexos/anexo_b_img/face3.png  used on input line 86.
@@ -3326,12 +3522,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.6.17}) 
 l.90 
       <./anexos/anexo_b_img/face2.png>]
 Overfull \hbox (38.30072pt too wide) in paragraph at lines 94--95
-[]\OT1/cmr/m/n/14.4 La si-guien-te fun-ci^^Son, de-no-mi-na-da \OT1/cmtt/m/n/14.4 recognize[]faces[]from[]crops()\OT1/cmr/m/n/14.4 ,
+[]\OT1/cmr/m/n/14.4 La sigu-iente fun-ci^^Son, de-nom-i-na-da \OT1/cmtt/m/n/14.4 recognize[]faces[]from[]crops()\OT1/cmr/m/n/14.4 ,
  []
 
 
 Overfull \hbox (0.17342pt too wide) in paragraph at lines 94--95
-\OT1/cmr/m/n/14.4 per-mi-te pro-ce-sar si-mult^^Sanea-men-te va-rios ros-tros de-tec-ta-dos den-
+\OT1/cmr/m/n/14.4 per-mite proce-sar si-mult^^Sanea-mente var-ios ros-tros de-tec-ta-dos den-
  []
 
 
@@ -3349,7 +3545,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.6.18}) 
                                                   \__shipout_drop_firstpage_...
 l.95 
       <./anexos/anexo_b_img/face3.png>]
-<anexos/anexo_b_img/face4.png, id=1730, 892.08281pt x 453.19313pt>
+<anexos/anexo_b_img/face4.png, id=1741, 892.08281pt x 453.19313pt>
 File: anexos/anexo_b_img/face4.png Graphic file (type png)
 <use anexos/anexo_b_img/face4.png>
 Package pdftex.def Info: anexos/anexo_b_img/face4.png  used on input line 98.
@@ -3361,7 +3557,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--99
 
 
 Underfull \hbox (badness 1881) in paragraph at lines 99--99
-\OT1/cmtt/m/n/12 face[]recognizer.py\OT1/cmr/m/n/12 , uti-li-za-da pa-ra pro-ce-sar m^^Sulti-ples ros-tros de-tec-
+\OT1/cmtt/m/n/12 face[]recognizer.py\OT1/cmr/m/n/12 , uti-liza-da para proce-sar m^^Sulti-ples ros-tros de-tec-
  []
 
 )
@@ -3378,59 +3574,74 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.6.19}) 
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.112 \include{./anexos/anexob}
-                                <./anexos/anexo_b_img/face4.png>] (tfg.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 27--33
+                                <./anexos/anexo_b_img/face4.png>] (./tfg.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 26--28
 \OT1/cmr/m/n/14.4 https://www.lanacion.com.ar/tecnologia/reconocimiento-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--33
+Underfull \hbox (badness 10000) in paragraph at lines 26--28
 \OT1/cmr/m/n/14.4 facial-como-nacio-tableta-decada-del-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--33
-\OT1/cmr/m/n/14.4 nid2421334/. [en l^^S^^Pnea]. Dis-po-ni-
+Underfull \hbox (badness 10000) in paragraph at lines 26--28
+\OT1/cmr/m/n/14.4 nid2421334/. [en l^^S^^Pnea]. Disponible:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--33
-\OT1/cmr/m/n/14.4 ble: []$https : / / www . lanacion . com . ar / tecnologia /
+Underfull \hbox (badness 10000) in paragraph at lines 26--28
+[]$\OT1/cmr/m/n/14.4 https : / / www . lanacion . com . ar / tecnologia /
  []
 
 
-Overfull \hbox (42.76117pt too wide) in paragraph at lines 27--33
+Overfull \hbox (42.76117pt too wide) in paragraph at lines 26--28
 \OT1/cmr/m/n/14.4 reconocimiento-[]facial-[]como-[]nacio-[]tableta-[]decada-[]del-[]nid2421334/$[] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--42
+Underfull \hbox (badness 10000) in paragraph at lines 31--33
 \OT1/cmr/m/n/14.4 red-de-aeropuertos-de-japon-instalara-66-puertas-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--42
+Underfull \hbox (badness 10000) in paragraph at lines 31--33
 \OT1/cmr/m/n/14.4 automaticas-adicionales-con-reconocimiento-facial/.
  []
 
 
-Underfull \hbox (badness 3058) in paragraph at lines 36--42
-\OT1/cmr/m/n/14.4 [en l^^S^^Pnea]. Dis-po-ni-ble: []$https : / / osao . com . mx /
+Underfull \hbox (badness 3058) in paragraph at lines 31--33
+\OT1/cmr/m/n/14.4 [en l^^S^^Pnea]. Disponible: []$https : / / osao . com . mx /
  []
 
 
-Overfull \hbox (277.23318pt too wide) in paragraph at lines 36--42
+Overfull \hbox (277.23318pt too wide) in paragraph at lines 31--33
 \OT1/cmr/m/n/14.4 la-[]red-[]de-[]aeropuertos-[]de-[]japon-[]instalara-[]66-[]puertas-[]automaticas-[]adicionales-[]con-[]reconocimiento-[]facial/$[] 
  []
 
 
-Underfull \hbox (badness 1571) in paragraph at lines 45--49
-\OT1/cmr/m/n/14.4 po-ni-ble: []$https : / / www . academia . edu / ^^Lgures / 13243804 /
+Underfull \hbox (badness 1629) in paragraph at lines 36--38
+[]\OT1/cmr/m/n/14.4 Raghav Sand-hane. (n.d.) Fig-ure 3: The
  []
 
 
-Underfull \hbox (badness 2359) in paragraph at lines 52--58
-[]\OT1/cmr/m/n/14.4 RicardoGeek. (2018) ?`qu^^Se son las re-
+Underfull \hbox (badness 2285) in paragraph at lines 36--38
+\OT1/cmr/m/n/14.4 re-la-tion-ship be-tween ai, ma-chine learn-ing
+ []
+
+
+Underfull \hbox (badness 2277) in paragraph at lines 41--43
+\OT1/cmr/m/n/14.4 ronales ar-ti-fi-ciales? [en l^^S^^Pnea]. Disponible:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--43
+\OT1/cmr/m/n/14.4 https://ricardogeek.com/que-son-redes-neuronales-
+ []
+
+
+Underfull \hbox (badness 2486) in paragraph at lines 41--43
+\OT1/cmr/m/n/14.4 artificiales/. [en l^^S^^Pnea]. Disponible: []$https :
  []
 
 
@@ -3441,33 +3652,43 @@ Underfull \hbox (badness 2359) in paragraph at lines 52--58
 
 
 ]
-Underfull \hbox (badness 3354) in paragraph at lines 61--67
-[]\OT1/cmr/m/n/14.4 Interactive Chaos. (2024) Re-des neu-ro-
+Underfull \hbox (badness 4505) in paragraph at lines 46--48
+[]\OT1/cmr/m/n/14.4 Interactive Chaos. (2024) Re-des neu-
  []
 
 
-Underfull \hbox (badness 2443) in paragraph at lines 61--67
-\OT1/cmr/m/n/14.4 na-les pre-ali-men-ta-das. [en l^^S^^Pnea]. Dis-po-ni-
+Underfull \hbox (badness 10000) in paragraph at lines 46--48
+\OT1/cmr/m/n/14.4 https://interactivechaos.com/es/manual/tutorial-de-deep-
  []
 
 
-Underfull \hbox (badness 4467) in paragraph at lines 61--67
-\OT1/cmr/m/n/14.4 Dis-po-ni-ble: []$https : / / interactivechaos . com / es / manual /
+Underfull \hbox (badness 4467) in paragraph at lines 46--48
+\OT1/cmr/m/n/14.4 Disponible: []$https : / / interactivechaos . com / es / manual /
  []
 
 
-Underfull \hbox (badness 1082) in paragraph at lines 86--92
-[]\OT1/cmr/m/n/14.4 Mi De []Agui-la. (2021) For-ma-to de lis-ta
+Underfull \hbox (badness 10000) in paragraph at lines 51--53
+\OT1/cmr/m/n/14.4 https://www.ellaberintodefalken.com/2019/10/vision-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--92
+Underfull \hbox (badness 1082) in paragraph at lines 61--63
+[]\OT1/cmr/m/n/14.4 Mi De []Aguila. (2021) For-ma-to de lista
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--63
 \OT1/cmr/m/n/14.4 https://mideaguila.blogspot.com/2021/12/formato-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--92
-\OT1/cmr/m/n/14.4 po-ni-ble: []$https : / / mideaguila . blogspot . com / 2021 / 12 /
+Underfull \hbox (badness 10000) in paragraph at lines 61--63
+\OT1/cmr/m/n/14.4 de-lista-de-asistencia-escolar.html. [en l^^S^^Pnea].
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--63
+\OT1/cmr/m/n/14.4 Disponible: []$https : / / mideaguila . blogspot . com / 2021 /
  []
 
 
@@ -3480,67 +3701,67 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [128]
-Underfull \hbox (badness 3417) in paragraph at lines 108--112
-[]\OT1/cmr/m/n/14.4 BeeDigital. (2022) His-to-ria y evo-lu-ci^^Son
+Underfull \hbox (badness 2005) in paragraph at lines 74--76
+\OT1/cmr/m/n/14.4 conocimien-to fa-cial. [en l^^S^^Pnea]. Disponible:
  []
 
 
-Underfull \hbox (badness 1354) in paragraph at lines 108--112
-\OT1/cmr/m/n/14.4 del re-co-no-ci-mien-to fa-cial. [en l^^S^^Pnea]. Dis-
+Underfull \hbox (badness 10000) in paragraph at lines 74--76
+[]$\OT1/cmr/m/n/14.4 https : / / www . beedigital . es / tendencias-[]digitales /
  []
 
 
-Underfull \hbox (badness 1910) in paragraph at lines 115--119
-\OT1/cmr/m/n/14.4 gu-ri-dad biom^^Setri-ca? [en l^^S^^Pnea]. Dis-po-ni-ble:
+Underfull \hbox (badness 1910) in paragraph at lines 79--81
+\OT1/cmr/m/n/14.4 guri-dad biom^^Setri-ca? [en l^^S^^Pnea]. Disponible:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--119
+Underfull \hbox (badness 10000) in paragraph at lines 79--81
 []$\OT1/cmr/m/n/14.4 https : / / www . avast . com / es-[]es / c-[]what-[]is-[]biometric-[]data# :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--119
+Underfull \hbox (badness 10000) in paragraph at lines 79--81
 [] \OT1/cmr/m/n/14.4 : text = de % 20huella % 20dactilar . -[] ,[] %C2 % BFQu % C3 % A9 %
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--119
+Underfull \hbox (badness 10000) in paragraph at lines 79--81
 \OT1/cmr/m/n/14.4 20es % 20la % 20seguridad % 20biom % C3 % A9trica % 3F ,[] de %
  []
 
 
-Underfull \hbox (badness 1189) in paragraph at lines 122--125
-\OT1/cmr/m/n/14.4 [en l^^S^^Pnea]. Dis-po-ni-ble: []$https : / / www . thalesgroup .
+Underfull \hbox (badness 1189) in paragraph at lines 84--86
+\OT1/cmr/m/n/14.4 [en l^^S^^Pnea]. Disponible: []$https : / / www . thalesgroup .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--125
+Underfull \hbox (badness 10000) in paragraph at lines 84--86
 \OT1/cmr/m/n/14.4 com / es / countries / americas / latin-[]america / dis / gobierno /
  []
 
 
-Underfull \hbox (badness 1199) in paragraph at lines 128--134
-[]\OT1/cmr/m/n/14.4 Bee Sa-fe Se-cu-rity. (2024) Ex-plo-ring dif-fe-
+Underfull \hbox (badness 1024) in paragraph at lines 89--91
+[]\OT1/cmr/m/n/14.4 Bee Safe Se-cu-ri-ty. (2024) Ex-plor-ing dif-fer-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--134
+Underfull \hbox (badness 10000) in paragraph at lines 89--91
 \OT1/cmr/m/n/14.4 different-types-of-access-control-credentials/. [en
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--134
-\OT1/cmr/m/n/14.4 l^^S^^Pnea]. Dis-po-ni-ble: []$https : / / beesafeohio . com /
+Underfull \hbox (badness 10000) in paragraph at lines 89--91
+\OT1/cmr/m/n/14.4 l^^S^^Pnea]. Disponible: []$https : / / beesafeohio . com /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--147
+Underfull \hbox (badness 10000) in paragraph at lines 99--101
 \OT1/cmr/m/n/14.4 facial-[]recognition / # : [] : text = Funciona % 20mediante % 20la %
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--147
+Underfull \hbox (badness 10000) in paragraph at lines 99--101
 \OT1/cmr/m/n/14.4 20identi^^Lcaci % C3 % B3n % 20y ,[] gran % 20colecci % C3 % B3n %
  []
 
@@ -3554,38 +3775,43 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [129]
-Underfull \hbox (badness 10000) in paragraph at lines 156--161
+Underfull \hbox (badness 10000) in paragraph at lines 109--111
 \OT1/cmr/m/n/14.4 researchgate . net / pro^^Lle / Jhon-[]Fredy-[]Narvaez / publication /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--161
+Underfull \hbox (badness 10000) in paragraph at lines 109--111
 \OT1/cmr/m/n/14.4 320170890[]Desarrollos[]de[]la[]Ingenieria[]ambiental[]en[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--161
+Underfull \hbox (badness 10000) in paragraph at lines 109--111
 \OT1/cmr/m/n/14.4 la[]evaluacion[]de[]la[]calidad[]de[]los[]recursos[]naturales[]y[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--161
+Underfull \hbox (badness 10000) in paragraph at lines 109--111
 \OT1/cmr/m/n/14.4 la[]salud[]ambiental / links / 59d26bfca6fdcc181ad611ce /
  []
 
 
-Overfull \hbox (354.88559pt too wide) in paragraph at lines 156--161
+Overfull \hbox (354.88559pt too wide) in paragraph at lines 109--111
 \OT1/cmr/m/n/14.4 Desarrollos-[]de-[]la-[]Ingenieria-[]ambiental-[]en-[]la-[]evaluacion-[]de-[]la-[]calidad-[]de-[]los-[]recursos-[]naturales-[]y-[]la-[]salud-[]ambiental .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--169
+Underfull \hbox (badness 10000) in paragraph at lines 114--116
 []$\OT1/cmr/m/n/14.4 https : / / repositorio . unican . es / xmlui / bitstream / handle /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--185
+Underfull \hbox (badness 10000) in paragraph at lines 124--126
 \OT1/cmr/m/n/14.4 / / repositorio . uam . es / bitstream / handle / 10486 / 698387 /
+ []
+
+
+Underfull \hbox (badness 2213) in paragraph at lines 129--131
+\OT1/cmr/m/n/14.4 Disponible: []$https : / / direct . mit . edu / books / monograph /
  []
 
 
@@ -3607,38 +3833,33 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [131]
-Underfull \hbox (badness 1348) in paragraph at lines 257--262
+Underfull \hbox (badness 1348) in paragraph at lines 174--176
 []\OT1/cmr/m/n/14.4 Figma Inc. (2024) ?`qu^^Se es fig-ma? [en
  []
 
 
-Underfull \hbox (badness 3199) in paragraph at lines 257--262
-\OT1/cmr/m/n/14.4 l^^S^^Pnea]. Dis-po-ni-ble: https://help.figma.com/hc/es-
+Underfull \hbox (badness 3199) in paragraph at lines 174--176
+\OT1/cmr/m/n/14.4 l^^S^^Pnea]. Disponible: https://help.figma.com/hc/es-
  []
 
 
-Underfull \hbox (badness 4995) in paragraph at lines 257--262
-\OT1/cmr/m/n/14.4 419/articles/14563969806359--Qu[en l^^S^^Pnea]. Dis-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 257--262
-\OT1/cmr/m/n/14.4 po-ni-ble: []$https : / / help . ^^Lgma . com / hc / es-[]419 / articles /
- []
-
-
-Overfull \hbox (28.99971pt too wide) in paragraph at lines 265--271
+Overfull \hbox (28.99971pt too wide) in paragraph at lines 179--181
 \OT1/cmr/m/n/14.4 https://www.godaddy.com/resources/latam/desarrollo/python-
  []
 
 
-Underfull \hbox (badness 2799) in paragraph at lines 290--294
-\OT1/cmr/m/n/14.4 About post-gresql. [en l^^S^^Pnea]. Dis-po-ni-ble:
+Underfull \hbox (badness 2799) in paragraph at lines 194--196
+\OT1/cmr/m/n/14.4 About post-gresql. [en l^^S^^Pnea]. Disponible:
  []
 
 
-Underfull \hbox (badness 2229) in paragraph at lines 297--302
-\OT1/cmr/m/n/14.4 l^^S^^Pnea]. Dis-po-ni-ble: https://learn.microsoft.com/es-
+Underfull \hbox (badness 2229) in paragraph at lines 199--201
+\OT1/cmr/m/n/14.4 l^^S^^Pnea]. Disponible: https://learn.microsoft.com/es-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--201
+[]$\OT1/cmr/m/n/14.4 https : / / learn . microsoft . com / es-[]es / devops / develop / git /
  []
 
 
@@ -3651,48 +3872,53 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [132]
-Underfull \hbox (badness 1137) in paragraph at lines 305--311
-[]\OT1/cmr/m/n/14.4 OpenWebinars. (2024) ?`qu^^Se es vi-sual stu-
+Underfull \hbox (badness 1137) in paragraph at lines 204--206
+[]\OT1/cmr/m/n/14.4 OpenWebinars. (2024) ?`qu^^Se es vi-su-al stu-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 305--311
-\OT1/cmr/m/n/14.4 Dis-po-ni-ble: https://openwebinars.net/blog/que-
+Underfull \hbox (badness 10000) in paragraph at lines 204--206
+\OT1/cmr/m/n/14.4 Disponible: https://openwebinars.net/blog/que-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 305--311
+Underfull \hbox (badness 10000) in paragraph at lines 204--206
 \OT1/cmr/m/n/14.4 es-visual-studio-code-y-que-ventajas-ofrece/. [en
  []
 
 
-Underfull \hbox (badness 1960) in paragraph at lines 305--311
-\OT1/cmr/m/n/14.4 l^^S^^Pnea]. Dis-po-ni-ble: []$https : / / openwebinars . net / blog /
+Underfull \hbox (badness 1960) in paragraph at lines 204--206
+\OT1/cmr/m/n/14.4 l^^S^^Pnea]. Disponible: []$https : / / openwebinars . net / blog /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 313--317
-[]\OT1/cmr/m/n/14.4 GitHub, Inc., ``Acer-ca de github desk-top,''
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
+[]\OT1/cmr/m/n/14.4 GitHub, Inc., ``Ac-er-ca de github desk-top,''
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 313--317
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
 []$\OT1/cmr/m/n/14.4 https : / / docs . github . com / es / desktop / overview /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 313--317
-\OT1/cmr/m/n/14.4 about-[]github-[]desktop$[], 2025, [en l^^S^^Pnea]. Dis-po-ni-ble:
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
+\OT1/cmr/m/n/14.4 about-[]github-[]desktop$[], 2025, [en l^^S^^Pnea]. Disponible:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 313--317
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
 \OT1/cmr/m/n/14.4 https://docs.github.com/es/desktop/overview/about-
  []
 
 
-Underfull \hbox (badness 3895) in paragraph at lines 334--339
-\OT1/cmr/m/n/14.4 Dis-po-ni-ble: https://builtin.com/software-engineering-
+Underfull \hbox (badness 1132) in paragraph at lines 222--224
+\OT1/cmr/m/n/14.4 to the python mi-croframe-work. [en l^^S^^Pnea].
+ []
+
+
+Underfull \hbox (badness 3895) in paragraph at lines 222--224
+\OT1/cmr/m/n/14.4 Disponible: https://builtin.com/software-engineering-
  []
 
 
@@ -3713,13 +3939,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[134] (tfg.aux
+[134] (./tfg.aux
 LaTeX Info: Redefining \. on input line 18.
 LaTeX Info: Redefining \% on input line 18.
- (portada_y_ficha_catalografica/portada_y_ficha_catalografica.aux) (hoja_aprobacion/hoja_aprobacion.aux) (dedicatoria/dedicatoria.aux) (agradecimientos/agradecimientos.aux) (epigrafe/epigrafe.aux) (resumen/resumen.aux) (abstract/abstract.aux) (capitulo_01/introduccion.aux) (capitulo_02/marco_teorico.aux) (capitulo_03/Herramientas_Tecnologicas.aux) (capitulo_04/marco_metodologico.aux) (capitulo_05/resultados.aux) (capitulo_06/discusion.aux) (anexos/anexo.aux) (anexos/anexob.aux))
+ (./portada_y_ficha_catalografica/portada_y_ficha_catalografica.aux) (./hoja_aprobacion/hoja_aprobacion.aux) (./dedicatoria/dedicatoria.aux) (./agradecimientos/agradecimientos.aux) (./epigrafe/epigrafe.aux) (./resumen/resumen.aux) (./abstract/abstract.aux) (./capitulo_01/introduccion.aux) (./capitulo_02/marco_teorico.aux) (./capitulo_03/Herramientas_Tecnologicas.aux) (./capitulo_04/marco_metodologico.aux) (./capitulo_05/resultados.aux) (./capitulo_06/discusion.aux) (./anexos/anexo.aux) (./anexos/anexob.aux))
  ***********
 LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-09-02>
+L3 programming layer <2025-08-13>
  ***********
 
 
@@ -3736,17 +3962,18 @@ Package rerunfilecheck Info: File `tfg.out' has not changed.
 ### simple group (level 1) entered at line 100 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 23685 strings out of 468081
- 466988 string characters out of 5435855
- 948625 words of memory out of 5000000
- 51500 multiletter control sequences out of 15000+600000
- 644561 words of font info for 103 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 75i,14n,93p,2533b,937s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\aldoc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\aldoc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\aldoc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcbx1440.pk> <C:\Users\aldoc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1440.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on tfg.pdf (156 pages, 9254806 bytes).
+ 23199 strings out of 469781
+ 458968 string characters out of 5480955
+ 933215 words of memory out of 5000000
+ 50774 multiletter control sequences out of 15000+600000
+ 643665 words of font info for 103 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 75i,14n,93p,2557b,927s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk> </Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk> </Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcbx1440.600pk> </Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1440.600pk></Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on tfg.pdf (156 pages, 9041208 bytes).
 PDF statistics:
- 2017 PDF objects out of 2073 (max. 8388607)
+ 2032 PDF objects out of 2073 (max. 8388607)
+ 1705 compressed objects within 18 object streams
  430 named destinations out of 1000 (max. 500000)
  1075 words of extra memory for PDF output out of 10000 (max. 10000000)
 

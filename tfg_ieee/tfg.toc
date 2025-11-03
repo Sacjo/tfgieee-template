@@ -79,14 +79,14 @@
 \contentsline {subsection}{\numberline {5.1.1}Errores detectados y ajustes aplicados}{81}{subsection.5.1.1}%
 \contentsline {subsection}{\numberline {5.1.2}Configuraciones y resultados obtenidos}{83}{subsection.5.1.2}%
 \contentsline {section}{\numberline {5.2}Resultados finales del sistema en condiciones reales de un aula}{88}{section.5.2}%
-\contentsline {chapter}{\numberline {6}Discusión}{103}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Logros alcanzados con relación a los objetivos específicos}{104}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Logros alcanzados con relación al Objetivo General}{106}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Análisis de la hipótesis}{106}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Solución al problema de investigación}{107}{section.6.4}%
-\contentsline {section}{\numberline {6.5}Sugerencias para futuras investigaciones}{108}{section.6.5}%
-\contentsline {chapter}{Glosario}{110}{section.6.5}%
-\contentsline {chapter}{Anexos}{110}{section.6.5}%
-\contentsline {chapter}{Anexo A.}{111}{chapter*.23}%
-\contentsline {chapter}{Anexo B.}{117}{chapter*.24}%
-\contentsline {chapter}{Referencias bibliogr\'aficas}{126}{figure.6.19}%
+\contentsline {chapter}{\numberline {6}Discusión}{104}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Logros alcanzados con relación a los objetivos específicos}{105}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Logros alcanzados con relación al Objetivo General}{107}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Análisis de la hipótesis}{107}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Solución al problema de investigación}{108}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Sugerencias para futuras investigaciones}{109}{section.6.5}%
+\contentsline {chapter}{Glosario}{111}{section.6.5}%
+\contentsline {chapter}{Anexos}{111}{section.6.5}%
+\contentsline {chapter}{Anexo A.}{112}{chapter*.23}%
+\contentsline {chapter}{Anexo B.}{118}{chapter*.24}%
+\contentsline {chapter}{Referencias bibliogr\'aficas}{127}{figure.6.19}%

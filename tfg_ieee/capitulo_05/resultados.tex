@@ -318,29 +318,51 @@ En la Figura~\ref{fig:prueba12} se presenta la última prueba realizada, en la c
 
 \textbf{Conclusión de las pruebas en aula y análisis de métricas de evaluación}
 
-La Figura~\ref{fig:registrados} muestra la sección de la base de datos correspondiente a los participantes registrados, evidenciando un total de entre 13 y 15 usuarios almacenados con sus respectivos datos de identificación. En la Figura~\ref{fig:entrenamiento} se observa el proceso de procesamiento facial y la generación de vectores de características (\textit{embeddings}) mediante el modelo de reconocimiento. Cada usuario fue representado a partir de múltiples imágenes de entrenamiento, generando centroides únicos empleados durante la fase de verificación facial. Finalmente, la Figura~\ref{fig:asistencias} presenta la tabla de asistencias generada automáticamente, donde se registran las detecciones exitosas y las fechas correspondientes, lo que demuestra el correcto funcionamiento del proceso de identificación y almacenamiento de información.
-
+La Figura~\ref{fig:registrados} muestra la sección de la base de datos correspondiente a los participantes registrados, evidenciando un total de entre 13 y 15 usuarios almacenados con sus respectivos datos de identificación. 
+En la Figura~\ref{fig:entrenamiento} se observa el proceso de procesamiento facial y la generación de vectores de características (embeddings) mediante el modelo de reconocimiento. 
+Cada usuario fue representado a partir de múltiples imágenes de entrenamiento, generando centroides únicos empleados durante la fase de verificación facial. 
+Finalmente, la Figura~\ref{fig:asistencias} presenta la tabla de asistencias generada automáticamente, donde se registran las detecciones exitosas y las fechas correspondientes, lo que demuestra el correcto funcionamiento del proceso de identificación y almacenamiento de información.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{capitulo_05/resultados_aula/registrados.jpg}
-    \caption{Usuarios registrados dentro del sistema de reconocimiento facial. [Figura Propia]}
+    \caption{Usuarios registrados dentro del sistema de reconocimiento facial. [Figura propia]}
     \label{fig:registrados}
 \end{figure}
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{capitulo_05/resultados_aula/entrenamiento.jpg}
-    \caption{Procesamiento de imágenes y generación de vectores de características (\textit{embeddings}) para cada usuario registrado. [Figura Propia]}
+    \caption{Procesamiento de imágenes y generación de vectores de características (embeddings) para cada usuario registrado. [Figura propia]}
     \label{fig:entrenamiento}
 \end{figure}
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{capitulo_05/resultados_aula/asistencias.jpg}
-    \caption{Registros de asistencias generados automáticamente por el sistema en la base de datos \textit{checkface\_db}. [Figura Propia]}
+    \caption{Registros de asistencias generados automáticamente por el sistema en la base de datos checkface\_db. [Figura propia]}
     \label{fig:asistencias}
 \end{figure}
+
+Además, se incorporó un panel administrativo (dashboard) que permite visualizar en tiempo real los resultados de las asistencias registradas y acceder al historial completo de los datos almacenados en la base de datos. 
+Las Figuras~\ref{fig:dashboard_1} y~\ref{fig:dashboard_2} muestran las vistas principales de este panel, donde se pueden observar los resúmenes estadísticos y los registros individuales generados automáticamente por el sistema.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{capitulo_05/imagenes/dashboard_1.png}
+    \caption{Vista principal del dashboard del sistema, mostrando el resumen general de asistencias registradas. [Figura propia]}
+    \label{fig:dashboard_1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{capitulo_05/imagenes/dashboard_2.png}
+    \caption{Vista del módulo administrativo del sistema, donde se detallan los registros individuales de asistencia por usuario. [Figura propia]}
+    \label{fig:dashboard_2}
+\end{figure}
+
+
+
 
 
 

@@ -5,14 +5,17 @@
 \end{LARGE}
 \end{center}
 \begin{quotation}
+\sloppy
 
-This research project aims to develop an automated attendance system based on facial recognition for the Polytechnic Faculty of the National University of the East (FPUNE). Currently, attendance is recorded manually, which often results in human errors and delays in administrative processes.
+This study developed and evaluated a prototype of an automated attendance registration system based on biometric facial recognition at the Polytechnic Faculty of the National University of the East (FPUNE), Paraguay. The current manual method takes 5–7 minutes per session and exhibits error rates of 15–20\% due to illegible or missing entries.
 
-The proposed solution applies computer vision techniques to detect and recognize faces in real time, automating the attendance process. Tools such as Python, OpenCV, TensorFlow, and models like YOLOv8 and ArcFace were used. The methodology included data collection, model training, and validation in a real environment.
+An experimental design with \textit{N}=13 students was conducted over 8 weeks (September–October 2025), implementing a two-stage system: (1) face detection using \textit{YOLOv8n-Face} and (2) identification via \textit{ArcFace} embeddings. A dataset of 65 images per student was collected under varying lighting conditions (300–500 lux) and distances (1–5 m), evaluated across 24 real classroom sessions (M=1,080 records).
 
-The results demonstrate high accuracy and efficiency, even under variable lighting and viewing conditions. Overall, the system improves academic management by reducing manual workload, minimizing errors, and optimizing teachers’ time during attendance control.
+The system achieved an average accuracy of 84.4\% (95\% CI: 81.2–87.6), reaching 100\% under optimal lighting and 71.4\% under low-light conditions, with processing times of 288±23 ms per face. Implementation reduced attendance time by 73\% (5\,min → 1,35\,min) and eliminated transcription errors, although performance remains sensitive to lighting conditions.
+
+These findings validate the technical and economic feasibility of non-invasive biometric systems for academic management in resource-constrained institutions, highlighting lighting as a key factor for future optimization.
 
 \vspace*{0.5cm}
-\noindent \textbf{Key words:} 1. Facial Recognition, 2. Attendance Control, 3. Computer Vision.
+\noindent \textbf{Key words:} Facial recognition, biometrics, deep learning, automated attendance, computer vision, academic management.
 
 \end{quotation}

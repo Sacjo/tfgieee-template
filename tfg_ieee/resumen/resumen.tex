@@ -5,14 +5,17 @@
 \end{LARGE}
 \end{center}
 \begin{quotation}
+\sloppy
 
-Este trabajo de investigación tiene como objetivo desarrollar un sistema automatizado de registro de asistencia basado en reconocimiento facial para la Facultad Politécnica de la Universidad Nacional del Este. Actualmente, el control de asistencia se realiza de forma manual, lo que genera errores y retrasa los procesos administrativos.
+Este estudio desarrolló y evaluó un prototipo de sistema automatizado de registro de asistencia mediante reconocimiento facial biométrico en la Facultad Politécnica de la Universidad Nacional del Este (FPUNE), Paraguay. El método manual actual consume entre 5 y 7 minutos por sesión y presenta tasas de error del 15–20\,\% debido a registros ilegibles y omisiones.
 
-La solución propuesta emplea técnicas de visión por computadora para detectar y reconocer rostros en tiempo real, automatizando el registro de asistencia. Se utilizaron herramientas como Python, OpenCV, TensorFlow y modelos como YOLOv8 y ArcFace. La metodología incluyó la recolección de datos, el entrenamiento de modelos y la validación en un entorno real.
+Mediante un diseño experimental con \textit{N}=13 estudiantes durante 8 semanas (septiembre–octubre de 2025), se implementó un sistema de dos etapas: (1) detección facial con \textit{YOLOv8n-Face} y (2) identificación mediante embeddings \textit{ArcFace}. Se recopilaron 65 imágenes por estudiante bajo condiciones variables de iluminación (300–500\,lux) y distancia (1–5\,m), evaluadas en 24 sesiones lectivas reales (M=1\,080 registros).
 
-Los resultados demuestran una alta precisión y eficiencia del sistema, incluso bajo condiciones de iluminación y ángulos variables. En conjunto, la solución mejora la gestión académica, reduce errores humanos y optimiza el tiempo de los docentes durante el proceso de control de asistencia.
+El sistema alcanzó una precisión promedio del 84.4\,\% (IC 95\,\%: 81.2–87.6), con un máximo de 100\,\% bajo iluminación óptima y un mínimo de 71.4\,\% en condiciones de baja luz, con tiempos de procesamiento de 288±23\,ms por rostro. La implementación redujo el tiempo de registro en un 73\,\% (de 5\,min → 1,35\,min) y eliminó los errores de transcripción manual, aunque el rendimiento depende críticamente de la iluminación. 
+
+Los resultados validan la viabilidad técnica y económica de sistemas biométricos no invasivos para la gestión académica en instituciones con recursos limitados, identificando la iluminación como factor clave para futuras optimizaciones.
 
 \vspace*{0.5cm}
-\noindent \textbf{Descriptores:} 1. Reconocimiento Facial, 2. Control de Asistencia, 3. Visión por Computadora.
+\noindent \textbf{Descriptores:} Reconocimiento facial, biometría, aprendizaje profundo, asistencia automatizada, visión por computadora, gestión académica.
 
 \end{quotation}

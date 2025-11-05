@@ -7,11 +7,9 @@
 
 \chapter{Método}
 
-Este capítulo tiene como propósito detallar el enfoque metodológico y técnico seguido para el desarrollo del "Sistema de Asistencia Basado en Reconocimiento Facial para la FPUNE". Se presenta la planificación general del proyecto, desde la definición de los requisitos iniciales hasta la validación y evaluación del prototipo en un entorno académico real.
+Se presenta la planificación general del proyecto, desde la definición de los requisitos iniciales hasta la validación y evaluación del prototipo en un entorno académico real con un grupo de \textit{N}=13 estudiantes participantes.
 
-Este capítulo constituye un componente fundamental para comprender el desarrollo del proyecto y validar su efectividad en relación con los objetivos propuestos.
-
-En primer lugar, se describe el enfoque metodológico adoptado, el cual combina técnicas cualitativas y cuantitativas bajo un esquema de investigación aplicada tecnológica, permitiendo así un análisis integral del problema y su solución. Posteriormente, se exponen las fases específicas del proceso de desarrollo, tales como la recolección y preprocesamiento de datos, la selección de algoritmos, el entrenamiento del modelo, y la integración del sistema en un entorno controlado.
+En primer lugar, se describe el enfoque metodológico adoptado, el cual combina técnicas cualitativas y cuantitativas bajo un esquema de investigación aplicada tecnológica, permitiendo así un análisis integral del problema y su solución. Posteriormente, se exponen las fases específicas del proceso de desarrollo, tales como la recolección y preprocesamiento de datos, la selección de algoritmos, el entrenamiento del modelo y la integración del sistema en un entorno controlado, para finalmente evaluarlo en condiciones reales de aula.
 
 
 \section{Enfoque}
@@ -126,7 +124,7 @@ Para la etapa de detección de rostros se analizaron diversas alternativas basad
 \renewcommand{\arraystretch}{1.3}
 \normalsize
 \setlength{\tabcolsep}{3pt}
-\begin{tabular}{|l|c|c|c|p{6.2cm}|}
+\begin{tabular}{|l|p{2cm}|p{2.7cm}|c|p{4.1cm}|}
 \hline
 \textbf{Modelo} & \textbf{Precisión} & \textbf{Tiempo de Proceso} & \textbf{mAP} & \textbf{Observaciones} \\
 \hline
@@ -156,7 +154,7 @@ Se evaluaron diferentes versiones de YOLO adaptadas al reconocimiento facial. Fi
     \label{tab:comparativa_yolo}
     \renewcommand{\arraystretch}{1.3}
     \small
-    \begin{tabular}{|p{3.2cm}|p{2.5cm}|p{1.8cm}|p{6.3cm}|}
+    \begin{tabular}{|p{3.2cm}|p{1.5cm}|p{1.8cm}|p{5.3cm}|}
         \hline
         \textbf{Modelo} & \textbf{mAP} & \textbf{Precisión} & \textbf{Observaciones} \\ \hline
 
@@ -174,14 +172,14 @@ Se evaluaron diferentes versiones de YOLO adaptadas al reconocimiento facial. Fi
 
 
 \item \textbf{Evaluación según nivel de dificultad (WIDER Face)}
-
+\sloppy
 La tabla presenta el desempeño de distintos modelos de detección facial evaluados en el conjunto de datos WIDER Face, considerando tres niveles de dificultad: fácil, medio y difícil.  
 Las condiciones más complejas incluyen rostros pequeños, parcialmente visibles o con iluminación deficiente.  
 Los resultados evidencian que la versión YOLOv8-Face mantiene un rendimiento más consistente y robusto frente a escenarios desafiantes.
 
 \begin{table}[H]
     \centering
-    \caption{Rendimiento de modelos YOLO en distintos niveles de dificultad (WIDER Face).\cite{yolov8face2024}}
+    \caption{Rendimiento de modelos YOLO en distintos niveles de dificultad (WIDER Face)\cite{yolov8face2024}.}
     \label{tab:rendimiento_dificultad}
     \renewcommand{\arraystretch}{1.25}
     \resizebox{\linewidth}{!}{%
@@ -203,11 +201,11 @@ La tabla muestra distintos modelos compatibles con DeepFace evaluados en cuanto 
 
 \begin{table}[H]
     \centering
-    \caption{Comparativa de modelos de DeepFace.\cite{yolov8face2024}}
+    \caption{Comparativa de modelos de DeepFace\cite{yolov8face2024}.}
     \label{tab:deepface1}
     \renewcommand{\arraystretch}{1.25}
     \resizebox{\linewidth}{!}{%
-    \begin{tabular}{|p{3.2cm}|c|c|c|p{3.2cm}||}
+    \begin{tabular}{|p{3.2cm}|c|c|c|p{3.2cm}|}
         \hline
         \textbf{Modelo} & \textbf{Precisión (LFW)} & \textbf{Velocidad} & \textbf{Tamaño} & \textbf{Métrica} \\ \hline
         ArcFace     & \textbf{99.83\%} & Media      & $\sim$68 MB  & Cosine / Euclídea \\ \hline
@@ -270,14 +268,14 @@ En la Figura~\ref{fig:rostro_original} se muestra un ejemplo de una imagen facia
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{imagenes_doc/sin_normalizar.png}
-    \caption{Ejemplo de imagen facial capturada al natural. [Figura propia]}
+    \caption{Ejemplo de imagen facial capturada al natural [Figura propia].}
     \label{fig:rostro_original}
 \end{figure}
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{imagenes_doc/dataset_rostros.jpg}
-    \caption{Ejemplo de imagen facial luego del proceso de normalización. [Figura propia]}
+    \caption{Ejemplo de imagen facial luego del proceso de normalización [Figura propia].}
     \label{fig:rostro_normalizado}
 \end{figure}
 
@@ -318,6 +316,7 @@ El proceso de entrenamiento fue automatizado mediante el script \texttt{train\_f
     A diferencia de un reentrenamiento completo, el sistema implementa una \textbf{actualización incremental}: cuando se agrega un nuevo alumno o se añaden más imágenes a un registro existente, el sistema no recalcula todos los centroides, sino que actualiza únicamente el correspondiente al usuario modificado. De este modo, se optimiza el rendimiento y se conserva el historial de entrenamiento.
 
     \item \textbf{Almacenamiento estructurado:} \\
+    \sloppy
     Los embeddings individuales se guardan en el directorio \texttt{embeddings/}, mientras que el archivo \texttt{centroids.json} mantiene un índice general con los centroides y estadísticas de todos los usuarios. Esta estructura facilita la expansión progresiva del sistema sin afectar los registros previos.
 \end{enumerate}
 
@@ -383,7 +382,7 @@ RF6 & El sistema debe permitir consultar y justificar asistencias desde la inter
 \end{table}
 
 \subsubsection*{Requisitos no funcionales (RNF)}
-
+\sloppy
 Los requisitos no funcionales establecen las condiciones de calidad, rendimiento y usabilidad que el sistema debe cumplir para garantizar un funcionamiento eficiente y confiable. La Tabla~\ref{tab:rnf_checkface} presenta los principales requisitos no funcionales definidos.
 
 \begin{table}[H]
@@ -444,8 +443,8 @@ Con el fin de documentar detalladamente la estructura de cada tabla, se elaboró
 
 \begin{table}[H]
 \centering
-\caption{Diccionario de datos de la tabla \textit{roles}.[Tabla Propia]}
-\begin{tabular}{|l|l|p{8cm}|}
+\caption{Diccionario de datos de la tabla \textit{roles} [Tabla Propia].}
+\begin{tabular}{|l|l|p{7.4cm}|}
 \hline
 \textbf{Atributo} & \textbf{Tipo de Dato} & \textbf{Descripción} \\ \hline
 id & SERIAL (PK) & Identificador único del rol. \\ \hline
@@ -455,8 +454,8 @@ description & VARCHAR(120) & Nombre o descripción del rol asignado al usuario. 
 
 \begin{table}[H]
 \centering
-\caption{Diccionario de datos de la tabla \textit{users}.[Tabla Propia]}
-\begin{tabular}{|l|l|p{8cm}|}
+\caption{Diccionario de datos de la tabla \textit{users} [Tabla Propia].}
+\begin{tabular}{|l|l|p{7.5cm}|}
 \hline
 \textbf{Atributo} & \textbf{Tipo de Dato} & \textbf{Descripción} \\ \hline
 id & SERIAL (PK) & Identificador único del usuario. \\ \hline
@@ -468,8 +467,8 @@ role\_id & INT (FK) & Referencia al rol del usuario en la tabla \textit{roles}. 
 
 \begin{table}[H]
 \centering
-\caption{Diccionario de datos de la tabla \textit{participants}.[Tabla Propia]}
-\begin{tabular}{|l|l|p{8cm}|}
+\caption{Diccionario de datos de la tabla \textit{participants} [Tabla Propia].}
+\begin{tabular}{|l|l|p{7.4cm}|}
 \hline
 \textbf{Atributo} & \textbf{Tipo de Dato} & \textbf{Descripción} \\ \hline
 id & SERIAL (PK) & Identificador único del participante. \\ \hline
@@ -482,8 +481,8 @@ user\_id & INT (FK) & Relación con el usuario correspondiente en la tabla \text
 
 \begin{table}[H]
 \centering
-\caption{Diccionario de datos de la tabla \textit{courses}.[Tabla Propia]}
-\begin{tabular}{|l|l|p{8cm}|}
+\caption{Diccionario de datos de la tabla \textit{courses} [Tabla Propia].}
+\begin{tabular}{|l|l|p{7.5cm}|}
 \hline
 \textbf{Atributo} & \textbf{Tipo de Dato} & \textbf{Descripción} \\ \hline
 id & SERIAL (PK) & Identificador único del curso. \\ \hline
@@ -495,8 +494,8 @@ semester & INT & Semestre académico correspondiente. \\ \hline
 
 \begin{table}[H]
 \centering
-\caption{Diccionario de datos de la tabla \textit{course\_schedules}.[Tabla Propia]}
-\begin{tabular}{|l|l|p{8cm}|}
+\caption{Diccionario de datos de la tabla \textit{course\_schedules} [Tabla Propia].}
+\begin{tabular}{|l|l|p{7.7cm}|}
 \hline
 \textbf{Atributo} & \textbf{Tipo de Dato} & \textbf{Descripción} \\ \hline
 id & SERIAL (PK) & Identificador único del horario. \\ \hline
@@ -509,8 +508,8 @@ classroom & VARCHAR(50) & Aula o sala asignada. \\ \hline
 
 \begin{table}[H]
 \centering
-\caption{Diccionario de datos de la tabla \textit{participant\_courses}.[Tabla Propia]}
-\begin{tabular}{|l|l|p{8cm}|}
+\caption{Diccionario de datos de la tabla \textit{participant\_courses} [Tabla Propia].}
+\begin{tabular}{|l|l|p{7.1cm}|}
 \hline
 \textbf{Atributo} & \textbf{Tipo de Dato} & \textbf{Descripción} \\ \hline
 id & SERIAL (PK) & Identificador único de la relación. \\ \hline
@@ -521,8 +520,8 @@ course\_id & INT (FK) & Referencia al curso correspondiente. \\ \hline
 
 \begin{table}[H]
 \centering
-\caption{Diccionario de datos de la tabla \textit{attendances}.[Tabla Propia]}
-\begin{tabular}{|l|l|p{8cm}|}
+\caption{Diccionario de datos de la tabla \textit{attendances} [Tabla Propia].}
+\begin{tabular}{|l|l|p{7.1cm}|}
 \hline
 \textbf{Atributo} & \textbf{Tipo de Dato} & \textbf{Descripción} \\ \hline
 id & SERIAL (PK) & Identificador único del registro de asistencia. \\ \hline
@@ -573,7 +572,7 @@ Las principales funcionalidades implementadas en esta capa incluyen:
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.9\textwidth]{imagenes_doc/backend_estructura.png}
-  \caption{Estructura general del proyecto en Visual Studio Code. [Imagen propia]}
+  \caption{Estructura general del proyecto en Visual Studio Code [Imagen propia].}
   \label{fig:backend_estructura}
 \end{figure}
 
@@ -618,7 +617,7 @@ El diseño minimalista y centrado ofrece una experiencia fluida y adaptable a di
   \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{imagenes_doc/login.png}
-    \caption{Interfaz de inicio de sesión del sistema.[Imagen propia]}
+    \caption{Interfaz de inicio de sesión del sistema [Imagen propia].}
     \label{fig:login}
   \end{figure}
 
@@ -632,7 +631,7 @@ El diseño minimalista y centrado ofrece una experiencia fluida y adaptable a di
   \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{imagenes_doc/new_user.png}
-    \caption{Formulario de registro de usuario.[Imagen propia]}
+    \caption{Formulario de registro de usuario [Imagen propia].}
     \label{fig:new_user}
   \end{figure}
 
@@ -650,7 +649,7 @@ Los datos exhibidos son demostrativos y se utilizan únicamente con fines ilustr
   \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{imagenes_doc/dashboard_1.png}
-    \caption{Gráfico de asistencias por día en el módulo Dashboard.[Imagen propia]}
+    \caption{Gráfico de asistencias por día en el módulo Dashboard [Imagen propia].}
     \label{fig:dashboard1}
   \end{figure}
 
@@ -661,7 +660,7 @@ Los datos exhibidos son demostrativos y se utilizan únicamente con fines ilustr
   \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{imagenes_doc/dashboard_2.png}
-    \caption{Listado de estudiantes y asistencias registradas en el módulo Dashboard.[Imagen propia]}
+    \caption{Listado de estudiantes y asistencias registradas en el módulo Dashboard [Imagen propia].}
     \label{fig:dashboard2}
   \end{figure}
 
@@ -678,7 +677,7 @@ Los datos exhibidos son demostrativos y se utilizan únicamente con fines ilustr
   \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{imagenes_doc/CLASE2_PRUEBA.jpg}
-    \caption{Módulo de reconocimiento facial automático.[Imagen propia]}
+    \caption{Módulo de reconocimiento facial automático [Imagen propia].}
     \label{fig:reconocimiento}
   \end{figure}
 
@@ -691,7 +690,7 @@ Los datos exhibidos son demostrativos y se utilizan únicamente con fines ilustr
   \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{imagenes_doc/roles.png}
-    \caption{Gestión de roles: registro, edición y eliminación.[Imagen propia]}
+    \caption{Gestión de roles: registro, edición y eliminación [Imagen propia].}
     \label{fig:roles}
   \end{figure}
 
@@ -704,7 +703,7 @@ Los datos exhibidos son demostrativos y se utilizan únicamente con fines ilustr
   \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{imagenes_doc/new_curso.png}
-    \caption{Registro y gestión de cursos.[Imagen propia]}
+    \caption{Registro y gestión de cursos [Imagen propia].}
     \label{fig:new_curso}
   \end{figure}
 
@@ -730,7 +729,7 @@ Los datos exhibidos son demostrativos y se utilizan únicamente con fines ilustr
   \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{imagenes_doc/registrar_asistencia.png}
-    \caption{Módulo de registro manual de asistencias.[Imagen propia]}
+    \caption{Módulo de registro manual de asistencias [Imagen propia].}
     \label{fig:registrar_asistencia}
   \end{figure}
 
@@ -743,7 +742,7 @@ Los datos exhibidos son demostrativos y se utilizan únicamente con fines ilustr
   \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{imagenes_doc/asignar_.png}
-    \caption{Asignación de cursos a participantes.[Imagen propia]}
+    \caption{Asignación de cursos a participantes [Imagen propia].}
     \label{fig:asignar}
   \end{figure}
 
@@ -768,7 +767,7 @@ Cada fragmento se presenta con una explicación que facilita la comprensión del
 
 \begin{table}[H]
 \centering
-\caption{Métricas consideradas en el desarrollo y evaluación del sistema. [Tabla Propia]}
+\caption{Métricas consideradas en el desarrollo y evaluación del sistema [Tabla Propia].}
 \label{tab:metricas-sistema}
 
 \footnotesize

@@ -48,7 +48,7 @@ Database file #1: test.bib
 Done.
 You've used 43 entries,
             4087 wiz_defined-function locations,
-            1063 strings with 15186 characters,
+            1064 strings with 15831 characters,
 and the built_in function-call counts, 17489 in all, are:
 = -- 1483
 > -- 253

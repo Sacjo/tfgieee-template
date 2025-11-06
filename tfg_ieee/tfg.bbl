@@ -27,15 +27,17 @@
 {La Nación}. (2020) Reconocimiento facial: cómo nació esta tecnología en
   una tableta de la década del 60. [en línea]. Disponible:
   https://www.lanacion.com.ar/tecnologia/reconocimiento-facial-como-nacio-tableta-decada-del-nid2421334/.
-  [en línea]. Disponible: \url{https://www.lanacion.com.ar/tecnologia [...]}
+  [en línea]. Disponible:
+  \url{https://www.lanacion.com.ar/tecnologia/reconocimiento-facial-como-nacio-tableta-decada-del-nid2421334/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{aeropuertosJapon}
 \BIBentryALTinterwordspacing
 {OSAO México}. (2024) Red de aeropuertos de japón instalará 66 puertas
-  automáticas con reconocimiento facial. [En línea]. Consultado en 2024. [en
-  línea]. Disponible:
-  \url{https://osao.com.mx/aeropuertos-japon-reconocimiento-facial}
+  automáticas con reconocimiento facial. [en línea]. Disponible:
+  https://osao.com.mx/la-red-de-aeropuertos-de-japon-instalara-66-puertas-automaticas-adicionales-con-reconocimiento-facial/.
+  [en línea]. Disponible:
+  \url{https://osao.com.mx/la-red-de-aeropuertos-de-japon-instalara-66-puertas-automaticas-adicionales-con-reconocimiento-facial/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{sandhane_figure3}
@@ -141,7 +143,7 @@ Artificial intelligence. IBM. [en línea]. Disponible:
 E.~Acevedo, A.~Serna, y E.~Serna. (2017) Principios y características de las
   redes neuronales artificiales. [Accedido: 15 de marzo de 2025]. [en línea].
   Disponible:. [en línea]. Disponible:
-  \url{https://www.researchgate.net/profile [...]}
+  \url{https://www.researchgate.net/profile/Jhon-Fredy-Narvaez/publication/320170890_Desarrollos_de_la_Ingenieria_ambiental_en_la_evaluacion_de_la_calidad_de_los_recursos_naturales_y_la_salud_ambiental/links/59d26bfca6fdcc181ad611ce/Desarrollos-de-la-Ingenieria-ambiental-en-la-evaluacion-de-la-calidad-de-los-recursos-naturales-y-la-salud-ambiental.pdf#page=174}
 \BIBentrySTDinterwordspacing
 
 \bibitem{valverde2019}
@@ -239,8 +241,10 @@ Reconocimiento facial para la automatización del registro de asistencia a
 \bibitem{python}
 \BIBentryALTinterwordspacing
 {GoDaddy Inc.} (2024) Python: qué es, para qué sirve y cómo empezar a
-  usarlo. [En línea]. Consultado en 2024. [en línea]. Disponible:
-  \url{https://www.godaddy.com/resources/latam/desarrollo/python}
+  usarlo. [en línea]. Disponible:
+  https://www.godaddy.com/resources/latam/desarrollo/python-que-es. [en
+  línea]. Disponible:
+  \url{https://www.godaddy.com/resources/latam/desarrollo/python-que-es}
 \BIBentrySTDinterwordspacing
 
 \bibitem{javascript}

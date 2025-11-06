@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.21)  6 NOV 2025 16:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.21)  6 NOV 2025 17:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2221,27 +2221,57 @@ Package pdftex.def Info: anexos/anexo_b_img/face4.png  used on input line 99.
 )
 
 [132 <./anexos/anexo_b_img/face4.png>] (tfg.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 27--32
+Underfull \hbox (badness 10000) in paragraph at lines 27--33
 \OT1/cmr/m/n/14.4 https://www.lanacion.com.ar/tecnologia/reconocimiento-
  []
 
 
-Underfull \hbox (badness 3668) in paragraph at lines 27--32
-\OT1/cmr/m/n/14.4 facial-como-nacio-tableta-decada-del-nid2421334/. [en
+Underfull \hbox (badness 10000) in paragraph at lines 27--33
+\OT1/cmr/m/n/14.4 facial-como-nacio-tableta-decada-del-
  []
 
 
-Underfull \hbox (badness 3088) in paragraph at lines 27--32
-\OT1/cmr/m/n/14.4 l^^S^^Pnea]. Dis-po-ni-ble: []$https : / / www . lanacion . com . ar /
+Underfull \hbox (badness 10000) in paragraph at lines 27--33
+\OT1/cmr/m/n/14.4 nid2421334/. [en l^^S^^Pnea]. Dis-po-ni-
  []
 
 
-Underfull \hbox (badness 3354) in paragraph at lines 50--55
+Underfull \hbox (badness 10000) in paragraph at lines 27--33
+\OT1/cmr/m/n/14.4 ble: []$https : / / www . lanacion . com . ar / tecnologia /
+ []
+
+
+Overfull \hbox (42.76117pt too wide) in paragraph at lines 27--33
+\OT1/cmr/m/n/14.4 reconocimiento-[]facial-[]como-[]nacio-[]tableta-[]decada-[]del-[]nid2421334/$[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--42
+\OT1/cmr/m/n/14.4 red-de-aeropuertos-de-japon-instalara-66-puertas-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--42
+\OT1/cmr/m/n/14.4 automaticas-adicionales-con-reconocimiento-facial/.
+ []
+
+
+Underfull \hbox (badness 3058) in paragraph at lines 36--42
+\OT1/cmr/m/n/14.4 [en l^^S^^Pnea]. Dis-po-ni-ble: []$https : / / osao . com . mx /
+ []
+
+
+Overfull \hbox (277.23318pt too wide) in paragraph at lines 36--42
+\OT1/cmr/m/n/14.4 la-[]red-[]de-[]aeropuertos-[]de-[]japon-[]instalara-[]66-[]puertas-[]automaticas-[]adicionales-[]con-[]reconocimiento-[]facial/$[] 
+ []
+
+
+Underfull \hbox (badness 3354) in paragraph at lines 52--57
 []\OT1/cmr/m/n/14.4 Interactive Chaos. (2024) Re-des neu-ro-
  []
 
 
-Underfull \hbox (badness 2443) in paragraph at lines 50--55
+Underfull \hbox (badness 2443) in paragraph at lines 52--57
 \OT1/cmr/m/n/14.4 na-les pre-ali-men-ta-das. [en l^^S^^Pnea]. Dis-po-ni-
  []
 
@@ -2253,81 +2283,113 @@ Underfull \hbox (badness 2443) in paragraph at lines 50--55
 
 
 ]
-Underfull \hbox (badness 1297) in paragraph at lines 73--78
+Underfull \hbox (badness 1297) in paragraph at lines 75--80
 []\OT1/cmr/m/n/14.4 Mi De []Agui-la. (2021) For-ma-to de lis-
  []
 
 
-Underfull \hbox (badness 1199) in paragraph at lines 113--120
+Underfull \hbox (badness 1199) in paragraph at lines 115--122
 []\OT1/cmr/m/n/14.4 Bee Sa-fe Se-cu-rity. (2024) Ex-plo-ring dif-fe-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--120
+Underfull \hbox (badness 10000) in paragraph at lines 115--122
 \OT1/cmr/m/n/14.4 different-types-of-access-control-credentials/. [en
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--120
+Underfull \hbox (badness 10000) in paragraph at lines 115--122
 \OT1/cmr/m/n/14.4 l^^S^^Pnea]. Dis-po-ni-ble: []$https : / / beesafeohio . com /
  []
 
 
 
 [134]
+Underfull \hbox (badness 10000) in paragraph at lines 143--148
+\OT1/cmr/m/n/14.4 researchgate . net / pro^^Lle / Jhon-[]Fredy-[]Narvaez / publication /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--148
+\OT1/cmr/m/n/14.4 320170890[]Desarrollos[]de[]la[]Ingenieria[]ambiental[]en[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--148
+\OT1/cmr/m/n/14.4 la[]evaluacion[]de[]la[]calidad[]de[]los[]recursos[]naturales[]y[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--148
+\OT1/cmr/m/n/14.4 la[]salud[]ambiental / links / 59d26bfca6fdcc181ad611ce /
+ []
+
+
+Overfull \hbox (354.88559pt too wide) in paragraph at lines 143--148
+\OT1/cmr/m/n/14.4 Desarrollos-[]de-[]la-[]Ingenieria-[]ambiental-[]en-[]la-[]evaluacion-[]de-[]la-[]calidad-[]de-[]los-[]recursos-[]naturales-[]y-[]la-[]salud-[]ambiental .
+ []
+
+
 
 [135]
 
 [136]
-Underfull \hbox (badness 1348) in paragraph at lines 234--238
+Underfull \hbox (badness 1348) in paragraph at lines 236--240
 []\OT1/cmr/m/n/14.4 Figma Inc. (2024) ?`qu^^Se es fig-ma? [en
  []
 
 
-Underfull \hbox (badness 3199) in paragraph at lines 234--238
+Underfull \hbox (badness 3199) in paragraph at lines 236--240
 \OT1/cmr/m/n/14.4 l^^S^^Pnea]. Dis-po-ni-ble: https://help.figma.com/hc/es-
  []
 
 
-Underfull \hbox (badness 2799) in paragraph at lines 263--267
-\OT1/cmr/m/n/14.4 About post-gresql. [en l^^S^^Pnea]. Dis-po-ni-ble:
+Overfull \hbox (28.99971pt too wide) in paragraph at lines 243--249
+\OT1/cmr/m/n/14.4 https://www.godaddy.com/resources/latam/desarrollo/python-
  []
 
 
-Underfull \hbox (badness 2229) in paragraph at lines 270--274
-\OT1/cmr/m/n/14.4 l^^S^^Pnea]. Dis-po-ni-ble: https://learn.microsoft.com/es-
+Underfull \hbox (badness 2799) in paragraph at lines 267--271
+\OT1/cmr/m/n/14.4 About post-gresql. [en l^^S^^Pnea]. Dis-po-ni-ble:
  []
 
 
 
 [137]
-Underfull \hbox (badness 10000) in paragraph at lines 284--288
+Underfull \hbox (badness 2229) in paragraph at lines 274--278
+\OT1/cmr/m/n/14.4 l^^S^^Pnea]. Dis-po-ni-ble: https://learn.microsoft.com/es-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 288--292
 []\OT1/cmr/m/n/14.4 GitHub, Inc., ``Acer-ca de github desk-top,''
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 284--288
+Underfull \hbox (badness 10000) in paragraph at lines 288--292
 []$\OT1/cmr/m/n/14.4 https : / / docs . github . com / es / desktop / overview /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 284--288
+Underfull \hbox (badness 10000) in paragraph at lines 288--292
 \OT1/cmr/m/n/14.4 about-[]github-[]desktop$[], 2025, [en l^^S^^Pnea]. Dis-po-ni-ble:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 284--288
+Underfull \hbox (badness 10000) in paragraph at lines 288--292
 \OT1/cmr/m/n/14.4 https://docs.github.com/es/desktop/overview/about-
  []
 
 
-Underfull \hbox (badness 3895) in paragraph at lines 305--310
+Underfull \hbox (badness 3895) in paragraph at lines 309--314
 \OT1/cmr/m/n/14.4 Dis-po-ni-ble: https://builtin.com/software-engineering-
  []
 
-)
 
-[138] (tfg.aux
+
+[138])
+
+[139] (tfg.aux
 LaTeX Info: Redefining \. on input line 18.
 LaTeX Info: Redefining \% on input line 18.
  (portada_y_ficha_catalografica/portada_y_ficha_catalografica.aux) (hoja_aprobacion/hoja_aprobacion.aux) (dedicatoria/dedicatoria.aux) (agradecimientos/agradecimientos.aux) (epigrafe/epigrafe.aux) (resumen/resumen.aux) (abstract/abstract.aux) (capitulo_01/introduccion.aux) (capitulo_02/marco_teorico.aux) (capitulo_03/Herramientas_Tecnologicas.aux) (capitulo_04/marco_metodologico.aux) (capitulo_05/resultados.aux) (capitulo_06/discusion.aux) (anexos/anexo.aux) (anexos/anexob.aux))
@@ -2343,17 +2405,17 @@ Package rerunfilecheck Info: File `tfg.out' has not changed.
 (rerunfilecheck)             Checksum: A3590C0CC97238164B30249D391E43C3;16075.
  ) 
 Here is how much of TeX's memory you used:
- 35540 strings out of 468081
- 721393 string characters out of 5435855
+ 35541 strings out of 468081
+ 721401 string characters out of 5435855
  1193769 words of memory out of 5000000
  63125 multiletter control sequences out of 15000+600000
  645075 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,16n,93p,2533b,937s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\aldoc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\aldoc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\aldoc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcbx1440.pk> <C:\Users\aldoc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1440.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on tfg.pdf (160 pages, 9605617 bytes).
+Output written on tfg.pdf (161 pages, 9611096 bytes).
 PDF statistics:
- 2019 PDF objects out of 2073 (max. 8388607)
- 437 named destinations out of 1000 (max. 500000)
+ 2029 PDF objects out of 2073 (max. 8388607)
+ 438 named destinations out of 1000 (max. 500000)
  1074 words of extra memory for PDF output out of 10000 (max. 10000000)
 

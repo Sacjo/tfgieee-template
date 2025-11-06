@@ -1,16 +1,16 @@
 \babel@toc {spanish}{}\relax 
 \contentsline {chapter}{Resumen}{\es@scroman {ix}}{figure.caption.4}%
 \contentsline {chapter}{Abstract}{\es@scroman {x}}{figure.caption.4}%
-\contentsline {chapter}{\'Indice de figuras}{\es@scroman {xi}}{chapter*.6}%
-\contentsline {chapter}{\'Indice de tablas}{\es@scroman {xii}}{chapter*.7}%
+\contentsline {chapter}{\'Indice de figuras}{\es@scroman {xx}}{chapter*.6}%
+\contentsline {chapter}{\'Indice de tablas}{\es@scroman {xxii}}{chapter*.7}%
 \contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Motivación}{2}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Definición del problema}{2}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Objetivos}{4}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Objetivo General}{4}{subsection.1.3.1}%
+\contentsline {section}{\numberline {1.3}Objetivos}{3}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Objetivo General}{3}{subsection.1.3.1}%
 \contentsline {subsection}{\numberline {1.3.2}Objetivos Específicos}{4}{subsection.1.3.2}%
 \contentsline {section}{\numberline {1.4}Hipótesis}{4}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Fundamentación.}{5}{section.1.5}%
+\contentsline {section}{\numberline {1.5}Fundamentación.}{4}{section.1.5}%
 \contentsline {section}{\numberline {1.6}Delimitación del Trabajo.}{5}{section.1.6}%
 \contentsline {chapter}{\numberline {2}Conceptos fundamentales, teorías y antecedentes}{7}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Biometría}{7}{section.2.1}%
@@ -63,7 +63,7 @@
 \contentsline {subsection}{\numberline {4.7.1}Arquitectura del sistema}{56}{subsection.4.7.1}%
 \contentsline {subsection}{\numberline {4.7.2}Integración de IA y Reconocimiento Facial}{57}{subsection.4.7.2}%
 \contentsline {subsection}{\numberline {4.7.3}Relevamiento de requisitos}{58}{subsection.4.7.3}%
-\contentsline {subsection}{\numberline {4.7.4}Caso de Uso Principal del Sistema}{59}{subsection.4.7.4}%
+\contentsline {subsection}{\numberline {4.7.4}Caso de Uso Principal del Sistema}{60}{subsection.4.7.4}%
 \contentsline {subsubsection}{Descripción general del caso de uso}{60}{section*.43}%
 \contentsline {subsection}{\numberline {4.7.5}Definición de la Base de Datos y Tablas}{61}{subsection.4.7.5}%
 \contentsline {subsection}{\numberline {4.7.6}Diagrama de flujo del funcionamiento del sistema}{64}{subsection.4.7.6}%
@@ -78,13 +78,14 @@
 \contentsline {section}{\numberline {5.1}Figuras y Tablas}{81}{section.5.1}%
 \contentsline {subsection}{\numberline {5.1.1}Errores detectados y ajustes aplicados}{82}{subsection.5.1.1}%
 \contentsline {subsection}{\numberline {5.1.2}Configuraciones y resultados obtenidos}{84}{subsection.5.1.2}%
-\contentsline {section}{\numberline {5.2}Resultados finales del sistema en condiciones reales de un aula}{92}{section.5.2}%
-\contentsline {chapter}{\numberline {6}Discusión}{110}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Logros alcanzados con relación a los objetivos específicos}{111}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Logros alcanzados con relación al Objetivo General}{113}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Análisis de la hipótesis}{114}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Solución al problema de investigación}{115}{section.6.4}%
-\contentsline {section}{\numberline {6.5}Sugerencias para futuras investigaciones}{116}{section.6.5}%
-\contentsline {chapter}{Anexo A.}{118}{chapter*.101}%
-\contentsline {chapter}{Anexos}{118}{section.6.5}%
-\contentsline {chapter}{Anexo B.}{124}{chapter*.113}%
+\contentsline {section}{\numberline {5.2}Resultados finales del sistema en condiciones reales de un aula}{91}{section.5.2}%
+\contentsline {chapter}{\numberline {6}Discusión}{109}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Logros alcanzados con relación a los objetivos específicos}{110}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Logros alcanzados con relación al Objetivo General}{112}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Análisis de la hipótesis}{113}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Solución al problema de investigación}{114}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Sugerencias para futuras investigaciones}{115}{section.6.5}%
+\contentsline {chapter}{Anexo A.}{117}{chapter*.101}%
+\contentsline {chapter}{Anexos}{117}{section.6.5}%
+\contentsline {chapter}{Anexo B.}{123}{chapter*.113}%
+\contentsline {chapter}{Referencias bibliogr\'aficas}{132}{figure.caption.129}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.21)  6 NOV 2025 17:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.21)  6 NOV 2025 17:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -868,12 +868,7 @@ Package glossaries Info: Writing glossary file tfg.glo on input line 43.
 (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count428
-) (tfg.aux
-LaTeX Info: Redefining \. on input line 18.
-LaTeX Info: Redefining \% on input line 18.
-Package babel Info: 'spanish' activates 'spanish' shorthands.
-(babel)             Reported on input line 18.
- (portada_y_ficha_catalografica/portada_y_ficha_catalografica.aux) (hoja_aprobacion/hoja_aprobacion.aux) (dedicatoria/dedicatoria.aux) (agradecimientos/agradecimientos.aux) (epigrafe/epigrafe.aux) (resumen/resumen.aux) (abstract/abstract.aux) (capitulo_01/introduccion.aux) (capitulo_02/marco_teorico.aux) (capitulo_03/Herramientas_Tecnologicas.aux) (capitulo_04/marco_metodologico.aux) (capitulo_05/resultados.aux) (capitulo_06/discusion.aux) (anexos/anexo.aux) (anexos/anexob.aux))
+) (tfg.aux)
 \openout1 = `tfg.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
@@ -924,8 +919,9 @@ Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Info: Redefining \. on input line 45.
 LaTeX Info: Redefining \% on input line 45.
+Package babel Info: 'spanish' activates 'spanish' shorthands.
+(babel)             Reported on input line 45.
 Package hyperref Info: Link coloring OFF on input line 45.
- (tfg.out) (tfg.out)
 \@outlinefile=\write7
 \openout7 = `tfg.out'.
 
@@ -942,7 +938,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 (Font)              using `OT1/cmr/bx/n' instead on input line 67.
 
-<./portada_y_ficha_catalografica/logo.png, id=352, 216.0873pt x 216.0873pt>
+<./portada_y_ficha_catalografica/logo.png, id=6, 216.0873pt x 216.0873pt>
 File: ./portada_y_ficha_catalografica/logo.png Graphic file (type png)
 <use ./portada_y_ficha_catalografica/logo.png>
 Package pdftex.def Info: ./portada_y_ficha_catalografica/logo.png  used on input line 75.
@@ -1037,25 +1033,10 @@ Underfull \hbox (badness 6173) in paragraph at lines 19--20
 
 
 
-] (tfg.toc
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-
-
-Package spanish Warning: Replacing `OT1/cmr/bx/sc' by 
-(spanish)                faked small caps on input line 2.
-
-
-Package spanish Warning: Replacing `OT1/cmr/bx/sc' by 
-(spanish)                faked small caps on input line 3.
-
-
-Package spanish Warning: Replacing `OT1/cmr/bx/sc' by 
-(spanish)                faked small caps on input line 4.
-
-
-Package spanish Warning: Replacing `OT1/cmr/bx/sc' by 
-(spanish)                faked small caps on input line 5.
+]
+No file tfg.toc.
+\tf@toc=\write8
+\openout8 = `tfg.toc'.
 
 
 
@@ -1064,231 +1045,25 @@ Package spanish Warning: Replacing `OT1/cmr/bx/sc' by
 
 
 ]
-
-LaTeX Info: Redefining \. on input line 51.
-LaTeX Info: Redefining \% on input line 51.
-Package babel Info: 'spanish' activates 'spanish' shorthands.
-(babel)             Reported on input line 51.
-LaTeX Info: Redefining \. on input line 51.
-LaTeX Info: Redefining \% on input line 51.
-
-Package fancyhdr Warning: \headheight is too small (14.5pt): 
-(fancyhdr)                Make it at least 15.71667pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.71667pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.21667pt}.
-
-[11]
-Overfull \hbox (5.77188pt too wide) in paragraph at lines 81--81
- [][] [][]\OT1/cmr/m/n/14.4 Resultados fi-na-les del sis-te-ma en con-di-cio-nes reales 
- []
-
-
-
-LaTeX Info: Redefining \. on input line 82.
-LaTeX Info: Redefining \% on input line 82.
-LaTeX Info: Redefining \. on input line 82.
-LaTeX Info: Redefining \% on input line 82.
-
-Package fancyhdr Warning: \headheight is too small (14.5pt): 
-(fancyhdr)                Make it at least 15.71667pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.71667pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.21667pt}.
-
-[12])
-\tf@toc=\write8
-\openout8 = `tfg.toc'.
-
-
-
-LaTeX Info: Redefining \. on input line 105.
-LaTeX Info: Redefining \% on input line 105.
-LaTeX Info: Redefining \. on input line 105.
-LaTeX Info: Redefining \% on input line 105.
-
-Package fancyhdr Warning: \headheight is too small (14.5pt): 
-(fancyhdr)                Make it at least 15.71667pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.71667pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.21667pt}.
-
-[13] (tfg.lof
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-
-
-[14
-
-]
-Overfull \hbox (4.36191pt too wide) in paragraph at lines 19--19
- [][] [][]\OT1/cmr/m/n/14.4 Caso de uso prin-ci-pal del sis-te-ma Check-Fa-ce[Tabla 
- []
-
-
-Overfull \hbox (4.20027pt too wide) in paragraph at lines 20--20
- [][] [][]\OT1/cmr/m/n/14.4 Diagrama de En-ti-dad{Relaci^^Son del sis-te-ma Check- 
- []
-
-
-Overfull \hbox (2.27858pt too wide) in paragraph at lines 27--27
- [][] [][]\OT1/cmr/m/n/14.4 M^^Sodu-lo de re-co-no-ci-mien-to fa-cial au-tom^^Sati-co [Ima- 
- []
-
-
-
-LaTeX Info: Redefining \. on input line 29.
-LaTeX Info: Redefining \% on input line 29.
-LaTeX Info: Redefining \. on input line 29.
-LaTeX Info: Redefining \% on input line 29.
-
-Package fancyhdr Warning: \headheight is too small (14.5pt): 
-(fancyhdr)                Make it at least 15.71667pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.71667pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.21667pt}.
-
-[15]
-
-LaTeX Info: Redefining \. on input line 46.
-LaTeX Info: Redefining \% on input line 46.
-LaTeX Info: Redefining \. on input line 46.
-LaTeX Info: Redefining \% on input line 46.
-
-Package fancyhdr Warning: \headheight is too small (14.5pt): 
-(fancyhdr)                Make it at least 15.71667pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.71667pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.21667pt}.
-
-[16]
-
-LaTeX Info: Redefining \. on input line 57.
-LaTeX Info: Redefining \% on input line 57.
-LaTeX Info: Redefining \. on input line 57.
-LaTeX Info: Redefining \% on input line 57.
-
-Package fancyhdr Warning: \headheight is too small (14.5pt): 
-(fancyhdr)                Make it at least 15.71667pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.71667pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.21667pt}.
-
-[17]
-Overfull \hbox (7.2602pt too wide) in paragraph at lines 58--58
- [][] [][]\OT1/cmr/m/n/14.4 Registros de asis-ten-cias ge-ne-ra-dos au-tom^^Sati-ca-men- 
- []
-
-
-
-LaTeX Info: Redefining \. on input line 70.
-LaTeX Info: Redefining \% on input line 70.
-LaTeX Info: Redefining \. on input line 70.
-LaTeX Info: Redefining \% on input line 70.
-
-Package fancyhdr Warning: \headheight is too small (14.5pt): 
-(fancyhdr)                Make it at least 15.71667pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.71667pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.21667pt}.
-
-[18]
-Overfull \hbox (36.85771pt too wide) in paragraph at lines 76--76
- [][] [][]\OT1/cmr/m/n/14.4 Funci^^Son \OT1/cmtt/m/n/14.4 recortar[]y[]guardar \OT1/cmr/m/n/14.4 del m^^Sodu-lo \OT1/cmtt/m/n/14.4 train[]faces\OT1/cmr/m/n/14.4 , 
- []
-
-
-Overfull \hbox (42.52972pt too wide) in paragraph at lines 77--77
- [][] [][]\OT1/cmr/m/n/14.4 Fragmento del c^^Sodi-go de la fun-ci^^Son \OT1/cmtt/m/n/14.4 generar[]embeddings 
- []
-
-
-
-LaTeX Info: Redefining \. on input line 79.
-LaTeX Info: Redefining \% on input line 79.
-LaTeX Info: Redefining \. on input line 79.
-LaTeX Info: Redefining \% on input line 79.
-
-Package fancyhdr Warning: \headheight is too small (14.5pt): 
-(fancyhdr)                Make it at least 15.71667pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.71667pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.21667pt}.
-
-[19]
-Overfull \hbox (38.93251pt too wide) in paragraph at lines 80--80
- [][] [][]\OT1/cmr/m/n/14.4 Funci^^Son \OT1/cmtt/m/n/14.4 load[]centroids \OT1/cmr/m/n/14.4 del m^^Sodu-lo \OT1/cmtt/m/n/14.4 face[]recognizer\OT1/cmr/m/n/14.4 , 
- []
-
-
-Overfull \hbox (38.93251pt too wide) in paragraph at lines 81--81
- [][] [][]\OT1/cmr/m/n/14.4 Funci^^Son \OT1/cmtt/m/n/14.4 recognize[]face \OT1/cmr/m/n/14.4 del m^^Sodu-lo \OT1/cmtt/m/n/14.4 face[]recognizer\OT1/cmr/m/n/14.4 , 
- []
-
-
-Overfull \hbox (1.31125pt too wide) in paragraph at lines 82--82
- [][] [][]\OT1/cmr/m/n/14.4 Funci^^Son \OT1/cmtt/m/n/14.4 recognize[]faces[]from[]crops \OT1/cmr/m/n/14.4 del m^^Sodu- 
- []
-
-
-Overfull \hbox (8.82808pt too wide) in paragraph at lines 82--82
- \OT1/cmr/m/n/14.4 lo \OT1/cmtt/m/n/14.4 face[]recognizer\OT1/cmr/m/n/14.4 , uti-li-za-da pa-ra pro-ce-sar m^^Sulti- 
- []
-
-)
+No file tfg.lof.
 \tf@lof=\write9
 \openout9 = `tfg.lof'.
 
 
 
-LaTeX Info: Redefining \. on input line 107.
-LaTeX Info: Redefining \% on input line 107.
-LaTeX Info: Redefining \. on input line 107.
-LaTeX Info: Redefining \% on input line 107.
+[11
 
-Package fancyhdr Warning: \headheight is too small (14.5pt): 
-(fancyhdr)                Make it at least 15.71667pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.71667pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.21667pt}.
-
-[20] (tfg.lot
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-
-Overfull \hbox (10.90015pt too wide) in paragraph at lines 11--11
- [][] [][]\OT1/cmr/m/n/14.4 Requisitos fun-cio-na-les del sis-te-ma Check-Fa-ce[Tabla 
- []
-
-
-Overfull \hbox (6.67331pt too wide) in paragraph at lines 18--18
- [][] [][]\OT1/cmr/m/n/14.4 Diccionario de da-tos de la ta-bla \OT1/cmr/m/it/14.4 par-ti-ci-pant[]courses 
- []
-
-
-
-[21
-
-])
+]
+No file tfg.lot.
 \tf@lot=\write10
 \openout10 = `tfg.lot'.
-
 
 No file tfg.gls.
 
 
-LaTeX Info: Redefining \. on input line 112.
-LaTeX Info: Redefining \% on input line 112.
-LaTeX Info: Redefining \. on input line 112.
-LaTeX Info: Redefining \% on input line 112.
+[12
 
-Package fancyhdr Warning: \headheight is too small (14.5pt): 
-(fancyhdr)                Make it at least 15.71667pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.71667pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.21667pt}.
-
-[22]
+]
 \openout2 = `./capitulo_01/introduccion.aux'.
 
  (capitulo_01/introduccion.tex
@@ -1321,6 +1096,9 @@ LaTeX Warning: No positions in optional float specifier.
 
 Cap\'{\i }tulo 2.
 
+LaTeX Warning: Citation `historiaReconocimiento' on page 7 undefined on input line 18.
+
+
 
 [7
 
@@ -1329,31 +1107,89 @@ Cap\'{\i }tulo 2.
 
 ]
 
+LaTeX Warning: Citation `historiaReconocimiento' on page 8 undefined on input line 20.
+
+
+LaTeX Warning: Citation `historiaReconocimiento' on page 8 undefined on input line 22.
+
+
+LaTeX Warning: Citation `avastSeguridadBiometrica' on page 8 undefined on input line 29.
+
+
+LaTeX Warning: Citation `thalesBiometria' on page 8 undefined on input line 31.
+
+
+LaTeX Warning: Citation `thalesBiometria' on page 8 undefined on input line 33.
+
+
+
 [8]
-<imagenes_doc/segu_biometrica_1.jpg, id=967, 1033.8625pt x 689.57625pt>
+<imagenes_doc/segu_biometrica_1.jpg, id=137, 1033.8625pt x 689.57625pt>
 File: imagenes_doc/segu_biometrica_1.jpg Graphic file (type jpg)
 <use imagenes_doc/segu_biometrica_1.jpg>
 Package pdftex.def Info: imagenes_doc/segu_biometrica_1.jpg  used on input line 38.
 (pdftex.def)             Requested size: 390.0pt x 260.12668pt.
 
 
+LaTeX Warning: Citation `beesafe_accesscontrol' on page 9 undefined on input line 39.
+
+
+LaTeX Warning: Citation `thalesBiometria' on page 9 undefined on input line 47.
+
+
+LaTeX Warning: Citation `historiaReconocimiento' on page 9 undefined on input line 58.
+
+
+
 [9 <./imagenes_doc/segu_biometrica_1.jpg>]
-<imagenes_doc/tabla_rand.jpg, id=978, 883.3pt x 588.1975pt>
+<imagenes_doc/tabla_rand.jpg, id=144, 883.3pt x 588.1975pt>
 File: imagenes_doc/tabla_rand.jpg Graphic file (type jpg)
 <use imagenes_doc/tabla_rand.jpg>
 Package pdftex.def Info: imagenes_doc/tabla_rand.jpg  used on input line 62.
 (pdftex.def)             Requested size: 390.0pt x 259.70522pt.
 
 
+LaTeX Warning: Citation `lanacion_historiafacial' on page 10 undefined on input line 63.
+
+
+LaTeX Warning: Citation `lanacion_historiafacial' on page 10 undefined on input line 63.
+
+
+LaTeX Warning: Citation `historiaReconocimiento' on page 10 undefined on input line 69.
+
+
+LaTeX Warning: Citation `lanacion_historiafacial' on page 10 undefined on input line 71.
+
+
+
 [10 <./imagenes_doc/tabla_rand.jpg>]
-<imagenes_doc/Reconocimiento_Facial.jpg, id=990, 240.9pt x 166.9437pt>
+
+LaTeX Warning: Citation `historiaReconocimiento' on page 11 undefined on input line 73.
+
+
+LaTeX Warning: Citation `lanacion_historiafacial' on page 11 undefined on input line 75.
+
+
+LaTeX Warning: Citation `reconocimientoKaspersky' on page 11 undefined on input line 83.
+
+<imagenes_doc/Reconocimiento_Facial.jpg, id=153, 240.9pt x 166.9437pt>
 File: imagenes_doc/Reconocimiento_Facial.jpg Graphic file (type jpg)
 <use imagenes_doc/Reconocimiento_Facial.jpg>
 Package pdftex.def Info: imagenes_doc/Reconocimiento_Facial.jpg  used on input line 87.
 (pdftex.def)             Requested size: 390.0pt x 270.29698pt.
 
+LaTeX Warning: Citation `aeropuertosJapon' on page 11 undefined on input line 88.
+
+
+LaTeX Warning: Citation `aeropuertosJapon' on page 11 undefined on input line 88.
+
+
 
 [11]
+
+LaTeX Warning: Citation `reconocimientoKaspersky' on page 12 undefined on input line 98.
+
+
 Overfull \hbox (10.62833pt too wide) in paragraph at lines 94--99
 []\OT1/cmr/m/n/14.4 El re-co-no-ci-mien-to fa-cial es una ca-te-gor^^S^^Pa de se-gu-ri-dad biom^^Setri-
  []
@@ -1362,79 +1198,205 @@ Overfull \hbox (10.62833pt too wide) in paragraph at lines 94--99
 
 [12 <./imagenes_doc/Reconocimiento_Facial.jpg>]
 
+LaTeX Warning: Citation `reconocimientoKaspersky' on page 13 undefined on input line 132.
+
+
+
 [13]
+
+LaTeX Warning: Citation `facialAWS' on page 14 undefined on input line 142.
+
+
+LaTeX Warning: Citation `facialAWS' on page 14 undefined on input line 148.
+
+
+LaTeX Warning: Citation `facialAWS' on page 14 undefined on input line 151.
+
+
+LaTeX Warning: Citation `reconocimientoKaspersky' on page 14 undefined on input line 161.
+
+
 
 [14]
 
+LaTeX Warning: Citation `aiIBM' on page 15 undefined on input line 189.
+
+
+
 [15]
+
+LaTeX Warning: Citation `acevedo2017' on page 16 undefined on input line 196.
+
+
+LaTeX Warning: Citation `valverde2019' on page 16 undefined on input line 201.
+
+
 
 [16]
 
+LaTeX Warning: Citation `perez2021' on page 17 undefined on input line 216.
+
+
+
 [17]
-<imagenes_doc/DEEP_LEARNING.jpg, id=1039, 1187.43625pt x 1204.5pt>
+
+LaTeX Warning: Citation `urgel2021' on page 18 undefined on input line 222.
+
+<imagenes_doc/DEEP_LEARNING.jpg, id=192, 1187.43625pt x 1204.5pt>
 File: imagenes_doc/DEEP_LEARNING.jpg Graphic file (type jpg)
 <use imagenes_doc/DEEP_LEARNING.jpg>
 Package pdftex.def Info: imagenes_doc/DEEP_LEARNING.jpg  used on input line 226.
 (pdftex.def)             Requested size: 252.44917pt x 256.07692pt.
 
+LaTeX Warning: Citation `sandhane_figure3' on page 18 undefined on input line 227.
+
+
+LaTeX Warning: Citation `sandhane_figure3' on page 18 undefined on input line 227.
+
+
 
 [18 <./imagenes_doc/DEEP_LEARNING.jpg>]
 
+LaTeX Warning: Citation `perceptrons1969' on page 19 undefined on input line 244.
+
+
+
 [19]
 
+LaTeX Warning: Citation `aiGoogleCloud' on page 20 undefined on input line 336.
+
+
+LaTeX Warning: Citation `aiGoogleCloud' on page 20 undefined on input line 338.
+
+
+
 [20]
-<imagenes_doc/image_01.jpg, id=1060, 471.26062pt x 197.23688pt>
+<imagenes_doc/image_01.jpg, id=210, 471.26062pt x 197.23688pt>
 File: imagenes_doc/image_01.jpg Graphic file (type jpg)
 <use imagenes_doc/image_01.jpg>
 Package pdftex.def Info: imagenes_doc/image_01.jpg  used on input line 344.
 (pdftex.def)             Requested size: 390.0pt x 163.22801pt.
-<imagenes_doc/image_02.jpg, id=1063, 488.57532pt x 230.36063pt>
+
+
+LaTeX Warning: Citation `interactivechaos_ffnn' on page 21 undefined on input line 345.
+
+
+LaTeX Warning: Citation `interactivechaos_ffnn' on page 21 undefined on input line 345.
+
+<imagenes_doc/image_02.jpg, id=211, 488.57532pt x 230.36063pt>
 File: imagenes_doc/image_02.jpg Graphic file (type jpg)
 <use imagenes_doc/image_02.jpg>
 Package pdftex.def Info: imagenes_doc/image_02.jpg  used on input line 353.
 (pdftex.def)             Requested size: 390.0pt x 183.8845pt.
 
+LaTeX Warning: Citation `interactivechaos_ffnn' on page 21 undefined on input line 354.
+
+
+LaTeX Warning: Citation `interactivechaos_ffnn' on page 21 undefined on input line 354.
+
+
 
 [21 <./imagenes_doc/image_01.jpg>]
-<imagenes_doc/redes_convolucionales.png, id=1073, 1606.0pt x 823.075pt>
+
+LaTeX Warning: Citation `aiGoogleCloud' on page 22 undefined on input line 358.
+
+
+LaTeX Warning: Citation `interactivechaos_ffnn' on page 22 undefined on input line 360.
+
+<imagenes_doc/redes_convolucionales.png, id=217, 1606.0pt x 823.075pt>
 File: imagenes_doc/redes_convolucionales.png Graphic file (type png)
 <use imagenes_doc/redes_convolucionales.png>
 Package pdftex.def Info: imagenes_doc/redes_convolucionales.png  used on input line 363.
 (pdftex.def)             Requested size: 390.0pt x 199.87802pt.
 
+LaTeX Warning: Citation `falken_cnn' on page 22 undefined on input line 364.
+
+
+LaTeX Warning: Citation `falken_cnn' on page 22 undefined on input line 364.
+
+
 
 [22 <./imagenes_doc/image_02.jpg>]
-<imagenes_doc/Redes_GAN.jpg, id=1082, 1403.2425pt x 479.7925pt>
+
+LaTeX Warning: Citation `aiGoogleCloud' on page 23 undefined on input line 368.
+
+<imagenes_doc/Redes_GAN.jpg, id=224, 1403.2425pt x 479.7925pt>
 File: imagenes_doc/Redes_GAN.jpg Graphic file (type jpg)
 <use imagenes_doc/Redes_GAN.jpg>
 Package pdftex.def Info: imagenes_doc/Redes_GAN.jpg  used on input line 372.
 (pdftex.def)             Requested size: 390.0pt x 133.3453pt.
 
+LaTeX Warning: Citation `gan_aws' on page 23 undefined on input line 373.
+
+
+LaTeX Warning: Citation `gan_aws' on page 23 undefined on input line 373.
+
+
 
 [23 <./imagenes_doc/redes_convolucionales.png> <./imagenes_doc/Redes_GAN.jpg>]
 
+LaTeX Warning: Citation `mora2002' on page 24 undefined on input line 382.
+
+
+
 [24]
-<imagenes_doc/registroimg.jpg, id=1097, 1149.29375pt x 489.83pt>
+
+LaTeX Warning: Citation `registroAsistenciaUTA' on page 25 undefined on input line 415.
+
+<imagenes_doc/registroimg.jpg, id=237, 1149.29375pt x 489.83pt>
 File: imagenes_doc/registroimg.jpg Graphic file (type jpg)
 <use imagenes_doc/registroimg.jpg>
 Package pdftex.def Info: imagenes_doc/registroimg.jpg  used on input line 418.
 (pdftex.def)             Requested size: 390.0pt x 166.2186pt.
+
+LaTeX Warning: Citation `listaAsistenciaEscolar' on page 25 undefined on input line 419.
+
+
+LaTeX Warning: Citation `listaAsistenciaEscolar' on page 25 undefined on input line 419.
+
 
 
 [25]
 
 [26 <./imagenes_doc/registroimg.jpg>]
 Overfull \hbox (1.3817pt too wide) in paragraph at lines 443--444
-[]\OT1/cmr/bx/sc/14.4 Seguimiento acad^^Semi-co: \OT1/cmr/m/n/14.4 Fa-ci-li-tan el se-gui-mien-to del pro-
+[]\OT1/cmr/bx/n/14.4 Seguimiento acad^^Semi-co: \OT1/cmr/m/n/14.4 Fa-ci-li-tan el se-gui-mien-to del pro-
  []
+
+
+LaTeX Warning: Citation `registroAsistenciaUTA' on page 27 undefined on input line 444.
+
+
+LaTeX Warning: Citation `registroAsistenciaUTA' on page 27 undefined on input line 448.
+
+
+LaTeX Warning: Citation `detecFacialOpenCV' on page 27 undefined on input line 455.
 
 
 
 [27]
 
+LaTeX Warning: Citation `examOnline' on page 28 undefined on input line 459.
+
+
+
 [28]
 
+LaTeX Warning: Citation `sistemaBiometricoRaspberry' on page 29 undefined on input line 465.
+
+
+LaTeX Warning: Citation `prototipoUNIANDES' on page 29 undefined on input line 470.
+
+
+
 [29]
+
+LaTeX Warning: Citation `registroAsistenciaUTA' on page 30 undefined on input line 474.
+
+
+LaTeX Warning: Citation `automatizacionAsistencia' on page 30 undefined on input line 478.
+
+
 
 [30])
 
@@ -1444,6 +1406,9 @@ Overfull \hbox (1.3817pt too wide) in paragraph at lines 443--444
  (capitulo_03/Herramientas_Tecnologicas.tex
 Cap\'{\i }tulo 3.
 
+LaTeX Warning: Citation `figma' on page 32 undefined on input line 27.
+
+
 
 [32
 
@@ -1452,15 +1417,57 @@ Cap\'{\i }tulo 3.
 
 ]
 
+LaTeX Warning: Citation `python' on page 33 undefined on input line 31.
+
+
+LaTeX Warning: Citation `javascript' on page 33 undefined on input line 37.
+
+
+
 [33]
+
+LaTeX Warning: Citation `sql' on page 34 undefined on input line 48.
+
+
+LaTeX Warning: Citation `postgresql' on page 34 undefined on input line 55.
+
+
+LaTeX Warning: Citation `git' on page 34 undefined on input line 59.
+
+
 
 [34]
 
+LaTeX Warning: Citation `vscode' on page 35 undefined on input line 66.
+
+
+LaTeX Warning: Citation `githubdesktop' on page 35 undefined on input line 69.
+
+
+
 [35]
+
+LaTeX Warning: Citation `imaginaPostman' on page 36 undefined on input line 73.
+
+
+LaTeX Warning: Citation `react' on page 36 undefined on input line 84.
+
+
 
 [36]
 
-[37])
+LaTeX Warning: Citation `flask' on page 37 undefined on input line 89.
+
+
+LaTeX Warning: Citation `yolo' on page 37 undefined on input line 94.
+
+
+
+[37]
+
+LaTeX Warning: Citation `DeepFace' on page 38 undefined on input line 98.
+
+)
 
 [38]
 \openout2 = `./capitulo_04/marco_metodologico.aux'.
@@ -1479,7 +1486,10 @@ Cap\'{\i }tulo 4.
 [40]
 
 [41]
-<imagenes_doc/notion.jpg, id=1219, 1606.0pt x 1172.38pt>
+
+LaTeX Warning: Reference `fig:scrum' on page 42 undefined on input line 56.
+
+<imagenes_doc/notion.jpg, id=343, 1606.0pt x 1172.38pt>
 File: imagenes_doc/notion.jpg Graphic file (type jpg)
 <use imagenes_doc/notion.jpg>
 Package pdftex.def Info: imagenes_doc/notion.jpg  used on input line 60.
@@ -1495,6 +1505,13 @@ Package pdftex.def Info: imagenes_doc/notion.jpg  used on input line 60.
 [45]
 
 [46]
+
+LaTeX Warning: Citation `fatima2024yolov8' on page 47 undefined on input line 122.
+
+
+LaTeX Warning: Citation `fatima2024yolov8' on page 47 undefined on input line 122.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 129--129
 []|\OT1/cmr/bx/n/12 Tiempo de
  []
@@ -1505,6 +1522,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 138--139
  []
 
 
+LaTeX Warning: Citation `yolov8face2024' on page 47 undefined on input line 153.
+
+
+LaTeX Warning: Citation `yolov8face2024' on page 47 undefined on input line 153.
+
+
 Underfull \hbox (badness 1546) in paragraph at lines 167--167
 \OT1/cmr/m/n/10.95 sos. Ade-cua-do pa-ra en-tor-nos
  []
@@ -1513,7 +1536,27 @@ Underfull \hbox (badness 1546) in paragraph at lines 167--167
 
 [47]
 
+LaTeX Warning: Citation `yolov8face2024' on page 48 undefined on input line 182.
+
+
+LaTeX Warning: Citation `yolov8face2024' on page 48 undefined on input line 182.
+
+
+
 [48]
+
+LaTeX Warning: Citation `yolov8face2024' on page 49 undefined on input line 204.
+
+
+LaTeX Warning: Citation `yolov8face2024' on page 49 undefined on input line 204.
+
+
+LaTeX Warning: Citation `yolov8face2024' on page 49 undefined on input line 225.
+
+
+LaTeX Warning: Citation `yolov8face2024' on page 49 undefined on input line 225.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 238--238
 []|\OT1/cmr/m/n/12 Requiere pre-pro-ce-sa-mien-to
  []
@@ -1523,7 +1566,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 238--238
 [49]
 
 [50]
-<imagenes_doc/sin_normalizar.png, id=1269, 1016.598pt x 402.90524pt>
+
+LaTeX Warning: Reference `fig:rostro_original' on page 51 undefined on input line 266.
+
+
+LaTeX Warning: Reference `fig:rostro_normalizado' on page 51 undefined on input line 266.
+
+<imagenes_doc/sin_normalizar.png, id=390, 1016.598pt x 402.90524pt>
 File: imagenes_doc/sin_normalizar.png Graphic file (type png)
 <use imagenes_doc/sin_normalizar.png>
 Package pdftex.def Info: imagenes_doc/sin_normalizar.png  used on input line 270.
@@ -1531,7 +1580,7 @@ Package pdftex.def Info: imagenes_doc/sin_normalizar.png  used on input line 270
 
 
 [51]
-<imagenes_doc/dataset_rostros.jpg, id=1275, 1009.97325pt x 361.35pt>
+<imagenes_doc/dataset_rostros.jpg, id=396, 1009.97325pt x 361.35pt>
 File: imagenes_doc/dataset_rostros.jpg Graphic file (type jpg)
 <use imagenes_doc/dataset_rostros.jpg>
 Package pdftex.def Info: imagenes_doc/dataset_rostros.jpg  used on input line 277.
@@ -1550,8 +1599,18 @@ Package pdftex.def Info: imagenes_doc/dataset_rostros.jpg  used on input line 27
 
 [57]
 
+LaTeX Warning: Reference `tab:rf_checkface' on page 58 undefined on input line 374.
+
+
+LaTeX Warning: Reference `tab:rnf_checkface' on page 58 undefined on input line 394.
+
+
+
 [58]
-<capitulo_04/imagenes/5.png, id=1323, 1645.14626pt x 1394.20876pt>
+
+LaTeX Warning: Reference `fig:caso_uso_principal' on page 59 undefined on input line 413.
+
+<capitulo_04/imagenes/5.png, id=450, 1645.14626pt x 1394.20876pt>
 File: capitulo_04/imagenes/5.png Graphic file (type png)
 <use capitulo_04/imagenes/5.png>
 Package pdftex.def Info: capitulo_04/imagenes/5.png  used on input line 417.
@@ -1561,7 +1620,10 @@ Package pdftex.def Info: capitulo_04/imagenes/5.png  used on input line 417.
 [59]
 
 [60 <./capitulo_04/imagenes/5.png>]
-<capitulo_04/imagenes/1.png, id=1336, 808.01875pt x 574.145pt>
+
+LaTeX Warning: Reference `fig:der_checkface' on page 61 undefined on input line 439.
+
+<capitulo_04/imagenes/1.png, id=465, 808.01875pt x 574.145pt>
 File: capitulo_04/imagenes/1.png Graphic file (type png)
 <use capitulo_04/imagenes/1.png>
 Package pdftex.def Info: capitulo_04/imagenes/1.png  used on input line 443.
@@ -1573,7 +1635,10 @@ Package pdftex.def Info: capitulo_04/imagenes/1.png  used on input line 443.
 [62 <./capitulo_04/imagenes/1.png>]
 
 [63]
-<capitulo_04/imagenes/2.png, id=1354, 437.2335pt x 515.2851pt>
+
+LaTeX Warning: Reference `fig:flujo_checkface' on page 64 undefined on input line 546.
+
+<capitulo_04/imagenes/2.png, id=489, 437.2335pt x 515.2851pt>
 File: capitulo_04/imagenes/2.png Graphic file (type png)
 <use capitulo_04/imagenes/2.png>
 Package pdftex.def Info: capitulo_04/imagenes/2.png  used on input line 552.
@@ -1585,7 +1650,7 @@ Package pdftex.def Info: capitulo_04/imagenes/2.png  used on input line 552.
 [65 <./capitulo_04/imagenes/2.png>]
 
 [66]
-<imagenes_doc/backend_estructura.png, id=1368, 251.13824pt x 361.35pt>
+<imagenes_doc/backend_estructura.png, id=508, 251.13824pt x 361.35pt>
 File: imagenes_doc/backend_estructura.png Graphic file (type png)
 <use imagenes_doc/backend_estructura.png>
 Package pdftex.def Info: imagenes_doc/backend_estructura.png  used on input line 582.
@@ -1596,7 +1661,7 @@ Package pdftex.def Info: imagenes_doc/backend_estructura.png  used on input line
 
 [68 <./imagenes_doc/backend_estructura.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 599--600
-[]\OT1/cmr/bx/sc/14.4 Ruteo de na-ve-ga-ci^^Son: \OT1/cmr/m/n/14.4 im-ple-men-ta-do con
+[]\OT1/cmr/bx/n/14.4 Ruteo de na-ve-ga-ci^^Son: \OT1/cmr/m/n/14.4 im-ple-men-ta-do con
  []
 
 
@@ -1607,7 +1672,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 599--600
 
 
 [69]
-<imagenes_doc/login.png, id=1385, 1155.71774pt x 685.96275pt>
+<imagenes_doc/login.png, id=527, 1155.71774pt x 685.96275pt>
 File: imagenes_doc/login.png Graphic file (type png)
 <use imagenes_doc/login.png>
 Package pdftex.def Info: imagenes_doc/login.png  used on input line 627.
@@ -1615,12 +1680,16 @@ Package pdftex.def Info: imagenes_doc/login.png  used on input line 627.
 
 
 [70 <./imagenes_doc/login.png>]
-<imagenes_doc/new_user.png, id=1391, 1155.1155pt x 684.156pt>
+<imagenes_doc/new_user.png, id=534, 1155.1155pt x 684.156pt>
 File: imagenes_doc/new_user.png Graphic file (type png)
 <use imagenes_doc/new_user.png>
 Package pdftex.def Info: imagenes_doc/new_user.png  used on input line 641.
 (pdftex.def)             Requested size: 390.0pt x 230.99185pt.
-<imagenes_doc/dashboard_1.png, id=1393, 1154.51324pt x 683.55376pt>
+
+
+LaTeX Warning: Reference `fig:dashboard1' on page 71 undefined on input line 652.
+
+<imagenes_doc/dashboard_1.png, id=535, 1154.51324pt x 683.55376pt>
 File: imagenes_doc/dashboard_1.png Graphic file (type png)
 <use imagenes_doc/dashboard_1.png>
 Package pdftex.def Info: imagenes_doc/dashboard_1.png  used on input line 659.
@@ -1628,7 +1697,10 @@ Package pdftex.def Info: imagenes_doc/dashboard_1.png  used on input line 659.
 
 
 [71 <./imagenes_doc/new_user.png>]
-<imagenes_doc/dashboard_2.png, id=1400, 1153.30875pt x 687.16725pt>
+
+LaTeX Warning: Reference `fig:dashboard2' on page 72 undefined on input line 664.
+
+<imagenes_doc/dashboard_2.png, id=542, 1153.30875pt x 687.16725pt>
 File: imagenes_doc/dashboard_2.png Graphic file (type png)
 <use imagenes_doc/dashboard_2.png>
 Package pdftex.def Info: imagenes_doc/dashboard_2.png  used on input line 670.
@@ -1636,7 +1708,7 @@ Package pdftex.def Info: imagenes_doc/dashboard_2.png  used on input line 670.
 
 
 [72 <./imagenes_doc/dashboard_1.png>]
-<imagenes_doc/CLASE2_PRUEBA.jpg, id=1406, 1606.0pt x 884.30376pt>
+<imagenes_doc/CLASE2_PRUEBA.jpg, id=549, 1606.0pt x 884.30376pt>
 File: imagenes_doc/CLASE2_PRUEBA.jpg Graphic file (type jpg)
 <use imagenes_doc/CLASE2_PRUEBA.jpg>
 Package pdftex.def Info: imagenes_doc/CLASE2_PRUEBA.jpg  used on input line 687.
@@ -1644,7 +1716,7 @@ Package pdftex.def Info: imagenes_doc/CLASE2_PRUEBA.jpg  used on input line 687.
 
 
 [73 <./imagenes_doc/dashboard_2.png>]
-<imagenes_doc/roles.png, id=1412, 1153.30875pt x 687.7695pt>
+<imagenes_doc/roles.png, id=557, 1153.30875pt x 687.7695pt>
 File: imagenes_doc/roles.png Graphic file (type png)
 <use imagenes_doc/roles.png>
 Package pdftex.def Info: imagenes_doc/roles.png  used on input line 700.
@@ -1652,12 +1724,12 @@ Package pdftex.def Info: imagenes_doc/roles.png  used on input line 700.
 
 
 [74 <./imagenes_doc/CLASE2_PRUEBA.jpg> <./imagenes_doc/roles.png>]
-<imagenes_doc/new_curso.png, id=1418, 1155.71774pt x 687.16725pt>
+<imagenes_doc/new_curso.png, id=565, 1155.71774pt x 687.16725pt>
 File: imagenes_doc/new_curso.png Graphic file (type png)
 <use imagenes_doc/new_curso.png>
 Package pdftex.def Info: imagenes_doc/new_curso.png  used on input line 713.
 (pdftex.def)             Requested size: 390.0pt x 231.88272pt.
-<imagenes_doc/horario_curso.png, id=1419, 1155.1155pt x 686.565pt>
+<imagenes_doc/horario_curso.png, id=566, 1155.1155pt x 686.565pt>
 File: imagenes_doc/horario_curso.png Graphic file (type png)
 <use imagenes_doc/horario_curso.png>
 Package pdftex.def Info: imagenes_doc/horario_curso.png  used on input line 726.
@@ -1665,7 +1737,7 @@ Package pdftex.def Info: imagenes_doc/horario_curso.png  used on input line 726.
 
 
 [75 <./imagenes_doc/new_curso.png>]
-<imagenes_doc/registrar_asistencia.png, id=1426, 1155.71774pt x 684.75826pt>
+<imagenes_doc/registrar_asistencia.png, id=573, 1155.71774pt x 684.75826pt>
 File: imagenes_doc/registrar_asistencia.png Graphic file (type png)
 <use imagenes_doc/registrar_asistencia.png>
 Package pdftex.def Info: imagenes_doc/registrar_asistencia.png  used on input line 739.
@@ -1673,7 +1745,7 @@ Package pdftex.def Info: imagenes_doc/registrar_asistencia.png  used on input li
 
 
 [76 <./imagenes_doc/horario_curso.png>]
-<imagenes_doc/asignar_.png, id=1432, 1155.71774pt x 685.3605pt>
+<imagenes_doc/asignar_.png, id=580, 1155.71774pt x 685.3605pt>
 File: imagenes_doc/asignar_.png Graphic file (type png)
 <use imagenes_doc/asignar_.png>
 Package pdftex.def Info: imagenes_doc/asignar_.png  used on input line 752.
@@ -1760,7 +1832,7 @@ Underfull \hbox (badness 4556) in paragraph at lines 78--78
 [82]
 
 [83]
-<capitulo_05/imagenes/1.jpg.png, id=1466, 929.4725pt x 445.665pt>
+<capitulo_05/imagenes/1.jpg.png, id=626, 929.4725pt x 445.665pt>
 File: capitulo_05/imagenes/1.jpg.png Graphic file (type png)
 <use capitulo_05/imagenes/1.jpg.png>
 Package pdftex.def Info: capitulo_05/imagenes/1.jpg.png  used on input line 99.
@@ -1768,12 +1840,12 @@ Package pdftex.def Info: capitulo_05/imagenes/1.jpg.png  used on input line 99.
 
 
 [84 <./capitulo_05/imagenes/1.jpg.png>]
-<capitulo_05/imagenes/umbral_1.0_30.jpg, id=1472, 1606.0pt x 952.55875pt>
+<capitulo_05/imagenes/umbral_1.0_30.jpg, id=634, 1606.0pt x 952.55875pt>
 File: capitulo_05/imagenes/umbral_1.0_30.jpg Graphic file (type jpg)
 <use capitulo_05/imagenes/umbral_1.0_30.jpg>
 Package pdftex.def Info: capitulo_05/imagenes/umbral_1.0_30.jpg  used on input line 107.
 (pdftex.def)             Requested size: 272.99881pt x 161.9183pt.
-<capitulo_05/imagenes/2.png, id=1473, 929.4725pt x 445.665pt>
+<capitulo_05/imagenes/2.png, id=635, 929.4725pt x 445.665pt>
 File: capitulo_05/imagenes/2.png Graphic file (type png)
 <use capitulo_05/imagenes/2.png>
 Package pdftex.def Info: capitulo_05/imagenes/2.png  used on input line 118.
@@ -1781,7 +1853,7 @@ Package pdftex.def Info: capitulo_05/imagenes/2.png  used on input line 118.
 
 
 [85 <./capitulo_05/imagenes/umbral_1.0_30.jpg>]
-<capitulo_05/imagenes/1.3_min_dist25.jpg, id=1478, 1606.0pt x 938.50626pt>
+<capitulo_05/imagenes/1.3_min_dist25.jpg, id=642, 1606.0pt x 938.50626pt>
 File: capitulo_05/imagenes/1.3_min_dist25.jpg Graphic file (type jpg)
 <use capitulo_05/imagenes/1.3_min_dist25.jpg>
 Package pdftex.def Info: capitulo_05/imagenes/1.3_min_dist25.jpg  used on input line 126.
@@ -1789,7 +1861,7 @@ Package pdftex.def Info: capitulo_05/imagenes/1.3_min_dist25.jpg  used on input 
 
 
 [86 <./capitulo_05/imagenes/2.png>]
-<capitulo_05/imagenes/3.png, id=1484, 929.4725pt x 445.665pt>
+<capitulo_05/imagenes/3.png, id=649, 929.4725pt x 445.665pt>
 File: capitulo_05/imagenes/3.png Graphic file (type png)
 <use capitulo_05/imagenes/3.png>
 Package pdftex.def Info: capitulo_05/imagenes/3.png  used on input line 138.
@@ -1797,7 +1869,7 @@ Package pdftex.def Info: capitulo_05/imagenes/3.png  used on input line 138.
 
 
 [87 <./capitulo_05/imagenes/1.3_min_dist25.jpg>]
-<capitulo_05/imagenes/6.6.jpg, id=1490, 1606.0pt x 950.55125pt>
+<capitulo_05/imagenes/6.6.jpg, id=655, 1606.0pt x 950.55125pt>
 File: capitulo_05/imagenes/6.6.jpg Graphic file (type jpg)
 <use capitulo_05/imagenes/6.6.jpg>
 Package pdftex.def Info: capitulo_05/imagenes/6.6.jpg  used on input line 146.
@@ -1805,7 +1877,7 @@ Package pdftex.def Info: capitulo_05/imagenes/6.6.jpg  used on input line 146.
 
 
 [88 <./capitulo_05/imagenes/3.png>]
-<capitulo_05/imagenes/4.png, id=1496, 929.4725pt x 445.665pt>
+<capitulo_05/imagenes/4.png, id=662, 929.4725pt x 445.665pt>
 File: capitulo_05/imagenes/4.png Graphic file (type png)
 <use capitulo_05/imagenes/4.png>
 Package pdftex.def Info: capitulo_05/imagenes/4.png  used on input line 159.
@@ -1813,12 +1885,12 @@ Package pdftex.def Info: capitulo_05/imagenes/4.png  used on input line 159.
 
 
 [89 <./capitulo_05/imagenes/6.6.jpg> <./capitulo_05/imagenes/4.png>]
-<capitulo_05/imagenes/4.4.jpg, id=1502, 1284.8pt x 751.80875pt>
+<capitulo_05/imagenes/4.4.jpg, id=670, 1284.8pt x 751.80875pt>
 File: capitulo_05/imagenes/4.4.jpg Graphic file (type jpg)
 <use capitulo_05/imagenes/4.4.jpg>
 Package pdftex.def Info: capitulo_05/imagenes/4.4.jpg  used on input line 167.
 (pdftex.def)             Requested size: 312.00119pt x 182.5715pt.
-<capitulo_05/imagenes/5.png, id=1503, 929.4725pt x 445.665pt>
+<capitulo_05/imagenes/5.png, id=671, 929.4725pt x 445.665pt>
 File: capitulo_05/imagenes/5.png Graphic file (type png)
 <use capitulo_05/imagenes/5.png>
 Package pdftex.def Info: capitulo_05/imagenes/5.png  used on input line 178.
@@ -1826,7 +1898,7 @@ Package pdftex.def Info: capitulo_05/imagenes/5.png  used on input line 178.
 
 
 [90 <./capitulo_05/imagenes/4.4.jpg>]
-<capitulo_05/imagenes/5.5.jpg, id=1508, 1606.0pt x 932.48375pt>
+<capitulo_05/imagenes/5.5.jpg, id=677, 1606.0pt x 932.48375pt>
 File: capitulo_05/imagenes/5.5.jpg Graphic file (type jpg)
 <use capitulo_05/imagenes/5.5.jpg>
 Package pdftex.def Info: capitulo_05/imagenes/5.5.jpg  used on input line 186.
@@ -1834,7 +1906,7 @@ Package pdftex.def Info: capitulo_05/imagenes/5.5.jpg  used on input line 186.
 
 
 [91 <./capitulo_05/imagenes/5.png>]
-<capitulo_05/resultados_aula/1.jpg, id=1514, 1284.8pt x 729.72626pt>
+<capitulo_05/resultados_aula/1.jpg, id=685, 1284.8pt x 729.72626pt>
 File: capitulo_05/resultados_aula/1.jpg Graphic file (type jpg)
 <use capitulo_05/resultados_aula/1.jpg>
 Package pdftex.def Info: capitulo_05/resultados_aula/1.jpg  used on input line 201.
@@ -1842,7 +1914,7 @@ Package pdftex.def Info: capitulo_05/resultados_aula/1.jpg  used on input line 2
 
 
 [92 <./capitulo_05/imagenes/5.5.jpg>]
-<capitulo_05/resultados_aula/2.jpg, id=1519, 1606.0pt x 951.555pt>
+<capitulo_05/resultados_aula/2.jpg, id=692, 1606.0pt x 951.555pt>
 File: capitulo_05/resultados_aula/2.jpg Graphic file (type jpg)
 <use capitulo_05/resultados_aula/2.jpg>
 Package pdftex.def Info: capitulo_05/resultados_aula/2.jpg  used on input line 212.
@@ -1850,7 +1922,10 @@ Package pdftex.def Info: capitulo_05/resultados_aula/2.jpg  used on input line 2
 
 
 [93 <./capitulo_05/resultados_aula/1.jpg>]
-<capitulo_05/resultados_aula/4.jpg, id=1526, 1185.67969pt x 707.64375pt>
+
+LaTeX Warning: Reference `fig:prueba3' on page 94 undefined on input line 219.
+
+<capitulo_05/resultados_aula/4.jpg, id=698, 1185.67969pt x 707.64375pt>
 File: capitulo_05/resultados_aula/4.jpg Graphic file (type jpg)
 <use capitulo_05/resultados_aula/4.jpg>
 Package pdftex.def Info: capitulo_05/resultados_aula/4.jpg  used on input line 223.
@@ -1858,7 +1933,10 @@ Package pdftex.def Info: capitulo_05/resultados_aula/4.jpg  used on input line 2
 
 
 [94 <./capitulo_05/resultados_aula/2.jpg>]
-<capitulo_05/resultados_aula/5.jpg, id=1532, 1606.0pt x 889.3225pt>
+
+LaTeX Warning: Reference `fig:prueba4' on page 95 undefined on input line 230.
+
+<capitulo_05/resultados_aula/5.jpg, id=704, 1606.0pt x 889.3225pt>
 File: capitulo_05/resultados_aula/5.jpg Graphic file (type jpg)
 <use capitulo_05/resultados_aula/5.jpg>
 Package pdftex.def Info: capitulo_05/resultados_aula/5.jpg  used on input line 234.
@@ -1866,7 +1944,10 @@ Package pdftex.def Info: capitulo_05/resultados_aula/5.jpg  used on input line 2
 
 
 [95 <./capitulo_05/resultados_aula/4.jpg>]
-<capitulo_05/resultados_aula/6.jpg, id=1538, 1606.0pt x 888.31876pt>
+
+LaTeX Warning: Reference `fig:prueba5' on page 96 undefined on input line 244.
+
+<capitulo_05/resultados_aula/6.jpg, id=710, 1606.0pt x 888.31876pt>
 File: capitulo_05/resultados_aula/6.jpg Graphic file (type jpg)
 <use capitulo_05/resultados_aula/6.jpg>
 Package pdftex.def Info: capitulo_05/resultados_aula/6.jpg  used on input line 248.
@@ -1874,7 +1955,10 @@ Package pdftex.def Info: capitulo_05/resultados_aula/6.jpg  used on input line 2
 
 
 [96 <./capitulo_05/resultados_aula/5.jpg>]
-<capitulo_05/resultados_aula/7.jpg, id=1544, 1606.0pt x 990.70125pt>
+
+LaTeX Warning: Reference `fig:prueba6' on page 97 undefined on input line 256.
+
+<capitulo_05/resultados_aula/7.jpg, id=716, 1606.0pt x 990.70125pt>
 File: capitulo_05/resultados_aula/7.jpg Graphic file (type jpg)
 <use capitulo_05/resultados_aula/7.jpg>
 Package pdftex.def Info: capitulo_05/resultados_aula/7.jpg  used on input line 260.
@@ -1884,28 +1968,42 @@ Package pdftex.def Info: capitulo_05/resultados_aula/7.jpg  used on input line 2
 [97 <./capitulo_05/resultados_aula/6.jpg>]
 
 [98 <./capitulo_05/resultados_aula/7.jpg>]
-<capitulo_05/resultados_aula/10.jpg, id=1554, 1606.0pt x 865.2325pt>
+
+LaTeX Warning: Reference `fig:prueba7' on page 99 undefined on input line 271.
+
+<capitulo_05/resultados_aula/10.jpg, id=728, 1606.0pt x 865.2325pt>
 File: capitulo_05/resultados_aula/10.jpg Graphic file (type jpg)
 <use capitulo_05/resultados_aula/10.jpg>
 Package pdftex.def Info: capitulo_05/resultados_aula/10.jpg  used on input line 275.
 (pdftex.def)             Requested size: 390.0pt x 210.11568pt.
 
+LaTeX Warning: Reference `fig:prueba8' on page 99 undefined on input line 283.
+
+
 
 [99 <./capitulo_05/resultados_aula/10.jpg>]
-<capitulo_05/resultados_aula/11.jpg, id=1561, 1383.1675pt x 1017.8025pt>
+<capitulo_05/resultados_aula/11.jpg, id=734, 1383.1675pt x 1017.8025pt>
 File: capitulo_05/resultados_aula/11.jpg Graphic file (type jpg)
 <use capitulo_05/resultados_aula/11.jpg>
 Package pdftex.def Info: capitulo_05/resultados_aula/11.jpg  used on input line 287.
 (pdftex.def)             Requested size: 390.0pt x 286.97066pt.
 
 
+LaTeX Warning: Reference `fig:prueba9' on page 100 undefined on input line 295.
+
+
+
 [100 <./capitulo_05/resultados_aula/11.jpg>]
-<capitulo_05/resultados_aula/12.jpg, id=1567, 1606.0pt x 905.3825pt>
+<capitulo_05/resultados_aula/12.jpg, id=740, 1606.0pt x 905.3825pt>
 File: capitulo_05/resultados_aula/12.jpg Graphic file (type jpg)
 <use capitulo_05/resultados_aula/12.jpg>
 Package pdftex.def Info: capitulo_05/resultados_aula/12.jpg  used on input line 299.
 (pdftex.def)             Requested size: 390.0pt x 219.86583pt.
-<capitulo_05/resultados_aula/14.jpg, id=1569, 1606.0pt x 863.225pt>
+
+
+LaTeX Warning: Reference `fig:prueba10' on page 101 undefined on input line 307.
+
+<capitulo_05/resultados_aula/14.jpg, id=741, 1606.0pt x 863.225pt>
 File: capitulo_05/resultados_aula/14.jpg Graphic file (type jpg)
 <use capitulo_05/resultados_aula/14.jpg>
 Package pdftex.def Info: capitulo_05/resultados_aula/14.jpg  used on input line 311.
@@ -1913,7 +2011,10 @@ Package pdftex.def Info: capitulo_05/resultados_aula/14.jpg  used on input line 
 
 
 [101 <./capitulo_05/resultados_aula/12.jpg>]
-<capitulo_05/resultados_aula/17.jpg, id=1575, 963.6pt x 552.8655pt>
+
+LaTeX Warning: Reference `fig:prueba11' on page 102 undefined on input line 318.
+
+<capitulo_05/resultados_aula/17.jpg, id=747, 963.6pt x 552.8655pt>
 File: capitulo_05/resultados_aula/17.jpg Graphic file (type jpg)
 <use capitulo_05/resultados_aula/17.jpg>
 Package pdftex.def Info: capitulo_05/resultados_aula/17.jpg  used on input line 322.
@@ -1921,7 +2022,10 @@ Package pdftex.def Info: capitulo_05/resultados_aula/17.jpg  used on input line 
 
 
 [102 <./capitulo_05/resultados_aula/14.jpg>]
-<capitulo_05/resultados_aula/19.jpg, id=1581, 1606.0pt x 909.3975pt>
+
+LaTeX Warning: Reference `fig:prueba12' on page 103 undefined on input line 329.
+
+<capitulo_05/resultados_aula/19.jpg, id=753, 1606.0pt x 909.3975pt>
 File: capitulo_05/resultados_aula/19.jpg Graphic file (type jpg)
 <use capitulo_05/resultados_aula/19.jpg>
 Package pdftex.def Info: capitulo_05/resultados_aula/19.jpg  used on input line 333.
@@ -1930,13 +2034,23 @@ Package pdftex.def Info: capitulo_05/resultados_aula/19.jpg  used on input line 
 
 [103 <./capitulo_05/resultados_aula/17.jpg>]
 
+LaTeX Warning: Reference `fig:registrados' on page 104 undefined on input line 343.
+
+
+LaTeX Warning: Reference `fig:entrenamiento' on page 104 undefined on input line 344.
+
+
+LaTeX Warning: Reference `fig:asistencias' on page 104 undefined on input line 346.
+
+
+
 [104 <./capitulo_05/resultados_aula/19.jpg>]
-<capitulo_05/resultados_aula/registrados.jpg, id=1593, 644.4075pt x 363.3575pt>
+<capitulo_05/resultados_aula/registrados.jpg, id=765, 644.4075pt x 363.3575pt>
 File: capitulo_05/resultados_aula/registrados.jpg Graphic file (type jpg)
 <use capitulo_05/resultados_aula/registrados.jpg>
 Package pdftex.def Info: capitulo_05/resultados_aula/registrados.jpg  used on input line 350.
 (pdftex.def)             Requested size: 390.0pt x 219.91235pt.
-<capitulo_05/resultados_aula/entrenamiento.jpg, id=1594, 1242.6425pt x 501.875pt>
+<capitulo_05/resultados_aula/entrenamiento.jpg, id=766, 1242.6425pt x 501.875pt>
 File: capitulo_05/resultados_aula/entrenamiento.jpg Graphic file (type jpg)
 <use capitulo_05/resultados_aula/entrenamiento.jpg>
 Package pdftex.def Info: capitulo_05/resultados_aula/entrenamiento.jpg  used on input line 357.
@@ -1944,11 +2058,18 @@ Package pdftex.def Info: capitulo_05/resultados_aula/entrenamiento.jpg  used on 
 
 
 [105 <./capitulo_05/resultados_aula/registrados.jpg>]
-<capitulo_05/resultados_aula/asistencias.jpg, id=1600, 735.74875pt x 507.8975pt>
+<capitulo_05/resultados_aula/asistencias.jpg, id=772, 735.74875pt x 507.8975pt>
 File: capitulo_05/resultados_aula/asistencias.jpg Graphic file (type jpg)
 <use capitulo_05/resultados_aula/asistencias.jpg>
 Package pdftex.def Info: capitulo_05/resultados_aula/asistencias.jpg  used on input line 364.
 (pdftex.def)             Requested size: 390.0pt x 269.2309pt.
+
+
+LaTeX Warning: Reference `fig:asistencias' on page 106 undefined on input line 369.
+
+
+LaTeX Warning: Reference `tab:indicadores' on page 106 undefined on input line 369.
+
 
 
 [106 <./capitulo_05/resultados_aula/entrenamiento.jpg> <./capitulo_05/resultados_aula/asistencias.jpg>]
@@ -1966,7 +2087,16 @@ Overfull \hbox (23.17624pt too wide) in paragraph at lines 376--386
  [][] 
  []
 
-<capitulo_05/imagenes/dashboard_1.png, id=1610, 1107.53775pt x 622.12425pt>
+
+LaTeX Warning: Reference `tab:indicadores' on page 107 undefined on input line 390.
+
+
+LaTeX Warning: Reference `fig:dashboard_1' on page 107 undefined on input line 393.
+
+
+LaTeX Warning: Reference `fig:dashboard_2' on page 107 undefined on input line 393.
+
+<capitulo_05/imagenes/dashboard_1.png, id=779, 1107.53775pt x 622.12425pt>
 File: capitulo_05/imagenes/dashboard_1.png Graphic file (type png)
 <use capitulo_05/imagenes/dashboard_1.png>
 Package pdftex.def Info: capitulo_05/imagenes/dashboard_1.png  used on input line 397.
@@ -1974,7 +2104,7 @@ Package pdftex.def Info: capitulo_05/imagenes/dashboard_1.png  used on input lin
 
 
 [107]
-<capitulo_05/imagenes/dashboard_2.png, id=1615, 1109.3445pt x 608.87476pt>
+<capitulo_05/imagenes/dashboard_2.png, id=785, 1109.3445pt x 608.87476pt>
 File: capitulo_05/imagenes/dashboard_2.png Graphic file (type png)
 <use capitulo_05/imagenes/dashboard_2.png>
 Package pdftex.def Info: capitulo_05/imagenes/dashboard_2.png  used on input line 404.
@@ -2053,12 +2183,12 @@ Cap\'{\i }tulo 6.
 \openout2 = `./anexos/anexo.aux'.
 
  (anexos/anexo.tex
-<anexos/imagenes/encabezado.png, id=1661, 688.37175pt x 378.81525pt>
+<anexos/imagenes/encabezado.png, id=840, 688.37175pt x 378.81525pt>
 File: anexos/imagenes/encabezado.png Graphic file (type png)
 <use anexos/imagenes/encabezado.png>
 Package pdftex.def Info: anexos/imagenes/encabezado.png  used on input line 10.
 (pdftex.def)             Requested size: 390.0pt x 214.62637pt.
-<anexos/imagenes/Imagen1.png, id=1662, 744.381pt x 302.93175pt>
+<anexos/imagenes/Imagen1.png, id=841, 744.381pt x 302.93175pt>
 File: anexos/imagenes/Imagen1.png Graphic file (type png)
 <use anexos/imagenes/Imagen1.png>
 Package pdftex.def Info: anexos/imagenes/Imagen1.png  used on input line 17.
@@ -2073,12 +2203,12 @@ Package pdftex.def Info: anexos/imagenes/Imagen1.png  used on input line 17.
 
 
  <./anexos/imagenes/encabezado.png>]
-<anexos/imagenes/Imagen2.png, id=1668, 743.1765pt x 339.669pt>
+<anexos/imagenes/Imagen2.png, id=849, 743.1765pt x 339.669pt>
 File: anexos/imagenes/Imagen2.png Graphic file (type png)
 <use anexos/imagenes/Imagen2.png>
 Package pdftex.def Info: anexos/imagenes/Imagen2.png  used on input line 24.
 (pdftex.def)             Requested size: 390.0pt x 178.25114pt.
-<anexos/imagenes/Imagen3.png, id=1669, 736.55174pt x 302.3295pt>
+<anexos/imagenes/Imagen3.png, id=850, 736.55174pt x 302.3295pt>
 File: anexos/imagenes/Imagen3.png Graphic file (type png)
 <use anexos/imagenes/Imagen3.png>
 Package pdftex.def Info: anexos/imagenes/Imagen3.png  used on input line 31.
@@ -2086,12 +2216,12 @@ Package pdftex.def Info: anexos/imagenes/Imagen3.png  used on input line 31.
 
 
 [119 <./anexos/imagenes/Imagen1.png> <./anexos/imagenes/Imagen2.png>]
-<anexos/imagenes/Imagen4.png, id=1676, 734.14275pt x 302.3295pt>
+<anexos/imagenes/Imagen4.png, id=859, 734.14275pt x 302.3295pt>
 File: anexos/imagenes/Imagen4.png Graphic file (type png)
 <use anexos/imagenes/Imagen4.png>
 Package pdftex.def Info: anexos/imagenes/Imagen4.png  used on input line 38.
 (pdftex.def)             Requested size: 390.0pt x 160.60753pt.
-<anexos/imagenes/Imagen5.png, id=1677, 740.16525pt x 331.2375pt>
+<anexos/imagenes/Imagen5.png, id=860, 740.16525pt x 331.2375pt>
 File: anexos/imagenes/Imagen5.png Graphic file (type png)
 <use anexos/imagenes/Imagen5.png>
 Package pdftex.def Info: anexos/imagenes/Imagen5.png  used on input line 46.
@@ -2099,12 +2229,12 @@ Package pdftex.def Info: anexos/imagenes/Imagen5.png  used on input line 46.
 
 
 [120 <./anexos/imagenes/Imagen3.png> <./anexos/imagenes/Imagen4.png>]
-<anexos/imagenes/Imagen6.png, id=1684, 737.75626pt x 305.943pt>
+<anexos/imagenes/Imagen6.png, id=869, 737.75626pt x 305.943pt>
 File: anexos/imagenes/Imagen6.png Graphic file (type png)
 <use anexos/imagenes/Imagen6.png>
 Package pdftex.def Info: anexos/imagenes/Imagen6.png  used on input line 55.
 (pdftex.def)             Requested size: 390.0pt x 161.72885pt.
-<anexos/imagenes/Imagen7.png, id=1685, 735.9495pt x 299.31825pt>
+<anexos/imagenes/Imagen7.png, id=870, 735.9495pt x 299.31825pt>
 File: anexos/imagenes/Imagen7.png Graphic file (type png)
 <use anexos/imagenes/Imagen7.png>
 Package pdftex.def Info: anexos/imagenes/Imagen7.png  used on input line 64.
@@ -2112,12 +2242,12 @@ Package pdftex.def Info: anexos/imagenes/Imagen7.png  used on input line 64.
 
 
 [121 <./anexos/imagenes/Imagen5.png> <./anexos/imagenes/Imagen6.png>]
-<anexos/imagenes/Imagen8.png, id=1692, 738.3585pt x 325.81725pt>
+<anexos/imagenes/Imagen8.png, id=880, 738.3585pt x 325.81725pt>
 File: anexos/imagenes/Imagen8.png Graphic file (type png)
 <use anexos/imagenes/Imagen8.png>
 Package pdftex.def Info: anexos/imagenes/Imagen8.png  used on input line 72.
 (pdftex.def)             Requested size: 390.0pt x 172.09566pt.
-<anexos/imagenes/Imagen9.png, id=1693, 737.75626pt x 335.45325pt>
+<anexos/imagenes/Imagen9.png, id=881, 737.75626pt x 335.45325pt>
 File: anexos/imagenes/Imagen9.png Graphic file (type png)
 <use anexos/imagenes/Imagen9.png>
 Package pdftex.def Info: anexos/imagenes/Imagen9.png  used on input line 81.
@@ -2125,7 +2255,7 @@ Package pdftex.def Info: anexos/imagenes/Imagen9.png  used on input line 81.
 
 
 [122 <./anexos/imagenes/Imagen7.png> <./anexos/imagenes/Imagen8.png>]
-<anexos/imagenes/Imagen10.png, id=1700, 743.1765pt x 332.442pt>
+<anexos/imagenes/Imagen10.png, id=890, 743.1765pt x 332.442pt>
 File: anexos/imagenes/Imagen10.png Graphic file (type png)
 <use anexos/imagenes/Imagen10.png>
 Package pdftex.def Info: anexos/imagenes/Imagen10.png  used on input line 89.
@@ -2136,7 +2266,7 @@ Package pdftex.def Info: anexos/imagenes/Imagen10.png  used on input line 89.
 \openout2 = `./anexos/anexob.aux'.
 
  (anexos/anexob.tex
-<anexos/anexo_b_img/train1.png, id=1708, 814.54312pt x 529.22719pt>
+<anexos/anexo_b_img/train1.png, id=899, 814.54312pt x 529.22719pt>
 File: anexos/anexo_b_img/train1.png Graphic file (type png)
 <use anexos/anexo_b_img/train1.png>
 Package pdftex.def Info: anexos/anexo_b_img/train1.png  used on input line 14.
@@ -2149,7 +2279,7 @@ Package pdftex.def Info: anexos/anexo_b_img/train1.png  used on input line 14.
 
 
 ]
-<anexos/anexo_b_img/train2.png, id=1714, 843.15pt x 784.43062pt>
+<anexos/anexo_b_img/train2.png, id=906, 843.15pt x 784.43062pt>
 File: anexos/anexo_b_img/train2.png Graphic file (type png)
 <use anexos/anexo_b_img/train2.png>
 Package pdftex.def Info: anexos/anexo_b_img/train2.png  used on input line 26.
@@ -2157,7 +2287,7 @@ Package pdftex.def Info: anexos/anexo_b_img/train2.png  used on input line 26.
 
 
 [125 <./anexos/anexo_b_img/train1.png>]
-<anexos/anexo_b_img/train3.png, id=1722, 808.52063pt x 1148.79187pt>
+<anexos/anexo_b_img/train3.png, id=915, 808.52063pt x 1148.79187pt>
 File: anexos/anexo_b_img/train3.png Graphic file (type png)
 <use anexos/anexo_b_img/train3.png>
 Package pdftex.def Info: anexos/anexo_b_img/train3.png  used on input line 39.
@@ -2166,8 +2296,12 @@ Package pdftex.def Info: anexos/anexo_b_img/train3.png  used on input line 39.
 
 [126 <./anexos/anexo_b_img/train2.png>]
 
+LaTeX Warning: Reference `fig:train_faces_centroids' on page 127 undefined on input line 46.
+
+
+
 [127 <./anexos/anexo_b_img/train3.png>]
-<anexos/anexo_b_img/train3.1.png, id=1735, 831.105pt x 668.4975pt>
+<anexos/anexo_b_img/train3.1.png, id=930, 831.105pt x 668.4975pt>
 File: anexos/anexo_b_img/train3.1.png Graphic file (type png)
 <use anexos/anexo_b_img/train3.1.png>
 Package pdftex.def Info: anexos/anexo_b_img/train3.1.png  used on input line 50.
@@ -2180,12 +2314,12 @@ Underfull \hbox (badness 1303) in paragraph at lines 57--58
 
 
 [128 <./anexos/anexo_b_img/train3.1.png>]
-<anexos/anexo_b_img/face1.png, id=1742, 871.00406pt x 320.69812pt>
+<anexos/anexo_b_img/face1.png, id=938, 871.00406pt x 320.69812pt>
 File: anexos/anexo_b_img/face1.png Graphic file (type png)
 <use anexos/anexo_b_img/face1.png>
 Package pdftex.def Info: anexos/anexo_b_img/face1.png  used on input line 61.
 (pdftex.def)             Requested size: 390.0pt x 143.59348pt.
-<anexos/anexo_b_img/face2.png, id=1743, 1021.56656pt x 508.90125pt>
+<anexos/anexo_b_img/face2.png, id=939, 1021.56656pt x 508.90125pt>
 File: anexos/anexo_b_img/face2.png Graphic file (type png)
 <use anexos/anexo_b_img/face2.png>
 Package pdftex.def Info: anexos/anexo_b_img/face2.png  used on input line 74.
@@ -2193,7 +2327,7 @@ Package pdftex.def Info: anexos/anexo_b_img/face2.png  used on input line 74.
 
 
 [129 <./anexos/anexo_b_img/face1.png>]
-<anexos/anexo_b_img/face3.png, id=1752, 923.70094pt x 1126.2075pt>
+<anexos/anexo_b_img/face3.png, id=948, 923.70094pt x 1126.2075pt>
 File: anexos/anexo_b_img/face3.png Graphic file (type png)
 <use anexos/anexo_b_img/face3.png>
 Package pdftex.def Info: anexos/anexo_b_img/face3.png  used on input line 87.
@@ -2213,183 +2347,14 @@ Underfull \hbox (badness 1122) in paragraph at lines 95--96
 
 
 [131 <./anexos/anexo_b_img/face3.png>]
-<anexos/anexo_b_img/face4.png, id=1764, 892.08281pt x 453.19313pt>
+<anexos/anexo_b_img/face4.png, id=962, 892.08281pt x 453.19313pt>
 File: anexos/anexo_b_img/face4.png Graphic file (type png)
 <use anexos/anexo_b_img/face4.png>
 Package pdftex.def Info: anexos/anexo_b_img/face4.png  used on input line 99.
 (pdftex.def)             Requested size: 390.0pt x 198.12628pt.
 )
 
-[132 <./anexos/anexo_b_img/face4.png>] (tfg.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 27--33
-\OT1/cmr/m/n/14.4 https://www.lanacion.com.ar/tecnologia/reconocimiento-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--33
-\OT1/cmr/m/n/14.4 facial-como-nacio-tableta-decada-del-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--33
-\OT1/cmr/m/n/14.4 nid2421334/. [en l^^S^^Pnea]. Dis-po-ni-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--33
-\OT1/cmr/m/n/14.4 ble: []$https : / / www . lanacion . com . ar / tecnologia /
- []
-
-
-Overfull \hbox (42.76117pt too wide) in paragraph at lines 27--33
-\OT1/cmr/m/n/14.4 reconocimiento-[]facial-[]como-[]nacio-[]tableta-[]decada-[]del-[]nid2421334/$[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--42
-\OT1/cmr/m/n/14.4 red-de-aeropuertos-de-japon-instalara-66-puertas-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--42
-\OT1/cmr/m/n/14.4 automaticas-adicionales-con-reconocimiento-facial/.
- []
-
-
-Underfull \hbox (badness 3058) in paragraph at lines 36--42
-\OT1/cmr/m/n/14.4 [en l^^S^^Pnea]. Dis-po-ni-ble: []$https : / / osao . com . mx /
- []
-
-
-Overfull \hbox (277.23318pt too wide) in paragraph at lines 36--42
-\OT1/cmr/m/n/14.4 la-[]red-[]de-[]aeropuertos-[]de-[]japon-[]instalara-[]66-[]puertas-[]automaticas-[]adicionales-[]con-[]reconocimiento-[]facial/$[] 
- []
-
-
-Underfull \hbox (badness 3354) in paragraph at lines 52--57
-[]\OT1/cmr/m/n/14.4 Interactive Chaos. (2024) Re-des neu-ro-
- []
-
-
-Underfull \hbox (badness 2443) in paragraph at lines 52--57
-\OT1/cmr/m/n/14.4 na-les pre-ali-men-ta-das. [en l^^S^^Pnea]. Dis-po-ni-
- []
-
-
-
-[133
-
-
-
-
-]
-Underfull \hbox (badness 1297) in paragraph at lines 75--80
-[]\OT1/cmr/m/n/14.4 Mi De []Agui-la. (2021) For-ma-to de lis-
- []
-
-
-Underfull \hbox (badness 1199) in paragraph at lines 115--122
-[]\OT1/cmr/m/n/14.4 Bee Sa-fe Se-cu-rity. (2024) Ex-plo-ring dif-fe-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 115--122
-\OT1/cmr/m/n/14.4 different-types-of-access-control-credentials/. [en
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 115--122
-\OT1/cmr/m/n/14.4 l^^S^^Pnea]. Dis-po-ni-ble: []$https : / / beesafeohio . com /
- []
-
-
-
-[134]
-Underfull \hbox (badness 10000) in paragraph at lines 143--148
-\OT1/cmr/m/n/14.4 researchgate . net / pro^^Lle / Jhon-[]Fredy-[]Narvaez / publication /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--148
-\OT1/cmr/m/n/14.4 320170890[]Desarrollos[]de[]la[]Ingenieria[]ambiental[]en[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--148
-\OT1/cmr/m/n/14.4 la[]evaluacion[]de[]la[]calidad[]de[]los[]recursos[]naturales[]y[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--148
-\OT1/cmr/m/n/14.4 la[]salud[]ambiental / links / 59d26bfca6fdcc181ad611ce /
- []
-
-
-Overfull \hbox (354.88559pt too wide) in paragraph at lines 143--148
-\OT1/cmr/m/n/14.4 Desarrollos-[]de-[]la-[]Ingenieria-[]ambiental-[]en-[]la-[]evaluacion-[]de-[]la-[]calidad-[]de-[]los-[]recursos-[]naturales-[]y-[]la-[]salud-[]ambiental .
- []
-
-
-
-[135]
-
-[136]
-Underfull \hbox (badness 1348) in paragraph at lines 236--240
-[]\OT1/cmr/m/n/14.4 Figma Inc. (2024) ?`qu^^Se es fig-ma? [en
- []
-
-
-Underfull \hbox (badness 3199) in paragraph at lines 236--240
-\OT1/cmr/m/n/14.4 l^^S^^Pnea]. Dis-po-ni-ble: https://help.figma.com/hc/es-
- []
-
-
-Overfull \hbox (28.99971pt too wide) in paragraph at lines 243--249
-\OT1/cmr/m/n/14.4 https://www.godaddy.com/resources/latam/desarrollo/python-
- []
-
-
-Underfull \hbox (badness 2799) in paragraph at lines 267--271
-\OT1/cmr/m/n/14.4 About post-gresql. [en l^^S^^Pnea]. Dis-po-ni-ble:
- []
-
-
-
-[137]
-Underfull \hbox (badness 2229) in paragraph at lines 274--278
-\OT1/cmr/m/n/14.4 l^^S^^Pnea]. Dis-po-ni-ble: https://learn.microsoft.com/es-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 288--292
-[]\OT1/cmr/m/n/14.4 GitHub, Inc., ``Acer-ca de github desk-top,''
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 288--292
-[]$\OT1/cmr/m/n/14.4 https : / / docs . github . com / es / desktop / overview /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 288--292
-\OT1/cmr/m/n/14.4 about-[]github-[]desktop$[], 2025, [en l^^S^^Pnea]. Dis-po-ni-ble:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 288--292
-\OT1/cmr/m/n/14.4 https://docs.github.com/es/desktop/overview/about-
- []
-
-
-Underfull \hbox (badness 3895) in paragraph at lines 309--314
-\OT1/cmr/m/n/14.4 Dis-po-ni-ble: https://builtin.com/software-engineering-
- []
-
-
-
-[138])
-
-[139] (tfg.aux
+[132 <./anexos/anexo_b_img/face4.png>] (tfg.bbl) (tfg.aux
 LaTeX Info: Redefining \. on input line 18.
 LaTeX Info: Redefining \% on input line 18.
  (portada_y_ficha_catalografica/portada_y_ficha_catalografica.aux) (hoja_aprobacion/hoja_aprobacion.aux) (dedicatoria/dedicatoria.aux) (agradecimientos/agradecimientos.aux) (epigrafe/epigrafe.aux) (resumen/resumen.aux) (abstract/abstract.aux) (capitulo_01/introduccion.aux) (capitulo_02/marco_teorico.aux) (capitulo_03/Herramientas_Tecnologicas.aux) (capitulo_04/marco_metodologico.aux) (capitulo_05/resultados.aux) (capitulo_06/discusion.aux) (anexos/anexo.aux) (anexos/anexob.aux))
@@ -2401,21 +2366,33 @@ L3 programming layer <2025-09-02>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `tfg.out' has not changed.
-(rerunfilecheck)             Checksum: A3590C0CC97238164B30249D391E43C3;16075.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `tfg.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `tfg.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  3C0F65290002FD1B70797A78DC6EEBFF;15886.
  ) 
 Here is how much of TeX's memory you used:
- 35541 strings out of 468081
- 721401 string characters out of 5435855
- 1193769 words of memory out of 5000000
- 63125 multiletter control sequences out of 15000+600000
- 645075 words of font info for 105 fonts, out of 8000000 for 9000
+ 35300 strings out of 468081
+ 716242 string characters out of 5435855
+ 1152336 words of memory out of 5000000
+ 62985 multiletter control sequences out of 15000+600000
+ 644723 words of font info for 104 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,16n,93p,2533b,937s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\aldoc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\aldoc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\aldoc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcbx1440.pk> <C:\Users\aldoc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1440.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on tfg.pdf (161 pages, 9611096 bytes).
+ 84i,16n,87p,2533b,927s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\aldoc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\aldoc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\aldoc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcbx1440.pk> <C:\Users\aldoc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1440.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on tfg.pdf (144 pages, 9423711 bytes).
 PDF statistics:
- 2029 PDF objects out of 2073 (max. 8388607)
- 438 named destinations out of 1000 (max. 500000)
- 1074 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1120 PDF objects out of 1200 (max. 8388607)
+ 378 named destinations out of 1000 (max. 500000)
+ 378 words of extra memory for PDF output out of 10000 (max. 10000000)
 

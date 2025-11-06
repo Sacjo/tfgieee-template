@@ -1,8 +1,8 @@
 \babel@toc {spanish}{}\relax 
 \contentsline {chapter}{Resumen}{\es@scroman {ix}}{figure.caption.4}%
 \contentsline {chapter}{Abstract}{\es@scroman {x}}{figure.caption.4}%
-\contentsline {chapter}{\'Indice de figuras}{\es@scroman {xx}}{chapter*.6}%
-\contentsline {chapter}{\'Indice de tablas}{\es@scroman {xxii}}{chapter*.7}%
+\contentsline {chapter}{\'Indice de figuras}{\es@scroman {xi}}{chapter*.6}%
+\contentsline {chapter}{\'Indice de tablas}{\es@scroman {xii}}{chapter*.7}%
 \contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Motivación}{2}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Definición del problema}{2}{section.1.2}%
@@ -88,4 +88,3 @@
 \contentsline {chapter}{Anexo A.}{118}{chapter*.101}%
 \contentsline {chapter}{Anexos}{118}{section.6.5}%
 \contentsline {chapter}{Anexo B.}{124}{chapter*.113}%
-\contentsline {chapter}{Referencias bibliogr\'aficas}{133}{figure.caption.129}%

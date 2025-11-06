@@ -22,75 +22,6 @@
 \BIBdecl
 \renewcommand{\BIBentryALTinterwordstretchfactor}{4}
 
-\bibitem{lanacion_historiafacial}
-\BIBentryALTinterwordspacing
-{La Nación}. (2020) Reconocimiento facial: cómo nació esta tecnología en
-  una tableta de la década del 60. [en línea]. Disponible:
-  https://www.lanacion.com.ar/tecnologia/reconocimiento-facial-como-nacio-tableta-decada-del-nid2421334/.
-  [en línea]. Disponible:
-  \url{https://www.lanacion.com.ar/tecnologia/reconocimiento-facial-como-nacio-tableta-decada-del-nid2421334/}
-\BIBentrySTDinterwordspacing
-
-\bibitem{aeropuertosJapon}
-\BIBentryALTinterwordspacing
-{OSAO México}. (2024) Red de aeropuertos de japón instalará 66 puertas
-  automáticas con reconocimiento facial. [en línea]. Disponible:
-  https://osao.com.mx/la-red-de-aeropuertos-de-japon-instalara-66-puertas-automaticas-adicionales-con-reconocimiento-facial/.
-  [en línea]. Disponible:
-  \url{https://osao.com.mx/la-red-de-aeropuertos-de-japon-instalara-66-puertas-automaticas-adicionales-con-reconocimiento-facial/}
-\BIBentrySTDinterwordspacing
-
-\bibitem{sandhane_figure3}
-\BIBentryALTinterwordspacing
-Raghav Sandhane. (n.d.) Figure 3: The relationship between ai, machine learning
-  and deep learning. Academia.edu. [en línea]. Disponible:
-  \url{https://www.academia.edu/figures [...]}
-\BIBentrySTDinterwordspacing
-
-\bibitem{interactivechaos_ffnn}
-\BIBentryALTinterwordspacing
-{Interactive Chaos}. (2024) Redes neuronales prealimentadas. [en línea].
-  Disponible:
-  https://interactivechaos.com/es/manual/tutorial-de-deep-learning/redes-neuronales-prealimentadas.
-  [en línea]. Disponible: \url{https://interactivechaos.com/es [...]}
-\BIBentrySTDinterwordspacing
-
-\bibitem{falken_cnn}
-\BIBentryALTinterwordspacing
-{El Laberinto de Falken}. (2019) Visión artificial: Redes convolucionales
-  (cnn). [en línea]. Disponible:
-  https://www.ellaberintodefalken.com/2019/10/vision-artificial-redes-convolucionales-CNN.html.
-  [en línea]. Disponible: \url{https://www.ellaberintodefalken.com/2019 [...]}
-\BIBentrySTDinterwordspacing
-
-\bibitem{gan_aws}
-\BIBentryALTinterwordspacing
-{Amazon Web Services}. (2024) ¿qué es una red generativa adversarial (gan)?
-  [en línea]. Disponible: https://aws.amazon.com/es/what-is/gan/. [en línea].
-  Disponible: \url{https://aws.amazon.com/es [...]}
-\BIBentrySTDinterwordspacing
-
-\bibitem{listaAsistenciaEscolar}
-\BIBentryALTinterwordspacing
-{Mi De Águila}. (2021) Formato de lista de asistencia escolar. [en línea].
-  Disponible:
-  https://mideaguila.blogspot.com/2021/12/formato-de-lista-de-asistencia-escolar.html.
-  [en línea]. Disponible: \url{https://mideaguila.blogspot.com/2021 [...]}
-\BIBentrySTDinterwordspacing
-
-\bibitem{fatima2024yolov8}
-\BIBentryALTinterwordspacing
-Sana Fatima, Najmi~Ghani Haider, y Rizwan Riaz, ``Yolov8 vs retinanet vs
-  efficientdet: A comparative analysis for modern object detection,''
-  \emph{International Journal of Emerging Engineering and Technology (IJEET)},
-  vol.~3, no.~2, pp. 1--5, 2024. [en línea]. Disponible:
-  \url{https://grsh.org/journal1 [...]}
-\BIBentrySTDinterwordspacing
-
-\bibitem{yolov8face2024}
-Yusepp, ``Yolov8-face: Real-time face detection based on yolov8,''
-  \url{https://github.com/Yusepp/YOLOv8-Face}, 2024, accedido: octubre 2025.
-
 \bibitem{historiaReconocimiento}
 \BIBentryALTinterwordspacing
 BeeDigital. (2022) Historia y evolución del reconocimiento facial. [en
@@ -120,10 +51,26 @@ Thales Group. (2023) Inspiración en biometría. [en línea]. Disponible:
   [...]}
 \BIBentrySTDinterwordspacing
 
+\bibitem{lanacion_historiafacial}
+\BIBentryALTinterwordspacing
+{La Nación}. (2020) Reconocimiento facial: cómo nació esta tecnología en
+  una tableta de la década del 60. [en línea]. Disponible:
+  https://www.lanacion.com.ar/tecnologia/reconocimiento-facial-como-nacio-tableta-decada-del-nid2421334/.
+  [en línea]. Disponible: \url{https://www.lanacion.com.ar/tecnologia [...]}
+\BIBentrySTDinterwordspacing
+
 \bibitem{reconocimientoKaspersky}
 \BIBentryALTinterwordspacing
 Kaspersky. (2024) ¿qué es el reconocimiento facial y cómo funciona? [en
   línea]. Disponible: \url{https://latam.kaspersky.com/resource-center [...]}
+\BIBentrySTDinterwordspacing
+
+\bibitem{aeropuertosJapon}
+\BIBentryALTinterwordspacing
+{OSAO México}. (2024) Red de aeropuertos de japón instalará 66 puertas
+  automáticas con reconocimiento facial. [En línea]. Consultado en 2024. [en
+  línea]. Disponible:
+  \url{https://osao.com.mx/aeropuertos-japon-reconocimiento-facial}
 \BIBentrySTDinterwordspacing
 
 \bibitem{facialAWS}
@@ -143,7 +90,7 @@ Artificial intelligence. IBM. [en línea]. Disponible:
 E.~Acevedo, A.~Serna, y E.~Serna. (2017) Principios y características de las
   redes neuronales artificiales. [Accedido: 15 de marzo de 2025]. [en línea].
   Disponible:. [en línea]. Disponible:
-  \url{https://www.researchgate.net/profile/Jhon-Fredy-Narvaez/publication/320170890_Desarrollos_de_la_Ingenieria_ambiental_en_la_evaluacion_de_la_calidad_de_los_recursos_naturales_y_la_salud_ambiental/links/59d26bfca6fdcc181ad611ce/Desarrollos-de-la-Ingenieria-ambiental-en-la-evaluacion-de-la-calidad-de-los-recursos-naturales-y-la-salud-ambiental.pdf#page=174}
+  \url{https://www.researchgate.net/profile [...]}
 \BIBentrySTDinterwordspacing
 
 \bibitem{valverde2019}
@@ -167,6 +114,13 @@ J.~H. Urgel. (2021) Calibración de combinaciones de redes neuronales profundas
   [en línea]. Disponible: \url{https://repositorio.uam.es/bitstream [...]}
 \BIBentrySTDinterwordspacing
 
+\bibitem{sandhane_figure3}
+\BIBentryALTinterwordspacing
+Raghav Sandhane. (n.d.) Figure 3: The relationship between ai, machine learning
+  and deep learning. Academia.edu. [en línea]. Disponible:
+  \url{https://www.academia.edu/figures [...]}
+\BIBentrySTDinterwordspacing
+
 \bibitem{perceptrons1969}
 \BIBentryALTinterwordspacing
 M.~Minsky y S.~Papert, \emph{Perceptrons: An Introduction to Computational
@@ -178,6 +132,29 @@ M.~Minsky y S.~Papert, \emph{Perceptrons: An Introduction to Computational
 \BIBentryALTinterwordspacing
 What is artificial intelligence. Google Cloud. [en línea]. Disponible:
   \url{https://cloud.google.com/learn [...]}
+\BIBentrySTDinterwordspacing
+
+\bibitem{interactivechaos_ffnn}
+\BIBentryALTinterwordspacing
+{Interactive Chaos}. (2024) Redes neuronales prealimentadas. [en línea].
+  Disponible:
+  https://interactivechaos.com/es/manual/tutorial-de-deep-learning/redes-neuronales-prealimentadas.
+  [en línea]. Disponible: \url{https://interactivechaos.com/es [...]}
+\BIBentrySTDinterwordspacing
+
+\bibitem{falken_cnn}
+\BIBentryALTinterwordspacing
+{El Laberinto de Falken}. (2019) Visión artificial: Redes convolucionales
+  (cnn). [en línea]. Disponible:
+  https://www.ellaberintodefalken.com/2019/10/vision-artificial-redes-convolucionales-CNN.html.
+  [en línea]. Disponible: \url{https://www.ellaberintodefalken.com/2019 [...]}
+\BIBentrySTDinterwordspacing
+
+\bibitem{gan_aws}
+\BIBentryALTinterwordspacing
+{Amazon Web Services}. (2024) ¿qué es una red generativa adversarial (gan)?
+  [en línea]. Disponible: https://aws.amazon.com/es/what-is/gan/. [en línea].
+  Disponible: \url{https://aws.amazon.com/es [...]}
 \BIBentrySTDinterwordspacing
 
 \bibitem{mora2002}
@@ -192,6 +169,14 @@ S.~L. Mora. (2002) Programación de aplicaciones web: historia, principios
 Jonny~Rodolfo Bastidas~Gavilanes. (2019) Registro de asistencia de alumnos por
   medio de reconocimiento facial utilizando visión artificial. UTA. [en
   línea]. Disponible: \url{https://repositorio.uta.edu.ec/jspui [...]}
+\BIBentrySTDinterwordspacing
+
+\bibitem{listaAsistenciaEscolar}
+\BIBentryALTinterwordspacing
+{Mi De Águila}. (2021) Formato de lista de asistencia escolar. [en línea].
+  Disponible:
+  https://mideaguila.blogspot.com/2021/12/formato-de-lista-de-asistencia-escolar.html.
+  [en línea]. Disponible: \url{https://mideaguila.blogspot.com/2021 [...]}
 \BIBentrySTDinterwordspacing
 
 \bibitem{detecFacialOpenCV}
@@ -241,10 +226,8 @@ Reconocimiento facial para la automatización del registro de asistencia a
 \bibitem{python}
 \BIBentryALTinterwordspacing
 {GoDaddy Inc.} (2024) Python: qué es, para qué sirve y cómo empezar a
-  usarlo. [en línea]. Disponible:
-  https://www.godaddy.com/resources/latam/desarrollo/python-que-es. [en
-  línea]. Disponible:
-  \url{https://www.godaddy.com/resources/latam/desarrollo/python-que-es}
+  usarlo. [En línea]. Consultado en 2024. [en línea]. Disponible:
+  \url{https://www.godaddy.com/resources/latam/desarrollo/python}
 \BIBentrySTDinterwordspacing
 
 \bibitem{javascript}
@@ -326,5 +309,18 @@ Mei Wang y Weihong Deng, ``Deep face recognition: A survey,''
   \emph{Neurocomputing}, vol. 429, pp. 215--244, 2021. [en línea]. Disponible:
   \url{https://arxiv.org/abs/1804.06655}
 \BIBentrySTDinterwordspacing
+
+\bibitem{fatima2024yolov8}
+\BIBentryALTinterwordspacing
+Sana Fatima, Najmi~Ghani Haider, y Rizwan Riaz, ``Yolov8 vs retinanet vs
+  efficientdet: A comparative analysis for modern object detection,''
+  \emph{International Journal of Emerging Engineering and Technology (IJEET)},
+  vol.~3, no.~2, pp. 1--5, 2024. [en línea]. Disponible:
+  \url{https://grsh.org/journal1 [...]}
+\BIBentrySTDinterwordspacing
+
+\bibitem{yolov8face2024}
+Yusepp, ``Yolov8-face: Real-time face detection based on yolov8,''
+  \url{https://github.com/Yusepp/YOLOv8-Face}, 2024, accedido: octubre 2025.
 
 \end{thebibliography}

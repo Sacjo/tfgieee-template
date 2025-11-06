@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.8.30)  6 NOV 2025 15:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.8.30)  6 NOV 2025 16:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2364,73 +2364,58 @@ Package pdftex.def Info: anexos/anexo_b_img/face4.png  used on input line 99.
 )
 
 [130 <./anexos/anexo_b_img/face4.png>] (./tfg.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 26--28
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+[]\OT1/cmr/m/n/14.4 La Naci^^Son. (2020) Re-conocimien-to fa-cial:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\OT1/cmr/m/n/14.4 c^^Somo naci^^So es-ta tec-nolog^^S^^Pa en una table-ta
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\OT1/cmr/m/n/14.4 de la d^^Seca-da del 60. [en l^^S^^Pnea]. Disponible:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
 \OT1/cmr/m/n/14.4 https://www.lanacion.com.ar/tecnologia/reconocimiento-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--28
-\OT1/cmr/m/n/14.4 facial-como-nacio-tableta-decada-del-
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+\OT1/cmr/m/n/14.4 de-aeropuertos-de-japon-instalara-66-puertas-automaticas-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--28
-\OT1/cmr/m/n/14.4 nid2421334/. [en l^^S^^Pnea]. Disponible:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--28
-[]$\OT1/cmr/m/n/14.4 https : / / www . lanacion . com . ar / tecnologia /
- []
-
-
-Overfull \hbox (42.76117pt too wide) in paragraph at lines 26--28
-\OT1/cmr/m/n/14.4 reconocimiento-[]facial-[]como-[]nacio-[]tableta-[]decada-[]del-[]nid2421334/$[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--33
-\OT1/cmr/m/n/14.4 red-de-aeropuertos-de-japon-instalara-66-puertas-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--33
-\OT1/cmr/m/n/14.4 automaticas-adicionales-con-reconocimiento-facial/.
- []
-
-
-Underfull \hbox (badness 3058) in paragraph at lines 31--33
-\OT1/cmr/m/n/14.4 [en l^^S^^Pnea]. Disponible: []$https : / / osao . com . mx /
- []
-
-
-Overfull \hbox (277.23318pt too wide) in paragraph at lines 31--33
-\OT1/cmr/m/n/14.4 la-[]red-[]de-[]aeropuertos-[]de-[]japon-[]instalara-[]66-[]puertas-[]automaticas-[]adicionales-[]con-[]reconocimiento-[]facial/$[] 
- []
-
-
-Underfull \hbox (badness 1629) in paragraph at lines 36--38
+Underfull \hbox (badness 1629) in paragraph at lines 32--34
 []\OT1/cmr/m/n/14.4 Raghav Sand-hane. (n.d.) Fig-ure 3: The
  []
 
 
-Underfull \hbox (badness 2285) in paragraph at lines 36--38
+Underfull \hbox (badness 2285) in paragraph at lines 32--34
 \OT1/cmr/m/n/14.4 re-la-tion-ship be-tween ai, ma-chine learn-ing
  []
 
 
-Underfull \hbox (badness 4505) in paragraph at lines 41--43
+Underfull \hbox (badness 4505) in paragraph at lines 37--39
 []\OT1/cmr/m/n/14.4 Interactive Chaos. (2024) Re-des neu-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--43
+Underfull \hbox (badness 10000) in paragraph at lines 37--39
 \OT1/cmr/m/n/14.4 https://interactivechaos.com/es/manual/tutorial-de-deep-
  []
 
 
-Underfull \hbox (badness 4467) in paragraph at lines 41--43
+Underfull \hbox (badness 4467) in paragraph at lines 37--39
 \OT1/cmr/m/n/14.4 Disponible: []$https : / / interactivechaos . com / es / manual /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--44
+\OT1/cmr/m/n/14.4 https://www.ellaberintodefalken.com/2019/10/vision-
  []
 
 
@@ -2441,222 +2426,187 @@ Underfull \hbox (badness 4467) in paragraph at lines 41--43
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 46--48
-\OT1/cmr/m/n/14.4 https://www.ellaberintodefalken.com/2019/10/vision-
- []
-
-
-Underfull \hbox (badness 1082) in paragraph at lines 56--58
+Underfull \hbox (badness 1082) in paragraph at lines 52--54
 []\OT1/cmr/m/n/14.4 Mi De []Aguila. (2021) For-ma-to de lista
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--58
+Underfull \hbox (badness 10000) in paragraph at lines 52--54
 \OT1/cmr/m/n/14.4 https://mideaguila.blogspot.com/2021/12/formato-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--58
+Underfull \hbox (badness 10000) in paragraph at lines 52--54
 \OT1/cmr/m/n/14.4 de-lista-de-asistencia-escolar.html. [en l^^S^^Pnea].
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--58
+Underfull \hbox (badness 10000) in paragraph at lines 52--54
 \OT1/cmr/m/n/14.4 Disponible: []$https : / / mideaguila . blogspot . com / 2021 /
  []
 
 
-Underfull \hbox (badness 2005) in paragraph at lines 69--71
+Underfull \hbox (badness 2005) in paragraph at lines 65--67
 \OT1/cmr/m/n/14.4 conocimien-to fa-cial. [en l^^S^^Pnea]. Disponible:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--71
+Underfull \hbox (badness 10000) in paragraph at lines 65--67
 []$\OT1/cmr/m/n/14.4 https : / / www . beedigital . es / tendencias-[]digitales /
+ []
+
+
+Underfull \hbox (badness 1910) in paragraph at lines 70--72
+\OT1/cmr/m/n/14.4 guri-dad biom^^Setri-ca? [en l^^S^^Pnea]. Disponible:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--72
+[]$\OT1/cmr/m/n/14.4 https : / / www . avast . com / es-[]es / c-[]what-[]is-[]biometric-[]data# :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--72
+[] \OT1/cmr/m/n/14.4 : text = de % 20huella % 20dactilar . -[] ,[] %C2 % BFQu % C3 % A9 %
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--72
+\OT1/cmr/m/n/14.4 20es % 20la % 20seguridad % 20biom % C3 % A9trica % 3F ,[] de %
  []
 
 
 
 [132]
-Underfull \hbox (badness 1910) in paragraph at lines 74--76
-\OT1/cmr/m/n/14.4 guri-dad biom^^Setri-ca? [en l^^S^^Pnea]. Disponible:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 74--76
-[]$\OT1/cmr/m/n/14.4 https : / / www . avast . com / es-[]es / c-[]what-[]is-[]biometric-[]data# :
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 74--76
-[] \OT1/cmr/m/n/14.4 : text = de % 20huella % 20dactilar . -[] ,[] %C2 % BFQu % C3 % A9 %
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 74--76
-\OT1/cmr/m/n/14.4 20es % 20la % 20seguridad % 20biom % C3 % A9trica % 3F ,[] de %
- []
-
-
-Underfull \hbox (badness 1189) in paragraph at lines 79--81
+Underfull \hbox (badness 1189) in paragraph at lines 75--77
 \OT1/cmr/m/n/14.4 [en l^^S^^Pnea]. Disponible: []$https : / / www . thalesgroup .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--81
+Underfull \hbox (badness 10000) in paragraph at lines 75--77
 \OT1/cmr/m/n/14.4 com / es / countries / americas / latin-[]america / dis / gobierno /
  []
 
 
-Underfull \hbox (badness 1024) in paragraph at lines 84--86
+Underfull \hbox (badness 1024) in paragraph at lines 80--82
 []\OT1/cmr/m/n/14.4 Bee Safe Se-cu-ri-ty. (2024) Ex-plor-ing dif-fer-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--86
+Underfull \hbox (badness 10000) in paragraph at lines 80--82
 \OT1/cmr/m/n/14.4 different-types-of-access-control-credentials/. [en
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--86
+Underfull \hbox (badness 10000) in paragraph at lines 80--82
 \OT1/cmr/m/n/14.4 l^^S^^Pnea]. Disponible: []$https : / / beesafeohio . com /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--96
+Underfull \hbox (badness 10000) in paragraph at lines 90--92
 \OT1/cmr/m/n/14.4 facial-[]recognition / # : [] : text = Funciona % 20mediante % 20la %
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--96
+Underfull \hbox (badness 10000) in paragraph at lines 90--92
 \OT1/cmr/m/n/14.4 20identi^^Lcaci % C3 % B3n % 20y ,[] gran % 20colecci % C3 % B3n %
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--106
-\OT1/cmr/m/n/14.4 researchgate . net / pro^^Lle / Jhon-[]Fredy-[]Narvaez / publication /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--106
-\OT1/cmr/m/n/14.4 320170890[]Desarrollos[]de[]la[]Ingenieria[]ambiental[]en[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--106
-\OT1/cmr/m/n/14.4 la[]evaluacion[]de[]la[]calidad[]de[]los[]recursos[]naturales[]y[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--106
-\OT1/cmr/m/n/14.4 la[]salud[]ambiental / links / 59d26bfca6fdcc181ad611ce /
- []
-
-
-Overfull \hbox (354.88559pt too wide) in paragraph at lines 104--106
-\OT1/cmr/m/n/14.4 Desarrollos-[]de-[]la-[]Ingenieria-[]ambiental-[]en-[]la-[]evaluacion-[]de-[]la-[]calidad-[]de-[]los-[]recursos-[]naturales-[]y-[]la-[]salud-[]ambiental .
+Underfull \hbox (badness 10000) in paragraph at lines 105--107
+[]$\OT1/cmr/m/n/14.4 https : / / repositorio . unican . es / xmlui / bitstream / handle /
  []
 
 
 
 [133]
-Underfull \hbox (badness 10000) in paragraph at lines 109--111
-[]$\OT1/cmr/m/n/14.4 https : / / repositorio . unican . es / xmlui / bitstream / handle /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 119--121
+Underfull \hbox (badness 10000) in paragraph at lines 115--117
 \OT1/cmr/m/n/14.4 / / repositorio . uam . es / bitstream / handle / 10486 / 698387 /
  []
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 124--126
+Underfull \hbox (badness 2213) in paragraph at lines 120--122
 \OT1/cmr/m/n/14.4 Disponible: []$https : / / direct . mit . edu / books / monograph /
  []
 
 
 
 [134]
-
-[135]
-Underfull \hbox (badness 1348) in paragraph at lines 169--171
+Underfull \hbox (badness 1348) in paragraph at lines 165--167
 []\OT1/cmr/m/n/14.4 Figma Inc. (2024) ?`qu^^Se es fig-ma? [en
  []
 
 
-Underfull \hbox (badness 3199) in paragraph at lines 169--171
+Underfull \hbox (badness 3199) in paragraph at lines 165--167
 \OT1/cmr/m/n/14.4 l^^S^^Pnea]. Disponible: https://help.figma.com/hc/es-
  []
 
 
-Overfull \hbox (28.99971pt too wide) in paragraph at lines 174--176
-\OT1/cmr/m/n/14.4 https://www.godaddy.com/resources/latam/desarrollo/python-
- []
 
-
-Underfull \hbox (badness 2799) in paragraph at lines 189--191
+[135]
+Underfull \hbox (badness 2799) in paragraph at lines 185--187
 \OT1/cmr/m/n/14.4 About post-gresql. [en l^^S^^Pnea]. Disponible:
  []
 
 
-Underfull \hbox (badness 2229) in paragraph at lines 194--196
+Underfull \hbox (badness 2229) in paragraph at lines 190--192
 \OT1/cmr/m/n/14.4 l^^S^^Pnea]. Disponible: https://learn.microsoft.com/es-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--196
+Underfull \hbox (badness 10000) in paragraph at lines 190--192
 []$\OT1/cmr/m/n/14.4 https : / / learn . microsoft . com / es-[]es / devops / develop / git /
  []
 
 
-Underfull \hbox (badness 1137) in paragraph at lines 199--201
+Underfull \hbox (badness 1137) in paragraph at lines 195--197
 []\OT1/cmr/m/n/14.4 OpenWebinars. (2024) ?`qu^^Se es vi-su-al stu-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--201
+Underfull \hbox (badness 10000) in paragraph at lines 195--197
 \OT1/cmr/m/n/14.4 Disponible: https://openwebinars.net/blog/que-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--201
+Underfull \hbox (badness 10000) in paragraph at lines 195--197
 \OT1/cmr/m/n/14.4 es-visual-studio-code-y-que-ventajas-ofrece/. [en
  []
 
 
-Underfull \hbox (badness 1960) in paragraph at lines 199--201
+Underfull \hbox (badness 1960) in paragraph at lines 195--197
 \OT1/cmr/m/n/14.4 l^^S^^Pnea]. Disponible: []$https : / / openwebinars . net / blog /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--200
+[]\OT1/cmr/m/n/14.4 GitHub, Inc., ``Ac-er-ca de github desk-top,''
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--200
+[]$\OT1/cmr/m/n/14.4 https : / / docs . github . com / es / desktop / overview /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--200
+\OT1/cmr/m/n/14.4 about-[]github-[]desktop$[], 2025, [en l^^S^^Pnea]. Disponible:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--200
+\OT1/cmr/m/n/14.4 https://docs.github.com/es/desktop/overview/about-
  []
 
 
 
 [136]
-Underfull \hbox (badness 10000) in paragraph at lines 203--204
-[]\OT1/cmr/m/n/14.4 GitHub, Inc., ``Ac-er-ca de github desk-top,''
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 203--204
-[]$\OT1/cmr/m/n/14.4 https : / / docs . github . com / es / desktop / overview /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 203--204
-\OT1/cmr/m/n/14.4 about-[]github-[]desktop$[], 2025, [en l^^S^^Pnea]. Disponible:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 203--204
-\OT1/cmr/m/n/14.4 https://docs.github.com/es/desktop/overview/about-
- []
-
-
-Underfull \hbox (badness 1132) in paragraph at lines 217--219
+Underfull \hbox (badness 1132) in paragraph at lines 213--215
 \OT1/cmr/m/n/14.4 to the python mi-croframe-work. [en l^^S^^Pnea].
  []
 
 
-Underfull \hbox (badness 3895) in paragraph at lines 217--219
+Underfull \hbox (badness 3895) in paragraph at lines 213--215
 \OT1/cmr/m/n/14.4 Disponible: https://builtin.com/software-engineering-
  []
 
@@ -2690,10 +2640,10 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  84i,16n,93p,2557b,936s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk> </Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk> </Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcbx1440.600pk> </Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1440.600pk></Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on tfg.pdf (159 pages, 9383501 bytes).
+Output written on tfg.pdf (159 pages, 9382357 bytes).
 PDF statistics:
- 2057 PDF objects out of 2073 (max. 8388607)
- 1719 compressed objects within 18 object streams
+ 2051 PDF objects out of 2073 (max. 8388607)
+ 1713 compressed objects within 18 object streams
  435 named destinations out of 1000 (max. 500000)
  1082 words of extra memory for PDF output out of 10000 (max. 10000000)
 

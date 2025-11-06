@@ -22,14 +22,10 @@
 \renewcommand{\BIBentryALTinterwordstretchfactor}{4}
 
 \bibitem{lanacion_historiafacial}
-\BIBentryALTinterwordspacing
-{La Nación}. (2020) Reconocimiento facial: cómo nació esta tecnología en una tableta de la década del 60. [en línea]. Disponible: https://www.lanacion.com.ar/tecnologia/reconocimiento-facial-como-nacio-tableta-decada-del-nid2421334/. [en línea]. Disponible: \url{https://www.lanacion.com.ar/tecnologia/reconocimiento-facial-como-nacio-tableta-decada-del-nid2421334/}
-\BIBentrySTDinterwordspacing
+{La Nación}. (2020) Reconocimiento facial: cómo nació esta tecnología en una tableta de la década del 60. [en línea]. Disponible: https://www.lanacion.com.ar/tecnologia/reconocimiento-facial-como-nacio-tableta-decada-del-nid2421334/.
 
 \bibitem{aeropuertosJapon}
-\BIBentryALTinterwordspacing
-{OSAO México}. (2024) La red de aeropuertos de japón instalará 66 puertas automáticas adicionales con reconocimiento facial. [en línea]. Disponible: https://osao.com.mx/la-red-de-aeropuertos-de-japon-instalara-66-puertas-automaticas-adicionales-con-reconocimiento-facial/. [en línea]. Disponible: \url{https://osao.com.mx/la-red-de-aeropuertos-de-japon-instalara-66-puertas-automaticas-adicionales-con-reconocimiento-facial/}
-\BIBentrySTDinterwordspacing
+{OSAO México}. (2024) La red de aeropuertos de japón instalará 66 puertas automáticas adicionales con reconocimiento facial. [en línea]. Disponible: https://osao.com.mx/la-red-de-aeropuertos-de-japon-instalara-66-puertas-automaticas-adicionales-con-reconocimiento-facial/.
 
 \bibitem{sandhane_figure3}
 \BIBentryALTinterwordspacing
@@ -101,7 +97,7 @@ Artificial intelligence. IBM. [en línea]. Disponible: \url{https://www.ibm.com/
 
 \bibitem{acevedo2017}
 \BIBentryALTinterwordspacing
-E.~Acevedo, A.~Serna, y E.~Serna. (2017) Principios y características de las redes neuronales artificiales. [Accedido: 15 de marzo de 2025]. [en línea]. Disponible:. [en línea]. Disponible: \url{https://www.researchgate.net/profile/Jhon-Fredy-Narvaez/publication/320170890_Desarrollos_de_la_Ingenieria_ambiental_en_la_evaluacion_de_la_calidad_de_los_recursos_naturales_y_la_salud_ambiental/links/59d26bfca6fdcc181ad611ce/Desarrollos-de-la-Ingenieria-ambiental-en-la-evaluacion-de-la-calidad-de-los-recursos-naturales-y-la-salud-ambiental.pdf#page=174}
+E.~Acevedo, A.~Serna, y E.~Serna. (2017) Principios y características de las redes neuronales artificiales. [Accedido: 15 de marzo de 2025]. [en línea]. Disponible:. [en línea]. Disponible: \url{https://www.researchgate.net/profile/Jhon-Fredy-Narvaez/publication/320170890}
 \BIBentrySTDinterwordspacing
 
 \bibitem{valverde2019}
@@ -171,7 +167,7 @@ Reconocimiento facial para la automatización del registro de asistencia a clase
 
 \bibitem{python}
 \BIBentryALTinterwordspacing
-{GoDaddy Inc.} (2024) Python: ¿qué es, para qué sirve y cómo empezar a usarlo? [en línea]. Disponible: https://www.godaddy.com/resources/latam/desarrollo/python-que-es. [en línea]. Disponible: \url{https://www.godaddy.com/resources/latam/desarrollo/python-que-es}
+{GoDaddy Inc.} (2024) Python: ¿qué es, para qué sirve y cómo empezar a usarlo? [en línea]. Disponible: \url{https://www.godaddy.com/resources/latam/desarrollo/python-que-es}
 \BIBentrySTDinterwordspacing
 
 \bibitem{javascript}

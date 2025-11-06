@@ -6,9 +6,11 @@
 
 \chapter{Resultados}
 
-Para garantizar resultados precisos durante la evaluación del sistema de asistencia basado en reconocimiento facial, se definió un entorno de pruebas controlado. A continuación, se detallan las características del hardware y software utilizados, así como la versión del sistema y los módulos activados durante las pruebas.
+Para garantizar resultados precisos durante la evaluación del sistema de asistencia basado en reconocimiento facial, se estableció un entorno de pruebas controlado que reprodujo las condiciones reales de funcionamiento dentro de un contexto académico. El objetivo fue analizar el desempeño del sistema, verificando su capacidad para identificar correctamente a los usuarios, registrar la asistencia y mantener la coherencia de los datos obtenidos. Las pruebas se realizaron bajo distintas condiciones de iluminación, ángulo y distancia, repitiéndose en varias sesiones para asegurar resultados consistentes. Se analizaron indicadores como el tiempo de procesamiento, el porcentaje de coincidencias correctas y la tasa de falsos positivos, comprobando también la interacción entre los módulos de detección, reconocimiento y registro. Los resultados obtenidos se presentan a continuación mediante tablas y gráficos que reflejan la precisión, estabilidad y confiabilidad del modelo propuesto.
 
 \section{Figuras y Tablas}
+
+La siguiente tabla presenta un resumen de los componentes principales que conforman el entorno de desarrollo y ejecución del sistema. Se incluyen tanto los elementos de software utilizados para la implementación del proyecto como las herramientas necesarias para su funcionamiento, detallando las versiones, librerías y módulos activos durante el proceso de evaluación.
 
 \begin{table}[H]
     \centering
@@ -38,6 +40,7 @@ Para garantizar resultados precisos durante la evaluación del sistema de asiste
         Módulos activados & Captura de imagen, Preprocesamiento, Detección facial, Reconocimiento, Registro en base de datos, Reporte de asistencia \\ \hline
     \end{tabular}
 \end{table}
+
 
 
 
@@ -87,7 +90,12 @@ $> 0.75$ & Reconocimiento permisivo & Mayor tolerancia, con posibilidad de falso
 
 \subsection{Configuraciones y resultados obtenidos}
 
+En esta sección se presentan los resultados obtenidos durante las pruebas experimentales realizadas al sistema. Cada configuración de umbral corresponde a un valor distinto de similitud utilizado para determinar la coincidencia entre rostros. A través de estas pruebas se analizó el impacto de cada ajuste en la precisión del reconocimiento facial y en la capacidad del sistema para identificar correctamente a los usuarios registrados. A continuación, se detallan los resultados para cada configuración evaluada.
+
+
 \textbf{Configuración 1: Umbral 0.25}
+
+En esta primera configuración se utilizó un umbral de similitud de 0.25, considerado un valor muy estricto dentro del proceso de reconocimiento facial. Este parámetro establece que solo se considerarán coincidencias cuando la similitud entre vectores de características sea muy alta, reduciendo al mínimo las posibilidades de identificación incorrecta. Sin embargo, al mismo tiempo, puede provocar que rostros válidos no sean reconocidos si presentan ligeras variaciones de iluminación, expresión o ángulo.
 
 \begin{figure}[H]
     \centering
@@ -95,15 +103,20 @@ $> 0.75$ & Reconocimiento permisivo & Mayor tolerancia, con posibilidad de falso
     \caption{Fragmento de código utilizado para configurar el umbral de reconocimiento [Figura Propia].}
 \end{figure}
 
+La Figura 5.2 muestra el resultado obtenido bajo esta configuración. Se observa que el sistema no reconoce a los usuarios registrados, clasificándolos como “Desconocidos”, lo que evidencia que el umbral fijado es demasiado restrictivo para un entorno real. Este comportamiento confirma que, aunque el modelo mantiene un criterio de coincidencia riguroso, su capacidad de reconocimiento efectivo disminuye significativamente al exigir una similitud tan alta entre rostros.
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\textwidth]{capitulo_05/imagenes/umbral_1.0_30.jpg}
     \caption{Muy estricto, reconoce solo rostros casi idénticos [Figura Propia].}
 \end{figure}
 
+
 \newpage
 
 \textbf{Configuración 2: Umbral 0.35}
+
+En esta configuración se empleó un umbral de similitud de 0.35, con el propósito de evaluar un nivel ligeramente menos restrictivo que el de la configuración anterior. Este ajuste busca permitir un margen de tolerancia mayor ante variaciones menores en los rostros, como cambios en la iluminación, expresión o posición, manteniendo al mismo tiempo un criterio de identificación relativamente estricto. Con ello se pretende analizar si el sistema mejora su capacidad de reconocimiento sin comprometer de manera significativa la precisión de los resultados.
 
 \begin{figure}[H]
     \centering
@@ -111,15 +124,20 @@ $> 0.75$ & Reconocimiento permisivo & Mayor tolerancia, con posibilidad de falso
     \caption{Fragmento de código utilizado para configurar el umbral de reconocimiento [Figura Propia].}
 \end{figure}
 
+La Figura 5.4 muestra el comportamiento del sistema bajo esta configuración. Se observa que el modelo logra un equilibrio más adecuado entre precisión y sensibilidad, permitiendo reconocer correctamente a los usuarios en la mayoría de los casos, aunque sigue siendo susceptible a variaciones de luz o expresión facial. Este resultado demuestra que el valor de 0.35 mejora el desempeño general del sistema respecto a la configuración anterior, reduciendo los casos de no reconocimiento sin comprometer la exactitud de las coincidencias.
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.85\textwidth]{capitulo_05/imagenes/1.3_min_dist25.jpg}
     \caption{Estricto, buena precisión, pero sensible a luz o expresión [Figura Propia].}
 \end{figure}
 
+
 \newpage
 
 \textbf{Configuración 3: Umbral 0.45}
+
+En esta configuración se estableció un umbral de similitud de 0.45, con el objetivo de lograr un equilibrio entre precisión y tolerancia en el proceso de reconocimiento facial. Este valor busca permitir una identificación confiable sin exigir coincidencias excesivamente estrictas, reduciendo así los casos de no reconocimiento y manteniendo una buena estabilidad en los resultados. De esta manera, se pretende encontrar un punto intermedio donde el sistema conserve exactitud sin sacrificar su capacidad de detección efectiva.
 
 \begin{figure}[H]
     \centering
@@ -127,22 +145,29 @@ $> 0.75$ & Reconocimiento permisivo & Mayor tolerancia, con posibilidad de falso
     \caption{Fragmento de código utilizado para configurar el umbral de reconocimiento [Figura Propia].}
 \end{figure}
 
+La Figura 5.6 muestra los resultados obtenidos con este umbral. Se observa que el sistema logra identificar correctamente a los usuarios registrados, manteniendo un balance adecuado entre precisión y tolerancia. A diferencia de las configuraciones más estrictas, en este caso el reconocimiento es más estable ante variaciones leves en la expresión facial o la iluminación. Este resultado demuestra que un umbral de 0.45 representa una configuración equilibrada para entornos controlados, combinando una detección confiable con una tasa de reconocimiento satisfactoria.
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{capitulo_05/imagenes/6.6.jpg}
     \caption{Equilibrado, balance entre precisión y tolerancia [Figura Propia].}
 \end{figure}
 
+
 \newpage
 
 
 \textbf{Configuración 4: Umbral 0.60}
+
+En esta configuración se aplicó un umbral de similitud de 0.60, con el propósito de evaluar un nivel de tolerancia más amplio en el reconocimiento facial. Este valor permite que el sistema acepte coincidencias con una similitud moderada, incrementando la capacidad de reconocimiento sin perder completamente la precisión. El objetivo es analizar si esta configuración logra un balance adecuado entre exactitud y flexibilidad ante variaciones naturales en los rostros.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{capitulo_05/imagenes/4.png}
     \caption{Fragmento de código utilizado para configurar el umbral de reconocimiento [Figura Propia].}
 \end{figure}
+
+La Figura 5.8 muestra el comportamiento del sistema bajo este valor de umbral. Se aprecia que el modelo mantiene un reconocimiento estable, identificando correctamente a los usuarios incluso con pequeñas diferencias de expresión o iluminación. Aunque el criterio de coincidencia es más flexible que en configuraciones anteriores, la precisión sigue siendo aceptable, lo que convierte este umbral en una opción adecuada para escenarios de uso cotidiano donde pueden presentarse ligeras variaciones en las condiciones de captura.
 
 \begin{figure}[H]
     \centering
@@ -151,10 +176,13 @@ $> 0.75$ & Reconocimiento permisivo & Mayor tolerancia, con posibilidad de falso
 \end{figure}
 
 
+
 \newpage
 
 
-\textbf{Configuración 5: 0.75}
+\textbf{Configuración 5: Umbral 0.75}
+
+En esta última configuración se estableció un umbral de similitud de 0.75, con el objetivo de analizar el comportamiento del sistema bajo condiciones más permisivas. Este valor incrementa considerablemente la tolerancia del reconocimiento facial, permitiendo que se acepten coincidencias con diferencias más notables entre los rostros comparados. El propósito de esta prueba es determinar el límite a partir del cual el sistema comienza a perder precisión en favor de una mayor flexibilidad.
 
 \begin{figure}[H]
     \centering
@@ -162,11 +190,14 @@ $> 0.75$ & Reconocimiento permisivo & Mayor tolerancia, con posibilidad de falso
     \caption{Fragmento de código utilizado para configurar el umbral de reconocimiento [Figura Propia].}
 \end{figure}
 
+La Figura 5.10 presenta el resultado obtenido con esta configuración. Se observa que el modelo identifica correctamente a los usuarios, aunque con valores de similitud más altos y una mayor propensión a aceptar rostros con diferencias perceptibles. Esto demuestra que, si bien el umbral de 0.75 mejora la detección en escenarios con variaciones de luz o expresión, también incrementa el riesgo de clasificar rostros distintos como coincidentes. Por lo tanto, este umbral resulta útil en entornos informales o con alta variabilidad visual, pero puede no ser el más adecuado cuando se requiere un control riguroso de la precisión.
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{capitulo_05/imagenes/5.5.jpg}
     \caption{Puede aceptar coincidencias con diferencias notables [Figura Propia].}
 \end{figure}
+
 
 
 \newpage

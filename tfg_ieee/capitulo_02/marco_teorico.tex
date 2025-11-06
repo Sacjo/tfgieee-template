@@ -213,7 +213,7 @@ El aprendizaje automático se puede dividir en tres grandes tipos:
 
 \subsection{Aprendizaje Profundo (Deep Learning)}
 
-El aprendizaje profundo (\textit{Deep Learning}) es una subárea del aprendizaje automático que se fundamenta en el uso de \textbf{redes neuronales artificiales} con múltiples capas interconectadas. Estas redes permiten transformar progresivamente los datos de entrada en representaciones de mayor nivel de abstracción, adecuadas para tareas complejas como la clasificación de imágenes o el reconocimiento de patrones\cite{perez2021}.
+Es una subárea del aprendizaje automático que se fundamenta en el uso de \textbf{redes neuronales artificiales} con múltiples capas interconectadas. Estas redes permiten transformar progresivamente los datos de entrada en representaciones de mayor nivel de abstracción, adecuadas para tareas complejas como la clasificación de imágenes o el reconocimiento de patrones\cite{perez2021}.
 
 Una red neuronal artificial está compuesta por unidades denominadas \textit{nodos}, organizadas en capas de entrada, ocultas y de salida. Cada nodo combina las señales recibidas mediante pesos ajustables, aplica una función de activación y transmite el resultado a las siguientes capas. El entrenamiento se realiza mediante el algoritmo de \textit{retropropagación del error}, que ajusta los pesos para minimizar la diferencia entre la salida esperada y la obtenida. Cuantas más capas y parámetros posee una red, mayor es su capacidad de aprendizaje, siempre que se disponga de suficientes datos y recursos computacionales.
 
@@ -244,12 +244,91 @@ En esta investigación, el aprendizaje profundo constituye un pilar esencial par
 Una red neuronal es un sistema de neuronas artificiales (a veces llamadas perceptrones), que son nodos de procesamiento que se usan para clasificar y analizar datos. Los datos se ingresan en la primera capa de una red neuronal, y cada perceptrón toma una decisión y, luego, pasa esa información a varios nodos de la siguiente capa. Los modelos de entrenamiento con más de tres capas se denominan redes neuronales profundas o “aprendizaje profundo”. Algunas redes neuronales modernas tienen cientos o miles de capas. La salida de los perceptrones finales permite realizar la tarea impuesta a la red neuronal, como clasificar un objeto o encontrar patrones en los datos\cite{perceptrons1969}.
 
 \begin{figure}[H]
-  \centering
-  \includegraphics[width=1\textwidth]{imagenes_doc/redes_neuronales.png}
-  \caption{Estructura de una red neuronal profunda\cite{ricardogeek_redesneuronales}.}
-  \label{fig:logo}
-\end{figure}
+\centering
+% ============== CONFIG ==========================
+\def\inputnodes{3}
+\def\hiddenlayers{3}
+\def\hiddennodes{10}   % nodos por capa oculta
+\def\outputnodes{3}
 
+\def\xsep{2.7}         % separación horizontal entre capas
+\def\ysep{1}         % separación vertical entre neuronas
+\def\nodesize{6pt}     % radio del nodo
+
+% Colores (edítalos si querés)
+\colorlet{inputC}{green!60!black}
+\colorlet{hiddenC}{orange!75!black}
+\colorlet{outputC}{red!70!black}
+
+% Estilos
+\tikzset{
+  neuron/.style = {circle, draw=black!60, fill=#1, minimum size=2*\nodesize, inner sep=0pt},
+  synapse/.style = {line width=0.25pt, draw=black!40}
+}
+
+% ============== DIBUJO ==========================
+\begin{tikzpicture}[x=\xsep cm, y=\ysep cm]
+
+% --- Función auxiliar para centrar columnas ---
+% Coloca N nodos verticalmente centrados con nombre base (#2) en x = #3
+\newcommand{\columnof}[4]{%
+  \pgfmathsetmacro{\N}{#1}
+  \pgfmathsetmacro{\half}{(\N-1)/2}
+  \foreach \i in {1,...,#1}{
+    \node[neuron=#4] (#2\i) at (#3,{\half-(\i-1)}) {};
+  }
+}
+
+% Entrada
+\columnof{\inputnodes}{I}{0}{inputC}
+
+% Capas ocultas
+\foreach \L in {1,...,\hiddenlayers}{
+  \pgfmathsetmacro{\x}{\L}
+  \columnof{\hiddennodes}{H\L-}{\x}{hiddenC}
+}
+
+% Salida
+\pgfmathsetmacro{\xout}{\hiddenlayers+1}
+\columnof{\outputnodes}{O}{\xout}{outputC}
+
+% Conexiones densas: entrada -> oculta1
+\foreach \i in {1,...,\inputnodes}{
+  \foreach \j in {1,...,\hiddennodes}{
+    \draw[synapse] (I\i) -- (H1-\j);
+  }
+}
+
+% Conexiones entre ocultas
+\foreach \L in {1,...,\numexpr\hiddenlayers-1\relax}{
+  \pgfmathtruncatemacro{\Lnext}{\L+1}
+  \foreach \i in {1,...,\hiddennodes}{
+    \foreach \j in {1,...,\hiddennodes}{
+      \draw[synapse] (H\L-\i) -- (H\Lnext-\j);
+    }
+  }
+}
+
+% Conexiones: última oculta -> salida
+\foreach \i in {1,...,\hiddennodes}{
+  \foreach \j in {1,...,\outputnodes}{
+    \draw[synapse] (H\hiddenlayers-\i) -- (O\j);
+  }
+}
+
+% --- Etiquetas de capas (opcional) ---
+\node[above=7pt] at (I1.north) {\small Capa entrada};
+\foreach \L in {1,...,\hiddenlayers}{
+  \node[above=7pt] at (H\L-1.north) {\small Capa oculta \L};
+}
+\node[above=7pt] at (O1.north) {\small Capa salida};
+
+\end{tikzpicture}
+
+\captionsetup{justification=centering}
+\caption{Estructura de una red neuronal profunda.}
+\label{fig:red_neuronal_tikz}
+\end{figure}
 
 
 \subsection{Tipos Comunes de redes neuronales artificiales}
@@ -343,14 +422,17 @@ Los registros académicos son la recopilación sistemática de información rela
 
 
 
-\subsection{¿Qué contienen los registros académicos?}
+\subsection{Contenidos de los registros académicos.}
+
+Los registros académicos incluyen distintos tipos de información que permiten reflejar de manera completa la trayectoria educativa del estudiante. Cada componente cumple una función específica dentro del control y seguimiento institucional:
+
 \begin{itemize}
-  \item \textbf{Calificaciones:} Notas obtenidas en cada asignatura y evaluaciones.
-  \item \textbf{Asistencia:} Registro de las clases a las que el estudiante ha asistido.
-  \item \textbf{Cursos aprobados:} Lista de materias completadas con éxito.
-  \item \textbf{Actividades Extracurriculares:} Participación en clubes, deportes, proyectos, etc.
-  \item \textbf{Información Personal:} Nombre completo, fecha de nacimiento, dirección, etc.
-  \item \textbf{Historial académico:} Transferencias a otras instituciones, cambios de carrera, etc.
+  \item \textbf{Calificaciones:} Representan el rendimiento obtenido por el estudiante en las distintas asignaturas y evaluaciones parciales o finales.
+  \item \textbf{Asistencia:} Indica la cantidad de clases o actividades a las que el estudiante ha asistido, sirviendo como indicador de compromiso y cumplimiento académico.
+  \item \textbf{Cursos aprobados:} Detallan las materias superadas satisfactoriamente, evidenciando el avance dentro del plan de estudios.
+  \item \textbf{Actividades extracurriculares:} Registran la participación en proyectos, talleres, clubes o eventos que complementan la formación académica.
+  \item \textbf{Información personal:} Contiene los datos básicos del estudiante, como nombre completo, fecha de nacimiento, número de identificación y otros datos administrativos.
+  \item \textbf{Historial académico:} Resume el recorrido del estudiante, incluyendo cambios de carrera, revalidaciones, transferencias o situaciones académicas relevantes.
 \end{itemize}
 
 
@@ -372,11 +454,9 @@ Los registros académicos son fundamentales para garantizar la transparencia, la
 
 El trabajo Detección facial mediante OpenCV, desarrollado como TFG en la FPUNE, se centra en el diseño y desarrollo de un software de detección facial como primer paso en el proceso de reconocimiento de rostros. En este proyecto, se realizó un exhaustivo análisis de los sistemas y técnicas de reconocimiento facial más avanzados en el estado del arte, seleccionando aquellos más relevantes para los objetivos del estudio. Proporciona una descripción detallada de las distintas etapas del proceso y su desarrollo, utilizando la biblioteca OpenCV y la plataforma Java. La principal contribución de este trabajo al proyecto propuesto es el método de detección facial en tiempo real y fuera de línea desde archivos\cite{detecFacialOpenCV}.
 
-
 \subsection*{\textit{Sistema de examen en línea con reconocimiento facial.}}
 
 El trabajo Sistema de examen en línea con reconocimiento facial, desarrollado como parte de un proyecto, se centra en el diseño y desarrollo de un sistema web de detección facial para mitigar intentos de fraude en evaluaciones en línea. Utilizando herramientas de código abierto como OpenCV y la plataforma Java, el sistema verifica la identidad del alumno al inicio y durante toda la evaluación, detectando tanto la ausencia del estudiante como la presencia de más de una persona. Este sistema fue probado y evaluado, mostrando resultados favorables en términos de satisfacción de los usuarios\cite{examOnline}.
-
 
 \subsection*{\textit{Sistema biométrico de reconocimiento facial utilizando redes neuronales artificiales en Raspberry Pi.}}
 
@@ -384,13 +464,12 @@ El trabajo Sistema biométrico de reconocimiento facial utilizando redes neurona
 
 \subsection*{\textit{Prototipo de reconocimiento facial para mejorar el control de asistencia de estudiantes en UNIANDES, Quevedo.}}
 
-El trabajo Prototipo de reconocimiento facial para mejorar el control de asistencia en UNIANDES – Quevedo  tiene como objetivo diseñar un prototipo de reconocimiento facial para optimizar el control de asistencia de estudiantes y la identificación facial en el laboratorio de cómputo. Este prototipo automatizó el proceso de registro de asistencia de docentes y estudiantes mediante el reconocimiento facial, facilitando la tarea con rapidez y exactitud. El sistema funciona colocando al docente frente a la cámara instalada en la parte exterior del laboratorio, activando por reconocimiento facial el dispositivo que abre la puerta, enciende el aire acondicionado y las luces. Posteriormente, los estudiantes se colocan uno por uno frente a la cámara, que detecta sus rostros y los compara con los datos almacenados en la base de datos\cite{prototipoUNIANDES}.
+El trabajo Prototipo de reconocimiento facial para mejorar el control de asistencia en UNIANDES – Quevedo tiene como objetivo diseñar un prototipo de reconocimiento facial para optimizar el control de asistencia de estudiantes y la identificación facial en el laboratorio de cómputo. Este prototipo automatizó el proceso de registro de asistencia de docentes y estudiantes mediante el reconocimiento facial, facilitando la tarea con rapidez y exactitud. El sistema funciona colocando al docente frente a la cámara instalada en la parte exterior del laboratorio, activando por reconocimiento facial el dispositivo que abre la puerta, enciende el aire acondicionado y las luces. Posteriormente, los estudiantes se colocan uno por uno frente a la cámara, que detecta sus rostros y los compara con los datos almacenados en la base de datos\cite{prototipoUNIANDES}.
 
-\subsection*{\textit{Registro de asistencia de alumnos por medio de reconocimiento facial utilizando visión artificial}}
+\subsection*{\textit{Registro de asistencia de alumnos por medio de reconocimiento facial utilizando visión artificial.}}
 
 El trabajo Sistema de control de asistencia para alumnos utilizando reconocimiento facial se centra en el desarrollo de un sistema que emplea reconocimiento facial para registrar la asistencia de estudiantes. Implementado con redes neuronales artificiales como HOG y CNN en una Raspberry Pi 3, este proyecto busca ofrecer una solución eficiente y en tiempo real. Utilizando tecnología de visión artificial, el sistema captura y compara imágenes faciales, proporcionando un control preciso de asistencia. Diseñado para instituciones educativas, este sistema destaca por ser robusto, flexible y por optimizar la gestión de estudiantes, mejorando la eficiencia en el registro de asistencia\cite{registroAsistenciaUTA}.
 
-\subsection*{\textit{Reconocimiento facial para la automatización del registro de asistencia a clases}}
-
+\subsection*{\textit{Reconocimiento facial para la automatización del registro de asistencia a clases.}}
 
 El trabajo Sistema piloto de registro automático de asistencia a clases presenciales FRARCA se desarrolló como un sistema basado en técnicas de detección y reconocimiento facial mediante modelos de aprendizaje profundo. Diseñado con una arquitectura modular, integra herramientas como contenedores y el lenguaje de programación Python, junto con los frameworks FastAPI y Django, además de frameworks de Machine Learning como Keras, TensorFlow, PyTorch, OpenCV y MXNet. El proceso de identificación se realiza mediante la extracción y almacenamiento de características faciales en bases de datos, comparando similitudes entre vectores de características (embeddings). Esto permite eliminar la necesidad de reentrenar las redes neuronales convolucionales con cada nuevo alumno, optimizando la eficiencia del sistema\cite{automatizacionAsistencia}.

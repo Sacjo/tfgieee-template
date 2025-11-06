@@ -3,26 +3,26 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Resultados principales de los modelos de detección\cite {fatima2024yolov8}.}}{46}{table.4.1}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces Comparativa de modelos YOLO para detección facial\cite {yolov8face2024}.}}{47}{table.4.2}%
-\contentsline {table}{\numberline {4.3}{\ignorespaces Rendimiento de modelos YOLO en distintos niveles de dificultad (WIDER Face)\cite {yolov8face2024}.}}{48}{table.4.3}%
-\contentsline {table}{\numberline {4.4}{\ignorespaces Comparativa de modelos de DeepFace\cite {yolov8face2024}.}}{48}{table.4.4}%
-\contentsline {table}{\numberline {4.5}{\ignorespaces Comparativa de modelos de DeepFace \cite {yolov8face2024}.}}{49}{table.4.5}%
-\contentsline {table}{\numberline {4.6}{\ignorespaces Requisitos funcionales del sistema CheckFace[Tabla Propia].}}{57}{table.4.6}%
-\contentsline {table}{\numberline {4.7}{\ignorespaces Requisitos no funcionales del sistema CheckFace[Tabla Propia].}}{57}{table.4.7}%
-\contentsline {table}{\numberline {4.8}{\ignorespaces Diccionario de datos de la tabla \textit {roles} [Tabla Propia].}}{60}{table.4.8}%
-\contentsline {table}{\numberline {4.9}{\ignorespaces Diccionario de datos de la tabla \textit {users} [Tabla Propia].}}{61}{table.4.9}%
-\contentsline {table}{\numberline {4.10}{\ignorespaces Diccionario de datos de la tabla \textit {participants} [Tabla Propia].}}{61}{table.4.10}%
-\contentsline {table}{\numberline {4.11}{\ignorespaces Diccionario de datos de la tabla \textit {courses} [Tabla Propia].}}{61}{table.4.11}%
-\contentsline {table}{\numberline {4.12}{\ignorespaces Diccionario de datos de la tabla \textit {course\_schedules} [Tabla Propia].}}{61}{table.4.12}%
-\contentsline {table}{\numberline {4.13}{\ignorespaces Diccionario de datos de la tabla \textit {participant\_courses} [Tabla Propia].}}{62}{table.4.13}%
-\contentsline {table}{\numberline {4.14}{\ignorespaces Diccionario de datos de la tabla \textit {attendances} [Tabla Propia].}}{62}{table.4.14}%
-\contentsline {table}{\numberline {4.15}{\ignorespaces Métricas consideradas en el desarrollo y evaluación del sistema [Tabla Propia].}}{78}{table.4.15}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Resultados principales de los modelos de detección\cite {fatima2024yolov8}.}}{46}{table.caption.30}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Comparativa de modelos YOLO para detección facial\cite {yolov8face2024}.}}{47}{table.caption.31}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Rendimiento de modelos YOLO en distintos niveles de dificultad (WIDER Face)\cite {yolov8face2024}.}}{48}{table.caption.32}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Comparativa de modelos de DeepFace\cite {yolov8face2024}.}}{48}{table.caption.33}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces Comparativa de modelos de DeepFace \cite {yolov8face2024}.}}{49}{table.caption.34}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces Requisitos funcionales del sistema CheckFace[Tabla Propia].}}{57}{table.caption.40}%
+\contentsline {table}{\numberline {4.7}{\ignorespaces Requisitos no funcionales del sistema CheckFace[Tabla Propia].}}{57}{table.caption.42}%
+\contentsline {table}{\numberline {4.8}{\ignorespaces Diccionario de datos de la tabla \textit {roles} [Tabla Propia].}}{60}{table.caption.48}%
+\contentsline {table}{\numberline {4.9}{\ignorespaces Diccionario de datos de la tabla \textit {users} [Tabla Propia].}}{61}{table.caption.49}%
+\contentsline {table}{\numberline {4.10}{\ignorespaces Diccionario de datos de la tabla \textit {participants} [Tabla Propia].}}{61}{table.caption.50}%
+\contentsline {table}{\numberline {4.11}{\ignorespaces Diccionario de datos de la tabla \textit {courses} [Tabla Propia].}}{61}{table.caption.51}%
+\contentsline {table}{\numberline {4.12}{\ignorespaces Diccionario de datos de la tabla \textit {course\_schedules} [Tabla Propia].}}{61}{table.caption.52}%
+\contentsline {table}{\numberline {4.13}{\ignorespaces Diccionario de datos de la tabla \textit {participant\_courses} [Tabla Propia].}}{62}{table.caption.53}%
+\contentsline {table}{\numberline {4.14}{\ignorespaces Diccionario de datos de la tabla \textit {attendances} [Tabla Propia].}}{62}{table.caption.54}%
+\contentsline {table}{\numberline {4.15}{\ignorespaces Métricas consideradas en el desarrollo y evaluación del sistema [Tabla Propia].}}{78}{table.caption.69}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Componentes de hardware y software utilizados en el sistema [Figura propia].}}{81}{table.5.1}%
-\contentsline {table}{\numberline {5.2}{\ignorespaces Errores frecuentes y acciones de mitigación [Figura propia].}}{82}{table.5.2}%
-\contentsline {table}{\numberline {5.3}{\ignorespaces Configuración de umbral centrada en 0.45 y resultado esperado [Figura propia].}}{83}{table.5.3}%
-\contentsline {table}{\numberline {5.4}{\ignorespaces Resumen de métricas obtenidas durante las pruebas finales en aula [Tabla Propia].}}{104}{table.5.4}%
+\contentsline {table}{\numberline {5.1}{\ignorespaces Componentes de hardware y software utilizados en el sistema [Figura propia].}}{81}{table.caption.70}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces Errores frecuentes y acciones de mitigación [Figura propia].}}{82}{table.caption.71}%
+\contentsline {table}{\numberline {5.3}{\ignorespaces Configuración de umbral centrada en 0.45 y resultado esperado [Figura propia].}}{82}{table.caption.72}%
+\contentsline {table}{\numberline {5.4}{\ignorespaces Resumen de métricas obtenidas durante las pruebas finales en aula [Tabla Propia].}}{103}{table.caption.100}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

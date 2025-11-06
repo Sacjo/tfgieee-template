@@ -63,44 +63,39 @@ Es un sistema de control de versiones distribuido, lo que significa que un clon 
 \section{Entorno de dessarrollo del modelo}
 
 \subsection{Visual Studio Code}
-Visual Studio Code (VS Code) es un editor de código fuente desarrollado por Microsoft, diseñado para ser ligero, rápido y altamente personalizable. A diferencia de otros editores de código, como los IDE completos (Entornos de Desarrollo Integrados), VS Code se enfoca en ofrecer una experiencia ágil para la escritura y edición de código, sin sacrificar características avanzadas\cite{vscode}.
-
-Lo que lo diferencia es su capacidad de ser extendido con una gran cantidad de extensiones y herramientas, adaptándose a las necesidades específicas de cada desarrollador.
-
+Para la etapa de codificación del modelo y los componentes del sistema, se utilizó \textit{Visual Studio Code} (VS Code), un editor de código fuente desarrollado por Microsoft, diseñado para ser ligero, rápido y altamente personalizable. A diferencia de otros editores de código, como los IDE completos (Entornos de Desarrollo Integrados), VS Code se enfoca en ofrecer una experiencia ágil para la escritura y edición de código, sin sacrificar características avanzadas \cite{vscode}. Lo que lo diferencia es su capacidad de ser extendido con una gran cantidad de extensiones y herramientas, adaptándose a las necesidades específicas de cada desarrollador.
 
 \subsection{ GitHub Desktop}
-Es una aplicación gratuita y de código abierto que proporciona una interfaz gráfica para trabajar con repositorios Git alojados en GitHub u otros servicios. Facilita la realización de operaciones comunes de Git, como clonar, confirmar (commit), crear ramas y sincronizar cambios, sin necesidad de utilizar la línea de comandos. Está diseñada para simplificar el flujo de trabajo tanto para principiantes como para usuarios avanzados\cite{githubdesktop}.
+Para gestionar el control de versiones del proyecto y mantener un historial estructurado de los cambios realizados durante el desarrollo, se empleó \textit{GitHub Desktop}. Esta herramienta gratuita y de código abierto proporciona una interfaz gráfica para trabajar con repositorios Git alojados en GitHub u otros servicios. Facilita la realización de operaciones comunes de Git, como clonar, confirmar (\textit{commit}), crear ramas y sincronizar cambios, sin necesidad de utilizar la línea de comandos. Está diseñada para simplificar el flujo de trabajo tanto para principiantes como para usuarios avanzados \cite{githubdesktop}.
+
 
 \subsection{Postman}
-
-Postman es una plataforma orientada a la prueba y gestión de APIs, que facilita a los desarrolladores la verificación y documentación de servicios web. Inicialmente creada como una extensión del navegador, hoy está disponible como aplicación independiente para Windows, Linux y macOS.
-
-Su interfaz gráfica permite enviar solicitudes HTTP, automatizar pruebas y generar documentación, optimizando el desarrollo y reduciendo errores en la comunicación con servicios externos\cite{imaginaPostman}.
+Finalmente, para la validación de los endpoints del API y la verificación de la comunicación entre los módulos del sistema, se utilizó \textit{Postman}. Es una plataforma orientada a la prueba y gestión de APIs, que facilita a los desarrolladores la verificación y documentación de servicios web. Inicialmente creada como una extensión del navegador, hoy está disponible como aplicación independiente para Windows, Linux y macOS. Su interfaz gráfica permite enviar solicitudes HTTP, automatizar pruebas y generar documentación, optimizando el desarrollo y reduciendo errores en la comunicación con servicios externos \cite{imaginaPostman}.
 
 
 
 
-\section{Librerias utilizadas}
+\section{Librerías utilizadas}
 
 \subsection{React}
 
-Es una biblioteca JavaScript de código abierto desarrollada por el equipo de Meta en colaboración con una amplia comunidad de programadores. Desde su lanzamiento en 2013, se ha consolidado como una de las tecnologías de desarrollo más utilizadas para crear interfaces de usuario dinámicas y escalables.
+Para el desarrollo del frontend y del panel de control (\textit{dashboard}) del sistema, se utilizó \textit{React} en su versión 19.1.1. React es una biblioteca JavaScript de código abierto desarrollada por el equipo de Meta, en colaboración con una amplia comunidad de desarrolladores. Desde su lanzamiento en 2013, se ha consolidado como una de las tecnologías más utilizadas para la construcción de interfaces de usuario dinámicas y escalables.
 
-Su funcionamiento se basa en componentes reutilizables que combinan estructura y lógica, escritos con la sintaxis JSX. Este enfoque permite generar un DOM virtual que, al detectar cambios de estado, actualiza únicamente los elementos modificados sin recargar toda la página \cite{react}.
+Su funcionamiento se basa en la creación de componentes reutilizables que integran estructura y lógica mediante la sintaxis JSX. Este enfoque permite gestionar la interfaz de forma eficiente mediante un \textit{Virtual DOM}, el cual detecta cambios de estado y actualiza únicamente los elementos necesarios sin recargar toda la página, optimizando el rendimiento del sistema \cite{react}.
 
 \subsection{Flask}
+Para el desarrollo del backend y la implementación de las rutas del API del sistema, se utilizó el microframework \textit{Flask} en su versión 3.1.2. Flask es un microframework web de código abierto escrito en Python, orientado al desarrollo rápido y flexible de aplicaciones. Su estructura modular y extensible otorga a los desarrolladores un control total sobre la arquitectura, destacándose por su sencillez, ligereza e integración con múltiples extensiones.
 
-Es un microframework web de código abierto escrito en Python, orientado al desarrollo rápido y flexible de aplicaciones. Su estructura modular y extensible otorga a los desarrolladores un control total sobre la arquitectura, destacándose por su sencillez, ligereza e integración con múltiples extensiones.
-
-Estas características lo convierten en una herramienta ideal para crear APIs RESTful y aplicaciones que requieren agilidad y adaptabilidad, siendo una de las opciones más utilizadas dentro del ecosistema Python \cite{flask}.
-
-
-
+Estas características lo convierten en una herramienta ideal para la creación de APIs RESTful y servicios que requieren agilidad y adaptabilidad, motivo por el cual fue seleccionado para la construcción de los endpoints del sistema \cite{flask}.
 
 \subsection{YOLO}
-YOLO (You Only Look Once) es un algoritmo de detección de objetos en tiempo real basado en redes neuronales convolucionales. Introducido por Joseph Redmon y colaboradores en 2015, YOLO se caracteriza por procesar una imagen completa en una sola pasada, dividiéndola en una cuadrícula y prediciendo simultáneamente las clases y las ubicaciones de los objetos presentes. Esta arquitectura unificada permite una detección rápida y precisa, siendo especialmente útil en aplicaciones que requieren procesamiento en tiempo real, como vehículos autónomos y sistemas de vigilancia\cite{yolo}.
+Para la etapa de detección facial del sistema se utilizó el modelo \textit{YOLOv8}, implementado mediante la librería \textit{Ultralytics} en su versión 8.3.191. YOLO (You Only Look Once) es un algoritmo de detección de objetos en tiempo real basado en redes neuronales convolucionales. Introducido por Joseph Redmon y colaboradores en 2015, YOLO se caracteriza por procesar una imagen completa en una sola pasada, dividiéndola en una cuadrícula y prediciendo simultáneamente las clases y ubicaciones de los objetos presentes. 
+
+Esta arquitectura unificada permite una detección rápida y precisa, siendo especialmente útil en aplicaciones que requieren procesamiento en tiempo real, motivo por el cual fue seleccionado para la detección facial dentro del sistema \cite{yolo}.
 
 
-\subsection{ArcFace}
-Es una función de pérdida utilizada en redes neuronales profundas para reconocimiento facial. Mejora la precisión del sistema al imponer un margen angular aditivo entre las clases, logrando que los embeddings (vectores representativos del rostro) de distintas personas estén más separados y los de una misma persona más agrupados\cite{arcface}.
+\subsection{DeepFace}
+Para la etapa de reconocimiento facial se utilizó la librería \textit{DeepFace} en su versión 0.0.95. DeepFace es un framework de código abierto basado en \textit{Python} que unifica diversas arquitecturas de reconocimiento facial y facilita su implementación mediante funciones de alto nivel. Entre sus características principales se destacan el soporte para múltiples modelos de extracción de embeddings, detección facial, análisis demográfico y verificación de identidad \cite{DeepFace}.
+
+En este proyecto, \textit{DeepFace} fue utilizada específicamente para el proceso de identificación facial, empleando el modelo \textit{ArcFace} como generador de embeddings, permitiendo un reconocimiento más robusto y confiable dentro del sistema desarrollado.
 

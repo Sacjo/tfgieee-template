@@ -70,7 +70,7 @@ El desarrollo completo del sistema CheckFace se extendió desde \textbf{abril ha
 
 
 
-\section{Fases del Proceso Investigativo}
+\section{Fases del proceso investigativo}
 
 \begin{itemize}
   \item Identificación de requisitos del proyecto \\
@@ -282,7 +282,7 @@ En la Figura~\ref{fig:rostro_original} se muestra un ejemplo de una imagen facia
 
 El entrenamiento del modelo constituye una etapa esencial del sistema, ya que permite obtener representaciones numéricas únicas de cada rostro a partir de las imágenes registradas. En esta fase se utilizaron técnicas de aprendizaje profundo orientadas a la verificación facial, capaces de generar \textit{embeddings} discriminativos y estables frente a variaciones de iluminación, expresión o ángulo de captura, garantizando así una identificación confiable y precisa.
 
-\section{Entrenamiento del Modelo}
+\section{Entrenamiento del modelo}
 
 El entrenamiento del modelo constituye una etapa esencial del sistema, ya que permite obtener representaciones numéricas únicas de cada rostro a partir de las imágenes registradas. En esta fase se utilizaron técnicas de aprendizaje profundo orientadas a la verificación facial, capaces de generar \textit{embeddings} discriminativos y estables frente a variaciones de iluminación, expresión o ángulo de captura, garantizando así una identificación confiable y precisa.
 
@@ -292,7 +292,15 @@ El entrenamiento del modelo constituye una etapa esencial del sistema, ya que pe
     \item \textbf{Lenguaje:} Python 3.12.11
     \item \textbf{Librerías principales:} DeepFace, OpenCV, NumPy, Ultralytics
     \item \textbf{Entorno:} Visual Studio Code (ejecución local con GPU o CPU)
+    \item \textbf{Equipo utilizado:} MacBook Pro (Apple M2, 16\,GB RAM, 512\,GB SSD, macOS Sonoma)
+    \item \textbf{Dispositivo de captura:} Cámara web HD 720p para obtención de imágenes faciales en pruebas locales.
+    \item \textbf{Condiciones de iluminación:} Pruebas realizadas entre 300-500\,lux para simular entornos reales de aula.
     \item \textbf{Estructura del dataset:} Imágenes organizadas por usuario en carpetas dentro de \texttt{raw\_faces/} (imágenes originales) y \texttt{known\_faces/} (rostros recortados).
+    \item \textbf{Modelo de embeddings:} \textit{ArcFace} (512 dimensiones).
+    \item \textbf{Métrica de similitud:} Distancia coseno para comparar embeddings entre el rostro capturado y los centroides registrados.
+    \item \textbf{Umbral de decisión:} 0.45 como límite para determinar coincidencia; valores superiores clasifican el rostro como desconocido.
+    \item \textbf{Estrategia de detección:} \texttt{enforce\_detection = False} y \texttt{detector\_backend = "skip"} para acelerar el procesamiento al asumir que los rostros ya se encuentran recortados.
+    \item \textbf{Cálculo de similitud:} Conversión de la distancia coseno a porcentaje mediante una escala lineal para interpretación del resultado.
     \item \textbf{Formato de salida:} Archivos JSON con los embeddings y centroides por usuario.
 \end{itemize}
 
@@ -571,7 +579,7 @@ Las principales funcionalidades implementadas en esta capa incluyen:
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.9\textwidth]{imagenes_doc/backend_estructura.png}
+  \includegraphics[width=0.9\textwidth, height=12cm, keepaspectratio]{imagenes_doc/backend_estructura.png}
   \caption{Estructura general del proyecto en Visual Studio Code [Imagen propia].}
   \label{fig:backend_estructura}
 \end{figure}
@@ -771,48 +779,58 @@ Cada fragmento se presenta con una explicación que facilita la comprensión del
 \label{tab:metricas-sistema}
 
 \footnotesize
-\setlength{\tabcolsep}{5pt}       % espacio horizontal entre columnas
-\renewcommand{\arraystretch}{1.2} % altura de filas
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.2}
 
-\begin{tabularx}{\linewidth}{|>{\raggedright\arraybackslash}m{3.3cm}|
-                                 >{\raggedright\arraybackslash}m{4.0cm}|
-                                 >{\raggedright\arraybackslash}X|}
+\begin{tabularx}{\linewidth}{|>{\centering\arraybackslash}m{2.3cm}|
+                                 >{\raggedright\arraybackslash}m{3cm}|
+                                 >{\raggedright\arraybackslash}m{3.7cm}|
+                                 >{\raggedright\arraybackslash}m{3.5cm}|}
 \hline
-\textbf{Categoría} & \textbf{Métrica} & \textbf{Descripción breve} \\ \hline
+\textbf{Categoría} & \textbf{Métrica} & \textbf{Descripción breve} & \textbf{Criterio de éxito} \\ \hline
 
-\multirow{3}{*}{Datos del conjunto}
+\multirow{3}{*}{\shortstack{Datos del\\ conjunto}}
 & Nº total de imágenes
-& Imágenes usadas en entrenamiento y validación. \\ \cline{2-3}
+& Imágenes usadas en entrenamiento y validación.
+& $\ge 60$ imágenes recopiladas. \\ \cline{2-4}
 & Diversidad de condiciones visuales
-& Variación de luz, ángulo y expresión. \\ \cline{2-3}
+& Variación de luz, ángulo y expresión.
+& $\ge 3$ variaciones (luz, ángulo y expresión). \\ \cline{2-4}
 & Nº de participantes registrados
-& Estudiantes con rostro registrado en el sistema. \\ \hline
+& Estudiantes con rostro registrado en el sistema.
+& $\ge 10$ estudiantes registrados. \\ \hline
 
-\multirow{2}{*}{Entrenamiento}
+\multirow{2}{*}{\shortstack{Entrenamiento}}
 & Precisión
-& Porcentaje de aciertos durante el entrenamiento. \\ \cline{2-3}
+& Porcentaje de aciertos durante el entrenamiento.
+& $\ge 80\%$ de precisión. \\ \cline{2-4}
 & Pérdida 
-& Error medio por usuario registrado. \\ \hline
+& Error medio por usuario registrado.
+& Tendencia decreciente durante el entrenamiento. \\ \hline
 
-\multirow{3}{*}{Reconocimiento facial}
+\multirow{3}{*}{\shortstack{Reconocimiento\\ facial}}
 & Tasa de reconocimiento correcto
-& Porcentaje de aciertos en pruebas. \\ \cline{2-3}
+& Porcentaje de aciertos en pruebas.
+& $\ge 80\%$ de aciertos. \\ \cline{2-4}
 & Tasa de falsos positivos/negativos
-& Porcentaje de detecciones erróneas u omitidas. \\ \cline{2-3}
+& Porcentaje de detecciones erróneas u omitidas.
+& $\le 20\%$ (valor máximo tolerable). \\ \cline{2-4}
 & Tiempo promedio de proceso (ms)
-& Tiempo por rostro para detectar y verificar. \\ \hline
+& Tiempo por rostro para detectar y verificar.
+& $\le 250\,\text{ms}$ por rostro. \\ \hline
 
 Rendimiento global
 & Uso promedio de CPU/GPU
-& Utilización media de recursos durante la ejecución. \\ \hline
+& Utilización media de recursos durante la ejecución.
+& $\le 70\%$ de uso de CPU (sin GPU). \\ \hline
 
 Validación práctica
 & Tasa de detección real
-& de aciertos en condiciones reales de aula. \\ \hline
+& Porcentaje de aciertos en condiciones reales de aula.
+& $\ge 75\%$ de aciertos. \\ \hline
 
 \end{tabularx}
 \end{table}
-
 
 
 

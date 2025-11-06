@@ -32,53 +32,53 @@
 \contentsline {section}{\numberline {2.4}Registros Académicos.}{25}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}Concepto de Registros Académicos.}{25}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}Contenidos de los registros académicos.}{26}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}¿Para qué sirven los registros académicos?}{27}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.3}Importancia de los Registros Académicos en la Gestión Educativa}{27}{subsection.2.4.3}%
 \contentsline {subsection}{\numberline {2.4.4}Importancia de los registros académicos.}{27}{subsection.2.4.4}%
 \contentsline {section}{\numberline {2.5}Antecedentes}{28}{section.2.5}%
-\contentsline {chapter}{\numberline {3}Herramientas Tecnológicas}{31}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Selección de Herramientas}{31}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Figma}{31}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Python}{32}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}JavaScript}{32}{subsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.1.4}SQL}{33}{subsection.3.1.4}%
-\contentsline {subsection}{\numberline {3.1.5}PostgreSQL}{33}{subsection.3.1.5}%
-\contentsline {subsection}{\numberline {3.1.6}Git}{34}{subsection.3.1.6}%
-\contentsline {section}{\numberline {3.2}Entorno de dessarrollo del modelo}{34}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Visual Studio Code}{34}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2} GitHub Desktop}{34}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Postman}{35}{subsection.3.2.3}%
-\contentsline {section}{\numberline {3.3}Librerias utilizadas}{35}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}React}{35}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Flask}{35}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}YOLO}{36}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}ArcFace}{36}{subsection.3.3.4}%
-\contentsline {chapter}{\numberline {4}Método}{37}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Enfoque}{37}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Método utilizado para el desarrollo}{38}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Fases del Proceso Investigativo}{42}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Análisis y selección de herramientas}{44}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Recolección de datos}{49}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Entrenamiento del Modelo}{51}{section.4.6}%
-\contentsline {section}{\numberline {4.7}Diseño de la aplicación}{53}{section.4.7}%
-\contentsline {subsection}{\numberline {4.7.1}Arquitectura del sistema}{53}{subsection.4.7.1}%
-\contentsline {subsection}{\numberline {4.7.2}Integración de IA y Reconocimiento Facial}{54}{subsection.4.7.2}%
-\contentsline {subsection}{\numberline {4.7.3}Relevamiento de requisitos}{55}{subsection.4.7.3}%
-\contentsline {subsection}{\numberline {4.7.4}Caso de Uso Principal del Sistema}{56}{subsection.4.7.4}%
-\contentsline {subsubsection}{Descripción general del caso de uso}{57}{section*.44}%
-\contentsline {subsection}{\numberline {4.7.5}Definición de la Base de Datos y Tablas}{58}{subsection.4.7.5}%
-\contentsline {subsection}{\numberline {4.7.6}Diagrama de flujo del funcionamiento del sistema}{61}{subsection.4.7.6}%
-\contentsline {subsection}{\numberline {4.7.7}Desarrollo del backend}{62}{subsection.4.7.7}%
-\contentsline {subsection}{\numberline {4.7.8}Desarrollo del frontend}{66}{subsection.4.7.8}%
-\contentsline {paragraph}{Criterios de diseño de la interfaz.}{66}{section*.57}%
-\contentsline {paragraph}{Flujo de uso.}{67}{section*.58}%
-\contentsline {subsection}{\numberline {4.7.9}Líneas de código}{76}{subsection.4.7.9}%
-\contentsline {section}{\numberline {4.8}Métricas de Evaluación}{77}{section.4.8}%
-\contentsline {subsection}{\numberline {4.8.1}Usabilidad}{77}{subsection.4.8.1}%
-\contentsline {chapter}{\numberline {5}Resultados}{79}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Figuras y Tablas}{79}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Errores detectados y ajustes aplicados}{80}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Configuraciones y resultados obtenidos}{82}{subsection.5.1.2}%
-\contentsline {section}{\numberline {5.2}Resultados finales del sistema en condiciones reales de un aula}{92}{section.5.2}%
+\contentsline {chapter}{\numberline {3}Herramientas Tecnológicas}{32}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Selección de Herramientas}{32}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Figma}{32}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Python}{33}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}JavaScript}{33}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}SQL}{34}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.1.5}PostgreSQL}{34}{subsection.3.1.5}%
+\contentsline {subsection}{\numberline {3.1.6}Git}{35}{subsection.3.1.6}%
+\contentsline {section}{\numberline {3.2}Entorno de dessarrollo del modelo}{35}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Visual Studio Code}{35}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2} GitHub Desktop}{35}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Postman}{36}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}Librerías utilizadas}{36}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}React}{36}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Flask}{37}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}YOLO}{37}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}DeepFace}{38}{subsection.3.3.4}%
+\contentsline {chapter}{\numberline {4}Método}{39}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Enfoque}{39}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Método utilizado para el desarrollo}{40}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Fases del proceso investigativo}{44}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Análisis y selección de herramientas}{46}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Recolección de datos}{51}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Entrenamiento del modelo}{53}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Diseño de la aplicación}{56}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Arquitectura del sistema}{56}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}Integración de IA y Reconocimiento Facial}{57}{subsection.4.7.2}%
+\contentsline {subsection}{\numberline {4.7.3}Relevamiento de requisitos}{58}{subsection.4.7.3}%
+\contentsline {subsection}{\numberline {4.7.4}Caso de Uso Principal del Sistema}{60}{subsection.4.7.4}%
+\contentsline {subsubsection}{Descripción general del caso de uso}{60}{section*.44}%
+\contentsline {subsection}{\numberline {4.7.5}Definición de la Base de Datos y Tablas}{61}{subsection.4.7.5}%
+\contentsline {subsection}{\numberline {4.7.6}Diagrama de flujo del funcionamiento del sistema}{64}{subsection.4.7.6}%
+\contentsline {subsection}{\numberline {4.7.7}Desarrollo del backend}{65}{subsection.4.7.7}%
+\contentsline {subsection}{\numberline {4.7.8}Desarrollo del frontend}{68}{subsection.4.7.8}%
+\contentsline {paragraph}{Criterios de diseño de la interfaz.}{69}{section*.57}%
+\contentsline {paragraph}{Flujo de uso.}{69}{section*.58}%
+\contentsline {subsection}{\numberline {4.7.9}Líneas de código}{78}{subsection.4.7.9}%
+\contentsline {section}{\numberline {4.8}Métricas de Evaluación}{79}{section.4.8}%
+\contentsline {subsection}{\numberline {4.8.1}Usabilidad}{79}{subsection.4.8.1}%
+\contentsline {chapter}{\numberline {5}Resultados}{81}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Figuras y Tablas}{81}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Errores detectados y ajustes aplicados}{82}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Configuraciones y resultados obtenidos}{84}{subsection.5.1.2}%
+\contentsline {section}{\numberline {5.2}Resultados finales del sistema en condiciones reales de un aula}{91}{section.5.2}%
 \contentsline {chapter}{\numberline {6}Discusión}{108}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Logros alcanzados con relación a los objetivos específicos}{109}{section.6.1}%
 \contentsline {section}{\numberline {6.2}Logros alcanzados con relación al Objetivo General}{111}{section.6.2}%

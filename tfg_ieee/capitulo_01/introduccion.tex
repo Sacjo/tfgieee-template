@@ -5,11 +5,8 @@
 
 \chapter{Introducción}
 
-El registro de asistencia es una tarea clave en la gestión educativa y administrativa de instituciones académicas como la 
-Facultad Politécnica de la Universidad Nacional del Este (FPUNE). Sin embargo, los métodos tradicionales de control 
-manual mediante listas suelen generar errores humanos que afectan la precisión de los registros y la toma de decisiones 
-académicas. Este Trabajo Final de Grado (TFG) tiene como objetivo desarrollar un sistema automatizado basado en reconocimiento facial para optimizar el proceso de registro de asistencia en la FPUNE. 
-Para ello, se emplearán algoritmos avanzados de biometría que analicen imágenes en tiempo real, asegurando una identificación precisa y eficiente. La metodología contempla la selección tecnológica, el procesamiento de datos, el entrenamiento de modelos y pruebas piloto en un entorno académico durante el año 2025, buscando reducir errores y mejorar la gestión administrativa. De esta forma, el estudio pretende aportar una herramienta que brinde datos más confiables y contribuya a una mayor eficiencia operativa, beneficiando a estudiantes, docentes y autoridades mediante la adopción de tecnologías innovadoras que fortalezcan la gestión académica.
+El registro de asistencia es una tarea clave en la gestión educativa y administrativa de instituciones académicas como la  Facultad Politécnica de la Universidad Nacional del Este (FPUNE). No obstante, los métodos tradicionales de control manual presentan errores de transcripción y omisiones que comprometen la integridad de los datos, como se ha documentado en estudios previos sobre digitalización de procesos académicos. Este trabajo final desarrolla un sistema automatizado de asistencia mediante reconocimiento facial, orientado a la mejora de los procesos de control académico y a la aplicación de técnicas de visión por computadora en la gestión educativa.
+Para su implementación se emplean algoritmos de reconocimiento facial basados en aprendizaje profundo y visión por computadora, integrados en un entorno cliente-servidor con procesamiento en tiempo real. La metodología contempla la selección tecnológica, el procesamiento de datos, el entrenamiento de modelos y pruebas piloto en un entorno académico durante el año 2025, buscando reducir errores y mejorar la gestión administrativa. De esta forma, el estudio pretende aportar una herramienta que brinde datos más confiables y contribuya a una mayor eficiencia operativa, beneficiando a estudiantes, docentes y autoridades mediante la adopción de tecnologías innovadoras que fortalezcan la gestión académica.
 
 \begin{table}[]
 \begin{tabular}{lllll}
@@ -25,10 +22,9 @@ Este proyecto también busca reducir el impacto ambiental al eliminar el uso de 
 
 \section{Definición del problema}
 
+En la FPUNE, el proceso de registro de asistencia continúa realizándose mediante métodos tradicionales, lo que genera limitaciones operativas y una baja trazabilidad de los datos dentro de los sistemas académicos. El uso de procedimientos manuales provoca inconsistencias, pérdida de información y dificulta la disponibilidad de registros confiables. Como consecuencia, estas limitaciones impiden la generación de reportes analíticos precisos y obstaculizan la toma de decisiones basadas en datos, evidenciando la necesidad de incorporar un sistema inteligente de monitoreo y registro.
 
-En la FPUNE, el control de asistencia aún utiliza métodos tradicionales, como el llamado de lista o el registro manual en papel. Estos métodos generan frecuentemente errores humanos, pérdida o deterioro de documentos y dificultades en la organización y almacenamiento eficiente de los datos recopilados. 
-
-Además, estas fallas afectan negativamente la capacidad de las autoridades académicas y administrativas para detectar patrones de asistencia, identificar ausencias repetitivas y aplicar medidas correctivas oportunas.
+Ante esta problemática, surge la siguiente pregunta de investigación: ¿cómo diseñar e implementar un sistema automatizado, basado en reconocimiento facial, que mejore la precisión y eficiencia del registro de asistencia en la FPUNE?
 
 Ante esta problemática, surge la necesidad de desarrollar una solución tecnológica basada en reconocimiento facial que permita registrar automáticamente la asistencia.
 \section{Objetivos}
@@ -57,28 +53,26 @@ Desarrollar un prototipo de sistema de reconocimiento facial en un aula para el 
     \item ¿Cómo se desarrollará el sistema de reconocimiento facial y gestión de asistencias?
     \item ¿Qué pruebas se deben realizar para validar su correcto funcionamiento?
     \item ¿Cómo se evaluarán los resultados obtenidos para medir la efectividad del sistema?
-    \item ¿Qué indicadores o métricas se pueden utilizar para evaluar el desempeño del sistema?
 \end{enumerate}
 
 
 \section{Hipótesis}
-Establecer que el sistema de reconocimiento facial basado en los modelos \textit{YOLOv8n-Face} y \textit{ArcFace} que alcanzará una precisión superior al 85\,\% en el registro automatizado de asistencia bajo condiciones de iluminación controlada (\(\geq 300\,\text{lux}\)) en entornos reales de aula, reduciendo en al menos un 70\,\% el tiempo promedio requerido por los métodos manuales tradicionales utilizados en la Facultad Politécnica de la Universidad Nacional del Este.
 
-
+La hipótesis principal establece que el desarrollo de un sistema de reconocimiento facial, basado en los modelos \textit{YOLOv8n-Face} y \textit{DeepFace} que permitirá registrar la asistencia de los estudiantes de la FPUNE, reduciendo los errores del control manual y optimizando el tiempo destinado al proceso de registro.
 
 \section{Fundamentación.}
 
 El desarrollo de un ``Sistema de Asistencia Basado en Reconocimiento Facial para la FPUNE'' responde a la necesidad de modernizar los procesos administrativos en las instituciones educativas y de aprovechar las ventajas que ofrecen las tecnologías de reconocimiento facial. A continuación, se presentan las diversas fundamentaciones en base a los puntos siguientes:
 
 \begin{itemize}
-    \item \textbf{Innovación tecnológica:}El desarrollo de un prototipo de sistema de asistencia basado en reconocimiento facial en una institución
+    \item \textbf{Innovación tecnológica:} El desarrollo de un prototipo de sistema de asistencia basado en reconocimiento facial en una institución
 educativa como la FPUNE representa una innovación tecnológica que
 puede servir como modelo para otras instituciones y/o otros rubros.
-    \item \textbf{Incremento de la precisión en los datos de asistencia:}Los datos
+    \item \textbf{Incremento de la precisión en los datos de asistencia:} Los datos
 obtenidos del sistema serán más precisos y confiables, lo que permitirá
 una mejor evaluación del desempeño académico de los estudiantes y la
 identificación de patrones de asistencia.
-    \item \textbf{Fomento de la puntualidad y asistencia:}El desarrollo del
+    \item \textbf{Fomento de la puntualidad y asistencia:} El desarrollo del
     sistema puede incentivar a los estudiantes a ser más puntuales y asistir
     con regularidad a clases.
 \end{itemize}

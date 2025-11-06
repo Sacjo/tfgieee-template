@@ -10,35 +10,35 @@
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Representación de una red neuronal recurrente (RNN), donde las conexiones internas permiten el manejo de secuencias mediante memoria temporal\cite {interactivechaos_ffnn}.}}{22}{figure.caption.19}%
 \contentsline {figure}{\numberline {2.8}{\ignorespaces La imagen muestra cómo una red neuronal convolucional (CNN) procesa una imagen en distintas capas, extrayendo características progresivas desde patrones simples hasta rostros completos para generar una salida final\cite {falken_cnn}.}}{23}{figure.caption.20}%
 \contentsline {figure}{\numberline {2.9}{\ignorespaces La imagen ilustra el funcionamiento de una red generativa adversaria (GAN), donde un generador crea muestras falsas a partir de ruido aleatorio y un discriminador intenta distinguir entre muestras reales y falsas, retroalimentando a ambos modelos para mejorar su rendimiento\cite {gan_aws}.}}{23}{figure.caption.21}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces La imagen muestra un formato tradicional de registro de asistencia escolar, utilizado por docentes para anotar la presencia diaria de los alumnos a lo largo de un período determinado\cite {listaAsistenciaEscolar}.}}{26}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Formato tradicional de registro de asistencia escolar.\cite {listaAsistenciaEscolar}.}}{26}{figure.caption.22}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Tablero de gestión de tareas del proyecto \textbf {CheckFace} en Notion, bajo la metodología ágil Scrum.}}{41}{figure.caption.29}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Ejemplo de imagen facial capturada al natural [Figura propia].}}{50}{figure.caption.35}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Ejemplo de imagen facial luego del proceso de normalización [Figura propia].}}{50}{figure.caption.36}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Caso de uso principal del sistema CheckFace[Tabla Propia].}}{57}{figure.caption.43}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Diagrama de Entidad–Relación del sistema CheckFace[imagen propia].}}{59}{figure.caption.46}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Diagrama de flujo del funcionamiento del sistema CheckFace.}}{62}{figure.caption.55}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Estructura general del proyecto en Visual Studio Code [Imagen propia].}}{65}{figure.caption.56}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Interfaz de inicio de sesión del sistema [Imagen propia].}}{68}{figure.caption.59}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Formulario de registro de usuario [Imagen propia].}}{69}{figure.caption.60}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Gráfico de asistencias por día en el módulo Dashboard [Imagen propia].}}{70}{figure.caption.61}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Listado de estudiantes y asistencias registradas en el módulo Dashboard [Imagen propia].}}{71}{figure.caption.62}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Módulo de reconocimiento facial automático [Imagen propia].}}{72}{figure.caption.63}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Gestión de roles: registro, edición y eliminación [Imagen propia].}}{72}{figure.caption.64}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Registro y gestión de cursos [Imagen propia].}}{73}{figure.caption.65}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Registro y gestión de horarios por curso[Imagen propia].}}{74}{figure.caption.66}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Módulo de registro manual de asistencias [Imagen propia].}}{75}{figure.caption.67}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Asignación de cursos a participantes [Imagen propia].}}{76}{figure.caption.68}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Tablero de gestión de tareas del proyecto \textbf {CheckFace} en Notion, bajo la metodología ágil Scrum.}}{43}{figure.caption.29}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Ejemplo de imagen facial capturada al natural [Figura propia].}}{52}{figure.caption.35}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Ejemplo de imagen facial luego del proceso de normalización [Figura propia].}}{52}{figure.caption.36}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Caso de uso principal del sistema CheckFace[Tabla Propia].}}{60}{figure.caption.43}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Diagrama de Entidad–Relación del sistema CheckFace[imagen propia].}}{62}{figure.caption.46}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Diagrama de flujo del funcionamiento del sistema CheckFace.}}{65}{figure.caption.55}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Estructura general del proyecto en Visual Studio Code [Imagen propia].}}{68}{figure.caption.56}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Interfaz de inicio de sesión del sistema [Imagen propia].}}{70}{figure.caption.59}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Formulario de registro de usuario [Imagen propia].}}{71}{figure.caption.60}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Gráfico de asistencias por día en el módulo Dashboard [Imagen propia].}}{72}{figure.caption.61}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Listado de estudiantes y asistencias registradas en el módulo Dashboard [Imagen propia].}}{73}{figure.caption.62}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Módulo de reconocimiento facial automático [Imagen propia].}}{74}{figure.caption.63}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Gestión de roles: registro, edición y eliminación [Imagen propia].}}{74}{figure.caption.64}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Registro y gestión de cursos [Imagen propia].}}{75}{figure.caption.65}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Registro y gestión de horarios por curso[Imagen propia].}}{76}{figure.caption.66}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Módulo de registro manual de asistencias [Imagen propia].}}{77}{figure.caption.67}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Asignación de cursos a participantes [Imagen propia].}}{78}{figure.caption.68}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento [Figura Propia].}}{82}{figure.caption.73}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Muy estricto, reconoce solo rostros casi idénticos [Figura Propia].}}{83}{figure.caption.74}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento [Figura Propia].}}{84}{figure.caption.75}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Estricto, buena precisión, pero sensible a luz o expresión [Figura Propia].}}{85}{figure.caption.76}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento [Figura Propia].}}{86}{figure.caption.77}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Equilibrado, balance entre precisión y tolerancia [Figura Propia].}}{87}{figure.caption.78}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento [Figura Propia].}}{88}{figure.caption.79}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Moderadamente flexible, admite pequeñas variaciones [Figura Propia].}}{89}{figure.caption.80}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento [Figura Propia].}}{84}{figure.caption.73}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Muy estricto, reconoce solo rostros casi idénticos [Figura Propia].}}{85}{figure.caption.74}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento [Figura Propia].}}{86}{figure.caption.75}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Estricto, buena precisión, pero sensible a luz o expresión [Figura Propia].}}{87}{figure.caption.76}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento [Figura Propia].}}{88}{figure.caption.77}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Equilibrado, balance entre precisión y tolerancia [Figura Propia].}}{88}{figure.caption.78}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento [Figura Propia].}}{89}{figure.caption.79}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Moderadamente flexible, admite pequeñas variaciones [Figura Propia].}}{90}{figure.caption.80}%
 \contentsline {figure}{\numberline {5.9}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento [Figura Propia].}}{90}{figure.caption.81}%
 \contentsline {figure}{\numberline {5.10}{\ignorespaces Puede aceptar coincidencias con diferencias notables [Figura Propia].}}{91}{figure.caption.82}%
 \contentsline {figure}{\numberline {5.11}{\ignorespaces Prueba inicial del sistema bajo condiciones de iluminación máxima, con detección de personas registradas y no registradas [Figura propia].}}{92}{figure.caption.83}%

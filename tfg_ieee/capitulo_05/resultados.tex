@@ -41,14 +41,11 @@ La siguiente tabla presenta un resumen de los componentes principales que confor
     \end{tabular}
 \end{table}
 
-
-
-
 \subsection{Errores detectados y ajustes aplicados}
 
 Durante la etapa de pruebas, se identificaron ciertos errores recurrentes en el funcionamiento del sistema, principalmente relacionados con la precisión del reconocimiento facial. A continuación, se presenta una tabla con los tipos de errores detectados, su causa y las acciones de mitigación implementadas para mejorar el desempeño.
 
-\begin{table}[H]
+\begin{table}
     \centering
     \caption{Errores frecuentes y acciones de mitigación [Figura propia].}
     \label{tab:errores_ajustes}
@@ -65,7 +62,7 @@ Durante la etapa de pruebas, se identificaron ciertos errores recurrentes en el 
     \end{tabular}
 \end{table}
 
-\begin{table}[H]
+\begin{table}
 \centering
 \caption{Configuración de umbral centrada en 0.45 y resultado esperado [Figura propia].}
 \label{tab:umbral_045}
@@ -112,8 +109,6 @@ La Figura 5.2 muestra el resultado obtenido bajo esta configuración. Se observa
 \end{figure}
 
 
-\newpage
-
 \textbf{Configuración 2: Umbral 0.35}
 
 En esta configuración se empleó un umbral de similitud de 0.35, con el propósito de evaluar un nivel ligeramente menos restrictivo que el de la configuración anterior. Este ajuste busca permitir un margen de tolerancia mayor ante variaciones menores en los rostros, como cambios en la iluminación, expresión o posición, manteniendo al mismo tiempo un criterio de identificación relativamente estricto. Con ello se pretende analizar si el sistema mejora su capacidad de reconocimiento sin comprometer de manera significativa la precisión de los resultados.
@@ -133,7 +128,6 @@ La Figura 5.4 muestra el comportamiento del sistema bajo esta configuración. Se
 \end{figure}
 
 
-\newpage
 
 \textbf{Configuración 3: Umbral 0.45}
 
@@ -154,7 +148,6 @@ La Figura 5.6 muestra los resultados obtenidos con este umbral. Se observa que e
 \end{figure}
 
 
-\newpage
 
 
 \textbf{Configuración 4: Umbral 0.60}
@@ -176,10 +169,6 @@ La Figura 5.8 muestra el comportamiento del sistema bajo este valor de umbral. S
 \end{figure}
 
 
-
-\newpage
-
-
 \textbf{Configuración 5: Umbral 0.75}
 
 En esta última configuración se estableció un umbral de similitud de 0.75, con el objetivo de analizar el comportamiento del sistema bajo condiciones más permisivas. Este valor incrementa considerablemente la tolerancia del reconocimiento facial, permitiendo que se acepten coincidencias con diferencias más notables entre los rostros comparados. El propósito de esta prueba es determinar el límite a partir del cual el sistema comienza a perder precisión en favor de una mayor flexibilidad.
@@ -198,9 +187,6 @@ La Figura 5.10 presenta el resultado obtenido con esta configuración. Se observ
     \caption{Puede aceptar coincidencias con diferencias notables [Figura Propia].}
 \end{figure}
 
-
-
-\newpage
 
 
 \section{Resultados finales del sistema en condiciones reales de un aula}

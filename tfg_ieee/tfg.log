@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.8.30)  6 NOV 2025 15:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.8.30)  6 NOV 2025 15:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1358,13 +1358,13 @@ LaTeX Warning: No positions in optional float specifier.
 [3]
 
 [4]
-Overfull \hbox (24.59619pt too wide) in paragraph at lines 83--85
+Overfull \hbox (24.59619pt too wide) in paragraph at lines 85--87
 []\OT1/cmr/bx/sc/14.4 L^^S^^Pmite del con-tenido: \OT1/cmr/m/n/14.4 De-sar-rol-lo de un sis-tema re-conocimien-
  []
 
+)
 
-
-[5])
+[5]
 
 [6]
 \openout2 = `./capitulo_02/marco_teorico.aux'.
@@ -1388,7 +1388,7 @@ Overfull \hbox (12.50829pt too wide) in paragraph at lines 20--21
 
 
 [8]
-<imagenes_doc/segu_biometrica_1.jpg, id=971, 1033.8625pt x 689.57625pt>
+<imagenes_doc/segu_biometrica_1.jpg, id=970, 1033.8625pt x 689.57625pt>
 File: imagenes_doc/segu_biometrica_1.jpg Graphic file (type jpg)
 <use imagenes_doc/segu_biometrica_1.jpg>
 Package pdftex.def Info: imagenes_doc/segu_biometrica_1.jpg  used on input line 38.
@@ -1396,7 +1396,7 @@ Package pdftex.def Info: imagenes_doc/segu_biometrica_1.jpg  used on input line 
 
 
 [9 <./imagenes_doc/segu_biometrica_1.jpg>]
-<imagenes_doc/tabla_rand.jpg, id=982, 883.3pt x 588.1975pt>
+<imagenes_doc/tabla_rand.jpg, id=981, 883.3pt x 588.1975pt>
 File: imagenes_doc/tabla_rand.jpg Graphic file (type jpg)
 <use imagenes_doc/tabla_rand.jpg>
 Package pdftex.def Info: imagenes_doc/tabla_rand.jpg  used on input line 62.
@@ -1404,7 +1404,7 @@ Package pdftex.def Info: imagenes_doc/tabla_rand.jpg  used on input line 62.
 
 
 [10 <./imagenes_doc/tabla_rand.jpg>]
-<imagenes_doc/Reconocimiento_Facial.jpg, id=994, 240.9pt x 166.9437pt>
+<imagenes_doc/Reconocimiento_Facial.jpg, id=993, 240.9pt x 166.9437pt>
 File: imagenes_doc/Reconocimiento_Facial.jpg Graphic file (type jpg)
 <use imagenes_doc/Reconocimiento_Facial.jpg>
 Package pdftex.def Info: imagenes_doc/Reconocimiento_Facial.jpg  used on input line 87.
@@ -1464,7 +1464,7 @@ Overfull \hbox (0.2534pt too wide) in paragraph at lines 210--211
 
 
 [17]
-<imagenes_doc/DEEP_LEARNING.jpg, id=1044, 1187.43625pt x 1204.5pt>
+<imagenes_doc/DEEP_LEARNING.jpg, id=1043, 1187.43625pt x 1204.5pt>
 File: imagenes_doc/DEEP_LEARNING.jpg Graphic file (type jpg)
 <use imagenes_doc/DEEP_LEARNING.jpg>
 Package pdftex.def Info: imagenes_doc/DEEP_LEARNING.jpg  used on input line 226.
@@ -1476,12 +1476,12 @@ Package pdftex.def Info: imagenes_doc/DEEP_LEARNING.jpg  used on input line 226.
 [19]
 
 [20]
-<imagenes_doc/image_01.jpg, id=1065, 471.26062pt x 197.23688pt>
+<imagenes_doc/image_01.jpg, id=1064, 471.26062pt x 197.23688pt>
 File: imagenes_doc/image_01.jpg Graphic file (type jpg)
 <use imagenes_doc/image_01.jpg>
 Package pdftex.def Info: imagenes_doc/image_01.jpg  used on input line 344.
 (pdftex.def)             Requested size: 390.0pt x 163.22801pt.
-<imagenes_doc/image_02.jpg, id=1068, 488.57532pt x 230.36063pt>
+<imagenes_doc/image_02.jpg, id=1067, 488.57532pt x 230.36063pt>
 File: imagenes_doc/image_02.jpg Graphic file (type jpg)
 <use imagenes_doc/image_02.jpg>
 Package pdftex.def Info: imagenes_doc/image_02.jpg  used on input line 353.
@@ -1489,7 +1489,7 @@ Package pdftex.def Info: imagenes_doc/image_02.jpg  used on input line 353.
 
 
 [21 <./imagenes_doc/image_01.jpg>]
-<imagenes_doc/redes_convolucionales.png, id=1078, 1606.0pt x 823.075pt>
+<imagenes_doc/redes_convolucionales.png, id=1077, 1606.0pt x 823.075pt>
 File: imagenes_doc/redes_convolucionales.png Graphic file (type png)
 <use imagenes_doc/redes_convolucionales.png>
 Package pdftex.def Info: imagenes_doc/redes_convolucionales.png  used on input line 363.
@@ -1497,7 +1497,7 @@ Package pdftex.def Info: imagenes_doc/redes_convolucionales.png  used on input l
 
 
 [22 <./imagenes_doc/image_02.jpg>]
-<imagenes_doc/Redes_GAN.jpg, id=1087, 1403.2425pt x 479.7925pt>
+<imagenes_doc/Redes_GAN.jpg, id=1086, 1403.2425pt x 479.7925pt>
 File: imagenes_doc/Redes_GAN.jpg Graphic file (type jpg)
 <use imagenes_doc/Redes_GAN.jpg>
 Package pdftex.def Info: imagenes_doc/Redes_GAN.jpg  used on input line 372.
@@ -1507,7 +1507,7 @@ Package pdftex.def Info: imagenes_doc/Redes_GAN.jpg  used on input line 372.
 [23 <./imagenes_doc/redes_convolucionales.png> <./imagenes_doc/Redes_GAN.jpg>]
 
 [24]
-<imagenes_doc/registroimg.jpg, id=1102, 1149.29375pt x 489.83pt>
+<imagenes_doc/registroimg.jpg, id=1101, 1149.29375pt x 489.83pt>
 File: imagenes_doc/registroimg.jpg Graphic file (type jpg)
 <use imagenes_doc/registroimg.jpg>
 Package pdftex.def Info: imagenes_doc/registroimg.jpg  used on input line 418.
@@ -1592,7 +1592,7 @@ Underfull \hbox (badness 2846) in paragraph at lines 46--47
 
 
 [41]
-<imagenes_doc/notion.jpg, id=1225, 1606.0pt x 1172.38pt>
+<imagenes_doc/notion.jpg, id=1224, 1606.0pt x 1172.38pt>
 File: imagenes_doc/notion.jpg Graphic file (type jpg)
 <use imagenes_doc/notion.jpg>
 Package pdftex.def Info: imagenes_doc/notion.jpg  used on input line 60.
@@ -1651,7 +1651,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 238--238
 [49]
 
 [50]
-<imagenes_doc/sin_normalizar.png, id=1276, 1016.598pt x 402.90524pt>
+<imagenes_doc/sin_normalizar.png, id=1275, 1016.598pt x 402.90524pt>
 File: imagenes_doc/sin_normalizar.png Graphic file (type png)
 <use imagenes_doc/sin_normalizar.png>
 Package pdftex.def Info: imagenes_doc/sin_normalizar.png  used on input line 270.
@@ -1659,7 +1659,7 @@ Package pdftex.def Info: imagenes_doc/sin_normalizar.png  used on input line 270
 
 
 [51]
-<imagenes_doc/dataset_rostros.jpg, id=1282, 1009.97325pt x 361.35pt>
+<imagenes_doc/dataset_rostros.jpg, id=1281, 1009.97325pt x 361.35pt>
 File: imagenes_doc/dataset_rostros.jpg Graphic file (type jpg)
 <use imagenes_doc/dataset_rostros.jpg>
 Package pdftex.def Info: imagenes_doc/dataset_rostros.jpg  used on input line 277.
@@ -1686,7 +1686,7 @@ Underfull \hbox (badness 1939) in paragraph at lines 298--299
 [58]
 
 [59]
-<capitulo_04/imagenes/5.png, id=1335, 1645.14626pt x 1394.20876pt>
+<capitulo_04/imagenes/5.png, id=1334, 1645.14626pt x 1394.20876pt>
 File: capitulo_04/imagenes/5.png Graphic file (type png)
 <use capitulo_04/imagenes/5.png>
 Package pdftex.def Info: capitulo_04/imagenes/5.png  used on input line 417.
@@ -1694,7 +1694,7 @@ Package pdftex.def Info: capitulo_04/imagenes/5.png  used on input line 417.
 
 
 [60 <./capitulo_04/imagenes/5.png>]
-<capitulo_04/imagenes/1.png, id=1343, 808.01875pt x 574.145pt>
+<capitulo_04/imagenes/1.png, id=1342, 808.01875pt x 574.145pt>
 File: capitulo_04/imagenes/1.png Graphic file (type png)
 <use capitulo_04/imagenes/1.png>
 Package pdftex.def Info: capitulo_04/imagenes/1.png  used on input line 443.
@@ -1710,7 +1710,7 @@ Underfull \hbox (badness 6428) in paragraph at lines 539--539
 []|\OT1/cmr/m/n/12 Observaciones adi-cionales o jus-ti-fi-
  []
 
-<capitulo_04/imagenes/2.png, id=1361, 437.2335pt x 515.2851pt>
+<capitulo_04/imagenes/2.png, id=1360, 437.2335pt x 515.2851pt>
 File: capitulo_04/imagenes/2.png Graphic file (type png)
 <use capitulo_04/imagenes/2.png>
 Package pdftex.def Info: capitulo_04/imagenes/2.png  used on input line 552.
@@ -1722,7 +1722,7 @@ Package pdftex.def Info: capitulo_04/imagenes/2.png  used on input line 552.
 [65 <./capitulo_04/imagenes/2.png>]
 
 [66]
-<imagenes_doc/backend_estructura.png, id=1376, 251.13824pt x 361.35pt>
+<imagenes_doc/backend_estructura.png, id=1375, 251.13824pt x 361.35pt>
 File: imagenes_doc/backend_estructura.png Graphic file (type png)
 <use imagenes_doc/backend_estructura.png>
 Package pdftex.def Info: imagenes_doc/backend_estructura.png  used on input line 582.
@@ -1744,7 +1744,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 599--600
 
 
 [69]
-<imagenes_doc/login.png, id=1393, 1155.71774pt x 685.96275pt>
+<imagenes_doc/login.png, id=1392, 1155.71774pt x 685.96275pt>
 File: imagenes_doc/login.png Graphic file (type png)
 <use imagenes_doc/login.png>
 Package pdftex.def Info: imagenes_doc/login.png  used on input line 627.
@@ -1752,12 +1752,12 @@ Package pdftex.def Info: imagenes_doc/login.png  used on input line 627.
 
 
 [70 <./imagenes_doc/login.png>]
-<imagenes_doc/new_user.png, id=1399, 1155.1155pt x 684.156pt>
+<imagenes_doc/new_user.png, id=1398, 1155.1155pt x 684.156pt>
 File: imagenes_doc/new_user.png Graphic file (type png)
 <use imagenes_doc/new_user.png>
 Package pdftex.def Info: imagenes_doc/new_user.png  used on input line 641.
 (pdftex.def)             Requested size: 390.0pt x 230.99185pt.
-<imagenes_doc/dashboard_1.png, id=1401, 1154.51324pt x 683.55376pt>
+<imagenes_doc/dashboard_1.png, id=1400, 1154.51324pt x 683.55376pt>
 File: imagenes_doc/dashboard_1.png Graphic file (type png)
 <use imagenes_doc/dashboard_1.png>
 Package pdftex.def Info: imagenes_doc/dashboard_1.png  used on input line 659.
@@ -1765,7 +1765,7 @@ Package pdftex.def Info: imagenes_doc/dashboard_1.png  used on input line 659.
 
 
 [71 <./imagenes_doc/new_user.png>]
-<imagenes_doc/dashboard_2.png, id=1408, 1153.30875pt x 687.16725pt>
+<imagenes_doc/dashboard_2.png, id=1407, 1153.30875pt x 687.16725pt>
 File: imagenes_doc/dashboard_2.png Graphic file (type png)
 <use imagenes_doc/dashboard_2.png>
 Package pdftex.def Info: imagenes_doc/dashboard_2.png  used on input line 670.
@@ -1773,7 +1773,7 @@ Package pdftex.def Info: imagenes_doc/dashboard_2.png  used on input line 670.
 
 
 [72 <./imagenes_doc/dashboard_1.png>]
-<imagenes_doc/CLASE2_PRUEBA.jpg, id=1414, 1606.0pt x 884.30376pt>
+<imagenes_doc/CLASE2_PRUEBA.jpg, id=1413, 1606.0pt x 884.30376pt>
 File: imagenes_doc/CLASE2_PRUEBA.jpg Graphic file (type jpg)
 <use imagenes_doc/CLASE2_PRUEBA.jpg>
 Package pdftex.def Info: imagenes_doc/CLASE2_PRUEBA.jpg  used on input line 687.
@@ -1781,7 +1781,7 @@ Package pdftex.def Info: imagenes_doc/CLASE2_PRUEBA.jpg  used on input line 687.
 
 
 [73 <./imagenes_doc/dashboard_2.png>]
-<imagenes_doc/roles.png, id=1420, 1153.30875pt x 687.7695pt>
+<imagenes_doc/roles.png, id=1419, 1153.30875pt x 687.7695pt>
 File: imagenes_doc/roles.png Graphic file (type png)
 <use imagenes_doc/roles.png>
 Package pdftex.def Info: imagenes_doc/roles.png  used on input line 700.
@@ -1789,12 +1789,12 @@ Package pdftex.def Info: imagenes_doc/roles.png  used on input line 700.
 
 
 [74 <./imagenes_doc/CLASE2_PRUEBA.jpg> <./imagenes_doc/roles.png>]
-<imagenes_doc/new_curso.png, id=1426, 1155.71774pt x 687.16725pt>
+<imagenes_doc/new_curso.png, id=1425, 1155.71774pt x 687.16725pt>
 File: imagenes_doc/new_curso.png Graphic file (type png)
 <use imagenes_doc/new_curso.png>
 Package pdftex.def Info: imagenes_doc/new_curso.png  used on input line 713.
 (pdftex.def)             Requested size: 390.0pt x 231.88272pt.
-<imagenes_doc/horario_curso.png, id=1427, 1155.1155pt x 686.565pt>
+<imagenes_doc/horario_curso.png, id=1426, 1155.1155pt x 686.565pt>
 File: imagenes_doc/horario_curso.png Graphic file (type png)
 <use imagenes_doc/horario_curso.png>
 Package pdftex.def Info: imagenes_doc/horario_curso.png  used on input line 726.
@@ -1802,7 +1802,7 @@ Package pdftex.def Info: imagenes_doc/horario_curso.png  used on input line 726.
 
 
 [75 <./imagenes_doc/new_curso.png>]
-<imagenes_doc/registrar_asistencia.png, id=1434, 1155.71774pt x 684.75826pt>
+<imagenes_doc/registrar_asistencia.png, id=1433, 1155.71774pt x 684.75826pt>
 File: imagenes_doc/registrar_asistencia.png Graphic file (type png)
 <use imagenes_doc/registrar_asistencia.png>
 Package pdftex.def Info: imagenes_doc/registrar_asistencia.png  used on input line 739.
@@ -1810,7 +1810,7 @@ Package pdftex.def Info: imagenes_doc/registrar_asistencia.png  used on input li
 
 
 [76 <./imagenes_doc/horario_curso.png>]
-<imagenes_doc/asignar_.png, id=1440, 1155.71774pt x 685.3605pt>
+<imagenes_doc/asignar_.png, id=1439, 1155.71774pt x 685.3605pt>
 File: imagenes_doc/asignar_.png Graphic file (type png)
 <use imagenes_doc/asignar_.png>
 Package pdftex.def Info: imagenes_doc/asignar_.png  used on input line 752.
@@ -1892,7 +1892,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--80
 [82]
 
 [83]
-<capitulo_05/imagenes/1.jpg.png, id=1474, 929.4725pt x 445.665pt>
+<capitulo_05/imagenes/1.jpg.png, id=1473, 929.4725pt x 445.665pt>
 File: capitulo_05/imagenes/1.jpg.png Graphic file (type png)
 <use capitulo_05/imagenes/1.jpg.png>
 Package pdftex.def Info: capitulo_05/imagenes/1.jpg.png  used on input line 99.
@@ -1900,12 +1900,12 @@ Package pdftex.def Info: capitulo_05/imagenes/1.jpg.png  used on input line 99.
 
 
 [84 <./capitulo_05/imagenes/1.jpg.png>]
-<capitulo_05/imagenes/umbral_1.0_30.jpg, id=1480, 1606.0pt x 952.55875pt>
+<capitulo_05/imagenes/umbral_1.0_30.jpg, id=1479, 1606.0pt x 952.55875pt>
 File: capitulo_05/imagenes/umbral_1.0_30.jpg Graphic file (type jpg)
 <use capitulo_05/imagenes/umbral_1.0_30.jpg>
 Package pdftex.def Info: capitulo_05/imagenes/umbral_1.0_30.jpg  used on input line 107.
 (pdftex.def)             Requested size: 272.99881pt x 161.9183pt.
-<capitulo_05/imagenes/2.png, id=1481, 929.4725pt x 445.665pt>
+<capitulo_05/imagenes/2.png, id=1480, 929.4725pt x 445.665pt>
 File: capitulo_05/imagenes/2.png Graphic file (type png)
 <use capitulo_05/imagenes/2.png>
 Package pdftex.def Info: capitulo_05/imagenes/2.png  used on input line 118.
@@ -1913,7 +1913,7 @@ Package pdftex.def Info: capitulo_05/imagenes/2.png  used on input line 118.
 
 
 [85 <./capitulo_05/imagenes/umbral_1.0_30.jpg>]
-<capitulo_05/imagenes/1.3_min_dist25.jpg, id=1486, 1606.0pt x 938.50626pt>
+<capitulo_05/imagenes/1.3_min_dist25.jpg, id=1485, 1606.0pt x 938.50626pt>
 File: capitulo_05/imagenes/1.3_min_dist25.jpg Graphic file (type jpg)
 <use capitulo_05/imagenes/1.3_min_dist25.jpg>
 Package pdftex.def Info: capitulo_05/imagenes/1.3_min_dist25.jpg  used on input line 126.
@@ -1921,7 +1921,7 @@ Package pdftex.def Info: capitulo_05/imagenes/1.3_min_dist25.jpg  used on input 
 
 
 [86 <./capitulo_05/imagenes/2.png>]
-<capitulo_05/imagenes/3.png, id=1492, 929.4725pt x 445.665pt>
+<capitulo_05/imagenes/3.png, id=1491, 929.4725pt x 445.665pt>
 File: capitulo_05/imagenes/3.png Graphic file (type png)
 <use capitulo_05/imagenes/3.png>
 Package pdftex.def Info: capitulo_05/imagenes/3.png  used on input line 138.
@@ -1929,7 +1929,7 @@ Package pdftex.def Info: capitulo_05/imagenes/3.png  used on input line 138.
 
 
 [87 <./capitulo_05/imagenes/1.3_min_dist25.jpg>]
-<capitulo_05/imagenes/6.6.jpg, id=1498, 1606.0pt x 950.55125pt>
+<capitulo_05/imagenes/6.6.jpg, id=1497, 1606.0pt x 950.55125pt>
 File: capitulo_05/imagenes/6.6.jpg Graphic file (type jpg)
 <use capitulo_05/imagenes/6.6.jpg>
 Package pdftex.def Info: capitulo_05/imagenes/6.6.jpg  used on input line 146.
@@ -1937,12 +1937,12 @@ Package pdftex.def Info: capitulo_05/imagenes/6.6.jpg  used on input line 146.
 
 
 [88 <./capitulo_05/imagenes/3.png> <./capitulo_05/imagenes/6.6.jpg>]
-<capitulo_05/imagenes/4.png, id=1505, 929.4725pt x 445.665pt>
+<capitulo_05/imagenes/4.png, id=1503, 929.4725pt x 445.665pt>
 File: capitulo_05/imagenes/4.png Graphic file (type png)
 <use capitulo_05/imagenes/4.png>
 Package pdftex.def Info: capitulo_05/imagenes/4.png  used on input line 159.
 (pdftex.def)             Requested size: 312.00119pt x 149.5928pt.
-<capitulo_05/imagenes/4.4.jpg, id=1506, 1284.8pt x 751.80875pt>
+<capitulo_05/imagenes/4.4.jpg, id=1504, 1284.8pt x 751.80875pt>
 File: capitulo_05/imagenes/4.4.jpg Graphic file (type jpg)
 <use capitulo_05/imagenes/4.4.jpg>
 Package pdftex.def Info: capitulo_05/imagenes/4.4.jpg  used on input line 167.
@@ -1950,7 +1950,7 @@ Package pdftex.def Info: capitulo_05/imagenes/4.4.jpg  used on input line 167.
 
 
 [89 <./capitulo_05/imagenes/4.png>]
-<capitulo_05/imagenes/5.png, id=1512, 929.4725pt x 445.665pt>
+<capitulo_05/imagenes/5.png, id=1511, 929.4725pt x 445.665pt>
 File: capitulo_05/imagenes/5.png Graphic file (type png)
 <use capitulo_05/imagenes/5.png>
 Package pdftex.def Info: capitulo_05/imagenes/5.png  used on input line 178.
@@ -1958,7 +1958,7 @@ Package pdftex.def Info: capitulo_05/imagenes/5.png  used on input line 178.
 
 
 [90 <./capitulo_05/imagenes/4.4.jpg> <./capitulo_05/imagenes/5.png>]
-<capitulo_05/imagenes/5.5.jpg, id=1518, 1606.0pt x 932.48375pt>
+<capitulo_05/imagenes/5.5.jpg, id=1517, 1606.0pt x 932.48375pt>
 File: capitulo_05/imagenes/5.5.jpg Graphic file (type jpg)
 <use capitulo_05/imagenes/5.5.jpg>
 Package pdftex.def Info: capitulo_05/imagenes/5.5.jpg  used on input line 186.
@@ -1966,12 +1966,12 @@ Package pdftex.def Info: capitulo_05/imagenes/5.5.jpg  used on input line 186.
 
 
 [91 <./capitulo_05/imagenes/5.5.jpg>]
-<capitulo_05/resultados_aula/1.jpg, id=1523, 1284.8pt x 729.72626pt>
+<capitulo_05/resultados_aula/1.jpg, id=1522, 1284.8pt x 729.72626pt>
 File: capitulo_05/resultados_aula/1.jpg Graphic file (type jpg)
 <use capitulo_05/resultados_aula/1.jpg>
 Package pdftex.def Info: capitulo_05/resultados_aula/1.jpg  used on input line 201.
 (pdftex.def)             Requested size: 390.0pt x 221.50282pt.
-<capitulo_05/resultados_aula/2.jpg, id=1524, 1606.0pt x 951.555pt>
+<capitulo_05/resultados_aula/2.jpg, id=1523, 1606.0pt x 951.555pt>
 File: capitulo_05/resultados_aula/2.jpg Graphic file (type jpg)
 <use capitulo_05/resultados_aula/2.jpg>
 Package pdftex.def Info: capitulo_05/resultados_aula/2.jpg  used on input line 212.
@@ -1979,7 +1979,7 @@ Package pdftex.def Info: capitulo_05/resultados_aula/2.jpg  used on input line 2
 
 
 [92 <./capitulo_05/resultados_aula/1.jpg>]
-<capitulo_05/resultados_aula/4.jpg, id=1530, 1185.67969pt x 707.64375pt>
+<capitulo_05/resultados_aula/4.jpg, id=1529, 1185.67969pt x 707.64375pt>
 File: capitulo_05/resultados_aula/4.jpg Graphic file (type jpg)
 <use capitulo_05/resultados_aula/4.jpg>
 Package pdftex.def Info: capitulo_05/resultados_aula/4.jpg  used on input line 223.
@@ -1987,7 +1987,7 @@ Package pdftex.def Info: capitulo_05/resultados_aula/4.jpg  used on input line 2
 
 
 [93 <./capitulo_05/resultados_aula/2.jpg>]
-<capitulo_05/resultados_aula/5.jpg, id=1537, 1606.0pt x 889.3225pt>
+<capitulo_05/resultados_aula/5.jpg, id=1536, 1606.0pt x 889.3225pt>
 File: capitulo_05/resultados_aula/5.jpg Graphic file (type jpg)
 <use capitulo_05/resultados_aula/5.jpg>
 Package pdftex.def Info: capitulo_05/resultados_aula/5.jpg  used on input line 234.
@@ -1995,7 +1995,7 @@ Package pdftex.def Info: capitulo_05/resultados_aula/5.jpg  used on input line 2
 
 
 [94 <./capitulo_05/resultados_aula/4.jpg>]
-<capitulo_05/resultados_aula/6.jpg, id=1543, 1606.0pt x 888.31876pt>
+<capitulo_05/resultados_aula/6.jpg, id=1542, 1606.0pt x 888.31876pt>
 File: capitulo_05/resultados_aula/6.jpg Graphic file (type jpg)
 <use capitulo_05/resultados_aula/6.jpg>
 Package pdftex.def Info: capitulo_05/resultados_aula/6.jpg  used on input line 248.
@@ -2003,7 +2003,7 @@ Package pdftex.def Info: capitulo_05/resultados_aula/6.jpg  used on input line 2
 
 
 [95 <./capitulo_05/resultados_aula/5.jpg>]
-<capitulo_05/resultados_aula/7.jpg, id=1549, 1606.0pt x 990.70125pt>
+<capitulo_05/resultados_aula/7.jpg, id=1548, 1606.0pt x 990.70125pt>
 File: capitulo_05/resultados_aula/7.jpg Graphic file (type jpg)
 <use capitulo_05/resultados_aula/7.jpg>
 Package pdftex.def Info: capitulo_05/resultados_aula/7.jpg  used on input line 260.
@@ -2011,7 +2011,7 @@ Package pdftex.def Info: capitulo_05/resultados_aula/7.jpg  used on input line 2
 
 
 [96 <./capitulo_05/resultados_aula/6.jpg>]
-<capitulo_05/resultados_aula/10.jpg, id=1555, 1606.0pt x 865.2325pt>
+<capitulo_05/resultados_aula/10.jpg, id=1554, 1606.0pt x 865.2325pt>
 File: capitulo_05/resultados_aula/10.jpg Graphic file (type jpg)
 <use capitulo_05/resultados_aula/10.jpg>
 Package pdftex.def Info: capitulo_05/resultados_aula/10.jpg  used on input line 271.
@@ -2019,7 +2019,7 @@ Package pdftex.def Info: capitulo_05/resultados_aula/10.jpg  used on input line 
 
 
 [97 <./capitulo_05/resultados_aula/7.jpg>]
-<capitulo_05/resultados_aula/11.jpg, id=1561, 1383.1675pt x 1017.8025pt>
+<capitulo_05/resultados_aula/11.jpg, id=1560, 1383.1675pt x 1017.8025pt>
 File: capitulo_05/resultados_aula/11.jpg Graphic file (type jpg)
 <use capitulo_05/resultados_aula/11.jpg>
 Package pdftex.def Info: capitulo_05/resultados_aula/11.jpg  used on input line 283.
@@ -2027,7 +2027,7 @@ Package pdftex.def Info: capitulo_05/resultados_aula/11.jpg  used on input line 
 
 
 [98 <./capitulo_05/resultados_aula/10.jpg>]
-<capitulo_05/resultados_aula/12.jpg, id=1567, 1606.0pt x 905.3825pt>
+<capitulo_05/resultados_aula/12.jpg, id=1566, 1606.0pt x 905.3825pt>
 File: capitulo_05/resultados_aula/12.jpg Graphic file (type jpg)
 <use capitulo_05/resultados_aula/12.jpg>
 Package pdftex.def Info: capitulo_05/resultados_aula/12.jpg  used on input line 295.
@@ -2035,7 +2035,7 @@ Package pdftex.def Info: capitulo_05/resultados_aula/12.jpg  used on input line 
 
 
 [99 <./capitulo_05/resultados_aula/11.jpg>]
-<capitulo_05/resultados_aula/14.jpg, id=1574, 1606.0pt x 863.225pt>
+<capitulo_05/resultados_aula/14.jpg, id=1573, 1606.0pt x 863.225pt>
 File: capitulo_05/resultados_aula/14.jpg Graphic file (type jpg)
 <use capitulo_05/resultados_aula/14.jpg>
 Package pdftex.def Info: capitulo_05/resultados_aula/14.jpg  used on input line 307.
@@ -2043,7 +2043,7 @@ Package pdftex.def Info: capitulo_05/resultados_aula/14.jpg  used on input line 
 
 
 [100 <./capitulo_05/resultados_aula/12.jpg>]
-<capitulo_05/resultados_aula/17.jpg, id=1580, 963.6pt x 552.8655pt>
+<capitulo_05/resultados_aula/17.jpg, id=1579, 963.6pt x 552.8655pt>
 File: capitulo_05/resultados_aula/17.jpg Graphic file (type jpg)
 <use capitulo_05/resultados_aula/17.jpg>
 Package pdftex.def Info: capitulo_05/resultados_aula/17.jpg  used on input line 318.
@@ -2051,7 +2051,7 @@ Package pdftex.def Info: capitulo_05/resultados_aula/17.jpg  used on input line 
 
 
 [101 <./capitulo_05/resultados_aula/14.jpg>]
-<capitulo_05/resultados_aula/19.jpg, id=1586, 1606.0pt x 909.3975pt>
+<capitulo_05/resultados_aula/19.jpg, id=1585, 1606.0pt x 909.3975pt>
 File: capitulo_05/resultados_aula/19.jpg Graphic file (type jpg)
 <use capitulo_05/resultados_aula/19.jpg>
 Package pdftex.def Info: capitulo_05/resultados_aula/19.jpg  used on input line 329.
@@ -2059,7 +2059,7 @@ Package pdftex.def Info: capitulo_05/resultados_aula/19.jpg  used on input line 
 
 
 [102 <./capitulo_05/resultados_aula/17.jpg>]
-<capitulo_05/resultados_aula/registrados.jpg, id=1594, 644.4075pt x 363.3575pt>
+<capitulo_05/resultados_aula/registrados.jpg, id=1593, 644.4075pt x 363.3575pt>
 File: capitulo_05/resultados_aula/registrados.jpg Graphic file (type jpg)
 <use capitulo_05/resultados_aula/registrados.jpg>
 Package pdftex.def Info: capitulo_05/resultados_aula/registrados.jpg  used on input line 345.
@@ -2067,12 +2067,12 @@ Package pdftex.def Info: capitulo_05/resultados_aula/registrados.jpg  used on in
 
 
 [103 <./capitulo_05/resultados_aula/19.jpg>]
-<capitulo_05/resultados_aula/entrenamiento.jpg, id=1599, 1242.6425pt x 501.875pt>
+<capitulo_05/resultados_aula/entrenamiento.jpg, id=1598, 1242.6425pt x 501.875pt>
 File: capitulo_05/resultados_aula/entrenamiento.jpg Graphic file (type jpg)
 <use capitulo_05/resultados_aula/entrenamiento.jpg>
 Package pdftex.def Info: capitulo_05/resultados_aula/entrenamiento.jpg  used on input line 352.
 (pdftex.def)             Requested size: 390.0pt x 157.50945pt.
-<capitulo_05/resultados_aula/asistencias.jpg, id=1600, 735.74875pt x 507.8975pt>
+<capitulo_05/resultados_aula/asistencias.jpg, id=1599, 735.74875pt x 507.8975pt>
 File: capitulo_05/resultados_aula/asistencias.jpg Graphic file (type jpg)
 <use capitulo_05/resultados_aula/asistencias.jpg>
 Package pdftex.def Info: capitulo_05/resultados_aula/asistencias.jpg  used on input line 359.
@@ -2080,7 +2080,7 @@ Package pdftex.def Info: capitulo_05/resultados_aula/asistencias.jpg  used on in
 
 
 [104 <./capitulo_05/resultados_aula/registrados.jpg> <./capitulo_05/resultados_aula/entrenamiento.jpg>]
-<capitulo_05/imagenes/dashboard_1.png, id=1607, 1107.53775pt x 622.12425pt>
+<capitulo_05/imagenes/dashboard_1.png, id=1606, 1107.53775pt x 622.12425pt>
 File: capitulo_05/imagenes/dashboard_1.png Graphic file (type png)
 <use capitulo_05/imagenes/dashboard_1.png>
 Package pdftex.def Info: capitulo_05/imagenes/dashboard_1.png  used on input line 369.
@@ -2088,7 +2088,7 @@ Package pdftex.def Info: capitulo_05/imagenes/dashboard_1.png  used on input lin
 
 
 [105 <./capitulo_05/resultados_aula/asistencias.jpg>]
-<capitulo_05/imagenes/dashboard_2.png, id=1613, 1109.3445pt x 608.87476pt>
+<capitulo_05/imagenes/dashboard_2.png, id=1612, 1109.3445pt x 608.87476pt>
 File: capitulo_05/imagenes/dashboard_2.png Graphic file (type png)
 <use capitulo_05/imagenes/dashboard_2.png>
 Package pdftex.def Info: capitulo_05/imagenes/dashboard_2.png  used on input line 376.
@@ -2194,12 +2194,12 @@ No file tfg.gls.
 \openout2 = `./anexos/anexo.aux'.
 
  (./anexos/anexo.tex
-<anexos/imagenes/encabezado.png, id=1659, 688.37175pt x 378.81525pt>
+<anexos/imagenes/encabezado.png, id=1658, 688.37175pt x 378.81525pt>
 File: anexos/imagenes/encabezado.png Graphic file (type png)
 <use anexos/imagenes/encabezado.png>
 Package pdftex.def Info: anexos/imagenes/encabezado.png  used on input line 10.
 (pdftex.def)             Requested size: 390.0pt x 214.62637pt.
-<anexos/imagenes/Imagen1.png, id=1660, 744.381pt x 302.93175pt>
+<anexos/imagenes/Imagen1.png, id=1659, 744.381pt x 302.93175pt>
 File: anexos/imagenes/Imagen1.png Graphic file (type png)
 <use anexos/imagenes/Imagen1.png>
 Package pdftex.def Info: anexos/imagenes/Imagen1.png  used on input line 17.
@@ -2211,12 +2211,12 @@ Package pdftex.def Info: anexos/imagenes/Imagen1.png  used on input line 17.
 
 
  <./anexos/imagenes/encabezado.png>]
-<anexos/imagenes/Imagen2.png, id=1666, 743.1765pt x 339.669pt>
+<anexos/imagenes/Imagen2.png, id=1665, 743.1765pt x 339.669pt>
 File: anexos/imagenes/Imagen2.png Graphic file (type png)
 <use anexos/imagenes/Imagen2.png>
 Package pdftex.def Info: anexos/imagenes/Imagen2.png  used on input line 24.
 (pdftex.def)             Requested size: 390.0pt x 178.25114pt.
-<anexos/imagenes/Imagen3.png, id=1667, 736.55174pt x 302.3295pt>
+<anexos/imagenes/Imagen3.png, id=1666, 736.55174pt x 302.3295pt>
 File: anexos/imagenes/Imagen3.png Graphic file (type png)
 <use anexos/imagenes/Imagen3.png>
 Package pdftex.def Info: anexos/imagenes/Imagen3.png  used on input line 31.
@@ -2224,12 +2224,12 @@ Package pdftex.def Info: anexos/imagenes/Imagen3.png  used on input line 31.
 
 
 [117 <./anexos/imagenes/Imagen1.png> <./anexos/imagenes/Imagen2.png>]
-<anexos/imagenes/Imagen4.png, id=1675, 734.14275pt x 302.3295pt>
+<anexos/imagenes/Imagen4.png, id=1674, 734.14275pt x 302.3295pt>
 File: anexos/imagenes/Imagen4.png Graphic file (type png)
 <use anexos/imagenes/Imagen4.png>
 Package pdftex.def Info: anexos/imagenes/Imagen4.png  used on input line 38.
 (pdftex.def)             Requested size: 390.0pt x 160.60753pt.
-<anexos/imagenes/Imagen5.png, id=1676, 740.16525pt x 331.2375pt>
+<anexos/imagenes/Imagen5.png, id=1675, 740.16525pt x 331.2375pt>
 File: anexos/imagenes/Imagen5.png Graphic file (type png)
 <use anexos/imagenes/Imagen5.png>
 Package pdftex.def Info: anexos/imagenes/Imagen5.png  used on input line 46.
@@ -2237,12 +2237,12 @@ Package pdftex.def Info: anexos/imagenes/Imagen5.png  used on input line 46.
 
 
 [118 <./anexos/imagenes/Imagen3.png> <./anexos/imagenes/Imagen4.png>]
-<anexos/imagenes/Imagen6.png, id=1683, 737.75626pt x 305.943pt>
+<anexos/imagenes/Imagen6.png, id=1682, 737.75626pt x 305.943pt>
 File: anexos/imagenes/Imagen6.png Graphic file (type png)
 <use anexos/imagenes/Imagen6.png>
 Package pdftex.def Info: anexos/imagenes/Imagen6.png  used on input line 55.
 (pdftex.def)             Requested size: 390.0pt x 161.72885pt.
-<anexos/imagenes/Imagen7.png, id=1684, 735.9495pt x 299.31825pt>
+<anexos/imagenes/Imagen7.png, id=1683, 735.9495pt x 299.31825pt>
 File: anexos/imagenes/Imagen7.png Graphic file (type png)
 <use anexos/imagenes/Imagen7.png>
 Package pdftex.def Info: anexos/imagenes/Imagen7.png  used on input line 64.
@@ -2250,12 +2250,12 @@ Package pdftex.def Info: anexos/imagenes/Imagen7.png  used on input line 64.
 
 
 [119 <./anexos/imagenes/Imagen5.png> <./anexos/imagenes/Imagen6.png>]
-<anexos/imagenes/Imagen8.png, id=1691, 738.3585pt x 325.81725pt>
+<anexos/imagenes/Imagen8.png, id=1690, 738.3585pt x 325.81725pt>
 File: anexos/imagenes/Imagen8.png Graphic file (type png)
 <use anexos/imagenes/Imagen8.png>
 Package pdftex.def Info: anexos/imagenes/Imagen8.png  used on input line 72.
 (pdftex.def)             Requested size: 390.0pt x 172.09566pt.
-<anexos/imagenes/Imagen9.png, id=1692, 737.75626pt x 335.45325pt>
+<anexos/imagenes/Imagen9.png, id=1691, 737.75626pt x 335.45325pt>
 File: anexos/imagenes/Imagen9.png Graphic file (type png)
 <use anexos/imagenes/Imagen9.png>
 Package pdftex.def Info: anexos/imagenes/Imagen9.png  used on input line 81.
@@ -2263,7 +2263,7 @@ Package pdftex.def Info: anexos/imagenes/Imagen9.png  used on input line 81.
 
 
 [120 <./anexos/imagenes/Imagen7.png> <./anexos/imagenes/Imagen8.png>]
-<anexos/imagenes/Imagen10.png, id=1699, 743.1765pt x 332.442pt>
+<anexos/imagenes/Imagen10.png, id=1698, 743.1765pt x 332.442pt>
 File: anexos/imagenes/Imagen10.png Graphic file (type png)
 <use anexos/imagenes/Imagen10.png>
 Package pdftex.def Info: anexos/imagenes/Imagen10.png  used on input line 89.
@@ -2274,7 +2274,7 @@ Package pdftex.def Info: anexos/imagenes/Imagen10.png  used on input line 89.
 \openout2 = `./anexos/anexob.aux'.
 
  (./anexos/anexob.tex
-<anexos/anexo_b_img/train1.png, id=1706, 814.54312pt x 529.22719pt>
+<anexos/anexo_b_img/train1.png, id=1705, 814.54312pt x 529.22719pt>
 File: anexos/anexo_b_img/train1.png Graphic file (type png)
 <use anexos/anexo_b_img/train1.png>
 Package pdftex.def Info: anexos/anexo_b_img/train1.png  used on input line 14.
@@ -2287,7 +2287,7 @@ Package pdftex.def Info: anexos/anexo_b_img/train1.png  used on input line 14.
 
 
 ]
-<anexos/anexo_b_img/train2.png, id=1712, 843.15pt x 784.43062pt>
+<anexos/anexo_b_img/train2.png, id=1711, 843.15pt x 784.43062pt>
 File: anexos/anexo_b_img/train2.png Graphic file (type png)
 <use anexos/anexo_b_img/train2.png>
 Package pdftex.def Info: anexos/anexo_b_img/train2.png  used on input line 26.
@@ -2295,7 +2295,7 @@ Package pdftex.def Info: anexos/anexo_b_img/train2.png  used on input line 26.
 
 
 [123 <./anexos/anexo_b_img/train1.png>]
-<anexos/anexo_b_img/train3.png, id=1721, 808.52063pt x 1148.79187pt>
+<anexos/anexo_b_img/train3.png, id=1720, 808.52063pt x 1148.79187pt>
 File: anexos/anexo_b_img/train3.png Graphic file (type png)
 <use anexos/anexo_b_img/train3.png>
 Package pdftex.def Info: anexos/anexo_b_img/train3.png  used on input line 39.
@@ -2305,7 +2305,7 @@ Package pdftex.def Info: anexos/anexo_b_img/train3.png  used on input line 39.
 [124 <./anexos/anexo_b_img/train2.png>]
 
 [125 <./anexos/anexo_b_img/train3.png>]
-<anexos/anexo_b_img/train3.1.png, id=1734, 831.105pt x 668.4975pt>
+<anexos/anexo_b_img/train3.1.png, id=1733, 831.105pt x 668.4975pt>
 File: anexos/anexo_b_img/train3.1.png Graphic file (type png)
 <use anexos/anexo_b_img/train3.1.png>
 Package pdftex.def Info: anexos/anexo_b_img/train3.1.png  used on input line 50.
@@ -2323,12 +2323,12 @@ Underfull \hbox (badness 2165) in paragraph at lines 57--58
 
 
 [126 <./anexos/anexo_b_img/train3.1.png>]
-<anexos/anexo_b_img/face1.png, id=1741, 871.00406pt x 320.69812pt>
+<anexos/anexo_b_img/face1.png, id=1740, 871.00406pt x 320.69812pt>
 File: anexos/anexo_b_img/face1.png Graphic file (type png)
 <use anexos/anexo_b_img/face1.png>
 Package pdftex.def Info: anexos/anexo_b_img/face1.png  used on input line 61.
 (pdftex.def)             Requested size: 390.0pt x 143.59348pt.
-<anexos/anexo_b_img/face2.png, id=1742, 1021.56656pt x 508.90125pt>
+<anexos/anexo_b_img/face2.png, id=1741, 1021.56656pt x 508.90125pt>
 File: anexos/anexo_b_img/face2.png Graphic file (type png)
 <use anexos/anexo_b_img/face2.png>
 Package pdftex.def Info: anexos/anexo_b_img/face2.png  used on input line 74.
@@ -2336,7 +2336,7 @@ Package pdftex.def Info: anexos/anexo_b_img/face2.png  used on input line 74.
 
 
 [127 <./anexos/anexo_b_img/face1.png>]
-<anexos/anexo_b_img/face3.png, id=1750, 923.70094pt x 1126.2075pt>
+<anexos/anexo_b_img/face3.png, id=1749, 923.70094pt x 1126.2075pt>
 File: anexos/anexo_b_img/face3.png Graphic file (type png)
 <use anexos/anexo_b_img/face3.png>
 Package pdftex.def Info: anexos/anexo_b_img/face3.png  used on input line 87.
@@ -2356,7 +2356,7 @@ Underfull \hbox (badness 1122) in paragraph at lines 95--96
 
 
 [129 <./anexos/anexo_b_img/face3.png>]
-<anexos/anexo_b_img/face4.png, id=1763, 892.08281pt x 453.19313pt>
+<anexos/anexo_b_img/face4.png, id=1762, 892.08281pt x 453.19313pt>
 File: anexos/anexo_b_img/face4.png Graphic file (type png)
 <use anexos/anexo_b_img/face4.png>
 Package pdftex.def Info: anexos/anexo_b_img/face4.png  used on input line 99.
@@ -2675,25 +2675,25 @@ L3 programming layer <2025-08-13>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `tfg.out' has not changed.
-(rerunfilecheck)             Checksum: A942119E8374D007BA5032344E70DFD1;16161.
+(rerunfilecheck)             Checksum: 461B40210542CE3EDB6C4939AC792C57;16161.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 101 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 34998 strings out of 469781
- 715681 string characters out of 5480955
- 1176290 words of memory out of 5000000
+ 34997 strings out of 469781
+ 715669 string characters out of 5480955
+ 1176289 words of memory out of 5000000
  62347 multiletter control sequences out of 15000+600000
  644179 words of font info for 105 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  84i,16n,93p,2557b,936s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk> </Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk> </Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcbx1440.600pk> </Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1440.600pk></Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on tfg.pdf (159 pages, 9384003 bytes).
+Output written on tfg.pdf (159 pages, 9383501 bytes).
 PDF statistics:
- 2058 PDF objects out of 2073 (max. 8388607)
- 1720 compressed objects within 18 object streams
- 436 named destinations out of 1000 (max. 500000)
+ 2057 PDF objects out of 2073 (max. 8388607)
+ 1719 compressed objects within 18 object streams
+ 435 named destinations out of 1000 (max. 500000)
  1082 words of extra memory for PDF output out of 10000 (max. 10000000)
 

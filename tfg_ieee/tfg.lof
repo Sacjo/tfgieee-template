@@ -1,82 +1,82 @@
 \babel@toc {spanish}{}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Ejemplo de Seguridad Biométrica}}{9}{figure.caption.13}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Una vista de la tableta digitalizadora de RAND; creada en la década de 1960, en la que se probó el primer sistema de identificación facial\cite {lanacion_historiafacial}.}}{10}{figure.caption.14}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Dispositivo de reconocimiento facial utilizado en un aeropuerto para verificar la identidad de los pasajeros mediante el análisis de sus rasgos faciales en tiempo real\cite {aeropuertosJapon}.}}{12}{figure.caption.15}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Relación jerárquica entre los campos de la Inteligencia Artificial, el Aprendizaje Automático y el Aprendizaje Profundo\cite {sandhane_figure3}.}}{18}{figure.caption.16}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Estructura de una red neuronal profunda.}}{20}{figure.caption.17}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces La imagen representa una red neuronal prealimentada, uno de los modelos más básicos y utilizados en inteligencia artificial\cite {interactivechaos_ffnn}.}}{21}{figure.caption.18}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Representación de una red neuronal recurrente (RNN), donde las conexiones internas permiten el manejo de secuencias mediante memoria temporal\cite {interactivechaos_ffnn}.}}{22}{figure.caption.19}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces La imagen muestra cómo una red neuronal convolucional (CNN) procesa una imagen en distintas capas, extrayendo características progresivas desde patrones simples hasta rostros completos para generar una salida final\cite {falken_cnn}.}}{23}{figure.caption.20}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces La imagen ilustra el funcionamiento de una red generativa adversaria (GAN), donde un generador crea muestras falsas a partir de ruido aleatorio y un discriminador intenta distinguir entre muestras reales y falsas, retroalimentando a ambos modelos para mejorar su rendimiento\cite {gan_aws}.}}{23}{figure.caption.21}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Formato tradicional de registro de asistencia escolar.\cite {listaAsistenciaEscolar}.}}{26}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Ejemplo de Seguridad Biométrica}}{9}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Una vista de la tableta digitalizadora de RAND; creada en la década de 1960, en la que se probó el primer sistema de identificación facial\cite {lanacion_historiafacial}.}}{10}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Dispositivo de reconocimiento facial utilizado en un aeropuerto para verificar la identidad de los pasajeros mediante el análisis de sus rasgos faciales en tiempo real\cite {aeropuertosJapon}.}}{12}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Relación jerárquica entre los campos de la Inteligencia Artificial, el Aprendizaje Automático y el Aprendizaje Profundo\cite {sandhane_figure3}.}}{18}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Estructura de una red neuronal profunda.}}{20}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces La imagen representa una red neuronal prealimentada, uno de los modelos más básicos y utilizados en inteligencia artificial\cite {interactivechaos_ffnn}.}}{21}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Representación de una red neuronal recurrente (RNN), donde las conexiones internas permiten el manejo de secuencias mediante memoria temporal\cite {interactivechaos_ffnn}.}}{22}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces La imagen muestra cómo una red neuronal convolucional (CNN) procesa una imagen en distintas capas, extrayendo características progresivas desde patrones simples hasta rostros completos para generar una salida final\cite {falken_cnn}.}}{23}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces La imagen ilustra el funcionamiento de una red generativa adversaria (GAN), donde un generador crea muestras falsas a partir de ruido aleatorio y un discriminador intenta distinguir entre muestras reales y falsas, retroalimentando a ambos modelos para mejorar su rendimiento\cite {gan_aws}.}}{23}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Formato tradicional de registro de asistencia escolar.\cite {listaAsistenciaEscolar}.}}{26}{figure.caption.21}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Tablero de gestión de tareas del proyecto \textbf {CheckFace} en Notion, bajo la metodología ágil Scrum.}}{43}{figure.caption.29}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Ejemplo de imagen facial capturada al natural [Figura propia].}}{52}{figure.caption.35}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Ejemplo de imagen facial luego del proceso de normalización [Figura propia].}}{52}{figure.caption.36}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Caso de uso principal del sistema CheckFace[Tabla Propia].}}{60}{figure.caption.43}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Diagrama de Entidad–Relación del sistema CheckFace[imagen propia].}}{62}{figure.caption.46}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Diagrama de flujo del funcionamiento del sistema CheckFace.}}{65}{figure.caption.55}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Estructura general del proyecto en Visual Studio Code [Imagen propia].}}{68}{figure.caption.56}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Interfaz de inicio de sesión del sistema [Imagen propia].}}{70}{figure.caption.59}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Formulario de registro de usuario [Imagen propia].}}{71}{figure.caption.60}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Gráfico de asistencias por día en el módulo Dashboard [Imagen propia].}}{72}{figure.caption.61}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Listado de estudiantes y asistencias registradas en el módulo Dashboard [Imagen propia].}}{73}{figure.caption.62}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Módulo de reconocimiento facial automático [Imagen propia].}}{74}{figure.caption.63}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Gestión de roles: registro, edición y eliminación [Imagen propia].}}{74}{figure.caption.64}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Registro y gestión de cursos [Imagen propia].}}{75}{figure.caption.65}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Registro y gestión de horarios por curso[Imagen propia].}}{76}{figure.caption.66}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Módulo de registro manual de asistencias [Imagen propia].}}{77}{figure.caption.67}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Asignación de cursos a participantes [Imagen propia].}}{78}{figure.caption.68}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Tablero de gestión de tareas del proyecto \textbf {CheckFace} en Notion, bajo la metodología ágil Scrum.}}{43}{figure.caption.28}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Ejemplo de imagen facial capturada al natural [Figura propia].}}{52}{figure.caption.34}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Ejemplo de imagen facial luego del proceso de normalización [Figura propia].}}{52}{figure.caption.35}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Caso de uso principal del sistema CheckFace[Tabla Propia].}}{60}{figure.caption.42}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Diagrama de Entidad–Relación del sistema CheckFace[imagen propia].}}{62}{figure.caption.45}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Diagrama de flujo del funcionamiento del sistema CheckFace.}}{65}{figure.caption.54}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Estructura general del proyecto en Visual Studio Code [Imagen propia].}}{68}{figure.caption.55}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Interfaz de inicio de sesión del sistema [Imagen propia].}}{70}{figure.caption.58}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Formulario de registro de usuario [Imagen propia].}}{71}{figure.caption.59}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Gráfico de asistencias por día en el módulo Dashboard [Imagen propia].}}{72}{figure.caption.60}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Listado de estudiantes y asistencias registradas en el módulo Dashboard [Imagen propia].}}{73}{figure.caption.61}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Módulo de reconocimiento facial automático [Imagen propia].}}{74}{figure.caption.62}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Gestión de roles: registro, edición y eliminación [Imagen propia].}}{74}{figure.caption.63}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Registro y gestión de cursos [Imagen propia].}}{75}{figure.caption.64}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Registro y gestión de horarios por curso[Imagen propia].}}{76}{figure.caption.65}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Módulo de registro manual de asistencias [Imagen propia].}}{77}{figure.caption.66}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Asignación de cursos a participantes [Imagen propia].}}{78}{figure.caption.67}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento [Figura Propia].}}{84}{figure.caption.73}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Muy estricto, reconoce solo rostros casi idénticos [Figura Propia].}}{85}{figure.caption.74}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento [Figura Propia].}}{86}{figure.caption.75}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Estricto, buena precisión, pero sensible a luz o expresión [Figura Propia].}}{87}{figure.caption.76}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento [Figura Propia].}}{88}{figure.caption.77}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Equilibrado, balance entre precisión y tolerancia [Figura Propia].}}{88}{figure.caption.78}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento [Figura Propia].}}{89}{figure.caption.79}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Moderadamente flexible, admite pequeñas variaciones [Figura Propia].}}{90}{figure.caption.80}%
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento [Figura Propia].}}{90}{figure.caption.81}%
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Puede aceptar coincidencias con diferencias notables [Figura Propia].}}{91}{figure.caption.82}%
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Prueba inicial del sistema bajo condiciones de iluminación máxima, con detección de personas registradas y no registradas [Figura propia].}}{92}{figure.caption.83}%
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Segunda prueba con iluminación uniforme, evidenciando estabilidad en las detecciones [Figura propia].}}{93}{figure.caption.84}%
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Prueba con variaciones leves de postura y uso de accesorios, manteniendo altos niveles de reconocimiento [Figura propia].}}{94}{figure.caption.85}%
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Prueba a mayor distancia, con leve disminución en la similitud pero reconocimiento correcto de los usuarios registrados [Figura propia].}}{95}{figure.caption.86}%
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Prueba con iluminación reducida, mostrando una disminución natural en la precisión de reconocimiento [Figura propia].}}{96}{figure.caption.87}%
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Prueba con iluminación mínima, donde el sistema no logró reconocer a los participantes [Figura propia].}}{97}{figure.caption.88}%
-\contentsline {figure}{\numberline {5.17}{\ignorespaces Prueba con condiciones normales de iluminación y cambio de posición de los participantes registrados [Figura propia].}}{98}{figure.caption.89}%
-\contentsline {figure}{\numberline {5.18}{\ignorespaces Prueba con la cámara a una altura de aproximadamente 2,30 metros, mostrando un reconocimiento estable [Figura propia].}}{99}{figure.caption.90}%
-\contentsline {figure}{\numberline {5.19}{\ignorespaces Prueba con ocho participantes en el encuadre, reconociendo correctamente a los seis usuarios registrados [Figura propia].}}{100}{figure.caption.91}%
-\contentsline {figure}{\numberline {5.20}{\ignorespaces Prueba grupal con iluminación mínima, sin reconocimiento exitoso de los usuarios registrados [Figura propia].}}{101}{figure.caption.92}%
-\contentsline {figure}{\numberline {5.21}{\ignorespaces Prueba con la cámara a 2,20 metros de altura y posiciones diversas de los participantes, evidenciando un desempeño estable [Figura propia].}}{102}{figure.caption.93}%
-\contentsline {figure}{\numberline {5.22}{\ignorespaces Prueba final con variación del ángulo de la cámara, mostrando estabilidad en los niveles de similitud [Figura propia].}}{103}{figure.caption.94}%
-\contentsline {figure}{\numberline {5.23}{\ignorespaces Usuarios registrados dentro del sistema de reconocimiento facial [Figura propia].}}{104}{figure.caption.95}%
-\contentsline {figure}{\numberline {5.24}{\ignorespaces Procesamiento de imágenes y generación de vectores de características (embeddings) para cada usuario registrado [Figura propia].}}{104}{figure.caption.96}%
-\contentsline {figure}{\numberline {5.25}{\ignorespaces Registros de asistencias generados automáticamente por el sistema en la base de datos checkface\_db [Figura propia].}}{105}{figure.caption.97}%
-\contentsline {figure}{\numberline {5.26}{\ignorespaces Vista principal del dashboard del sistema, mostrando el resumen general de asistencias registradas [Figura propia].}}{106}{figure.caption.98}%
-\contentsline {figure}{\numberline {5.27}{\ignorespaces Vista del módulo administrativo del sistema, donde se detallan los registros individuales de asistencia por usuario [Figura propia].}}{106}{figure.caption.99}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento [Figura Propia].}}{84}{figure.caption.72}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Muy estricto, reconoce solo rostros casi idénticos [Figura Propia].}}{85}{figure.caption.73}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento [Figura Propia].}}{86}{figure.caption.74}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Estricto, buena precisión, pero sensible a luz o expresión [Figura Propia].}}{87}{figure.caption.75}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento [Figura Propia].}}{88}{figure.caption.76}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Equilibrado, balance entre precisión y tolerancia [Figura Propia].}}{88}{figure.caption.77}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento [Figura Propia].}}{89}{figure.caption.78}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Moderadamente flexible, admite pequeñas variaciones [Figura Propia].}}{90}{figure.caption.79}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento [Figura Propia].}}{90}{figure.caption.80}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Puede aceptar coincidencias con diferencias notables [Figura Propia].}}{91}{figure.caption.81}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Prueba inicial del sistema bajo condiciones de iluminación máxima, con detección de personas registradas y no registradas [Figura propia].}}{92}{figure.caption.82}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Segunda prueba con iluminación uniforme, evidenciando estabilidad en las detecciones [Figura propia].}}{93}{figure.caption.83}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Prueba con variaciones leves de postura y uso de accesorios, manteniendo altos niveles de reconocimiento [Figura propia].}}{94}{figure.caption.84}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Prueba a mayor distancia, con leve disminución en la similitud pero reconocimiento correcto de los usuarios registrados [Figura propia].}}{95}{figure.caption.85}%
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Prueba con iluminación reducida, mostrando una disminución natural en la precisión de reconocimiento [Figura propia].}}{96}{figure.caption.86}%
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Prueba con iluminación mínima, donde el sistema no logró reconocer a los participantes [Figura propia].}}{97}{figure.caption.87}%
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Prueba con condiciones normales de iluminación y cambio de posición de los participantes registrados [Figura propia].}}{98}{figure.caption.88}%
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Prueba con la cámara a una altura de aproximadamente 2,30 metros, mostrando un reconocimiento estable [Figura propia].}}{99}{figure.caption.89}%
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Prueba con ocho participantes en el encuadre, reconociendo correctamente a los seis usuarios registrados [Figura propia].}}{100}{figure.caption.90}%
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Prueba grupal con iluminación mínima, sin reconocimiento exitoso de los usuarios registrados [Figura propia].}}{101}{figure.caption.91}%
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Prueba con la cámara a 2,20 metros de altura y posiciones diversas de los participantes, evidenciando un desempeño estable [Figura propia].}}{102}{figure.caption.92}%
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Prueba final con variación del ángulo de la cámara, mostrando estabilidad en los niveles de similitud [Figura propia].}}{103}{figure.caption.93}%
+\contentsline {figure}{\numberline {5.23}{\ignorespaces Usuarios registrados dentro del sistema de reconocimiento facial [Figura propia].}}{104}{figure.caption.94}%
+\contentsline {figure}{\numberline {5.24}{\ignorespaces Procesamiento de imágenes y generación de vectores de características (embeddings) para cada usuario registrado [Figura propia].}}{104}{figure.caption.95}%
+\contentsline {figure}{\numberline {5.25}{\ignorespaces Registros de asistencias generados automáticamente por el sistema en la base de datos checkface\_db [Figura propia].}}{105}{figure.caption.96}%
+\contentsline {figure}{\numberline {5.26}{\ignorespaces Vista principal del dashboard del sistema, mostrando el resumen general de asistencias registradas [Figura propia].}}{106}{figure.caption.97}%
+\contentsline {figure}{\numberline {5.27}{\ignorespaces Vista del módulo administrativo del sistema, donde se detallan los registros individuales de asistencia por usuario [Figura propia].}}{106}{figure.caption.98}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Encabezado del formulario de encuestas [Figura propia].}}{116}{figure.caption.102}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Resultados de la primera pregunta de la encuesta: “El sistema es fácil de usar y navegar” [Figura propia].}}{117}{figure.caption.103}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Resultados de la segunda pregunta de la encuesta: “Las funciones principales se entienden sin necesidad de asistencia o capacitación” [Figura propia].}}{117}{figure.caption.104}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Resultados de la tercera pregunta de la encuesta: “El tiempo de respuesta del sistema es adecuado durante su uso” [Figura propia].}}{118}{figure.caption.105}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Resultados de la cuarta pregunta de la encuesta: “Los mensajes o indicaciones del sistema son claros y comprensibles” [Figura propia].}}{118}{figure.caption.106}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Resultados de la quinta pregunta de la encuesta: “Puedo realizar las tareas necesarias (registro, asistencia, reportes) sin dificultad” [Figura propia].}}{119}{figure.caption.107}%
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Resultados de la sexta pregunta de la encuesta: “La interfaz del sistema tiene una apariencia ordenada y agradable” [Figura propia].}}{119}{figure.caption.108}%
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Resultados de la séptima pregunta de la encuesta: “Me siento seguro al utilizar el sistema para registrar información” [Figura propia].}}{120}{figure.caption.109}%
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Resultados de la octava pregunta de la encuesta: “Considero que el sistema mejora la rapidez y eficiencia del control de asistencia” [Figura propia].}}{120}{figure.caption.110}%
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Resultados de la novena pregunta de la encuesta: “No experimenté errores o confusiones significativas al interactuar con las opciones del sistema” [Figura propia].}}{121}{figure.caption.111}%
-\contentsline {figure}{\numberline {6.11}{\ignorespaces Resultados de la décima pregunta de la encuesta: “En general, estoy satisfecho con la experiencia de uso que ofrece el sistema” [Figura propia].}}{121}{figure.caption.112}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Encabezado del formulario de encuestas [Figura propia].}}{116}{figure.caption.101}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Resultados de la primera pregunta de la encuesta: “El sistema es fácil de usar y navegar” [Figura propia].}}{117}{figure.caption.102}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Resultados de la segunda pregunta de la encuesta: “Las funciones principales se entienden sin necesidad de asistencia o capacitación” [Figura propia].}}{117}{figure.caption.103}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Resultados de la tercera pregunta de la encuesta: “El tiempo de respuesta del sistema es adecuado durante su uso” [Figura propia].}}{118}{figure.caption.104}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Resultados de la cuarta pregunta de la encuesta: “Los mensajes o indicaciones del sistema son claros y comprensibles” [Figura propia].}}{118}{figure.caption.105}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Resultados de la quinta pregunta de la encuesta: “Puedo realizar las tareas necesarias (registro, asistencia, reportes) sin dificultad” [Figura propia].}}{119}{figure.caption.106}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Resultados de la sexta pregunta de la encuesta: “La interfaz del sistema tiene una apariencia ordenada y agradable” [Figura propia].}}{119}{figure.caption.107}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Resultados de la séptima pregunta de la encuesta: “Me siento seguro al utilizar el sistema para registrar información” [Figura propia].}}{120}{figure.caption.108}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Resultados de la octava pregunta de la encuesta: “Considero que el sistema mejora la rapidez y eficiencia del control de asistencia” [Figura propia].}}{120}{figure.caption.109}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Resultados de la novena pregunta de la encuesta: “No experimenté errores o confusiones significativas al interactuar con las opciones del sistema” [Figura propia].}}{121}{figure.caption.110}%
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Resultados de la décima pregunta de la encuesta: “En general, estoy satisfecho con la experiencia de uso que ofrece el sistema” [Figura propia].}}{121}{figure.caption.111}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.12}{\ignorespaces Importaciones principales y definición de rutas base del módulo de entrenamiento \texttt {train\_faces}. Se cargan dependencias para detección y representación facial y se establecen las carpetas de trabajo del pipeline [Figura propia].}}{123}{figure.caption.115}%
-\contentsline {figure}{\numberline {6.13}{\ignorespaces Función \texttt {recortar\_y\_guardar} del módulo \texttt {train\_faces}, detecta rostros con YOLOv8, recorta y guarda una versión normalizada (\(160\times 160\)) para generar embeddings [Figura propia].}}{124}{figure.caption.117}%
-\contentsline {figure}{\numberline {6.14}{\ignorespaces Fragmento del código de la función \texttt {generar\_embeddings} del módulo \texttt {train\_faces}, donde se generan las representaciones vectoriales de los rostros utilizando el modelo \texttt {ArcFace} de DeepFace [Figura propia].}}{125}{figure.caption.119}%
-\contentsline {figure}{\numberline {6.15}{\ignorespaces Fragmento del código que calcula el centroide facial y actualiza el índice global \texttt {centroids.json} con los nuevos embeddings generados [Figura propia].}}{126}{figure.caption.121}%
-\contentsline {figure}{\numberline {6.16}{\ignorespaces Importaciones y configuración inicial del módulo \texttt {face\_recognizer}, donde se establecen las rutas a los embeddings y centroides utilizados en la fase de reconocimiento [Figura propia].}}{127}{figure.caption.123}%
-\contentsline {figure}{\numberline {6.17}{\ignorespaces Función \texttt {load\_centroids} del módulo \texttt {face\_recognizer}, responsable de cargar y normalizar los centroides almacenados para su uso en el proceso de reconocimiento facial [Figura propia].}}{128}{figure.caption.125}%
-\contentsline {figure}{\numberline {6.18}{\ignorespaces Función \texttt {recognize\_face} del módulo \texttt {face\_recognizer}, encargada de generar el embedding del rostro y compararlo con los centroides almacenados mediante la distancia coseno [Figura propia].}}{129}{figure.caption.127}%
-\contentsline {figure}{\numberline {6.19}{\ignorespaces Función \texttt {recognize\_faces\_from\_crops} del módulo \texttt {face\_recognizer}, utilizada para procesar múltiples rostros detectados en una misma imagen y devolver sus resultados de identificación [Figura propia].}}{130}{figure.caption.129}%
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Importaciones principales y definición de rutas base del módulo de entrenamiento \texttt {train\_faces}. Se cargan dependencias para detección y representación facial y se establecen las carpetas de trabajo del pipeline [Figura propia].}}{123}{figure.caption.114}%
+\contentsline {figure}{\numberline {6.13}{\ignorespaces Función \texttt {recortar\_y\_guardar} del módulo \texttt {train\_faces}, detecta rostros con YOLOv8, recorta y guarda una versión normalizada (\(160\times 160\)) para generar embeddings [Figura propia].}}{124}{figure.caption.116}%
+\contentsline {figure}{\numberline {6.14}{\ignorespaces Fragmento del código de la función \texttt {generar\_embeddings} del módulo \texttt {train\_faces}, donde se generan las representaciones vectoriales de los rostros utilizando el modelo \texttt {ArcFace} de DeepFace [Figura propia].}}{125}{figure.caption.118}%
+\contentsline {figure}{\numberline {6.15}{\ignorespaces Fragmento del código que calcula el centroide facial y actualiza el índice global \texttt {centroids.json} con los nuevos embeddings generados [Figura propia].}}{126}{figure.caption.120}%
+\contentsline {figure}{\numberline {6.16}{\ignorespaces Importaciones y configuración inicial del módulo \texttt {face\_recognizer}, donde se establecen las rutas a los embeddings y centroides utilizados en la fase de reconocimiento [Figura propia].}}{127}{figure.caption.122}%
+\contentsline {figure}{\numberline {6.17}{\ignorespaces Función \texttt {load\_centroids} del módulo \texttt {face\_recognizer}, responsable de cargar y normalizar los centroides almacenados para su uso en el proceso de reconocimiento facial [Figura propia].}}{128}{figure.caption.124}%
+\contentsline {figure}{\numberline {6.18}{\ignorespaces Función \texttt {recognize\_face} del módulo \texttt {face\_recognizer}, encargada de generar el embedding del rostro y compararlo con los centroides almacenados mediante la distancia coseno [Figura propia].}}{129}{figure.caption.126}%
+\contentsline {figure}{\numberline {6.19}{\ignorespaces Función \texttt {recognize\_faces\_from\_crops} del módulo \texttt {face\_recognizer}, utilizada para procesar múltiples rostros detectados en una misma imagen y devolver sus resultados de identificación [Figura propia].}}{130}{figure.caption.128}%

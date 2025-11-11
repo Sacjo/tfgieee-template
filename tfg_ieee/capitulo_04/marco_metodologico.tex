@@ -7,9 +7,9 @@
 
 \chapter{Método}
 
-Se presenta la planificación general del proyecto, desde la definición de los requisitos iniciales hasta la validación y evaluación del prototipo en un entorno académico real con un grupo de \textit{N}=13 estudiantes participantes.
+Se presenta la planificación general del trabajo, desde la definición de los requisitos iniciales hasta la validación y evaluación del prototipo en un entorno académico real con un grupo de \textit{N}=13 estudiantes participantes.
 
-En primer lugar, se describe el enfoque metodológico adoptado, el cual combina técnicas cualitativas y cuantitativas bajo un esquema de investigación aplicada tecnológica, permitiendo así un análisis integral del problema y su solución. Posteriormente, se exponen las fases específicas del proceso de desarrollo, tales como la recolección y preprocesamiento de datos, la selección de algoritmos, el entrenamiento del modelo y la integración del sistema en un entorno controlado, para finalmente evaluarlo en condiciones reales de aula.
+En primer lugar, se describe el enfoque metodológico adoptado, el cual combina técnicas cualitativas y cuantitativas bajo un esquema de investigación aplicada tecnológica, lo que permitió realizar un análisis integral del problema y de la solución propuesta. Posteriormente, se exponen las fases específicas del proceso de desarrollo, tales como la recolección y preprocesamiento de datos, la selección de algoritmos, el entrenamiento del modelo y la integración del sistema en un entorno controlado, para finalmente evaluarlo en condiciones reales de aula.
 
 
 \section{Enfoque}
@@ -25,55 +25,50 @@ El diseño adoptado es de tipo experimental, dado que se evaluó el sistema en c
 
 \section{Método utilizado para el desarrollo}
 
-El desarrollo del sistema \textbf{CheckFace} se llevó a cabo siguiendo la metodología ágil \textbf{Scrum}, adaptada al contexto académico del proyecto. Este enfoque permitió organizar el trabajo en ciclos cortos denominados \textit{sprints}, priorizando la entrega progresiva de funcionalidades y la mejora continua a lo largo del proceso.
+El desarrollo del sistema \textit{CheckFace} se llevó a cabo siguiendo la metodología ágil \textit{Scrum}, adaptada al contexto académico de esta investigación. Este enfoque permitió organizar el trabajo en ciclos cortos denominados \textit{sprints}, priorizando la entrega progresiva de funcionalidades y la mejora continua a lo largo del proceso.
 
-\textbf{Roles del equipo.}
-El \textit{Product Owner} fue el profesor \textbf{Jorge Arrúa}, quien definía los requerimientos y evaluaba los entregables en cada revisión. El rol de \textit{Scrum Master} fue desempeñado por \textbf{Daniel Sanchez}, responsable de coordinar las tareas, facilitar la comunicación y asegurar el cumplimiento de los objetivos de cada sprint. El \textit{Development Team} estuvo conformado por \textbf{Aldo Carrizo} y \textbf{Daniel Sanchez}, encargados del desarrollo, pruebas e integración del sistema.
+\textbf{Roles del equipo:} El \textit{Product Owner} fue el profesor Jorge Arrúa, quien definía los requerimientos y evaluaba los entregables en cada revisión. El rol de \textit{Scrum Master} fue desempeñado por Daniel Sanchez, responsable de coordinar las tareas, facilitar la comunicación y asegurar el cumplimiento de los objetivos de cada sprint. El \textit{Development Team} estuvo conformado por Aldo Carrizo y Daniel Sanchez, encargados del desarrollo, pruebas e integración del sistema.
 
-\textbf{Planificación de los sprints.}
-El desarrollo del sistema se organizó en \textbf{catorce sprints} de aproximadamente \textbf{dos semanas cada uno}, cubriendo el periodo comprendido entre \textbf{abril y octubre de 2025}. Esta planificación permitió avanzar de forma iterativa, incorporando mejoras continuas en cada ciclo de trabajo.
+\textbf{Planificación de los sprints:} El desarrollo del sistema se organizó en catorce sprints de aproximadamente dos semanas cada uno, cubriendo el periodo comprendido entre abril y octubre de 2025. Esta planificación permitió avanzar de forma iterativa, incorporando mejoras continuas en cada ciclo de trabajo.
 A continuación, se describen las principales actividades desarrolladas en cada fase:
 
 \begin{itemize}
 \item \textbf{Sprint 1:} Definición de objetivos, alcance y requerimientos del sistema. Configuración inicial del repositorio en GitHub.
 \item \textbf{Sprint 2:} Instalación del entorno de desarrollo y configuración de dependencias para los módulos de detección y reconocimiento facial.
 \item \textbf{Sprint 3:} Diseño del Diagrama Entidad-Relación (DER) y creación de la base de datos en PostgreSQL.
-\item \textbf{Sprint 4:} Implementación del algoritmo de detección facial utilizando el modelo preentrenado \textbf{YOLOv8n-face.pt}, realizando las primeras pruebas con imágenes estáticas para validar su funcionamiento.
-\item \textbf{Sprint 5:} Implementación del algoritmo de reconocimiento facial con \textbf{DeepFace} (modelo ArcFace) y generación inicial de embeddings faciales.
+\item \textbf{Sprint 4:} Implementación del algoritmo de detección facial utilizando el modelo preentrenado \textit{YOLOv8n-face.pt}, realizando las primeras pruebas con imágenes estáticas para validar su funcionamiento.
+\item \textbf{Sprint 5:} Implementación del algoritmo de reconocimiento facial con \textit{DeepFace} (modelo ArcFace) y generación inicial de embeddings faciales.
 \item \textbf{Sprint 6:} Pruebas unitarias y evaluación de precisión del modelo de DeepFace. Ajuste de parámetros para reducir errores de identificación.
 \item \textbf{Sprint 7:} Integración entre YOLO y DeepFace para el flujo completo de detección y reconocimiento facial.
-\item \textbf{Sprint 8:} Desarrollo de las \textbf{APIs REST} del backend para usuarios, roles, cursos, asistencias y autenticación.
+\item \textbf{Sprint 8:} Desarrollo de las \textit{APIs REST} del backend para usuarios, roles, cursos, asistencias y autenticación.
 \item \textbf{Sprint 9:} Implementación de la lógica de registro automático y manual de asistencias. Optimización del rendimiento del sistema.
-\item \textbf{Sprint 10:} Desarrollo del \textbf{frontend} y diseño del dashboard principal. Implementación del módulo de inicio de sesión.
+\item \textbf{Sprint 10:} Desarrollo del \textit{frontend} y diseño del dashboard principal. Implementación del módulo de inicio de sesión.
 \item \textbf{Sprint 11:} Creación de los módulos de gestión de alumnos, cursos, horarios y asignaciones dentro del panel administrativo.
 \item \textbf{Sprint 12:} Pruebas en entornos aislados y simulaciones en laboratorio para validar la estabilidad del sistema.
 \item \textbf{Sprint 13:} Pruebas en el aula, corrección de incidencias, optimización final del código, despliegue controlado y documentación técnica y de usuario.
 \end{itemize}
 
 
-\textbf{Herramientas de gestión.}  
-Para la planificación, seguimiento y control del proyecto se empleó la herramienta \textbf{Notion}, que permitió organizar las tareas de acuerdo con su estado de avance (pendiente, en progreso, en revisión y completadas).  
-Como se observa en la Figura~\ref{fig:scrum}, esta plataforma facilitó la coordinación entre los integrantes del equipo, la priorización de actividades y el registro de los avances en cada sprint, brindando una visión clara del progreso general del sistema \textbf{CheckFace}.  
+\textbf{Herramientas de gestión:} Para la planificación, seguimiento y control del trabajo se empleó la herramienta \textit{Notion}, que permitió organizar las tareas de acuerdo con su estado de avance (pendiente, en progreso, en revisión y completadas).  
+Como se observa en la Figura~\ref{fig:scrum}, esta plataforma facilitó la coordinación entre los integrantes del equipo, la priorización de actividades y el registro de los avances en cada sprint, brindando una visión clara del progreso general del sistema \textit{CheckFace}.  
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.99\textwidth]{imagenes_doc/notion.jpg}
-  \caption{Tablero de gestión de tareas del proyecto \textbf{CheckFace} en Notion, bajo la metodología ágil Scrum.}
+  \caption{Tablero de gestión de tareas del trabajo \textit{CheckFace} en Notion, bajo la metodología ágil Scrum.}
   \label{fig:scrum}
 \end{figure}
 
-\textbf{Reuniones y seguimiento.}
-El equipo realizó reuniones diarias breves entre los desarrolladores para resolver dificultades técnicas y coordinar actividades. Además, cada dos semanas se llevaron a cabo reuniones presenciales con el profesor Jorge Arrúa para presentar avances, recibir retroalimentación y definir los objetivos del siguiente sprint.
+\textbf{Reuniones y seguimiento:} El equipo realizó reuniones diarias breves entre los desarrolladores para resolver dificultades técnicas y coordinar actividades. Además, cada dos semanas se llevaron a cabo reuniones presenciales con el profesor Jorge Arrúa para presentar avances, recibir retroalimentación y definir los objetivos del siguiente sprint.
 
-\textbf{Duración del proyecto.}
-El desarrollo completo del sistema CheckFace se extendió desde \textbf{abril hasta octubre de 2025}, periodo durante el cual se logró desarrollar, integrar, probar y documentar el sistema final de reconocimiento facial para el registro de asistencia.
+\textbf{Duración del trabajo:} El desarrollo completo del sistema CheckFace se extendió desde abril hasta octubre de 2025, periodo durante el cual se logró desarrollar, integrar, probar y documentar el sistema final de reconocimiento facial para el registro de asistencia.
 
 
 
 \section{Fases del proceso investigativo}
 
 \begin{itemize}
-  \item Identificación de requisitos del proyecto \\
+  \item Identificación de requisitos del trabajo \\
   En esta primera fase se realizó el levantamiento de información mediante una encuesta aplicada a aproximadamente 15 personas, entre docentes y estudiantes de la Facultad Politécnica de la Universidad Nacional del Este (FPUNE). El objetivo fue identificar las principales necesidades y expectativas respecto al control de asistencia automatizado, así como los problemas presentes en el sistema manual existente.  
   A partir de las respuestas obtenidas se definieron los requisitos funcionales y no funcionales del sistema, estableciendo las funcionalidades esenciales, los recursos técnicos requeridos y las condiciones de uso dentro del entorno académico.
 
@@ -82,11 +77,12 @@ El desarrollo completo del sistema CheckFace se extendió desde \textbf{abril ha
   Las imágenes fueron capturadas utilizando un teléfono celular, manteniendo una distancia aproximada de un metro entre la cámara y el rostro de cada participante.  
   Cada usuario fue fotografiado en múltiples posiciones faciales (frontal, ligeramente lateral, mirada hacia abajo o arriba) y con variaciones de accesorios, como anteojos o gorras, con el fin de aumentar la robustez del modelo ante diferentes condiciones.  
   Para garantizar una correcta identificación, se requirió un mínimo de cinco fotografías por participante, aunque la cantidad final de imágenes varió según cada usuario y las condiciones en que fueron tomadas.  
-  En total, se obtuvieron varias imágenes por persona, que fueron sometidas a un proceso de preprocesamiento, incluyendo normalización, reducción de ruido y ajustes de brillo y contraste para mejorar la calidad del conjunto de datos.
+  En total, se obtuvieron imágenes correspondientes a trece personas, las cuales fueron almacenadas cumpliendo las normas éticas del trabajo y con consentimiento verbal informado de los participantes.
+  Posteriormente, todas las fotografías fueron sometidas a un proceso de preprocesamiento que incluyó normalización, reducción de ruido y ajustes de brillo y contraste, con el objetivo de mejorar la calidad general del conjunto de datos.
 
   \item Entrenamiento del modelo \\
   Para la detección facial se empleó un modelo YOLOFace preentrenado, el cual ya incluye una red neuronal convolucional entrenada en grandes conjuntos de rostros.  
-  En este proyecto, el modelo fue utilizado como base para realizar la detección de rostros de los usuarios locales, a quienes posteriormente se les generaron representaciones vectoriales (embeddings) mediante la biblioteca DeepFace y el modelo ArcFace.  
+  En este trabajo, el modelo fue utilizado como base para realizar la detección de rostros de los usuarios locales, a quienes posteriormente se les generaron representaciones vectoriales (embeddings) mediante la biblioteca DeepFace y el modelo ArcFace.  
   Estos embeddings se almacenan en la base de datos del sistema, permitiendo reconocer posteriormente a cada persona de manera automática durante la toma de asistencia.
 
   \item Diseño del sistema \\
@@ -106,16 +102,16 @@ El desarrollo completo del sistema CheckFace se extendió desde \textbf{abril ha
 
 Durante esta fase se realizó un análisis comparativo de diversas tecnologías y librerías aplicadas al desarrollo de sistemas de reconocimiento facial. La selección de herramientas se basó en criterios como precisión, rendimiento, compatibilidad, facilidad de integración y disponibilidad de documentación.
 
-Es importante destacar que las tecnologías elegidas no fueron seleccionadas de manera aleatoria, sino a partir de la experiencia y el conocimiento previo del equipo en el uso de entornos y librerías de visión por computadora. Sin embargo, antes de adoptar una decisión definitiva, se llevaron a cabo pruebas experimentales con distintas alternativas para evaluar su desempeño en las condiciones específicas del proyecto.
+Es importante destacar que las tecnologías elegidas no fueron seleccionadas de manera aleatoria, sino a partir de la experiencia y el conocimiento previo del equipo en el uso de entornos y librerías de visión por computadora. Sin embargo, antes de adoptar una decisión definitiva, se llevaron a cabo pruebas experimentales con distintas alternativas para evaluar su desempeño en las condiciones específicas del trabajo.
 
-Estas evaluaciones permitieron determinar qué herramientas ofrecían los mejores resultados en términos de detección, reconocimiento y velocidad de procesamiento, considerando las limitaciones del hardware disponible y el entorno académico en el que se desarrollaria el sistema.
+Estas evaluaciones permitieron determinar qué herramientas ofrecían los mejores resultados en términos de detección, reconocimiento y velocidad de procesamiento, considerando las limitaciones del hardware disponible y el entorno académico en el que se desarrollaría el sistema.
 
 A continuación, se detallan las principales herramientas seleccionadas:
 
 \begin{itemize}
 
 \item \textbf{Modelos de detección y reconocimiento facial:} \\
-Para la etapa de detección de rostros se analizaron diversas alternativas basadas en aprendizaje profundo, considerando factores como la precisión, la velocidad de procesamiento y la capacidad de operar en tiempo real. Tras la comparación de diferentes tecnologías, se determinó que \textbf{YOLO-Face} ofrece el mejor equilibrio entre exactitud y eficiencia, motivo por el cual fue seleccionado como modelo principal de detección facial. 
+Para la etapa de detección de rostros se analizaron diversas alternativas basadas en aprendizaje profundo, considerando factores como la precisión, la velocidad de procesamiento y la capacidad de operar en tiempo real. Tras la comparación de diferentes tecnologías, se determinó que \textit{YOLO-Face} ofrece el mejor equilibrio entre exactitud y eficiencia, motivo por el cual fue seleccionado como modelo principal de detección facial. 
 
 \begin{table}[H]
 \centering
@@ -241,16 +237,16 @@ La tabla muestra distintos modelos compatibles con DeepFace evaluados en cuanto 
 
 
 \item \textbf{Framework de desarrollo backend:} \\
-Para la construcción de la API y la gestión de la lógica del sistema se empleó \textbf{Flask}, un microframework de Python que permite desarrollar aplicaciones ligeras y escalables. Su estructura modular facilita la integración con librerías de visión por computadora y bases de datos.
+Para la construcción de la API y la gestión de la lógica del sistema se empleó \textit{Flask}, un microframework de Python que permite desarrollar aplicaciones ligeras y escalables. Su estructura modular facilita la integración con librerías de visión por computadora y bases de datos.
 
 \item \textbf{Framework de desarrollo frontend:} \\
-La interfaz de usuario fue desarrollada en \textbf{React}, permitiendo una interacción dinámica y fluida con el sistema. Su arquitectura basada en componentes favorece la reutilización del código y la visualización en tiempo real de los registros de asistencia.
+La interfaz de usuario fue desarrollada en \textit{React}, permitiendo una interacción dinámica y fluida con el sistema. Su arquitectura basada en componentes favorece la reutilización del código y la visualización en tiempo real de los registros de asistencia.
 
 \item \textbf{Base de datos:} \\
-Se utilizó \textbf{PostgreSQL} para el almacenamiento estructurado de la información, incluyendo los registros de asistencia y datos de usuarios. Su robustez y soporte para operaciones concurrentes la convierten en una opción óptima para sistemas de este tipo.
+Se utilizó \textit{PostgreSQL} para el almacenamiento estructurado de la información, incluyendo los registros de asistencia y datos de usuarios. Su robustez y soporte para operaciones concurrentes la convierten en una opción óptima para sistemas de este tipo.
 
 \item \textbf{Herramienta de pruebas de API:} \\
-Durante el proceso de desarrollo e integración, se empleó \textbf{Postman} para realizar pruebas de comunicación entre el frontend y el backend. Esta herramienta permitió verificar el correcto funcionamiento de las rutas, peticiones y respuestas del sistema antes de su despliegue final.
+Durante el proceso de desarrollo e integración, se empleó \textit{Postman} para realizar pruebas de comunicación entre el frontend y el backend. Esta herramienta permitió verificar el correcto funcionamiento de las rutas, peticiones y respuestas del sistema antes de su despliegue final.
 
 \end{itemize}
 
@@ -261,7 +257,7 @@ La combinación de estas herramientas permitió un desarrollo eficiente, garanti
 
 Para el funcionamiento del sistema de reconocimiento facial, fue necesario disponer de un conjunto de imágenes faciales representativas de los usuarios. Durante el registro de cada nuevo usuario, el sistema captura un mínimo de cinco imágenes desde diferentes ángulos y expresiones, con el fin de mejorar la capacidad de reconocimiento en distintas condiciones de uso.
 
-Las imágenes se obtienen con cámaras externas (teléfonos móviles, webcams o cámaras digitales) y posteriormente se cargan al sistema mediante el módulo de registro de nuevos estudiantes. Durante este proceso se verifica el formato y un tamaño mínimo recomendado para preservar los rasgos faciales. Cada archivo se organiza en una carpeta individual asociada al usuario correspondiente y se nombra de forma sistemática, facilitando su identificación y el procesamiento posterior.
+Las imágenes se obtuvieron con cámaras externas (teléfonos móviles, webcams o cámaras digitales) y posteriormente se cargan al sistema mediante el módulo de registro de nuevos estudiantes. Durante este proceso se verifica el formato y un tamaño mínimo recomendado para preservar los rasgos faciales. Cada archivo se organizó en una carpeta individual asociada al usuario correspondiente y se nombra de forma sistemática, facilitando su identificación y el procesamiento posterior.
 
 En la Figura~\ref{fig:rostro_original} se muestra un ejemplo de una imagen facial capturada al natural durante el proceso de registro, mientras que la Figura~\ref{fig:rostro_normalizado} presenta el resultado tras aplicar el preprocesamiento correspondiente.
 
@@ -280,8 +276,6 @@ En la Figura~\ref{fig:rostro_original} se muestra un ejemplo de una imagen facia
 \end{figure}
 
 
-El entrenamiento del modelo constituye una etapa esencial del sistema, ya que permite obtener representaciones numéricas únicas de cada rostro a partir de las imágenes registradas. En esta fase se utilizaron técnicas de aprendizaje profundo orientadas a la verificación facial, capaces de generar \textit{embeddings} discriminativos y estables frente a variaciones de iluminación, expresión o ángulo de captura, garantizando así una identificación confiable y precisa.
-
 \section{Entrenamiento del modelo}
 
 El entrenamiento del modelo constituye una etapa esencial del sistema, ya que permite obtener representaciones numéricas únicas de cada rostro a partir de las imágenes registradas. En esta fase se utilizaron técnicas de aprendizaje profundo orientadas a la verificación facial, capaces de generar \textit{embeddings} discriminativos y estables frente a variaciones de iluminación, expresión o ángulo de captura, garantizando así una identificación confiable y precisa.
@@ -292,7 +286,7 @@ El entrenamiento del modelo constituye una etapa esencial del sistema, ya que pe
     \item \textbf{Lenguaje:} Python 3.12.11
     \item \textbf{Librerías principales:} DeepFace, OpenCV, NumPy, Ultralytics
     \item \textbf{Entorno:} Visual Studio Code (ejecución local con GPU o CPU)
-    \item \textbf{Equipo utilizado:} MacBook Pro (Apple M2, 16\,GB RAM, 512\,GB SSD, macOS Sonoma)
+    \item \textbf{Equipo utilizado:} AMD Ryzen 7 7735HS, 16 GB RAM, SSD 512 GB, Windows 11 Home
     \item \textbf{Dispositivo de captura:} Cámara web HD 720p para obtención de imágenes faciales en pruebas locales.
     \item \textbf{Condiciones de iluminación:} Pruebas realizadas entre 300-500\,lux para simular entornos reales de aula.
     \item \textbf{Estructura del dataset:} Imágenes organizadas por usuario en carpetas dentro de \texttt{raw\_faces/} (imágenes originales) y \texttt{known\_faces/} (rostros recortados).
@@ -313,15 +307,15 @@ El proceso de entrenamiento fue automatizado mediante el script \texttt{train\_f
     Desde la interfaz web, un usuario administrativo registra a un nuevo alumno y carga sus fotografías faciales. Cada conjunto de imágenes se guarda en una carpeta individual dentro del directorio \texttt{raw\_faces/}, identificada por el número de cédula del alumno (CI).
 
     \item \textbf{Detección y recorte facial:} \\
-    Para garantizar que solo se utilicen regiones válidas del rostro, el sistema emplea el modelo \textbf{YOLO-Face}. Este detecta automáticamente el rostro en cada imagen, recorta la región correspondiente y la redimensiona a \textbf{160×160 píxeles}, almacenando el resultado en \texttt{known\_faces/}. Este paso estandariza las entradas, asegurando consistencia en las condiciones de entrenamiento.
+    Para garantizar que solo se utilicen regiones válidas del rostro, el sistema emplea el modelo \textit{YOLO-Face}. Este detecta automáticamente el rostro en cada imagen, recorta la región correspondiente y la redimensiona a \textit{160×160 píxeles}, almacenando el resultado en \texttt{known\_faces/}. Este paso estandariza las entradas, asegurando consistencia en las condiciones de entrenamiento.
 
     \item \textbf{Generación de embeddings con DeepFace:} \\
-    Cada imagen procesada se analiza mediante \textbf{DeepFace} utilizando el modelo \textbf{ArcFace}, el cual genera un vector numérico de características que describe de forma única los rasgos faciales del individuo. \\
+    Cada imagen procesada se analiza mediante \textit{DeepFace} utilizando el modelo \textit{ArcFace}, el cual genera un vector numérico de características que describe de forma única los rasgos faciales del individuo. \\
     Para cada alumno, el sistema genera un archivo JSON individual con su número de cédula como nombre (por ejemplo, \texttt{5144692.json}), que contiene todos los embeddings derivados de sus imágenes.
 
     \item \textbf{Cálculo y actualización de centroides:} \\
-    Posteriormente, se calcula el \textbf{centroide} del alumno, representando el promedio robusto de todos sus embeddings. Este vector resume los rasgos característicos del rostro y facilita comparaciones futuras. \\
-    A diferencia de un reentrenamiento completo, el sistema implementa una \textbf{actualización incremental}: cuando se agrega un nuevo alumno o se añaden más imágenes a un registro existente, el sistema no recalcula todos los centroides, sino que actualiza únicamente el correspondiente al usuario modificado. De este modo, se optimiza el rendimiento y se conserva el historial de entrenamiento.
+    Posteriormente, se calcula el \textit{centroide} del alumno, representando el promedio robusto de todos sus embeddings. Este vector resume los rasgos característicos del rostro y facilita comparaciones futuras. \\
+    A diferencia de un reentrenamiento completo, el sistema implementa una actualización incremental: cuando se agrega un nuevo alumno o se añaden más imágenes a un registro existente, el sistema no recalcula todos los centroides, sino que actualiza únicamente el correspondiente al usuario modificado. De este modo, se optimiza el rendimiento y se conserva el historial de entrenamiento.
 
     \item \textbf{Almacenamiento estructurado:} \\
     \sloppy
@@ -332,17 +326,17 @@ El proceso de entrenamiento fue automatizado mediante el script \texttt{train\_f
 \section{Diseño de la aplicación}
 \subsection{Arquitectura del sistema}
 
-El sistema fue diseñado bajo el enfoque cliente-servidor, utilizando una arquitectura basada en \textbf{REST API} para permitir la comunicación fluida entre el \textbf{Frontend (cliente)} y el \textbf{Backend (servidor)}.  
+El sistema fue diseñado bajo el enfoque cliente-servidor, utilizando una arquitectura basada en \textit{REST API} para permitir la comunicación fluida entre el \textit{Frontend} (cliente) y el \textit{Backend} (servidor).  
 Esta arquitectura facilita la escalabilidad, el mantenimiento y la integración con futuras funcionalidades del sistema de reconocimiento facial.
 
 El sistema se compone de tres módulos principales:
 
 \begin{itemize}
-    \item \textbf{Frontend:} desarrollado en \textbf{React.js}, se encarga de la interfaz gráfica y la interacción directa con el usuario. Permite registrar nuevos estudiantes, gestionar materias, asignarlas a los alumnos, capturar o subir fotografías faciales, consultar los registros de asistencia y cargar justificativos en caso de inasistencia. Su diseño adaptable y responsivo garantiza una experiencia de uso fluida tanto en equipos de escritorio como en dispositivos móviles.
+    \item \textbf{Frontend:} desarrollado en \textit{React.js}, se encarga de la interfaz gráfica y la interacción directa con el usuario. Permite registrar nuevos estudiantes, gestionar materias, asignarlas a los alumnos, capturar o subir fotografías faciales, consultar los registros de asistencia y cargar justificativos en caso de inasistencia. Su diseño adaptable y responsivo garantiza una experiencia de uso fluida tanto en equipos de escritorio como en dispositivos móviles.
 
-    \item \textbf{Backend:} implementado en \textbf{Flask (Python)}, maneja la lógica del sistema, las rutas de la API y la comunicación con la base de datos. Integra los módulos de detección facial con \textbf{YOLO-Face} y el reconocimiento mediante \textbf{DeepFace (modelo ArcFace)}, además de gestionar el almacenamiento de embeddings, centroides y registros de asistencia.
+    \item \textbf{Backend:} implementado en \textit{Flask (Python)}, maneja la lógica del sistema, las rutas de la API y la comunicación con la base de datos. Integra los módulos de detección facial con \textit{YOLO-Face} y el reconocimiento mediante \textit{DeepFace (modelo ArcFace)}, además de gestionar el almacenamiento de embeddings, centroides y registros de asistencia.
 
-    \item \textbf{Base de datos:} construida en \textbf{PostgreSQL}, almacena de forma estructurada la información de usuarios, cursos, asistencias y datos biométricos. Se eligió por su robustez, soporte de transacciones concurrentes y compatibilidad con entornos productivos en la nube.
+    \item \textbf{Base de datos:} construida en \textit{PostgreSQL}, almacena de forma estructurada la información de usuarios, cursos, asistencias y datos biométricos. Se eligió por su robustez, soporte de transacciones concurrentes y compatibilidad con entornos productivos en la nube.
 \end{itemize}
 \subsection{Integración de IA y Reconocimiento Facial}
 
@@ -360,23 +354,23 @@ En la siguiente fase, el rostro procesado es transformado en una representación
     \item Registro automático de la asistencia según el resultado del proceso.
 \end{enumerate}
 
-El proceso completo se ejecuta desde el backend, implementado en \textbf{Flask (Python)}, que coordina la detección, el reconocimiento y el registro de resultados en la base de datos \textbf{PostgreSQL}.  
+El proceso completo se ejecuta desde el backend, implementado en \textit{Flask (Python)}, que coordina la detección, el reconocimiento y el registro de resultados en la base de datos \textit{PostgreSQL}.  
 Esta integración permite un flujo automatizado, eficiente y en tiempo real, garantizando precisión en la identificación de los estudiantes durante la toma de asistencia.
 
 \subsection{Relevamiento de requisitos}
 
 El relevamiento de requisitos se llevó a cabo mediante la aplicación de encuestas dirigidas a profesores y estudiantes de la Facultad Politécnica de la Universidad Nacional del Este (FPUNE), con el objetivo de identificar las principales necesidades y expectativas respecto al control de asistencia en el entorno académico.  
 
-Los resultados obtenidos permitieron comprender las mejoras asociadas a los métodos tradicionales de control de asistencia —tales como pérdida de tiempo, errores humanos y registros inconsistentes—, y sirvieron de base para definir los requisitos funcionales y no funcionales del sistema.
+Los resultados obtenidos permitieron comprender las mejoras asociadas a los métodos tradicionales de control de asistencia tales como pérdida de tiempo, errores humanos y registros inconsistentes, y sirvieron de base para definir los requisitos funcionales y no funcionales del sistema.
 
 \subsubsection*{Requisitos funcionales (RF)}
 
-Los requisitos funcionales representan las acciones que el sistema debe realizar para cumplir su propósito. A partir del análisis de las encuestas y la definición de objetivos, se identificaron los siguientes requisitos funcionales, resumidos en la Tabla~\ref{tab:rf_checkface}.
+Los requisitos funcionales representan las acciones que el sistema debe realizar para cumplir su propósito. A partir del análisis de las encuestas y la definición de objetivos, se identificaron los siguientes requisitos funcionales, resumidos en la Tabla~\ref{tab:rf_CheckFace}.
 
 \begin{table}[H]
 \centering
 \caption{Requisitos funcionales del sistema CheckFace[Tabla Propia].}
-\label{tab:rf_checkface}
+\label{tab:rf_CheckFace}
 \begin{tabular}{|c|p{11cm}|}
 \hline
 \textbf{Código} & \textbf{Requisito funcional} \\ \hline
@@ -391,12 +385,12 @@ RF6 & El sistema debe permitir consultar y justificar asistencias desde la inter
 
 \subsubsection*{Requisitos no funcionales (RNF)}
 \sloppy
-Los requisitos no funcionales establecen las condiciones de calidad, rendimiento y usabilidad que el sistema debe cumplir para garantizar un funcionamiento eficiente y confiable. La Tabla~\ref{tab:rnf_checkface} presenta los principales requisitos no funcionales definidos.
+Los requisitos no funcionales establecen las condiciones de calidad, rendimiento y usabilidad que el sistema debe cumplir para garantizar un funcionamiento eficiente y confiable. La Tabla~\ref{tab:rnf_CheckFace} presenta los principales requisitos no funcionales definidos.
 
 \begin{table}[H]
 \centering
 \caption{Requisitos no funcionales del sistema CheckFace[Tabla Propia].}
-\label{tab:rnf_checkface}
+\label{tab:rnf_CheckFace}
 \begin{tabular}{|c|p{11cm}|}
 \hline
 \textbf{Código} & \textbf{Requisito no funcional} \\ \hline
@@ -410,7 +404,7 @@ RNF4 & La base de datos debe garantizar integridad, seguridad y respaldo de los 
 
 \subsection{Caso de Uso Principal del Sistema}
 
-En la Figura~\ref{fig:caso_uso_principal} se representa el caso de uso principal del sistema, en el cual interactúan dos actores principales: el \textbf{docente} y el \textbf{alumno}.  
+En la Figura~\ref{fig:caso_uso_principal} se representa el caso de uso principal del sistema, en el cual interactúan dos actores principales: el docente y el alumno.  
 
 \begin{figure}[H]
     \centering
@@ -421,7 +415,7 @@ En la Figura~\ref{fig:caso_uso_principal} se representa el caso de uso principal
 
 \subsubsection{Descripción general del caso de uso}
 
-El sistema distingue dos tipos de usuarios con diferentes niveles de acceso: el \textbf{Docente} y el \textbf{Estudiante}.
+El sistema distingue dos tipos de usuarios con diferentes niveles de acceso: el Docente y el Estudiante.
 
 \textbf{Docente:} tiene acceso completo a todas las funcionalidades del sistema. Puede registrar estudiantes, cursos, horarios y roles; asignar materias; registrar asistencias mediante el reconocimiento facial; y acceder al panel principal (\textit{Dashboard}) con los reportes y estadísticas. Además, puede administrar los datos del sistema y supervisar su funcionamiento general, actuando como un administrador.
 
@@ -430,19 +424,19 @@ El sistema distingue dos tipos de usuarios con diferentes niveles de acceso: el 
 \subsection{Definición de la Base de Datos y Tablas}
 
 Para la gestión eficiente de la información del sistema, se implementó una base de datos relacional compuesta por varias tablas que permiten almacenar, vincular y administrar los datos de usuarios, participantes, cursos, horarios y registros de asistencia.  
-La estructura fue diseñada para asegurar integridad referencial, seguridad y escalabilidad, facilitando futuras ampliaciones y adaptaciones del sistema.
+La estructura fue diseñada para garantizar integridad referencial, seguridad y escalabilidad, facilitando futuras ampliaciones y adaptaciones del sistema.
 
 \subsubsection*{Modelo de entidad-relación}
 
-La base de datos se compone de siete entidades principales: \textbf{roles}, \textbf{users}, \textbf{participants}, \textbf{courses}, \textbf{course\_schedules}, \textbf{participant\_courses} y \textbf{attendances}.  
+La base de datos se compone de siete entidades principales: \textit{roles}, \textit{users}, \textit{participants}, \textit{courses}, \textit{course\_schedules}, \textit{participant\_courses} y \textit{attendances}.  
 Estas entidades reflejan la estructura funcional del sistema, permitiendo asociar estudiantes a cursos, registrar asistencias y controlar los horarios académicos.  
-En la Figura~\ref{fig:der_checkface} se muestra el diagrama entidad-relación correspondiente.
+En la Figura~\ref{fig:der_CheckFace} se muestra el diagrama entidad-relación correspondiente.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{capitulo_04/imagenes/1.png}
     \caption{Diagrama de Entidad–Relación del sistema CheckFace[imagen propia].}
-    \label{fig:der_checkface}
+    \label{fig:der_CheckFace}
 \end{figure}
 
 \subsubsection*{Diccionario de datos}
@@ -543,7 +537,7 @@ observations & TEXT & Observaciones adicionales o justificación de inasistencia
 
 \subsection{Diagrama de flujo del funcionamiento del sistema}
 
-La Figura~\ref{fig:flujo_checkface} muestra el diagrama de flujo que describe el funcionamiento general del sistema de asistencia. En él se ilustran las etapas principales del proceso automatizado, desde la carga de imágenes de los estudiantes hasta el registro final en la base de datos.
+La Figura~\ref{fig:flujo_CheckFace} muestra el diagrama de flujo que describe el funcionamiento general del sistema de asistencia. En él se ilustran las etapas principales del proceso automatizado, desde la carga de imágenes de los estudiantes hasta el registro final en la base de datos.
 
 El proceso inicia con la carga de las imágenes faciales a través de la interfaz, las cuales son procesadas para generar representaciones numéricas que permiten su posterior identificación. Luego, el sistema activa la cámara y ejecuta la detección y verificación en tiempo real. Cuando un rostro coincide con un registro existente, el estudiante es marcado como presente; de lo contrario, se clasifica como desconocido, garantizando un control más preciso del registro de asistencia.
 
@@ -551,7 +545,7 @@ El proceso inicia con la carga de las imágenes faciales a través de la interfa
     \centering
     \includegraphics[width=1\textwidth]{capitulo_04/imagenes/2.png}
     \caption{Diagrama de flujo del funcionamiento del sistema CheckFace.}
-    \label{fig:flujo_checkface}
+    \label{fig:flujo_CheckFace}
 \end{figure}
 
 
@@ -580,7 +574,7 @@ Las principales funcionalidades implementadas en esta capa incluyen:
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.9\textwidth, height=12cm, keepaspectratio]{imagenes_doc/backend_estructura.png}
-  \caption{Estructura general del proyecto en Visual Studio Code [Imagen propia].}
+  \caption{Estructura general del trabajo en Visual Studio Code [Imagen propia].}
   \label{fig:backend_estructura}
 \end{figure}
 
@@ -597,7 +591,7 @@ El desarrollo de la interfaz se organizó en módulos funcionales, cada uno repr
 \begin{itemize}
   \item \textbf{Componentes de presentación:} responsables de mostrar la información y recibir datos de entrada mediante formularios, tablas y botones.
   \item \textbf{Ruteo de navegación:} implementado con \texttt{react-router-dom}, para permitir la transición fluida entre las distintas vistas del sistema.
-  \item \textbf{Servicios:} encargados de establecer la comunicación con la API REST del backend, gestionando peticiones HTTP de forma centralizada.
+  \item \textbf{Servicios:} encargados de establecer la comunicación con la REST API del backend, gestionando peticiones HTTP de forma centralizada.
   \item \textbf{Gestión de estado:} realizada mediante los hooks de React (\texttt{useState}, \texttt{useEffect}), asegurando la actualización dinámica de la información visualizada por el usuario.
 \end{itemize}
 

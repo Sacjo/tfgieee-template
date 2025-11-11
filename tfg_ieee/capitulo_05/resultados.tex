@@ -10,7 +10,7 @@ Para garantizar resultados precisos durante la evaluación del sistema de asiste
 
 \section{Figuras y Tablas}
 
-La siguiente tabla presenta un resumen de los componentes principales que conforman el entorno de desarrollo y ejecución del sistema. Se incluyen tanto los elementos de software utilizados para la implementación del proyecto como las herramientas necesarias para su funcionamiento, detallando las versiones, librerías y módulos activos durante el proceso de evaluación.
+La siguiente tabla presenta un resumen de los componentes principales que conforman el entorno de desarrollo y ejecución del sistema. Se incluyen tanto los elementos de software utilizados para la implementación del trabajo como las herramientas necesarias para su funcionamiento, detallando las versiones, librerías y módulos activos durante el proceso de evaluación.
 
 \begin{table}[H]
     \centering
@@ -35,7 +35,7 @@ La siguiente tabla presenta un resumen de los componentes principales que confor
 
         Librerías & OpenCV, NumPy, Pandas, Ultralytics, DeepFace, TensorFlow-CPU==2.13.0, SQLAlchemy, Flask-CORS, Flask-JWT-Extended, Omegaconf, Matplotlib, Pillow \\ \hline
 
-        Versión del sistema desarrollado & v1.0 Beta \\ \hline
+        Versión del sistema desarrollado & \textit{v1.0 Beta} \\ \hline
 
         Módulos activados & Captura de imagen, Preprocesamiento, Detección facial, Reconocimiento, Registro en base de datos, Reporte de asistencia \\ \hline
     \end{tabular}
@@ -335,7 +335,7 @@ En la Figura~\ref{fig:prueba12} se presenta la última prueba realizada, en la c
     \label{fig:prueba12}
 \end{figure}
 \noindent\textbf{Relación con los objetivos específicos:}  
-Las pruebas realizadas se vinculan directamente con los objetivos específicos del proyecto orientados a evaluar la estabilidad y confiabilidad del sistema de reconocimiento facial ante variaciones en las condiciones de captura. Los resultados obtenidos en los distintos escenarios confirman que el modelo mantiene un desempeño consistente incluso cuando se modifican factores como el ángulo de la cámara, la iluminación o la distancia, validando su capacidad de adaptación a diferentes entornos y configuraciones. En consecuencia, se considera que los objetivos relacionados con la evaluación de la tolerancia y el rendimiento del sistema frente a cambios operativos se cumplen satisfactoriamente, demostrando un funcionamiento robusto y predecible dentro de los márgenes esperados.
+Las pruebas realizadas se vinculan directamente con los objetivos específicos del trabajo orientados a evaluar la estabilidad y confiabilidad del sistema de reconocimiento facial ante variaciones en las condiciones de captura. Los resultados obtenidos en los distintos escenarios confirman que el modelo mantiene un desempeño consistente incluso cuando se modifican factores como el ángulo de la cámara, la iluminación o la distancia, validando su capacidad de adaptación a diferentes entornos y configuraciones. En consecuencia, se considera que los objetivos relacionados con la evaluación de la tolerancia y el rendimiento del sistema frente a cambios operativos se cumplen satisfactoriamente, demostrando un funcionamiento robusto y predecible dentro de los márgenes esperados.
 
 
 \textbf{Conclusión de las pruebas en aula y análisis de métricas de evaluación}
@@ -362,7 +362,7 @@ Finalmente, la Figura~\ref{fig:asistencias} presenta la tabla de asistencias gen
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{capitulo_05/resultados_aula/asistencias.jpg}
-    \caption{Registros de asistencias generados automáticamente por el sistema en la base de datos \textit{checkface\_db} [Figura propia].}
+    \caption{Registros de asistencias generados automáticamente por el sistema en la base de datos \textit{CheckFace\_db} [Figura propia].}
     \label{fig:asistencias}
 \end{figure}
 
@@ -373,7 +373,7 @@ Como se observa en la Figura~\ref{fig:asistencias}, el sistema generó de forma 
     \caption{Indicadores de desempeño del sistema durante las pruebas de registro de asistencia.}
     \label{tab:indicadores}
     {\large
-    \begin{tabular}{|p{4cm}|p{2.2cm}|p{7cm}|}
+    \begin{tabular}{|p{4.8cm}|p{1.6cm}|p{6cm}|}
         \hline
         \textbf{Indicador} & \textbf{Valor} & \textbf{Observación} \\ \hline
         Precisión de reconocimiento & 85.2\,\% & Desempeño estable en condiciones controladas. \\ \hline
@@ -419,7 +419,7 @@ Las Figuras~\ref{fig:dashboard_1} y~\ref{fig:dashboard_2} muestran las vistas pr
 \begin{tabular}{|p{2.8cm}|p{5cm}|p{4.6cm}|}
 \hline
 \textbf{Categoría} & \textbf{Métrica} & \textbf{Resultado / Observación} \\ \hline
-\multirow{2}{*}{Datos del conjunto} 
+\multirow{2}{*}{\shortstack{Datos del\\conjunto}}
 & N° de modelos de usuarios & 13–15 modelos registrados con fotografías variadas. \\ \cline{2-3}
 & Imágenes por usuario & Mínimo de 5 imágenes por persona para el entrenamiento. \\ \hline
 

@@ -164,14 +164,29 @@ Steven~Bryan Lara-Jacho, Luis~Orlando Albarracín-Zambrano, y Dionisio~Vitalio P
 Reconocimiento facial para la automatización del registro de asistencia a clases. UTA. [en línea]. Disponible: \url{https://hdl.handle.net/11059 [...]}
 \BIBentrySTDinterwordspacing
 
-\bibitem{figma}
-\BIBentryALTinterwordspacing
-{Figma Inc.} (2024) ¿qué es figma? [en línea]. Disponible: https://help.figma.com/hc/es-419/articles/14563969806359--Qu%C3%A9-es-Figma. [en línea]. Disponible: \url{https://help.figma.com/hc [...]}
-\BIBentrySTDinterwordspacing
-
 \bibitem{python}
 \BIBentryALTinterwordspacing
-{GoDaddy Inc.} (2024) Python: qué es, para qué sirve y cómo empezar a usarlo. [En línea]. Consultado en 2024. [en línea]. Disponible: \url{https://www.godaddy.com/resources/latam/desarrollo/python}
+{GoDaddy Inc.} (2024) Python: qué es, para qué sirve y cómo empezar a usarlo. [En línea]. Consultado en 2024. [en línea]. Disponible: \url{https://www.godaddy.com/resources/latam/desarrollo/python-que-es}
+\BIBentrySTDinterwordspacing
+
+\bibitem{cppDocs}
+\BIBentryALTinterwordspacing
+{Microsoft}. (2025) C++ documentation — learn c++ with visual studio. [En línea]. Consultado en 2025. [en línea]. Disponible: \url{https://learn.microsoft.com/en-us/cpp/cpp/?view=msvc-170}
+\BIBentrySTDinterwordspacing
+
+\bibitem{javaDocs}
+\BIBentryALTinterwordspacing
+{Oracle Corporation}. (2025) The java™ tutorials. [En línea]. Consultado en 2025. [en línea]. Disponible: \url{https://docs.oracle.com/javase/tutorial/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{csharpDocs}
+\BIBentryALTinterwordspacing
+{Microsoft}. (2025) C\# guide — learn to use c\# and the .net platform. [En línea]. Consultado en 2025. [en línea]. Disponible: \url{https://learn.microsoft.com/en-us/dotnet/csharp/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{python_docs}
+\BIBentryALTinterwordspacing
+{Python Software Foundation}. (2024) Python 3 documentation — an informative overview. [En línea]. Consultado en 2024. [en línea]. Disponible: \url{https://docs.python.org/3/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{javascript}
@@ -179,19 +194,9 @@ Reconocimiento facial para la automatización del registro de asistencia a clase
 {EBAC}. (2024) ¿qué es javascript? [en línea]. Disponible: https://ebac.mx/blog/que-es-javascript. [en línea]. Disponible: \url{https://ebac.mx/blog [...]}
 \BIBentrySTDinterwordspacing
 
-\bibitem{sql}
-\BIBentryALTinterwordspacing
-{IBM Corporation}. (2024) ¿qué es sql (structured query language)? [en línea]. Disponible: https://www.ibm.com/mx-es/think/topics/structured-query-language. [en línea]. Disponible: \url{https://www.ibm.com/mx-es [...]}
-\BIBentrySTDinterwordspacing
-
 \bibitem{postgresql}
 \BIBentryALTinterwordspacing
 {PostgreSQL Global Development Group}. (2024) About postgresql. [en línea]. Disponible: https://www.postgresql.org/about/. [en línea]. Disponible: \url{https://www.postgresql.org/about [...]}
-\BIBentrySTDinterwordspacing
-
-\bibitem{git}
-\BIBentryALTinterwordspacing
-{Microsoft Learn}. (2024) ¿qué es git? [en línea]. Disponible: https://learn.microsoft.com/es-es/devops/develop/git/what-is-git. [en línea]. Disponible: \url{https://learn.microsoft.com/es-es [...]}
 \BIBentrySTDinterwordspacing
 
 \bibitem{vscode}

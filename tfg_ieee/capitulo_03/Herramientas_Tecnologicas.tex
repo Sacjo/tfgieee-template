@@ -7,70 +7,124 @@
 
 \chapter{Herramientas Tecnológicas}
 
-En el presente capítulo se describen las herramientas tecnológicas utilizadas para el desarrollo del proyecto.
+En el presente capítulo se detallan las herramientas y lenguajes de programación considerados en el desarrollo del trabajo, seleccionados por su relevancia y eficacia en la implementación de sistemas de reconocimiento facial.  
+La elección de cada tecnología se basó en criterios de rendimiento, estabilidad, escalabilidad e integración entre los distintos módulos del sistema, priorizando aquellas que ofrecen soporte robusto para tareas de visión por computadora, aprendizaje automático y procesamiento en tiempo real.   
 
 \section{Selección de Herramientas}
 
-\subsection{Figma}
+\textbf{Python:} Lenguaje de alto nivel, interpretado y de código abierto, creado por Guido van Rossum en 1991. Destaca por su sintaxis simple, legible y su extenso ecosistema de librerías para inteligencia artificial y visión por computadora\cite{python}.
 
-Figma es una herramienta de diseño gráfico basada en la nube, utilizada principalmente para el diseño de interfaces de usuario (UI), experiencia de usuario (UX) y el prototipado de aplicaciones web y móviles. 
+\textbf{C++:} Lenguaje de programación de medio-alto nivel creado por Bjarne Stroustrup, reconocido por su alto rendimiento y control de memoria. Es ampliamente utilizado en sistemas de tiempo real y compatible con librerías como \textit{OpenCV}, aunque presenta una curva de aprendizaje más pronunciada\cite{cppDocs}.
 
-Sus características más destacadas incluyen:
+\textbf{Java:} Lenguaje de propósito general, orientado a objetos y multiplataforma, desarrollado por Sun Microsystems en 1995. Su filosofía “escribir una vez, ejecutar en cualquier parte” y su máquina virtual (\textit{JVM}) le brindan estabilidad, portabilidad y seguridad en aplicaciones empresariales y móviles\cite{javaDocs}.
+
+\textbf{C\# (\texttt{.NET}):} Lenguaje moderno desarrollado por Microsoft, integrado en la plataforma \texttt{.NET}. Combina productividad, soporte empresarial y capacidad para integrar APIs biométricas, siendo especialmente eficiente en entornos Windows y servicios en la nube Azure\cite{csharpDocs}.
+
+
+\textbf{Criterios de selección de herramientas}
 
 \begin{itemize}
-    \item Colaboración en tiempo real, permitiendo que varios usuarios trabajen simultáneamente en un mismo archivo.
-    \item Funciona directamente desde el navegador, siendo multiplataforma y sin necesidad de instalación.
-    \item Uso de componentes reutilizables y estilos compartidos para mantener coherencia en los diseños.
-    \item Facilita la comunicación entre diseñadores y desarrolladores, permitiendo inspeccionar propiedades como CSS, medidas y exportar recursos fácilmente.
+    \item \textbf{Licencia:} Evalúa si la herramienta es de uso gratuito o de código abierto, y si permite su modificación o distribución. Este criterio influye directamente en la accesibilidad, escalabilidad y sostenibilidad del trabajo.
+
+    \item \textbf{Lenguaje:} Considera la flexibilidad, el paradigma de programación y el enfoque del lenguaje con el que opera la herramienta, así como su compatibilidad con bibliotecas de inteligencia artificial o visión por computadora.
+
+    \item \textbf{Instalación:} Mide la facilidad de instalación y configuración del entorno de desarrollo, incluyendo la disponibilidad de documentación oficial, gestores de dependencias y compatibilidad con distintos sistemas operativos.
+
+    \item \textbf{Curva de aprendizaje:} Analiza el nivel de complejidad necesario para dominar la herramienta, considerando la claridad de su sintaxis, la documentación disponible y la cantidad de recursos formativos accesibles para los desarrolladores.
+
+    \item \textbf{Ecosistema y bibliotecas:} Evalúa la cantidad, calidad y madurez de las bibliotecas y frameworks disponibles para la herramienta, especialmente aquellas relacionadas con el desarrollo web, la inteligencia artificial y el procesamiento de imágenes.
+
+    \item \textbf{Seguridad:} Considera la capacidad de la herramienta para implementar prácticas seguras en el desarrollo, incluyendo manejo de autenticación, protección contra vulnerabilidades comunes y mantenimiento activo de versiones.
+
+    \item \textbf{Rendimiento:} Analiza la eficiencia de ejecución del lenguaje y la herramienta, especialmente en tareas intensivas como el procesamiento de imágenes o el manejo de múltiples peticiones simultáneas.
+
+    \item \textbf{Comunidad y soporte:} Evalúa el tamaño y la actividad de la comunidad de desarrolladores, así como la disponibilidad de documentación, foros de soporte, actualizaciones frecuentes y contribuciones de código abierto.
 \end{itemize}
 
-Es una herramienta ampliamente adoptada por equipos de desarrollo ágil y entornos que implementan sistemas de diseño\cite{figma}.
 
+\textbf{Escala de evaluación}
+
+\begin{enumerate}
+    \item \textbf{Muy Deficiente / No cumple:} La herramienta no cumple con el criterio o tiene un rendimiento muy pobre en esa área. Necesita mejoras significativas o carece de esa funcionalidad.
+    
+    \item \textbf{Deficiente:} La herramienta cumple parcialmente con el criterio, pero presenta limitaciones o fallos importantes que afectan su rendimiento. Requiere mejoras significativas.
+    
+    \item \textbf{Aceptable / Promedio:} La herramienta cumple con el criterio de manera funcional, pero con limitaciones que afectan su eficacia en comparación con otras opciones. Es una alternativa razonable, aunque no sobresaliente.
+    
+    \item \textbf{Bueno:} La herramienta cumple con el criterio de manera sólida y efectiva, con pocas limitaciones. Tiene un rendimiento consistente, aunque puede mejorarse en algunos aspectos.
+    
+    \item \textbf{Excelente:} La herramienta cumple de manera sobresaliente con el criterio, sin limitaciones significativas. Ofrece un rendimiento superior, una comunidad activa y características avanzadas que la hacen destacar en su categoría.
+\end{enumerate}
+
+
+Se observa en la Tabla~\ref{tab:comparacion_lenguajes} la comparación entre los lenguajes de programación evaluados según los criterios establecidos.
+
+\begin{table}[H]
+\centering
+\caption{Comparación de lenguajes según los criterios de selección [Elaboración propia].}
+\label{tab:comparacion_lenguajes}
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{|p{6cm}|c|c|c|c|}
+\hline
+\textbf{Criterio} & \textbf{Python} & \textbf{C++} & \textbf{Java} & \textbf{C\#} \\ \hline
+Licencia & 5 & 5 & 5 & 5 \\ \hline
+Lenguaje & 5 & 3 & 4 & 4 \\ \hline
+Instalación & 5 & 3 & 4 & 4 \\ \hline
+Curva de aprendizaje & 5 & 2 & 3 & 4 \\ \hline
+Ecosistema y bibliotecas & 5 & 4 & 4 & 4 \\ \hline
+Seguridad & 5 & 3 & 5 & 5 \\ \hline
+Rendimiento & 4 & 5 & 4 & 4 \\ \hline
+Comunidad y soporte & 5 & 4 & 4 & 4 \\ \hline
+\textbf{Total de puntos} & \textbf{39} & \textbf{29} & \textbf{33} & \textbf{34} \\ \hline
+\end{tabular}
+\end{table}
+
+
+\textbf{Herramienta seleccionada a base de los criterios y escala}
+
+Luego de evaluar los lenguajes de programación \textit{Python}, \textit{C++}, \textit{Java} y \textit{C\#} en función de ocho criterios definidos, Licencia, Lenguaje, Instalación, Curva de aprendizaje, Ecosistema y bibliotecas, Seguridad, Rendimiento y Comunidad y soporte; Aplicando una escala de valoración del 1 al 5, se concluye que \textit{Python} es el lenguaje más adecuado para el desarrollo del presente trabajo.
+
+Python obtuvo un total de 39 puntos sobre 40 posibles, destacándose principalmente en los aspectos de facilidad de aprendizaje, ecosistema de librerías, comunidad activa y portabilidad. Su sintaxis simple, su amplia disponibilidad de frameworks como \textit{Flask}, \textit{TensorFlow}, \textit{OpenCV} y \textit{DeepFace}, así como su integración nativa con entornos científicos, lo convierten en una herramienta altamente eficiente para trabajos basados en visión por computadora y reconocimiento facial.  
+
+Por su parte, \textit{C++} obtuvo 29 puntos, destacando por su alto rendimiento y control de memoria, pero con una curva de aprendizaje más pronunciada y un desarrollo menos ágil. \textit{Java}, con 33 puntos, se caracteriza por su portabilidad y seguridad, aunque su sintaxis más extensa y menor especialización en bibliotecas de inteligencia artificial limitan su aplicabilidad directa. Finalmente, \textit{C\#} alcanzó 34 puntos, sobresaliendo en seguridad y soporte empresarial, aunque su dependencia del entorno \textit{.NET} reduce su flexibilidad multiplataforma.
+
+En conclusión, \textit{Python} fue seleccionado como el lenguaje principal para la implementación del sistema de reconocimiento facial, al cumplir de forma sobresaliente con la mayoría de los criterios establecidos, posicionándose como la opción más robusta, flexible y eficiente para el desarrollo de soluciones basadas en inteligencia artificial y visión por computadora.
 
 \subsection{Python}
-Python es un lenguaje de programación de alto nivel, interpretado y de código abierto, creado por Guido van Rossum en 1991. Fue diseñado centrándose en la simplicidad y la legibilidad del código, hecho que permite a los desarrolladores expresar conceptos en menos líneas de código en comparación con otros lenguajes como C++ o Java. Descifrando el lenguaje de programación, resulta mucho más sencillo tanto de aprender como de utilizar\cite{python}.
 
-\subsection{JavaScript}
+Python es un lenguaje de programación de alto nivel, interpretado y de código abierto, creado por Guido van Rossum en 1991. Diseñado con un enfoque en la simplicidad y la legibilidad, permite expresar ideas complejas con pocas líneas de código, lo que facilita su aprendizaje y lo hace accesible tanto para principiantes como para desarrolladores experimentados\cite{python}.  
 
-JavaScript o JS es un lenguaje de programación diseñado para escribir las partes \textit{Front End} y \textit{Back End} de sitios web y aplicaciones móviles. Es un lenguaje de alto nivel, legible para los humanos, pero no requiere un compilador para traducirlo al lenguaje de máquina. El código se interpreta y se ejecuta directamente en un navegador web, lo que facilita y acelera la interacción con el usuario.
+Es un lenguaje multiparadigma y multiplataforma que admite programación estructurada, orientada a objetos y funcional, lo que le otorga una gran flexibilidad para adaptarse a distintos tipos de proyectos y entornos de desarrollo\cite{python_docs}. Su sintaxis clara y su amplia biblioteca estándar han contribuido a que se consolide como una de las herramientas más utilizadas en campos como la inteligencia artificial, el aprendizaje automático y la visión por computadora.  
 
-JavaScript es un lenguaje de \textit{scripts}, es decir, de secuencias de comandos. Permite agregar muchas funcionalidades a las páginas web haciéndolas más interactivas, útiles y atractivas para el usuario. Algunos ejemplos de contenido dinámico son menús desplegables, formularios, galerías de fotos, gráficos animados y más\cite{javascript}.
+Asimismo, su ecosistema de librerías entre las que destacan \textit{NumPy}, \textit{Pandas}, \textit{OpenCV}, \textit{TensorFlow} y \textit{DeepFace}, proporciona soporte para tareas de análisis, procesamiento y reconocimiento de imágenes, aportando una solución robusta y eficiente para la creación de sistemas inteligentes. Estas características hacen de Python un lenguaje moderno, adaptable y esencial para el desarrollo del sistema de reconocimiento facial implementado en este trabajo\cite{python}.
 
+\textbf{Lenguajes complementarios y gestor de base de datos}
 
+Además del lenguaje principal empleado para el desarrollo del backend, el sistema requirió herramientas complementarias para la implementación del entorno web y la gestión de datos.  
+En el caso del \textit{frontend}, se utilizó \textit{JavaScript} como lenguaje base para la construcción de la interfaz gráfica, mientras que para la capa de persistencia de datos se empleó el gestor de base de datos \textit{PostgreSQL}, garantizando una comunicación eficiente, segura y escalable entre el servidor y la aplicación.
 
+\textit{JavaScript} es un lenguaje de programación diseñado para desarrollar tanto la parte \textit{Front End} como el \textit{Back End} de sitios web y aplicaciones móviles. Es un lenguaje de alto nivel, legible y dinámico, que no requiere compilación para su ejecución. Su código se interpreta directamente en el navegador, lo que permite una interacción fluida y en tiempo real con el usuario.  
+Se clasifica como un lenguaje de \textit{scripts}, utilizado para añadir funcionalidades interactivas, como menús desplegables, validaciones de formularios, animaciones y componentes dinámicos que enriquecen la experiencia de usuario.  
+Estas características hacen de \textit{JavaScript} una herramienta fundamental en el desarrollo moderno de aplicaciones web, gracias a su compatibilidad con frameworks y bibliotecas como React, Angular y Node.js\cite{javascript}.
 
-\subsection{SQL}
-
-El lenguaje de consulta estructurado (SQL) es un lenguaje de programación estandarizado y específico de dominio que sobresale en el manejo de relaciones de datos. Se emplea ampliamente para almacenar, manipular y recuperar datos en sistemas como MySQL, SQL Server y Oracle.
-
-Cuando es necesario recuperar datos de una base de datos, se emplea SQL para realizar la solicitud. 
-
-SQL es utilizado por los administradores de bases de datos, desarrolladores y analistas de datos para tareas como definición de datos, control de acceso, uso compartido de datos, escritura de scripts de integración de datos y ejecución de consultas analíticas\cite{sql}.
-
-
-\subsection{PostgreSQL}
-
-Es un potente sistema de base de datos relacional de objetos de código abierto que utiliza y amplía el lenguaje SQL, combinado con muchas características que permiten almacenar y escalar de forma segura las cargas de trabajo de datos más complejas. Los orígenes de PostgreSQL se remontan a 1986, como parte del proyecto ``Postgres'' en la Universidad de California en Berkeley, y cuenta con más de 35 años de desarrollo activo en su plataforma central.
-
-Se ha ganado una sólida reputación por su arquitectura probada, confiabilidad, integridad de datos, conjunto de características robustas, extensibilidad y por la dedicación de la comunidad de código abierto detrás del software, que ofrece soluciones innovadoras y de alto rendimiento de manera constante. PostgreSQL se ejecuta en todos los principales sistemas operativos \cite{postgresql}.
-
-\subsection{Git}
-
-Es un sistema de control de versiones distribuido, lo que significa que un clon local del proyecto es un repositorio de control de versiones completo. Estos repositorios locales plenamente funcionales permiten trabajar sin conexión o de forma remota con facilidad. Los desarrolladores confirman su trabajo localmente y, a continuación, sincronizan la copia del repositorio con la del servidor. Este paradigma es distinto del control de versiones centralizado, donde los clientes deben sincronizar el código con un servidor antes de crear nuevas versiones\cite{git}.
+Por su parte, \textit{PostgreSQL} es un potente sistema de gestión de bases de datos relacional y orientado a objetos, completamente de código abierto. Basado en el lenguaje SQL, combina estabilidad, escalabilidad y un conjunto robusto de funcionalidades avanzadas que permiten manejar de manera segura y eficiente grandes volúmenes de datos.  
+Sus orígenes se remontan a 1986, en el marco del trabajo “Postgres” de la Universidad de California en Berkeley, y desde entonces ha mantenido más de tres décadas de desarrollo continuo.  
+Se destaca por su integridad transaccional, extensibilidad, arquitectura sólida y su compatibilidad multiplataforma, lo que lo convierte en una opción ideal para proyectos que demandan alta confiabilidad en el almacenamiento y procesamiento de información\cite{postgresql}.
 
 
 
-\section{Entorno de dessarrollo del modelo}
+
+\section{Entorno de desarrollo del modelo}
 
 \subsection{Visual Studio Code}
 Para la etapa de codificación del modelo y los componentes del sistema, se utilizó \textit{Visual Studio Code} (VS Code), un editor de código fuente desarrollado por Microsoft, diseñado para ser ligero, rápido y altamente personalizable. A diferencia de otros editores de código, como los IDE completos (Entornos de Desarrollo Integrados), VS Code se enfoca en ofrecer una experiencia ágil para la escritura y edición de código, sin sacrificar características avanzadas \cite{vscode}. Lo que lo diferencia es su capacidad de ser extendido con una gran cantidad de extensiones y herramientas, adaptándose a las necesidades específicas de cada desarrollador.
 
-\subsection{ GitHub Desktop}
-Para gestionar el control de versiones del proyecto y mantener un historial estructurado de los cambios realizados durante el desarrollo, se empleó \textit{GitHub Desktop}. Esta herramienta gratuita y de código abierto proporciona una interfaz gráfica para trabajar con repositorios Git alojados en GitHub u otros servicios. Facilita la realización de operaciones comunes de Git, como clonar, confirmar (\textit{commit}), crear ramas y sincronizar cambios, sin necesidad de utilizar la línea de comandos. Está diseñada para simplificar el flujo de trabajo tanto para principiantes como para usuarios avanzados \cite{githubdesktop}.
+\subsection{GitHub Desktop}
+Para gestionar el control de versiones del trabajo y mantener un historial estructurado de los cambios realizados durante el desarrollo, se empleó \textit{GitHub Desktop}. Esta herramienta gratuita y de código abierto proporciona una interfaz gráfica para trabajar con repositorios Git alojados en GitHub u otros servicios. Facilita la realización de operaciones comunes de Git, como clonar, confirmar (\textit{commit}), crear ramas y sincronizar cambios, sin necesidad de utilizar la línea de comandos. Está diseñada para simplificar el flujo de trabajo tanto para principiantes como para usuarios avanzados \cite{githubdesktop}.
 
 
 \subsection{Postman}
-Finalmente, para la validación de los endpoints del API y la verificación de la comunicación entre los módulos del sistema, se utilizó \textit{Postman}. Es una plataforma orientada a la prueba y gestión de APIs, que facilita a los desarrolladores la verificación y documentación de servicios web. Inicialmente creada como una extensión del navegador, hoy está disponible como aplicación independiente para Windows, Linux y macOS. Su interfaz gráfica permite enviar solicitudes HTTP, automatizar pruebas y generar documentación, optimizando el desarrollo y reduciendo errores en la comunicación con servicios externos \cite{imaginaPostman}.
+Finalmente, para la validación de los endpoints API y la verificación de la comunicación entre los módulos del sistema, se utilizó \textit{Postman}. Es una plataforma orientada a la prueba y gestión de APIs, que facilita a los desarrolladores la verificación y documentación de servicios web. Inicialmente creada como una extensión del navegador, hoy está disponible como aplicación independiente para Windows, Linux y macOS. Su interfaz gráfica permite enviar solicitudes HTTP, automatizar pruebas y generar documentación, optimizando el desarrollo y reduciendo errores en la comunicación con servicios externos \cite{imaginaPostman}.
 
 
 
@@ -84,7 +138,7 @@ Para el desarrollo del frontend y del panel de control (\textit{dashboard}) del 
 Su funcionamiento se basa en la creación de componentes reutilizables que integran estructura y lógica mediante la sintaxis JSX. Este enfoque permite gestionar la interfaz de forma eficiente mediante un \textit{Virtual DOM}, el cual detecta cambios de estado y actualiza únicamente los elementos necesarios sin recargar toda la página, optimizando el rendimiento del sistema \cite{react}.
 
 \subsection{Flask}
-Para el desarrollo del backend y la implementación de las rutas del API del sistema, se utilizó el microframework \textit{Flask} en su versión 3.1.2. Flask es un microframework web de código abierto escrito en Python, orientado al desarrollo rápido y flexible de aplicaciones. Su estructura modular y extensible otorga a los desarrolladores un control total sobre la arquitectura, destacándose por su sencillez, ligereza e integración con múltiples extensiones.
+Para el desarrollo del backend y la implementación de las rutas API del sistema, se utilizó el microframework \textit{Flask} en su versión 3.1.2. Flask es un microframework web de código abierto escrito en Python, orientado al desarrollo rápido y flexible de aplicaciones. Su estructura modular y extensible otorga a los desarrolladores un control total sobre la arquitectura, destacándose por su sencillez, ligereza e integración con múltiples extensiones.
 
 Estas características lo convierten en una herramienta ideal para la creación de APIs RESTful y servicios que requieren agilidad y adaptabilidad, motivo por el cual fue seleccionado para la construcción de los endpoints del sistema \cite{flask}.
 
@@ -97,5 +151,5 @@ Esta arquitectura unificada permite una detección rápida y precisa, siendo esp
 \subsection{DeepFace}
 Para la etapa de reconocimiento facial se utilizó la librería \textit{DeepFace} en su versión 0.0.95. DeepFace es un framework de código abierto basado en \textit{Python} que unifica diversas arquitecturas de reconocimiento facial y facilita su implementación mediante funciones de alto nivel. Entre sus características principales se destacan el soporte para múltiples modelos de extracción de embeddings, detección facial, análisis demográfico y verificación de identidad \cite{DeepFace}.
 
-En este proyecto, \textit{DeepFace} fue utilizada específicamente para el proceso de identificación facial, empleando el modelo \textit{ArcFace} como generador de embeddings, permitiendo un reconocimiento más robusto y confiable dentro del sistema desarrollado.
+En este trabajo, \textit{DeepFace} fue utilizada específicamente para el proceso de identificación facial, empleando el modelo \textit{ArcFace} como generador de embeddings, permitiendo un reconocimiento más robusto y confiable dentro del sistema desarrollado.
 

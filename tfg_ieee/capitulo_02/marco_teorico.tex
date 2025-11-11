@@ -10,7 +10,7 @@
 
 \chapter{Conceptos fundamentales, teorías y antecedentes}
 
-Este capítulo tiene como propósito presentar los conceptos teóricos esenciales y los antecedentes más relevantes que enmarcan el desarrollo del Sistema de Asistencia Basado en Reconocimiento Facial para la FPUNE. En primer lugar, se abordan las ideas fundamentales relacionadas con la biometría y el reconocimiento facial, lo que permite comprender las bases científicas y técnicas sobre las que se sustenta esta propuesta. Posteriormente, se exponen trabajos previos desarrollados por otros autores, tanto a nivel local como internacional, que sirvieron de referencia y aportaron enfoques valiosos al diseño de la solución planteada. Estos antecedentes contribuyen a contextualizar el problema, identificar alternativas existentes, evaluar sus resultados y reconocer las oportunidades de mejora que la presente investigación busca abordar.
+Este capítulo tiene como propósito presentar los conceptos teóricos esenciales y los antecedentes más relevantes que enmarcaron el desarrollo del Sistema de Asistencia Basado en Reconocimiento Facial para la FPUNE. En primer lugar, se abordan las ideas fundamentales relacionadas con la biometría y el reconocimiento facial, lo que permite comprender las bases científicas y técnicas sobre las que se sustenta esta propuesta. Posteriormente, se exponen trabajos previos desarrollados por otros autores, tanto a nivel local como internacional, que sirvieron de referencia y aportaron enfoques valiosos al diseño de la solución planteada. Estos antecedentes contribuyen a contextualizar el problema, identificar alternativas existentes, evaluar sus resultados y reconocer las oportunidades de mejora que la presente investigación busca abordar.
 
 
 \section{Biometría}
@@ -196,9 +196,9 @@ El Machine Learning es una subárea de la IA enfocada en el desarrollo de algori
 Se basa en el análisis estadístico y en la detección de patrones dentro de conjuntos de datos, con el objetivo de tomar decisiones, realizar predicciones o efectuar clasificaciones con una precisión cada vez mayor a medida que el modelo se entrena y corrige sus errores\cite{acevedo2017}.
 
 
-En el contexto de esta investigación, el Machine Learning constituye una herramienta esencial para el desarrollo del Sistema de Asistencia Basado en Reconocimiento Facial para la FPUNE.
+En el contexto de esta investigación, el Machine Learning constituyó una herramienta esencial para el desarrollo del Sistema de Asistencia Basado en Reconocimiento Facial para la FPUNE.
 A través del aprendizaje automático, se emplean modelos previamente entrenados capaces de detectar y reconocer rostros en imágenes reales con alta precisión, incluso bajo condiciones variables de iluminación, ángulo o expresión facial.
-Esta tecnología permite automatizar el registro de asistencia de los estudiantes, optimizando los procesos administrativos y reduciendo significativamente la intervención manual por parte de los docentes\cite{valverde2019}.
+Esta tecnología permitió automatizar el registro de asistencia de los estudiantes, optimizando los procesos administrativos y reduciendo significativamente la intervención manual por parte de los docentes\cite{valverde2019}.
 
 El aprendizaje automático se puede dividir en tres grandes tipos:
 
@@ -219,7 +219,7 @@ Una red neuronal artificial está compuesta por unidades denominadas \textit{nod
 
 En el ámbito del procesamiento de imágenes, destacan las redes neuronales convolucionales (CNN, por sus siglas en inglés), diseñadas específicamente para analizar información visual. Estas redes aplican filtros de convolución que capturan características locales —como bordes, texturas y formas— y permiten construir representaciones jerárquicas de la imagen. Gracias a esta arquitectura, las CNN se han convertido en la base de los modelos modernos de visión por computadora.
 
-En esta investigación, el aprendizaje profundo constituye un pilar esencial para la desarrollo del prototipo \textit{Sistema de Asistencia Basado en Reconocimiento Facial para la FPUNE}. Se emplean dos modelos basados en redes neuronales convolucionales: YOLOv8n-Face, encargado de la detección de rostros en tiempo real, y ArcFace, responsable de la generación de \textit{embeddings} faciales que representan la identidad de cada individuo. Ambos modelos son redes profundas preentrenadas sobre grandes conjuntos de datos, lo que garantiza una alta precisión y robustez frente a variaciones de iluminación, distancia o expresión facial\cite{urgel2021}.
+En esta investigación, el aprendizaje profundo constituye un pilar esencial para la desarrollo del prototipo \textit{Sistema de Asistencia Basado en Reconocimiento Facial para la FPUNE}. Se emplearon dos modelos basados en redes neuronales convolucionales: YOLOv8n-Face, encargado de la detección de rostros en tiempo real, y ArcFace, responsable de la generación de \textit{embeddings} faciales que representan la identidad de cada individuo. Ambos modelos son redes profundas preentrenadas sobre grandes conjuntos de datos, lo que garantiza una alta precisión y robustez frente a variaciones de iluminación, distancia o expresión facial\cite{urgel2021}.
 
 \begin{figure}[H]
   \centering
@@ -382,8 +382,8 @@ La Visión por Computadora es una disciplina de la IA que permite a las máquina
 A través de modelos entrenados, una computadora puede entender patrones visuales y tomar decisiones basadas en imágenes capturadas del entorno\cite{mora2002}.
 
 En el contexto de esta investigación, la visión por computadora constituye la base técnica para el desarrollado del prototipo del Sistema de Asistencia Basado en Reconocimiento Facial para la FPUNE.
-Mediante el uso de redes neuronales convolucionales y técnicas de procesamiento de imágenes, el sistema es capaz de detectar y reconocer los rostros de los estudiantes a partir de la cámara utilizada en el aula.
-Posteriormente, los rostros identificados se comparan con una base de datos para registrar automáticamente la asistencia, reduciendo la intervención manual y agilizando los procesos administrativos dentro de la institución educativa.
+Mediante el uso de redes neuronales convolucionales y técnicas de procesamiento de imágenes, el sistema fue capaz de detectar y reconocer los rostros de los estudiantes a partir de la cámara utilizada en el aula.
+Posteriormente, los rostros identificados se compararon con una base de datos para registrar automáticamente la asistencia, reduciendo la intervención manual y agilizando los procesos administrativos dentro de la institución educativa.
 
 \textbf{Fases del proceso de Visión por Computadora:}
 
@@ -406,7 +406,7 @@ Posteriormente, los rostros identificados se comparan con una base de datos para
 \begin{itemize}
   \item \textbf{Detección de rostros:} se enfoca en identificar la presencia de uno o varios rostros dentro de una imagen o video. En el sistema desarrollado, esta tarea se realiza mediante el modelo \textbf{YOLOv8n-Face}, el cual localiza las regiones faciales dentro del fotograma capturado por la cámara utilizada en el aula.
 
-  \item \textbf{Reconocimiento de identidad:} clasifica y diferencia los rostros detectados, identificando a qué persona pertenecen. En este proyecto, dicha tarea se lleva a cabo utilizando el modelo \textbf{ArcFace}, que compara las características faciales extraídas con las almacenadas en la base de datos para determinar la identidad del estudiante.
+  \item \textbf{Reconocimiento de identidad:} clasifica y diferencia los rostros detectados, identificando a qué persona pertenecen. En este trabajo, dicha tarea se lleva a cabo utilizando el modelo \textbf{ArcFace}, que compara las características faciales extraídas con las almacenadas en la base de datos para determinar la identidad del estudiante.
 \end{itemize}
 
 

@@ -8,7 +8,7 @@
 
 Para garantizar resultados precisos durante la evaluación del sistema de asistencia basado en reconocimiento facial, se estableció un entorno de pruebas controlado que reprodujo las condiciones reales de funcionamiento dentro de un contexto académico. El objetivo fue analizar el desempeño del sistema, verificando su capacidad para identificar correctamente a los usuarios, registrar la asistencia y mantener la coherencia de los datos obtenidos. Las pruebas se realizaron bajo distintas condiciones de iluminación, ángulo y distancia, repitiéndose en varias sesiones para asegurar resultados consistentes. Se analizaron indicadores como el tiempo de procesamiento, el porcentaje de coincidencias correctas y la tasa de falsos positivos, comprobando también la interacción entre los módulos de detección, reconocimiento y registro. Los resultados obtenidos se presentan a continuación mediante tablas y gráficos que reflejan la precisión, estabilidad y confiabilidad del modelo propuesto.
 
-\section{Figuras y Tablas}
+\section{Entorno de Evaluación y Resultados Iniciales}
 
 La siguiente tabla presenta un resumen de los componentes principales que conforman el entorno de desarrollo y ejecución del sistema. Se incluyen tanto los elementos de software utilizados para la implementación del trabajo como las herramientas necesarias para su funcionamiento, detallando las versiones, librerías y módulos activos durante el proceso de evaluación.
 
@@ -62,7 +62,7 @@ Durante la etapa de pruebas, se identificaron ciertos errores recurrentes en el 
     \end{tabular}
 \end{table}
 
-\begin{table}
+\begin{table}[H]
 \centering
 \caption{Configuración de umbral centrada en 0.45 y resultado esperado [Figura propia].}
 \label{tab:umbral_045}
@@ -71,17 +71,19 @@ Durante la etapa de pruebas, se identificaron ciertos errores recurrentes en el 
 \hline
 \textbf{Umbral ($\texttt{min\_dist} >$ X)} & \textbf{Resultado esperado} & \textbf{Notas} \\ \hline
 
-$> 0.25$ & Reconocimiento muy estricto & Alta precisión, pero puede fallar con cambios leves de luz o expresión. \\ \hline
+$>$ 0.25 & Reconocimiento muy estricto & Alta precisión, pero puede fallar con cambios leves de luz o expresión. \\ \hline
 
-$> 0.35$ & Recomendado en entornos controlados & Mantiene un equilibrio adecuado entre precisión y estabilidad. \\ \hline
+$>$ 0.35 & Recomendado en entornos controlados & Mantiene un equilibrio adecuado entre precisión y estabilidad. \\ \hline
 
-$> 0.45$ & Valor equilibrado & Buen compromiso entre exactitud y tolerancia, utilizado como referencia base del sistema. \\ \hline
+$>$ 0.45 & Valor equilibrado & Buen compromiso entre exactitud y tolerancia, utilizado como referencia base del sistema. \\ \hline
 
-$> 0.60$ & Reconocimiento flexible & Acepta pequeñas variaciones de ángulo o iluminación sin perder confiabilidad. \\ \hline
+$>$ 0.60 & Reconocimiento flexible & Acepta pequeñas variaciones de ángulo o iluminación sin perder confiabilidad. \\ \hline
 
-$> 0.75$ & Reconocimiento permisivo & Mayor tolerancia, con posibilidad de falsos positivos en rostros similares. \\ \hline
+$>$ 0.75 & Reconocimiento permisivo & Mayor tolerancia, con posibilidad de falsos positivos en rostros similares. \\ \hline
 \end{tabular}
 \end{table}
+
+
 
 
 
@@ -280,12 +282,12 @@ En la Figura~\ref{fig:prueba7} se muestra una prueba realizada bajo condiciones 
 
 \textbf{Configuración 8: Prueba con variación en la altura de la cámara}
 
-En la Figura~\ref{fig:prueba8} se muestra una prueba realizada bajo condiciones normales de iluminación, pero con una variación significativa en la posición de la cámara. A diferencia de las pruebas anteriores —donde la cámara se ubicó a la altura de la mesa del profesor—, en esta ocasión se colocó a una altura aproximada de 2,30 metros. A pesar del ángulo descendente, el sistema mantuvo un reconocimiento estable de los participantes registrados, con niveles de similitud superiores al 70\,\%. Esta configuración permitió comprobar la adaptabilidad del modelo ante cambios de perspectiva vertical.
+En la Figura~\ref{fig:prueba8} se muestra una prueba realizada bajo condiciones normales de iluminación, pero con una variación significativa en la posición de la cámara. A diferencia de las pruebas anteriores —donde la cámara se ubicó a la altura de la mesa del profesor—, en esta ocasión se colocó a una altura aproximada de 2.3 metros. A pesar del ángulo descendente, el sistema mantuvo un reconocimiento estable de los participantes registrados, con niveles de similitud superiores al 70\,\%. Esta configuración permitió comprobar la adaptabilidad del modelo ante cambios de perspectiva vertical.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{capitulo_05/resultados_aula/11.jpg}
-    \caption{Prueba con la cámara a una altura de aproximadamente 2,30 metros, mostrando un reconocimiento estable [Figura propia].}
+    \caption{Prueba con la cámara a una altura de aproximadamente 2.3 metros, mostrando un reconocimiento estable [Figura propia].}
     \label{fig:prueba8}
 \end{figure}
 
@@ -315,12 +317,12 @@ En la Figura~\ref{fig:prueba10} se presenta la misma disposición de participant
 
 \textbf{Configuración 11: Prueba con variación de distancia y altura de cámara}
 
-En la Figura~\ref{fig:prueba11} se muestra una prueba realizada con la cámara ubicada a una altura aproximada de 2,20 metros respecto a los participantes, bajo condiciones de iluminación ideales. En esta ocasión participaron nueve personas distribuidas de forma heterogénea en el aula, generando distintas distancias y ángulos con relación a la cámara. De los nueve individuos, seis se encontraban registrados en el sistema, y de ellos tres fueron reconocidos correctamente con una similitud superior al 70\,\%. Aunque la distancia y la perspectiva afectaron el reconocimiento de los demás, el sistema logró mantener detecciones estables y un desempeño satisfactorio en condiciones más exigentes, demostrando su capacidad de adaptación ante escenarios con mayor complejidad espacial.
+En la Figura~\ref{fig:prueba11} se muestra una prueba realizada con la cámara ubicada a una altura aproximada de 2.2 metros respecto a los participantes, bajo condiciones de iluminación ideales. En esta ocasión participaron nueve personas distribuidas de forma heterogénea en el aula, generando distintas distancias y ángulos con relación a la cámara. De los nueve individuos, seis se encontraban registrados en el sistema, y de ellos tres fueron reconocidos correctamente con una similitud superior al 70\,\%. Aunque la distancia y la perspectiva afectaron el reconocimiento de los demás, el sistema logró mantener detecciones estables y un desempeño satisfactorio en condiciones más exigentes, demostrando su capacidad de adaptación ante escenarios con mayor complejidad espacial.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{capitulo_05/resultados_aula/17.jpg}
-    \caption{Prueba con la cámara a 2,20 metros de altura y posiciones diversas de los participantes, evidenciando un desempeño estable [Figura propia].}
+    \caption{Prueba con la cámara a 2.2 metros de altura y posiciones diversas de los participantes, evidenciando un desempeño estable [Figura propia].}
     \label{fig:prueba11}
 \end{figure}
 

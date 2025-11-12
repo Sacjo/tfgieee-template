@@ -90,10 +90,6 @@ Como se observa en la Figura~\ref{fig:scrum}, esta plataforma facilitó la coord
   El backend fue desarrollado con el framework Flask, encargado de gestionar las solicitudes, procesar las imágenes y registrar los datos en la base de datos PostgreSQL.  
   El frontend fue implementado en React, ofreciendo una interfaz moderna e interactiva que permite visualizar la cámara en tiempo real, gestionar usuarios y consultar asistencias registradas.
 
-  \item Pruebas y validación \\
-  Se realizaron pruebas funcionales en entornos controlados para verificar el desempeño de detección y reconocimiento facial bajo diferentes condiciones de iluminación y distancia.  
-  Posteriormente, se llevó a cabo una prueba piloto en un aula de la FPUNE, registrando en tiempo real la asistencia de los estudiantes mediante reconocimiento facial.  
-  Los resultados obtenidos permitieron ajustar los umbrales de similitud y optimizar la precisión del sistema, reduciendo la tasa de falsos positivos y mejorando la eficiencia general del proceso.
 \end{itemize}
 
 
@@ -259,6 +255,8 @@ Para el funcionamiento del sistema de reconocimiento facial, fue necesario dispo
 
 Las imágenes se obtuvieron con cámaras externas (teléfonos móviles, webcams o cámaras digitales) y posteriormente se cargan al sistema mediante el módulo de registro de nuevos estudiantes. Durante este proceso se verifica el formato y un tamaño mínimo recomendado para preservar los rasgos faciales. Cada archivo se organizó en una carpeta individual asociada al usuario correspondiente y se nombra de forma sistemática, facilitando su identificación y el procesamiento posterior.
 
+Todas las capturas fueron realizadas cumpliendo las normas éticas establecidas para el desarrollo del trabajo y con consentimiento verbal informado de los participantes, garantizando el uso responsable y confidencial de los datos obtenidos.
+
 En la Figura~\ref{fig:rostro_original} se muestra un ejemplo de una imagen facial capturada al natural durante el proceso de registro, mientras que la Figura~\ref{fig:rostro_normalizado} presenta el resultado tras aplicar el preprocesamiento correspondiente.
 
 \begin{figure}[H]
@@ -288,7 +286,8 @@ El entrenamiento del modelo constituye una etapa esencial del sistema, ya que pe
     \item \textbf{Entorno:} Visual Studio Code (ejecución local con GPU o CPU)
     \item \textbf{Equipo utilizado:} AMD Ryzen 7 7735HS, 16 GB RAM, SSD 512 GB, Windows 11 Home
     \item \textbf{Dispositivo de captura:} Cámara web HD 720p para obtención de imágenes faciales en pruebas locales.
-    \item \textbf{Condiciones de iluminación:} Pruebas realizadas entre 300-500\,lux para simular entornos reales de aula.
+    \item \textbf{Condiciones de iluminación:} Pruebas realizadas entre 300–500\,lux para simular entornos reales de aula. 
+La iluminación fue cuantificada utilizando un luxómetro digital portátil modelo \textit{Dr.meter LX1330B}, con lecturas tomadas a una altura aproximada de 1 a 1.5 metros, equivalente al nivel de una mesa, antes de cada sesión experimental.
     \item \textbf{Estructura del dataset:} Imágenes organizadas por usuario en carpetas dentro de \texttt{raw\_faces/} (imágenes originales) y \texttt{known\_faces/} (rostros recortados).
     \item \textbf{Modelo de embeddings:} \textit{ArcFace} (512 dimensiones).
     \item \textbf{Métrica de similitud:} Distancia coseno para comparar embeddings entre el rostro capturado y los centroides registrados.
@@ -609,146 +608,6 @@ El desarrollo de la interfaz se organizó en módulos funcionales, cada uno repr
   \item \textbf{Registro de nuevos usuarios:} se dispone de un formulario que permite crear nuevas cuentas, asignar roles y definir permisos.
   \item \textbf{Uso de los módulos principales:} dentro del panel lateral de navegación se encuentran las opciones Dashboard, {Reconocimiento Facial}, {Registrar Estudiante}, {Registrar Rol}, {Registrar Curso}, {Registrar Horario}, {Registrar Asistencia} y {Asignar Curso}.
 \end{itemize}
-
-
-- \textbf{Interfaz de inicio de sesión:} 
-Es el punto de acceso principal al sistema y permite a los usuarios ingresar de forma segura mediante un formulario simple con campos de usuario y contraseña.  
-La autenticación se realiza a través de una solicitud al servidor, que valida las credenciales antes de conceder el acceso.  
-El diseño minimalista y centrado ofrece una experiencia fluida y adaptable a distintos dispositivos.
-
-  \begin{figure}[H]
-    \centering
-    \includegraphics[width=1\textwidth]{imagenes_doc/login.png}
-    \caption{Interfaz de inicio de sesión del sistema [Imagen propia].}
-    \label{fig:login}
-  \end{figure}
-
-
-
-- \textbf{Registro de usuario:}  
-  Permite la creación de nuevas cuentas a través de un formulario simple con validaciones básicas, como campos obligatorios y longitud mínima de la contraseña.  
-  Al confirmar, los datos se envían al servidor para su almacenamiento seguro, y la vista incluye un enlace que permite volver al inicio de sesión.
-
-
-  \begin{figure}[H]
-    \centering
-    \includegraphics[width=1\textwidth]{imagenes_doc/new_user.png}
-    \caption{Formulario de registro de usuario [Imagen propia].}
-    \label{fig:new_user}
-  \end{figure}
-
-
-
-\textbf{Dashboard:}  
-Es la primera vista disponible tras el inicio de sesión y proporciona una visión general del registro de asistencias mediante gráficos y listados interactivos.  
-Centraliza la información y permite analizar la asistencia diaria aplicando filtros por curso y rango de fechas.
-
-La Figura~\ref{fig:dashboard1} muestra un gráfico de barras con las asistencias por día.  
-Los filtros superiores delimitan el período de consulta y los registros visualizados.  
-Los datos exhibidos son demostrativos y se utilizan únicamente con fines ilustrativos.
-
-
-  \begin{figure}[H]
-    \centering
-    \includegraphics[width=1\textwidth]{imagenes_doc/dashboard_1.png}
-    \caption{Gráfico de asistencias por día en el módulo Dashboard [Imagen propia].}
-    \label{fig:dashboard1}
-  \end{figure}
-
-  En la Figura~\ref{fig:dashboard2} se muestra la lista de estudiantes con sus asistencias registradas, curso correspondiente y porcentaje de asistencia. 
-  La tabla incluye opciones para exportar los datos en distintos formatos (\texttt{CSV}, \texttt{XLSX} y \texttt{PDF}), lo que facilita la generación de reportes y su posterior análisis. 
-  Los datos visualizados son únicamente de prueba y no representan información real.
-
-  \begin{figure}[H]
-    \centering
-    \includegraphics[width=1\textwidth]{imagenes_doc/dashboard_2.png}
-    \caption{Listado de estudiantes y asistencias registradas en el módulo Dashboard [Imagen propia].}
-    \label{fig:dashboard2}
-  \end{figure}
-
-
-  - \textbf{Reconocimiento facial:}
-  este módulo permite realizar el proceso automático de detección y reconocimiento de rostros a través de la cámara del dispositivo. 
-  Al iniciar el reconocimiento, el sistema analiza la imagen capturada en tiempo real, identifica el rostro y compara sus características con los registros existentes en la base de datos. 
-  Si la persona es reconocida correctamente, el sistema muestra una confirmación visual y registra la asistencia correspondiente al curso asignado para ese día. 
-  En caso contrario, se notifica al usuario que el rostro no fue reconocido.
-
-  Esta funcionalidad permite automatizar el registro de asistencias, evitando el ingreso manual de datos y reduciendo el margen de error. 
-  El flujo completo se ejecuta de forma local y en tiempo real, ofreciendo una experiencia fluida y precisa.
-
-  \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.9\textwidth]{imagenes_doc/CLASE2_PRUEBA.jpg}
-    \caption{Módulo de reconocimiento facial automático [Imagen propia].}
-    \label{fig:reconocimiento}
-  \end{figure}
-
-
-- \textbf{Registrar rol:}
-  Permite crear nuevos roles del sistema y gestionar los existentes. 
-  Incluye un formulario para ingresar la descripción del rol y una tabla con acciones de \textit{Editar} y \textit{Eliminar} sobre cada registro. 
-  Ofrece validaciones básicas y confirma las operaciones realizadas para mantener la integridad de los datos.
-
-  \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.9\textwidth]{imagenes_doc/roles.png}
-    \caption{Gestión de roles: registro, edición y eliminación [Imagen propia].}
-    \label{fig:roles}
-  \end{figure}
-
-
-
-- \textbf{Registrar curso:}  
-  Permite crear nuevos cursos indicando el nombre del curso, la carrera y el semestre.  
-  Presenta además un listado de cursos registrados con acciones de edición y eliminación, lo que facilita la administración de la oferta académica.
-
-  \begin{figure}[H]
-    \centering
-    \includegraphics[width=1\textwidth]{imagenes_doc/new_curso.png}
-    \caption{Registro y gestión de cursos [Imagen propia].}
-    \label{fig:new_curso}
-  \end{figure}
-
-
- - \textbf{Registrar horario:}  
-  Permite asignar horarios a los cursos definidos en el sistema.  
-  El formulario incluye los campos curso, día, hora de inicio, hora de fin y aula, garantizando una adecuada organización de las clases.  
-  En la parte inferior se muestra una tabla con los horarios registrados, que puede filtrarse por curso, día o aula.
-
-  \begin{figure}[H]
-    \centering
-    \includegraphics[width=1\textwidth]{imagenes_doc/horario_curso.png}
-    \caption{Registro y gestión de horarios por curso[Imagen propia].}
-    \label{fig:horario_curso}
-  \end{figure}
-
-
--- \textbf{Registrar asistencia:}  
-  Permite ingresar asistencias de forma manual en casos excepcionales, como cuando un estudiante no fue reconocido por el sistema o necesita justificar una llegada tardía.  
-  El formulario incluye los campos estudiante, curso, fecha y una sección opcional de observación para registrar detalles adicionales.  
-  Este módulo garantiza que los registros de asistencia sean completos y precisos, incluso ante situaciones imprevistas.
-
-  \begin{figure}[H]
-    \centering
-    \includegraphics[width=1\textwidth]{imagenes_doc/registrar_asistencia.png}
-    \caption{Módulo de registro manual de asistencias [Imagen propia].}
-    \label{fig:registrar_asistencia}
-  \end{figure}
-
-
-- \textbf{Asignar curso:}  
-  Permite vincular a los participantes con los cursos disponibles en el sistema.  
-  El formulario presenta los campos participante y curso, que se seleccionan de listas desplegables para asegurar la coherencia de los datos.  
-  Esta funcionalidad facilita la organización académica al definir de manera precisa qué estudiantes pertenecen a cada curso.
-
-  \begin{figure}[H]
-    \centering
-    \includegraphics[width=1\textwidth]{imagenes_doc/asignar_.png}
-    \caption{Asignación de cursos a participantes [Imagen propia].}
-    \label{fig:asignar}
-  \end{figure}
-
-
 
 
 

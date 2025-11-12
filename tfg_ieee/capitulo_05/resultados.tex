@@ -8,6 +8,141 @@
 
 Para garantizar resultados precisos durante la evaluación del sistema de asistencia basado en reconocimiento facial, se estableció un entorno de pruebas controlado que reprodujo las condiciones reales de funcionamiento dentro de un contexto académico. El objetivo fue analizar el desempeño del sistema, verificando su capacidad para identificar correctamente a los usuarios, registrar la asistencia y mantener la coherencia de los datos obtenidos. Las pruebas se realizaron bajo distintas condiciones de iluminación, ángulo y distancia, repitiéndose en varias sesiones para asegurar resultados consistentes. Se analizaron indicadores como el tiempo de procesamiento, el porcentaje de coincidencias correctas y la tasa de falsos positivos, comprobando también la interacción entre los módulos de detección, reconocimiento y registro. Los resultados obtenidos se presentan a continuación mediante tablas y gráficos que reflejan la precisión, estabilidad y confiabilidad del modelo propuesto.
 
+\section{Interfaz y funcionalidades del sistema}
+
+El sistema desarrollado cuenta con una interfaz web moderna e intuitiva, diseñada para facilitar la gestión de usuarios, cursos y asistencias. 
+A continuación, se presentan las principales vistas y módulos funcionales que conforman la versión final del sistema \textit{CheckFace}. 
+Cada componente fue implementado siguiendo criterios de usabilidad, accesibilidad y consistencia visual.
+
+\textbf{Interfaz de inicio de sesión.}
+La interfaz de inicio de sesión constituye el punto de acceso principal al sistema y permite a los usuarios autenticarse de manera segura mediante un formulario con campos de nombre de usuario y contraseña. El proceso de validación se realiza a través de una solicitud al servidor, que verifica las credenciales antes de otorgar el acceso. El diseño minimalista y centrado proporciona una experiencia fluida y adaptable a distintos dispositivos.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\textwidth]{imagenes_doc/login.png}
+\caption{Interfaz de inicio de sesión del sistema [Figura propia].}
+\label{fig:login}
+\end{figure}
+
+
+
+\textbf{Registro de usuario:}  
+  El módulo de registro de usuario posibilita la creación de nuevas cuentas a través de un formulario con validaciones básicas, como campos obligatorios y verificación de la longitud mínima de la contraseña. Al confirmar el registro, los datos se envían al servidor para su almacenamiento seguro, y la vista incluye un enlace que permite regresar a la pantalla de inicio de sesión.
+
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{imagenes_doc/new_user.png}
+    \caption{Formulario de registro de usuario [Imagen propia].}
+    \label{fig:new_user}
+  \end{figure}
+
+
+
+\textbf{Dashboard:}  
+El \textit{dashboard} constituye la primera vista disponible tras el inicio de sesión y proporciona una visión general del registro de asistencias mediante gráficos y listados interactivos.  
+Este módulo centraliza la información y permite analizar la asistencia diaria aplicando filtros por curso y rango de fechas.  
+
+La Figura~\ref{fig:dashboard1} muestra el gráfico de barras que representa la cantidad de asistencias registradas por día, mientras que los filtros ubicados en la parte superior delimitan el período de consulta y los registros visualizados.  
+Los datos presentados son demostrativos y se incluyen únicamente con fines ilustrativos.
+
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{imagenes_doc/dashboard_1.png}
+    \caption{Gráfico de asistencias por día en el módulo Dashboard [Imagen propia].}
+    \label{fig:dashboard1}
+  \end{figure}
+
+En la Figura~\ref{fig:dashboard2} se observa la sección del panel donde se listan los estudiantes con sus asistencias registradas, el curso correspondiente y el porcentaje de participación.  
+La tabla incorpora opciones para exportar los datos en distintos formatos (\texttt{CSV}, \texttt{XLSX} y \texttt{PDF}), facilitando la generación de reportes y su posterior análisis.  
+Al igual que en la vista anterior, los datos visualizados son de carácter demostrativo y no representan información real.
+
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{imagenes_doc/dashboard_2.png}
+    \caption{Listado de estudiantes y asistencias registradas en el módulo Dashboard [Imagen propia].}
+    \label{fig:dashboard2}
+  \end{figure}
+
+
+\textbf{Reconocimiento facial:}
+  Este módulo ejecuta el proceso automático de detección y reconocimiento de rostros a través de la cámara del dispositivo.
+Al activarlo, el sistema analiza la imagen capturada en tiempo real, identifica el rostro y compara sus características con los registros existentes en la base de datos.
+Si la persona es reconocida correctamente, se muestra una confirmación visual y se registra la asistencia correspondiente al curso asignado para el día.
+En caso contrario, el sistema notifica que el rostro no fue identificado.
+
+Esta funcionalidad permite automatizar el control de asistencias, eliminando el ingreso manual de datos y reduciendo el margen de error.
+Todo el flujo de reconocimiento se ejecuta localmente y en tiempo real, ofreciendo una experiencia precisa y eficiente.
+
+
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{imagenes_doc/CLASE2_PRUEBA.jpg}
+    \caption{Módulo de reconocimiento facial automático [Imagen propia].}
+    \label{fig:reconocimiento}
+  \end{figure}
+
+
+\textbf{Registrar rol:}
+  El módulo de gestión de roles permite crear nuevos perfiles del sistema y administrar los existentes.
+Incluye un formulario para ingresar la descripción del rol y una tabla con opciones de edición y eliminación, asegurando la integridad de los datos mediante confirmaciones previas a cada operación.
+
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{imagenes_doc/roles.png}
+    \caption{Gestión de roles: registro, edición y eliminación [Imagen propia].}
+    \label{fig:roles}
+  \end{figure}
+
+
+
+\textbf{Registrar curso:}  
+ El módulo de cursos permite registrar nuevas asignaturas especificando su nombre, carrera y semestre.
+Incluye además un listado con acciones de edición y eliminación, facilitando la administración académica de las clases.
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{imagenes_doc/new_curso.png}
+    \caption{Registro y gestión de cursos [Imagen propia].}
+    \label{fig:new_curso}
+  \end{figure}
+
+
+\textbf{Registrar horario:}  
+  Este módulo permite asignar horarios a los cursos registrados.
+El formulario contempla los campos curso, día, hora de inicio, hora de fin y aula, garantizando una adecuada organización de las clases.
+La sección inferior presenta una tabla de horarios filtrable por curso, día o aula.
+
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{imagenes_doc/horario_curso.png}
+    \caption{Registro y gestión de horarios por curso[Imagen propia].}
+    \label{fig:horario_curso}
+  \end{figure}
+
+\textbf{Registrar asistencia:}  
+  Este módulo permite ingresar asistencias de forma manual en casos excepcionales, como cuando un estudiante no fue reconocido o requiere justificar una ausencia.
+El formulario incluye los campos estudiante, curso, fecha y observaciones, garantizando la completitud y precisión de los registros.
+
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{imagenes_doc/registrar_asistencia.png}
+    \caption{Módulo de registro manual de asistencias [Imagen propia].}
+    \label{fig:registrar_asistencia}
+  \end{figure}
+
+
+\textbf{Asignar curso:}  
+El módulo de asignación de cursos vincula a los participantes con las materias disponibles en el sistema.
+El formulario permite seleccionar el estudiante y el curso desde listas desplegables, asegurando coherencia en los registros académicos.
+De esta manera, se facilita la organización de los grupos de clase y la administración de las asistencias.
+
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{imagenes_doc/asignar_.png}
+    \caption{Asignación de cursos a participantes [Imagen propia].}
+    \label{fig:asignar}
+  \end{figure}
+
+
 \section{Entorno de Evaluación y Resultados Iniciales}
 
 La siguiente tabla presenta un resumen de los componentes principales que conforman el entorno de desarrollo y ejecución del sistema. Se incluyen tanto los elementos de software utilizados para la implementación del trabajo como las herramientas necesarias para su funcionamiento, detallando las versiones, librerías y módulos activos durante el proceso de evaluación.
@@ -282,7 +417,7 @@ En la Figura~\ref{fig:prueba7} se muestra una prueba realizada bajo condiciones 
 
 \textbf{Configuración 8: Prueba con variación en la altura de la cámara}
 
-En la Figura~\ref{fig:prueba8} se muestra una prueba realizada bajo condiciones normales de iluminación, pero con una variación significativa en la posición de la cámara. A diferencia de las pruebas anteriores —donde la cámara se ubicó a la altura de la mesa del profesor—, en esta ocasión se colocó a una altura aproximada de 2.3 metros. A pesar del ángulo descendente, el sistema mantuvo un reconocimiento estable de los participantes registrados, con niveles de similitud superiores al 70\,\%. Esta configuración permitió comprobar la adaptabilidad del modelo ante cambios de perspectiva vertical.
+En la Figura~\ref{fig:prueba8} se muestra una prueba realizada bajo condiciones normales de iluminación, pero con una variación significativa en la posición de la cámara. A diferencia de las pruebas anteriores donde la cámara se ubicó a la altura de la mesa del profesor, en esta ocasión se colocó a una altura aproximada de 2,3 metros. A pesar del ángulo descendente, el sistema mantuvo un reconocimiento estable de los participantes registrados, con niveles de similitud superiores al 70\,\%. Esta configuración permitió comprobar la adaptabilidad del modelo ante cambios de perspectiva vertical.
 
 \begin{figure}[H]
     \centering
@@ -391,22 +526,8 @@ Como se observa en la Figura~\ref{fig:asistencias}, el sistema generó de forma 
 
 Los resultados de la Tabla~\ref{tab:indicadores} permiten observar que el sistema mantiene un desempeño general adecuado según los parámetros definidos, mostrando estabilidad y coherencia en la generación automática de registros.
 
-Además, se incorporó un panel administrativo (\textit{dashboard}) que permite visualizar en tiempo real los resultados de las asistencias registradas y acceder al historial completo de los datos almacenados en la base de datos. 
-Las Figuras~\ref{fig:dashboard_1} y~\ref{fig:dashboard_2} muestran las vistas principales de este panel, donde se pueden observar los resúmenes estadísticos y los registros individuales generados automáticamente por el sistema.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=1\textwidth]{capitulo_05/imagenes/dashboard_1.png}
-    \caption{Vista principal del dashboard del sistema, mostrando el resumen general de asistencias registradas [Figura propia].}
-    \label{fig:dashboard_1}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=1\textwidth]{capitulo_05/imagenes/dashboard_2.png}
-    \caption{Vista del módulo administrativo del sistema, donde se detallan los registros individuales de asistencia por usuario [Figura propia].}
-    \label{fig:dashboard_2}
-\end{figure}
+Además, el panel administrativo (\textit{dashboard}) descrito previamente en la Sección~\ref{fig:dashboard1} permite visualizar en tiempo real los resultados de las asistencias registradas y acceder al historial completo de los datos almacenados en la base de datos.  
+Esta funcionalidad complementa las métricas presentadas en la Tabla~\ref{tab:indicadores}, brindando un medio visual e interactivo para el análisis de la información registrada por el sistema.
 
 
 

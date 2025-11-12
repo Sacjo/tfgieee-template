@@ -13,7 +13,7 @@
 \contentsline {figure}{\numberline {2.10}{\ignorespaces Formato tradicional de registro de asistencia escolar.\cite {listaAsistenciaEscolar}.}}{26}{figure.caption.21}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Tablero de gestión de tareas del trabajo \textit {CheckFace} en Notion, bajo la metodología ágil Scrum.}}{46}{figure.caption.29}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Tablero de gestión de tareas del trabajo en Notion, bajo la metodología ágil Scrum.}}{46}{figure.caption.29}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Ejemplo de imagen facial capturada al natural [Figura propia].}}{55}{figure.caption.35}%
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Ejemplo de imagen facial luego del proceso de normalización [Figura propia].}}{55}{figure.caption.36}%
 \contentsline {figure}{\numberline {4.4}{\ignorespaces Caso de uso principal del sistema CheckFace[Tabla Propia].}}{63}{figure.caption.43}%
@@ -36,7 +36,7 @@
 \contentsline {figure}{\numberline {5.13}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento [Figura Propia].}}{90}{figure.caption.75}%
 \contentsline {figure}{\numberline {5.14}{\ignorespaces Estricto, buena precisión, pero sensible a luz o expresión [Figura Propia].}}{91}{figure.caption.76}%
 \contentsline {figure}{\numberline {5.15}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento [Figura Propia].}}{92}{figure.caption.77}%
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Equilibrado, balance entre precisión y tolerancia [Figura Propia].}}{92}{figure.caption.78}%
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Equilibrado, balance entre precisión y tolerancia [Figura Propia].}}{93}{figure.caption.78}%
 \contentsline {figure}{\numberline {5.17}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento [Figura Propia].}}{93}{figure.caption.79}%
 \contentsline {figure}{\numberline {5.18}{\ignorespaces Moderadamente flexible, admite pequeñas variaciones [Figura Propia].}}{94}{figure.caption.80}%
 \contentsline {figure}{\numberline {5.19}{\ignorespaces Fragmento de código utilizado para configurar el umbral de reconocimiento [Figura Propia].}}{95}{figure.caption.81}%

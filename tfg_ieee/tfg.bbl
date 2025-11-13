@@ -102,6 +102,12 @@ Domenic Molinaro. (2022) ¿qué es la seguridad biométrica? [en línea].
   Disponible: \url{https://www.avast.com/es-es [...]}
 \BIBentrySTDinterwordspacing
 
+\bibitem{biometriaConceptos}
+\BIBentryALTinterwordspacing
+Conceptos.es. (2024) Biometría. [en línea]. Disponible:
+  \url{https://conceptos.es/biometria}
+\BIBentrySTDinterwordspacing
+
 \bibitem{thalesBiometria}
 \BIBentryALTinterwordspacing
 Thales Group. (2023) Inspiración en biometría. [en línea]. Disponible:
@@ -118,10 +124,29 @@ Thales Group. (2023) Inspiración en biometría. [en línea]. Disponible:
   [...]}
 \BIBentrySTDinterwordspacing
 
+\bibitem{estudyandoSeguridadBiometrica}
+\BIBentryALTinterwordspacing
+Estudyando.com. (2023) Qué es la seguridad biométrica: definición, sistemas
+  y dispositivos. [en línea]. Disponible:
+  \url{https://estudyando.com/que-es-la-seguridad-biometrica-definicion-sistemas-y-dispositivos/}
+\BIBentrySTDinterwordspacing
+
 \bibitem{reconocimientoKaspersky}
 \BIBentryALTinterwordspacing
 Kaspersky. (2024) ¿qué es el reconocimiento facial y cómo funciona? [en
   línea]. Disponible: \url{https://latam.kaspersky.com/resource-center [...]}
+\BIBentrySTDinterwordspacing
+
+\bibitem{tecnobitsReconocimientoFacial}
+\BIBentryALTinterwordspacing
+Tecnobits. (2023) Qué es el reconocimiento facial. [en línea]. Disponible:
+  \url{https://tecnobits.com/que-es-el-reconocimiento-facial/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{azureFaceRecognition}
+\BIBentryALTinterwordspacing
+Microsoft Azure. (2024) What is face recognition? [en línea]. Disponible:
+  \url{https://azure.microsoft.com/es-mx/resources/cloud-computing-dictionary/what-is-face-recognition/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{facialAWS}
@@ -136,12 +161,25 @@ Artificial intelligence. IBM. [en línea]. Disponible:
   \url{https://www.ibm.com/mx-es [...]}
 \BIBentrySTDinterwordspacing
 
+\bibitem{techopediaAI}
+\BIBentryALTinterwordspacing
+Techopedia. (2023) Inteligencia artificial (ai). [en línea]. Disponible:
+  \url{https://www.techopedia.com/es/definicion/inteligencia-artificial-ai}
+\BIBentrySTDinterwordspacing
+
 \bibitem{acevedo2017}
 \BIBentryALTinterwordspacing
 E.~Acevedo, A.~Serna, y E.~Serna. (2017) Principios y características de las
   redes neuronales artificiales. [Accedido: 15 de marzo de 2025]. [en línea].
   Disponible:. [en línea]. Disponible:
   \url{https://www.researchgate.net/profile [...]}
+\BIBentrySTDinterwordspacing
+
+\bibitem{googleML}
+\BIBentryALTinterwordspacing
+Google Developers. (2023) ¿qué es el aprendizaje automático? [en línea].
+  Disponible:
+  \url{https://developers.google.com/machine-learning/intro-to-ml/what-is-ml?hl=es-419}
 \BIBentrySTDinterwordspacing
 
 \bibitem{valverde2019}
@@ -158,6 +196,12 @@ I.~Pérez Borrero y M.~E.~Gegúndez Arias. (2021) Deep learning: fundamentos,
   Disponible:. [en línea]. Disponible: \url{https://www.torrossa.com/it [...]}
 \BIBentrySTDinterwordspacing
 
+\bibitem{awsDeepLearning}
+\BIBentryALTinterwordspacing
+Amazon~Web Services. (2023) ¿qué es el deep learning? [en línea].
+  Disponible: \url{https://aws.amazon.com/es/what-is/deep-learning/}
+\BIBentrySTDinterwordspacing
+
 \bibitem{urgel2021}
 \BIBentryALTinterwordspacing
 J.~H. Urgel. (2021) Calibración de combinaciones de redes neuronales profundas
@@ -170,6 +214,13 @@ J.~H. Urgel. (2021) Calibración de combinaciones de redes neuronales profundas
 M.~Minsky y S.~Papert, \emph{Perceptrons: An Introduction to Computational
   Geometry}.\hskip 1em plus 0.5em minus 0.4em\relax MIT Press, 1969. [en
   línea]. Disponible: \url{https://direct.mit.edu/books [...]}
+\BIBentrySTDinterwordspacing
+
+\bibitem{unamTrabajo}
+\BIBentryALTinterwordspacing
+Universidad Nacional~Autónoma de~México. (2020) Concepto de trabajo. [en
+  línea]. Disponible:
+  \url{https://conceptos.sociales.unam.mx/conceptos_final/598trabajo.pdf}
 \BIBentrySTDinterwordspacing
 
 \bibitem{aiGoogleCloud}
@@ -185,11 +236,24 @@ S.~L. Mora. (2002) Programación de aplicaciones web: historia, principios
   Disponible:. [en línea]. Disponible: \url{https://rua.ua.es/dspace [...]}
 \BIBentrySTDinterwordspacing
 
+\bibitem{recfacesVisionComputadora}
+\BIBentryALTinterwordspacing
+RecFaces. (2023) Visión por computadora: qué es, cómo funciona y soluciones.
+  [en línea]. Disponible:
+  \url{https://recfaces.com/es/articles/vision-computador-soluciones}
+\BIBentrySTDinterwordspacing
+
 \bibitem{registroAsistenciaUTA}
 \BIBentryALTinterwordspacing
 Jonny~Rodolfo Bastidas~Gavilanes. (2019) Registro de asistencia de alumnos por
   medio de reconocimiento facial utilizando visión artificial. UTA. [en
   línea]. Disponible: \url{https://repositorio.uta.edu.ec/jspui [...]}
+\BIBentrySTDinterwordspacing
+
+\bibitem{turegistroAcademicos}
+\BIBentryALTinterwordspacing
+Tu~Registro Escolar. (2023) Los registros académicos. [en línea]. Disponible:
+  \url{https://www.turegistroescolar.com/software-para-el-registro-escolar/los-registros-academicos/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{detecFacialOpenCV}

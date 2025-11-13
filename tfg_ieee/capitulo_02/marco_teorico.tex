@@ -12,7 +12,7 @@
 
 Este capítulo tiene como propósito presentar los conceptos teóricos esenciales y los antecedentes más relevantes que enmarcaron la elaboración de la propuesta. En esta sección se profundiza en los fundamentos del reconocimiento facial como herramienta biométrica y en las tecnologías que posibilitan su aplicación en entornos académicos. Se describen los principios de funcionamiento de los sistemas biométricos, destacando los aspectos técnicos y metodológicos que sustentan el desarrollo de soluciones orientadas a la automatización de procesos institucionales.
 
-Asimismo, se analizan estudios y proyectos previos que han abordado el reconocimiento facial en distintos contextos, tanto a nivel local como internacional, con el fin de identificar enfoques y resultados que aporten referencias valiosas al diseño de la solución planteada. Este análisis permite reconocer los avances y limitaciones existentes, así como las oportunidades de mejora que la presente investigación busca aprovechar, estableciendo así el marco teórico y contextual que sustenta el desarrollo del trabajo.\section{Biometría}
+Asimismo, se analizan estudios previos que han abordado el reconocimiento facial en distintos contextos, tanto a nivel local como internacional, con el fin de identificar enfoques y resultados que aporten referencias valiosas al diseño de la solución planteada. Este análisis permite reconocer los avances y limitaciones existentes, así como las oportunidades de mejora que la presente investigación busca aprovechar, estableciendo así el marco teórico y contextual que sustenta el desarrollo del trabajo.\section{Biometría}
 \subsection{Historia de la biometría}
 La biometría no se puso en práctica en las culturas occidentales hasta finales del siglo XIX, pero era utilizada en China desde al menos el siglo XIV. Un explorador y escritor que respondía al nombre de Joao de Barros escribió que los comerciantes chinos estampaban las impresiones y las huellas de la palma de las manos de los niños en papel con tinta. Los comerciantes hacían esto como método para distinguir entre los niños jóvenes\cite{historiaReconocimiento}.
 
@@ -25,12 +25,13 @@ Funcionaba midiendo de forma precisa ciertas longitudes y anchuras de la cabeza 
 
 \subsection{Concepto de Seguridad Biométrica}
 
-Para abordar el concepto de seguridad biométrica, es fundamental primero comprender qué es la biometría. Es la ciencia del análisis de las características físicas o del comportamiento, propias de cada individuo, con el fin de autenticar su identidad. En el sentido literal y el más simple, la biometría significa la ``medición del cuerpo humano'' \cite{avastSeguridadBiometrica}.
+Para comprender el concepto de seguridad biométrica, resulta necesario partir de la definición general de biometría. Este término hace referencia al estudio y análisis de rasgos físicos o conductuales propios de cada persona, con el propósito de verificar o confirmar su identidad. En su significado más básico, la biometría alude literalmente a la “medición del cuerpo humano” \cite{avastSeguridadBiometrica,biometriaConceptos}.
 
-La biometría es la medición estadística y matemática de características físicas o biológicas únicas con fines de identificación \cite{thalesBiometria}.
+La biometría también puede entenderse como el uso de métodos estadísticos y matemáticos para medir y evaluar características físicas o biológicas que son únicas en cada individuo, con el objetivo de realizar procesos de identificación de manera precisa \cite{biometriaConceptos,thalesBiometria}.
 
 Los datos biométricos son cualquier tipo de información sobre las características físicas de un individuo, como los patrones de la retina, las huellas dactilares y la estructura facial \cite{thalesBiometria}.
 
+En la Figura 2.1 se presenta un ejemplo de un sistema de seguridad biométrica basado en la verificación mediante huella dactilar, utilizado comúnmente para el control de acceso a instalaciones o dispositivos.
 
 \begin{figure}[H]
   \centering
@@ -39,12 +40,7 @@ Los datos biométricos son cualquier tipo de información sobre las característ
   \label{fig:logo}
 \end{figure}
 
-La seguridad biométrica se refiere al uso de características biológicas únicas para la autenticación digital y control de acceso. Los componentes de
-hardware, como las cámaras o los lectores de huellas dactilares, recogen los
-datos biométricos, que se escanean y se comparan algorítmicamente con la
-información contenida en una base de datos. Si los dos conjuntos de datos
-coinciden, se autentica la identidad y se concede el acceso\cite{thalesBiometria}.
-
+La seguridad biométrica consiste en emplear rasgos biológicos únicos de una persona para realizar procesos de autenticación y control de acceso. Para ello se utilizan dispositivos de hardware, como cámaras o lectores de huellas, que capturan los datos biométricos y los procesan mediante algoritmos que comparan dicha información con los registros almacenados en una base de datos. Cuando ambos conjuntos de datos coinciden, la identidad del usuario se valida y se autoriza el acceso correspondiente\cite{thalesBiometria,estudyandoSeguridadBiometrica}.
 
 
 \section{Reconocimiento Facial}
@@ -76,10 +72,7 @@ No es hasta 2010 cuando esta tecnología llega al gran público a través de Fac
 
 \subsection{Concepto del Reconocimiento Facial}
 
-El reconocimiento facial es una manera de identificar o confirmar la identidad 
-de una persona mediante su rostro. Los sistemas de reconocimiento facial
-se pueden utilizar para identificar a las personas en fotos, videos o en tiempo
-real\cite{reconocimientoKaspersky}.
+El reconocimiento facial es un método utilizado para verificar o determinar la identidad de una persona a partir de las características de su rostro. Este tipo de sistemas es capaz de identificar individuos en fotografías, grabaciones de video o incluso en transmisiones en tiempo real, comparando sus rasgos faciales con los datos previamente almacenados\cite{reconocimientoKaspersky,tecnobitsReconocimientoFacial}.
 
 \begin{figure}[H]
   \centering
@@ -90,11 +83,7 @@ real\cite{reconocimientoKaspersky}.
 
 
 
-El reconocimiento facial es una categoría de seguridad biométrica.Otras
-formas de software biométrico incluyen el reconocimiento de voz, el reconocimiento 
-de huellas digitales y el reconocimiento de retina o iris. La tecnología
-se utiliza principalmente para la protección y las fuerzas de seguridad, aunque
-hay un creciente interés en otras áreas de uso\cite{reconocimientoKaspersky}.
+El reconocimiento facial forma parte del conjunto de tecnologías utilizadas en la seguridad biométrica. Existen otras variantes de sistemas biométricos, como el reconocimiento de voz, de huellas digitales o de patrones del iris o la retina. Aunque estas tecnologías se aplican tradicionalmente en ámbitos de protección y seguridad, su uso se ha expandido progresivamente hacia otros sectores y actividades\cite{reconocimientoKaspersky,tecnobitsReconocimientoFacial}.
 
 
 \subsection{Funcionamiento del Reconocimiento Facial}
@@ -128,7 +117,7 @@ De todas las mediciones biométricas, el reconocimiento facial se considera
 el más natural. Esto sigue una lógica intuitiva, ya que normalmente nos reconocemos a nosotros mismos y a los demas mirando las caras, en lugar de
 las huellas digitales y los iris. Se estima que, periódicamente, más de la mitad
 de la población mundial se ve afectada por la tecnología de reconocimiento
-facial \cite{reconocimientoKaspersky}.
+facial \cite{reconocimientoKaspersky,azureFaceRecognition}.
 \end{itemize}
 
 
@@ -153,11 +142,7 @@ reconocimiento facial en forma de pasaportes electrónicos reduce los tiempos de
 
 \subsection{Precisión del Reconocimiento Facial}
 
-Los algoritmos de reconocimiento facial tienen una precisión casi perfecta
-en condiciones ideales. Existe una mayor tasa de éxito en entornos controlados,
-pero generalmente una tasa de rendimiento inferior en el mundo real. Es difícil
-predecir con exactitud la tasa de éxito de esta tecnología, ya que ninguna
-medida única proporciona un panorama completo\cite{reconocimientoKaspersky}.
+Los algoritmos de reconocimiento facial pueden alcanzar niveles muy altos de exactitud cuando operan en condiciones controladas. En entornos bien preparados, su desempeño suele ser más consistente, mientras que en escenarios reales la precisión tiende a disminuir debido a variaciones propias del entorno. Además, no existe un único indicador que permita evaluar de forma completa su efectividad, por lo que resulta complejo determinar una tasa de éxito universal para esta tecnología\cite{reconocimientoKaspersky,azureFaceRecognition}.
 
 
 Por ejemplo, los algoritmos de verificación facial que buscan coincidencias
@@ -181,19 +166,16 @@ tomadas años antes.
 \section{Inteligencia Artificial}
 \subsection{Concepto de la Inteligencia Artificial}
 
-La inteligencia artificial (IA) es un campo de la ciencia relacionado con la creación de computadoras y máquinas que pueden razonar, aprender y actuar de una manera que normalmente requeriría inteligencia humana o que involucra datos cuya escala excede lo que los humanos pueden analizar.
+La inteligencia artificial es una rama de la ciencia orientada al desarrollo de sistemas y máquinas capaces de realizar tareas que normalmente requieren habilidades propias del ser humano, como razonar, aprender o tomar decisiones. También permite trabajar con volúmenes de datos tan grandes que resultan imposibles de analizar manualmente.
 
-La IA es un campo amplio que incluye muchas disciplinas, como la informática, el análisis y la estadística de datos, la ingeniería de hardware y software, la lingüística, la neurociencia y hasta la filosofía y la psicología.
+Se trata de un campo amplio que abarca diversas áreas del conocimiento, entre ellas la informática, la estadística y el análisis de datos, así como disciplinas relacionadas con el hardware, el software, la psicología, la lingüística y la neurociencia, entre otras.
 
-La IA es un conjunto de tecnologías que se basan principalmente en el aprendizaje automático y el aprendizaje profundo, que se usan para el análisis de datos, la generación de predicciones y previsiones, la categorización de objetos, el procesamiento de lenguaje natural, las recomendaciones, la recuperación inteligente de datos y mucho más \cite{aiIBM}.
-
+La inteligencia artificial engloba un conjunto de tecnologías basadas principalmente en el aprendizaje automático y el aprendizaje profundo. Estas herramientas se aplican en actividades como la clasificación de objetos, la generación de predicciones, el análisis de grandes conjuntos de datos, el procesamiento de lenguaje natural, los sistemas de recomendación y la recuperación inteligente de información, entre múltiples usos\cite{aiIBM,techopediaAI}.
 
 
 \subsection{Aprendizaje Automático (Machine Learning)}
 
-El Machine Learning es una subárea de la IA enfocada en el desarrollo de algoritmos y técnicas que permiten a las computadoras aprender automáticamente a partir de los datos, sin necesidad de programación explícita para cada tarea.
-Se basa en el análisis estadístico y en la detección de patrones dentro de conjuntos de datos, con el objetivo de tomar decisiones, realizar predicciones o efectuar clasificaciones con una precisión cada vez mayor a medida que el modelo se entrena y corrige sus errores\cite{acevedo2017}.
-
+El aprendizaje automático es una rama de la inteligencia artificial que se ocupa de crear métodos y algoritmos capaces de aprender directamente a partir de los datos, evitando la necesidad de programar de forma explícita cada una de las tareas que debe realizar un sistema. Su funcionamiento se apoya en técnicas estadísticas y en la identificación de patrones dentro de grandes volúmenes de información, con el fin de generar predicciones, tomar decisiones o clasificar elementos. A medida que el modelo analiza más datos y ajusta sus parámetros, mejora progresivamente su nivel de exactitud\cite{acevedo2017,googleML}.
 
 En el contexto de esta investigación, el Machine Learning constituyó una herramienta esencial para el desarrollo del Sistema de Asistencia Basado en Reconocimiento Facial para la FPUNE.
 A través del aprendizaje automático, se emplean modelos previamente entrenados capaces de detectar y reconocer rostros en imágenes reales con alta precisión, incluso bajo condiciones variables de iluminación, ángulo o expresión facial.
@@ -212,7 +194,7 @@ El aprendizaje automático se puede dividir en tres grandes tipos:
 
 \subsection{Aprendizaje Profundo (Deep Learning)}
 
-Es una subárea del aprendizaje automático que se fundamenta en el uso de redes neuronales artificiales con múltiples capas interconectadas. Estas redes permiten transformar progresivamente los datos de entrada en representaciones de mayor nivel de abstracción, adecuadas para tareas complejas como la clasificación de imágenes o el reconocimiento de patrones\cite{perez2021}.
+Es una rama del aprendizaje automático que utiliza redes neuronales artificiales compuestas por múltiples capas conectadas entre sí. A través de estas capas, los datos iniciales se transforman de manera gradual en representaciones más abstractas y detalladas, lo que permite abordar tareas complejas como la clasificación de imágenes, el reconocimiento de patrones y otros procesos de alto nivel\cite{perez2021,awsDeepLearning}.
 
 Una red neuronal artificial está compuesta por unidades denominadas \textit{nodos}, organizadas en capas de entrada, ocultas y de salida. Cada nodo combina las señales recibidas mediante pesos ajustables, aplica una función de activación y transmite el resultado a las siguientes capas. El entrenamiento se realiza mediante el algoritmo de \textit{retropropagación del error}, que ajusta los pesos para minimizar la diferencia entre la salida esperada y la obtenida. Cuantas más capas y parámetros posee una red, mayor es su capacidad de aprendizaje, siempre que se disponga de suficientes datos y recursos computacionales.
 
@@ -240,7 +222,7 @@ En esta investigación, el aprendizaje profundo constituye un pilar esencial par
 
 \subsection{Redes Neuronales Artificiales}
 
-Una red neuronal es un sistema de neuronas artificiales (a veces llamadas perceptrones), que son nodos de procesamiento que se usan para clasificar y analizar datos. Los datos se ingresan en la primera capa de una red neuronal, y cada perceptrón toma una decisión y, luego, pasa esa información a varios nodos de la siguiente capa. Los modelos de entrenamiento con más de tres capas se denominan redes neuronales profundas o “aprendizaje profundo”. Algunas redes neuronales modernas tienen cientos o miles de capas. La salida de los perceptrones finales permite realizar la tarea impuesta a la red neuronal, como clasificar un objeto o encontrar patrones en los datos\cite{perceptrons1969}.
+Una red neuronal es un modelo compuesto por unidades de procesamiento llamadas neuronas artificiales o perceptrones, las cuales permiten analizar y clasificar información. Los datos ingresan inicialmente en la capa de entrada y, a partir de allí, cada perceptrón procesa la información y la transmite a los nodos de la siguiente capa. Cuando una red está formada por más de tres capas, se la considera una red neuronal profunda o parte del aprendizaje profundo, pudiendo algunas arquitecturas modernas incluir cientos o incluso miles de capas. La información generada por las capas finales permite a la red ejecutar tareas específicas, como identificar objetos o detectar patrones dentro de los datos\cite{perceptrons1969,unamTrabajo}.
 
 \begin{figure}[H]
 \centering
@@ -376,9 +358,9 @@ En las redes generativas adversarias (GAN), se usan dos redes neuronales que com
 
 \subsection{Visión por Computadora}
 
-Es una disciplina de la inteligencia artificial que permite a las máquinas interpretar y analizar imágenes o videos, simulando la percepción visual humana. Su finalidad es automatizar tareas que requieren comprensión visual, como detección, reconocimiento, clasificación o seguimiento de objetos.
+La visión por computadora es un área de la inteligencia artificial que se ocupa de permitir que las máquinas interpreten y analicen imágenes o secuencias de video de manera similar a la percepción visual humana. Su propósito es automatizar procesos que dependen de la comprensión visual, tales como la detección, el reconocimiento, la clasificación o el seguimiento de objetos.
 
-A través de modelos entrenados, una computadora puede entender patrones visuales y tomar decisiones basadas en imágenes capturadas del entorno\cite{mora2002}.
+Mediante modelos entrenados, los sistemas informáticos son capaces de identificar patrones presentes en las imágenes y tomar decisiones basadas en la información que capturan del entorno\cite{mora2002,recfacesVisionComputadora}.
 
 En el contexto de esta investigación, la visión por computadora constituye la base técnica para el desarrollo del prototipo propuesto. Mediante el uso de redes neuronales convolucionales y técnicas de procesamiento de imágenes, el sistema fue capaz de detectar y reconocer los rostros de los estudiantes a partir de la cámara utilizada en el aula. Posteriormente, los rostros identificados se compararon con una base de datos para registrar automáticamente la asistencia, reduciendo la intervención manual y agilizando los procesos administrativos dentro de la institución.
 
@@ -409,7 +391,9 @@ En el contexto de esta investigación, la visión por computadora constituye la 
 
 \section{Registros Académicos.}
 \subsection{Concepto de Registros Académicos.}
-Los registros académicos son la recopilación sistemática de información relacionada con el desempeño, progreso y trayectoria académica de un estudiante. Esta información se almacena en diversos formatos (digitales o físicos) y es administrada por instituciones educativas, como escuelas, colegios, universidades, etc\cite{registroAsistenciaUTA}.
+Los registros académicos consisten en la organización y resguardo de información vinculada al desempeño, evolución y trayectoria escolar de cada estudiante. Estos datos pueden almacenarse en diferentes formatos, tanto digitales como físicos, y son gestionados por diversas instituciones educativas, entre ellas escuelas, colegios y universidades\cite{registroAsistenciaUTA,turegistroAcademicos}.
+
+En la Figura 2.10 se muestra un formato tradicional utilizado para el registro de asistencia escolar, el cual ejemplifica la estructura manual que emplean muchas instituciones educativas para documentar la presencia de los estudiantes en el aula.
 \begin{figure}[H]
   \centering
   \includegraphics[width=1\textwidth]{imagenes_doc/registroimg.jpg}
@@ -447,32 +431,60 @@ Los registros académicos son fundamentales para garantizar la transparencia, la
 
 \section{Antecedentes}
 
-\subsection*{\textit{Detección facial mediante OpenCV.}}
+\subsection*{\textit{Detección facial mediante OpenCV.}} 
 
-El trabajo Detección facial mediante OpenCV, desarrollado como TFG en la FPUNE, se centra en el diseño y desarrollo de un software de detección facial como primer paso en el proceso de reconocimiento de rostros. En este proyecto, se realizó un exhaustivo análisis de los sistemas y técnicas de reconocimiento facial más avanzados en el estado del arte, seleccionando aquellos más relevantes para los objetivos del estudio. Proporciona una descripción detallada de las distintas etapas del proceso y su desarrollo, utilizando la biblioteca OpenCV y la plataforma Java. La principal contribución al trabajo propuesto es el método de detección facial en tiempo real y fuera de línea desde archivos\cite{detecFacialOpenCV}.
+El trabajo denominado Detección facial mediante OpenCV, desarrollado como TFG en la FPUNE, se centra en la creación de un software dedicado exclusivamente a la detección facial como etapa inicial del reconocimiento de rostros. Esta propuesta analiza diversas técnicas y algoritmos disponibles en la biblioteca OpenCV, describiendo su funcionamiento, sus limitaciones y el flujo completo de procesamiento, desde la captura de imágenes hasta la identificación de regiones faciales, utilizando Java como lenguaje principal. Su aporte más relevante es la implementación de un método de detección capaz de operar en tiempo real y también desde archivos, basado en clasificadores tradicionales\cite{detecFacialOpenCV}.
+
+En comparación con la propuesta desarrollada en este trabajo, ambas propuestas comparten el uso de técnicas de visión por computadora y reconocen la detección de rostros como un paso fundamental dentro de los sistemas biométricos. También coinciden en la importancia del funcionamiento en tiempo real.
+
+Sin embargo, existen diferencias notables. El antecedente utiliza métodos clásicos de detección, más sensibles a variaciones de iluminación y postura, mientras que la investigación actual emplea modelos modernos basados en aprendizaje profundo, como YOLOv8n-Face y ArcFace, que ofrecen mayor precisión y robustez. Además, la propuesta analizada previamente se limita únicamente a la detección facial, mientras que la presente investigación desarrolla un sistema completo que incluye reconocimiento, registro automático en base de datos y una plataforma web para la gestión académica.
+
+En síntesis, aunque comparten fundamentos similares, la propuesta actual representa un avance significativo al integrar detección, reconocimiento y automatización del registro de asistencia dentro de un entorno institucional real.
 
 \subsection*{\textit{Sistema de examen en línea con reconocimiento facial.}}
 
-El trabajo Sistema de examen en línea con reconocimiento facial, desarrollado como parte de un proyecto, se centra en el diseño y desarrollo de un sistema web de detección facial para mitigar intentos de fraude en evaluaciones en línea. Utilizando herramientas de código abierto como OpenCV y la plataforma Java, el sistema verifica la identidad del alumno al inicio y durante toda la evaluación, detectando tanto la ausencia del estudiante como la presencia de más de una persona. Este sistema fue probado y evaluado, mostrando resultados favorables en términos de satisfacción de los usuarios\cite{examOnline}.
+El trabajo denominado Sistema de examen en línea con reconocimiento facial se enfoca en el desarrollo de un sistema web diseñado para reducir intentos de fraude en evaluaciones virtuales. Emplea herramientas de código abierto como OpenCV y Java para verificar la identidad del estudiante tanto al inicio como durante toda la prueba, detectando la ausencia del alumno o la presencia de personas no autorizadas. Las evaluaciones realizadas reportaron resultados favorables en cuanto a satisfacción y funcionamiento general\cite{examOnline}.
 
-En relación con el presente, este trabajo constituye un antecedente relevante en el uso de biometría facial aplicada al ámbito educativo. Sin embargo, la propuesta actual amplía dicho enfoque al incorporar técnicas más avanzadas de reconocimiento facial basadas en \textit{Deep Learning} y orientadas a un contexto institucional presencial, permitiendo un proceso automatizado de registro de asistencia con mayor precisión, escalabilidad y robustez operativa.
+En comparación con la propuesta desarrollada en este trabajo, ambas propuestas comparten el uso de biometría facial en el ámbito educativo y la necesidad de operar en tiempo real con un nivel adecuado de fiabilidad. También coinciden en la aplicación de técnicas de detección facial como componente esencial para garantizar control y autenticación de usuarios.
+
+Sin embargo, existen diferencias importantes. El antecedente se orienta exclusivamente a la supervisión de exámenes en línea, mientras que la investigación actual está dirigida al registro automatizado de asistencia en un entorno presencial, lo que conlleva requisitos operativos y escenarios de uso distintos. Además, el antecedente previo utiliza métodos de detección facial tradicionales, mientras que la propuesta actual incorpora modelos basados en aprendizaje profundo, capaces de ofrecer mayor precisión, estabilidad y adaptación a variaciones de iluminación, postura y condiciones del entorno. Finalmente, mientras el sistema de exámenes se limita a la validación de identidad, el desarrollo actual integra detección, reconocimiento y registro automático en base de datos, junto con herramientas de gestión institucional.
+
+En síntesis, ambos trabajos comparten fundamentos comunes, pero la investigación actual presenta un alcance más amplio y un enfoque tecnológico más avanzado, orientado a la automatización integral del control de asistencia.
 
 \subsection*{\textit{Sistema biométrico de reconocimiento facial utilizando redes neuronales artificiales en Raspberry Pi.}}
 
-El trabajo Sistema biométrico de reconocimiento facial utilizando redes neuronales artificiales en Raspberry Pi, desarrollado en una Raspberry Pi 3, se centra en el diseño e implementación de un sistema biométrico de reconocimiento facial. El sistema emplea una cámara para capturar el rostro y utiliza técnicas de inteligencia artificial y visión por computador para identificar a las personas. Para la detección de rostros, se aplica un clasificador tipo cascada, mientras que las redes neuronales convolucionales (RNC) se utilizan para el entrenamiento y reconocimiento de las imágenes faciales. El objetivo principal de este trabajo es reducir el tiempo de identificación y mejorar la precisión en entornos diversos\cite{sistemaBiometricoRaspberry}.
+El trabajo denominado Sistema biométrico de reconocimiento facial utilizando redes neuronales artificiales en Raspberry Pi se desarrolla sobre una Raspberry Pi 3 y se centra en la implementación de un sistema biométrico capaz de identificar personas mediante una cámara integrada. Para la detección de rostros emplea un clasificador en cascada tradicional, mientras que el reconocimiento se realiza mediante redes neuronales convolucionales entrenadas para diferenciar los patrones faciales. El objetivo principal de esta propuesta es reducir el tiempo de identificación y mejorar la precisión en diferentes condiciones de uso\cite{sistemaBiometricoRaspberry}.
 
+En comparación con la propuesta desarrollada en este trabajo, ambos sistemas comparten la utilización de técnicas de inteligencia artificial y visión por computadora para abordar el reconocimiento facial. También coinciden en la búsqueda de un funcionamiento eficiente en tiempo real y en la necesidad de contar con modelos que mantengan una precisión adecuada pese a variaciones en el entorno.
+
+Sin embargo, existen diferencias importantes. El antecedente se implementa en un dispositivo de bajo costo como la Raspberry Pi, lo que limita su capacidad de procesamiento y condiciona el uso de métodos tradicionales de detección facial. En cambio, la investigación actual emplea modelos modernos basados en aprendizaje profundo, como YOLOv8n-Face y ArcFace, que requieren mayor capacidad de cómputo pero ofrecen resultados más precisos y robustos. Además, el trabajo previo se orienta exclusivamente al reconocimiento biométrico individual, mientras que la propuesta actual integra detección, reconocimiento y registro automático en una base de datos, junto con una plataforma web para la gestión académica, ampliando el alcance y la aplicabilidad institucional.
+
+En conjunto, aunque ambos estudios comparten fundamentos relacionados con la identificación facial, la presente investigación avanza hacia una solución más completa y adaptable, orientada a la automatización del control de asistencia en un entorno académico real.
 \sloppy
 \subsection*{\textit{Prototipo de reconocimiento facial para mejorar el control de asistencia de estudiantes en UNIANDES, Quevedo.}}
 
-El trabajo Prototipo de reconocimiento facial para mejorar el control de asistencia en UNIANDES – Quevedo tiene como objetivo diseñar un prototipo de reconocimiento facial para optimizar el control de asistencia de estudiantes y la identificación facial en el laboratorio de cómputo. Este prototipo automatizó el proceso de registro de asistencia de docentes y estudiantes mediante el reconocimiento facial, facilitando la tarea con rapidez y exactitud. El sistema funciona colocando al docente frente a la cámara instalada en la parte exterior del laboratorio, activando por reconocimiento facial el dispositivo que abre la puerta, enciende el aire acondicionado y las luces. Posteriormente, los estudiantes se colocan uno por uno frente a la cámara, que detecta sus rostros y los compara con los datos almacenados en la base de datos\cite{prototipoUNIANDES}.
+El trabajo denominado Prototipo de reconocimiento facial para mejorar el control de asistencia en UNIANDES – Quevedo tiene como finalidad diseñar un sistema que optimice el registro de asistencia mediante reconocimiento facial. Este prototipo automatiza el proceso tanto para docentes como para estudiantes, permitiendo la identificación de cada persona frente a una cámara ubicada en el acceso del laboratorio de cómputo. Al reconocer al docente, el sistema activa la apertura de la puerta y enciende los dispositivos del laboratorio; posteriormente, los estudiantes se presentan uno por uno para registrar su asistencia comparando los rostros detectados con la base de datos existente\cite{prototipoUNIANDES}.
 
+En comparación con la propuesta desarrollada en este trabajo, ambas propuestas comparten el uso del reconocimiento facial para automatizar procesos académicos y reducir la intervención manual. También coinciden en la necesidad de lograr una detección confiable y una identificación precisa para garantizar un registro adecuado.
+
+Sin embargo, existen diferencias importantes. El sistema de UNIANDES se orienta a la automatización del acceso físico y al control de asistencia en un laboratorio específico, mientras que la presente investigación se enfoca en un entorno de aula más amplio, integrando una plataforma web de gestión, almacenamiento centralizado de datos y módulos adicionales como la visualización de reportes. Asimismo, el antecedente utiliza un prototipo con un conjunto de funcionalidades acopladas al hardware del laboratorio, mientras que el trabajo actual incorpora modelos modernos de aprendizaje profundo y una arquitectura cliente-servidor que permite una mayor escalabilidad y flexibilidad operativa.
+
+En síntesis, aunque ambas propuestas comparten la finalidad de mejorar el control de asistencia mediante tecnologías biométricas, la presente investigación abarca un alcance más amplio y una infraestructura más completa, orientada a su integración dentro de procesos institucionales de uso cotidiano.
 \subsection*{\textit{Registro de asistencia de alumnos por medio de reconocimiento facial utilizando visión artificial.}}
+El trabajo denominado Sistema de control de asistencia para alumnos utilizando reconocimiento facial desarrolla una solución basada en reconocimiento facial para registrar la asistencia de estudiantes. Implementado sobre una Raspberry Pi 3, emplea técnicas como HOG y redes neuronales convolucionales para capturar y comparar imágenes faciales en tiempo real. Este sistema busca ofrecer un método eficiente, preciso y adaptable para instituciones educativas, optimizando el proceso de control de asistencia y reduciendo la intervención manual\cite{registroAsistenciaUTA}.
 
-El trabajo Sistema de control de asistencia para alumnos utilizando reconocimiento facial se centra en el desarrollo de un sistema que emplea reconocimiento facial para registrar la asistencia de estudiantes. Implementado con redes neuronales artificiales como HOG y CNN en una Raspberry Pi 3, este proyecto busca ofrecer una solución eficiente y en tiempo real. Utilizando tecnología de visión artificial, el sistema captura y compara imágenes faciales, proporcionando un control preciso de asistencia. Diseñado para instituciones educativas, este sistema destaca por ser robusto, flexible y por optimizar la gestión de estudiantes, mejorando la eficiencia en el registro de asistencia\cite{registroAsistenciaUTA}.
+En comparación con la propuesta desarrollada en este trabajo, ambos sistemas comparten el uso de técnicas de visión por computadora y redes neuronales para automatizar el registro de asistencia. También coinciden en la necesidad de un funcionamiento estable en tiempo real y en la intención de mejorar la eficiencia en entornos académicos.
+
+Sin embargo, existen diferencias importantes. El antecedente se ejecuta en una Raspberry Pi, lo que limita su capacidad de procesamiento y condiciona el uso de modelos más simples. En cambio, la investigación actual aprovecha modelos contemporáneos basados en aprendizaje profundo, como YOLOv8n-Face y ArcFace, que ofrecen mayor precisión y robustez en escenarios reales de aula. Además, mientras el sistema previo se centra exclusivamente en el registro de asistencia, la propuesta desarrollada incorpora una arquitectura cliente-servidor, una base de datos centralizada y una interfaz web que permite administrar cursos, usuarios y reportes, ampliando significativamente su alcance institucional.
+
+En síntesis, aunque ambos trabajos buscan resolver problemas similares mediante reconocimiento facial, la presente investigación abarca un diseño más completo, escalable y adaptable a las necesidades de una institución académica moderna.
 
 \subsection*{\textit{Reconocimiento facial para la automatización del registro de asistencia a clases.}}
 
-El trabajo Sistema piloto de registro automático de asistencia a clases presenciales FRARCA se desarrolló como un sistema basado en técnicas de detección y reconocimiento facial mediante modelos de aprendizaje profundo. Diseñado con una arquitectura modular, integra herramientas como contenedores y el lenguaje de programación Python, junto con los frameworks FastAPI y Django, además de frameworks de Machine Learning como Keras, TensorFlow, PyTorch, OpenCV y MXNet. El proceso de identificación se realiza mediante la extracción y almacenamiento de características faciales en bases de datos, comparando similitudes entre vectores de características (embeddings). Esto permite eliminar la necesidad de reentrenar las redes neuronales convolucionales con cada nuevo alumno, optimizando la eficiencia del sistema\cite{automatizacionAsistencia}.
+Este antecedente presenta un sistema piloto de registro automático de asistencia a clases presenciales basado en técnicas de detección y reconocimiento facial mediante modelos de aprendizaje profundo. Su arquitectura modular integra contenedores, Python y frameworks como FastAPI y Django, así como herramientas de aprendizaje automático entre las que se incluyen Keras, TensorFlow, PyTorch, OpenCV y MXNet. El proceso de identificación se realiza mediante la extracción y almacenamiento de características faciales en forma de vectores, comparando similitudes entre ellos para reconocer a cada persona sin necesidad de reentrenar continuamente las redes neuronales\cite{automatizacionAsistencia}.
 
+En comparación con la propuesta desarrollada en este trabajo, ambos sistemas comparten el uso de modelos modernos de aprendizaje profundo y el empleo de embeddings faciales para realizar la identificación, lo que permite un funcionamiento eficiente sin reentrenamiento para cada nuevo usuario. También coinciden en buscar un desempeño confiable en tiempo real y en utilizar arquitecturas modulares.
 
-En síntesis, los antecedentes revisados evidencian avances significativos en técnicas de detección e identificación facial aplicadas a diversos contextos; sin embargo, la mayoría de las propuestas no integran una solución completa orientada al control de asistencia académica. La presente investigación se distingue al unificar, en un mismo sistema, el reconocimiento facial, el registro automatizado de asistencia y el almacenamiento centralizado de datos en línea, aportando un enfoque integral para la gestión académica.
+Sin embargo, existen diferencias relevantes. El sistema piloto analizado se orienta a un entorno experimental con múltiples frameworks especializados, mientras que la presente investigación apuesta por un diseño más liviano y adaptado al contexto institucional, basado en una arquitectura cliente-servidor que facilita la implementación y el mantenimiento. Asimismo, el desarrollo actual integra no solo el reconocimiento facial, sino también el registro automático en una base de datos centralizada y una plataforma web para la gestión académica, ampliando su alcance y su aplicabilidad en aulas de clase.
+
+En síntesis, aunque este antecedente comparte principios tecnológicos avanzados, la propuesta desarrollada en esta investigación se distingue por ofrecer una solución integral orientada a la automatización del control de asistencia dentro de una institución educativa.

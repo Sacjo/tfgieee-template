@@ -10,8 +10,8 @@ Para garantizar resultados precisos durante la evaluación del sistema de asiste
 
 \section{Interfaz y funcionalidades del sistema}
 
-El sistema desarrollado cuenta con una interfaz web moderna e intuitiva, diseñada para facilitar la gestión de usuarios, cursos y asistencias. 
-A continuación, se presentan las principales vistas y módulos funcionales que conforman la versión final del sistema \textit{CheckFace}. 
+El sistema desarrollado cuenta con una interfaz web moderna e intuitiva, diseñada para facilitar la gestión de usuarios, cursos y asistencias.
+A continuación, se presentan las principales vistas y módulos funcionales que conforman la versión final del sistema.
 Cada componente fue implementado siguiendo criterios de usabilidad, accesibilidad y consistencia visual.
 
 \textbf{Interfaz de inicio de sesión.}
@@ -20,7 +20,7 @@ La interfaz de inicio de sesión constituye el punto de acceso principal al sist
 \begin{figure}[H]
 \centering
 \includegraphics[width=1\textwidth]{imagenes_doc/login.png}
-\caption{Interfaz de inicio de sesión del sistema [Figura propia].}
+\caption{Interfaz de inicio de sesión del sistema Fuente:[Elaboración Propia].}
 \label{fig:login}
 \end{figure}
 
@@ -149,7 +149,7 @@ La siguiente tabla presenta un resumen de los componentes principales que confor
 
 \begin{table}[H]
     \centering
-    \caption{Componentes de hardware y software utilizados en el sistema [Figura propia].}
+    \caption{Componentes de hardware y software utilizados en el sistema Fuente:[Elaboración Propia].}
     \label{tab:entorno_pruebas}
     \renewcommand{\arraystretch}{1.3}
     \begin{tabular}{|p{4cm}|p{8.7cm}|}
@@ -182,7 +182,7 @@ Durante la etapa de pruebas, se identificaron ciertos errores recurrentes en el 
 
 \begin{table}
     \centering
-    \caption{Errores frecuentes y acciones de mitigación [Figura propia].}
+    \caption{Errores frecuentes y acciones de mitigación Fuente:[Elaboración Propia].}
     \label{tab:errores_ajustes}
     \renewcommand{\arraystretch}{1.3}
     \begin{tabular}{|p{3.5cm}|p{4cm}|p{4.9cm}|}
@@ -199,7 +199,7 @@ Durante la etapa de pruebas, se identificaron ciertos errores recurrentes en el 
 
 \begin{table}[H]
 \centering
-\caption{Configuración de umbral centrada en 0.45 y resultado esperado [Figura propia].}
+\caption{Configuración de umbral centrada en 0.45 y resultado esperado Fuente:[Elaboración Propia].}
 \label{tab:umbral_045}
 \renewcommand{\arraystretch}{1.3}
 \begin{tabular}{|p{2.3cm}|p{5cm}|p{5cm}|}
@@ -234,7 +234,7 @@ En esta primera configuración se utilizó un umbral de similitud de 0.25, consi
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{capitulo_05/imagenes/1.jpg}
-    \caption{Fragmento de código utilizado para configurar el umbral de reconocimiento [Figura Propia].}
+    \caption{Fragmento de código utilizado para configurar el umbral de reconocimiento Fuente:[Elaboración Propia].}
 \end{figure}
 
 La Figura 5.2 muestra el resultado obtenido bajo esta configuración. Se observa que el sistema no reconoce a los usuarios registrados, clasificándolos como “Desconocidos”, lo que evidencia que el umbral fijado es demasiado restrictivo para un entorno real. Este comportamiento confirma que, aunque el modelo mantiene un criterio de coincidencia riguroso, su capacidad de reconocimiento efectivo disminuye significativamente al exigir una similitud tan alta entre rostros.
@@ -242,7 +242,7 @@ La Figura 5.2 muestra el resultado obtenido bajo esta configuración. Se observa
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\textwidth]{capitulo_05/imagenes/umbral_1.0_30.jpg}
-    \caption{Muy estricto, reconoce solo rostros casi idénticos [Figura Propia].}
+    \caption{Muy estricto, reconoce solo rostros casi idénticos Fuente:[Elaboración Propia].}
 \end{figure}
 
 
@@ -253,7 +253,7 @@ En esta configuración se empleó un umbral de similitud de 0.35, con el propós
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{capitulo_05/imagenes/2.png}
-    \caption{Fragmento de código utilizado para configurar el umbral de reconocimiento [Figura Propia].}
+    \caption{Fragmento de código utilizado para configurar el umbral de reconocimiento Fuente:[Elaboración Propia].}
 \end{figure}
 
 La Figura 5.4 muestra el comportamiento del sistema bajo esta configuración. Se observa que el modelo logra un equilibrio más adecuado entre precisión y sensibilidad, permitiendo reconocer correctamente a los usuarios en la mayoría de los casos, aunque sigue siendo susceptible a variaciones de luz o expresión facial. Este resultado demuestra que el valor de 0.35 mejora el desempeño general del sistema respecto a la configuración anterior, reduciendo los casos de no reconocimiento sin comprometer la exactitud de las coincidencias.
@@ -261,7 +261,7 @@ La Figura 5.4 muestra el comportamiento del sistema bajo esta configuración. Se
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.85\textwidth]{capitulo_05/imagenes/1.3_min_dist25.jpg}
-    \caption{Estricto, buena precisión, pero sensible a luz o expresión [Figura Propia].}
+    \caption{Estricto, buena precisión, pero sensible a luz o expresión Fuente:[Elaboración Propia].}
 \end{figure}
 
 
@@ -273,7 +273,7 @@ En esta configuración se estableció un umbral de similitud de 0.45, con el obj
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.85\textwidth]{capitulo_05/imagenes/3.png}
-    \caption{Fragmento de código utilizado para configurar el umbral de reconocimiento [Figura Propia].}
+    \caption{Fragmento de código utilizado para configurar el umbral de reconocimiento Fuente:[Elaboración Propia].}
 \end{figure}
 
 La Figura 5.6 muestra los resultados obtenidos con este umbral. Se observa que el sistema logra identificar correctamente a los usuarios registrados, manteniendo un balance adecuado entre precisión y tolerancia. A diferencia de las configuraciones más estrictas, en este caso el reconocimiento es más estable ante variaciones leves en la expresión facial o la iluminación. Este resultado demuestra que un umbral de 0.45 representa una configuración equilibrada para entornos controlados, combinando una detección confiable con una tasa de reconocimiento satisfactoria.
@@ -281,7 +281,7 @@ La Figura 5.6 muestra los resultados obtenidos con este umbral. Se observa que e
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{capitulo_05/imagenes/6.6.jpg}
-    \caption{Equilibrado, balance entre precisión y tolerancia [Figura Propia].}
+    \caption{Equilibrado, balance entre precisión y tolerancia Fuente:[Elaboración Propia].}
 \end{figure}
 
 
@@ -294,7 +294,7 @@ En esta configuración se aplicó un umbral de similitud de 0.60, con el propós
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{capitulo_05/imagenes/4.png}
-    \caption{Fragmento de código utilizado para configurar el umbral de reconocimiento [Figura Propia].}
+    \caption{Fragmento de código utilizado para configurar el umbral de reconocimiento Fuente:[Elaboración Propia].}
 \end{figure}
 
 La Figura 5.8 muestra el comportamiento del sistema bajo este valor de umbral. Se aprecia que el modelo mantiene un reconocimiento estable, identificando correctamente a los usuarios incluso con pequeñas diferencias de expresión o iluminación. Aunque el criterio de coincidencia es más flexible que en configuraciones anteriores, la precisión sigue siendo aceptable, lo que convierte este umbral en una opción adecuada para escenarios de uso cotidiano donde pueden presentarse ligeras variaciones en las condiciones de captura.
@@ -302,7 +302,7 @@ La Figura 5.8 muestra el comportamiento del sistema bajo este valor de umbral. S
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{capitulo_05/imagenes/4.4.jpg}
-    \caption{Moderadamente flexible, admite pequeñas variaciones [Figura Propia].}
+    \caption{Moderadamente flexible, admite pequeñas variaciones Fuente:[Elaboración Propia].}
 \end{figure}
 
 
@@ -313,7 +313,7 @@ En esta última configuración se estableció un umbral de similitud de 0.75, co
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{capitulo_05/imagenes/5.png}
-    \caption{Fragmento de código utilizado para configurar el umbral de reconocimiento [Figura Propia].}
+    \caption{Fragmento de código utilizado para configurar el umbral de reconocimiento Fuente:[Elaboración Propia].}
 \end{figure}
 
 La Figura 5.10 presenta el resultado obtenido con esta configuración. Se observa que el modelo identifica correctamente a los usuarios, aunque con valores de similitud más altos y una mayor propensión a aceptar rostros con diferencias perceptibles. Esto demuestra que, si bien el umbral de 0.75 mejora la detección en escenarios con variaciones de luz o expresión, también incrementa el riesgo de clasificar rostros distintos como coincidentes. Por lo tanto, este umbral resulta útil en entornos informales o con alta variabilidad visual, pero puede no ser el más adecuado cuando se requiere un control riguroso de la precisión.
@@ -321,7 +321,7 @@ La Figura 5.10 presenta el resultado obtenido con esta configuración. Se observ
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{capitulo_05/imagenes/5.5.jpg}
-    \caption{Puede aceptar coincidencias con diferencias notables [Figura Propia].}
+    \caption{Puede aceptar coincidencias con diferencias notables Fuente:[Elaboración Propia].}
 \end{figure}
 
 
@@ -336,7 +336,7 @@ Se presenta una de las primeras pruebas realizadas en el aula, bajo iluminación
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{capitulo_05/resultados_aula/1.jpg}
-    \caption{Prueba inicial del sistema bajo condiciones de iluminación máxima, con detección de personas registradas y no registradas [Figura propia].}
+    \caption{Prueba inicial del sistema bajo condiciones de iluminación máxima, con detección de personas registradas y no registradas Fuente:[Elaboración Propia].}
     \label{fig:prueba1}
 \end{figure}
 
@@ -347,7 +347,7 @@ Se observa una segunda captura tomada en el mismo entorno, manteniendo las condi
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{capitulo_05/resultados_aula/2.jpg}
-    \caption{Segunda prueba con iluminación uniforme, evidenciando estabilidad en las detecciones [Figura propia].}
+    \caption{Segunda prueba con iluminación uniforme, evidenciando estabilidad en las detecciones Fuente:[Elaboración Propia].}
     \label{fig:prueba2}
 \end{figure}
 
@@ -358,7 +358,7 @@ En la Figura~\ref{fig:prueba3} se presenta una prueba en la que los participante
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{capitulo_05/resultados_aula/4.jpg}
-    \caption{Prueba con variaciones leves de postura y uso de accesorios, manteniendo altos niveles de reconocimiento [Figura propia].}
+    \caption{Prueba con variaciones leves de postura y uso de accesorios, manteniendo altos niveles de reconocimiento Fuente:[Elaboración Propia].}
     \label{fig:prueba3}
 \end{figure}
 
@@ -369,7 +369,7 @@ En la Figura~\ref{fig:prueba4} se presenta una prueba en la que la cámara fue u
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{capitulo_05/resultados_aula/5.jpg}
-    \caption{Prueba a mayor distancia, con leve disminución en la similitud pero reconocimiento correcto de los usuarios registrados [Figura propia].}
+    \caption{Prueba a mayor distancia, con leve disminución en la similitud pero reconocimiento correcto de los usuarios registrados Fuente:[Elaboración Propia].}
     \label{fig:prueba4}
 \end{figure}
 
@@ -383,7 +383,7 @@ En la Figura~\ref{fig:prueba5} se muestra una prueba realizada con una iluminaci
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{capitulo_05/resultados_aula/6.jpg}
-    \caption{Prueba con iluminación reducida, mostrando una disminución natural en la precisión de reconocimiento [Figura propia].}
+    \caption{Prueba con iluminación reducida, mostrando una disminución natural en la precisión de reconocimiento Fuente:[Elaboración Propia].}
     \label{fig:prueba5}
 \end{figure}
 
@@ -395,7 +395,7 @@ En la Figura~\ref{fig:prueba6} se presenta la prueba realizada bajo las condicio
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{capitulo_05/resultados_aula/7.jpg}
-    \caption{Prueba con iluminación mínima, donde el sistema no logró reconocer a los participantes [Figura propia].}
+    \caption{Prueba con iluminación mínima, donde el sistema no logró reconocer a los participantes Fuente:[Elaboración Propia].}
     \label{fig:prueba6}
 \end{figure}
 
@@ -410,7 +410,7 @@ En la Figura~\ref{fig:prueba7} se muestra una prueba realizada bajo condiciones 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{capitulo_05/resultados_aula/10.jpg}
-    \caption{Prueba con condiciones normales de iluminación y cambio de posición de los participantes registrados [Figura propia].}
+    \caption{Prueba con condiciones normales de iluminación y cambio de posición de los participantes registrados Fuente:[Elaboración Propia].}
     \label{fig:prueba7}
 \end{figure}
 
@@ -422,7 +422,7 @@ En la Figura~\ref{fig:prueba8} se muestra una prueba realizada bajo condiciones 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{capitulo_05/resultados_aula/11.jpg}
-    \caption{Prueba con la cámara a una altura de aproximadamente 2.3 metros, mostrando un reconocimiento estable [Figura propia].}
+    \caption{Prueba con la cámara a una altura de aproximadamente 2.3 metros, mostrando un reconocimiento estable Fuente:[Elaboración Propia].}
     \label{fig:prueba8}
 \end{figure}
 
@@ -434,7 +434,7 @@ En la Figura~\ref{fig:prueba9} se observa una prueba con un total de ocho partic
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{capitulo_05/resultados_aula/12.jpg}
-    \caption{Prueba con ocho participantes en el encuadre, reconociendo correctamente a los seis usuarios registrados [Figura propia].}
+    \caption{Prueba con ocho participantes en el encuadre, reconociendo correctamente a los seis usuarios registrados Fuente:[Elaboración Propia].}
     \label{fig:prueba9}
 \end{figure}
 
@@ -446,7 +446,7 @@ En la Figura~\ref{fig:prueba10} se presenta la misma disposición de participant
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{capitulo_05/resultados_aula/14.jpg}
-    \caption{Prueba grupal con iluminación mínima, sin reconocimiento exitoso de los usuarios registrados [Figura propia].}
+    \caption{Prueba grupal con iluminación mínima, sin reconocimiento exitoso de los usuarios registrados Fuente:[Elaboración Propia].}
     \label{fig:prueba10}
 \end{figure}
 
@@ -457,7 +457,7 @@ En la Figura~\ref{fig:prueba11} se muestra una prueba realizada con la cámara u
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{capitulo_05/resultados_aula/17.jpg}
-    \caption{Prueba con la cámara a 2.2 metros de altura y posiciones diversas de los participantes, evidenciando un desempeño estable [Figura propia].}
+    \caption{Prueba con la cámara a 2.2 metros de altura y posiciones diversas de los participantes, evidenciando un desempeño estable Fuente:[Elaboración Propia].}
     \label{fig:prueba11}
 \end{figure}
 
@@ -468,7 +468,7 @@ En la Figura~\ref{fig:prueba12} se presenta la última prueba realizada, en la c
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{capitulo_05/resultados_aula/19.jpg}
-    \caption{Prueba final con variación del ángulo de la cámara, mostrando estabilidad en los niveles de similitud [Figura propia].}
+    \caption{Prueba final con variación del ángulo de la cámara, mostrando estabilidad en los niveles de similitud Fuente:[Elaboración Propia].}
     \label{fig:prueba12}
 \end{figure}
 \noindent\textbf{Relación con los objetivos específicos:}  
@@ -485,23 +485,24 @@ Finalmente, la Figura~\ref{fig:asistencias} presenta la tabla de asistencias gen
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{capitulo_05/resultados_aula/registrados.jpg}
-    \caption{Usuarios registrados dentro del sistema de reconocimiento facial [Figura propia].}
+    \caption{Usuarios registrados dentro del sistema de reconocimiento facial Fuente:[Elaboración Propia].}
     \label{fig:registrados}
 \end{figure}
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{capitulo_05/resultados_aula/entrenamiento.jpg}
-    \caption{Procesamiento de imágenes y generación de vectores de características (embeddings) para cada usuario registrado [Figura propia].}
+    \caption{Procesamiento de imágenes y generación de vectores de características (embeddings) para cada usuario registrado Fuente:[Elaboración Propia].}
     \label{fig:entrenamiento}
 \end{figure}
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{capitulo_05/resultados_aula/asistencias.jpg}
-    \caption{Registros de asistencias generados automáticamente por el sistema en la base de datos \textit{CheckFace\_db} [Figura propia].}
+    \caption{Registros de asistencias generados automáticamente por el sistema en la base de datos Fuente:[Elaboración Propia].}
     \label{fig:asistencias}
 \end{figure}
+
 
 Como se observa en la Figura~\ref{fig:asistencias}, el sistema generó de forma automática los registros de asistencia en la base de datos. Para relacionar este comportamiento con los indicadores definidos en la metodología, la Tabla~\ref{tab:indicadores} presenta una síntesis de los resultados obtenidos.
 
@@ -536,7 +537,7 @@ Esta funcionalidad complementa las métricas presentadas en la Tabla~\ref{tab:in
 
 \begin{table}[H]
 \centering
-\caption{Resumen de métricas obtenidas durante las pruebas finales en aula [Tabla Propia].}
+\caption{Resumen de métricas obtenidas durante las pruebas finales en aula Fuente:[Elaboración Propia].}
 \label{tab:metricas_finales}
 \renewcommand{\arraystretch}{1.3}
 \begin{tabular}{|p{2.8cm}|p{5cm}|p{4.6cm}|}

@@ -262,14 +262,14 @@ En la Figura~\ref{fig:rostro_original} se muestra un ejemplo de una imagen facia
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{imagenes_doc/sin_normalizar.png}
-    \caption{Ejemplo de imagen facial capturada al natural [Figura propia].}
+    \caption{Ejemplo de imagen facial capturada al natural Fuente:[Elaboración Propia].}
     \label{fig:rostro_original}
 \end{figure}
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{imagenes_doc/dataset_rostros.jpg}
-    \caption{Ejemplo de imagen facial luego del proceso de normalización [Figura propia].}
+    \caption{Ejemplo de imagen facial luego del proceso de normalización Fuente:[Elaboración Propia].}
     \label{fig:rostro_normalizado}
 \end{figure}
 
@@ -366,9 +366,10 @@ Los resultados obtenidos permitieron comprender las mejoras asociadas a los mét
 
 Los requisitos funcionales representan las acciones que el sistema debe realizar para cumplir su propósito. A partir del análisis de las encuestas y la definición de objetivos, se identificaron los siguientes requisitos funcionales, resumidos en la Tabla~\ref{tab:rf_sistema}.
 
+
 \begin{table}[H]
 \centering
-\caption{Requisitos funcionales del sistema [Tabla propia].}
+\caption{Requisitos funcionales del sistema Fuente:[Elaboración Propia].}
 \label{tab:rf_sistema}
 \begin{tabular}{|c|p{11cm}|}
 \hline
@@ -383,14 +384,16 @@ RF6 & El sistema debe permitir consultar y justificar asistencias desde la inter
 \end{table}
 
 
+
 \subsubsection*{Requisitos no funcionales (RNF)}
 \sloppy
-Los requisitos no funcionales establecen las condiciones de calidad, rendimiento y usabilidad que el sistema debe cumplir para garantizar un funcionamiento eficiente y confiable. La Tabla~\ref{tab:rnf_CheckFace} presenta los principales requisitos no funcionales definidos.
+Los requisitos no funcionales establecen las condiciones de calidad, rendimiento y usabilidad que el sistema debe cumplir para garantizar un funcionamiento eficiente y confiable. La Tabla~\ref{tab:rnf_sistema} presenta los principales requisitos no funcionales definidos.
+
 
 \begin{table}[H]
 \centering
-\caption{Requisitos no funcionales del sistema CheckFace[Tabla Propia].}
-\label{tab:rnf_CheckFace}
+\caption{Requisitos no funcionales del sistema Fuente:[Elaboración Propia].}
+\label{tab:rnf_sistema}
 \begin{tabular}{|c|p{11cm}|}
 \hline
 \textbf{Código} & \textbf{Requisito no funcional} \\ \hline
@@ -402,6 +405,7 @@ RNF4 & La base de datos debe garantizar integridad, seguridad y respaldo de los 
 \end{table}
 
 
+
 \subsection{Caso de Uso Principal del Sistema}
 
 En la Figura~\ref{fig:caso_uso_principal} se representa el caso de uso principal del sistema, en el cual interactúan dos actores principales: el docente y el alumno.  
@@ -409,9 +413,10 @@ En la Figura~\ref{fig:caso_uso_principal} se representa el caso de uso principal
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{capitulo_04/imagenes/5.png}
-    \caption{Caso de uso principal del sistema CheckFace[Tabla Propia].}
+    \caption{Caso de uso principal del sistema Fuente:[Elaboración Propia].}
     \label{fig:caso_uso_principal}
 \end{figure}
+
 
 \subsubsection{Descripción general del caso de uso}
 
@@ -430,22 +435,25 @@ La estructura fue diseñada para garantizar integridad referencial, seguridad y 
 
 La base de datos se compone de siete entidades principales: \textit{roles}, \textit{users}, \textit{participants}, \textit{courses}, \textit{course\_schedules}, \textit{participant\_courses} y \textit{attendances}.  
 Estas entidades reflejan la estructura funcional del sistema, permitiendo asociar estudiantes a cursos, registrar asistencias y controlar los horarios académicos.  
-En la Figura~\ref{fig:der_CheckFace} se muestra el diagrama entidad-relación correspondiente.
+En la Figura~\ref{fig:der_sistema} se muestra el diagrama entidad-relación correspondiente.
+
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{capitulo_04/imagenes/1.png}
-    \caption{Diagrama de Entidad–Relación del sistema CheckFace[imagen propia].}
-    \label{fig:der_CheckFace}
+    \caption{Diagrama de Entidad–Relación del sistema Fuente:[Elaboración Propia].}
+    \label{fig:der_sistema}
 \end{figure}
+
 
 \subsubsection*{Diccionario de datos}
 
 Con el fin de documentar detalladamente la estructura de cada tabla, se elaboró un diccionario de datos que especifica los atributos, tipos de datos y relaciones existentes. A continuación, se describen las tablas principales que conforman la base de datos.
 
+La Tabla 4.8 presenta el diccionario de datos correspondiente a la tabla roles de la base de datos. En ella se describen los atributos que conforman esta entidad, el tipo de dato utilizado para su almacenamiento y la función que cumple cada campo dentro del sistema.
 \begin{table}[H]
 \centering
-\caption{Diccionario de datos de la tabla \textit{roles} [Tabla Propia].}
+\caption{Diccionario de datos de la tabla \textit{roles} Fuente:[Elaboración Propia].}
 \begin{tabular}{|l|l|p{7.4cm}|}
 \hline
 \textbf{Atributo} & \textbf{Tipo de Dato} & \textbf{Descripción} \\ \hline
@@ -454,9 +462,10 @@ description & VARCHAR(120) & Nombre o descripción del rol asignado al usuario. 
 \end{tabular}
 \end{table}
 
+La Tabla 4.9 detalla la estructura de la tabla users utilizada en la base de datos. En ella se especifican los atributos que identifican a cada usuario del sistema, así como sus tipos de datos y la función que cumple cada campo dentro del modelo relacional.
 \begin{table}[H]
 \centering
-\caption{Diccionario de datos de la tabla \textit{users} [Tabla Propia].}
+\caption{Diccionario de datos de la tabla \textit{users} Fuente:[Elaboración Propia].}
 \begin{tabular}{|l|l|p{7.5cm}|}
 \hline
 \textbf{Atributo} & \textbf{Tipo de Dato} & \textbf{Descripción} \\ \hline
@@ -467,9 +476,10 @@ role\_id & INT (FK) & Referencia al rol del usuario en la tabla \textit{roles}. 
 \end{tabular}
 \end{table}
 
+La Tabla 4.10 presenta el diccionario de datos de la tabla participants, donde se detallan los atributos utilizados para registrar la información principal de cada estudiante o participante dentro del sistema. Se incluyen los tipos de datos empleados y la función específica que cumple cada campo, así como su relación con otras tablas del modelo.
 \begin{table}[H]
 \centering
-\caption{Diccionario de datos de la tabla \textit{participants} [Tabla Propia].}
+\caption{Diccionario de datos de la tabla \textit{participants} Fuente:[Elaboración Propia].}
 \begin{tabular}{|l|l|p{7.4cm}|}
 \hline
 \textbf{Atributo} & \textbf{Tipo de Dato} & \textbf{Descripción} \\ \hline
@@ -481,9 +491,11 @@ user\_id & INT (FK) & Relación con el usuario correspondiente en la tabla \text
 \end{tabular}
 \end{table}
 
+
+La Tabla 4.11 presenta el diccionario de datos de la tabla courses, especificando los campos utilizados para identificar cada curso, su denominación, la carrera a la que pertenece y el semestre correspondiente.
 \begin{table}[H]
 \centering
-\caption{Diccionario de datos de la tabla \textit{courses} [Tabla Propia].}
+\caption{Diccionario de datos de la tabla \textit{courses} Fuente:[Elaboración Propia].}
 \begin{tabular}{|l|l|p{7.5cm}|}
 \hline
 \textbf{Atributo} & \textbf{Tipo de Dato} & \textbf{Descripción} \\ \hline
@@ -494,9 +506,13 @@ semester & INT & Semestre académico correspondiente. \\ \hline
 \end{tabular}
 \end{table}
 
+
+
+
+La Tabla 4.12 presenta el diccionario de datos de la tabla course\_schedules, donde se detallan los campos utilizados para registrar los horarios asignados a cada curso. Se especifican los atributos que conforman esta entidad, los tipos de datos empleados y la función de cada campo dentro del sistema académico.
 \begin{table}[H]
 \centering
-\caption{Diccionario de datos de la tabla \textit{course\_schedules} [Tabla Propia].}
+\caption{Diccionario de datos de la tabla \textit{course\_schedules} Fuente:[Elaboración Propia].}
 \begin{tabular}{|l|l|p{7.7cm}|}
 \hline
 \textbf{Atributo} & \textbf{Tipo de Dato} & \textbf{Descripción} \\ \hline
@@ -508,9 +524,11 @@ classroom & VARCHAR(50) & Aula o sala asignada. \\ \hline
 \end{tabular}
 \end{table}
 
+
+La Tabla 4.13 muestra el diccionario de datos de la tabla participant\_courses, encargada de representar la relación entre los participantes y los cursos en los que están matriculados. En ella se especifican los atributos que conforman esta entidad, los tipos de datos utilizados y las referencias a las tablas vinculadas.
 \begin{table}[H]
 \centering
-\caption{Diccionario de datos de la tabla \textit{participant\_courses} [Tabla Propia].}
+\caption{Diccionario de datos de la tabla \textit{participant\_courses} Fuente:[Elaboración Propia].}
 \begin{tabular}{|l|l|p{7.1cm}|}
 \hline
 \textbf{Atributo} & \textbf{Tipo de Dato} & \textbf{Descripción} \\ \hline
@@ -520,9 +538,12 @@ course\_id & INT (FK) & Referencia al curso correspondiente. \\ \hline
 \end{tabular}
 \end{table}
 
+
+
+La Tabla 4.14 presenta el diccionario de datos de la tabla attendances, utilizada para almacenar los registros de asistencia generados por el sistema. En ella se describen los atributos que conforman esta entidad, los tipos de datos empleados y las relaciones que mantiene con otras tablas del modelo académico.
 \begin{table}[H]
 \centering
-\caption{Diccionario de datos de la tabla \textit{attendances} [Tabla Propia].}
+\caption{Diccionario de datos de la tabla \textit{attendances} Fuente:[Elaboración Propia].}
 \begin{tabular}{|l|l|p{7.1cm}|}
 \hline
 \textbf{Atributo} & \textbf{Tipo de Dato} & \textbf{Descripción} \\ \hline
@@ -537,16 +558,17 @@ observations & TEXT & Observaciones adicionales o justificación de inasistencia
 
 \subsection{Diagrama de flujo del funcionamiento del sistema}
 
-La Figura~\ref{fig:flujo_CheckFace} muestra el diagrama de flujo que describe el funcionamiento general del sistema de asistencia. En él se ilustran las etapas principales del proceso automatizado, desde la carga de imágenes de los estudiantes hasta el registro final en la base de datos.
+La Figura~\ref{fig:flujo_sistema} muestra el diagrama de flujo que describe el funcionamiento general del sistema de asistencia. En él se ilustran las etapas principales del proceso automatizado, desde la carga de imágenes de los estudiantes hasta el registro final en la base de datos.
 
 El proceso inicia con la carga de las imágenes faciales a través de la interfaz, las cuales son procesadas para generar representaciones numéricas que permiten su posterior identificación. Luego, el sistema activa la cámara y ejecuta la detección y verificación en tiempo real. Cuando un rostro coincide con un registro existente, el estudiante es marcado como presente; de lo contrario, se clasifica como desconocido, garantizando un control más preciso del registro de asistencia.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{capitulo_04/imagenes/2.png}
-    \caption{Diagrama de flujo del funcionamiento del sistema CheckFace.}
-    \label{fig:flujo_CheckFace}
+    \caption{Diagrama de flujo del funcionamiento del sistema.}
+    \label{fig:flujo_sistema}
 \end{figure}
+
 
 
 \subsection{Desarrollo del backend}
@@ -573,8 +595,8 @@ Las principales funcionalidades implementadas en esta capa incluyen:
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.9\textwidth, height=12cm, keepaspectratio]{imagenes_doc/backend_estructura.png}
-  \caption{Estructura general del trabajo en Visual Studio Code [Imagen propia].}
+  \includegraphics[width=1\textwidth, height=13cm, keepaspectratio]{imagenes_doc/backend_estructura.png}
+  \caption{Estructura general del trabajo en Visual Studio Code Fuente:[Elaboración Propia].}
   \label{fig:backend_estructura}
 \end{figure}
 
@@ -614,22 +636,19 @@ El desarrollo de la interfaz se organizó en módulos funcionales, cada uno repr
 
 \subsection{Líneas de código}
 
-En el Anexo B se incluyen los fragmentos de código más relevantes del sistema, acompañados de una breve descripción de su función dentro del proceso de reconocimiento facial.  
+En el Anexo B se presentan los fragmentos de código más relevantes del sistema, junto con una descripción que explica su función y la lógica que implementan dentro del proceso de reconocimiento facial. Los ejemplos incluyen tanto los módulos encargados del entrenamiento de los rostros registrados como aquellos utilizados en la detección y el reconocimiento en tiempo real.
 
-Los ejemplos corresponden a los módulos principales, encargados del entrenamiento de rostros registrados y del reconocimiento en tiempo real.  
-
-Cada fragmento se presenta con una explicación que facilita la comprensión del flujo de ejecución, desde la lectura de imágenes hasta la identificación de los estudiantes en el aula.
-
+Asimismo, se detalla la forma en que cada componente contribuye al flujo general del sistema, desde la lectura y preparación de imágenes hasta la generación de embeddings, la comparación con la base de datos y la identificación de los estudiantes en el aula. De esta manera, el anexo brinda una visión clara de la implementación técnica y facilita la comprensión del funcionamiento interno del sistema.
 % En el preámbulo asegúrate de tener:
 % \usepackage{tabularx}
 % \usepackage{array}      % para m{...}
 % \usepackage{multirow}
 
 \section{Métricas de Evaluación}
-
+La Tabla 4.15 presenta las métricas consideradas durante el desarrollo y la evaluación del sistema. Estas métricas se organizan por categoría e incluyen tanto indicadores relacionados con el conjunto de datos como parámetros de entrenamiento, desempeño del reconocimiento facial, uso de recursos y validación en condiciones reales.
 \begin{table}[H]
 \centering
-\caption{Métricas consideradas en el desarrollo y evaluación del sistema [Tabla Propia].}
+\caption{Métricas consideradas en el desarrollo y evaluación del sistema Fuente:[Elaboración Propia].}
 \label{tab:metricas-sistema}
 
 \footnotesize

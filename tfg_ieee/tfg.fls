@@ -581,12 +581,12 @@ INPUT .\imagenes_doc\notion.jpg
 INPUT .\imagenes_doc\notion.jpg
 INPUT .\imagenes_doc\notion.jpg
 INPUT .\imagenes_doc\notion.jpg
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
 INPUT .\imagenes_doc\sin_normalizar.png
 INPUT .\imagenes_doc\sin_normalizar.png
 INPUT .\imagenes_doc\sin_normalizar.png

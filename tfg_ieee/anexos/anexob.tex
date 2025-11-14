@@ -12,7 +12,7 @@ Se presenta el bloque inicial del script \texttt{train\_faces}, donde se importa
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{anexos/anexo_b_img/train1.png}
-    \caption{Importaciones principales y definición de rutas base del módulo de entrenamiento \texttt{train\_faces}. Se cargan dependencias para detección y representación facial y se establecen las carpetas de trabajo del pipeline [Figura propia].}
+    \caption{Importaciones principales y definición de rutas base del módulo de entrenamiento \texttt{train\_faces}. Se cargan dependencias para detección y representación facial y se establecen las carpetas de trabajo del pipeline Fuente: [Elaboración Propia].}
     \label{fig:train_faces_imports}
 \end{figure}
 
@@ -24,7 +24,7 @@ Se muestra la función \texttt{recortar\_y\_guardar}, encargada de automatizar e
 \begin{figure}[H]
   \centering
   \includegraphics[width=.9\textwidth]{anexos/anexo_b_img/train2.png}
-  \caption{Función \texttt{recortar\_y\_guardar} del módulo \texttt{train\_faces}, detecta rostros con YOLOv8, recorta y guarda una versión normalizada (\(160\times160\)) para generar embeddings [Figura propia].}
+  \caption{Función \texttt{recortar\_y\_guardar} del módulo \texttt{train\_faces}, detecta rostros con YOLOv8, recorta y guarda una versión normalizada (\(160\times160\)) para generar embeddings Fuente: [Elaboración Propia].}
   \label{fig:train_faces_recorte}
 \end{figure}
 
@@ -37,7 +37,7 @@ Se observa la función \texttt{generar\_embeddings}, la cual transforma los rost
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{anexos/anexo_b_img/train3.png}
-    \caption{Fragmento del código de la función \texttt{generar\_embeddings} del módulo \texttt{train\_faces}, donde se generan las representaciones vectoriales de los rostros utilizando el modelo \texttt{ArcFace} de DeepFace [Figura propia].}
+    \caption{Fragmento del código de la función \texttt{generar\_embeddings} del módulo \texttt{train\_faces}, donde se generan las representaciones vectoriales de los rostros utilizando el modelo \texttt{ArcFace} de DeepFace Fuente: [Elaboración Propia].}
     \label{fig:train_faces_embeddings}
 \end{figure}
 
@@ -48,7 +48,7 @@ En la Figura \ref{fig:train_faces_centroids} se presenta la segunda parte del pr
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{anexos/anexo_b_img/train3.1.png}
-    \caption{Fragmento del código que calcula el centroide facial y actualiza el índice global \texttt{centroids.json} con los nuevos embeddings generados [Figura propia].}
+    \caption{Fragmento del código que calcula el centroide facial y actualiza el índice global \texttt{centroids.json} con los nuevos embeddings generados Fuente: [Elaboración Propia].}
     \label{fig:train_faces_centroids}
 \end{figure}
 
@@ -59,7 +59,7 @@ El fragmento mostrado a continuación contiene las importaciones esenciales y la
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{anexos/anexo_b_img/face1.png}
-    \caption{Importaciones y configuración inicial del módulo \texttt{face\_recognizer}, donde se establecen las rutas a los embeddings y centroides utilizados en la fase de reconocimiento [Figura propia].}
+    \caption{Importaciones y configuración inicial del módulo \texttt{face\_recognizer}, donde se establecen las rutas a los embeddings y centroides utilizados en la fase de reconocimiento Fuente: [Elaboración Propia].}
     \label{fig:face_recognizer_imports}
 \end{figure}
 
@@ -72,7 +72,7 @@ El siguiente bloque corresponde a la función \texttt{load\_centroids}, que se e
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{anexos/anexo_b_img/face2.png}
-    \caption{Función \texttt{load\_centroids} del módulo \texttt{face\_recognizer}, responsable de cargar y normalizar los centroides almacenados para su uso en el proceso de reconocimiento facial [Figura propia].}
+    \caption{Función \texttt{load\_centroids} del módulo \texttt{face\_recognizer}, responsable de cargar y normalizar los centroides almacenados para su uso en el proceso de reconocimiento facial Fuente: [Elaboración Propia].}
     \label{fig:face_recognizer_load}
 \end{figure}
 
@@ -85,7 +85,7 @@ Este fragmento implementa la función \texttt{recognize\_face}, responsable de i
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{anexos/anexo_b_img/face3.png}
-    \caption{Función \texttt{recognize\_face} del módulo \texttt{face\_recognizer}, encargada de generar el embedding del rostro y compararlo con los centroides almacenados mediante la distancia coseno [Figura propia].}
+    \caption{Función \texttt{recognize\_face} del módulo \texttt{face\_recognizer}, encargada de generar el embedding del rostro y compararlo con los centroides almacenados mediante la distancia coseno Fuente: [Elaboración Propia].}
     \label{fig:face_recognizer_single}
 \end{figure}
 
@@ -97,6 +97,6 @@ La siguiente función, denominada \texttt{recognize\_faces\_from\_crops}, permit
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{anexos/anexo_b_img/face4.png}
-    \caption{Función \texttt{recognize\_faces\_from\_crops} del módulo \texttt{face\_recognizer}, utilizada para procesar múltiples rostros detectados en una misma imagen y devolver sus resultados de identificación [Figura propia].}
+    \caption{Función \texttt{recognize\_faces\_from\_crops} del módulo \texttt{face\_recognizer}, utilizada para procesar múltiples rostros detectados en una misma imagen y devolver sus resultados de identificación Fuente: [Elaboración Propia].}
     \label{fig:face_recognizer_multi}
 \end{figure}

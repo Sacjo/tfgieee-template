@@ -2,29 +2,29 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Comparación de lenguajes según los criterios de selección Fuente:[Elaboración propia].}}{39}{table.caption.28}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces Comparación de lenguajes según los criterios de selección Fuente: [Elaboración Propia].}}{39}{table.caption.28}%
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {4.1}{\ignorespaces Resultados principales de los modelos de detección\cite {fatima2024yolov8}.}}{54}{table.caption.30}%
 \contentsline {table}{\numberline {4.2}{\ignorespaces Comparativa de modelos YOLO para detección facial\cite {yolov8face2024}.}}{55}{table.caption.31}%
 \contentsline {table}{\numberline {4.3}{\ignorespaces Rendimiento de modelos YOLO en distintos niveles de dificultad (WIDER Face)\cite {yolov8face2024}.}}{56}{table.caption.32}%
 \contentsline {table}{\numberline {4.4}{\ignorespaces Comparativa de modelos de DeepFace\cite {yolov8face2024}.}}{56}{table.caption.33}%
 \contentsline {table}{\numberline {4.5}{\ignorespaces Comparativa de modelos de DeepFace \cite {yolov8face2024}.}}{57}{table.caption.34}%
-\contentsline {table}{\numberline {4.6}{\ignorespaces Requisitos funcionales del sistema Fuente:[Elaboración Propia].}}{65}{table.caption.40}%
-\contentsline {table}{\numberline {4.7}{\ignorespaces Requisitos no funcionales del sistema Fuente:[Elaboración Propia].}}{66}{table.caption.42}%
-\contentsline {table}{\numberline {4.8}{\ignorespaces Diccionario de datos de la tabla \textit {roles} Fuente:[Elaboración Propia].}}{70}{table.caption.48}%
-\contentsline {table}{\numberline {4.9}{\ignorespaces Diccionario de datos de la tabla \textit {users} Fuente:[Elaboración Propia].}}{70}{table.caption.49}%
-\contentsline {table}{\numberline {4.10}{\ignorespaces Diccionario de datos de la tabla \textit {participants} Fuente:[Elaboración Propia].}}{71}{table.caption.50}%
-\contentsline {table}{\numberline {4.11}{\ignorespaces Diccionario de datos de la tabla \textit {courses} Fuente:[Elaboración Propia].}}{71}{table.caption.51}%
-\contentsline {table}{\numberline {4.12}{\ignorespaces Diccionario de datos de la tabla \textit {course\_schedules} Fuente:[Elaboración Propia].}}{72}{table.caption.52}%
-\contentsline {table}{\numberline {4.13}{\ignorespaces Diccionario de datos de la tabla \textit {participant\_courses} Fuente:[Elaboración Propia].}}{72}{table.caption.53}%
-\contentsline {table}{\numberline {4.14}{\ignorespaces Diccionario de datos de la tabla \textit {attendances} Fuente:[Elaboración Propia].}}{73}{table.caption.54}%
-\contentsline {table}{\numberline {4.15}{\ignorespaces Métricas consideradas en el desarrollo y evaluación del sistema Fuente:[Elaboración Propia].}}{80}{table.caption.59}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces Requisitos funcionales del sistema Fuente: [Elaboración Propia].}}{65}{table.caption.40}%
+\contentsline {table}{\numberline {4.7}{\ignorespaces Requisitos no funcionales del sistema Fuente: [Elaboración Propia].}}{66}{table.caption.42}%
+\contentsline {table}{\numberline {4.8}{\ignorespaces Diccionario de datos de la tabla \textit {roles} Fuente: [Elaboración Propia].}}{70}{table.caption.48}%
+\contentsline {table}{\numberline {4.9}{\ignorespaces Diccionario de datos de la tabla \textit {users} Fuente: [Elaboración Propia].}}{70}{table.caption.49}%
+\contentsline {table}{\numberline {4.10}{\ignorespaces Diccionario de datos de la tabla \textit {participants} Fuente: [Elaboración Propia].}}{71}{table.caption.50}%
+\contentsline {table}{\numberline {4.11}{\ignorespaces Diccionario de datos de la tabla \textit {courses} Fuente: [Elaboración Propia].}}{71}{table.caption.51}%
+\contentsline {table}{\numberline {4.12}{\ignorespaces Diccionario de datos de la tabla \textit {course\_schedules} Fuente: [Elaboración Propia].}}{72}{table.caption.52}%
+\contentsline {table}{\numberline {4.13}{\ignorespaces Diccionario de datos de la tabla \textit {participant\_courses} Fuente: [Elaboración Propia].}}{72}{table.caption.53}%
+\contentsline {table}{\numberline {4.14}{\ignorespaces Diccionario de datos de la tabla \textit {attendances} Fuente: [Elaboración Propia].}}{73}{table.caption.54}%
+\contentsline {table}{\numberline {4.15}{\ignorespaces Métricas consideradas en el desarrollo y evaluación del sistema Fuente: [Elaboración Propia].}}{80}{table.caption.59}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Componentes de hardware y software utilizados en el sistema Fuente:[Elaboración Propia].}}{92}{table.caption.70}%
-\contentsline {table}{\numberline {5.2}{\ignorespaces Errores frecuentes y acciones de mitigación Fuente:[Elaboración Propia].}}{93}{table.caption.71}%
+\contentsline {table}{\numberline {5.1}{\ignorespaces Componentes de hardware y software utilizados en el sistema Fuente: [Elaboración Propia].}}{92}{table.caption.70}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces Errores frecuentes y acciones de mitigación Fuente: [Elaboración Propia].}}{93}{table.caption.71}%
 \contentsline {table}{\numberline {5.3}{\ignorespaces Configuración de umbral centrada en 0.45 y resultado esperado (distancia entre embeddings expresada como valor porcentual). Fuente: [Elaboración Propia].}}{93}{table.caption.72}%
 \contentsline {table}{\numberline {5.4}{\ignorespaces Indicadores de desempeño del sistema durante las pruebas de registro de asistencia.}}{117}{table.caption.98}%
-\contentsline {table}{\numberline {5.5}{\ignorespaces Resumen de métricas obtenidas durante las pruebas finales en aula Fuente:[Elaboración Propia].}}{118}{table.caption.99}%
+\contentsline {table}{\numberline {5.5}{\ignorespaces Resumen de métricas obtenidas durante las pruebas finales en aula Fuente: [Elaboración Propia].}}{118}{table.caption.99}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

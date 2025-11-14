@@ -20,7 +20,7 @@ En síntesis, el prototipo demostró ser una solución técnica factible y benef
 \textbf{1. Seleccionar los algoritmos de reconocimiento facial}
 
 El objetivo se cumplió satisfactoriamente mediante la selección de modelos adecuados para la detección y reconocimiento facial. Se optó por el uso de \textit{YOLOv8n-Face} para la detección de rostros y \textit{ArcFace} para la verificación de identidad, debido a su equilibrio entre exactitud, velocidad de procesamiento y tamaño del modelo.  
-Los resultados experimentales presentados en el Capítulo~5 mostraron que esta combinación alcanzó una precisión promedio del 85.2\,\% y un tiempo de detección de 0.32\,s, evidenciando un desempeño estable y eficiente en condiciones reales de aula. Estas métricas confirman la idoneidad de los algoritmos seleccionados para lograr un reconocimiento facial confiable dentro del contexto académico.
+Los resultados experimentales presentados en el Capítulo~5 mostraron que esta combinación alcanzó una precisión promedio del 84\,\% y un tiempo de detección de 0.32\,s, evidenciando un desempeño estable y eficiente en condiciones reales de aula. Estas métricas confirman la idoneidad de los algoritmos seleccionados para lograr un reconocimiento facial confiable dentro del contexto académico.
 
 \textbf{Conclusión:} El objetivo se alcanzó plenamente, estableciendo una base sólida para el desarrollo del sistema de asistencia.
 
@@ -44,13 +44,13 @@ Se cumplió el objetivo mediante el desarrollo de la propuesta, que integra los 
 
 \textbf{5. Realizar pruebas del funcionamiento del prototipo}
 
-El objetivo se cumplió mediante la ejecución de pruebas experimentales en distintas condiciones de iluminación, distancia y ángulo de cámara, con el propósito de evaluar el desempeño real del sistema de reconocimiento facial. Los resultados obtenidos, presentados en el Capítulo~5, evidenciaron una precisión promedio del 85.2\,\%, un tiempo de detección de 0.32\,s por rostro y una tasa de registros automáticos correctos del 97.5\,\%. Estos valores cuantitativos reflejan un comportamiento estable del modelo ante variaciones comunes en el entorno de aula, confirmando su capacidad para operar de manera confiable en escenarios reales de uso.
+El objetivo se cumplió mediante la ejecución de pruebas experimentales en distintas condiciones de iluminación, distancia y ángulo de cámara, con el propósito de evaluar el desempeño real del sistema de reconocimiento facial. Los resultados obtenidos, presentados en el Capítulo~5, evidenciaron una precisión promedio del 84\,\%, un tiempo de detección de 0.32\,s por rostro y una tasa de registros automáticos correctos del 97.5\,\%. Estos valores cuantitativos reflejan un comportamiento estable del modelo ante variaciones comunes en el entorno de aula, confirmando su capacidad para operar de manera confiable en escenarios reales de uso.
 
 \textbf{Conclusión:} Las pruebas demostraron que el sistema mantiene un rendimiento consistente y predecible dentro de los márgenes normales de iluminación y posición, validando su fiabilidad técnica para el registro automatizado de asistencias.
 
 \textbf{6. Evaluar los resultados obtenidos}
 
-El objetivo se desarrolló mediante la evaluación integral del desempeño del sistema, considerando indicadores de precisión, tiempo de respuesta, confiabilidad en el registro automático y estabilidad operativa. Los resultados obtenidos en el Capítulo~5 mostraron una precisión promedio del 85.2\,\%, un tiempo medio de detección de 0.32\,s por rostro, una tasa de registros automáticos correctos del 97.5\,\% y una disponibilidad del sistema del 99.0\,\%. Estos valores reflejan un desempeño sólido y equilibrado entre exactitud y eficiencia, permitiendo valorar de forma objetiva el comportamiento del sistema en condiciones reales de aula.
+El objetivo se desarrolló mediante la evaluación integral del desempeño del sistema, considerando indicadores de precisión, tiempo de respuesta, confiabilidad en el registro automático y estabilidad operativa. Los resultados obtenidos en el Capítulo~5 mostraron una precisión promedio del 84\,\%, un tiempo medio de detección de 0.32\,s por rostro, una tasa de registros automáticos correctos del 97.5\,\% y una disponibilidad del sistema del 99.0\,\%. Estos valores reflejan un desempeño sólido y equilibrado entre exactitud y eficiencia, permitiendo valorar de forma objetiva el comportamiento del sistema en condiciones reales de aula.
 
 \textbf{Conclusión:} La evaluación de los resultados permitió confirmar que el sistema mantiene niveles de rendimiento coherentes con los parámetros definidos en la metodología, demostrando estabilidad y fiabilidad en el proceso de reconocimiento y registro de asistencias.
 
@@ -67,10 +67,10 @@ La implementación comprobó la viabilidad del sistema propuesto, consolidándos
 La hipótesis de esta investigación establecía que:
 
 \begin{quote}
-“El desarrollo de un sistema de reconocimiento facial, basado en los modelos \textit{YOLOv8n-Face} y \textit{DeepFace} que permitirá registrar la asistencia de los estudiantes de la FPUNE, reduciendo los errores del control manual y optimizando el tiempo destinado al proceso de registro.”
+“El desarrollo de un prototipo de reconocimiento facial basado en \textit{YOLOv8n-Face} y \textit{ArcFace} reducirá en al menos un 50\,\% el tiempo de registro de asistencia respecto al método manual actualmente utilizado en la FPUNE, además de disminuir significativamente los errores de identificación.”
 \end{quote}
 
-Los resultados obtenidos durante el desarrollo y la validación del sistema respaldan la veracidad de esta hipótesis. En las pruebas experimentales, el sistema alcanzó una precisión promedio del 85.2\,\%, con un tiempo medio de detección de 0.32\,s por rostro y una tasa de registros automáticos correctos del 97.5\,\%. Estos indicadores cuantitativos reflejan un desempeño estable y confiable en condiciones reales de aula, manteniendo una baja incidencia de falsos positivos (2.1\,\%) y una disponibilidad general del 99.0\,\%.
+Los resultados obtenidos durante el desarrollo y la validación del sistema respaldan la veracidad de esta hipótesis. En las pruebas experimentales, el sistema alcanzó una precisión promedio del 84\,\%, con un tiempo medio de detección de 0.32\,s por rostro y una tasa de registros automáticos correctos del 97.5\,\%. Además, la implementación redujo el tiempo de registro desde un promedio de 5min hasta aproximadamente 1.35min una disminución del 73\%, superando ampliamente el umbral mínimo del 50\% planteado en la hipótesis. Estos indicadores cuantitativos reflejan un desempeño estable y confiable en condiciones reales de aula, manteniendo una baja incidencia de falsos positivos (2.1\,\%) y una disponibilidad general del 99.0\,\%.
 
 Desde una perspectiva estadística, los valores obtenidos se mantienen dentro de los parámetros establecidos en la metodología, lo que permite considerar al sistema como funcionalmente eficiente para la automatización del proceso de control de asistencia. Las variaciones observadas en las pruebas bajo condiciones de iluminación o ángulo no afectaron significativamente la precisión promedio, evidenciando la estabilidad del modelo ante factores ambientales.
 
